@@ -192,7 +192,7 @@
 
 ### 4.1 最小系统与不变量
 
-下面使用人工词项集合和 Jaccard 相似度，故意不引入下载模型。目标是验证权限先过滤、版本先选择、相关度后排序，以及无权内容不会进入可见候选。这个检索器不具备真实语义理解，它只提供一个可穷举、可断言的管道骨架。
+下面使用人工词项集合和 Jaccard 相似度，故意不引入下载模型。目标是先由服务端元数据确定问题时点的有效版本，再对该版本执行权限过滤，最后只在获授权内容上做相关度排序；无权内容不会进入可见候选。这个检索器不具备真实语义理解，它只提供一个可穷举、可断言的管道骨架。
 
 ```python
 from dataclasses import dataclass
@@ -210,12 +210,12 @@ chunks = [
     Chunk('b-new', 'B', 2, frozenset({'team-b'}), frozenset({'B','温度','上限'}), 50),
 ]
 def retrieve(model, at, groups, query):
-    visible = [c for c in chunks if c.model == model and c.effective <= at
-               and c.audience.intersection(groups)]
-    if not visible:
+    applicable = [c for c in chunks if c.model == model and c.effective <= at]
+    if not applicable:
         return []
-    newest = max(c.effective for c in visible)
-    visible = [c for c in visible if c.effective == newest]
+    newest = max(c.effective for c in applicable)
+    visible = [c for c in applicable if c.effective == newest
+               and c.audience.intersection(groups)]
     def score(c):
         return len(c.terms & query) / len(c.terms | query)
     return sorted(visible, key=lambda c: (-score(c), c.id))
@@ -224,10 +224,21 @@ assert [c.id for c in r] == ['a-new'] and r[0].max_temp == 40
 assert retrieve('B', 2, {'team-a'}, {'B','温度'}) == []
 assert retrieve('A', 1, {'team-a'}, {'A','温度'})[0].max_temp == 35
 assert all(c.id != 'b-new' for c in r)
+# 新版整体替换旧版并撤销旧权限时，不能回退到仍带旧ACL的过期资料。
+saved_chunks = chunks
+try:
+    chunks = [saved_chunks[0],
+              Chunk('a-restricted', 'A', 2, frozenset({'team-b'}),
+                    frozenset({'A','温度','上限'}), 40)]
+    assert retrieve('A', 2, {'team-a'}, {'A','温度'}) == []
+    assert retrieve('A', 1, {'team-a'}, {'A','温度'})[0].id == 'a-old'
+    assert retrieve('A', 2, {'team-b'}, {'A','温度'})[0].id == 'a-restricted'
+finally:
+    chunks = saved_chunks
 print('retrieval', [(c.id, c.max_temp) for c in r])
 ```
 
-版本选择在这个例子里按同一型号整体替换，真实文档可能按条款局部生效，不能照抄一个最大版本规则解决所有情况。权限集合也只是教学表示，不是完整认证系统。将这些简化明确写出，能让读者知道哪些不变量值得保留，哪些组件需要在实际环境中换成更严格的实现。
+版本选择在这个例子里按同一型号整体替换：新版即使对当前主体不可见，也已经使旧版失效，不能先删掉无权新版再挑“可见的最新旧版”。服务端可以读取版本元数据来判定有效性，但不能把无权正文、其分数或变更细节暴露给调用方。真实文档可能按条款局部生效，也可能明确允许某些历史版本访问；应分别定义生效区间、历史读取权限和撤销政策，不能照抄一个最大版本规则解决所有情况。权限集合也只是教学表示，不是完整认证系统。将这些简化明确写出，能让读者知道哪些不变量值得保留，哪些组件需要在实际环境中换成更严格的实现。
 
 <a id="llm-3-detail-16"></a>
 
@@ -344,10 +355,19 @@ print('claim_validation_passed')
 
 ### 8.1 本地无副作用工具
 
-下面的执行器只允许名为 add 的工具，接受两个有限范围整数，拒绝布尔值、额外字段和未知工具。每次尝试消耗预算，达到上限后停止。这个计数方式是明确政策：无效请求也占资源；另一种系统可以采用不同预算，但必须避免无效重试绕过限制。
+下面的执行器只允许名为 add 的工具，接受两个有限范围整数，拒绝布尔值、额外字段、重复键和未知工具。重复键要在JSON解析阶段拒绝，因为普通解析器可能只保留最后一次取值，之后的字段集合检查已无法发现原始请求存在歧义。每次尝试消耗预算，达到上限后停止。这个计数方式是明确政策：无效请求也占资源；另一种系统可以采用不同预算，但必须避免无效重试绕过限制。
 
 ```python
 import json
+
+def unique_pairs(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError('duplicate-key')
+        result[key] = value
+    return result
+
 class LocalExecutor:
     def __init__(self, max_calls=3):
         self.calls = 0
@@ -358,7 +378,7 @@ class LocalExecutor:
             return {'status': 'budget-exhausted'}
         self.calls += 1
         try:
-            req = json.loads(raw)
+            req = json.loads(raw, object_pairs_hook=unique_pairs)
             if not isinstance(req, dict) or set(req) != {'tool','args'}:
                 raise ValueError('request-shape')
             if req['tool'] != 'add': raise ValueError('unknown-tool')
@@ -378,6 +398,10 @@ assert ex.run('{"tool":"add","args":{"a":true,"b":3}}')['status'] == 'invalid'
 assert ex.run('{"tool":"send","args":{"a":1,"b":2}}')['status'] == 'invalid'
 assert ex.run('{"tool":"add","args":{"a":1,"b":2}}')['status'] == 'budget-exhausted'
 assert len(ex.trace) == 3 and ex.calls == 3
+ambiguous = LocalExecutor(max_calls=2)
+assert ambiguous.run('{"tool":"send","tool":"add","args":{"a":1,"b":2}}')['status'] == 'invalid'
+assert ambiguous.run('{"tool":"add","args":{"a":1001,"a":1,"b":2}}')['status'] == 'invalid'
+assert all(row['reason'] == 'duplicate-key' for row in ambiguous.trace)
 print('executor_trace', ex.trace)
 ```
 

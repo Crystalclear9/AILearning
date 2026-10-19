@@ -35,6 +35,7 @@
   - [6.4 连续后验报告应当包含哪些数字](#gaussian-report)
   - [6.5 非平凡证书为何需要多个环节共同配合](#nonvacuous-bound)
   - [6.6 一份可复现证书的执行顺序](#full-recipe)
+  - [6.7 二元 KL 证书的精确重复抽样核验](#binary-kl-exact-check)
 - [7. 分层练习、完整解析与更紧界的入口](#sec-7)
   - [7.1 对象与支持：先判断公式能不能用](#exercises-objects)
   - [7.2 推导层：复原每一项的来源](#exercises-proof)
@@ -477,6 +478,41 @@ print({"mean_gibbs_risk": float(records[:, 0].mean()),
 接着用解析公式或带误差控制的计算评价后验经验风险与 KL，按预先安排的预算合并概率。最后说明实际部署对象，以及若从 Gibbs 转为平均预测、投票或确定成员，使用了哪条额外转换。报告中把严格上界、数值估计和独立测试表现分开，以免它们相互冒充。
 
 这份顺序不是要求所有研究都采用同一种训练算法，而是帮助检查每一步的数学角色。一个后验可以由非常复杂的方法产生，只要分析对象清楚；一段看似简单的代码也可能因为先验复用或温度选择而不满足定理。复杂度来自选择与概率结构，不由代码行数决定。
+
+<a id="binary-kl-exact-check"></a>
+
+### 6.7 二元 KL 证书的精确重复抽样核验
+
+前文二元 KL 定理可以在两个常数分类器上精确检查。标签独立以零点二概率为一，训练错误计数只有有限种可能；逐计数生成数据依赖 Gibbs 后验，精确求后验的两种风险，再二分反演证书并按二项概率汇总失败事件。这里没有用蒙特卡洛估计后验风险，也没有把 Gibbs 风险替换为获胜成员风险。这个数值核验帮助发现散度方向或端点错误，完整的一般保证仍由前文指数矩与联合凸性证明给出。
+
+```python
+import numpy as np
+from scipy.special import logsumexp,xlogy
+from scipy.stats import binom
+n,delta=40,.05
+prior=np.array([.5,.5]);true=np.array([.2,.8])
+def binary_kl(a,b):
+    return float(xlogy(a,a/b)+xlogy(1-a,(1-a)/(1-b)))
+failure=0.;records=[]
+for k in range(n+1):
+    empirical=np.array([k/n,1-k/n])
+    logs=np.log(prior)-30*empirical
+    q=np.exp(logs-logsumexp(logs))
+    measured=float(q@empirical);risk=float(q@true)
+    cost=(np.sum(q*np.log(q/prior))+np.log((n+1)/delta))/n
+    lo,hi=measured,1-1e-15
+    for _ in range(80):
+        middle=(lo+hi)/2
+        if binary_kl(measured,middle)>cost:hi=middle
+        else:lo=middle
+    upper=(lo+hi)/2
+    if risk>upper+1e-12:failure+=binom.pmf(k,n,.2)
+    if k==8:records=[measured,risk,upper]
+assert failure<=delta+1e-12
+assert np.isclose(-np.expm1(-.2),1-np.exp(-.2))
+print('exact probability of invalid Gibbs certificate',failure)
+print('count-eight empirical / true Gibbs / upper',records)
+```
 
 <a id="sec-7"></a>
 

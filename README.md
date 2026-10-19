@@ -1,6 +1,6 @@
 # AI 学习资料总目录
 
-本资料按 **8 个分类、47 个主题、186 个章节**组织，覆盖数学、编程、计算机基础、机器学习、深度学习、应用方向、强化学习与独立进阶专题。章节包含概念、算例与实现、进阶分析、练习解析；当前同时保留已重写的长篇教材章与尚待重写的短讲义。
+本资料按 **8 个分类、47 个主题、186 个章节**组织，覆盖数学、编程、计算机基础、机器学习、深度学习、应用方向、强化学习与独立进阶专题。章节包含概念、算例与实现、进阶分析、练习解析；现有全部章节均已按长篇教材标准重写或新增，并保留分层阅读路径。
 
 初学者按[基础学习路线](学习路线.md#basic)建立完整知识链；已有基础可按[进阶学习路线](学习路线.md#advanced)重点阅读证明条件、方法比较和研究练习。
 
@@ -34,7 +34,7 @@
 
 长篇标准为**每章纯正文约 12000–20000 汉字**，统计剔除标题、目录、导航、代码和参考链接。长度是最低展开要求，同时要求具体概念讲清、关键推导可重建、例题有全过程、方法比较交代条件、练习附详细解析。
 
-**目前 164 章达到该篇幅，纯正文合计约 206.7 万汉字；其中 160 章重写、4 章新增。其余 22 章仍是原有短讲义，尚未达到这次要求，整套长篇重写未完成。** 现有 39 个主题的全部章节已达到长篇标准。编程 22 章、数学 32 章、计算机基础 21 章、机器学习 26 章、深度学习 25 章及应用方向 26 章均已完成长篇重写；强化学习已完成 MDP 与价值方法共 8 章，策略方法与深度强化学习 8 章仍待重写；独立进阶篇已完成统计学习理论 4 章，其余 14 章待重写。文件数量与总目录不代表所有章节具有同等深度。
+**现有 186 章全部达到每章 12000–20000 汉字纯正文标准，纯正文合计约 234.3 万汉字；其中 182 章重写、4 章新增。** 8 个分类、47 个主题的现有章节均已完成本轮长篇整理。编程 22 章、数学 32 章、计算机基础 21 章、机器学习 26 章、深度学习 25 章、应用方向 26 章、强化学习 16 章、独立进阶专题 18 章。完成状态指本地章节的篇幅、推导、算例、练习和组织要求；各专业领域仍可继续沿参考教材、论文和研究任务深入。
 
 | 主题 | 已达到长篇标准的章节 | 重点展开 |
 | --- | --- | --- |
@@ -76,13 +76,21 @@
 | [多模态学习](AI-Domains/MultimodalLearning/README.md) | [01 模态编码对齐与对比学习](AI-Domains/MultimodalLearning/01-模态编码对齐与对比学习.md)、[02 融合跨模态生成与评估](AI-Domains/MultimodalLearning/02-融合跨模态生成与评估.md)、[03 对比目标跨注意力与训练阶段](AI-Domains/MultimodalLearning/03-对比目标跨注意力与训练阶段.md)、[04 音视频对齐与多模态实验](AI-Domains/MultimodalLearning/04-音视频对齐与多模态实验.md) | 双向对比与多正例、融合条件和梯度、训练阶段、时间测量及音视频实验 |
 | [马尔可夫决策过程](ReinforcementLearning/MDP/README.md) | [01 状态动作奖励与回报](ReinforcementLearning/MDP/01-状态动作奖励与回报.md)、[02 价值函数Bellman方程与规划](ReinforcementLearning/MDP/02-价值函数Bellman方程与规划.md)、[03 有限状态动态规划完整算例](ReinforcementLearning/MDP/03-有限状态动态规划完整算例.md)、[04 部分可观测与奖励建模边界](ReinforcementLearning/MDP/04-部分可观测与奖励建模边界.md) | 控制充分性与回报、Bellman与规划误差、完整动态规划、信念和奖励边界 |
 | [价值方法](ReinforcementLearning/ValueBasedMethods/README.md) | [01 蒙特卡洛TD与动作价值](ReinforcementLearning/ValueBasedMethods/01-蒙特卡洛TD与动作价值.md)、[02 一维导航的表格Q学习](ReinforcementLearning/ValueBasedMethods/02-一维导航的表格Q学习.md)、[03 探索策略多步学习与资格迹](ReinforcementLearning/ValueBasedMethods/03-探索策略多步学习与资格迹.md)、[04 价值学习的评估与失败诊断](ReinforcementLearning/ValueBasedMethods/04-价值学习的评估与失败诊断.md) | MC与TD、SARSA和Q学习、探索多步与资格迹、独立评价及失败诊断 |
+| [策略梯度与Actor-Critic](ReinforcementLearning/PolicyBasedMethods/README.md) | [01 策略梯度与方差控制](ReinforcementLearning/PolicyBasedMethods/01-策略梯度与方差控制.md)、[02 Actor–Critic、优势与 PPO](ReinforcementLearning/PolicyBasedMethods/02-Actor-Critic优势与PPO.md)、[03 从 REINFORCE 到 GAE 的实现细节](ReinforcementLearning/PolicyBasedMethods/03-从REINFORCE到GAE的实现细节.md)、[04 PPO 训练循环与稳定性检查](ReinforcementLearning/PolicyBasedMethods/04-PPO训练循环与稳定性检查.md) | 轨迹似然比与方差、优势及GAE、PPO裁剪边界、完整采样更新和独立评价 |
+| [深度强化学习](ReinforcementLearning/DeepRL/README.md) | [01 DQN经验回放与目标网络](ReinforcementLearning/DeepRL/01-DQN经验回放与目标网络.md)、[02 连续控制奖励设计与实验](ReinforcementLearning/DeepRL/02-连续控制奖励设计与实验.md)、[03 DQN最小训练更新与DoubleDQN](ReinforcementLearning/DeepRL/03-DQN最小训练更新与DoubleDQN.md)、[04 连续控制离线学习与复现协议](ReinforcementLearning/DeepRL/04-连续控制离线学习与复现协议.md) | 神经价值与回放、连续动作梯度、完整DQN、最大熵与离线支持及复现 |
+| [贝叶斯计算与近似推断](AdvancedStudies/BayesianComputation/README.md) | [01 变分推断、ELBO 与近似后验](AdvancedStudies/BayesianComputation/01-变分推断ELBO与近似后验.md)、[02 MCMC 不变分布、HMC 与收敛诊断](AdvancedStudies/BayesianComputation/02-MCMC不变分布HMC与收敛诊断.md) | ELBO与均值场、完整变分优化、MH和坐标目标、HMC及有限采样诊断 |
+| [自监督表示学习](AdvancedStudies/SelfSupervisedLearning/README.md) | [01 对比目标、InfoNCE 与负样本机制](AdvancedStudies/SelfSupervisedLearning/01-对比目标InfoNCE与负样本机制.md)、[02 表示坍塌、非对比目标与掩码建模](AdvancedStudies/SelfSupervisedLearning/02-表示坍塌非对比目标与掩码建模.md) | InfoNCE与负例机制、队列和完整训练、坍塌反例、非对比及掩码目标 |
+| [因果推断与效应估计](AdvancedStudies/CausalInference/README.md) | [01 潜在结果、因果图与效应识别](AdvancedStudies/CausalInference/01-潜在结果因果图与效应识别.md)、[02 倾向加权、双重稳健与交叉拟合](AdvancedStudies/CausalInference/02-倾向加权双重稳健与交叉拟合.md)、[03 序贯决策、重要性采样与离策略评价](AdvancedStudies/CausalInference/03-序贯决策重要性采样与离策略评价.md) | 潜在结果与识别、调整与前门、双重稳健及交叉拟合、序贯评价与支持 |
+| [连续生成与流匹配](AdvancedStudies/ContinuousGenerativeModels/README.md) | [01 得分匹配、随机微分方程与概率流](AdvancedStudies/ContinuousGenerativeModels/01-得分匹配随机微分方程与概率流.md)、[02 流匹配、连续性方程与路径选择](AdvancedStudies/ContinuousGenerativeModels/02-流匹配连续性方程与路径选择.md) | 得分与去噪、反向SDE和概率流、条件边缘速度、完整人工训练及求解误差 |
+| [高效训练与推理系统](AdvancedStudies/EfficientModelSystems/README.md) | [01 训练显存分解、分片与重计算](AdvancedStudies/EfficientModelSystems/01-训练显存分解分片与重计算.md)、[02 量化误差、校准与推理瓶颈](AdvancedStudies/EfficientModelSystems/02-量化误差校准与推理瓶颈.md) | 状态所有权与峰值、归约及重计算、量化校准几何、完整训练和速度证据 |
+| [不确定性与分布鲁棒性](AdvancedStudies/UncertaintyAndRobustness/README.md) | [01 概率校准、保形预测与覆盖保证](AdvancedStudies/UncertaintyAndRobustness/01-概率校准保形预测与覆盖保证.md)、[02 分布变化、重要性加权与最坏群体风险](AdvancedStudies/UncertaintyAndRobustness/02-分布变化重要性加权与最坏群体风险.md)、[03 选择性预测、拒答与风险覆盖控制](AdvancedStudies/UncertaintyAndRobustness/03-选择性预测拒答与风险覆盖控制.md) | 概率校准与保形排名、分布迁移与群体风险、冻结规则的拒答风险认证 |
 | [统计学习理论](AdvancedStudies/LearningTheory/README.md) | [01 总体风险、一致收敛与模型选择](AdvancedStudies/LearningTheory/01-总体风险一致收敛与模型选择.md)、[02 算法稳定性、插值与隐式偏置](AdvancedStudies/LearningTheory/02-算法稳定性插值与隐式偏置.md)、[03 PAC-Bayes、变分界与随机预测器](AdvancedStudies/LearningTheory/03-PACBayes变分界与随机预测器.md)、[04 局部复杂度、快速率与数据依赖泛化](AdvancedStudies/LearningTheory/04-局部复杂度快速率与数据依赖泛化.md) | 一致收敛、算法稳定性、隐式偏置、PAC-Bayes、有限类快速率与局部化 |
 
 新章接在对应主题后续位置。学习理论先掌握第 01 章集中与风险，再学习稳定性、PAC-Bayes和快速率；Python对象协议放在函数、类与异常基础之后；监督学习的回归与分类章可与评估主题交叉阅读。以先修关系安排阅读，不按篇幅挑选互不连贯的章节。
 
 ## 如何阅读
 
-章节表中的“深入讲解入口”可以直接进入对应机制或推导。长篇章会连续展开概念、证明、完整例题、方法比较与分层题解；短讲义仍只提供较紧凑的知识链，篇幅状态见上方[长篇教材覆盖表](#textbook-status)。建议先独立复算，再对照解析，不把看过公式当成已经掌握。
+章节表中的“深入讲解入口”可以直接进入对应机制或推导。各章连续展开概念、证明、完整例题、方法比较与分层题解；整体覆盖见上方[长篇教材覆盖表](#textbook-status)。建议先独立复算，再对照解析，不把看过公式当成已经掌握。
 
 每个主题先看 README 中的先修知识与阅读路径，再进入章节。分类按知识归属组织，文件夹排列不代表必须逐类学完；PyTorch 与神经网络基础可并行，视觉、语言、生成、图、多模态和强化学习按目标选择。
 

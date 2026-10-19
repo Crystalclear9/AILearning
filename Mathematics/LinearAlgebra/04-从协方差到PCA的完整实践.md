@@ -8,6 +8,7 @@
 
 ## 本章目录
 
+
 - [1. 协方差：围绕均值的方向性变化](#sec-1)
   - [1.1 从随机向量定义总体协方差](#population-covariance)
   - [1.2 样本协方差的分母为什么是样本数减一](#sample-covariance-unbiased)
@@ -52,7 +53,7 @@
   - [10.2 推导层：约束与全局最优性](#exercise-optimization)
   - [10.3 方法层：标准化、白化与正则](#exercise-whitening)
   - [10.4 进阶层：稳定性、异常与统计边界](#exercise-statistical-boundaries)
-  - [10.5 综合研究任务：让每一项结论对应证据](#research-project-report)
+  - [10.5 综合研究任务：让每一项结论对应证据](#sec-7-1)
 - [11. 参考资料与继续学习](#sec-11)
 
 <a id="sec-1"></a>
