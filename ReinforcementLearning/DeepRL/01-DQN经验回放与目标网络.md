@@ -612,9 +612,11 @@ print('max/independent/correlated means:', ordinary.mean(),
 冻结目标参数为 $`\bar w`$ 时，两状态的目标都为 $`0.9\times2\bar w`$。精确最小二乘拟合得到
 
 $$
-w_{\rm fit}=c\bar w,\qquad
-c=\gamma\frac{\sum_sd_s\phi_s(P\phi)_s}{\sum_sd_s\phi_s^2}
+\begin{aligned}
+w_{\rm fit} &=c\bar w,\\[6pt]
+c &=\gamma\frac{\sum_sd_s\phi_s(P\phi)_s}{\sum_sd_s\phi_s^2}
 =0.9\frac{2.02}{1.03}>1.
+\end{aligned}
 $$
 
 每一轮回归都可以完全、稳定地求出最优参数，但硬同步后目标参数被放大。反复交替会从非零初始化发散。固定标签损失好好优化，并不保证跨标签更新逼近真实零价值。这是函数近似、采样权重和自举相互作用的具体例子，不涉及复杂神经网络或最大动作噪声。
@@ -711,7 +713,7 @@ $$
 
 再给同一状态增加一个安全动作，确定奖励为 $`0.5`$。它的 Huber 与平方最优预测都为 $`0.5`$。若两个动作有独立参数、充分数据且精确优化，按期望收益应选随机奖励动作，因为 $`1>0.5`$；按上述 Huber 预测贪心却选安全动作，因为 $`\frac{1}{9}<0.5`$。动作排序已改变，原因完全不涉及探索不足、目标网络陈旧或神经网络非凸性。这也不意味着安全动作在其他风险偏好下不合理；只是当前标准期望回报目标与训练估计对象不再一致，Huber 数值本身亦不能被直接命名为某个已定义风险指标。
 
-这里的阈值有奖励单位。把全部奖励与标签放大 $`c>0`$，若希望损失仍对应同一相对形状，就应同时令 $`q\mapsto cq`$、$`\kappa\mapsto c\kappa`$，此时 $`h_{c\kappa}(cu)=c^2h_\kappa(u)`$；固定阈值不变会改变哪些样本进入线性区。PyTorch 的 [HuberLoss 官方定义](https://docs.pytorch.org/docs/2.14/generated/torch.nn.modules.loss.HuberLoss.html) 还说明其与同阈值 SmoothL1Loss 相差一个阈值因子。这个常数不改变固定数据下的最小点，却改变梯度尺度，与学习率、裁剪和混合损失相互作用。因此研究时应分别报告阈值、标签分布与任务收益，并用这样的两动作例子核对“稳健化”究竟带来了优化改善，还是改变了价值估计目标。
+这里的阈值有奖励单位。把全部奖励与标签放大 $`c>0`$，若希望损失仍对应同一相对形状，就应同时令 $`q\mapsto cq`$、$`\kappa\mapsto c\kappa`$，此时 $`h_{c\kappa}(cu)=c^2h_\kappa(u)`$；固定阈值不变会改变哪些样本进入线性区。PyTorch 的[HuberLoss 官方定义](https://docs.pytorch.org/docs/2.14/generated/torch.nn.modules.loss.HuberLoss.html)还说明其与同阈值 SmoothL1Loss 相差一个阈值因子。这个常数不改变固定数据下的最小点，却改变梯度尺度，与学习率、裁剪和混合损失相互作用。因此研究时应分别报告阈值、标签分布与任务收益，并用这样的两动作例子核对“稳健化”究竟带来了优化改善，还是改变了价值估计目标。
 
 <a id="dqn-1-detail-61"></a>
 

@@ -140,8 +140,10 @@ $$
 设固定非负目标质量为 $`q_i`$，总质量 $`a=\sum_iq_i`$。不先假设它归一，损失为
 
 $$
-L(z)=-\sum_i q_i\log p_i=aA(z)-q^Tz,
-\qquad \nabla_zL=ap-q.
+\begin{aligned}
+L(z) &=-\sum_i q_i\log p_i=aA(z)-q^Tz,\\[6pt]
+\nabla_zL &=ap-q.
+\end{aligned}
 $$
 
 当且仅当总质量为一时，式子化成 $`p-q`$。如果标签是标准一热向量或合法软标签，这个条件成立。若把类别重要性乘在标签上，却仍使用原来的减法公式，已经换掉了正确导数。总质量还控制整体曲率与梯度规模，不只是一个无关常数。
@@ -167,8 +169,10 @@ $$
 引入温度 $`T>0`$，令 $`p_T=\operatorname{softmax}(\frac{z}{T})`$，目标质量固定时有
 
 $$
-\nabla_zL=\frac{ap_T-q}{T},\qquad
-\nabla_z^2L=\frac{a}{T^2}\left(\operatorname{diag}(p_T)-p_Tp_T^T\right).
+\begin{aligned}
+\nabla_zL &=\frac{ap_T-q}{T},\\[6pt]
+\nabla_z^2L &=\frac{a}{T^2}\left(\operatorname{diag}(p_T)-p_Tp_T^T\right).
+\end{aligned}
 $$
 
 外部的温度因子和内部概率变化同时存在，因此降低温度不保证每个样本的梯度都更大。若得分已明显分离，概率会更饱和，部分方向变化反而更小。知识蒸馏中有时额外乘温度平方，那是损失缩放约定；若教师目标也依赖正在求导的同一参数，还必须加入目标路径的导数。本章这些公式均要求目标在该次求导中固定。
@@ -184,8 +188,10 @@ $$
 对有效位置掩码 $`m_s`$、固定非负样本权重 $`b_s\geq0`$ 和每行归一目标 $`q_s`$，定义 $`D=\sum_s m_sb_s>0`$，
 
 $$
-L=-\frac{1}{D}\sum_s m_sb_s\sum_iq_{si}\log p_{si},\qquad
-G_{si}=\frac{m_sb_s}{D}(p_{si}-q_{si}).
+\begin{aligned}
+L &=-\frac{1}{D}\sum_s m_sb_s\sum_iq_{si}\log p_{si},\\[6pt]
+G_{si} &=\frac{m_sb_s}{D}(p_{si}-q_{si}).
+\end{aligned}
 $$
 
 若改为除以有效位置个数，样本权重共同放大时损失也会共同放大；若除以权重之和，共同缩放权重不改变结果。这是两种不同的目标，不能只看到都叫加权平均就认为相同。若分母依赖参数，商法则还会产生分母导数；将可学习权重视作常数必须明确属于条件求导或停止梯度约定。
@@ -225,8 +231,10 @@ Softmax 将正质量归一到总和为一；神经网络中的归一化层则常
 逐步微分得到 $`dc=P\,dx`$，因为 $`c^T\mathbf1=0`$，有 $`dv=(\frac{2}{d})c^Tdx`$，进而 $`dr=\frac{(c^Tdx)}{(d\,r)}`$。这里分母中的 $`d`$ 是组大小、$`r`$ 是尺度，写程序时应使用不同变量名避免视觉混淆。最后
 
 $$
-d\hat x=\left(\frac{P}{r}-\frac{cc^T}{d\,r^3}\right)dx,
-\qquad J_N=\frac{1}{r}\left(P-\frac{\hat x\hat x^T}{d}\right).
+\begin{aligned}
+d\hat x &=\left(\frac{P}{r}-\frac{cc^T}{d\,r^3}\right)dx,\\[6pt]
+J_N &=\frac{1}{r}\left(P-\frac{\hat x\hat x^T}{d}\right).
+\end{aligned}
 $$
 
 该公式包含两次反馈。减去平均数消除共同平移，除以标准差还会扣除沿当前中心化向量的尺度变化。如果只使用逐元素的 $`\frac{1}{r}`$，等于把均值和方差都当成外部常数，在训练态归一化中通常是错误的。

@@ -125,8 +125,10 @@ $$
 令 $`P_\pi(s,s')=\sum_a\pi(a\mid s)P(s'\mid s,a)`$，$`r_\pi(s)=\sum_a\pi(a\mid s)\overline r(s,a)`$。则价值方程为
 
 $$
-v^\pi=r_\pi+\gamma P_\pi v^\pi,\qquad
-(I-\gamma P_\pi)v^\pi=r_\pi.
+\begin{aligned}
+v^\pi &=r_\pi+\gamma P_\pi v^\pi,\\[6pt]
+(I-\gamma P_\pi)v^\pi &=r_\pi.
+\end{aligned}
 $$
 
 因为 $`P_\pi`$ 为行随机矩阵，最大范数算子范数为一，$`\gamma P_\pi`$ 的谱半径小于一。因此逆矩阵存在，并可写成非负 Neumann 级数 $`\sum_{k\ge0}\gamma^kP_\pi^k`$。每一项都对应若干步之后的期望奖励，这让线性代数解与轨迹回报具有同一解释，而不是两套互不相关的定义。

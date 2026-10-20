@@ -684,8 +684,10 @@ $$
 具体设增量为 $`\Delta`$、预算为 $`\varepsilon>0`$，求解 $`\max_\Delta g^T\Delta`$，约束 $`\frac{\Delta^TF\Delta}{2}\le\varepsilon`$。当 $`F`$ 正定且 $`g\ne0`$ 时，最优点必在边界：内部点可以沿有正收益的方向继续放大。拉格朗日驻点给 $`g-\nu F\Delta=0`$，所以 $`\Delta=\frac{F^{-1}g}{\nu}`$；代入边界得到 $`\nu=\sqrt{\frac{g^TF^{-1}g}{(2\varepsilon)}}`$，从而
 
 $$
-\Delta_* = \sqrt{\frac{2\varepsilon}{g^TF^{-1}g}}F^{-1}g,
-\qquad g^T\Delta_* = \sqrt{2\varepsilon\,g^TF^{-1}g}.
+\begin{aligned}
+\Delta_* &= \sqrt{\frac{2\varepsilon}{g^TF^{-1}g}}F^{-1}g,\\[6pt]
+g^T\Delta_* &= \sqrt{2\varepsilon\,g^TF^{-1}g}.
+\end{aligned}
 $$
 
 也可对 $`F^{\frac{1}{2}}\Delta`$ 与 $`F^{-\frac{1}{2}}g`$ 使用 Cauchy–Schwarz 得到同一上界，等号在两者平行时达到。这既给出候选解，也证明它是这个局部子问题的全局最优。若 $`g=0`$，全部可行增量的线性预测收益都为零，不应把零代入上述缩放公式再除零。
@@ -769,16 +771,20 @@ softmax 参数存在冗余时矩阵可能奇异，实际求解常加阻尼或采
 **一组数值即可检查梯度是否相反。** 设旧二动作分布为 $`q=(0.5,0.5)`$，当前概率为 $`p=(0.8,0.2)`$，用单个 logit $`\theta`$ 表示第一动作概率 $`p_1=\sigma(\theta)`$。真正的新策略熵与旧动作采样得到的交叉熵分别为
 
 $$
-H(p)=-\sum_a p_a\log p_a\approx0.500402,\qquad
-H(q,p)=-\sum_a q_a\log p_a\approx0.916291.
+\begin{aligned}
+H(p) &=-\sum_a p_a\log p_a\approx0.500402,\\[6pt]
+H(q,p) &=-\sum_a q_a\log p_a\approx0.916291.
+\end{aligned}
 $$
 
 二者对该 logit 的导数是
 
 $$
-\frac{dH(p)}{d\theta}=p_1(1-p_1)\log\frac{1-p_1}{p_1}
-\approx-0.221807,\qquad
-\frac{dH(q,p)}{d\theta}=p_1-q_1=0.3.
+\begin{aligned}
+\frac{dH(p)}{d\theta} &=p_1(1-p_1)\log\frac{1-p_1}{p_1}
+\approx-0.221807,\\[6pt]
+\frac{dH(q,p)}{d\theta} &=p_1-q_1=0.3.
+\end{aligned}
 $$
 
 若都作为需要最大化的“熵奖励”，真熵会把当前八成的动作拉向更均匀，误用交叉熵却把它继续推得更极端。这不是两个估计器只有不同常数或方差，而是期望目标已不同。旧策略采到的稀有低新概率动作，会给负对数新概率很大的数值，单纯增大该数并不等于增加新策略随机性。

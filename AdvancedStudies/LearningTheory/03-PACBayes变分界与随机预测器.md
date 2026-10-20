@@ -59,8 +59,10 @@
 对单个预测器 $`h`$，定义 $`R(h)=\mathbb E_{Z\sim D}\ell(h,Z)`$ 与 $`\widehat R_S(h)=n^{-1}\sum_i\ell(h,Z_i)`$。对分布 $`Q`$，定义
 
 $$
-R(Q)=\mathbb E_{h\sim Q}R(h),\qquad
-\widehat R_S(Q)=\mathbb E_{h\sim Q}\widehat R_S(h).
+\begin{aligned}
+R(Q) &=\mathbb E_{h\sim Q}R(h),\\[6pt]
+\widehat R_S(Q) &=\mathbb E_{h\sim Q}\widehat R_S(h).
+\end{aligned}
 $$
 
 这称为随机预测器或 Gibbs 预测的平均风险。训练抽样随机性、算法产生 $`Q`$ 的随机性、从 $`Q`$ 抽取模型的随机性，以及未来数据随机性，是四个不同层次。定理的高概率通常针对训练集，而风险定义已经平均了模型抽样与未来观测，不能把所有概率都读成“模型有百分之九十五概率正确”。
@@ -667,7 +669,7 @@ $$
 
 ## 8. 参考资料与阅读方式
 
-本章基本界、Gibbs 恒等式与零一损失的简单二元 KL 版本在正文中独立推导。更系统的固定时刻与时间一致框架可阅读 [A Unified Recipe for Deriving (Time-Uniform) PAC-Bayes Bounds](https://jmlr.org/papers/v24/23-0401.html)。该文提供更一般的组织方式；阅读时应核对其事件与假设，不把更强结论直接移用于本章简化例子。
+本章基本界、Gibbs 恒等式与零一损失的简单二元 KL 版本在正文中独立推导。更系统的固定时刻与时间一致框架可阅读[A Unified Recipe for Deriving (Time-Uniform) PAC-Bayes Bounds](https://jmlr.org/papers/v24/23-0401.html)。该文提供更一般的组织方式；阅读时应核对其事件与假设，不把更强结论直接移用于本章简化例子。
 
 回看[第一章](01-总体风险一致收敛与模型选择.md)可复习集中与统一量词，[第二章](02-算法稳定性插值与隐式偏置.md)可比较算法敏感度路线，[第四章](04-局部复杂度快速率与数据依赖泛化.md)则解释超额损失的局部波动。在这些路线之间切换时，应始终保留同一个学习任务与损失定义，才能判断不同理论究竟控制了哪些不同方面。
 

@@ -195,8 +195,10 @@ $$
 在约束 $`\sum_y p(y)=1`$ 下，对每个 $`p(y)`$ 求驻点，得到 $`r(y)-\beta(\log(\frac{p(y)}{q(y)})+1)+\lambda=0`$。整理并归一化可得
 
 $$
-p^*(y)=\frac{q(y)\exp(\frac{r(y)}{\beta})}{Z},\qquad
-Z=\sum_y q(y)\exp(\frac{r(y)}{\beta}).
+\begin{aligned}
+p^*(y) &=\frac{q(y)\exp(\frac{r(y)}{\beta})}{Z},\\[6pt]
+Z &=\sum_y q(y)\exp(\frac{r(y)}{\beta}).
+\end{aligned}
 $$
 
 目标对策略分布是凹的，严格正参考支持下熵项给出合适的严格凹性，因此这个归一化解是最优解。也可写 $`J(p)=\beta\log Z-\beta KL(p\Vert p^*)`$，从 KL 非负性直接得到结论。有限空间推导避免了无穷序列中可积性与停止机制的技术问题；推广时必须确保分区函数有限。
@@ -339,7 +341,10 @@ print('dpo_losses', before, l1.item(), 'winner_p', logits.softmax(0)[0].item())
 设原线性层权重 $`W_0\in\mathbb R^{d_o\times d_i}`$，低秩更新写成
 
 $$
-W=W_0+sBA,\qquad A\in\mathbb R^{r\times d_i},\quad B\in\mathbb R^{d_o\times r}.
+\begin{aligned}
+W &=W_0+sBA,\\[6pt]
+A &\in\mathbb R^{r\times d_i},\quad B\in\mathbb R^{d_o\times r}.
+\end{aligned}
 $$
 
 原始权重冻结，训练参数为 $`r(d_i+d_o)`$，缩放 $`s`$ 常按一个预先固定的规则设定。只有当秩远小于输入输出维度时，参数量才明显下降。低秩更新的秩不超过 $`r`$，但经过多层非线性组合后，整个网络函数的变化不等于一个简单的全局低秩映射。
