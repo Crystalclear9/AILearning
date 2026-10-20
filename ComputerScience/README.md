@@ -18,7 +18,7 @@
 - [第 1 章 程序执行内存与存储](ComputerSystems/01-程序执行内存与存储.md)
 - [第 2 章 进程线程并发与性能分析](ComputerSystems/02-进程线程并发与性能分析.md)
 - [第 3 章 I/O缓存与数据加载流水线](ComputerSystems/03-I_O缓存与数据加载流水线.md)
-- [第 4 章 GPU并行显存与分布式入门](ComputerSystems/04-GPU并行显存与分布式入门.md)
+- [第 4 章 GPU 并行、显存与分布式系统](ComputerSystems/04-GPU并行显存与分布式入门.md)
 - [第 5 章 性能建模、基准实验与瓶颈推断](ComputerSystems/05-性能建模基准实验与瓶颈推断.md)
 
 ### [Git 版本管理](Git/README.md)
