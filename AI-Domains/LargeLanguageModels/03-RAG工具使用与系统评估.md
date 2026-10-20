@@ -355,7 +355,7 @@ print('claim_validation_passed')
 
 ### 8.1 本地无副作用工具
 
-下面的执行器只允许名为 add 的工具，接受两个有限范围整数，拒绝布尔值、额外字段、重复键和未知工具。重复键要在JSON解析阶段拒绝，因为普通解析器可能只保留最后一次取值，之后的字段集合检查已无法发现原始请求存在歧义。每次尝试消耗预算，达到上限后停止。这个计数方式是明确政策：无效请求也占资源；另一种系统可以采用不同预算，但必须避免无效重试绕过限制。
+下面的执行器只允许名为 add 的工具，接受两个有限范围整数，拒绝布尔值、额外字段、重复键和未知工具。重复键要在JSON解析阶段拒绝，因为普通解析器可能只保留最后一次取值，之后的字段集合检查已无法发现原始请求存在歧义。预算本身也先验证为非负整数，拒绝布尔值、NaN 和无穷大，避免比较失效使终止约束形同虚设；零预算表示不允许任何调用。每次尝试消耗预算，达到上限后停止。这个计数方式是明确政策：无效请求也占资源；另一种系统可以采用不同预算，但必须避免无效重试绕过限制。
 
 ```python
 import json
@@ -370,6 +370,8 @@ def unique_pairs(pairs):
 
 class LocalExecutor:
     def __init__(self, max_calls=3):
+        if type(max_calls) is not int or max_calls < 0:
+            raise ValueError('budget must be a nonnegative integer')
         self.calls = 0
         self.max_calls = max_calls
         self.trace = []
@@ -402,6 +404,16 @@ ambiguous = LocalExecutor(max_calls=2)
 assert ambiguous.run('{"tool":"send","tool":"add","args":{"a":1,"b":2}}')['status'] == 'invalid'
 assert ambiguous.run('{"tool":"add","args":{"a":1001,"a":1,"b":2}}')['status'] == 'invalid'
 assert all(row['reason'] == 'duplicate-key' for row in ambiguous.trace)
+for invalid_budget in (True, -1, 1.5, float('nan'), float('inf')):
+    try:
+        LocalExecutor(invalid_budget)
+    except ValueError:
+        pass
+    else:
+        raise AssertionError('invalid budget accepted')
+closed = LocalExecutor(0)
+assert closed.run('{}')['status'] == 'budget-exhausted'
+assert closed.calls == 0 and closed.trace == []
 print('executor_trace', ex.trace)
 ```
 

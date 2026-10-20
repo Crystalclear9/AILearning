@@ -175,6 +175,8 @@ def fit_full(X, y, steps=500, lr=0.1, lam=0.0, initial=None):
     if initial is None:
         w, b = np.zeros(X.shape[1]), 0.0
     else:
+        if np.iscomplexobj(initial[0]) or np.iscomplexobj(initial[1]):
+            raise ValueError("initial parameters must be real")
         w, b = np.array(initial[0], dtype=np.float64, copy=True), float(initial[1])
     history = [objective_grad(X, y, w, b, lam)[0]]
     for _ in range(steps):
@@ -196,6 +198,12 @@ assert np.allclose(w, truth, atol=1e-9) and abs(b - 0.5) < 1e-9
 assert len(history) == 501
 assert np.isclose(history[-1], objective_grad(X, y, w, b)[0])
 print("parameters:", w, b, "final objective:", history[-1])
+try:
+    fit_full(X, y, initial=(np.array([1 + 2j, 0]), 0.0))
+except ValueError:
+    pass
+else:
+    raise AssertionError("complex initial parameters must be rejected")
 ```
 
 这里没有显式求逆。最小二乘参考通过分解得到解，避免把正规矩阵的条件数平方当作必需代价。参考结果的角色也有限：无正则目标要与无正则参考比较，含截距训练要与含常数列设计比较，容差则与数值尺度和迭代误差对应。
