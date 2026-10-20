@@ -251,7 +251,7 @@ $$
 
 ### 4.3 用 NumPy 实现训练和新样本变换
 
-下面的函数按行存储样本，使用直接奇异值分解，方向按行存入模型字典。代码刻意把拟合与变换分开，避免变换函数偷偷利用新批次重新估计均值。解释方差仅用于描述训练数据，模型另存特征数，以便在输入接口层面发现明显形状错误。
+下面的函数按行存储样本，使用直接奇异值分解，方向按行存入模型字典。代码刻意把拟合与变换分开，避免变换函数偷偷利用新批次重新估计均值。解释方差仅用于描述训练数据，模型另存特征数，以便在输入接口层面发现明显形状错误。有限输入不保证中心化、平方或重构的中间结果仍可表示，因此实现会显式拒绝这些算术失败；特别是奇异值有限但方差超出浮点范围时，不能返回无穷方差和 NaN 解释比例。若所有方差都下溢为零而奇异值仍有正值，也会报错，不能把这种情况称为恒定数据；在总方差仍可表示时，极小单独分量仍可能舍入到零，这是当前精度的表示限制。逆变换也检查得分矩阵的列数与有限性。若业务数据跨度过大，应先选择单位、缩放并记录变换，再解释协方差的量纲。
 
 ```python
 import numpy as np
@@ -264,11 +264,19 @@ def fit_pca(x, k):
     n, d = x.shape
     if not isinstance(k, (int, np.integer)) or not 1 <= k <= min(n - 1, d):
         raise ValueError("invalid component count")
-    mean = x.mean(axis=0)
-    xc = x - mean
+    with np.errstate(over="raise", invalid="raise"):
+        mean = x.mean(axis=0)
+        xc = x - mean
+    if not np.isfinite(xc).all():
+        raise FloatingPointError("non-finite centered data")
     _, singular, vt = np.linalg.svd(xc, full_matrices=False)
-    variance = singular**2 / (n - 1)
-    total = variance.sum()
+    with np.errstate(over="raise", invalid="raise"):
+        variance = (singular / np.sqrt(n - 1))**2
+        total = variance.sum()
+    if not np.isfinite(variance).all() or not np.isfinite(total):
+        raise FloatingPointError("variance exceeds working precision")
+    if total == 0 and np.any(singular > 0):
+        raise FloatingPointError("nonconstant variance underflowed to zero")
     return {
         "mean": mean,
         "components": vt[:k].copy(),
@@ -284,11 +292,24 @@ def transform_pca(x, model):
         raise ValueError("feature shape mismatch")
     if not np.isfinite(x).all():
         raise ValueError("non-finite input")
-    return (x - model["mean"]) @ model["components"].T
+    with np.errstate(over="raise", invalid="raise"):
+        result = (x - model["mean"]) @ model["components"].T
+    if not np.isfinite(result).all():
+        raise FloatingPointError("non-finite PCA scores")
+    return result
 
 
 def inverse_pca(z, model):
-    return np.asarray(z) @ model["components"] + model["mean"]
+    z = np.asarray(z, dtype=float)
+    if z.ndim != 2 or z.shape[1] != len(model["components"]):
+        raise ValueError("component shape mismatch")
+    if not np.isfinite(z).all():
+        raise ValueError("non-finite scores")
+    with np.errstate(over="raise", invalid="raise"):
+        result = z @ model["components"] + model["mean"]
+    if not np.isfinite(result).all():
+        raise FloatingPointError("non-finite PCA reconstruction")
+    return result
 
 
 x = np.array([[12, 21], [11, 22], [9, 18], [8, 19]], dtype=float)
@@ -302,6 +323,13 @@ new = np.array([[13.0, 20.0], [110.0, 120.0]])
 new_hat = inverse_pca(transform_pca(new, model), model)
 assert np.allclose(np.sum((new - new_hat)**2, axis=1), [4.5, 0.0])
 print("training SSE:", np.sum((x - xhat)**2))
+for magnitude in (1e200, 1e-200):
+    try:
+        fit_pca(np.array([[magnitude, 0.], [-magnitude, 0.]]), 1)
+    except FloatingPointError:
+        pass
+    else:
+        raise AssertionError("unrepresentable variance must fail explicitly")
 ```
 
 这个教学实现没有承担所有生产要求。它不负责列名校验、缺失值插补、训练数据版本、序列化协议与数值秩阈值；使用它时应在外层补充这些契约。保留维数上界只基于中心化的理论秩上界，不保证每个所选奇异值实际非零，因此后面如果进行白化，还要追加正特征值检查。
