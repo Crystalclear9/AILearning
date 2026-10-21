@@ -13,9 +13,6 @@
 
 目录按“分类 → 主题 → 章节”逐层展开。先用[学习路线](学习路线.md)确定当前阶段，再进入主题目录选择章节；章内目录用于定位推导、实验和练习。已有基础时，可通过下方的[完整章节索引](#textbook-status)直接找具体章节。
 
-
-几何与计算过程可结合章内图解学习：[切线与局部近似](Mathematics/Calculus/01-导数偏导数与链式法则.md#visual-tangent)、[PCA 点云与重构](Mathematics/LinearAlgebra/04-从协方差到PCA的完整实践.md#visual-pca)、[梯度下降等高线](Mathematics/Optimization/01-目标函数梯度下降与约束.md#visual-descent)、[SVM 间隔](MachineLearning/SupervisedLearning/03-支持向量机核方法与近邻.md#visual-svm)、[ROC 工作点](MachineLearning/ModelEvaluation/01-分类回归与概率指标.md#visual-roc)、[前馈网络](DeepLearning/NeuralNetworkBasics/01-前向传播激活函数与损失.md#visual-network)、[卷积动画](DeepLearning/CNN/01-卷积运算感受野与尺寸.md#visual-convolution)、[RNN 时间展开](DeepLearning/RNN/01-序列状态与时间反向传播.md#visual-rnn)与[MDP 交互](ReinforcementLearning/MDP/01-状态动作奖励与回报.md#visual-mdp)。每处配有读图步骤、公式联系和算例；图片下方列出原作者、来源与授权。配图和动画通过外部链接加载，阅读时需要联网。
-
 ## 分类目录
 
 | 分类 | 主题数 | 章节数 |
