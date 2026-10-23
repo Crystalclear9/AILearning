@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
-<title>基线中心化回报但不改变动作间相对优势</title>
-<rect width="1120" height="540" fill="white" />
-<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1120 710" role="img">
+<rect width="1120.0" height="710" fill="#f3f8fc" /><title>基线中心化回报但不改变动作间相对优势</title>
+<rect width="1120" height="710" fill="#f3f8fc" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:22px}.title{font-size:30px;font-weight:700}.small{font-size:19px}</style>
 <text x="40" y="48" class="title" text-anchor="start">基线中心化回报但不改变动作间相对优势</text>
-<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<text x="40" y="695" class="small" text-anchor="start" font-size="16">原创教学示意 · 数值与条件以图解正文为准</text>
 <line x1="90" y1="280.0" x2="1060" y2="280.0" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
-<rect x="140.0" y="140.0" width="105" height="140.0" fill="#2563eb" opacity=".85" />
+<rect x="140.0" y="140.0" width="105" height="140.0" fill="#079b91" opacity=".85" />
 <text x="192.0" y="128.0" class="" text-anchor="middle">1</text>
 <text x="192.0" y="460" class="small" text-anchor="middle">动作 A：回报 5 减基线 4</text>
-<rect x="575.0" y="280.0" width="105" height="140.0" fill="#dc6325" opacity=".85" />
+<rect x="575.0" y="280.0" width="105" height="140.0" fill="#ef8b3a" opacity=".85" />
 <text x="627.0" y="446.0" class="" text-anchor="middle">-1</text>
 <text x="627.0" y="460" class="small" text-anchor="middle">动作 B：回报 3 减基线 4</text>
-</svg>
+<rect x="42" y="560" width="1036.0" height="105" rx="12" fill="#e5f2f4" /><text x="64" y="593" font-size="20" fill="#244c5e">在同一状态下，用只依赖状态的基线四中心化回报，动作 A 得到正一，动作 B 得到负一；策略梯度</text><text x="64" y="621" font-size="20" fill="#244c5e">因而提高前者相对倾向、降低后者相对倾向。</text></svg>

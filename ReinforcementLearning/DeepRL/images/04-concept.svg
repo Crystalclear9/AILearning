@@ -1,17 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
-<title>离线数据覆盖限制可验证的动作选择</title>
-<rect width="1120" height="540" fill="white" />
-<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1120 710" role="img">
+<rect width="1120.0" height="710" fill="#f3f8fc" /><title>离线数据覆盖限制可验证的动作选择</title>
+<rect width="1120" height="710" fill="#f3f8fc" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:22px}.title{font-size:30px;font-weight:700}.small{font-size:19px}</style>
 <text x="40" y="48" class="title" text-anchor="start">离线数据覆盖限制可验证的动作选择</text>
-<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<text x="40" y="695" class="small" text-anchor="start" font-size="16">原创教学示意 · 数值与条件以图解正文为准</text>
 <line x1="90" y1="420.0" x2="1060" y2="420.0" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
-<rect x="140.0" y="140.0" width="105" height="280.0" fill="#2563eb" opacity=".85" />
+<rect x="140.0" y="140.0" width="105" height="280.0" fill="#079b91" opacity=".85" />
 <text x="192.0" y="128.0" class="" text-anchor="middle">80</text>
 <text x="192.0" y="460" class="small" text-anchor="middle">状态 s：动作 A 样本数</text>
-<rect x="430.0" y="350.0" width="105" height="70.0" fill="#dc6325" opacity=".85" />
+<rect x="430.0" y="350.0" width="105" height="70.0" fill="#ef8b3a" opacity=".85" />
 <text x="482.0" y="338.0" class="" text-anchor="middle">20</text>
 <text x="482.0" y="460" class="small" text-anchor="middle">状态 s：动作 B 样本数</text>
-<rect x="720.0" y="420.0" width="105" height="2" fill="#10a37f" opacity=".85" />
+<rect x="720.0" y="420.0" width="105" height="2" fill="#315fba" opacity=".85" />
 <text x="772.0" y="408.0" class="" text-anchor="middle">0</text>
 <text x="772.0" y="460" class="small" text-anchor="middle">状态 s：动作 C 样本数</text>
-</svg>
+<rect x="42" y="560" width="1036.0" height="105" rx="12" fill="#e5f2f4" /><text x="64" y="593" font-size="20" fill="#244c5e">固定状态邻域内，离线数据包含八十次 A、二十次 B，没有 C。</text></svg>

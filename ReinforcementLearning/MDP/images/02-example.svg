@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img">
-<title>同一个 Bellman 残差在高折扣下给出更松的误差界</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
-<rect width="1200" height="740" fill="#fff"/><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img">
+<rect width="1200.0" height="760" fill="#f3f8fc" /><title>同一个 Bellman 残差在高折扣下给出更松的误差界</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
+<rect width="1200" height="740" fill="#fff" /><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
 <text x="40" y="54" font-size="28" fill="#17324d" text-anchor="start">同一个 Bellman 残差在高折扣下给出更松的误差界</text>
-<text x="80" y="115" font-size="19" fill="#2563eb" text-anchor="start">上界 0.01 ÷ (1−gamma)</text>
-<line x1="125" y1="570.0" x2="1110" y2="570.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<text x="80" y="115" font-size="19" fill="#079b91" text-anchor="start">上界 0.01 ÷ (1−gamma)</text>
+<line x1="125" y1="570.0" x2="1110" y2="570.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="576.0" font-size="18" fill="#17324d" text-anchor="end">0</text>
-<line x1="125" y1="476.25" x2="1110" y2="476.25" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="476.25" x2="1110" y2="476.25" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="482.25" font-size="18" fill="#17324d" text-anchor="end">0.25</text>
-<line x1="125" y1="382.5" x2="1110" y2="382.5" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="382.5" x2="1110" y2="382.5" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="388.5" font-size="18" fill="#17324d" text-anchor="end">0.5</text>
-<line x1="125" y1="288.75" x2="1110" y2="288.75" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="288.75" x2="1110" y2="288.75" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="294.75" font-size="18" fill="#17324d" text-anchor="end">0.75</text>
-<line x1="125" y1="195.0" x2="1110" y2="195.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="195.0" x2="1110" y2="195.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="201.0" font-size="18" fill="#17324d" text-anchor="end">1</text>
-<line x1="125" y1="195" x2="125" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
-<line x1="125" y1="570" x2="1110" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="195" x2="125" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray="" />
+<line x1="125" y1="570" x2="1110" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray="" />
 <text x="125" y="164" font-size="19" fill="#17324d" text-anchor="start">残差 0.01 对应的价值误差上界</text>
 <text x="125.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0</text>
 <text x="622.4747474747476" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.5</text>
@@ -23,12 +23,12 @@
 <text x="1070.2020202020203" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.95</text>
 <text x="1110.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.99</text>
 <text x="1110" y="644" font-size="21" fill="#17324d" text-anchor="end">折扣 gamma</text>
-<polyline points="125.00,566.25 622.47,562.50 920.96,551.25 1020.45,532.50 1070.20,495.00 1110.00,195.00" fill="none" stroke="#2563eb" stroke-width="3.5"/>
-<circle cx="125.0" cy="566.25" r="4.5" fill="#2563eb"/>
-<circle cx="622.4747474747476" cy="562.5" r="4.5" fill="#2563eb"/>
-<circle cx="920.9595959595961" cy="551.25" r="4.5" fill="#2563eb"/>
-<circle cx="1020.4545454545455" cy="532.5" r="4.5" fill="#2563eb"/>
-<circle cx="1070.2020202020203" cy="495.0" r="4.5" fill="#2563eb"/>
-<circle cx="1110.0" cy="195.0" r="4.5" fill="#2563eb"/>
+<polyline points="125.00,566.25 622.47,562.50 920.96,551.25 1020.45,532.50 1070.20,495.00 1110.00,195.00" fill="none" stroke="#079b91" stroke-width="3.5" />
+<circle cx="125.0" cy="566.25" r="4.5" fill="#079b91" />
+<circle cx="622.4747474747476" cy="562.5" r="4.5" fill="#079b91" />
+<circle cx="920.9595959595961" cy="551.25" r="4.5" fill="#079b91" />
+<circle cx="1020.4545454545455" cy="532.5" r="4.5" fill="#079b91" />
+<circle cx="1070.2020202020203" cy="495.0" r="4.5" fill="#079b91" />
+<circle cx="1110.0" cy="195.0" r="4.5" fill="#079b91" />
 <text x="40" y="710" font-size="18" fill="#64748b" text-anchor="start">原创机制算例 · 数据为本节设定下的手算或构造值；适用边界见读图说明</text>
 </g></svg>

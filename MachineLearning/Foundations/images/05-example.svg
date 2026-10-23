@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img">
-<title>拒绝选项把不确定区域交给第三种行动</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
-<rect width="1200" height="740" fill="#fff"/><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img">
+<rect width="1200.0" height="760" fill="#f3f8fc" /><title>拒绝选项把不确定区域交给第三种行动</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
+<rect width="1200" height="740" fill="#fff" /><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
 <text x="40" y="54" font-size="28" fill="#17324d" text-anchor="start">拒绝选项把不确定区域交给第三种行动</text>
-<text x="80" y="115" font-size="19" fill="#2563eb" text-anchor="start">预测负类</text>
-<text x="450" y="115" font-size="19" fill="#dc6b24" text-anchor="start">预测正类</text>
+<text x="80" y="115" font-size="19" fill="#079b91" text-anchor="start">预测负类</text>
+<text x="450" y="115" font-size="19" fill="#ef8b3a" text-anchor="start">预测正类</text>
 <text x="820" y="115" font-size="19" fill="#059669" text-anchor="start">拒绝：成本 0.15</text>
-<line x1="125" y1="570.0" x2="1110" y2="570.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="570.0" x2="1110" y2="570.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="576.0" font-size="18" fill="#17324d" text-anchor="end">0</text>
-<line x1="125" y1="476.25" x2="1110" y2="476.25" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="476.25" x2="1110" y2="476.25" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="482.25" font-size="18" fill="#17324d" text-anchor="end">0.25</text>
-<line x1="125" y1="382.5" x2="1110" y2="382.5" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="382.5" x2="1110" y2="382.5" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="388.5" font-size="18" fill="#17324d" text-anchor="end">0.5</text>
-<line x1="125" y1="288.75" x2="1110" y2="288.75" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="288.75" x2="1110" y2="288.75" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="294.75" font-size="18" fill="#17324d" text-anchor="end">0.75</text>
-<line x1="125" y1="195.0" x2="1110" y2="195.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="195.0" x2="1110" y2="195.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="201.0" font-size="18" fill="#17324d" text-anchor="end">1</text>
-<line x1="125" y1="195" x2="125" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
-<line x1="125" y1="570" x2="1110" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="195" x2="125" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray="" />
+<line x1="125" y1="570" x2="1110" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray="" />
 <text x="125" y="164" font-size="19" fill="#17324d" text-anchor="start">条件期望成本</text>
 <text x="125.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0</text>
 <text x="322.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.2</text>
@@ -25,71 +25,71 @@
 <text x="913.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.8</text>
 <text x="1110.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">1</text>
 <text x="1110" y="644" font-size="21" fill="#17324d" text-anchor="end">真实正类概率</text>
-<polyline points="125.00,570.00 174.25,551.25 223.50,532.50 272.75,513.75 322.00,495.00 371.25,476.25 420.50,457.50 469.75,438.75 519.00,420.00 568.25,401.25 617.50,382.50 666.75,363.75 716.00,345.00 765.25,326.25 814.50,307.50 863.75,288.75 913.00,270.00 962.25,251.25 1011.50,232.50 1060.75,213.75 1110.00,195.00" fill="none" stroke="#2563eb" stroke-width="3.5"/>
-<circle cx="125.0" cy="570.0" r="4.5" fill="#2563eb"/>
-<circle cx="174.25" cy="551.25" r="4.5" fill="#2563eb"/>
-<circle cx="223.5" cy="532.5" r="4.5" fill="#2563eb"/>
-<circle cx="272.75" cy="513.75" r="4.5" fill="#2563eb"/>
-<circle cx="322.0" cy="495.0" r="4.5" fill="#2563eb"/>
-<circle cx="371.25" cy="476.25" r="4.5" fill="#2563eb"/>
-<circle cx="420.5" cy="457.5" r="4.5" fill="#2563eb"/>
-<circle cx="469.75" cy="438.75" r="4.5" fill="#2563eb"/>
-<circle cx="519.0" cy="420.0" r="4.5" fill="#2563eb"/>
-<circle cx="568.25" cy="401.25" r="4.5" fill="#2563eb"/>
-<circle cx="617.5" cy="382.5" r="4.5" fill="#2563eb"/>
-<circle cx="666.75" cy="363.75" r="4.5" fill="#2563eb"/>
-<circle cx="716.0" cy="345.0" r="4.5" fill="#2563eb"/>
-<circle cx="765.25" cy="326.25" r="4.5" fill="#2563eb"/>
-<circle cx="814.5" cy="307.5" r="4.5" fill="#2563eb"/>
-<circle cx="863.75" cy="288.75" r="4.5" fill="#2563eb"/>
-<circle cx="913.0" cy="270.0" r="4.5" fill="#2563eb"/>
-<circle cx="962.25" cy="251.25" r="4.5" fill="#2563eb"/>
-<circle cx="1011.5" cy="232.5" r="4.5" fill="#2563eb"/>
-<circle cx="1060.75" cy="213.75" r="4.5" fill="#2563eb"/>
-<circle cx="1110.0" cy="195.0" r="4.5" fill="#2563eb"/>
-<polyline points="125.00,195.00 174.25,213.75 223.50,232.50 272.75,251.25 322.00,270.00 371.25,288.75 420.50,307.50 469.75,326.25 519.00,345.00 568.25,363.75 617.50,382.50 666.75,401.25 716.00,420.00 765.25,438.75 814.50,457.50 863.75,476.25 913.00,495.00 962.25,513.75 1011.50,532.50 1060.75,551.25 1110.00,570.00" fill="none" stroke="#dc6b24" stroke-width="3.5"/>
-<circle cx="125.0" cy="195.0" r="4.5" fill="#dc6b24"/>
-<circle cx="174.25" cy="213.75" r="4.5" fill="#dc6b24"/>
-<circle cx="223.5" cy="232.5" r="4.5" fill="#dc6b24"/>
-<circle cx="272.75" cy="251.25" r="4.5" fill="#dc6b24"/>
-<circle cx="322.0" cy="270.0" r="4.5" fill="#dc6b24"/>
-<circle cx="371.25" cy="288.75" r="4.5" fill="#dc6b24"/>
-<circle cx="420.5" cy="307.5" r="4.5" fill="#dc6b24"/>
-<circle cx="469.75" cy="326.25" r="4.5" fill="#dc6b24"/>
-<circle cx="519.0" cy="345.0" r="4.5" fill="#dc6b24"/>
-<circle cx="568.25" cy="363.75" r="4.5" fill="#dc6b24"/>
-<circle cx="617.5" cy="382.5" r="4.5" fill="#dc6b24"/>
-<circle cx="666.75" cy="401.25" r="4.5" fill="#dc6b24"/>
-<circle cx="716.0" cy="420.0" r="4.5" fill="#dc6b24"/>
-<circle cx="765.25" cy="438.75" r="4.5" fill="#dc6b24"/>
-<circle cx="814.5" cy="457.5" r="4.5" fill="#dc6b24"/>
-<circle cx="863.75" cy="476.25" r="4.5" fill="#dc6b24"/>
-<circle cx="913.0" cy="495.0" r="4.5" fill="#dc6b24"/>
-<circle cx="962.25" cy="513.75" r="4.5" fill="#dc6b24"/>
-<circle cx="1011.5" cy="532.5" r="4.5" fill="#dc6b24"/>
-<circle cx="1060.75" cy="551.25" r="4.5" fill="#dc6b24"/>
-<circle cx="1110.0" cy="570.0" r="4.5" fill="#dc6b24"/>
-<polyline points="125.00,513.75 174.25,513.75 223.50,513.75 272.75,513.75 322.00,513.75 371.25,513.75 420.50,513.75 469.75,513.75 519.00,513.75 568.25,513.75 617.50,513.75 666.75,513.75 716.00,513.75 765.25,513.75 814.50,513.75 863.75,513.75 913.00,513.75 962.25,513.75 1011.50,513.75 1060.75,513.75 1110.00,513.75" fill="none" stroke="#059669" stroke-width="3.5"/>
-<circle cx="125.0" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="174.25" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="223.5" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="272.75" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="322.0" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="371.25" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="420.5" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="469.75" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="519.0" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="568.25" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="617.5" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="666.75" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="716.0" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="765.25" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="814.5" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="863.75" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="913.0" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="962.25" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="1011.5" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="1060.75" cy="513.75" r="4.5" fill="#059669"/>
-<circle cx="1110.0" cy="513.75" r="4.5" fill="#059669"/>
+<polyline points="125.00,570.00 174.25,551.25 223.50,532.50 272.75,513.75 322.00,495.00 371.25,476.25 420.50,457.50 469.75,438.75 519.00,420.00 568.25,401.25 617.50,382.50 666.75,363.75 716.00,345.00 765.25,326.25 814.50,307.50 863.75,288.75 913.00,270.00 962.25,251.25 1011.50,232.50 1060.75,213.75 1110.00,195.00" fill="none" stroke="#079b91" stroke-width="3.5" />
+<circle cx="125.0" cy="570.0" r="4.5" fill="#079b91" />
+<circle cx="174.25" cy="551.25" r="4.5" fill="#079b91" />
+<circle cx="223.5" cy="532.5" r="4.5" fill="#079b91" />
+<circle cx="272.75" cy="513.75" r="4.5" fill="#079b91" />
+<circle cx="322.0" cy="495.0" r="4.5" fill="#079b91" />
+<circle cx="371.25" cy="476.25" r="4.5" fill="#079b91" />
+<circle cx="420.5" cy="457.5" r="4.5" fill="#079b91" />
+<circle cx="469.75" cy="438.75" r="4.5" fill="#079b91" />
+<circle cx="519.0" cy="420.0" r="4.5" fill="#079b91" />
+<circle cx="568.25" cy="401.25" r="4.5" fill="#079b91" />
+<circle cx="617.5" cy="382.5" r="4.5" fill="#079b91" />
+<circle cx="666.75" cy="363.75" r="4.5" fill="#079b91" />
+<circle cx="716.0" cy="345.0" r="4.5" fill="#079b91" />
+<circle cx="765.25" cy="326.25" r="4.5" fill="#079b91" />
+<circle cx="814.5" cy="307.5" r="4.5" fill="#079b91" />
+<circle cx="863.75" cy="288.75" r="4.5" fill="#079b91" />
+<circle cx="913.0" cy="270.0" r="4.5" fill="#079b91" />
+<circle cx="962.25" cy="251.25" r="4.5" fill="#079b91" />
+<circle cx="1011.5" cy="232.5" r="4.5" fill="#079b91" />
+<circle cx="1060.75" cy="213.75" r="4.5" fill="#079b91" />
+<circle cx="1110.0" cy="195.0" r="4.5" fill="#079b91" />
+<polyline points="125.00,195.00 174.25,213.75 223.50,232.50 272.75,251.25 322.00,270.00 371.25,288.75 420.50,307.50 469.75,326.25 519.00,345.00 568.25,363.75 617.50,382.50 666.75,401.25 716.00,420.00 765.25,438.75 814.50,457.50 863.75,476.25 913.00,495.00 962.25,513.75 1011.50,532.50 1060.75,551.25 1110.00,570.00" fill="none" stroke="#ef8b3a" stroke-width="3.5" />
+<circle cx="125.0" cy="195.0" r="4.5" fill="#ef8b3a" />
+<circle cx="174.25" cy="213.75" r="4.5" fill="#ef8b3a" />
+<circle cx="223.5" cy="232.5" r="4.5" fill="#ef8b3a" />
+<circle cx="272.75" cy="251.25" r="4.5" fill="#ef8b3a" />
+<circle cx="322.0" cy="270.0" r="4.5" fill="#ef8b3a" />
+<circle cx="371.25" cy="288.75" r="4.5" fill="#ef8b3a" />
+<circle cx="420.5" cy="307.5" r="4.5" fill="#ef8b3a" />
+<circle cx="469.75" cy="326.25" r="4.5" fill="#ef8b3a" />
+<circle cx="519.0" cy="345.0" r="4.5" fill="#ef8b3a" />
+<circle cx="568.25" cy="363.75" r="4.5" fill="#ef8b3a" />
+<circle cx="617.5" cy="382.5" r="4.5" fill="#ef8b3a" />
+<circle cx="666.75" cy="401.25" r="4.5" fill="#ef8b3a" />
+<circle cx="716.0" cy="420.0" r="4.5" fill="#ef8b3a" />
+<circle cx="765.25" cy="438.75" r="4.5" fill="#ef8b3a" />
+<circle cx="814.5" cy="457.5" r="4.5" fill="#ef8b3a" />
+<circle cx="863.75" cy="476.25" r="4.5" fill="#ef8b3a" />
+<circle cx="913.0" cy="495.0" r="4.5" fill="#ef8b3a" />
+<circle cx="962.25" cy="513.75" r="4.5" fill="#ef8b3a" />
+<circle cx="1011.5" cy="532.5" r="4.5" fill="#ef8b3a" />
+<circle cx="1060.75" cy="551.25" r="4.5" fill="#ef8b3a" />
+<circle cx="1110.0" cy="570.0" r="4.5" fill="#ef8b3a" />
+<polyline points="125.00,513.75 174.25,513.75 223.50,513.75 272.75,513.75 322.00,513.75 371.25,513.75 420.50,513.75 469.75,513.75 519.00,513.75 568.25,513.75 617.50,513.75 666.75,513.75 716.00,513.75 765.25,513.75 814.50,513.75 863.75,513.75 913.00,513.75 962.25,513.75 1011.50,513.75 1060.75,513.75 1110.00,513.75" fill="none" stroke="#059669" stroke-width="3.5" />
+<circle cx="125.0" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="174.25" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="223.5" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="272.75" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="322.0" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="371.25" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="420.5" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="469.75" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="519.0" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="568.25" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="617.5" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="666.75" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="716.0" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="765.25" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="814.5" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="863.75" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="913.0" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="962.25" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="1011.5" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="1060.75" cy="513.75" r="4.5" fill="#059669" />
+<circle cx="1110.0" cy="513.75" r="4.5" fill="#059669" />
 <text x="40" y="710" font-size="18" fill="#64748b" text-anchor="start">原创机制算例 · 数据为本节设定下的手算或构造值；适用边界见读图说明</text>
 </g></svg>

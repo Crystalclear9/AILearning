@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img">
 <title>诊断图从预测表到证据</title><desc>图中共享预测表把样本身份、真实标签、概率与分组连接起来。不同面板可以展示不同指标，但应读取同一冻结对象集合；否则两个漂亮面板可能实际上比较了不同人群。 箭头表示可追溯的数据依赖。概率校准、排序和决策成本分别回答不同问题，不能把某一面板改善视为所有维度改善，也不能在最终测试图上反复挑阈值。</desc>
 <rect width="1200" height="680" fill="white" />
-<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#64748b" /></marker></defs>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#64748b" /></marker><marker id="tip-64748b" markerWidth="6.5" markerHeight="6.5" refX="6.2" refY="3.25" orient="auto" viewBox="0 0 6.5 6.5"><path d="M0 0 L6.5 3.25 L0 6.5 Z" fill="#64748b" /></marker></defs>
 <g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#18324d">
 <text x="40" y="48" font-size="30" fill="#18324d" text-anchor="start">诊断图从预测表到证据</text>
 <text x="50" y="100" font-size="23" fill="#18324d" text-anchor="start">冻结预测表：同一组样本进入三个面板</text>
@@ -45,9 +45,9 @@
 <text x="225.0" y="455.5" font-size="23" fill="#18324d" text-anchor="middle">0.2</text>
 <rect x="260" y="410" width="70" height="70" rx="6" fill="#eff6ff" stroke="#64748b" />
 <text x="295.0" y="455.5" font-size="23" fill="#18324d" text-anchor="middle">B</text>
-<line x1="350" y1="305" x2="460" y2="190" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" marker-end="url(#a)" />
-<line x1="350" y1="305" x2="460" y2="320" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" marker-end="url(#a)" />
-<line x1="350" y1="305" x2="460" y2="450" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" marker-end="url(#a)" />
+<line x1="350" y1="305" x2="460" y2="190" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" marker-end="url(#tip-64748b)" />
+<line x1="350" y1="305" x2="460" y2="320" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" marker-end="url(#tip-64748b)" />
+<line x1="350" y1="305" x2="460" y2="450" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" marker-end="url(#tip-64748b)" />
 <line x1="500" y1="275" x2="765" y2="275" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" />
 <line x1="500" y1="275" x2="500" y2="155" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" />
 <text x="765" y="310" font-size="18" fill="#18324d" text-anchor="end">分箱概率</text>

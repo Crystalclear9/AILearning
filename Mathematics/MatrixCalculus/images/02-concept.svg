@@ -1,21 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850" role="img">
 <title>平均损失中的批量系数</title>
 <desc>样本梯度 g₁=2；样本梯度 g₂=6；求和梯度=8；均值梯度=4</desc>
-<rect width="1200" height="850" fill="#fff"/>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
-<text x="60" y="65" font-size="31" font-weight="bold" fill="#153652">平均损失中的批量系数</text>
-<text x="60" y="110" font-size="21" fill="#526878">具体算例 · 从条件到结果，逐项核对</text>
-<rect x="60" y="470" width="530" height="112" rx="12" fill="#edf5fc" stroke="#bacbd8"/>
-<text x="78" y="503" font-size="19" fill="#557086">01</text>
-<text x="78" y="539" font-size="24" fill="#18374e">样本梯度 g₁=2</text>
-<rect x="625" y="470" width="530" height="112" rx="12" fill="#eef8f2" stroke="#bacbd8"/>
-<text x="643" y="503" font-size="19" fill="#557086">02</text>
-<text x="643" y="539" font-size="24" fill="#18374e">样本梯度 g₂=6</text>
-<rect x="60" y="610" width="530" height="112" rx="12" fill="#fff6e7" stroke="#bacbd8"/>
-<text x="78" y="643" font-size="19" fill="#557086">03</text>
-<text x="78" y="679" font-size="24" fill="#18374e">求和梯度=8</text>
-<rect x="625" y="610" width="530" height="112" rx="12" fill="#f3effb" stroke="#bacbd8"/>
-<text x="643" y="643" font-size="19" fill="#557086">04</text>
-<text x="643" y="679" font-size="24" fill="#18374e">均值梯度=4</text>
-<text x="60" y="785" font-size="20" fill="#526878">各框属于同一论证或算例；具体适用条件与读图方法见正文。</text>
-<text x="90" y="150" fill="#1b3b50" font-size="21">共享参数的梯度贡献与目标归约</text><rect x="130.0" y="357.5" width="140" height="52.5" fill="#1976b5"/><text x="130.0" y="435" fill="#1b3b50" font-size="21">样本 1</text><text x="130.0" y="337.5" fill="#1b3b50" font-size="21">2</text><rect x="342.5" y="252.5" width="140" height="157.5" fill="#d86922"/><text x="342.5" y="435" fill="#1b3b50" font-size="21">样本 2</text><text x="342.5" y="232.5" fill="#1b3b50" font-size="21">6</text><rect x="555.0" y="200.0" width="140" height="210.0" fill="#12816c"/><text x="555.0" y="435" fill="#1b3b50" font-size="21">求和</text><text x="555.0" y="180.0" fill="#1b3b50" font-size="21">8</text><rect x="767.5" y="305.0" width="140" height="105.0" fill="#8d67b1"/><text x="767.5" y="435" fill="#1b3b50" font-size="21">均值</text><text x="767.5" y="285.0" fill="#1b3b50" font-size="21">4</text></g></svg>
+<rect width="1200" height="850" fill="#f7fbfd" />
+<g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="60" y="65" font-size="31" font-weight="bold" fill="#16344c">平均损失中的批量系数</text>
+<rect x="60" y="640" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="78" y="690.0" font-size="22" fill="#16344c">样本梯度 g₁=2</text>
+<rect x="625" y="640" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="643" y="690.0" font-size="22" fill="#16344c">样本梯度 g₂=6</text>
+<rect x="60" y="730" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="78" y="780.0" font-size="22" fill="#16344c">求和梯度=8</text>
+<rect x="625" y="730" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="643" y="780.0" font-size="22" fill="#16344c">均值梯度=4</text>
+<text x="90" y="150.0" fill="#16344c" font-size="21">共享参数的梯度贡献与目标归约</text><rect x="130.0" y="450.88" width="140" height="76.125" fill="#118779" /><text x="130.0" y="563.25" fill="#16344c" font-size="21">样本 1</text><text x="130.0" y="421.88" fill="#16344c" font-size="21">2</text><rect x="342.5" y="298.62" width="140" height="228.375" fill="#d86922" /><text x="342.5" y="563.25" fill="#16344c" font-size="21">样本 2</text><text x="342.5" y="269.62" fill="#16344c" font-size="21">6</text><rect x="555.0" y="222.5" width="140" height="304.5" fill="#12816c" /><text x="555.0" y="563.25" fill="#16344c" font-size="21">求和</text><text x="555.0" y="193.5" fill="#16344c" font-size="21">8</text><rect x="767.5" y="374.75" width="140" height="152.25" fill="#8d67b1" /><text x="767.5" y="563.25" fill="#16344c" font-size="21">均值</text><text x="767.5" y="345.75" fill="#16344c" font-size="21">4</text></g></svg>

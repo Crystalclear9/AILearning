@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img">
-<title>最小梯度方差的基线可以不同于状态价值</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
-<rect width="1200" height="740" fill="#fff"/><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img">
+<rect width="1200.0" height="760" fill="#f3f8fc" /><title>最小梯度方差的基线可以不同于状态价值</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
+<rect width="1200" height="740" fill="#fff" /><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
 <text x="40" y="54" font-size="28" fill="#17324d" text-anchor="start">最小梯度方差的基线可以不同于状态价值</text>
-<text x="80" y="115" font-size="19" fill="#2563eb" text-anchor="start">p(动作1)=0.2</text>
-<line x1="125" y1="570.0" x2="1110" y2="570.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<text x="80" y="115" font-size="19" fill="#079b91" text-anchor="start">p(动作1)=0.2</text>
+<line x1="125" y1="570.0" x2="1110" y2="570.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="576.0" font-size="18" fill="#17324d" text-anchor="end">0</text>
-<line x1="125" y1="476.25" x2="1110" y2="476.25" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="476.25" x2="1110" y2="476.25" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="482.25" font-size="18" fill="#17324d" text-anchor="end">0.0256</text>
-<line x1="125" y1="382.5" x2="1110" y2="382.5" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="382.5" x2="1110" y2="382.5" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="388.5" font-size="18" fill="#17324d" text-anchor="end">0.0512</text>
-<line x1="125" y1="288.75000000000006" x2="1110" y2="288.75000000000006" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="288.75000000000006" x2="1110" y2="288.75000000000006" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="294.75000000000006" font-size="18" fill="#17324d" text-anchor="end">0.0768</text>
-<line x1="125" y1="195.0" x2="1110" y2="195.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="195.0" x2="1110" y2="195.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="" />
 <text x="110" y="201.0" font-size="18" fill="#17324d" text-anchor="end">0.102</text>
-<line x1="125" y1="195" x2="125" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
-<line x1="125" y1="570" x2="1110" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="195" x2="125" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray="" />
+<line x1="125" y1="570" x2="1110" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray="" />
 <text x="125" y="164" font-size="19" fill="#17324d" text-anchor="start">单样本梯度方差</text>
 <text x="125.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0</text>
 <text x="223.5" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.1</text>
@@ -28,17 +28,17 @@
 <text x="1011.5" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.9</text>
 <text x="1110.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">1</text>
 <text x="1110" y="644" font-size="21" fill="#17324d" text-anchor="end">动作无关基线 b</text>
-<polyline points="125.00,195.00 223.50,282.89 322.00,359.06 420.50,423.52 519.00,476.25 617.50,517.27 716.00,546.56 814.50,564.14 913.00,570.00 1011.50,564.14 1110.00,546.56" fill="none" stroke="#2563eb" stroke-width="3.5"/>
-<circle cx="125.0" cy="195.0" r="4.5" fill="#2563eb"/>
-<circle cx="223.5" cy="282.890625" r="4.5" fill="#2563eb"/>
-<circle cx="322.0" cy="359.0625" r="4.5" fill="#2563eb"/>
-<circle cx="420.5" cy="423.515625" r="4.5" fill="#2563eb"/>
-<circle cx="519.0" cy="476.25" r="4.5" fill="#2563eb"/>
-<circle cx="617.5" cy="517.265625" r="4.5" fill="#2563eb"/>
-<circle cx="716.0" cy="546.5625" r="4.5" fill="#2563eb"/>
-<circle cx="814.5" cy="564.140625" r="4.5" fill="#2563eb"/>
-<circle cx="913.0" cy="570.0" r="4.5" fill="#2563eb"/>
-<circle cx="1011.5" cy="564.140625" r="4.5" fill="#2563eb"/>
-<circle cx="1110.0" cy="546.5625" r="4.5" fill="#2563eb"/>
+<polyline points="125.00,195.00 223.50,282.89 322.00,359.06 420.50,423.52 519.00,476.25 617.50,517.27 716.00,546.56 814.50,564.14 913.00,570.00 1011.50,564.14 1110.00,546.56" fill="none" stroke="#079b91" stroke-width="3.5" />
+<circle cx="125.0" cy="195.0" r="4.5" fill="#079b91" />
+<circle cx="223.5" cy="282.890625" r="4.5" fill="#079b91" />
+<circle cx="322.0" cy="359.0625" r="4.5" fill="#079b91" />
+<circle cx="420.5" cy="423.515625" r="4.5" fill="#079b91" />
+<circle cx="519.0" cy="476.25" r="4.5" fill="#079b91" />
+<circle cx="617.5" cy="517.265625" r="4.5" fill="#079b91" />
+<circle cx="716.0" cy="546.5625" r="4.5" fill="#079b91" />
+<circle cx="814.5" cy="564.140625" r="4.5" fill="#079b91" />
+<circle cx="913.0" cy="570.0" r="4.5" fill="#079b91" />
+<circle cx="1011.5" cy="564.140625" r="4.5" fill="#079b91" />
+<circle cx="1110.0" cy="546.5625" r="4.5" fill="#079b91" />
 <text x="40" y="710" font-size="18" fill="#64748b" text-anchor="start">原创机制算例 · 数据为本节设定下的手算或构造值；适用边界见读图说明</text>
 </g></svg>

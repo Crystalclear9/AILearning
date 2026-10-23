@@ -1,15 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
-<title>同一动作可通向不同后继状态</title>
-<rect width="1120" height="540" fill="white" />
-<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1120 710" role="img">
+<rect width="1120.0" height="710" fill="#f3f8fc" /><title>同一动作可通向不同后继状态</title>
+<rect width="1120" height="710" fill="#f3f8fc" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:22px}.title{font-size:30px;font-weight:700}.small{font-size:19px}</style>
 <text x="40" y="48" class="title" text-anchor="start">同一动作可通向不同后继状态</text>
-<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
-<rect x="320" y="115" width="480" height="75" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="40" y="695" class="small" text-anchor="start" font-size="16">原创教学示意 · 数值与条件以图解正文为准</text>
+<rect x="320" y="115" width="480" height="75" rx="12" fill="#e7f3f5" stroke="#079b91" stroke-width="2" />
 <text x="560.0" y="159.5" class="" text-anchor="middle">状态 s：执行 a</text>
-<line x1="560" y1="190" x2="285" y2="300" stroke="#2563eb" stroke-width="3" stroke-dasharray="" marker-end="url(#direction)" />
-<rect x="40" y="300" width="490" height="90" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<line x1="560" y1="190" x2="285" y2="300" stroke="#079b91" stroke-width="3" stroke-dasharray="" marker-end="url(#direction)" />
+<rect x="40" y="300" width="490" height="90" rx="12" fill="#e7f3f5" stroke="#079b91" stroke-width="2" />
 <text x="285.0" y="352.0" class="" text-anchor="middle">后继 s_1：概率 0.7，奖励 1</text>
-<line x1="560" y1="190" x2="825" y2="300" stroke="#2563eb" stroke-width="3" stroke-dasharray="" marker-end="url(#direction)" />
-<rect x="580" y="300" width="490" height="90" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<line x1="560" y1="190" x2="825" y2="300" stroke="#079b91" stroke-width="3" stroke-dasharray="" marker-end="url(#direction)" />
+<rect x="580" y="300" width="490" height="90" rx="12" fill="#e7f3f5" stroke="#079b91" stroke-width="2" />
 <text x="825.0" y="352.0" class="" text-anchor="middle">后继 s_2：概率 0.3，奖励 -1</text>
-<defs><marker id="direction" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#64748b" /></marker></defs></svg>
+<defs><marker id="direction" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#64748b" /></marker></defs><rect x="42" y="560" width="1036.0" height="105" rx="12" fill="#e5f2f4" /><text x="64" y="593" font-size="20" fill="#244c5e">上方节点固定了当前状态和已经选择的动作，下面两条边才描述环境的随机响应；零点七与零点三相</text><text x="64" y="621" font-size="20" fill="#244c5e">加为一。</text></svg>

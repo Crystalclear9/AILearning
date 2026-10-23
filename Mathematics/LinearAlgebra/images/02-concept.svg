@@ -1,21 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850" role="img">
 <title>正交投影把向量拆成两部分</title>
 <desc>目标 b=(2,1)；子空间 span((1,0))；投影 p=(2,0)；残差 r=(0,1)，p·r=0</desc>
-<rect width="1200" height="850" fill="#fff"/>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
-<text x="60" y="65" font-size="31" font-weight="bold" fill="#153652">正交投影把向量拆成两部分</text>
-<text x="60" y="110" font-size="21" fill="#526878">具体算例 · 从条件到结果，逐项核对</text>
-<rect x="60" y="470" width="530" height="112" rx="12" fill="#edf5fc" stroke="#bacbd8"/>
-<text x="78" y="503" font-size="19" fill="#557086">01</text>
-<text x="78" y="539" font-size="24" fill="#18374e">目标 b=(2,1)</text>
-<rect x="625" y="470" width="530" height="112" rx="12" fill="#eef8f2" stroke="#bacbd8"/>
-<text x="643" y="503" font-size="19" fill="#557086">02</text>
-<text x="643" y="539" font-size="24" fill="#18374e">子空间 span((1,0))</text>
-<rect x="60" y="610" width="530" height="112" rx="12" fill="#fff6e7" stroke="#bacbd8"/>
-<text x="78" y="643" font-size="19" fill="#557086">03</text>
-<text x="78" y="679" font-size="24" fill="#18374e">投影 p=(2,0)</text>
-<rect x="625" y="610" width="530" height="112" rx="12" fill="#f3effb" stroke="#bacbd8"/>
-<text x="643" y="643" font-size="19" fill="#557086">04</text>
-<text x="643" y="679" font-size="24" fill="#18374e">残差 r=(0,1)，p·r=0</text>
-<text x="60" y="785" font-size="20" fill="#526878">各框属于同一论证或算例；具体适用条件与读图方法见正文。</text>
-<line x1="200" y1="400" x2="1000" y2="400" stroke="#267ab0" stroke-width="3"/><line x1="200" y1="400" x2="200" y2="170" stroke="#267ab0" stroke-width="3"/><line x1="200" y1="400" x2="700" y2="220" stroke="#267ab0" stroke-width="3"/><line x1="700" y1="220" x2="700" y2="400" stroke="#267ab0" stroke-width="3" stroke-dasharray="7 5"/><text x="710" y="220" font-size="22" fill="#173b51">b=(2,1)</text><text x="710" y="395" font-size="22" fill="#173b51">p=(2,0)</text><text x="710" y="315" font-size="22" fill="#173b51">残差 r=(0,1)</text></g></svg>
+<rect width="1200" height="850" fill="#f7fbfd" />
+<g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="60" y="65" font-size="31" font-weight="bold" fill="#16344c">正交投影把向量拆成两部分</text>
+<rect x="60" y="640" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="78" y="690.0" font-size="22" fill="#16344c">目标 b=(2,1)</text>
+<rect x="625" y="640" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="643" y="690.0" font-size="22" fill="#16344c">子空间 span((1,0))</text>
+<rect x="60" y="730" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="78" y="780.0" font-size="22" fill="#16344c">投影 p=(2,0)</text>
+<rect x="625" y="730" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="643" y="780.0" font-size="22" fill="#16344c">残差 r=(0,1)，p·r=0</text>
+<line x1="200" y1="400" x2="1000" y2="400" stroke="#267ab0" stroke-width="3" /><line x1="200" y1="400" x2="200" y2="170" stroke="#267ab0" stroke-width="3" /><line x1="200" y1="400" x2="700" y2="220" stroke="#267ab0" stroke-width="3" marker-end="url(#vector-head)" /><line x1="700" y1="220" x2="700" y2="400" stroke="#267ab0" stroke-width="3" stroke-dasharray="7 5" /><text x="710" y="220" font-size="22" fill="#173b51">b=(2,1)</text><text x="710" y="395" font-size="22" fill="#173b51">p=(2,0)</text><text x="710" y="315" font-size="22" fill="#173b51">残差 r=(0,1)</text><line x1="200" y1="400" x2="700" y2="400" stroke="#148671" stroke-width="4" marker-end="url(#vector-head)" /><path d="M684 400 L684 384 L700 384" fill="none" stroke="#d67629" stroke-width="2" /><text x="510" y="450" font-size="22" fill="#147a6d">投影 p</text></g><defs><marker id="vector-head" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#267ab0" /></marker></defs></svg>

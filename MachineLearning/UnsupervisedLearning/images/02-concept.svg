@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
-<title>PCA 保留最大方差方向并不等于保留标签信息</title>
-<rect width="1120" height="540" fill="white" />
-<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1120 710" role="img">
+<rect width="1120.0" height="710" fill="#f3f8fc" /><title>PCA 保留最大方差方向并不等于保留标签信息</title>
+<rect width="1120" height="710" fill="#f3f8fc" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:22px}.title{font-size:30px;font-weight:700}.small{font-size:19px}</style>
 <text x="40" y="48" class="title" text-anchor="start">PCA 保留最大方差方向并不等于保留标签信息</text>
-<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<text x="40" y="695" class="small" text-anchor="start" font-size="16">原创教学示意 · 数值与条件以图解正文为准</text>
 <line x1="120" y1="440" x2="1040" y2="440" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
 <line x1="120" y1="440" x2="120" y2="105" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
-<line x1="202.0687173823643" y1="408.10660026122537" x2="877.9312826176357" y2="159.8933997387746" stroke="#dc6325" stroke-width="3" stroke-dasharray="" />
-<line x1="490.01261933922865" y1="147.8887889456745" x2="589.9873806607714" y2="420.1112110543255" stroke="#10a37f" stroke-width="3" stroke-dasharray="" />
+<line x1="202.0687173823643" y1="408.10660026122537" x2="877.9312826176357" y2="159.8933997387746" stroke="#ef8b3a" stroke-width="3" stroke-dasharray="" />
+<line x1="490.01261933922865" y1="147.8887889456745" x2="589.9873806607714" y2="420.1112110543255" stroke="#315fba" stroke-width="3" stroke-dasharray="" />
 <text x="870" y="130" class="small" text-anchor="middle">最大方差方向</text>
 <text x="720" y="400" class="small" text-anchor="start">正交残差方向</text>
-<circle cx="300" cy="358" r="10" fill="#2563eb" />
-<circle cx="360" cy="356" r="10" fill="#2563eb" />
-<circle cx="420" cy="354" r="10" fill="#2563eb" />
-<circle cx="480" cy="286" r="10" fill="#2563eb" />
-<circle cx="540" cy="284" r="10" fill="#2563eb" />
-<circle cx="600" cy="282" r="10" fill="#2563eb" />
-<circle cx="660" cy="214" r="10" fill="#2563eb" />
-<circle cx="720" cy="212" r="10" fill="#2563eb" />
-<circle cx="780" cy="210" r="10" fill="#2563eb" />
-</svg>
+<circle cx="300" cy="358" r="10" fill="#079b91" />
+<circle cx="360" cy="356" r="10" fill="#079b91" />
+<circle cx="420" cy="354" r="10" fill="#079b91" />
+<circle cx="480" cy="286" r="10" fill="#079b91" />
+<circle cx="540" cy="284" r="10" fill="#079b91" />
+<circle cx="600" cy="282" r="10" fill="#079b91" />
+<circle cx="660" cy="214" r="10" fill="#079b91" />
+<circle cx="720" cy="212" r="10" fill="#079b91" />
+<circle cx="780" cy="210" r="10" fill="#079b91" />
+<rect x="42" y="560" width="1036.0" height="105" rx="12" fill="#e5f2f4" /><text x="64" y="593" font-size="20" fill="#244c5e">斜向伸长的点云表示数据变化主要沿第一主方向发生，将点垂直投影到该方向即可得到一维坐标，正</text><text x="64" y="621" font-size="20" fill="#244c5e">交方向上的位移形成重构残差。</text></svg>

@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
-<title>逻辑回归把线性分数压到概率区间</title>
-<rect width="1120" height="540" fill="white" />
-<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1120 710" role="img">
+<rect width="1120.0" height="710" fill="#f3f8fc" /><title>逻辑回归把线性分数压到概率区间</title>
+<rect width="1120" height="710" fill="#f3f8fc" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:22px}.title{font-size:30px;font-weight:700}.small{font-size:19px}</style>
 <text x="40" y="48" class="title" text-anchor="start">逻辑回归把线性分数压到概率区间</text>
-<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<text x="40" y="695" class="small" text-anchor="start" font-size="16">原创教学示意 · 数值与条件以图解正文为准</text>
 <line x1="100" y1="420" x2="1040" y2="420" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
 <line x1="100" y1="420" x2="100" y2="125" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
-<polyline points="100.0,414.867617107943 215.0,406.5987780040733 330.0,386.06924643584523 445.0,343.29938900203666 560.0,277.4338085539715 675.0,211.56822810590631 790.0,168.79837067209778 905.0,148.26883910386965 1020.0,140.0" fill="none" stroke="#2563eb" stroke-width="4" />
-<text x="130" y="100" class="small" text-anchor="start" style="fill:#2563eb">sigmoid(z)</text>
-<circle cx="100.0" cy="414.867617107943" r="5" fill="#2563eb" />
-<circle cx="215.0" cy="406.5987780040733" r="5" fill="#2563eb" />
-<circle cx="330.0" cy="386.06924643584523" r="5" fill="#2563eb" />
-<circle cx="445.0" cy="343.29938900203666" r="5" fill="#2563eb" />
-<circle cx="560.0" cy="277.4338085539715" r="5" fill="#2563eb" />
-<circle cx="675.0" cy="211.56822810590631" r="5" fill="#2563eb" />
-<circle cx="790.0" cy="168.79837067209778" r="5" fill="#2563eb" />
-<circle cx="905.0" cy="148.26883910386965" r="5" fill="#2563eb" />
-<circle cx="1020.0" cy="140.0" r="5" fill="#2563eb" />
+<polyline points="100.0,414.867617107943 215.0,406.5987780040733 330.0,386.06924643584523 445.0,343.29938900203666 560.0,277.4338085539715 675.0,211.56822810590631 790.0,168.79837067209778 905.0,148.26883910386965 1020.0,140.0" fill="none" stroke="#079b91" stroke-width="4" />
+<text x="130" y="100" class="small" text-anchor="start" style="fill:#079b91">sigmoid(z)</text>
+<circle cx="100.0" cy="414.867617107943" r="5" fill="#079b91" />
+<circle cx="215.0" cy="406.5987780040733" r="5" fill="#079b91" />
+<circle cx="330.0" cy="386.06924643584523" r="5" fill="#079b91" />
+<circle cx="445.0" cy="343.29938900203666" r="5" fill="#079b91" />
+<circle cx="560.0" cy="277.4338085539715" r="5" fill="#079b91" />
+<circle cx="675.0" cy="211.56822810590631" r="5" fill="#079b91" />
+<circle cx="790.0" cy="168.79837067209778" r="5" fill="#079b91" />
+<circle cx="905.0" cy="148.26883910386965" r="5" fill="#079b91" />
+<circle cx="1020.0" cy="140.0" r="5" fill="#079b91" />
 <text x="70" y="145" class="small" text-anchor="end">0.982</text>
 <text x="70" y="420" class="small" text-anchor="end">0</text>
-<text x="100.0" y="454" font-size="17" text-anchor="middle">-4</text><text x="215.0" y="454" font-size="17" text-anchor="middle">-3</text><text x="330.0" y="454" font-size="17" text-anchor="middle">-2</text><text x="445.0" y="454" font-size="17" text-anchor="middle">-1</text><text x="560.0" y="454" font-size="17" text-anchor="middle">0</text><text x="675.0" y="454" font-size="17" text-anchor="middle">1</text><text x="790.0" y="454" font-size="17" text-anchor="middle">2</text><text x="905.0" y="454" font-size="17" text-anchor="middle">3</text><text x="1020.0" y="454" font-size="17" text-anchor="middle">4</text><text x="100" y="485" font-size="17">横轴：线性分数 z</text></svg>
+<text x="100.0" y="454" font-size="19" text-anchor="middle">-4</text><text x="215.0" y="454" font-size="19" text-anchor="middle">-3</text><text x="330.0" y="454" font-size="19" text-anchor="middle">-2</text><text x="445.0" y="454" font-size="19" text-anchor="middle">-1</text><text x="560.0" y="454" font-size="19" text-anchor="middle">0</text><text x="675.0" y="454" font-size="19" text-anchor="middle">1</text><text x="790.0" y="454" font-size="19" text-anchor="middle">2</text><text x="905.0" y="454" font-size="19" text-anchor="middle">3</text><text x="1020.0" y="454" font-size="19" text-anchor="middle">4</text><text x="100" y="485" font-size="19">横轴：线性分数 z</text><rect x="42" y="560" width="1036.0" height="105" rx="12" fill="#e5f2f4" /><text x="64" y="593" font-size="20" fill="#244c5e">横轴按顺序取负四到四，曲线把线性分数映射到零与一之间；分数零对应概率零点五，分数二约对应</text><text x="64" y="621" font-size="20" fill="#244c5e">零点八八一。</text></svg>

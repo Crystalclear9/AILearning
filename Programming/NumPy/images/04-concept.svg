@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img">
 <title>训练器的一次完整更新</title><desc>零参数预测为零，残差负三；半平方误差的权重梯度为负三、负六，偏置梯度为负三。因此一次同时更新得到图中的参数，新预测为一点八。 图中梯度都在同一个旧参数位置计算。若先更新权重，再用新权重重算偏置梯度，就变成另一种顺序更新，不能继续与这里的手算结果比较。</desc>
 <rect width="1200" height="680" fill="white" />
-<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#64748b" /></marker></defs>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#64748b" /></marker><marker id="tip-e07828" markerWidth="6.5" markerHeight="6.5" refX="6.2" refY="3.25" orient="auto" viewBox="0 0 6.5 6.5"><path d="M0 0 L6.5 3.25 L0 6.5 Z" fill="#e07828" /></marker></defs>
 <g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#18324d">
 <text x="40" y="48" font-size="30" fill="#18324d" text-anchor="start">训练器的一次完整更新</text>
 <text x="55" y="110" font-size="24" fill="#18324d" text-anchor="start">参数平面（偏置也同步更新）</text>
@@ -10,7 +10,7 @@
 <text x="570" y="520" font-size="18" fill="#18324d" text-anchor="end">权重 w1</text>
 <text x="140" y="167" font-size="18" fill="#18324d" text-anchor="start">权重 w2</text>
 <text x="125" y="515" font-size="18" fill="#18324d" text-anchor="start">0</text>
-<line x1="140" y1="485" x2="450" y2="220" stroke="#e07828" stroke-width="2.5" stroke-dasharray="" marker-end="url(#a)" />
+<line x1="140" y1="485" x2="450" y2="220" stroke="#e07828" stroke-width="2.5" stroke-dasharray="" marker-end="url(#tip-e07828)" />
 <circle cx="140" cy="485" r="7" fill="#2563eb" />
 <circle cx="450" cy="220" r="7" fill="#e07828" />
 <text x="165" y="465" font-size="22" fill="#2563eb" text-anchor="start">旧参数 (0, 0)</text>

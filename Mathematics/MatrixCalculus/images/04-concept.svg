@@ -1,21 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850" role="img">
 <title>梯度检查的对照对象</title>
 <desc>解析反传：g；中心差分：(L(w+h)-L(w-h))/(2h)；比较绝对与相对误差；同时检查形状和参数共享</desc>
-<rect width="1200" height="850" fill="#fff"/>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
-<text x="60" y="65" font-size="31" font-weight="bold" fill="#153652">梯度检查的对照对象</text>
-<text x="60" y="110" font-size="21" fill="#526878">具体算例 · 从条件到结果，逐项核对</text>
-<rect x="60" y="470" width="530" height="112" rx="12" fill="#edf5fc" stroke="#bacbd8"/>
-<text x="78" y="503" font-size="19" fill="#557086">01</text>
-<text x="78" y="539" font-size="24" fill="#18374e">解析反传：g</text>
-<rect x="625" y="470" width="530" height="112" rx="12" fill="#eef8f2" stroke="#bacbd8"/>
-<text x="643" y="503" font-size="19" fill="#557086">02</text>
-<g fill="#18374e"><text x="643" y="539" font-size="22">中心差分：</text><text x="988" y="528" text-anchor="middle" font-size="20">L(w+h)−L(w−h)</text><line x1="833" x2="1143" y1="535" y2="535" stroke="#18374e" stroke-width="1.5"/><text x="988" y="559" text-anchor="middle" font-size="20">2h</text></g>
-<rect x="60" y="610" width="530" height="112" rx="12" fill="#fff6e7" stroke="#bacbd8"/>
-<text x="78" y="643" font-size="19" fill="#557086">03</text>
-<text x="78" y="679" font-size="24" fill="#18374e">比较绝对与相对误差</text>
-<rect x="625" y="610" width="530" height="112" rx="12" fill="#f3effb" stroke="#bacbd8"/>
-<text x="643" y="643" font-size="19" fill="#557086">04</text>
-<text x="643" y="679" font-size="24" fill="#18374e">同时检查形状和参数共享</text>
-<text x="60" y="785" font-size="20" fill="#526878">各框属于同一论证或算例；具体适用条件与读图方法见正文。</text>
-<line x1="280" y1="220" x2="860" y2="220" stroke="#267ab0" stroke-width="3"/><text x="565.0" y="208.0" font-size="18" fill="#173b51">局部链式法则</text><line x1="280" y1="220" x2="280" y2="370" stroke="#267ab0" stroke-width="3"/><text x="275.0" y="283.0" font-size="18" fill="#173b51">扰动参数重算</text><line x1="860" y1="220" x2="860" y2="370" stroke="#267ab0" stroke-width="3"/><text x="855.0" y="283.0" font-size="18" fill="#173b51">解析结果</text><line x1="280" y1="370" x2="860" y2="370" stroke="#267ab0" stroke-width="3"/><text x="565.0" y="358.0" font-size="18" fill="#173b51">数值近似</text><rect x="110" y="190" width="380" height="70" rx="15" fill="#eaf3f8" stroke="#6893ae"/><text x="128" y="233" font-size="22" fill="#173b51">同一标量损失 L</text><rect x="690" y="190" width="380" height="70" rx="15" fill="#eaf3f8" stroke="#6893ae"/><text x="708" y="233" font-size="22" fill="#173b51">解析反向传播</text><rect x="110" y="340" width="380" height="70" rx="15" fill="#eaf3f8" stroke="#6893ae"/><text x="128" y="383" font-size="22" fill="#173b51">中心有限差分</text><rect x="690" y="340" width="380" height="70" rx="15" fill="#eaf3f8" stroke="#6893ae"/><text x="708" y="383" font-size="22" fill="#173b51">两条路径核对梯度</text></g></svg>
+<rect width="1200" height="850" fill="#f7fbfd" />
+<g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="60" y="65" font-size="31" font-weight="bold" fill="#16344c">梯度检查的对照对象</text>
+<rect x="60" y="640" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="78" y="690.0" font-size="22" fill="#16344c">解析反传：g</text>
+<rect x="625" y="640" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<g fill="#18374e"><text x="643" y="690.0" font-size="22">中心差分：</text><text x="988" y="679.0" text-anchor="middle" font-size="20">L(w+h)−L(w−h)</text><line x1="833" x2="1143" y1="686.0" y2="686.0" stroke="#18374e" stroke-width="1.5" /><text x="988" y="710.0" text-anchor="middle" font-size="20">2h</text></g>
+<rect x="60" y="730" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="78" y="780.0" font-size="22" fill="#16344c">比较绝对与相对误差</text>
+<rect x="625" y="730" width="530" height="80" rx="12" fill="#eaf5f3" stroke="#b2cec9" />
+<text x="643" y="780.0" font-size="22" fill="#16344c">同时检查形状和参数共享</text>
+<line x1="490.0" y1="255.0" x2="690.0" y2="255.0" stroke="#267ab0" stroke-width="3" marker-end="url(#semantic-arrow)" /><text x="565.0" y="237.0" font-size="18" fill="#173b51">局部链式法则</text><line x1="280.0" y1="315.0" x2="280.0" y2="435.0" stroke="#267ab0" stroke-width="3" marker-end="url(#semantic-arrow)" /><text x="275.0" y="349.5" font-size="18" fill="#173b51">扰动参数重算</text><line x1="860.0" y1="315.0" x2="860.0" y2="435.0" stroke="#267ab0" stroke-width="3" marker-end="url(#semantic-arrow)" /><text x="855.0" y="349.5" font-size="18" fill="#173b51">解析结果</text><line x1="490.0" y1="480.0" x2="690.0" y2="480.0" stroke="#267ab0" stroke-width="3" marker-end="url(#semantic-arrow)" /><text x="565.0" y="462.0" font-size="18" fill="#173b51">数值近似</text><rect x="110" y="210.0" width="380" height="105.0" rx="15" fill="#eaf3f8" stroke="#6893ae" /><text x="128" y="274.5" font-size="22" fill="#173b51">同一标量损失 L</text><rect x="690" y="210.0" width="380" height="105.0" rx="15" fill="#eaf3f8" stroke="#6893ae" /><text x="708" y="274.5" font-size="22" fill="#173b51">解析反向传播</text><rect x="110" y="435.0" width="380" height="105.0" rx="15" fill="#eaf3f8" stroke="#6893ae" /><text x="128" y="499.5" font-size="22" fill="#173b51">中心有限差分</text><rect x="690" y="435.0" width="380" height="105.0" rx="15" fill="#eaf3f8" stroke="#6893ae" /><text x="708" y="499.5" font-size="22" fill="#173b51">两条路径核对梯度</text></g><defs><marker id="semantic-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#267ab0" /></marker></defs></svg>

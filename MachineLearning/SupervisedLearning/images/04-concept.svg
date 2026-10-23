@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
-<title>集成平均如何抵消方向相反的误差</title>
-<rect width="1120" height="540" fill="white" />
-<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1120 710" role="img">
+<rect width="1120.0" height="710" fill="#f3f8fc" /><title>集成平均如何抵消方向相反的误差</title>
+<rect width="1120" height="710" fill="#f3f8fc" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:22px}.title{font-size:30px;font-weight:700}.small{font-size:19px}</style>
 <text x="40" y="48" class="title" text-anchor="start">集成平均如何抵消方向相反的误差</text>
-<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<text x="40" y="695" class="small" text-anchor="start" font-size="16">原创教学示意 · 数值与条件以图解正文为准</text>
 <line x1="90" y1="420.0" x2="1060" y2="420.0" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
-<rect x="140.0" y="233.33333333333334" width="105" height="186.66666666666666" fill="#2563eb" opacity=".85" />
+<rect x="140.0" y="233.33333333333334" width="105" height="186.66666666666666" fill="#079b91" opacity=".85" />
 <text x="192.0" y="221.33333333333334" class="" text-anchor="middle">8</text>
 <text x="192.0" y="460" class="small" text-anchor="middle">模型 A：预测</text>
-<rect x="357.5" y="140.0" width="105" height="280.0" fill="#dc6325" opacity=".85" />
+<rect x="357.5" y="140.0" width="105" height="280.0" fill="#ef8b3a" opacity=".85" />
 <text x="409.5" y="128.0" class="" text-anchor="middle">12</text>
 <text x="409.5" y="460" class="small" text-anchor="middle">模型 B：预测</text>
-<rect x="575.0" y="186.66666666666666" width="105" height="233.33333333333334" fill="#10a37f" opacity=".85" />
+<rect x="575.0" y="186.66666666666666" width="105" height="233.33333333333334" fill="#315fba" opacity=".85" />
 <text x="627.0" y="174.66666666666666" class="" text-anchor="middle">10</text>
 <text x="627.0" y="460" class="small" text-anchor="middle">均值集成：预测</text>
 <rect x="792.5" y="186.66666666666666" width="105" height="233.33333333333334" fill="#8b5cf6" opacity=".85" />
 <text x="844.5" y="174.66666666666666" class="" text-anchor="middle">10</text>
 <text x="844.5" y="460" class="small" text-anchor="middle">真实值</text>
-</svg>
+<rect x="42" y="560" width="1036.0" height="105" rx="12" fill="#e5f2f4" /><text x="64" y="593" font-size="20" fill="#244c5e">对同一个真实值为十的样本，两个回归器分别预测八与十二，简单平均得到十，因而恰好抵消了误差</text><text x="64" y="621" font-size="20" fill="#244c5e">。</text></svg>

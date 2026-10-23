@@ -16,6 +16,7 @@
   - [4.1 负 log 概率乘固定权重](#policy-3-detail-9)
   - [4.2 按回合还是按有效步平均](#policy-3-detail-10)
   - [4.3 实验二：基线梯度的额外路径](#policy-3-detail-11)
+  - [深入图解：不停止优势梯度会多出一条参数依赖路径](#visual-insight-policybasedmethods-03)
 - [5. 从回报到 GAE 的数据接口](#policy-3-detail-12)
   - [5.1 旧价值与真实下一状态](#policy-3-detail-13)
   - [5.2 优势中心化不是无害重命名](#policy-3-detail-14)
@@ -231,6 +232,15 @@ print('actor_gradient',good_grads[0].item(),'unwanted_baseline_gradient',bad_gra
 ```
 
 共享主干时，critic 的独立损失仍可训练共同参数；这里禁止的是 actor 权重构造中未声明的额外导数。应分别反向每个目标，理解每条路径，再检查合并更新。某参数有梯度不等于更新正确，也不保证它被当前优化器持有。
+
+<a id="visual-insight-policybasedmethods-03"></a>
+### 深入图解：不停止优势梯度会多出一条参数依赖路径
+
+![不停止优势梯度会多出一条参数依赖路径](images/03-insight.svg)
+
+构造单个已采样动作，其概率为 sigmoid(theta)，奖励一，基线同样取 theta。actor 损失为负对数概率乘一减 theta；把优势当固定权重时，只保留对数概率的导数，若让梯度穿过优势，会多出对数 sigmoid(theta) 项。参数零处正确半梯度为负零点五，错误全导数约负一点一九三一。图仅用于说明计算图权限，不是完整策略目标的无偏性证明；真实共享网络中 critic 自己的损失仍可更新共享参数，但不应无意混入 actor 的优势权重路径。
+
+
 
 <a id="sec-4"></a>
 
