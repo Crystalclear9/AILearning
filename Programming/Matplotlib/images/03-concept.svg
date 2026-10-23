@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1240" viewBox="0 0 1500 1240" role="img" aria-labelledby="plateTitle plateDesc"><title id="plateTitle">配对差值与独立重复</title><desc id="plateDesc">B 对三个相同对象逐项作差，得到 1、1、1。C 使用本例样本方差：A 与 B 各为 9；忽略配对会按两个独立均值计算出约 2.449 的差值标准误差，而实际配对差的样本标准差为零。这里的零只来自这组构造数据，不能解释为所有未来对象都没有不确定性。</desc><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif"><rect x="0" y="0" width="1500" height="1240" rx="0" fill="white" stroke="white"/><text x="70" y="75" font-size="36" fill="#19354a" text-anchor="start" font-weight="700">配对差值与独立重复</text><text x="1430" y="78" font-size="22" fill="#5c7281" text-anchor="end" font-weight="400">Matplotlib</text><path d="M70,115 L1430,115" fill="none" stroke="#19354a" stroke-width="2"/><rect x="70" y="155" width="1360" height="635" rx="8" fill="white" stroke="#d0dfe6"/><rect x="70" y="825" width="650" height="360" rx="8" fill="white" stroke="#d0dfe6"/><rect x="780" y="825" width="650" height="360" rx="8" fill="white" stroke="#d0dfe6"/><text x="95" y="199" font-size="27" fill="#168a83" text-anchor="start" font-weight="700">A</text><text x="140" y="199" font-size="27" fill="#19354a" text-anchor="start" font-weight="700">同一对象的配对差值</text><text x="95" y="869" font-size="27" fill="#168a83" text-anchor="start" font-weight="700">B</text><text x="140" y="869" font-size="25" fill="#19354a" text-anchor="start" font-weight="400">差值稳定而原分数波动</text><text x="96" y="924" font-size="21" fill="#19354a" text-anchor="start" font-weight="400">模型 A</text><rect x="281" y="900" width="131.333" height="63" rx="8" fill="#e1f0eb" stroke="#d5e1e8"/><text x="346.667" y="938.5" font-size="22" fill="#19354a" text-anchor="middle" font-weight="400">4</text><rect x="419.333" y="900" width="131.333" height="63" rx="8" fill="#e1f0eb" stroke="#d5e1e8"/><text x="485" y="938.5" font-size="22" fill="#19354a" text-anchor="middle" font-weight="400">7</text><rect x="557.667" y="900" width="131.333" height="63" rx="8" fill="#e1f0eb" stroke="#d5e1e8"/><text x="623.333" y="938.5" font-size="22" fill="#19354a" text-anchor="middle" font-weight="400">10</text><text x="96" y="994" font-size="21" fill="#19354a" text-anchor="start" font-weight="400">模型 B</text><rect x="281" y="970" width="131.333" height="63" rx="8" fill="#edf2f8" stroke="#d5e1e8"/><text x="346.667" y="1008.5" font-size="22" fill="#19354a" text-anchor="middle" font-weight="400">3</text><rect x="419.333" y="970" width="131.333" height="63" rx="8" fill="#edf2f8" stroke="#d5e1e8"/><text x="485" y="1008.5" font-size="22" fill="#19354a" text-anchor="middle" font-weight="400">6</text><rect x="557.667" y="970" width="131.333" height="63" rx="8" fill="#edf2f8" stroke="#d5e1e8"/><text x="623.333" y="1008.5" font-size="22" fill="#19354a" text-anchor="middle" font-weight="400">9</text><text x="96" y="1064" font-size="21" fill="#19354a" text-anchor="start" font-weight="400">逐项 A−B</text><rect x="281" y="1040" width="131.333" height="63" rx="8" fill="#f9e9d9" stroke="#d5e1e8"/><text x="346.667" y="1078.5" font-size="22" fill="#19354a" text-anchor="middle" font-weight="400">1</text><rect x="419.333" y="1040" width="131.333" height="63" rx="8" fill="#f9e9d9" stroke="#d5e1e8"/><text x="485" y="1078.5" font-size="22" fill="#19354a" text-anchor="middle" font-weight="400">1</text><rect x="557.667" y="1040" width="131.333" height="63" rx="8" fill="#f9e9d9" stroke="#d5e1e8"/><text x="623.333" y="1078.5" font-size="22" fill="#19354a" text-anchor="middle" font-weight="400">1</text><text x="96" y="1144" font-size="20" fill="#5c7281" text-anchor="start" font-weight="400">差值均值为 1，样本标准差为 0</text><text x="805" y="869" font-size="27" fill="#d17c3e" text-anchor="start" font-weight="700">C</text><text x="850" y="869" font-size="25" fill="#19354a" text-anchor="start" font-weight="400">忽略配对会丢失协方差</text><path d="M866,1085 L1381,1085" fill="none" stroke="#dde7ed" stroke-width="2"/><text x="856" y="1091" font-size="18" fill="#5c7281" text-anchor="end" font-weight="400">0</text><path d="M866,1029.33 L1381,1029.33" fill="none" stroke="#dde7ed" stroke-width="2"/><text x="856" y="1035.33" font-size="18" fill="#5c7281" text-anchor="end" font-weight="400">1</text><path d="M866,973.667 L1381,973.667" fill="none" stroke="#dde7ed" stroke-width="2"/><text x="856" y="979.667" font-size="18" fill="#5c7281" text-anchor="end" font-weight="400">2</text><path d="M866,918 L1381,918" fill="none" stroke="#dde7ed" stroke-width="2"/><text x="856" y="924" font-size="18" fill="#5c7281" text-anchor="end" font-weight="400">3</text><text x="994.75" y="1075" font-size="24" fill="#19354a" text-anchor="middle" font-weight="400">0</text><text x="869" y="1113" font-size="20" fill="#19354a" text-anchor="start" font-weight="400">配对差均值 SE</text><rect x="1209.25" y="948.645" width="86" height="136.355" rx="3" fill="#d17c3e" stroke="#d17c3e"/><text x="1252.25" y="938.645" font-size="24" fill="#19354a" text-anchor="middle" font-weight="400">2.449</text><text x="1126.5" y="1113" font-size="20" fill="#19354a" text-anchor="start" font-weight="400">错误忽略配对 SE</text><text x="806" y="1153" font-size="20" fill="#5c7281" text-anchor="start" font-weight="400">标准误差（这个构造例子）</text></g><svg xmlns="http://www.w3.org/2000/svg" width="1340" height="530" viewBox="0 85 1200.0 590.0" role="img" x="80" y="225" preserveAspectRatio="xMidYMid meet">
 <title>配对差值与独立重复</title><desc>同一行连接的是同一个实验对象，两模型分数各自有波动，但差值在示例里恒为一。比较差值时，配对协方差是重要信息，不能只根据两组误差条是否重叠判断差异。 该例只是展示配对机制，不意味着三次重复足够给出可靠推断。对象必须真正对应；相同数组下标或相同种子编号本身不能建立合法配对。</desc>
-<rect width="1200" height="680" fill="white"/>
 <g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#18324d">
 <text x="40" y="48" font-size="30" fill="#18324d" text-anchor="start">配对差值与独立重复</text>
 <text x="180" y="110" font-size="23" fill="#18324d" text-anchor="start">蓝点：模型 A=[4,7,10]    橙点：模型 B=[3,6,9]    差值 A−B=1</text>
-<line x1="180" y1="510" x2="1110" y2="510" stroke="#64748b" stroke-width="3"/>
-<line x1="180" y1="510" x2="180" y2="160" stroke="#64748b" stroke-width="3"/>
+<line x1="180" y1="510" x2="1110" y2="510" stroke="#64748b" stroke-width="3" />
+<line x1="180" y1="510" x2="180" y2="160" stroke="#64748b" stroke-width="3" />
 <text x="210" y="545" font-size="18" fill="#18324d" text-anchor="middle">0</text>
 <text x="292" y="545" font-size="18" fill="#18324d" text-anchor="middle">1</text>
 <text x="374" y="545" font-size="18" fill="#18324d" text-anchor="middle">2</text>
@@ -18,21 +17,20 @@
 <text x="948" y="545" font-size="18" fill="#18324d" text-anchor="middle">9</text>
 <text x="1030" y="545" font-size="18" fill="#18324d" text-anchor="middle">10</text>
 <text x="155" y="212" font-size="21" fill="#18324d" text-anchor="end">对象 1</text>
-<line x1="456" y1="205" x2="538" y2="205" stroke="#64748b" stroke-width="3"/>
-<circle cx="538" cy="205" r="10" fill="#2563eb"/>
-<circle cx="456" cy="205" r="10" fill="#e07828"/>
+<line x1="456" y1="205" x2="538" y2="205" stroke="#64748b" stroke-width="3" />
+<circle cx="538" cy="205" r="10" fill="#2563eb" />
+<circle cx="456" cy="205" r="10" fill="#e07828" />
 <text x="497" y="178" font-size="20" fill="#059669" text-anchor="middle">A−B = 1</text>
 <text x="155" y="332" font-size="21" fill="#18324d" text-anchor="end">对象 2</text>
-<line x1="702" y1="325" x2="784" y2="325" stroke="#64748b" stroke-width="3"/>
-<circle cx="784" cy="325" r="10" fill="#2563eb"/>
-<circle cx="702" cy="325" r="10" fill="#e07828"/>
+<line x1="702" y1="325" x2="784" y2="325" stroke="#64748b" stroke-width="3" />
+<circle cx="784" cy="325" r="10" fill="#2563eb" />
+<circle cx="702" cy="325" r="10" fill="#e07828" />
 <text x="743" y="298" font-size="20" fill="#059669" text-anchor="middle">A−B = 1</text>
 <text x="155" y="452" font-size="21" fill="#18324d" text-anchor="end">对象 3</text>
-<line x1="948" y1="445" x2="1030" y2="445" stroke="#64748b" stroke-width="3"/>
-<circle cx="1030" cy="445" r="10" fill="#2563eb"/>
-<circle cx="948" cy="445" r="10" fill="#e07828"/>
+<line x1="948" y1="445" x2="1030" y2="445" stroke="#64748b" stroke-width="3" />
+<circle cx="1030" cy="445" r="10" fill="#2563eb" />
+<circle cx="948" cy="445" r="10" fill="#e07828" />
 <text x="989" y="418" font-size="20" fill="#059669" text-anchor="middle">A−B = 1</text>
 <text x="1110" y="580" font-size="20" fill="#18324d" text-anchor="end">模型分数</text>
 <text x="190" y="607" font-size="23" fill="#18324d" text-anchor="start">三行连线对应同一对象；两组分数波动大，但配对差值恒为 1。</text>
-<text x="40" y="650" font-size="18" fill="#64748b" text-anchor="start">原创教学图 · 本地矢量图；数值与适用条件见正文图解</text>
-</g></svg>
+</g></svg></svg>
