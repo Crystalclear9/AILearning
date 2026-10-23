@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>HMM 把隐状态的时间依赖与局部观测区分开</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">HMM 把隐状态的时间依赖与局部观测区分开</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<rect x="120" y="130" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="235.0" y="172.0" class="" text-anchor="middle">隐状态 z_1</text>
+<rect x="120" y="340" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="235.0" y="382.0" class="" text-anchor="middle">观测 x_1</text>
+<line x1="235" y1="200" x2="235" y2="337" stroke="#dc6325" stroke-width="3" stroke-dasharray="" />
+<text x="255" y="275" class="small" text-anchor="start">发射</text>
+<line x1="350" y1="165" x2="468" y2="165" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<text x="400" y="145" class="small" text-anchor="middle">转移</text>
+<rect x="470" y="130" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="585.0" y="172.0" class="" text-anchor="middle">隐状态 z_2</text>
+<rect x="470" y="340" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="585.0" y="382.0" class="" text-anchor="middle">观测 x_2</text>
+<line x1="585" y1="200" x2="585" y2="337" stroke="#dc6325" stroke-width="3" stroke-dasharray="" />
+<text x="605" y="275" class="small" text-anchor="start">发射</text>
+<line x1="700" y1="165" x2="818" y2="165" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<text x="750" y="145" class="small" text-anchor="middle">转移</text>
+<rect x="820" y="130" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="935.0" y="172.0" class="" text-anchor="middle">隐状态 z_3</text>
+<rect x="820" y="340" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="935.0" y="382.0" class="" text-anchor="middle">观测 x_3</text>
+<line x1="935" y1="200" x2="935" y2="337" stroke="#dc6325" stroke-width="3" stroke-dasharray="" />
+<text x="955" y="275" class="small" text-anchor="start">发射</text>
+</svg>

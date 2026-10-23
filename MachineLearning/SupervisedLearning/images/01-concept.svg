@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>逻辑回归把线性分数压到概率区间</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">逻辑回归把线性分数压到概率区间</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<line x1="100" y1="420" x2="1040" y2="420" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<line x1="100" y1="420" x2="100" y2="125" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<polyline points="100.0,414.867617107943 215.0,406.5987780040733 330.0,386.06924643584523 445.0,343.29938900203666 560.0,277.4338085539715 675.0,211.56822810590631 790.0,168.79837067209778 905.0,148.26883910386965 1020.0,140.0" fill="none" stroke="#2563eb" stroke-width="4" />
+<text x="130" y="100" class="small" text-anchor="start" style="fill:#2563eb">sigmoid(z)</text>
+<circle cx="100.0" cy="414.867617107943" r="5" fill="#2563eb" />
+<circle cx="215.0" cy="406.5987780040733" r="5" fill="#2563eb" />
+<circle cx="330.0" cy="386.06924643584523" r="5" fill="#2563eb" />
+<circle cx="445.0" cy="343.29938900203666" r="5" fill="#2563eb" />
+<circle cx="560.0" cy="277.4338085539715" r="5" fill="#2563eb" />
+<circle cx="675.0" cy="211.56822810590631" r="5" fill="#2563eb" />
+<circle cx="790.0" cy="168.79837067209778" r="5" fill="#2563eb" />
+<circle cx="905.0" cy="148.26883910386965" r="5" fill="#2563eb" />
+<circle cx="1020.0" cy="140.0" r="5" fill="#2563eb" />
+<text x="1040" y="455" class="small" text-anchor="end">自左向右的横轴取值见正文</text>
+<text x="70" y="145" class="small" text-anchor="end">0.982</text>
+<text x="70" y="420" class="small" text-anchor="end">0</text>
+</svg>

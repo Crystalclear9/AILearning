@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>回归误差随目标区间变化时平均指标会遮蔽问题</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">回归误差随目标区间变化时平均指标会遮蔽问题</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<line x1="90" y1="420.0" x2="1060" y2="420.0" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<rect x="140.0" y="373.3333333333333" width="105" height="46.666666666666686" fill="#2563eb" opacity=".85" />
+<text x="192.0" y="361.3333333333333" class="" text-anchor="middle">2</text>
+<text x="192.0" y="460" class="small" text-anchor="middle">低目标区间：MAE</text>
+<rect x="430.0" y="350.0" width="105" height="70.0" fill="#dc6325" opacity=".85" />
+<text x="482.0" y="338.0" class="" text-anchor="middle">3</text>
+<text x="482.0" y="460" class="small" text-anchor="middle">中目标区间：MAE</text>
+<rect x="720.0" y="140.0" width="105" height="280.0" fill="#10a37f" opacity=".85" />
+<text x="772.0" y="128.0" class="" text-anchor="middle">12</text>
+<text x="772.0" y="460" class="small" text-anchor="middle">高目标区间：MAE</text>
+</svg>

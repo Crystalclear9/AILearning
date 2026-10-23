@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>图像坐标到分类输出</title>
+<desc>原创教学示意：图像张量|H×W×3，记录颜色顺序;预处理|缩放并使用固定归一化;特征编码|局部模式汇总为向量;分类头|输出类别 logit</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">图像坐标到分类输出</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">图像张量</text>
+<text x="53" y="160" font-size="21" fill="#16324f">H×W×3，记录颜色顺序</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">预处理</text>
+<text x="603" y="160" font-size="21" fill="#16324f">缩放并使用固定归一化</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">特征编码</text>
+<text x="53" y="330" font-size="21" fill="#16324f">局部模式汇总为向量</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">分类头</text>
+<text x="603" y="330" font-size="21" fill="#16324f">输出类别 logit</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="35" y="500" font-size="20" fill="#173c53">空间张量保留坐标；分类向量只回答类别</text><text x="70" y="534" font-size="20" fill="#173c53">像素网格 H×W</text><rect x="70" y="550" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="98" y="550" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="126" y="550" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="154" y="550" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="182" y="550" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="70" y="578" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="98" y="578" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="126" y="578" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="154" y="578" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="182" y="578" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="70" y="606" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="98" y="606" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="126" y="606" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="154" y="606" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="182" y="606" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="70" y="634" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="98" y="634" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="126" y="634" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="154" y="634" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="182" y="634" width="25" height="25" rx="7" fill="#dfedf7" stroke="#8faabc"/><path d="M240,605 L350,605" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="365" y="570" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="377" y="600" font-size="23" fill="#173c53">编码器</text><text x="377" y="629" font-size="18" fill="#173c53">聚合空间模式</text><path d="M585,605 L690,605" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="705" y="570" width="320" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="717" y="600" font-size="23" fill="#173c53">类别 logits</text><text x="717" y="629" font-size="18" fill="#173c53">猫：2.1；狗：-0.3</text></g></svg>

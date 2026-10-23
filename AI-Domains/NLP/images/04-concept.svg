@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>生成评估先固定参考与判定规则</title>
+<desc>原创教学示意：输入问题|保留任务上下文;参考集合|允许多个正确表达;自动评估|区分词面、语义与事实;人工复核|检查严重错误与分歧</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">生成评估先固定参考与判定规则</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">输入问题</text>
+<text x="53" y="160" font-size="21" fill="#16324f">保留任务上下文</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">参考集合</text>
+<text x="603" y="160" font-size="21" fill="#16324f">允许多个正确表达</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">自动评估</text>
+<text x="53" y="330" font-size="21" fill="#16324f">区分词面、语义与事实</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">人工复核</text>
+<text x="603" y="330" font-size="21" fill="#16324f">检查严重错误与分歧</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="35" y="500" font-size="20" fill="#173c53">参考：“数量为3”；词面接近和事实正确不是同一件事</text><rect x="55" y="560" width="450" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="67" y="590" font-size="23" fill="#173c53">候选 A：数量为4</text><text x="67" y="619" font-size="18" fill="#173c53">改了关键数值</text><rect x="605" y="560" width="450" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="617" y="590" font-size="23" fill="#173c53">候选 B：一共有三个</text><text x="617" y="619" font-size="18" fill="#173c53">措辞不同，事实相同</text><text x="65" y="710" font-size="20" fill="#173c53">高词面重合可能掩盖事实错误</text><text x="620" y="710" font-size="20" fill="#173c53">低词面重合也可能是合理改写</text><text x="120" y="755" font-size="20" fill="#173c53">先固定可接受语义与严重错误规则，再比较自动指标和人工判断。</text></g></svg>

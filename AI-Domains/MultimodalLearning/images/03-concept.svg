@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>交叉注意力怎样连接不同长度</title>
+<desc>原创教学示意：视觉 token|S 个位置;文本查询|T 个位置;跨模态权重|T×S 的读取矩阵;融合输出|保留 T 个查询位置</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">交叉注意力怎样连接不同长度</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">视觉 token</text>
+<text x="53" y="160" font-size="21" fill="#16324f">S 个位置</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">文本查询</text>
+<text x="603" y="160" font-size="21" fill="#16324f">T 个位置</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">跨模态权重</text>
+<text x="53" y="330" font-size="21" fill="#16324f">T×S 的读取矩阵</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">融合输出</text>
+<text x="603" y="330" font-size="21" fill="#16324f">保留 T 个查询位置</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="395" y="529" font-size="20" fill="#173c53">示例 T=2，S=4；权重形状 2×4</text><rect x="395" y="545" width="45" height="45" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="443" y="545" width="45" height="45" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="491" y="545" width="45" height="45" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="539" y="545" width="45" height="45" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="395" y="593" width="45" height="45" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="443" y="593" width="45" height="45" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="491" y="593" width="45" height="45" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="539" y="593" width="45" height="45" rx="7" fill="#dfedf7" stroke="#8faabc"/><text x="65" y="590" font-size="20" fill="#173c53">2 个文本查询 Q</text><path d="M260,590 L380,590" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><text x="745" y="560" font-size="20" fill="#173c53">4 个视觉键和值</text><path d="M750,575 L610,590" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><path d="M600,640 L750,680" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="765" y="655" width="260" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="777" y="685" font-size="23" fill="#173c53">融合输出</text><text x="777" y="714" font-size="18" fill="#173c53">仍为 2 个查询位置</text><text x="60" y="750" font-size="20" fill="#173c53">矩阵每一行对应一个文本位置对4个视觉候选的读取，不要求两侧等长。</text></g></svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img">
+<title>数据坐标与画布坐标</title><desc>图中把数据位置和显示位置分成两层。数据点先依照轴范围与缩放规则映入 Axes，再依照画布尺寸确定像素位置。比较模型曲线时，应先固定数据单位和轴范围，再决定图像尺寸。 箭头表示坐标映射，不是数据处理。对数轴改变映射函数；改字号、边距或导出分辨率也可能改变像素位置，但不会让原数据点的数值变成另一条观测。</desc>
+<rect width="1200" height="680" fill="white" />
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#64748b" /></marker></defs>
+<g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#18324d">
+<text x="40" y="48" font-size="30" fill="#18324d" text-anchor="start">数据坐标与画布坐标</text>
+<rect x="60" y="105" width="470" height="440" rx="6" fill="#f8fafc" stroke="#64748b" />
+<text x="75" y="135" font-size="23" fill="#18324d" text-anchor="start">Figure：显示像素画布</text>
+<line x1="130" y1="470" x2="460" y2="470" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" />
+<line x1="130" y1="470" x2="130" y2="215" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" />
+<text x="460" y="525" font-size="18" fill="#18324d" text-anchor="end">数据 x</text>
+<text x="130" y="197" font-size="18" fill="#18324d" text-anchor="start">数据 y</text>
+<text x="130" y="498" font-size="16" fill="#18324d" text-anchor="middle">0</text>
+<text x="115" y="470" font-size="16" fill="#18324d" text-anchor="end">0</text>
+<text x="295.0" y="498" font-size="16" fill="#18324d" text-anchor="middle">0.5</text>
+<text x="115" y="342.5" font-size="16" fill="#18324d" text-anchor="end">0.5</text>
+<text x="460" y="498" font-size="16" fill="#18324d" text-anchor="middle">1</text>
+<text x="115" y="215" font-size="16" fill="#18324d" text-anchor="end">1</text>
+<circle cx="295" cy="342.5" r="7" fill="#2563eb" />
+<text x="315" y="330" font-size="19" fill="#2563eb" text-anchor="start">数据点 (0.5, 0.5)</text>
+<text x="140" y="555" font-size="20" fill="#18324d" text-anchor="start">Axes 内的位置由数据范围确定</text>
+<line x1="540" y1="320" x2="650" y2="320" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" marker-end="url(#a)" />
+<text x="580" y="295" font-size="18" fill="#18324d" text-anchor="middle">映射</text>
+<rect x="690" y="105" width="450" height="440" rx="6" fill="#f8fafc" stroke="#64748b" />
+<text x="715" y="145" font-size="22" fill="#18324d" text-anchor="start">同一数据点，不同显示像素位置</text>
+<rect x="735" y="195" width="340" height="230" rx="6" fill="white" stroke="#64748b" />
+<line x1="760" y1="395" x2="1045" y2="395" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" />
+<line x1="760" y1="395" x2="760" y2="220" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" />
+<circle cx="902.5" cy="307.5" r="7" fill="#e07828" />
+<line x1="902.5" y1="307.5" x2="902.5" y2="395" stroke="#e07828" stroke-width="2.5" stroke-dasharray="5 4" />
+<line x1="760" y1="307.5" x2="902.5" y2="307.5" stroke="#e07828" stroke-width="2.5" stroke-dasharray="5 4" />
+<text x="800" y="465" font-size="19" fill="#18324d" text-anchor="start">像素位置还受边距、尺寸影响</text>
+<text x="720" y="510" font-size="18" fill="#18324d" text-anchor="start">对数轴：改变数据到显示的映射函数</text>
+<text x="40" y="650" font-size="18" fill="#64748b" text-anchor="start">原创教学图 · 本地矢量图；数值与适用条件见正文图解</text>
+</g></svg>

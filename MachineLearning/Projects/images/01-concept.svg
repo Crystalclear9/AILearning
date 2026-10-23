@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>时间协议把训练窗口与标签成熟时间同时画出</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">时间协议把训练窗口与标签成熟时间同时画出</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<line x1="90" y1="260" x2="1030" y2="260" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<line x1="205" y1="230" x2="205" y2="290" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<text x="205" y="210" class="" text-anchor="middle">历史训练样本</text>
+<text x="205" y="330" class="" text-anchor="middle">时序位置 1</text>
+<line x1="555" y1="230" x2="555" y2="290" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<text x="555" y="210" class="" text-anchor="middle">切分时点与缓冲</text>
+<text x="555" y="330" class="" text-anchor="middle">时序位置 2</text>
+<line x1="905" y1="230" x2="905" y2="290" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<text x="905" y="210" class="" text-anchor="middle">未来成熟标签</text>
+<text x="905" y="330" class="" text-anchor="middle">时序位置 3</text>
+<line x1="555" y1="150" x2="555" y2="410" stroke="#dc6325" stroke-width="3" stroke-dasharray="8 6" />
+<text x="555" y="445" class="" text-anchor="middle">边界两侧的信息角色不同</text>
+</svg>

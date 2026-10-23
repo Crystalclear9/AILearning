@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>分类、标注与生成的输出单位</title>
+<desc>原创教学示意：文本分类|整段文本一个类别;序列标注|多个位置对应标签;文本生成|逐步输出 token;评价单位|样本、实体或序列分别统计</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">分类、标注与生成的输出单位</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">文本分类</text>
+<text x="53" y="160" font-size="21" fill="#16324f">整段文本一个类别</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">序列标注</text>
+<text x="603" y="160" font-size="21" fill="#16324f">多个位置对应标签</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">文本生成</text>
+<text x="53" y="330" font-size="21" fill="#16324f">逐步输出 token</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">评价单位</text>
+<text x="603" y="330" font-size="21" fill="#16324f">样本、实体或序列分别统计</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="35" y="500" font-size="20" fill="#173c53">同一句“北京下雨”：不同任务要求不同输出粒度</text><rect x="55" y="560" width="320" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="67" y="590" font-size="23" fill="#173c53">分类</text><text x="67" y="619" font-size="18" fill="#173c53">整句 → 天气描述</text><rect x="405" y="560" width="320" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="417" y="590" font-size="23" fill="#173c53">标注</text><text x="417" y="619" font-size="18" fill="#173c53">北京 → 地点实体</text><rect x="755" y="560" width="320" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="767" y="590" font-size="23" fill="#173c53">生成</text><text x="767" y="619" font-size="18" fill="#173c53">逐词输出新句子</text><text x="80" y="710" font-size="20" fill="#173c53">分母：样本</text><text x="430" y="710" font-size="20" fill="#173c53">分母：token 或实体</text><text x="790" y="710" font-size="20" fill="#173c53">分母：token 或序列</text><text x="100" y="755" font-size="19" fill="#173c53">评价口径应与交付对象一致，而不是把三种结果都压成同一个“准确率”。</text></g></svg>

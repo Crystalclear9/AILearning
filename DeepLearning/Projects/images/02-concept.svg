@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="830" viewBox="0 0 1120 830" role="img">
+<title>最佳模型选择与最终评估</title>
+<desc>原创教学示意：训练轮 1|验证损失 0.6;训练轮 2|验证损失 0.4;训练轮 3|验证损失 0.5;选择轮 2|加载其检查点后测试</desc>
+<rect width="1120" height="830" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">最佳模型选择与最终评估</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">训练轮 1</text>
+<text x="53" y="160" font-size="21" fill="#16324f">验证损失 0.6</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">训练轮 2</text>
+<text x="603" y="160" font-size="21" fill="#16324f">验证损失 0.4</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">训练轮 3</text>
+<text x="53" y="330" font-size="21" fill="#16324f">验证损失 0.5</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">选择轮 2</text>
+<text x="603" y="330" font-size="21" fill="#16324f">加载其检查点后测试</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><text x="40" y="510" font-family="Microsoft YaHei,sans-serif" font-size="24" fill="#16324f">验证损失最低出现在第二轮，而不是最后一轮</text><path d="M130,720 L1000,720" fill="none" stroke="#718fa9" stroke-width="3"/><path d="M130,720 L130,535" fill="none" stroke="#718fa9" stroke-width="3"/><rect x="200" y="560" width="20" height="20" rx="5" fill="#82b598" stroke="#718fa9"/><text x="145" y="545" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#16324f">第1轮 0.6</text><path d="M210,570 L500,690" fill="none" stroke="#718fa9" stroke-width="3"/><rect x="490" y="680" width="20" height="20" rx="5" fill="#82b598" stroke="#718fa9"/><text x="435" y="665" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#16324f">第2轮 0.4</text><path d="M500,690 L790,630" fill="none" stroke="#718fa9" stroke-width="3"/><rect x="780" y="620" width="20" height="20" rx="5" fill="#82b598" stroke="#718fa9"/><text x="725" y="605" font-family="Microsoft YaHei,sans-serif" font-size="22" fill="#16324f">第3轮 0.5</text><text x="40" y="795" font-family="Microsoft YaHei,sans-serif" font-size="16" fill="#16324f">按最低验证损失选择第二轮并重新加载；测试集不能参与这一选择。</text></svg>

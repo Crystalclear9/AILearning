@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="830" viewBox="0 0 1120 830" role="img">
+<title>错误切片与消融的不同问题</title>
+<desc>原创教学示意：全体错误|定位主要失败类型;分组切片|比较人群、长度或场景;单因素消融|移除组件并重新训练;解释证据|区分关联与组件贡献</desc>
+<rect width="1120" height="830" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">错误切片与消融的不同问题</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">全体错误</text>
+<text x="53" y="160" font-size="21" fill="#16324f">定位主要失败类型</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">分组切片</text>
+<text x="603" y="160" font-size="21" fill="#16324f">比较人群、长度或场景</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">单因素消融</text>
+<text x="53" y="330" font-size="21" fill="#16324f">移除组件并重新训练</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">解释证据</text>
+<text x="603" y="330" font-size="21" fill="#16324f">区分关联与组件贡献</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><text x="40" y="510" font-family="Microsoft YaHei,sans-serif" font-size="24" fill="#16324f">切片分析与组件消融回答不同问题</text><rect x="50" y="555" width="460" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="65" y="585" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">错误切片</text><text x="65" y="620" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">同一模型按人群或场景分组</text><rect x="610" y="555" width="460" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="625" y="585" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">单因素消融</text><text x="625" y="620" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">更改组件后重新训练与评价</text><text x="80" y="705" font-family="Microsoft YaHei,sans-serif" font-size="24" fill="#16324f">问题：在哪里失败？</text><text x="650" y="705" font-family="Microsoft YaHei,sans-serif" font-size="24" fill="#16324f">问题：移除此组件后怎样？</text><text x="40" y="795" font-family="Microsoft YaHei,sans-serif" font-size="16" fill="#16324f">比较需报告样本量、预算和随机种子；二者均不能凭一次分数差得出无条件因果结论。</text></svg>

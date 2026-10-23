@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="830" viewBox="0 0 1120 830" role="img">
+<title>编码状态如何按解码步读取</title>
+<desc>原创教学示意：源序列|保留多个编码状态;当前解码状态|形成读取查询;注意力|对源位置分配权重;上下文|用于当前输出预测</desc>
+<rect width="1120" height="830" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">编码状态如何按解码步读取</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">源序列</text>
+<text x="53" y="160" font-size="21" fill="#16324f">保留多个编码状态</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">当前解码状态</text>
+<text x="603" y="160" font-size="21" fill="#16324f">形成读取查询</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">注意力</text>
+<text x="53" y="330" font-size="21" fill="#16324f">对源位置分配权重</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">上下文</text>
+<text x="603" y="330" font-size="21" fill="#16324f">用于当前输出预测</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><text x="40" y="510" font-family="Microsoft YaHei,sans-serif" font-size="24" fill="#16324f">当前解码状态提出查询，对多个源状态重新加权</text><rect x="40" y="550" width="230" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="55" y="580" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">源值 1</text><text x="55" y="615" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">2，权重 0.25</text><rect x="40" y="665" width="230" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="55" y="695" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">源值 2</text><text x="55" y="730" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">6，权重 0.75</text><path d="M270,590 L530,630" fill="none" stroke="#718fa9" stroke-width="3"/><path d="M270,705 L530,630" fill="none" stroke="#718fa9" stroke-width="3"/><rect x="540" y="590" width="300" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="555" y="620" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">上下文</text><text x="555" y="655" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">0.25×2＋0.75×6＝5</text><path d="M840,630 L900,630" fill="none" stroke="#718fa9" stroke-width="3"/><rect x="910" y="590" width="180" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="925" y="620" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">当前解码步</text><text x="925" y="655" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">用于输出预测</text><text x="40" y="795" font-family="Microsoft YaHei,sans-serif" font-size="16" fill="#16324f">下一解码步可重新计算权重；源长度与目标长度不必相同。</text></svg>

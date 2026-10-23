@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>邻居采样的计算树与重复节点</title>
+<desc>原创教学示意：种子节点|1 个目标节点;第一层采样|每节点最多取 2 个邻居;第二层采样|最多出现 4 个邻居槽位;计算范围|最多 1＋2＋4 个槽位</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">邻居采样的计算树与重复节点</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">种子节点</text>
+<text x="53" y="160" font-size="21" fill="#16324f">1 个目标节点</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">第一层采样</text>
+<text x="603" y="160" font-size="21" fill="#16324f">每节点最多取 2 个邻居</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">第二层采样</text>
+<text x="53" y="330" font-size="21" fill="#16324f">最多出现 4 个邻居槽位</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">计算范围</text>
+<text x="603" y="330" font-size="21" fill="#16324f">最多 1＋2＋4 个槽位</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="35" y="500" font-size="20" fill="#173c53">两层扇出各为2；相同节点可在不同依赖槽位重复出现</text><path d="M550,570 L300,595" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><path d="M550,570 L800,595" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><path d="M300,650 L150,695" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><path d="M300,650 L400,695" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><path d="M800,650 L700,695" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><path d="M800,650 L950,695" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><circle cx="550" cy="545" r="25" fill="#daedf7" stroke="#377999"/><text x="535" y="552" font-size="19" fill="#173c53">v</text><circle cx="300" cy="625" r="25" fill="#daedf7" stroke="#377999"/><text x="285" y="632" font-size="19" fill="#173c53">u1</text><circle cx="800" cy="625" r="25" fill="#daedf7" stroke="#377999"/><text x="785" y="632" font-size="19" fill="#173c53">u2</text><circle cx="150" cy="725" r="25" fill="#daedf7" stroke="#377999"/><text x="135" y="732" font-size="19" fill="#173c53">a</text><circle cx="400" cy="725" r="25" fill="#daedf7" stroke="#377999"/><text x="385" y="732" font-size="19" fill="#173c53">b</text><circle cx="700" cy="725" r="25" fill="#daedf7" stroke="#377999"/><text x="685" y="732" font-size="19" fill="#173c53">b</text><circle cx="950" cy="725" r="25" fill="#daedf7" stroke="#377999"/><text x="935" y="732" font-size="19" fill="#173c53">c</text><text x="50" y="555" font-size="23" fill="#173c53">7 个槽位</text><text x="50" y="585" font-size="20" fill="#173c53">只有 6 个不同节点</text><text x="35" y="775" font-size="19" fill="#173c53">树表示计算依赖，不表示原图无环；两个 b 槽位可合并索引。</text></g></svg>

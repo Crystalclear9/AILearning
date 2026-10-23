@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>最大间隔分类的边界与支持向量</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">最大间隔分类的边界与支持向量</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<line x1="120" y1="440" x2="1040" y2="440" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<line x1="120" y1="440" x2="120" y2="105" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<line x1="560" y1="110" x2="560" y2="430" stroke="#64748b" stroke-width="3" stroke-dasharray="" />
+<line x1="430" y1="110" x2="430" y2="430" stroke="#64748b" stroke-width="3" stroke-dasharray="8 6" />
+<line x1="690" y1="110" x2="690" y2="430" stroke="#64748b" stroke-width="3" stroke-dasharray="8 6" />
+<text x="560" y="100" class="" text-anchor="middle" style="fill:#dc6325">分类边界</text>
+<text x="430" y="470" class="" text-anchor="middle">间隔边界</text>
+<text x="690" y="470" class="" text-anchor="middle">间隔边界</text>
+<circle cx="300" cy="180" r="10" fill="#2563eb" />
+<circle cx="350" cy="320" r="10" fill="#2563eb" />
+<circle cx="430" cy="250" r="10" fill="#2563eb" />
+<circle cx="690" cy="190" r="10" fill="#dc6325" />
+<circle cx="780" cy="340" r="10" fill="#dc6325" />
+<circle cx="850" cy="230" r="10" fill="#dc6325" />
+</svg>

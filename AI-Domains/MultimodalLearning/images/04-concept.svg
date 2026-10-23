@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>音视频时间对齐的共同时间轴</title>
+<desc>原创教学示意：视频帧|0、40、80 毫秒;音频特征|0、20、40、60、80 毫秒;对齐策略|按窗口聚合或插值;同步检查|核对偏移与采样率</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">音视频时间对齐的共同时间轴</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">视频帧</text>
+<text x="53" y="160" font-size="21" fill="#16324f">0、40、80 毫秒</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">音频特征</text>
+<text x="603" y="160" font-size="21" fill="#16324f">0、20、40、60、80 毫秒</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">对齐策略</text>
+<text x="53" y="330" font-size="21" fill="#16324f">按窗口聚合或插值</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">同步检查</text>
+<text x="603" y="330" font-size="21" fill="#16324f">核对偏移与采样率</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="35" y="500" font-size="20" fill="#173c53">同一时间轴（毫秒）：同编号 ≠ 同时刻</text><text x="35" y="575" font-size="21" fill="#173c53">视频：40ms/帧</text><path d="M255,575 L1040,575" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><circle cx="300" cy="575" r="22" fill="#daedf7" stroke="#377999"/><text x="285" y="582" font-size="19" fill="#173c53">0</text><circle cx="620" cy="575" r="22" fill="#daedf7" stroke="#377999"/><text x="605" y="582" font-size="19" fill="#173c53">40</text><circle cx="940" cy="575" r="22" fill="#daedf7" stroke="#377999"/><text x="925" y="582" font-size="19" fill="#173c53">80</text><text x="35" y="700" font-size="21" fill="#173c53">音频：20ms/组</text><path d="M255,700 L1040,700" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><circle cx="300" cy="700" r="22" fill="#daedf7" stroke="#377999"/><text x="285" y="707" font-size="19" fill="#173c53">0</text><circle cx="460" cy="700" r="22" fill="#daedf7" stroke="#377999"/><text x="445" y="707" font-size="19" fill="#173c53">20</text><circle cx="620" cy="700" r="22" fill="#daedf7" stroke="#377999"/><text x="605" y="707" font-size="19" fill="#173c53">40</text><circle cx="780" cy="700" r="22" fill="#daedf7" stroke="#377999"/><text x="765" y="707" font-size="19" fill="#173c53">60</text><circle cx="940" cy="700" r="22" fill="#daedf7" stroke="#377999"/><text x="925" y="707" font-size="19" fill="#173c53">80</text><line x1="300" y1="598" x2="300" y2="677" stroke="#82a4ba" stroke-dasharray="5 5"/><line x1="620" y1="598" x2="620" y2="677" stroke="#82a4ba" stroke-dasharray="5 5"/><line x1="940" y1="598" x2="940" y2="677" stroke="#82a4ba" stroke-dasharray="5 5"/><text x="275" y="760" font-size="20" fill="#173c53">虚线按时间戳对齐；聚合窗口、插值与设备延迟需另行定义。</text></g></svg>

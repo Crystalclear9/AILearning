@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>动作饱和会把不同原始输出映射到相近控制量</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">动作饱和会把不同原始输出映射到相近控制量</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<line x1="100" y1="420" x2="1040" y2="420" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<line x1="100" y1="420" x2="100" y2="125" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<polyline points="100.0,420.0 253.33333333333334,415.63819095477385 406.6666666666667,387.21608040201005 560.0,280.0 713.3333333333334,172.78391959798995 866.6666666666666,144.3618090452261 1020.0,140.0" fill="none" stroke="#2563eb" stroke-width="4" />
+<text x="130" y="100" class="small" text-anchor="start" style="fill:#2563eb">tanh 原始控制输出</text>
+<circle cx="100.0" cy="420.0" r="5" fill="#2563eb" />
+<circle cx="253.33333333333334" cy="415.63819095477385" r="5" fill="#2563eb" />
+<circle cx="406.6666666666667" cy="387.21608040201005" r="5" fill="#2563eb" />
+<circle cx="560.0" cy="280.0" r="5" fill="#2563eb" />
+<circle cx="713.3333333333334" cy="172.78391959798995" r="5" fill="#2563eb" />
+<circle cx="866.6666666666666" cy="144.3618090452261" r="5" fill="#2563eb" />
+<circle cx="1020.0" cy="140.0" r="5" fill="#2563eb" />
+<text x="1040" y="455" class="small" text-anchor="end">自左向右的横轴取值见正文</text>
+<text x="70" y="145" class="small" text-anchor="end">0.995</text>
+<text x="70" y="420" class="small" text-anchor="end">-0.995</text>
+</svg>

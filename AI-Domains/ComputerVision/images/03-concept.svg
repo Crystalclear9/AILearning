@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>检测与分割输出为何不同</title>
+<desc>原创教学示意：共享图像特征|保留空间信息;检测分支|类别、置信度与边框;分割分支|逐像素类别或实例归属;评估匹配|分别检查区域与像素</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">检测与分割输出为何不同</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">共享图像特征</text>
+<text x="53" y="160" font-size="21" fill="#16324f">保留空间信息</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">检测分支</text>
+<text x="603" y="160" font-size="21" fill="#16324f">类别、置信度与边框</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">分割分支</text>
+<text x="53" y="330" font-size="21" fill="#16324f">逐像素类别或实例归属</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">评估匹配</text>
+<text x="603" y="330" font-size="21" fill="#16324f">分别检查区域与像素</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><rect x="35" y="580" width="250" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="47" y="610" font-size="23" fill="#173c53">共享空间特征</text><text x="47" y="639" font-size="18" fill="#173c53">同一图像</text><path d="M300,600 L445,550" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><path d="M300,630 L445,680" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="460" y="510" width="200" height="95" rx="7" fill="#edf5fb" stroke="#8faabc"/><rect x="495" y="528" width="115" height="60" rx="7" fill="#f7cfab" stroke="#8faabc"/><text x="710" y="565" font-size="20" fill="#173c53">检测：边框 + 类别</text><text x="460" y="619" font-size="20" fill="#173c53"></text><rect x="460" y="635" width="22" height="22" rx="7" fill="#99d0b6" stroke="#8faabc"/><rect x="485" y="635" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="510" y="635" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="535" y="635" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="560" y="635" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="460" y="660" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="485" y="660" width="22" height="22" rx="7" fill="#99d0b6" stroke="#8faabc"/><rect x="510" y="660" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="535" y="660" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="560" y="660" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="460" y="685" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="485" y="685" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="510" y="685" width="22" height="22" rx="7" fill="#99d0b6" stroke="#8faabc"/><rect x="535" y="685" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="560" y="685" width="22" height="22" rx="7" fill="#dfedf7" stroke="#8faabc"/><text x="710" y="680" font-size="20" fill="#173c53">分割：逐像素归属</text></g></svg>

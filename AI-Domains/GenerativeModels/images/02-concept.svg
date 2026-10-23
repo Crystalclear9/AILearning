@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>对抗训练中的两种更新</title>
+<desc>原创教学示意：真实样本|来自数据分布;生成样本|噪声经过生成器;判别器更新|区分真实与生成样本;生成器更新|通过固定判别器取得梯度</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">对抗训练中的两种更新</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">真实样本</text>
+<text x="53" y="160" font-size="21" fill="#16324f">来自数据分布</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">生成样本</text>
+<text x="603" y="160" font-size="21" fill="#16324f">噪声经过生成器</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">判别器更新</text>
+<text x="53" y="330" font-size="21" fill="#16324f">区分真实与生成样本</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">生成器更新</text>
+<text x="603" y="330" font-size="21" fill="#16324f">通过固定判别器取得梯度</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><rect x="50" y="535" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="62" y="565" font-size="23" fill="#173c53">真实样本 x</text><text x="62" y="594" font-size="18" fill="#173c53">来自数据</text><rect x="50" y="655" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="62" y="685" font-size="23" fill="#173c53">噪声 → G(z)</text><text x="62" y="714" font-size="18" fill="#173c53">生成样本</text><path d="M275,575 L480,620" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><path d="M275,690 L480,640" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="495" y="595" width="240" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="507" y="625" font-size="23" fill="#173c53">判别器 D</text><text x="507" y="654" font-size="18" fill="#173c53">比较来源</text><path d="M750,630 L850,630" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="865" y="595" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="877" y="625" font-size="23" fill="#173c53">生成器梯度</text><text x="877" y="654" font-size="18" fill="#173c53">穿过 D 回到 G</text><text x="360" y="750" font-size="20" fill="#173c53">更新 G 时固定 D 参数，仍保留对输入的求导路径。</text></g></svg>

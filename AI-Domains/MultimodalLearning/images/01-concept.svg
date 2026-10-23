@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>跨模态对比学习中的配对矩阵</title>
+<desc>原创教学示意：图像嵌入|批次中 3 个单位向量;文本嵌入|对应的 3 个单位向量;相似度矩阵|3×3，对角线是配对项;双向目标|图找文与文找图分别归一化</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">跨模态对比学习中的配对矩阵</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">图像嵌入</text>
+<text x="53" y="160" font-size="21" fill="#16324f">批次中 3 个单位向量</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">文本嵌入</text>
+<text x="603" y="160" font-size="21" fill="#16324f">对应的 3 个单位向量</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">相似度矩阵</text>
+<text x="53" y="330" font-size="21" fill="#16324f">3×3，对角线是配对项</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">双向目标</text>
+<text x="603" y="330" font-size="21" fill="#16324f">图找文与文找图分别归一化</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="380" y="529" font-size="20" fill="#173c53">图像行 × 文本列；绿色为已知配对</text><rect x="380" y="545" width="51" height="51" rx="7" fill="#99d0b6" stroke="#8faabc"/><rect x="434" y="545" width="51" height="51" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="488" y="545" width="51" height="51" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="380" y="599" width="51" height="51" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="434" y="599" width="51" height="51" rx="7" fill="#99d0b6" stroke="#8faabc"/><rect x="488" y="599" width="51" height="51" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="380" y="653" width="51" height="51" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="434" y="653" width="51" height="51" rx="7" fill="#dfedf7" stroke="#8faabc"/><rect x="488" y="653" width="51" height="51" rx="7" fill="#99d0b6" stroke="#8faabc"/><text x="140" y="580" font-size="20" fill="#173c53">图像→文本：按行</text><path d="M560,570 L850,570" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><text x="700" y="620" font-size="20" fill="#173c53">文本→图像：按列</text><path d="M408,720 L408,755" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><text x="650" y="720" font-size="20" fill="#173c53">两方向的归一化分母不同</text></g></svg>

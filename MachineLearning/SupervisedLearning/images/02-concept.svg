@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>决策树通过分裂改变叶内类别混合</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">决策树通过分裂改变叶内类别混合</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<rect x="320" y="115" width="480" height="75" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="560.0" y="159.5" class="" text-anchor="middle">父节点：正 6 / 负 6</text>
+<line x1="560" y1="190" x2="285" y2="300" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<rect x="40" y="300" width="490" height="90" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="285.0" y="352.0" class="" text-anchor="middle">左叶：正 5 / 负 1</text>
+<line x1="560" y1="190" x2="825" y2="300" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<rect x="580" y="300" width="490" height="90" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="825.0" y="352.0" class="" text-anchor="middle">右叶：正 1 / 负 5</text>
+</svg>

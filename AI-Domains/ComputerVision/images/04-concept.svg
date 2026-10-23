@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>鲁棒性评估要固定标签语义</title>
+<desc>原创教学示意：原始图像|确定任务与真实标签;受控扰动|模糊、亮度或压缩;同一模型|保持参数与阈值固定;分组比较|报告性能与失效样例</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">鲁棒性评估要固定标签语义</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">原始图像</text>
+<text x="53" y="160" font-size="21" fill="#16324f">确定任务与真实标签</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">受控扰动</text>
+<text x="603" y="160" font-size="21" fill="#16324f">模糊、亮度或压缩</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">同一模型</text>
+<text x="53" y="330" font-size="21" fill="#16324f">保持参数与阈值固定</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">分组比较</text>
+<text x="603" y="330" font-size="21" fill="#16324f">报告性能与失效样例</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="35" y="500" font-size="20" fill="#173c53">同一物体、同一真实标签；仅改变可控亮度</text><rect x="75" y="545" width="230" height="130" rx="7" fill="#496680" stroke="#8faabc"/><circle cx="190" cy="610" r="35" fill="#e6b878"/><text x="75" y="714" font-size="20" fill="#173c53">原始</text><text x="75" y="746" font-size="18" fill="#173c53">模型参数与阈值固定</text><rect x="405" y="545" width="230" height="130" rx="7" fill="#8ea7ba" stroke="#8faabc"/><circle cx="520" cy="610" r="35" fill="#e6b878"/><text x="405" y="714" font-size="20" fill="#173c53">较亮</text><text x="405" y="746" font-size="18" fill="#173c53">模型参数与阈值固定</text><rect x="735" y="545" width="230" height="130" rx="7" fill="#ccd9e2" stroke="#8faabc"/><circle cx="850" cy="610" r="35" fill="#e6b878"/><text x="735" y="714" font-size="20" fill="#173c53">更亮</text><text x="735" y="746" font-size="18" fill="#173c53">模型参数与阈值固定</text></g></svg>

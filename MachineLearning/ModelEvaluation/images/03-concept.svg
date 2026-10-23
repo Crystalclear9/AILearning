@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>相同排序可以有不同的概率校准误差</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">相同排序可以有不同的概率校准误差</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<line x1="90" y1="420.0" x2="1060" y2="420.0" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<rect x="140.0" y="388.8888888888889" width="105" height="31.111111111111086" fill="#2563eb" opacity=".85" />
+<text x="192.0" y="376.8888888888889" class="" text-anchor="middle">0.1</text>
+<text x="192.0" y="460" class="small" text-anchor="middle">低风险组：预测</text>
+<rect x="357.5" y="342.22222222222223" width="105" height="77.77777777777777" fill="#dc6325" opacity=".85" />
+<text x="409.5" y="330.22222222222223" class="" text-anchor="middle">0.25</text>
+<text x="409.5" y="460" class="small" text-anchor="middle">低风险组：实际</text>
+<rect x="575.0" y="140.0" width="105" height="280.0" fill="#10a37f" opacity=".85" />
+<text x="627.0" y="128.0" class="" text-anchor="middle">0.9</text>
+<text x="627.0" y="460" class="small" text-anchor="middle">高风险组：预测</text>
+<rect x="792.5" y="202.22222222222223" width="105" height="217.77777777777777" fill="#8b5cf6" opacity=".85" />
+<text x="844.5" y="190.22222222222223" class="" text-anchor="middle">0.7</text>
+<text x="844.5" y="460" class="small" text-anchor="middle">高风险组：实际</text>
+</svg>

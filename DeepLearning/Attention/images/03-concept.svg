@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="830" viewBox="0 0 1120 830" role="img">
+<title>多头的形状拆分与拼接</title>
+<desc>原创教学示意：输入|B×T×8;拆成 2 头|每头 B×T×4;逐头读取|T×T 权重乘 T×4 值;拼接投影|恢复 B×T×8</desc>
+<rect width="1120" height="830" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">多头的形状拆分与拼接</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">输入</text>
+<text x="53" y="160" font-size="21" fill="#16324f">B×T×8</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">拆成 2 头</text>
+<text x="603" y="160" font-size="21" fill="#16324f">每头 B×T×4</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">逐头读取</text>
+<text x="53" y="330" font-size="21" fill="#16324f">T×T 权重乘 T×4 值</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">拼接投影</text>
+<text x="603" y="330" font-size="21" fill="#16324f">恢复 B×T×8</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><text x="40" y="510" font-family="Microsoft YaHei,sans-serif" font-size="24" fill="#16324f">多头拆分：时间轴 T 不变，特征维 8 分成两个 4</text><rect x="40" y="575" width="180" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="55" y="605" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">输入</text><text x="55" y="640" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">B×T×8</text><path d="M220,610 L320,560" fill="none" stroke="#718fa9" stroke-width="3"/><path d="M220,610 L320,675" fill="none" stroke="#718fa9" stroke-width="3"/><rect x="330" y="525" width="220" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="345" y="555" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">头 1</text><text x="345" y="590" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">B×T×4</text><rect x="330" y="655" width="220" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="345" y="685" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">头 2</text><text x="345" y="720" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">B×T×4</text><path d="M550,565 L690,610" fill="none" stroke="#718fa9" stroke-width="3"/><path d="M550,695 L690,610" fill="none" stroke="#718fa9" stroke-width="3"/><rect x="700" y="575" width="290" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="715" y="605" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">特征轴拼接</text><text x="715" y="640" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">B×T×(4＋4)</text><text x="40" y="795" font-family="Microsoft YaHei,sans-serif" font-size="16" fill="#16324f">每个头各有 T×T 权重；拼接后再做输出投影，不能沿时间轴拼接。</text></svg>

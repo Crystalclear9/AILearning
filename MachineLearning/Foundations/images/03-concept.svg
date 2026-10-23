@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>特征缩放如何改变正则化的实际代价</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">特征缩放如何改变正则化的实际代价</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<line x1="90" y1="420.0" x2="1060" y2="420.0" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<rect x="140.0" y="140.0" width="105" height="280.0" fill="#2563eb" opacity=".85" />
+<text x="192.0" y="128.0" class="" text-anchor="middle">100</text>
+<text x="192.0" y="460" class="small" text-anchor="middle">原特征系数 10</text>
+<rect x="575.0" y="417.2" width="105" height="2.8000000000000114" fill="#dc6325" opacity=".85" />
+<text x="627.0" y="405.2" class="" text-anchor="middle">1</text>
+<text x="627.0" y="460" class="small" text-anchor="middle"><tspan x="627.0" dy="0">特征放大 10 倍后的系</tspan><tspan x="627.0" dy="23">数 1</tspan></text>
+</svg>

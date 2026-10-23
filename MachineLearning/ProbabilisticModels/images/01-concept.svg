@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>朴素贝叶斯分解的是给定类别后的联合似然</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">朴素贝叶斯分解的是给定类别后的联合似然</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<line x1="90" y1="420.0" x2="1060" y2="420.0" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<rect x="140.0" y="140.0" width="105" height="280.0" fill="#2563eb" opacity=".85" />
+<text x="192.0" y="128.0" class="" text-anchor="middle">0.24</text>
+<text x="192.0" y="460" class="small" text-anchor="middle">类别 A：先验 × 似然</text>
+<rect x="575.0" y="385.0" width="105" height="35.0" fill="#dc6325" opacity=".85" />
+<text x="627.0" y="373.0" class="" text-anchor="middle">0.03</text>
+<text x="627.0" y="460" class="small" text-anchor="middle">类别 B：先验 × 似然</text>
+</svg>

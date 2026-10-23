@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850" role="img">
+<title>小残差与大解误差的区别</title>
+<desc>A=diag(1,0.001)；右端扰动 Δb=(0,0.001)；解扰动 Δx=(0,1)；二范数条件数=1000</desc>
+<rect width="1200" height="850" fill="#fff"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="60" y="65" font-size="31" font-weight="bold" fill="#153652">小残差与大解误差的区别</text>
+<text x="60" y="110" font-size="21" fill="#526878">具体算例 · 从条件到结果，逐项核对</text>
+<rect x="60" y="470" width="530" height="112" rx="12" fill="#edf5fc" stroke="#bacbd8"/>
+<text x="78" y="503" font-size="19" fill="#557086">01</text>
+<text x="78" y="539" font-size="24" fill="#18374e">A=diag(1,0.001)</text>
+<rect x="625" y="470" width="530" height="112" rx="12" fill="#eef8f2" stroke="#bacbd8"/>
+<text x="643" y="503" font-size="19" fill="#557086">02</text>
+<text x="643" y="539" font-size="24" fill="#18374e">右端扰动 Δb=(0,0.001)</text>
+<rect x="60" y="610" width="530" height="112" rx="12" fill="#fff6e7" stroke="#bacbd8"/>
+<text x="78" y="643" font-size="19" fill="#557086">03</text>
+<text x="78" y="679" font-size="24" fill="#18374e">解扰动 Δx=(0,1)</text>
+<rect x="625" y="610" width="530" height="112" rx="12" fill="#f3effb" stroke="#bacbd8"/>
+<text x="643" y="643" font-size="19" fill="#557086">04</text>
+<text x="643" y="679" font-size="24" fill="#18374e">二范数条件数=1000</text>
+<text x="60" y="785" font-size="20" fill="#526878">各框属于同一论证或算例；具体适用条件与读图方法见正文。</text>
+<text x="90" y="150" fill="#1b3b50" font-size="21">同一线性系统中绝对扰动的放大</text><rect x="130.0" y="409.8" width="140" height="0.2" fill="#1976b5"/><text x="130.0" y="435" fill="#1b3b50" font-size="21">右端扰动范数</text><text x="130.0" y="389.79" fill="#1b3b50" font-size="21">0.001</text><rect x="555.0" y="200.0" width="140" height="210.0" fill="#d86922"/><text x="555.0" y="435" fill="#1b3b50" font-size="21">解扰动范数</text><text x="555.0" y="180.0" fill="#1b3b50" font-size="21">1</text></g></svg>

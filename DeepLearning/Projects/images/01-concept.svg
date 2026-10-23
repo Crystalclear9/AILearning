@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="830" viewBox="0 0 1120 830" role="img">
+<title>数据划分与最终测试的隔离</title>
+<desc>原创教学示意：训练集|拟合参数;验证集|选模型与超参数;冻结方案|确定阈值和预处理;测试集|最后一次估计泛化</desc>
+<rect width="1120" height="830" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">数据划分与最终测试的隔离</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">训练集</text>
+<text x="53" y="160" font-size="21" fill="#16324f">拟合参数</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">验证集</text>
+<text x="603" y="160" font-size="21" fill="#16324f">选模型与超参数</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">冻结方案</text>
+<text x="53" y="330" font-size="21" fill="#16324f">确定阈值和预处理</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">测试集</text>
+<text x="603" y="330" font-size="21" fill="#16324f">最后一次估计泛化</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><text x="40" y="510" font-family="Microsoft YaHei,sans-serif" font-size="24" fill="#16324f">数据边界：三个集合分别承担拟合、选择和最终估计</text><rect x="40" y="565" width="220" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="55" y="595" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">训练集</text><text x="55" y="630" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">拟合参数</text><path d="M260,608 L305,608" fill="none" stroke="#718fa9" stroke-width="3"/><text x="276" y="601" font-family="Microsoft YaHei,sans-serif" font-size="30" fill="#16324f">›</text><rect x="315" y="565" width="220" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="330" y="595" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">验证集</text><text x="330" y="630" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">选择超参数与阈值</text><path d="M535,608 L580,608" fill="none" stroke="#718fa9" stroke-width="3"/><text x="551" y="601" font-family="Microsoft YaHei,sans-serif" font-size="30" fill="#16324f">›</text><rect x="590" y="565" width="220" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="605" y="595" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">冻结方案</text><text x="605" y="630" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">固定处理与决策规则</text><path d="M810,608 L855,608" fill="none" stroke="#718fa9" stroke-width="3"/><text x="826" y="601" font-family="Microsoft YaHei,sans-serif" font-size="30" fill="#16324f">›</text><rect x="865" y="565" width="220" height="85" rx="5" fill="#e2effa" stroke="#718fa9"/><text x="880" y="595" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">测试集</text><text x="880" y="630" font-family="Microsoft YaHei,sans-serif" font-size="17" fill="#16324f">独立估计泛化</text><text x="40" y="795" font-family="Microsoft YaHei,sans-serif" font-size="16" fill="#16324f">箭头表示工作职责顺序，不表示将测试信息回传训练；主体与时间也须隔离。</text></svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img">
+<title>矩阵乘法避免三维距离临时量</title><desc>左右矩阵通过特征轴收缩形成查询与库记录的内积表，再加上两侧范数平方。这个分解避免直接物化每对向量的完整差值，节省的是临时工作集。 当两个大范数向量很接近时，大项相减可能损失精度；此时直接差值或分块高精度参照有助于核对。图中的数学等价不代表任意精度和布局下都同样稳定或更快。</desc>
+<rect width="1200" height="680" fill="white" />
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#64748b" /></marker></defs>
+<g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#18324d">
+<text x="40" y="48" font-size="30" fill="#18324d" text-anchor="start">矩阵乘法避免三维距离临时量</text>
+<text x="55" y="115" font-size="23" fill="#18324d" text-anchor="start">查询 X（2 × 2）</text>
+<rect x="55" y="145" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="88.0" y="187.9" font-size="23" fill="#18324d" text-anchor="middle">1</text>
+<rect x="121" y="145" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="154.0" y="187.9" font-size="23" fill="#18324d" text-anchor="middle">0</text>
+<rect x="55" y="211" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="88.0" y="253.9" font-size="23" fill="#18324d" text-anchor="middle">0</text>
+<rect x="121" y="211" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="154.0" y="253.9" font-size="23" fill="#18324d" text-anchor="middle">2</text>
+<text x="330" y="115" font-size="23" fill="#18324d" text-anchor="start">库记录 Y（3 × 2）</text>
+<rect x="330" y="145" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="363.0" y="187.9" font-size="23" fill="#18324d" text-anchor="middle">0</text>
+<rect x="396" y="145" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="429.0" y="187.9" font-size="23" fill="#18324d" text-anchor="middle">0</text>
+<rect x="330" y="211" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="363.0" y="253.9" font-size="23" fill="#18324d" text-anchor="middle">1</text>
+<rect x="396" y="211" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="429.0" y="253.9" font-size="23" fill="#18324d" text-anchor="middle">1</text>
+<rect x="330" y="277" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="363.0" y="319.9" font-size="23" fill="#18324d" text-anchor="middle">2</text>
+<rect x="396" y="277" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="429.0" y="319.9" font-size="23" fill="#18324d" text-anchor="middle">0</text>
+<text x="55" y="400" font-size="23" fill="#18324d" text-anchor="start">内积表 X × Y^T</text>
+<rect x="55" y="430" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="88.0" y="472.9" font-size="23" fill="#18324d" text-anchor="middle">0</text>
+<rect x="121" y="430" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="154.0" y="472.9" font-size="23" fill="#18324d" text-anchor="middle">1</text>
+<rect x="187" y="430" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="220.0" y="472.9" font-size="23" fill="#18324d" text-anchor="middle">2</text>
+<rect x="55" y="496" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="88.0" y="538.9" font-size="23" fill="#18324d" text-anchor="middle">0</text>
+<rect x="121" y="496" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="154.0" y="538.9" font-size="23" fill="#18324d" text-anchor="middle">2</text>
+<rect x="187" y="496" width="66" height="66" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="220.0" y="538.9" font-size="23" fill="#18324d" text-anchor="middle">0</text>
+<text x="650" y="115" font-size="25" fill="#18324d" text-anchor="start">距离平方表 D（2 × 3）</text>
+<rect x="650" y="145" width="100" height="100" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="700.0" y="210.0" font-size="23" fill="#18324d" text-anchor="middle">1</text>
+<rect x="750" y="145" width="100" height="100" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="800.0" y="210.0" font-size="23" fill="#18324d" text-anchor="middle">1</text>
+<rect x="850" y="145" width="100" height="100" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="900.0" y="210.0" font-size="23" fill="#18324d" text-anchor="middle">1</text>
+<rect x="650" y="245" width="100" height="100" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="700.0" y="310.0" font-size="23" fill="#18324d" text-anchor="middle">4</text>
+<rect x="750" y="245" width="100" height="100" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="800.0" y="310.0" font-size="23" fill="#18324d" text-anchor="middle">2</text>
+<rect x="850" y="245" width="100" height="100" rx="6" fill="#eff6ff" stroke="#64748b" />
+<text x="900.0" y="310.0" font-size="23" fill="#18324d" text-anchor="middle">8</text>
+<text x="650" y="425" font-size="24" fill="#18324d" text-anchor="start">D[i,j] = ‖x_i‖² + ‖y_j‖²</text>
+<text x="760" y="465" font-size="24" fill="#18324d" text-anchor="start">− 2〈x_i, y_j〉</text>
+<text x="650" y="530" font-size="21" fill="#18324d" text-anchor="start">例：D[1,2] = 4 + 4 − 2×0 = 8</text>
+<line x1="480" y1="290" x2="640" y2="250" stroke="#64748b" stroke-width="2.5" stroke-dasharray="" marker-end="url(#a)" />
+<text x="55" y="595" font-size="24" fill="#18324d" text-anchor="start">不生成形状为 (2, 3, 2) 的成对差值临时数组。</text>
+<text x="40" y="650" font-size="18" fill="#64748b" text-anchor="start">原创教学图 · 本地矢量图；数值与适用条件见正文图解</text>
+</g></svg>

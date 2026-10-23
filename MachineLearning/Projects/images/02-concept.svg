@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>分类实验的混淆矩阵是可核算的交付对象</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">分类实验的混淆矩阵是可核算的交付对象</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<text x="520" y="135" class="" text-anchor="middle">预测正类</text>
+<text x="820" y="135" class="" text-anchor="middle">预测负类</text>
+<text x="70" y="210" class="" text-anchor="start">真实正类</text>
+<rect x="390" y="170" width="260" height="65" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="520.0" y="209.5" class="" text-anchor="middle">18</text>
+<rect x="690" y="170" width="260" height="65" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="820.0" y="209.5" class="" text-anchor="middle">2</text>
+<text x="70" y="295" class="" text-anchor="start">真实负类</text>
+<rect x="390" y="255" width="260" height="65" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="520.0" y="294.5" class="" text-anchor="middle">6</text>
+<rect x="690" y="255" width="260" height="65" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="820.0" y="294.5" class="" text-anchor="middle">74</text>
+</svg>

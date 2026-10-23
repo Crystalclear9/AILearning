@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="830" viewBox="0 0 1120 830" role="img">
+<title>归一化到底沿哪一个轴</title>
+<desc>原创教学示意：输入 B×D|B=3，D=4;BatchNorm|每个特征跨批次统计;LayerNorm|每个样本跨特征统计;残差相加|维度对齐后保留原路径</desc>
+<rect width="1120" height="830" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">归一化到底沿哪一个轴</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">输入 B×D</text>
+<text x="53" y="160" font-size="21" fill="#16324f">B=3，D=4</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">BatchNorm</text>
+<text x="603" y="160" font-size="21" fill="#16324f">每个特征跨批次统计</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">LayerNorm</text>
+<text x="53" y="330" font-size="21" fill="#16324f">每个样本跨特征统计</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">残差相加</text>
+<text x="603" y="330" font-size="21" fill="#16324f">维度对齐后保留原路径</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><text x="40" y="510" font-family="Microsoft YaHei,sans-serif" font-size="24" fill="#16324f">B×D=3×4：列向统计与行向统计不相同</text><text x="150" y="550" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">BatchNorm：跨样本</text><rect x="150" y="575" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="215" y="575" width="60" height="38" rx="5" fill="#9bc3e2" stroke="#718fa9"/><rect x="280" y="575" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="345" y="575" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="150" y="617" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="215" y="617" width="60" height="38" rx="5" fill="#9bc3e2" stroke="#718fa9"/><rect x="280" y="617" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="345" y="617" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="150" y="659" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="215" y="659" width="60" height="38" rx="5" fill="#9bc3e2" stroke="#718fa9"/><rect x="280" y="659" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="345" y="659" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><text x="670" y="550" font-family="Microsoft YaHei,sans-serif" font-size="23" fill="#16324f">LayerNorm：跨特征</text><rect x="670" y="575" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="735" y="575" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="800" y="575" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="865" y="575" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="670" y="617" width="60" height="38" rx="5" fill="#badfc7" stroke="#718fa9"/><rect x="735" y="617" width="60" height="38" rx="5" fill="#badfc7" stroke="#718fa9"/><rect x="800" y="617" width="60" height="38" rx="5" fill="#badfc7" stroke="#718fa9"/><rect x="865" y="617" width="60" height="38" rx="5" fill="#badfc7" stroke="#718fa9"/><rect x="670" y="659" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="735" y="659" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="800" y="659" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><rect x="865" y="659" width="60" height="38" rx="5" fill="#eef5fa" stroke="#718fa9"/><text x="40" y="795" font-family="Microsoft YaHei,sans-serif" font-size="16" fill="#16324f">深色列：同一特征跨 3 个样本统计；深色行：同一样本跨 4 个特征统计。</text></svg>

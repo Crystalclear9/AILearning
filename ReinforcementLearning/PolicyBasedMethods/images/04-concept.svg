@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>多轮 PPO 更新需同时观察收益与策略漂移</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">多轮 PPO 更新需同时观察收益与策略漂移</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<line x1="100" y1="420" x2="1040" y2="420" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<line x1="100" y1="420" x2="100" y2="125" stroke="#94a3b8" stroke-width="3" stroke-dasharray="" />
+<polyline points="100.0,402.5 284.0,385.0 468.0,350.0 652.0,297.5 836.0,227.5 1020.0,140.0" fill="none" stroke="#2563eb" stroke-width="4" />
+<text x="130" y="100" class="small" text-anchor="start" style="fill:#2563eb">策略更新幅度示意</text>
+<circle cx="100.0" cy="402.5" r="5" fill="#2563eb" />
+<circle cx="284.0" cy="385.0" r="5" fill="#2563eb" />
+<circle cx="468.0" cy="350.0" r="5" fill="#2563eb" />
+<circle cx="652.0" cy="297.5" r="5" fill="#2563eb" />
+<circle cx="836.0" cy="227.5" r="5" fill="#2563eb" />
+<circle cx="1020.0" cy="140.0" r="5" fill="#2563eb" />
+<polyline points="100.0,350.0 284.0,280.0 468.0,210.00000000000003 652.0,192.5 836.0,227.5 1020.0,297.5" fill="none" stroke="#dc6325" stroke-width="4" />
+<text x="580" y="100" class="small" text-anchor="start" style="fill:#dc6325">评估回报示意</text>
+<circle cx="100.0" cy="350.0" r="5" fill="#dc6325" />
+<circle cx="284.0" cy="280.0" r="5" fill="#dc6325" />
+<circle cx="468.0" cy="210.00000000000003" r="5" fill="#dc6325" />
+<circle cx="652.0" cy="192.5" r="5" fill="#dc6325" />
+<circle cx="836.0" cy="227.5" r="5" fill="#dc6325" />
+<circle cx="1020.0" cy="297.5" r="5" fill="#dc6325" />
+<text x="1040" y="455" class="small" text-anchor="end">自左向右的横轴取值见正文</text>
+<text x="70" y="145" class="small" text-anchor="end">0.8</text>
+<text x="70" y="420" class="small" text-anchor="end">0</text>
+</svg>

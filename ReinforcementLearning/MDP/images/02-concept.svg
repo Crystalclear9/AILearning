@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img">
+<title>Bellman 备份按转移概率平均后继价值</title>
+<rect width="1120" height="540" fill="white" />
+<style>text{font-family:Microsoft YaHei,Noto Sans CJK SC,sans-serif;fill:#1e293b;font-size:20px}.title{font-size:27px;font-weight:700}.small{font-size:17px}</style>
+<text x="40" y="48" class="title" text-anchor="start">Bellman 备份按转移概率平均后继价值</text>
+<text x="40" y="515" class="small" text-anchor="start">原创教学示意 · 数值与条件以图解正文为准</text>
+<rect x="320" y="115" width="480" height="75" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="560.0" y="159.5" class="" text-anchor="middle">当前 s：奖励 1，折扣 0.9</text>
+<line x1="560" y1="190" x2="285" y2="300" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<rect x="40" y="300" width="490" height="90" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="285.0" y="352.0" class="" text-anchor="middle">后继 s_1：概率 0.5，价值 2</text>
+<line x1="560" y1="190" x2="825" y2="300" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<rect x="580" y="300" width="490" height="90" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
+<text x="825.0" y="352.0" class="" text-anchor="middle">后继 s_2：概率 0.5，价值 4</text>
+</svg>

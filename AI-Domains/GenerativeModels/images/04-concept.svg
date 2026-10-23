@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>自回归分解与可逆流的区别</title>
+<desc>原创教学示意：自回归|按条件概率逐项生成;归一化流|基分布经过可逆变换;自回归评分|累加条件对数概率;流模型评分|基密度加雅可比修正</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">自回归分解与可逆流的区别</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">自回归</text>
+<text x="53" y="160" font-size="21" fill="#16324f">按条件概率逐项生成</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">归一化流</text>
+<text x="603" y="160" font-size="21" fill="#16324f">基分布经过可逆变换</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">自回归评分</text>
+<text x="53" y="330" font-size="21" fill="#16324f">累加条件对数概率</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">流模型评分</text>
+<text x="603" y="330" font-size="21" fill="#16324f">基密度加雅可比修正</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="35" y="505" font-size="20" fill="#173c53">自回归：按条件分布展开</text><rect x="35" y="535" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="47" y="565" font-size="23" fill="#173c53">x1</text><text x="47" y="594" font-size="18" fill="#173c53">起始条件</text><rect x="305" y="535" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="317" y="565" font-size="23" fill="#173c53">x2</text><text x="317" y="594" font-size="18" fill="#173c53">给定 x1</text><path d="M248,573 L295,573" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="575" y="535" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="587" y="565" font-size="23" fill="#173c53">x3</text><text x="587" y="594" font-size="18" fill="#173c53">给定 x1、x2</text><path d="M518,573 L565,573" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="845" y="535" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="857" y="565" font-size="23" fill="#173c53">联合概率</text><text x="857" y="594" font-size="18" fill="#173c53">相应条件概率相乘</text><path d="M788,573 L835,573" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="55" y="670" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="67" y="700" font-size="23" fill="#173c53">基分布 z</text><text x="67" y="729" font-size="18" fill="#173c53">简单密度</text><path d="M280,707 L455,707" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><path d="M455,730 L280,730" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="470" y="670" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="482" y="700" font-size="23" fill="#173c53">可逆映射 f</text><text x="482" y="729" font-size="18" fill="#173c53">正反变换</text><path d="M700,707 L860,707" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="875" y="670" width="210" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="887" y="700" font-size="23" fill="#173c53">数据 x</text><text x="887" y="729" font-size="18" fill="#173c53">密度含体积修正</text><text x="300" y="690" font-size="17" fill="#173c53">f 与逆变换</text></g></svg>

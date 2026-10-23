@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>微调数据中的监督位置</title>
+<desc>原创教学示意：指令与上下文|作为输入条件;助手答案|作为主要监督目标;标签掩码|非监督位置不计入损失;验收集合|检查任务能力与退化</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">微调数据中的监督位置</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">指令与上下文</text>
+<text x="53" y="160" font-size="21" fill="#16324f">作为输入条件</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">助手答案</text>
+<text x="603" y="160" font-size="21" fill="#16324f">作为主要监督目标</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">标签掩码</text>
+<text x="53" y="330" font-size="21" fill="#16324f">非监督位置不计入损失</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">验收集合</text>
+<text x="603" y="330" font-size="21" fill="#16324f">检查任务能力与退化</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="35" y="500" font-size="20" fill="#173c53">示例：提示3个 token，答案2个 token；仅答案位置计算损失</text><rect x="90" y="555" width="160" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="102" y="585" font-size="23" fill="#173c53">提示1</text><text x="102" y="614" font-size="18" fill="#173c53">mask=0</text><rect x="290" y="555" width="160" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="302" y="585" font-size="23" fill="#173c53">提示2</text><text x="302" y="614" font-size="18" fill="#173c53">mask=0</text><rect x="490" y="555" width="160" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="502" y="585" font-size="23" fill="#173c53">提示3</text><text x="502" y="614" font-size="18" fill="#173c53">mask=0</text><rect x="690" y="555" width="160" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="702" y="585" font-size="23" fill="#173c53">答案1</text><text x="702" y="614" font-size="18" fill="#173c53">mask=1</text><rect x="890" y="555" width="160" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="902" y="585" font-size="23" fill="#173c53">答案2</text><text x="902" y="614" font-size="18" fill="#173c53">mask=1</text><text x="90" y="700" font-size="20" fill="#173c53">损失：只对最后两个有效监督位置累计，再按有效计数归约。</text><text x="90" y="745" font-size="20" fill="#173c53">掩码决定监督范围，不改变答案必须遵守的因果可见关系。</text></g></svg>

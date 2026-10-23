@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>RAG 评估怎样拆开召回与忠实性</title>
+<desc>原创教学示意：问题与证据集|先标注可接受证据;检索 Recall@k|证据是否进入前 k 项;回答忠实性|断言是否有上下文支持;端到端正确性|是否真正回答了问题</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">RAG 评估怎样拆开召回与忠实性</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">问题与证据集</text>
+<text x="53" y="160" font-size="21" fill="#16324f">先标注可接受证据</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">检索 Recall@k</text>
+<text x="603" y="160" font-size="21" fill="#16324f">证据是否进入前 k 项</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">回答忠实性</text>
+<text x="53" y="330" font-size="21" fill="#16324f">断言是否有上下文支持</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">端到端正确性</text>
+<text x="603" y="330" font-size="21" fill="#16324f">是否真正回答了问题</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="35" y="500" font-size="20" fill="#173c53">三项指标分别判定：同一回答可能在三个维度得到不同结论</text><rect x="55" y="555" width="330" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="67" y="585" font-size="23" fill="#173c53">检索到正确证据</text><text x="67" y="614" font-size="18" fill="#173c53">检查候选集</text><rect x="415" y="555" width="330" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="427" y="585" font-size="23" fill="#173c53">断言被上下文支持</text><text x="427" y="614" font-size="18" fill="#173c53">检查忠实性</text><rect x="775" y="555" width="330" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="787" y="585" font-size="23" fill="#173c53">结论满足问题</text><text x="787" y="614" font-size="18" fill="#173c53">检查端到端正确性</text><text x="65" y="705" font-size="20" fill="#173c53">反例：检索并照抄过期证据 → 可能忠实，但端到端结论错误。</text><text x="65" y="750" font-size="20" fill="#173c53">另一个反例：答案碰巧正确，却没有可核验的证据支持。</text></g></svg>

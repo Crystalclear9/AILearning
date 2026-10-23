@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="790" viewBox="0 0 1120 790" role="img">
+<title>消息聚合怎样更新一个节点</title>
+<desc>原创教学示意：中心节点 v|当前特征为 2;邻居 u1、u2|特征分别为 1、5;邻居均值|聚合结果为 3;节点更新|结合自身与聚合特征</desc>
+<rect width="1120" height="790" fill="white"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="35" y="48" font-size="29" fill="#16324f">消息聚合怎样更新一个节点</text>
+<rect x="35" y="85" width="500" height="130" rx="12" fill="#eef6ff" stroke="#a8bed1"/>
+<text x="53" y="120" font-size="24" fill="#16324f">中心节点 v</text>
+<text x="53" y="160" font-size="21" fill="#16324f">当前特征为 2</text>
+<rect x="585" y="85" width="500" height="130" rx="12" fill="#e9f8f1" stroke="#a8bed1"/>
+<text x="603" y="120" font-size="24" fill="#16324f">邻居 u1、u2</text>
+<text x="603" y="160" font-size="21" fill="#16324f">特征分别为 1、5</text>
+<rect x="35" y="255" width="500" height="130" rx="12" fill="#fff6e5" stroke="#a8bed1"/>
+<text x="53" y="290" font-size="24" fill="#16324f">邻居均值</text>
+<text x="53" y="330" font-size="21" fill="#16324f">聚合结果为 3</text>
+<rect x="585" y="255" width="500" height="130" rx="12" fill="#f4effb" stroke="#a8bed1"/>
+<text x="603" y="290" font-size="24" fill="#16324f">节点更新</text>
+<text x="603" y="330" font-size="21" fill="#16324f">结合自身与聚合特征</text>
+<text x="35" y="446" font-size="20" fill="#516477">示意中的数值与形状仅用于本章算例；具体条件见图下说明。</text>
+</g><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L7 4 L0 8" fill="#2877a7"/></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><circle cx="180" cy="560" r="25" fill="#daedf7" stroke="#377999"/><text x="165" y="567" font-size="19" fill="#173c53">u1</text><circle cx="180" cy="710" r="25" fill="#daedf7" stroke="#377999"/><text x="165" y="717" font-size="19" fill="#173c53">u2</text><circle cx="440" cy="635" r="25" fill="#daedf7" stroke="#377999"/><text x="425" y="642" font-size="19" fill="#173c53">v</text><path d="M210,565 L405,620" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><path d="M210,700 L405,650" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><text x="55" y="535" font-size="20" fill="#173c53">特征=1</text><text x="55" y="755" font-size="20" fill="#173c53">特征=5</text><text x="400" y="580" font-size="20" fill="#173c53">自身=2</text><path d="M480,635 L630,635" stroke="#2877a7" stroke-width="2.5" fill="none" marker-end="url(#arr)"/><rect x="645" y="595" width="300" height="75" rx="7" fill="#edf5fb" stroke="#8faabc"/><text x="657" y="625" font-size="23" fill="#173c53">均值=3</text><text x="657" y="654" font-size="18" fill="#173c53">拼接输入 [2,3]</text></g></svg>
