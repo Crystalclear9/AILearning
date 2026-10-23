@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img">
+<title>冻结评价层阻止模型选择反复读取测试结果</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
+<rect width="1200" height="740" fill="#fff"/><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
+<text x="40" y="54" font-size="28" fill="#17324d" text-anchor="start">冻结评价层阻止模型选择反复读取测试结果</text>
+<rect x="50.0" y="145" width="366.6666666666667" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="233.33333333333334" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">开发阶段</text>
+<rect x="416.6666666666667" y="145" width="366.6666666666667" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="600.0" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">允许读取</text>
+<rect x="783.3333333333334" y="145" width="366.6666666666667" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="966.6666666666667" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">禁止据此做什么</text>
+<rect x="50.0" y="241" width="366.6666666666667" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="233.33333333333334" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">候选比较</text>
+<rect x="416.6666666666667" y="241" width="366.6666666666667" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="600.0" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">训练与验证结果</text>
+<rect x="783.3333333333334" y="241" width="366.6666666666667" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="966.6666666666667" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">读取测试标签调模型</text>
+<rect x="50.0" y="356" width="366.6666666666667" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="233.33333333333334" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">冻结系统</text>
+<rect x="416.6666666666667" y="356" width="366.6666666666667" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="600.0" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">参数与阈值版本</text>
+<rect x="783.3333333333334" y="356" width="366.6666666666667" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="966.6666666666667" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">更改数据排除规则</text>
+<rect x="50.0" y="471" width="366.6666666666667" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="233.33333333333334" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">最终验收</text>
+<rect x="416.6666666666667" y="471" width="366.6666666666667" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="600.0" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">一次测试结果</text>
+<rect x="783.3333333333334" y="471" width="366.6666666666667" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="966.6666666666667" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">回头把测试当验证集</text>
+<text x="55" y="120" font-size="20" fill="#64748b" text-anchor="start">逐行核对条件与数值，不能跨行混用假设。</text>
+<text x="40" y="710" font-size="18" fill="#64748b" text-anchor="start">原创机制算例 · 数据为本节设定下的手算或构造值；适用边界见读图说明</text>
+</g></svg>

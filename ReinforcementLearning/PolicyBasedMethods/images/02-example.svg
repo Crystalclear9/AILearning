@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img">
+<title>自举掩码与迹递推掩码解决不同边界问题</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
+<rect width="1200" height="740" fill="#fff"/><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
+<text x="40" y="54" font-size="28" fill="#17324d" text-anchor="start">自举掩码与迹递推掩码解决不同边界问题</text>
+<rect x="50.0" y="145" width="275.0" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="187.5" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">转移类型</text>
+<rect x="325.0" y="145" width="275.0" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="462.5" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">可保留后继价值</text>
+<rect x="600.0" y="145" width="275.0" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="737.5" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">可接数组下一条优势</text>
+<rect x="875.0" y="145" width="275.0" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="1012.5" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">所用后继观察</text>
+<rect x="50.0" y="241" width="275.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="187.5" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">普通继续</text>
+<rect x="325.0" y="241" width="275.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="462.5" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">1</text>
+<rect x="600.0" y="241" width="275.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="737.5" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">1</text>
+<rect x="875.0" y="241" width="275.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="1012.5" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">同一回合下一观察</text>
+<rect x="50.0" y="356" width="275.0" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="187.5" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">真正终止</text>
+<rect x="325.0" y="356" width="275.0" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="462.5" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">0</text>
+<rect x="600.0" y="356" width="275.0" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="737.5" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">0</text>
+<rect x="875.0" y="356" width="275.0" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="1012.5" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">未来价值不计入</text>
+<rect x="50.0" y="471" width="275.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="187.5" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">外部截断并重置</text>
+<rect x="325.0" y="471" width="275.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="462.5" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">1</text>
+<rect x="600.0" y="471" width="275.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="737.5" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">0</text>
+<rect x="875.0" y="471" width="275.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="1012.5" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">原回合最终观察</text>
+<text x="55" y="120" font-size="20" fill="#64748b" text-anchor="start">逐行核对条件与数值，不能跨行混用假设。</text>
+<text x="40" y="710" font-size="18" fill="#64748b" text-anchor="start">原创机制算例 · 数据为本节设定下的手算或构造值；适用边界见读图说明</text>
+</g></svg>

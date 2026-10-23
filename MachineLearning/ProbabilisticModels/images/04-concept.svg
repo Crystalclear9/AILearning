@@ -8,22 +8,22 @@
 <text x="235.0" y="172.0" class="" text-anchor="middle">隐状态 z_1</text>
 <rect x="120" y="340" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
 <text x="235.0" y="382.0" class="" text-anchor="middle">观测 x_1</text>
-<line x1="235" y1="200" x2="235" y2="337" stroke="#dc6325" stroke-width="3" stroke-dasharray="" />
+<line x1="235" y1="200" x2="235" y2="337" stroke="#dc6325" stroke-width="3" stroke-dasharray="" marker-end="url(#direction)" />
 <text x="255" y="275" class="small" text-anchor="start">发射</text>
-<line x1="350" y1="165" x2="468" y2="165" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<line x1="350" y1="165" x2="468" y2="165" stroke="#2563eb" stroke-width="3" stroke-dasharray="" marker-end="url(#direction)" />
 <text x="400" y="145" class="small" text-anchor="middle">转移</text>
 <rect x="470" y="130" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
 <text x="585.0" y="172.0" class="" text-anchor="middle">隐状态 z_2</text>
 <rect x="470" y="340" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
 <text x="585.0" y="382.0" class="" text-anchor="middle">观测 x_2</text>
-<line x1="585" y1="200" x2="585" y2="337" stroke="#dc6325" stroke-width="3" stroke-dasharray="" />
+<line x1="585" y1="200" x2="585" y2="337" stroke="#dc6325" stroke-width="3" stroke-dasharray="" marker-end="url(#direction)" />
 <text x="605" y="275" class="small" text-anchor="start">发射</text>
-<line x1="700" y1="165" x2="818" y2="165" stroke="#2563eb" stroke-width="3" stroke-dasharray="" />
+<line x1="700" y1="165" x2="818" y2="165" stroke="#2563eb" stroke-width="3" stroke-dasharray="" marker-end="url(#direction)" />
 <text x="750" y="145" class="small" text-anchor="middle">转移</text>
 <rect x="820" y="130" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
 <text x="935.0" y="172.0" class="" text-anchor="middle">隐状态 z_3</text>
 <rect x="820" y="340" width="230" height="70" rx="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2" />
 <text x="935.0" y="382.0" class="" text-anchor="middle">观测 x_3</text>
-<line x1="935" y1="200" x2="935" y2="337" stroke="#dc6325" stroke-width="3" stroke-dasharray="" />
+<line x1="935" y1="200" x2="935" y2="337" stroke="#dc6325" stroke-width="3" stroke-dasharray="" marker-end="url(#direction)" />
 <text x="955" y="275" class="small" text-anchor="start">发射</text>
-</svg>
+<defs><marker id="direction" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#64748b" /></marker></defs></svg>

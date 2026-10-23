@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img">
+<title>告警容量决定排序分数的实际工作点</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
+<rect width="1200" height="740" fill="#fff"/><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
+<text x="40" y="54" font-size="28" fill="#17324d" text-anchor="start">告警容量决定排序分数的实际工作点</text>
+<rect x="50.0" y="145" width="157.14285714285714" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="128.57142857142856" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">风险排序</text>
+<rect x="207.14285714285714" y="145" width="157.14285714285714" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="285.7142857142857" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">1</text>
+<rect x="364.2857142857143" y="145" width="157.14285714285714" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="442.85714285714283" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">2</text>
+<rect x="521.4285714285714" y="145" width="157.14285714285714" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="600.0" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">3</text>
+<rect x="678.5714285714286" y="145" width="157.14285714285714" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="757.1428571428571" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">4</text>
+<rect x="835.7142857142857" y="145" width="157.14285714285714" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="914.2857142857142" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">5</text>
+<rect x="992.8571428571429" y="145" width="157.14285714285714" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="1071.4285714285716" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">6</text>
+<rect x="50.0" y="241" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="128.57142857142856" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">真实异常标签</text>
+<rect x="207.14285714285714" y="241" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="285.7142857142857" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">1</text>
+<rect x="364.2857142857143" y="241" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="442.85714285714283" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">0</text>
+<rect x="521.4285714285714" y="241" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="600.0" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">0</text>
+<rect x="678.5714285714286" y="241" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="757.1428571428571" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">1</text>
+<rect x="835.7142857142857" y="241" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="914.2857142857142" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">1</text>
+<rect x="992.8571428571429" y="241" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="1071.4285714285716" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">0</text>
+<rect x="50.0" y="356" width="157.14285714285714" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="128.57142857142856" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">审核前 2 个</text>
+<rect x="207.14285714285714" y="356" width="157.14285714285714" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="285.7142857142857" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">入选</text>
+<rect x="364.2857142857143" y="356" width="157.14285714285714" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="442.85714285714283" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">入选</text>
+<rect x="521.4285714285714" y="356" width="157.14285714285714" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="600.0" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">未选</text>
+<rect x="678.5714285714286" y="356" width="157.14285714285714" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="757.1428571428571" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">未选</text>
+<rect x="835.7142857142857" y="356" width="157.14285714285714" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="914.2857142857142" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">未选</text>
+<rect x="992.8571428571429" y="356" width="157.14285714285714" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="1071.4285714285716" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">未选</text>
+<rect x="50.0" y="471" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="128.57142857142856" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">审核前 4 个</text>
+<rect x="207.14285714285714" y="471" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="285.7142857142857" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">入选</text>
+<rect x="364.2857142857143" y="471" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="442.85714285714283" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">入选</text>
+<rect x="521.4285714285714" y="471" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="600.0" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">入选</text>
+<rect x="678.5714285714286" y="471" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="757.1428571428571" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">入选</text>
+<rect x="835.7142857142857" y="471" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="914.2857142857142" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">未选</text>
+<rect x="992.8571428571429" y="471" width="157.14285714285714" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="1071.4285714285716" y="535.5" font-size="20" fill="#17324d" text-anchor="middle">未选</text>
+<text x="55" y="120" font-size="20" fill="#64748b" text-anchor="start">逐行核对条件与数值，不能跨行混用假设。</text>
+<text x="40" y="710" font-size="18" fill="#64748b" text-anchor="start">原创机制算例 · 数据为本节设定下的手算或构造值；适用边界见读图说明</text>
+</g></svg>

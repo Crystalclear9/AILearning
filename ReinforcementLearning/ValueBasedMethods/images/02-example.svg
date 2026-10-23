@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img">
+<title>动作间隔大于两倍误差时排序才有统一保证</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
+<rect width="1200" height="740" fill="#fff"/><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
+<text x="40" y="54" font-size="28" fill="#17324d" text-anchor="start">动作间隔大于两倍误差时排序才有统一保证</text>
+<rect x="50.0" y="145" width="220.0" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="160.0" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">场景</text>
+<rect x="270.0" y="145" width="220.0" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="380.0" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">最佳动作真值</text>
+<rect x="490.0" y="145" width="220.0" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="600.0" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">次佳真值</text>
+<rect x="710.0" y="145" width="220.0" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="820.0" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">每项误差界</text>
+<rect x="930.0" y="145" width="220.0" height="96" fill="#e7effa" stroke="#cbd5e1"/>
+<text x="1040.0" y="200.0" font-size="20" fill="#17324d" text-anchor="middle">最坏排序</text>
+<rect x="50.0" y="241" width="220.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="160.0" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">间隔 0.3</text>
+<rect x="270.0" y="241" width="220.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="380.0" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">1.0</text>
+<rect x="490.0" y="241" width="220.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="600.0" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">0.7</text>
+<rect x="710.0" y="241" width="220.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="820.0" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">0.1</text>
+<rect x="930.0" y="241" width="220.0" height="115" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="1040.0" y="305.5" font-size="20" fill="#17324d" text-anchor="middle">0.9 仍大于 0.8</text>
+<rect x="50.0" y="356" width="220.0" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="160.0" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">间隔 0.1</text>
+<rect x="270.0" y="356" width="220.0" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="380.0" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">1.0</text>
+<rect x="490.0" y="356" width="220.0" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="600.0" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">0.9</text>
+<rect x="710.0" y="356" width="220.0" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="820.0" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">0.1</text>
+<rect x="930.0" y="356" width="220.0" height="115" fill="#eef8f5" stroke="#cbd5e1"/>
+<text x="1040.0" y="420.5" font-size="20" fill="#17324d" text-anchor="middle">0.9 可小于 1.0</text>
+<text x="55" y="120" font-size="20" fill="#64748b" text-anchor="start">逐行核对条件与数值，不能跨行混用假设。</text>
+<text x="40" y="710" font-size="18" fill="#64748b" text-anchor="start">原创机制算例 · 数据为本节设定下的手算或构造值；适用边界见读图说明</text>
+</g></svg>

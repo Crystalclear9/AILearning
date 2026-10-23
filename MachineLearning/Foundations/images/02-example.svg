@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img">
+<title>收缩系数的偏差平方与方差相加</title><desc>原创数值机制图；正文说明设定、计算和适用边界。</desc>
+<rect width="1200" height="740" fill="#fff"/><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#17324d">
+<text x="40" y="54" font-size="28" fill="#17324d" text-anchor="start">收缩系数的偏差平方与方差相加</text>
+<text x="80" y="115" font-size="19" fill="#2563eb" text-anchor="start">偏差平方</text>
+<text x="450" y="115" font-size="19" fill="#dc6b24" text-anchor="start">估计方差</text>
+<text x="820" y="115" font-size="19" fill="#059669" text-anchor="start">两项之和</text>
+<line x1="125" y1="570.0" x2="1110" y2="570.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<text x="110" y="576.0" font-size="18" fill="#17324d" text-anchor="end">0</text>
+<line x1="125" y1="476.25" x2="1110" y2="476.25" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<text x="110" y="482.25" font-size="18" fill="#17324d" text-anchor="end">1</text>
+<line x1="125" y1="382.5" x2="1110" y2="382.5" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<text x="110" y="388.5" font-size="18" fill="#17324d" text-anchor="end">2</text>
+<line x1="125" y1="288.75" x2="1110" y2="288.75" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<text x="110" y="294.75" font-size="18" fill="#17324d" text-anchor="end">3</text>
+<line x1="125" y1="195.0" x2="1110" y2="195.0" stroke="#cbd5e1" stroke-width="2" stroke-dasharray=""/>
+<text x="110" y="201.0" font-size="18" fill="#17324d" text-anchor="end">4</text>
+<line x1="125" y1="195" x2="125" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<line x1="125" y1="570" x2="1110" y2="570" stroke="#64748b" stroke-width="2" stroke-dasharray=""/>
+<text x="125" y="164" font-size="19" fill="#17324d" text-anchor="start">参数估计均方误差</text>
+<text x="125.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0</text>
+<text x="223.5" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.1</text>
+<text x="322.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.2</text>
+<text x="420.5" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.3</text>
+<text x="519.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.4</text>
+<text x="617.5" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.5</text>
+<text x="716.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.6</text>
+<text x="814.5" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.7</text>
+<text x="913.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.8</text>
+<text x="1011.5" y="603" font-size="18" fill="#17324d" text-anchor="middle">0.9</text>
+<text x="1110.0" y="603" font-size="18" fill="#17324d" text-anchor="middle">1</text>
+<text x="1110" y="644" font-size="21" fill="#17324d" text-anchor="end">收缩系数 a</text>
+<polyline points="125.00,195.00 223.50,266.25 322.00,330.00 420.50,386.25 519.00,435.00 617.50,476.25 716.00,510.00 814.50,536.25 913.00,555.00 1011.50,566.25 1110.00,570.00" fill="none" stroke="#2563eb" stroke-width="3.5"/>
+<circle cx="125.0" cy="195.0" r="4.5" fill="#2563eb"/>
+<circle cx="223.5" cy="266.25" r="4.5" fill="#2563eb"/>
+<circle cx="322.0" cy="329.99999999999994" r="4.5" fill="#2563eb"/>
+<circle cx="420.5" cy="386.25" r="4.5" fill="#2563eb"/>
+<circle cx="519.0" cy="435.0" r="4.5" fill="#2563eb"/>
+<circle cx="617.5" cy="476.25" r="4.5" fill="#2563eb"/>
+<circle cx="716.0" cy="510.0" r="4.5" fill="#2563eb"/>
+<circle cx="814.5" cy="536.25" r="4.5" fill="#2563eb"/>
+<circle cx="913.0" cy="555.0" r="4.5" fill="#2563eb"/>
+<circle cx="1011.5" cy="566.25" r="4.5" fill="#2563eb"/>
+<circle cx="1110.0" cy="570.0" r="4.5" fill="#2563eb"/>
+<polyline points="125.00,570.00 223.50,569.06 322.00,566.25 420.50,561.56 519.00,555.00 617.50,546.56 716.00,536.25 814.50,524.06 913.00,510.00 1011.50,494.06 1110.00,476.25" fill="none" stroke="#dc6b24" stroke-width="3.5"/>
+<circle cx="125.0" cy="570.0" r="4.5" fill="#dc6b24"/>
+<circle cx="223.5" cy="569.0625" r="4.5" fill="#dc6b24"/>
+<circle cx="322.0" cy="566.25" r="4.5" fill="#dc6b24"/>
+<circle cx="420.5" cy="561.5625" r="4.5" fill="#dc6b24"/>
+<circle cx="519.0" cy="555.0" r="4.5" fill="#dc6b24"/>
+<circle cx="617.5" cy="546.5625" r="4.5" fill="#dc6b24"/>
+<circle cx="716.0" cy="536.25" r="4.5" fill="#dc6b24"/>
+<circle cx="814.5" cy="524.0625" r="4.5" fill="#dc6b24"/>
+<circle cx="913.0" cy="510.0" r="4.5" fill="#dc6b24"/>
+<circle cx="1011.5" cy="494.0625" r="4.5" fill="#dc6b24"/>
+<circle cx="1110.0" cy="476.25" r="4.5" fill="#dc6b24"/>
+<polyline points="125.00,195.00 223.50,265.31 322.00,326.25 420.50,377.81 519.00,420.00 617.50,452.81 716.00,476.25 814.50,490.31 913.00,495.00 1011.50,490.31 1110.00,476.25" fill="none" stroke="#059669" stroke-width="3.5"/>
+<circle cx="125.0" cy="195.0" r="4.5" fill="#059669"/>
+<circle cx="223.5" cy="265.3125" r="4.5" fill="#059669"/>
+<circle cx="322.0" cy="326.24999999999994" r="4.5" fill="#059669"/>
+<circle cx="420.5" cy="377.8125" r="4.5" fill="#059669"/>
+<circle cx="519.0" cy="420.0" r="4.5" fill="#059669"/>
+<circle cx="617.5" cy="452.8125" r="4.5" fill="#059669"/>
+<circle cx="716.0" cy="476.25" r="4.5" fill="#059669"/>
+<circle cx="814.5" cy="490.3125" r="4.5" fill="#059669"/>
+<circle cx="913.0" cy="495.0" r="4.5" fill="#059669"/>
+<circle cx="1011.5" cy="490.3125" r="4.5" fill="#059669"/>
+<circle cx="1110.0" cy="476.25" r="4.5" fill="#059669"/>
+<text x="40" y="710" font-size="18" fill="#64748b" text-anchor="start">原创机制算例 · 数据为本节设定下的手算或构造值；适用边界见读图说明</text>
+</g></svg>
