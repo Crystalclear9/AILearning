@@ -1,20 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1008pt" height="597.6pt" viewBox="0 0 1008 597.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1008pt" height="597.6pt" viewBox="0 0 1008 597.6" version="1.1">
  <title>拒绝选项把不确定区域交给第三种行动</title>
  <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
     <dc:title>拒绝选项把不确定区域交给第三种行动</dc:title>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
-     <cc:Agent>
+     <ns2:Agent>
       <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
+     </ns2:Agent>
     </dc:creator>
-   </cc:Work>
+   </ns2:Work>
   </rdf:RDF>
  </metadata>
  <defs>
@@ -22,32 +19,20 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 597.6
-L 1008 597.6
-L 1008 0
-L 0 0
-z
-" style="fill: #f6f9fc"/>
+   <path d="M 0 597.6 L 1008 597.6 L 1008 0 L 0 0 z " style="fill: white" />
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 90.72 484.056
-L 685.44 484.056
-L 685.44 125.496
-L 90.72 125.496
-z
-" style="fill: #ffffff"/>
+    <path d="M 90.72 484.056 L 685.44 484.056 L 685.44 125.496 L 90.72 125.496 z " style="fill: #ffffff" />
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m459942998d" d="M 0 0
-L 0 3.5
-" style="stroke: #365669; stroke-width: 0.8"/>
+       <path id="m459942998d" d="M 0 0 L 0 3.5 " style="stroke: #365669; stroke-width: 0.8" />
       </defs>
       <g>
-       <use xlink:href="#m459942998d" x="90.72" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#m459942998d" x="90.72" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_1">
@@ -57,7 +42,7 @@ L 0 3.5
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m459942998d" x="179.928" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#m459942998d" x="179.928" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_2">
@@ -67,7 +52,7 @@ L 0 3.5
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m459942998d" x="388.08" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#m459942998d" x="388.08" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_3">
@@ -77,7 +62,7 @@ L 0 3.5
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m459942998d" x="596.232" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#m459942998d" x="596.232" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_4">
@@ -87,7 +72,7 @@ L 0 3.5
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#m459942998d" x="685.44" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#m459942998d" x="685.44" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_5">
@@ -101,18 +86,14 @@ L 0 3.5
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_6">
-      <path d="M 90.72 484.056
-L 685.44 484.056
-" clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 90.72 484.056 L 685.44 484.056 " clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square" />
      </g>
      <g id="line2d_7">
       <defs>
-       <path id="mfc5c17a6c9" d="M 0 0
-L -3.5 0
-" style="stroke: #365669; stroke-width: 0.8"/>
+       <path id="mfc5c17a6c9" d="M 0 0 L -3.5 0 " style="stroke: #365669; stroke-width: 0.8" />
       </defs>
       <g>
-       <use xlink:href="#mfc5c17a6c9" x="90.72" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#mfc5c17a6c9" x="90.72" y="484.056" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_7">
@@ -121,13 +102,11 @@ L -3.5 0
     </g>
     <g id="ytick_2">
      <g id="line2d_8">
-      <path d="M 90.72 415.758857
-L 685.44 415.758857
-" clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 90.72 415.758857 L 685.44 415.758857 " clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square" />
      </g>
      <g id="line2d_9">
       <g>
-       <use xlink:href="#mfc5c17a6c9" x="90.72" y="415.758857" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#mfc5c17a6c9" x="90.72" y="415.758857" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_8">
@@ -136,13 +115,11 @@ L 685.44 415.758857
     </g>
     <g id="ytick_3">
      <g id="line2d_10">
-      <path d="M 90.72 347.461714
-L 685.44 347.461714
-" clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 90.72 347.461714 L 685.44 347.461714 " clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square" />
      </g>
      <g id="line2d_11">
       <g>
-       <use xlink:href="#mfc5c17a6c9" x="90.72" y="347.461714" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#mfc5c17a6c9" x="90.72" y="347.461714" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_9">
@@ -151,13 +128,11 @@ L 685.44 347.461714
     </g>
     <g id="ytick_4">
      <g id="line2d_12">
-      <path d="M 90.72 279.164571
-L 685.44 279.164571
-" clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 90.72 279.164571 L 685.44 279.164571 " clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square" />
      </g>
      <g id="line2d_13">
       <g>
-       <use xlink:href="#mfc5c17a6c9" x="90.72" y="279.164571" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#mfc5c17a6c9" x="90.72" y="279.164571" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_10">
@@ -166,13 +141,11 @@ L 685.44 279.164571
     </g>
     <g id="ytick_5">
      <g id="line2d_14">
-      <path d="M 90.72 210.867429
-L 685.44 210.867429
-" clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 90.72 210.867429 L 685.44 210.867429 " clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square" />
      </g>
      <g id="line2d_15">
       <g>
-       <use xlink:href="#mfc5c17a6c9" x="90.72" y="210.867429" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#mfc5c17a6c9" x="90.72" y="210.867429" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_11">
@@ -181,13 +154,11 @@ L 685.44 210.867429
     </g>
     <g id="ytick_6">
      <g id="line2d_16">
-      <path d="M 90.72 142.570286
-L 685.44 142.570286
-" clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 90.72 142.570286 L 685.44 142.570286 " clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #dbe4ec; stroke-width: 0.8; stroke-linecap: square" />
      </g>
      <g id="line2d_17">
       <g>
-       <use xlink:href="#mfc5c17a6c9" x="90.72" y="142.570286" style="fill: #365669; stroke: #365669; stroke-width: 0.8"/>
+       <use ns4:href="#mfc5c17a6c9" x="90.72" y="142.570286" style="fill: #365669; stroke: #365669; stroke-width: 0.8" />
       </g>
      </g>
      <g id="text_12">
@@ -199,32 +170,19 @@ L 685.44 142.570286
     </g>
    </g>
    <g id="line2d_18">
-    <path d="M 90.72 484.056
-L 685.44 142.570286
-L 685.44 142.570286
-" clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #087f82; stroke-width: 2.4; stroke-linecap: square"/>
+    <path d="M 90.72 484.056 L 685.44 142.570286 L 685.44 142.570286 " clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #087f82; stroke-width: 2.4; stroke-linecap: square" />
    </g>
    <g id="line2d_19">
-    <path d="M 90.72 142.570286
-L 685.44 484.056
-L 685.44 484.056
-" clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #de873e; stroke-width: 2.4; stroke-linecap: square"/>
+    <path d="M 90.72 142.570286 L 685.44 484.056 L 685.44 484.056 " clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #de873e; stroke-width: 2.4; stroke-linecap: square" />
    </g>
    <g id="line2d_20">
-    <path d="M 90.72 432.833143
-L 685.44 432.833143
-L 685.44 432.833143
-" clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #3f67aa; stroke-width: 2.4; stroke-linecap: square"/>
+    <path d="M 90.72 432.833143 L 685.44 432.833143 L 685.44 432.833143 " clip-path="url(#p7efaf93d96)" style="fill: none; stroke: #3f67aa; stroke-width: 2.4; stroke-linecap: square" />
    </g>
    <g id="patch_3">
-    <path d="M 90.72 484.056
-L 90.72 125.496
-" style="fill: none; stroke: #9cafbd; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+    <path d="M 90.72 484.056 L 90.72 125.496 " style="fill: none; stroke: #9cafbd; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
    </g>
    <g id="patch_4">
-    <path d="M 90.72 484.056
-L 685.44 484.056
-" style="fill: none; stroke: #9cafbd; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+    <path d="M 90.72 484.056 L 685.44 484.056 " style="fill: none; stroke: #9cafbd; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
    </g>
    <g id="text_14">
     <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #183449" x="185.928" y="422.833143" transform="rotate(-0 185.928 422.833143)">(0.15, 0.15)</text>
@@ -234,28 +192,19 @@ L 685.44 484.056
    </g>
    <g id="legend_1" transform="translate(0 -22)">
     <g id="line2d_21">
-     <path d="M 99.72 562.09055
-L 109.72 562.09055
-L 119.72 562.09055
-" style="fill: none; stroke: #087f82; stroke-width: 2.4; stroke-linecap: square"/>
+     <path d="M 99.72 562.09055 L 109.72 562.09055 L 119.72 562.09055 " style="fill: none; stroke: #087f82; stroke-width: 2.4; stroke-linecap: square" />
     </g>
     <g id="text_16">
      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: start" x="127.72" y="565.59055" transform="rotate(-0 127.72 565.59055)">预测负类</text>
     </g>
     <g id="line2d_22">
-     <path d="M 99.72 577.570238
-L 109.72 577.570238
-L 119.72 577.570238
-" style="fill: none; stroke: #de873e; stroke-width: 2.4; stroke-linecap: square"/>
+     <path d="M 99.72 577.570238 L 109.72 577.570238 L 119.72 577.570238 " style="fill: none; stroke: #de873e; stroke-width: 2.4; stroke-linecap: square" />
     </g>
     <g id="text_17">
      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: start" x="127.72" y="581.070238" transform="rotate(-0 127.72 581.070238)">预测正类</text>
     </g>
     <g id="line2d_23">
-     <path d="M 187.72 562.09055
-L 197.72 562.09055
-L 207.72 562.09055
-" style="fill: none; stroke: #3f67aa; stroke-width: 2.4; stroke-linecap: square"/>
+     <path d="M 187.72 562.09055 L 197.72 562.09055 L 207.72 562.09055 " style="fill: none; stroke: #3f67aa; stroke-width: 2.4; stroke-linecap: square" />
     </g>
     <g id="text_18">
      <text style="font-size: 10px; font-family: 'Microsoft YaHei'; text-anchor: start" x="215.72" y="565.59055" transform="rotate(-0 215.72 565.59055)">拒绝</text>
@@ -263,35 +212,20 @@ L 207.72 562.09055
    </g>
    <g id="PathCollection_1">
     <defs>
-     <path id="m9489a9de3c" d="M 0 3.708099
-C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022
-C 3.317391 1.926654 3.708099 0.983399 3.708099 0
-C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022
-C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099
-C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022
-C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0
-C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022
-C -1.926654 3.317391 -0.983399 3.708099 0 3.708099
-z
-" style="stroke: #ffffff"/>
+     <path id="m9489a9de3c" d="M 0 3.708099 C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022 C 3.317391 1.926654 3.708099 0.983399 3.708099 0 C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022 C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099 C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022 C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0 C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022 C -1.926654 3.317391 -0.983399 3.708099 0 3.708099 z " style="stroke: #ffffff" />
     </defs>
     <g clip-path="url(#p7efaf93d96)">
-     <use xlink:href="#m9489a9de3c" x="179.928" y="432.833143" style="fill: #183449; stroke: #ffffff"/>
+     <use ns4:href="#m9489a9de3c" x="179.928" y="432.833143" style="fill: #183449; stroke: #ffffff" />
     </g>
    </g>
    <g id="PathCollection_2">
     <g clip-path="url(#p7efaf93d96)">
-     <use xlink:href="#m9489a9de3c" x="596.232" y="432.833143" style="fill: #183449; stroke: #ffffff"/>
+     <use ns4:href="#m9489a9de3c" x="596.232" y="432.833143" style="fill: #183449; stroke: #ffffff" />
     </g>
    </g>
   </g>
   <g id="patch_5">
-   <path d="M 740.88 478.08
-L 972.72 478.08
-L 972.72 119.52
-L 740.88 119.52
-z
-" style="fill: #e8f2f4"/>
+   <path d="M 740.88 478.08 L 972.72 478.08 L 972.72 119.52 L 740.88 119.52 z " style="fill: #e8f2f4" />
   </g>
   <g id="text_19">
    <text style="font-weight: 700; font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #183449" x="65.52" y="41.832" transform="rotate(-0 65.52 41.832)">拒绝选项把不确定区域交给第三种行动</text>
@@ -306,11 +240,11 @@ z
    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 182.496813)">正确分类成本 0</text>
    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 202.821984)">错误分类成本 1</text>
    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 223.147156)">拒绝固定成本 0.15</text>
-   <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 243.472328)"/>
+   <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 243.472328)" />
    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 264.541766)">p&lt;0.15：预测负类</text>
    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 285.67607)">0.15&lt;p&lt;0.85：拒绝</text>
    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 306.639672)">p&gt;0.85：预测正类</text>
-   <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 326.964844)"/>
+   <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 326.964844)" />
    <text style="font-size: 11.5px; font-family: 'Microsoft YaHei'; fill: #284b5e" transform="translate(761.04 347.290016)">边界交点处存在并列最优。</text>
   </g>
   <g id="text_23">
@@ -319,7 +253,7 @@ z
  </g>
  <defs>
   <clipPath id="p7efaf93d96">
-   <rect x="90.72" y="125.496" width="594.72" height="358.56"/>
+   <rect x="90.72" y="125.496" width="594.72" height="358.56" />
   </clipPath>
  </defs>
 </svg>
