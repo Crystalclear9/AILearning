@@ -449,9 +449,11 @@ LAG 可以取排序前一条记录，适合差分与间隔计算；LEAD 取后�
 
 ![LAST_VALUE 取决于窗口终点](images/03-advanced.svg)
 
-三行值为 10、20、30，并按唯一键排序。左侧窗口从分区开头到当前行，每行取到的最后值依次是 10、20、30；右侧窗口从分区开头延伸到分区末尾，因此三行都取到 30。图中蓝格表示当前窗口覆盖，白格尚未纳入；要得到右侧结果，需要显式指定相应的完整分区 frame。
+三行按唯一 id=1、2、3 排序，值为 10、NULL、30。两次都固定当前行 id=2，仅改变 frame：从开头到当前行时，末行值就是 NULL；从开头到分区末尾时，末行值为 30。白格表示仍在同一分区却尚未进入上方 frame 的记录，并不是记录不存在。
 
-存在同级行时，默认 RANGE frame 还可能包括同级记录，不能把这个唯一键算例直接推广到所有默认窗口。应显式说明窗口范围，并按确定的排序语义选择想要的最后值。
+在 PostgreSQL 中，可以分别用 ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW 与 ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING 明确这两种范围。带排序的默认 RANGE frame 终止于当前行的最后一个同级行；本例排序键唯一，才与“到当前行”的结果一致。若排序键并列，必须重新分析同级组及组内次序。
+
+PostgreSQL 的 LAST_VALUE 按 RESPECT NULLS 工作，不会自动跳过末行 NULL；“分区最后值”和“分区最后非空值”是两个问题，不能只改变 frame 就假定都解决。参见 [PostgreSQL 窗口函数说明](https://www.postgresql.org/docs/current/functions-window.html)。
 
 <a id="db-3-detail-25"></a>
 
