@@ -521,9 +521,13 @@ $$
 
 ![Softmax 的公共平移方向是零曲率方向](images/03-mechanism.svg)
 
-在二分类概率均为0.5时，logits上的交叉熵Hessian是图示矩阵。乘以(1,1)得到零，说明所有logits同加常数不改变概率；乘以(1,−1)则得到0.5倍该向量，说明真正改变类别相对分数的方向具有非零曲率。
+图从 logits 原点 $`z=(0,0)`$ 出发，分别沿公共方向 $`(1,1)`$ 和对比方向 $`(1,-1)`$ 移动。左图第一类概率始终为 $`\frac{1}{2}`$；右图则为 $`p_1(t)=\frac{1}{1+e^{-2t}}`$，原点切线斜率为 $`\frac{1}{2}`$。两条曲线直接显示 Softmax 只看相对分数，同加常数不会改变任何类别概率。
 
-这里是关于logits的曲率，不是任意网络参数的完整Hessian；参数化中的二阶项可能改变网络损失的曲率。
+在原点，Softmax 的 Jacobian 为 $`J=\left[\begin{smallmatrix}\frac{1}{4}&-\frac{1}{4}\\-\frac{1}{4}&\frac{1}{4}\end{smallmatrix}\right]`$；它把公共方向映到零，把对比方向缩放为原来的 $`\frac{1}{2}`$。同一个矩阵也是硬标签或固定软标签交叉熵关于 **logits** 的 Hessian，因此公共方向具有零曲率。右图概率变化率等于 $`J(1,-1)^T`$ 的第一分量，不能把概率曲线自身当成交叉熵曲线；网络参数化还可能给完整参数 Hessian 引入其他二阶项。
+
+Softmax 的平移不变性与数值稳定性见 [《Dive into Deep Learning》数值稳定与条件数](https://d2l.smola.org/chapter_mdl-optimization/mdl-numerical-stability-conditioning.html)。
+
+
 
 
 
