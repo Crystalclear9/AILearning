@@ -1,1 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="figure-title figure-desc" width="1200" height="570" viewBox="0 0 1200 570" role="img"><title id="figure-title">DPO：比较策略与参考模型的偏好差</title><desc id="figure-desc">DPO：比较策略与参考模型的偏好差</desc><rect width="1200" height="570" fill="white" /><defs><marker id="blue-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#2865a0" /></marker><marker id="orange-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 Z" fill="#cf7432" /></marker></defs><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="32" y="47" font-size="32" fill="#213447" text-anchor="start" font-weight="600">DPO：比较策略与参考模型的偏好差</text><rect x="65" y="135" width="330" height="75" rx="5" fill="#eaf2fa" stroke="#c8d7e3" stroke-width="1" /><text x="230.0" y="182.5" font-size="28" fill="#213447" text-anchor="middle" font-weight="400">策略差值：ln 2</text><rect x="65" y="325" width="330" height="75" rx="5" fill="#fff0e3" stroke="#c8d7e3" stroke-width="1" /><text x="230.0" y="372.5" font-size="28" fill="#213447" text-anchor="middle" font-weight="400">参考差值：0</text><line x1="410" y1="172" x2="520" y2="260" stroke="#2865a0" stroke-width="2.5" marker-end="url(#blue-arrow)" /><line x1="410" y1="362" x2="520" y2="290" stroke="#cf7432" stroke-width="2.5" marker-end="url(#orange-arrow)" /><circle cx="560" cy="275" r="35" fill="white" stroke="#2865a0" stroke-width="2.5" /><text x="560" y="285" font-size="27" fill="#2865a0" text-anchor="middle" font-weight="400">−</text><line x1="605" y1="275" x2="735" y2="275" stroke="#2865a0" stroke-width="2.5" marker-end="url(#blue-arrow)" /><rect x="755" y="237" width="200" height="75" rx="5" fill="#eaf2fa" stroke="#c8d7e3" stroke-width="1" /><text x="855.0" y="284.5" font-size="28" fill="#213447" text-anchor="middle" font-weight="400">ln 2</text><text x="805" y="155" font-size="28" fill="#213447" text-anchor="start" font-weight="400">β = 1</text><text x="1040" y="250" font-size="26" fill="#213447" text-anchor="middle" font-weight="400">偏好概率</text><text x="1040.0" y="288" font-size="27" fill="#213447" text-anchor="middle" font-weight="400">2</text><line x1="1010" y1="300" x2="1070" y2="300" stroke="#213447" stroke-width="1.8" /><text x="1040.0" y="333" font-size="27" fill="#213447" text-anchor="middle" font-weight="400">3</text><text x="560" y="480" font-size="29" fill="#213447" text-anchor="middle" font-weight="400">损失 −log(偏好概率) = ln 1.5 ≈ 0.405</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="740" viewBox="0 0 1400 740" role="img"><title>DPO 比较相对优势，不要求优选回答绝对概率上升</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#245f98"/></marker></defs><rect width="1400" height="740" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<text x="44" y="58" font-size="34" fill="#18324a" text-anchor="start" font-weight="bold">DPO 比较相对优势，不要求优选回答绝对概率上升</text>
+<line x1="44" y1="85" x2="1356" y2="85" stroke="#dce5ed" stroke-width="2"/>
+<text x="220" y="145" font-size="29" fill="#18324a" text-anchor="middle" font-weight="normal">参考分布</text>
+<line x1="60" y1="520" x2="410" y2="520" stroke="#62778a" stroke-width="2"/>
+<rect x="70" y="336.0" width="78" height="184.0" rx="7" fill="#245f98" stroke="#245f98"/>
+<text x="109" y="316.0" font-size="29" fill="#245f98" text-anchor="middle" font-weight="normal">0.4</text>
+<text x="109" y="565" font-size="26" fill="#18324a" text-anchor="middle" font-weight="normal">优选</text>
+<rect x="190" y="336.0" width="78" height="184.0" rx="7" fill="#245f98" stroke="#245f98"/>
+<text x="229" y="316.0" font-size="29" fill="#245f98" text-anchor="middle" font-weight="normal">0.4</text>
+<text x="229" y="565" font-size="26" fill="#18324a" text-anchor="middle" font-weight="normal">劣选</text>
+<rect x="310" y="428.0" width="78" height="92.0" rx="7" fill="#245f98" stroke="#245f98"/>
+<text x="349" y="408.0" font-size="29" fill="#245f98" text-anchor="middle" font-weight="normal">0.2</text>
+<text x="349" y="565" font-size="26" fill="#18324a" text-anchor="middle" font-weight="normal">其他</text>
+<text x="220" y="640" font-size="29" fill="#245f98" text-anchor="middle" font-weight="normal">优势比 = 1</text>
+<text x="690" y="145" font-size="29" fill="#18324a" text-anchor="middle" font-weight="normal">当前策略</text>
+<line x1="530" y1="520" x2="880" y2="520" stroke="#62778a" stroke-width="2"/>
+<rect x="540" y="382.0" width="78" height="138.0" rx="7" fill="#c76b25" stroke="#c76b25"/>
+<text x="579" y="362.0" font-size="29" fill="#c76b25" text-anchor="middle" font-weight="normal">0.3</text>
+<text x="579" y="565" font-size="26" fill="#18324a" text-anchor="middle" font-weight="normal">优选</text>
+<rect x="660" y="474.0" width="78" height="46.0" rx="7" fill="#c76b25" stroke="#c76b25"/>
+<text x="699" y="454.0" font-size="29" fill="#c76b25" text-anchor="middle" font-weight="normal">0.1</text>
+<text x="699" y="565" font-size="26" fill="#18324a" text-anchor="middle" font-weight="normal">劣选</text>
+<rect x="780" y="244.0" width="78" height="276.0" rx="7" fill="#c76b25" stroke="#c76b25"/>
+<text x="819" y="224.0" font-size="29" fill="#c76b25" text-anchor="middle" font-weight="normal">0.6</text>
+<text x="819" y="565" font-size="26" fill="#18324a" text-anchor="middle" font-weight="normal">其他</text>
+<text x="690" y="640" font-size="29" fill="#c76b25" text-anchor="middle" font-weight="normal">优势比 = 3</text>
+<line x1="950" y1="115" x2="950" y2="680" stroke="#dce5ed" stroke-width="2"/>
+<text x="1170" y="185" font-size="31" fill="#18324a" text-anchor="middle" font-weight="normal">β=1</text>
+<text x="1170" y="290" font-size="32" fill="#18324a" text-anchor="middle" font-weight="normal">logit = ln 3</text>
+<text x="1170" y="405" font-size="29" fill="#c76b25" text-anchor="middle" font-weight="normal">偏好概率 = 0.75</text>
+<text x="1170" y="520" font-size="29" fill="#18324a" text-anchor="middle" font-weight="normal">损失 ≈ 0.288</text>
+<text x="1170" y="640" font-size="28" fill="#18324a" text-anchor="middle" font-weight="normal">优选：0.4 → 0.3</text></g></svg>

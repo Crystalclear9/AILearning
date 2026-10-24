@@ -1,1 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img"><title>联合最优路径与逐位置边缘最优解</title><rect width="1200" height="620" fill="white" /><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" fill="#19344d"><text x="45" y="58" font-size="32" fill="#19344d" text-anchor="start">同一概率分布，两个决策目标</text><text x="45" y="115" font-size="25" fill="#19344d" text-anchor="start">行：第 1 个标签；列：第 2 个标签</text><text x="245" y="180" font-size="27" fill="#19344d" text-anchor="middle">标签 0</text><text x="395" y="180" font-size="27" fill="#19344d" text-anchor="middle">标签 1</text><text x="70" y="275" font-size="27" fill="#19344d" text-anchor="start">标签 0</text><rect x="170" y="210" width="150" height="130" fill="#eaf2fa" stroke="white" stroke-width="3" /><text x="245" y="285" font-size="32" fill="#19344d" text-anchor="middle">0.35</text><rect x="320" y="210" width="150" height="130" fill="#eaf2fa" stroke="white" stroke-width="3" /><text x="395" y="285" font-size="32" fill="#19344d" text-anchor="middle">0.3</text><text x="70" y="405" font-size="27" fill="#19344d" text-anchor="start">标签 1</text><rect x="170" y="340" width="150" height="130" fill="#eaf2fa" stroke="white" stroke-width="3" /><text x="245" y="415" font-size="32" fill="#19344d" text-anchor="middle">0.01</text><rect x="320" y="340" width="150" height="130" fill="#eaf2fa" stroke="white" stroke-width="3" /><text x="395" y="415" font-size="32" fill="#19344d" text-anchor="middle">0.34</text><rect x="170" y="210" width="150" height="130" fill="none" stroke="#d66b28" stroke-width="3" /><text x="520" y="180" font-size="25" fill="#19344d" text-anchor="start">行边缘</text><text x="560" y="285" font-size="30" fill="#2166ac" text-anchor="middle">0.65</text><text x="560" y="415" font-size="30" fill="#19344d" text-anchor="middle">0.35</text><text x="65" y="535" font-size="25" fill="#19344d" text-anchor="start">列边缘</text><text x="245" y="535" font-size="30" fill="#19344d" text-anchor="middle">0.36</text><text x="395" y="535" font-size="30" fill="#2166ac" text-anchor="middle">0.64</text><text x="720" y="205" font-size="29" fill="#d66b28" text-anchor="start">联合概率最大</text><rect x="730" y="235" width="110" height="70" fill="#fceadf" stroke="white" stroke-width="3" /><rect x="850" y="235" width="110" height="70" fill="#fceadf" stroke="white" stroke-width="3" /><text x="785" y="280" font-size="32" fill="#19344d" text-anchor="middle">0</text><text x="905" y="280" font-size="32" fill="#19344d" text-anchor="middle">0</text><text x="720" y="350" font-size="27" fill="#19344d" text-anchor="start">P(00) = 0.35</text><text x="720" y="425" font-size="29" fill="#2166ac" text-anchor="start">逐位置边缘最大</text><rect x="730" y="455" width="110" height="70" fill="#eaf2fa" stroke="white" stroke-width="3" /><rect x="850" y="455" width="110" height="70" fill="#eaf2fa" stroke="white" stroke-width="3" /><text x="785" y="500" font-size="32" fill="#19344d" text-anchor="middle">0</text><text x="905" y="500" font-size="32" fill="#19344d" text-anchor="middle">1</text><text x="720" y="575" font-size="27" fill="#19344d" text-anchor="start">P(01) = 0.30</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img"><title>同一条 CRF 链：求和用于归一化，取最大用于最优路径</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#245f98"/></marker></defs><rect width="1400" height="760" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<text x="44" y="58" font-size="34" fill="#18324a" text-anchor="start" font-weight="bold">同一条 CRF 链：求和用于归一化，取最大用于最优路径</text>
+<line x1="44" y1="85" x2="1356" y2="85" stroke="#dce5ed" stroke-width="2"/>
+<text x="350" y="140" font-size="29" fill="#18324a" text-anchor="middle" font-weight="normal">四条路径的未归一化质量</text>
+<circle cx="120" cy="255" r="38" fill="#f4f7fa" stroke="#245f98" stroke-width="2"/>
+<text x="120" y="266" font-size="31" fill="#18324a" text-anchor="middle" font-weight="normal">0</text>
+<circle cx="120" cy="480" r="38" fill="#f4f7fa" stroke="#245f98" stroke-width="2"/>
+<text x="120" y="491" font-size="31" fill="#18324a" text-anchor="middle" font-weight="normal">1</text>
+<circle cx="580" cy="255" r="38" fill="#f4f7fa" stroke="#245f98" stroke-width="2"/>
+<text x="580" y="266" font-size="31" fill="#18324a" text-anchor="middle" font-weight="normal">0</text>
+<circle cx="580" cy="480" r="38" fill="#f4f7fa" stroke="#245f98" stroke-width="2"/>
+<text x="580" y="491" font-size="31" fill="#18324a" text-anchor="middle" font-weight="normal">1</text>
+<line x1="163" y1="255" x2="537" y2="255" stroke="#c76b25" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="322" y="203" width="56" height="38" rx="7" fill="white" stroke="white"/>
+<text x="350" y="230" font-size="28" fill="#c76b25" text-anchor="middle" font-weight="normal">35</text>
+<line x1="163" y1="255" x2="537" y2="480" stroke="#245f98" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="262" y="328" width="56" height="38" rx="7" fill="white" stroke="white"/>
+<text x="290" y="355" font-size="28" fill="#245f98" text-anchor="middle" font-weight="normal">30</text>
+<line x1="163" y1="480" x2="537" y2="255" stroke="#62778a" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="382" y="368" width="56" height="38" rx="7" fill="white" stroke="white"/>
+<text x="410" y="395" font-size="28" fill="#62778a" text-anchor="middle" font-weight="normal">1</text>
+<line x1="163" y1="480" x2="537" y2="480" stroke="#245f98" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="322" y="508" width="56" height="38" rx="7" fill="white" stroke="white"/>
+<text x="350" y="535" font-size="28" fill="#245f98" text-anchor="middle" font-weight="normal">34</text>
+<text x="120" y="595" font-size="26" fill="#18324a" text-anchor="middle" font-weight="normal">位置 1</text>
+<text x="580" y="595" font-size="26" fill="#18324a" text-anchor="middle" font-weight="normal">位置 2</text>
+<line x1="720" y1="115" x2="720" y2="675" stroke="#dce5ed" stroke-width="2"/>
+<text x="1050" y="155" font-size="27" fill="#18324a" text-anchor="middle" font-weight="normal">前向：把进入同一状态的质量相加</text>
+<text x="1050" y="230" font-size="31" fill="#245f98" text-anchor="middle" font-weight="normal">0：35+1=36</text>
+<text x="1050" y="285" font-size="31" fill="#245f98" text-anchor="middle" font-weight="normal">1：30+34=64</text>
+<text x="1050" y="345" font-size="28" fill="#18324a" text-anchor="middle" font-weight="normal">Z=100；边缘选择 01</text>
+<line x1="800" y1="385" x2="1315" y2="385" stroke="#dce5ed" stroke-width="2"/>
+<text x="1050" y="445" font-size="27" fill="#18324a" text-anchor="middle" font-weight="normal">Viterbi：每个状态只保留最佳前缀</text>
+<text x="1050" y="510" font-size="29" fill="#c76b25" text-anchor="middle" font-weight="normal">0：max(35,1)=35</text>
+<text x="1050" y="565" font-size="29" fill="#c76b25" text-anchor="middle" font-weight="normal">1：max(30,34)=34</text>
+<text x="1050" y="635" font-size="28" fill="#18324a" text-anchor="middle" font-weight="normal">回溯最佳路径 00；概率 0.35</text></g></svg>
