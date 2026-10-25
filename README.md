@@ -17,11 +17,11 @@
 
 各章主图聚焦关键机制，用几何关系、矩阵、网络连接或时间线展示对象怎样变化。图内保留必要数值与简短说明，详细解释和适用条件紧接在图下。算例、对照与反例按内容需要安排；本地图解分布在关键推导、实验和进阶分析附近，配合正文解释数值相消、数据隔离、梯度传播、采样诊断、异步依赖等容易混淆的细节。图中用直接标注、线型和关键数值说明比较关系，区分教学示意与实验结果；需要进一步核对接口或推导时，可沿相邻正文中的原论文、教材和官方文档链接继续阅读。阅读时先确认对象、坐标与条件，再沿图中的计算过程核对结果。
 
-可从[批量矩阵乘法的逐项计算](Programming/NumPy/03-高级索引批量运算与内存布局.md#visual-03-mechanism)、[一轮高斯 EM 的责任度与参数变化](MachineLearning/ProbabilisticModels/02-隐变量高斯混合与EM.md#visual-depth-probabilisticmodels-02)、[缓存追加时的因果掩码](DeepLearning/Transformer/02-自回归训练生成与缓存.md#visual-depth-transformer-cache-mask)和[流匹配的耦合与条件方差](AdvancedStudies/ContinuousGenerativeModels/02-流匹配连续性方程与路径选择.md#flow-matching-47)练习读图：先写出计算对象与固定条件，复算图中的中间量，再判断对照情形究竟改变了哪一个条件。图中的教学构造、模型计算和真实实验应按相邻正文说明分别理解。
+可按三种方式练习读图：
 
-研究方法的适用边界时，可以对照[同一数据拆批后的归一化与梯度](Programming/PyTorch/02-完整训练验证与保存.md#visual-batchnorm-partition)、[重复读取与转置映射的梯度汇总](Programming/NumPy/03-高级索引批量运算与内存布局.md#visual-gather-adjoint)和[同均值服务分布的排队差异](ComputerScience/ComputerSystems/05-性能建模基准实验与瓶颈推断.md#visual-service-variance)：先保持损失分母、源参数或服务均值不变，再找出分批、依赖重复或波动改变了哪一步计算。
-
-讨论等价关系与并发保证时，可以继续比较[库内等范数与单侧归一化](ComputerScience/DataStructuresAndAlgorithms/04-堆近邻与大数据处理策略.md#visual-one-sided-normalization)、[跨行读写形成的依赖环](ComputerScience/Databases/02-连接索引事务与特征数据.md#visual-write-skew-cycle)和[异步取消与底层线程的生命周期](Programming/Python/06-对象协议类型约束与执行模型.md#visual-thread-cancellation)。这些算例分别固定排序对象、业务不变量与事件先后，帮助判断结论究竟在哪个条件下成立。
+- **逐项复算**：[批量矩阵乘法](Programming/NumPy/03-高级索引批量运算与内存布局.md#visual-03-mechanism)、[一轮高斯 EM](MachineLearning/ProbabilisticModels/02-隐变量高斯混合与EM.md#visual-depth-probabilisticmodels-02)和[空值分页游标](ComputerScience/Databases/04-索引执行计划与可靠数据提取.md#visual-null-safe-cursor)，从输入追到每个中间量与最终结果。
+- **用反例检查保证**：[掩码的求值边界](Programming/NumPy/01-数组形状索引与广播.md#visual-mask-execution)、[单侧归一化与排序](ComputerScience/DataStructuresAndAlgorithms/04-堆近邻与大数据处理策略.md#visual-one-sided-normalization)和[跨行读写依赖环](ComputerScience/Databases/02-连接索引事务与特征数据.md#visual-write-skew-cycle)，固定条件后只改变一项，判断原结论是否仍成立。
+- **连接几何与概率**：[对数坐标下的密度面积](Programming/Matplotlib/02-训练诊断分布比较与导出.md#visual-log-density-measure)、[动量的均值与噪声平台](Mathematics/Optimization/02-动量自适应方法与训练诊断.md#visual-momentum-noise-floor)和[POMDP 策略上包络](ReinforcementLearning/MDP/04-部分可观测与奖励建模边界.md#visual-alpha-listening-region)，先读坐标、单位和模型假设，再解释峰、斜率、面积或行动区间。
 
 部分章节另附已下载的经典配图与卷积动画，均可离线查看。
 
