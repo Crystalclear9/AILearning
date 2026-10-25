@@ -21,6 +21,8 @@
 
 研究方法的适用边界时，可以对照[同一数据拆批后的归一化与梯度](Programming/PyTorch/02-完整训练验证与保存.md#visual-batchnorm-partition)、[重复读取与转置映射的梯度汇总](Programming/NumPy/03-高级索引批量运算与内存布局.md#visual-gather-adjoint)和[同均值服务分布的排队差异](ComputerScience/ComputerSystems/05-性能建模基准实验与瓶颈推断.md#visual-service-variance)：先保持损失分母、源参数或服务均值不变，再找出分批、依赖重复或波动改变了哪一步计算。
 
+讨论等价关系与并发保证时，可以继续比较[库内等范数与单侧归一化](ComputerScience/DataStructuresAndAlgorithms/04-堆近邻与大数据处理策略.md#visual-one-sided-normalization)、[跨行读写形成的依赖环](ComputerScience/Databases/02-连接索引事务与特征数据.md#visual-write-skew-cycle)和[异步取消与底层线程的生命周期](Programming/Python/06-对象协议类型约束与执行模型.md#visual-thread-cancellation)。这些算例分别固定排序对象、业务不变量与事件先后，帮助判断结论究竟在哪个条件下成立。
+
 部分章节另附已下载的经典配图与卷积动画，均可离线查看。
 
 离线阅读时，请保留完整仓库及各主题的 images 目录、assets 目录，并使用支持本地 SVG 和 GIF 的 Markdown 阅读器；图片均通过相对路径引用，显示图片无需联网。来源链接仅供追溯，不参与图片加载。
