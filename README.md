@@ -19,6 +19,8 @@
 
 可从[批量矩阵乘法的逐项计算](Programming/NumPy/03-高级索引批量运算与内存布局.md#visual-03-mechanism)、[一轮高斯 EM 的责任度与参数变化](MachineLearning/ProbabilisticModels/02-隐变量高斯混合与EM.md#visual-depth-probabilisticmodels-02)、[缓存追加时的因果掩码](DeepLearning/Transformer/02-自回归训练生成与缓存.md#visual-depth-transformer-cache-mask)和[流匹配的耦合与条件方差](AdvancedStudies/ContinuousGenerativeModels/02-流匹配连续性方程与路径选择.md#flow-matching-47)练习读图：先写出计算对象与固定条件，复算图中的中间量，再判断对照情形究竟改变了哪一个条件。图中的教学构造、模型计算和真实实验应按相邻正文说明分别理解。
 
+研究方法的适用边界时，可以对照[同一数据拆批后的归一化与梯度](Programming/PyTorch/02-完整训练验证与保存.md#visual-batchnorm-partition)、[重复读取与转置映射的梯度汇总](Programming/NumPy/03-高级索引批量运算与内存布局.md#visual-gather-adjoint)和[同均值服务分布的排队差异](ComputerScience/ComputerSystems/05-性能建模基准实验与瓶颈推断.md#visual-service-variance)：先保持损失分母、源参数或服务均值不变，再找出分批、依赖重复或波动改变了哪一步计算。
+
 部分章节另附已下载的经典配图与卷积动画，均可离线查看。
 
 离线阅读时，请保留完整仓库及各主题的 images 目录、assets 目录，并使用支持本地 SVG 和 GIF 的 Markdown 阅读器；图片均通过相对路径引用，显示图片无需联网。来源链接仅供追溯，不参与图片加载。
