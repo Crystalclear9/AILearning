@@ -31,6 +31,8 @@
 - **从递推到不确定性**：[同一 HMM 的前向、Viterbi 回溯与 EM 软计数](MachineLearning/ProbabilisticModels/04-隐马尔可夫模型与序列推断.md#visual-insight-probabilisticmodels-04)；[七位置 Q 学习的参照表、逐次更新与随机目标](ReinforcementLearning/ValueBasedMethods/02-一维导航的表格Q学习.md#visual-valuebasedmethods-02)。
 - **从观测到定位**：[CPU 时间预算、共享页计数与停顿位置](ComputerScience/Linux/04-服务器实验的监控与故障排查.md#linux-4-quota-timeline)；[同一优化实验的坐标轨迹、一步更新与成本剖面](Mathematics/Optimization/04-优化实验记录与故障定位.md#visual-optimization-04)。
 - **从概率到证据**：[自回归路径、可逆耦合、人工流几何与离散分箱](AI-Domains/GenerativeModels/04-自回归模型与归一化流.md#gm4-binary-ledger)；[RAG 的实际排名、装箱瓶颈与联合引用支持](AI-Domains/LargeLanguageModels/05-RAG系统拆解与评估集构建.md#visual-local-largelanguagemodels-05)。
+- **从实验协议到语言目标**：[真实划分、预处理依赖与验证选择偏差](DeepLearning/Projects/01-任务数据与实验设计.md#visual-local-projects-01)；[字节对齐、监督转移、完整路径概率与历史信息](AI-Domains/LargeLanguageModels/01-分词预训练与语言建模.md#llm-1-byte-alignment)。
+- **从区域到条件信息**：[检测匹配、AP 口径、像素统计与实例身份](AI-Domains/ComputerVision/02-检测分割与视觉评价.md#cv2-matching-ledger)；[跨注意力来源、缺失后验与条件生成评分](AI-Domains/MultimodalLearning/02-融合跨模态生成与评估.md#mm2-cross-source-ledger)。
 
 部分章节另附已下载的经典配图与卷积动画，均可离线查看。
 
