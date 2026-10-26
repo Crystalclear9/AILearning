@@ -29,6 +29,8 @@
 - **从坐标到统计对象**：[PCA 的中心化、旋转、重构与标签损失](Mathematics/LinearAlgebra/04-从协方差到PCA的完整实践.md#visual-linearalgebra-04)；[双峰密度、得分责任与去噪后验](AdvancedStudies/ContinuousGenerativeModels/01-得分匹配随机微分方程与概率流.md#visual-continuousgenerativemodels-01)。
 - **从前向到参数学习**：[批量 ReLU 的前向账本与共享梯度](DeepLearning/NeuralNetworkBasics/02-反向传播初始化与训练诊断.md#nnb-2-batch-ledger)；[交叉注意力的矩阵读取与双路径反向](DeepLearning/Transformer/03-编码器解码器的最小结构实践.md#transformer-3-cross-matrix-forward)。
 - **从递推到不确定性**：[同一 HMM 的前向、Viterbi 回溯与 EM 软计数](MachineLearning/ProbabilisticModels/04-隐马尔可夫模型与序列推断.md#visual-insight-probabilisticmodels-04)；[七位置 Q 学习的参照表、逐次更新与随机目标](ReinforcementLearning/ValueBasedMethods/02-一维导航的表格Q学习.md#visual-valuebasedmethods-02)。
+- **从观测到定位**：[CPU 时间预算、共享页计数与停顿位置](ComputerScience/Linux/04-服务器实验的监控与故障排查.md#linux-4-quota-timeline)；[同一优化实验的坐标轨迹、一步更新与成本剖面](Mathematics/Optimization/04-优化实验记录与故障定位.md#visual-optimization-04)。
+- **从概率到证据**：[自回归路径、可逆耦合、人工流几何与离散分箱](AI-Domains/GenerativeModels/04-自回归模型与归一化流.md#gm4-binary-ledger)；[RAG 的实际排名、装箱瓶颈与联合引用支持](AI-Domains/LargeLanguageModels/05-RAG系统拆解与评估集构建.md#visual-local-largelanguagemodels-05)。
 
 部分章节另附已下载的经典配图与卷积动画，均可离线查看。
 
