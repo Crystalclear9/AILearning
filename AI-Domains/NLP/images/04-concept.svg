@@ -1,1 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img"><title>生成评估先固定参考与判定规则</title><rect width="1200" height="630" fill="white" /><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="48" y="58" font-size="29" fill="#19344d" text-anchor="start">生成评估先固定参考与判定规则</text><path d="M48,86 L1152,86" stroke="#d8e3ed" stroke-width="2" fill="none" /><text x="65" y="135" font-size="25" fill="#19344d" text-anchor="start">词面相近的句子，可以作出相反的事实判断</text><circle cx="130" cy="260" r="22" fill="#eaf2fa" stroke="#2166ac" stroke-width="2" /><circle cx="200" cy="260" r="22" fill="#eaf2fa" stroke="#2166ac" stroke-width="2" /><circle cx="270" cy="260" r="22" fill="#eaf2fa" stroke="#2166ac" stroke-width="2" /><circle cx="340" cy="260" r="22" fill="#eaf2fa" stroke="#2166ac" stroke-width="2" /><circle cx="410" cy="260" r="22" fill="#eaf2fa" stroke="#2166ac" stroke-width="2" /><circle cx="130" cy="345" r="22" fill="#eaf2fa" stroke="#2166ac" stroke-width="2" /><circle cx="200" cy="345" r="22" fill="#eaf2fa" stroke="#2166ac" stroke-width="2" /><circle cx="270" cy="345" r="22" fill="#eaf2fa" stroke="#2166ac" stroke-width="2" /><circle cx="340" cy="345" r="22" fill="#eaf2fa" stroke="#2166ac" stroke-width="2" /><circle cx="410" cy="345" r="22" fill="#eaf2fa" stroke="#2166ac" stroke-width="2" /><path d="M500,320 L700,240" stroke="#2166ac" stroke-width="3" fill="none" /><path d="M700,240 L691.9059759759359,248.85927621749505" stroke="#2166ac" stroke-width="3" fill="none" /><path d="M700,240 L688.0289645222329,239.16674758323742" stroke="#2166ac" stroke-width="3" fill="none" /><text x="740" y="250" font-size="30" fill="#2166ac" text-anchor="start">“10 个”</text><path d="M500,320 L700,350" stroke="#2166ac" stroke-width="3" fill="none" /><path d="M700,350 L688.5399057077129,353.55896597509576" stroke="#2166ac" stroke-width="3" fill="none" /><path d="M700,350 L690.0884573318515,343.2352884808389" stroke="#2166ac" stroke-width="3" fill="none" /><text x="740" y="360" font-size="30" fill="#2166ac" text-anchor="start">“共计十个”</text><path d="M500,320 L700,460" stroke="#d66b28" stroke-width="3" fill="none" /><path d="M700,460 L688.1546636332616,458.0795817229504" stroke="#d66b28" stroke-width="3" fill="none" /><path d="M700,460 L694.1411361510699,449.52747812608163" stroke="#d66b28" stroke-width="3" fill="none" /><text x="740" y="470" font-size="30" fill="#d66b28" text-anchor="start">“不是十个”</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1120" viewBox="0 0 1440 1120" role="img"><title>先分清命题，再检查引用边</title><rect width="1440" height="1120" fill="white"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#203247">
+<text x="44" y="55" font-size="34" fill="#203247" text-anchor="start" font-weight="700">先分清命题，再检查引用边</text>
+<text x="60" y="112" font-size="27" fill="#6b7785" text-anchor="start">去重后的四个命题；年份在原回答中出现两次</text>
+<text x="1050" y="112" font-size="27" fill="#6b7785" text-anchor="start">允许证据中的 alpha 事实</text>
+<circle cx="75" cy="220" r="18" fill="#2563a6"/>
+<text x="120" y="230" font-size="29" fill="#2563a6" text-anchor="start">alpha · 启动年 2020  ×2</text>
+<text x="505" y="230" font-size="25" fill="#2563a6" text-anchor="end">支持</text>
+<rect x="58.0" y="378.0" width="34" height="34" fill="white" stroke="#d87320" stroke-width="2" rx="0"/>
+<text x="120" y="405" font-size="29" fill="#d87320" text-anchor="start">alpha · 预算 100</text>
+<text x="505" y="405" font-size="25" fill="#d87320" text-anchor="end">矛盾</text>
+<circle cx="75" cy="570" r="18" fill="#2563a6"/>
+<text x="120" y="580" font-size="29" fill="#2563a6" text-anchor="start">alpha · 未批准</text>
+<text x="505" y="580" font-size="25" fill="#2563a6" text-anchor="end">支持</text>
+<polyline points="75.000,721.000 99.000,745.000 75.000,769.000 51.000,745.000 75.000,721.000" fill="white" stroke="#6b7785" stroke-width="3" opacity="1"/>
+<text x="120" y="755" font-size="29" fill="#6b7785" text-anchor="start">alpha · 负责人 Lin</text>
+<text x="505" y="755" font-size="25" fill="#6b7785" text-anchor="end">未知</text>
+<rect x="1020" y="165" width="350" height="250" fill="white" stroke="#203247" stroke-width="2" rx="8"/>
+<text x="1050" y="213" font-size="31" fill="#203247" text-anchor="start" font-weight="700">d1</text>
+<text x="1050" y="275" font-size="28" fill="#203247" text-anchor="start">启动年 2020</text>
+<text x="1050" y="335" font-size="28" fill="#203247" text-anchor="start">预算 10</text>
+<rect x="1020" y="495" width="350" height="145" fill="white" stroke="#2563a6" stroke-width="2" rx="8"/>
+<text x="1050" y="540" font-size="31" fill="#2563a6" text-anchor="start" font-weight="700">d2</text>
+<text x="1050" y="590" font-size="27" fill="#2563a6" text-anchor="start">未批准；未被引用</text>
+<rect x="1020" y="690" width="350" height="115" rx="8" fill="white" stroke="#6b7785" stroke-width="2" stroke-dasharray="9 7"/>
+<text x="1195" y="755" font-size="28" fill="#6b7785" text-anchor="middle">missing：不存在</text>
+<line x1="550" y1="210" x2="1005" y2="245" stroke="#2563a6" stroke-width="3"/>
+<polyline points="992.673,249.129 1005.000,245.000 993.450,239.034" fill="none" stroke="#2563a6" stroke-width="3" opacity="1"/>
+<line x1="550" y1="235" x2="1005" y2="270" stroke="#2563a6" stroke-width="3"/>
+<polyline points="992.673,274.129 1005.000,270.000 993.450,264.034" fill="none" stroke="#2563a6" stroke-width="3" opacity="1"/>
+<line x1="550" y1="395" x2="1005" y2="325" stroke="#d87320" stroke-width="3"/>
+<polyline points="993.935,331.824 1005.000,325.000 992.396,321.817" fill="none" stroke="#d87320" stroke-width="3" opacity="1"/>
+<line x1="550" y1="570" x2="1005" y2="380" stroke="#d87320" stroke-width="3"/>
+<polyline points="995.902,389.285 1005.000,380.000 992.000,379.942" fill="none" stroke="#d87320" stroke-width="3" opacity="1"/>
+<line x1="550" y1="745" x2="1005" y2="747" stroke="#6b7785" stroke-width="3"/>
+<polyline points="993.004,752.010 1005.000,747.000 993.049,741.885" fill="none" stroke="#6b7785" stroke-width="3" opacity="1"/>
+<text x="720" y="203" font-size="25" fill="#2563a6" text-anchor="middle">同一正确引用出现两次</text>
+<text x="730" y="340" font-size="26" fill="#d87320" text-anchor="middle">数字冲突</text>
+<text x="745" y="640" font-size="25" fill="#d87320" text-anchor="middle">事实正确，所给引用不支持</text>
+<line x1="60" y1="858" x2="1380" y2="858" stroke="#dce4ec" stroke-width="2"/>
+<text x="190" y="910" font-size="27" fill="#203247" text-anchor="middle" font-weight="700">命题支持精度</text>
+<text x="190" y="947" font-size="30" fill="#203247" text-anchor="middle">2</text>
+<line x1="152.5" y1="960" x2="227.5" y2="960" stroke="#203247" stroke-width="2"/>
+<text x="190" y="998" font-size="30" fill="#203247" text-anchor="middle">4</text>
+<text x="190" y="1060" font-size="29" fill="#203247" text-anchor="middle">0.50</text>
+<text x="545" y="910" font-size="27" fill="#203247" text-anchor="middle" font-weight="700">必要事实覆盖</text>
+<text x="545" y="947" font-size="30" fill="#203247" text-anchor="middle">2</text>
+<line x1="507.5" y1="960" x2="582.5" y2="960" stroke="#203247" stroke-width="2"/>
+<text x="545" y="998" font-size="30" fill="#203247" text-anchor="middle">3</text>
+<text x="545" y="1060" font-size="29" fill="#203247" text-anchor="middle">0.667</text>
+<text x="900" y="910" font-size="27" fill="#203247" text-anchor="middle" font-weight="700">引用边精度</text>
+<text x="900" y="947" font-size="30" fill="#203247" text-anchor="middle">2</text>
+<line x1="862.5" y1="960" x2="937.5" y2="960" stroke="#203247" stroke-width="2"/>
+<text x="900" y="998" font-size="30" fill="#203247" text-anchor="middle">5</text>
+<text x="900" y="1060" font-size="29" fill="#203247" text-anchor="middle">0.40</text>
+<text x="1245" y="910" font-size="27" fill="#203247" text-anchor="middle" font-weight="700">命题引用覆盖</text>
+<text x="1245" y="947" font-size="30" fill="#203247" text-anchor="middle">1</text>
+<line x1="1207.5" y1="960" x2="1282.5" y2="960" stroke="#203247" stroke-width="2"/>
+<text x="1245" y="998" font-size="30" fill="#203247" text-anchor="middle">4</text>
+<text x="1245" y="1060" font-size="29" fill="#203247" text-anchor="middle">0.25</text>
+</g></svg>

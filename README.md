@@ -15,7 +15,7 @@
 
 ## 图解与离线阅读
 
-各章主图聚焦关键机制，用几何关系、矩阵、网络连接或时间线展示对象怎样变化。图内保留必要数值与简短说明，详细解释和适用条件紧接在图下。算例、对照与反例按内容需要安排；本地图解分布在关键推导、实验和进阶分析附近，配合正文解释数值相消、数据隔离、梯度传播、采样诊断、异步依赖等容易混淆的细节。图中用直接标注、线型和关键数值说明比较关系，区分教学示意与实验结果；需要进一步核对接口或推导时，可沿相邻正文中的原论文、教材和官方文档链接继续阅读。阅读时先确认对象、坐标与条件，再沿图中的计算过程核对结果。
+各章主图聚焦关键机制，用几何关系、矩阵、网络连接或时间线展示对象怎样变化。图内保留必要数值与简短说明，详细解释和适用条件紧接在图下。算例、对照与反例按内容需要安排；本地图解分布在关键推导、实验和进阶分析附近，配合正文解释数值相消、数据隔离、梯度传播、采样诊断、异步依赖等容易混淆的细节。图中通过直接标注、点形、线型和关键数值说明比较关系；同尺度对照用于比较位置、宽度与比例，避免仅凭颜色辨认对象。图内保留关键量，逐步计算与条件放在相邻正文，区分教学示意与实验结果；需要进一步核对接口或推导时，可沿相邻正文中的原论文、教材和官方文档链接继续阅读。阅读时先确认对象、坐标与条件，再沿图中的计算过程核对结果。
 
 可按三种方式练习读图：
 
@@ -33,6 +33,9 @@
 - **从概率到证据**：[自回归路径、可逆耦合、人工流几何与离散分箱](AI-Domains/GenerativeModels/04-自回归模型与归一化流.md#gm4-binary-ledger)；[RAG 的实际排名、装箱瓶颈与联合引用支持](AI-Domains/LargeLanguageModels/05-RAG系统拆解与评估集构建.md#visual-local-largelanguagemodels-05)。
 - **从实验协议到语言目标**：[真实划分、预处理依赖与验证选择偏差](DeepLearning/Projects/01-任务数据与实验设计.md#visual-local-projects-01)；[字节对齐、监督转移、完整路径概率与历史信息](AI-Domains/LargeLanguageModels/01-分词预训练与语言建模.md#llm-1-byte-alignment)。
 - **从区域到条件信息**：[检测匹配、AP 口径、像素统计与实例身份](AI-Domains/ComputerVision/02-检测分割与视觉评价.md#cv2-matching-ledger)；[跨注意力来源、缺失后验与条件生成评分](AI-Domains/MultimodalLearning/02-融合跨模态生成与评估.md#mm2-cross-source-ledger)。
+- **从对象到像素**：[共享引用、深复制、去重索引与清洗轨道](Programming/Python/01-变量容器与控制流程.md#visual-01-concept)；[换轴、采样相位、空间翻转与冻结状态](AI-Domains/ComputerVision/01-图像表示分类与迁移学习.md#visual-local-computervision-01)。
+- **从分母到概率质量**：[订单行流、三值逻辑与聚合权重](ComputerScience/Databases/01-关系模型筛选与聚合.md#db1-order-group-lineage)；[高斯搬运、支持与频率、筛选流量及条件尺度](AI-Domains/GenerativeModels/05-生成实验设计与可控性评价.md#geneval-gaussian-coupling)。
+- **从独立规格到可信评价**：[梯度检查、最小状态反例与发布失败路径](Programming/Python/05-调试测试与可复现小项目.md#py-5-first-valid-key)；[检索分数、来源隔离与实体跨度](AI-Domains/NLP/03-检索序列标注与文本分类实践.md#nlp3-retrieval-score-geometry)；[命题引用、来源自助抽样与风险覆盖](AI-Domains/NLP/04-生成任务数据质量与评价设计.md#nlp4-source-bootstrap)。
 
 部分章节另附已下载的经典配图与卷积动画，均可离线查看。
 
