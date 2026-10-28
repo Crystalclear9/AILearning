@@ -1,1 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img"><title>残差分支与捷径如何汇合</title><rect width="1200" height="630" fill="white" /><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="48" y="58" font-size="29" fill="#19344d" text-anchor="start">残差分支与捷径如何汇合</text><path d="M48,86 L1152,86" stroke="#d8e3ed" stroke-width="2" fill="none" /><text x="65" y="135" font-size="25" fill="#19344d" text-anchor="start">残差按坐标相加：形状相同，数值逐格对应</text><rect x="90" y="230" width="92" height="92" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="136.0" y="291.75" font-size="24" fill="#19344d" text-anchor="middle">1</text><rect x="185" y="230" width="92" height="92" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="231.0" y="291.75" font-size="24" fill="#19344d" text-anchor="middle">2</text><rect x="90" y="325" width="92" height="92" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="136.0" y="386.75" font-size="24" fill="#19344d" text-anchor="middle">3</text><rect x="185" y="325" width="92" height="92" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="231.0" y="386.75" font-size="24" fill="#19344d" text-anchor="middle">4</text><text x="145" y="195" font-size="25" fill="#19344d" text-anchor="start">x</text><text x="345" y="340" font-size="40" fill="#19344d" text-anchor="start">+</text><rect x="410" y="230" width="92" height="92" rx="3" fill="#fceadf" stroke="white" stroke-width="2" /><text x="456.0" y="291.75" font-size="24" fill="#19344d" text-anchor="middle">0.1</text><rect x="505" y="230" width="92" height="92" rx="3" fill="#fceadf" stroke="white" stroke-width="2" /><text x="551.0" y="291.75" font-size="24" fill="#19344d" text-anchor="middle">-0.2</text><rect x="410" y="325" width="92" height="92" rx="3" fill="#fceadf" stroke="white" stroke-width="2" /><text x="456.0" y="386.75" font-size="24" fill="#19344d" text-anchor="middle">0</text><rect x="505" y="325" width="92" height="92" rx="3" fill="#fceadf" stroke="white" stroke-width="2" /><text x="551.0" y="386.75" font-size="24" fill="#19344d" text-anchor="middle">0.5</text><text x="455" y="195" font-size="25" fill="#19344d" text-anchor="start">F(x)</text><text x="655" y="340" font-size="40" fill="#19344d" text-anchor="start">=</text><rect x="740" y="230" width="112" height="92" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="796.0" y="291.75" font-size="24" fill="#19344d" text-anchor="middle">1.1</text><rect x="855" y="230" width="112" height="92" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="911.0" y="291.75" font-size="24" fill="#19344d" text-anchor="middle">1.8</text><rect x="740" y="325" width="112" height="92" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="796.0" y="386.75" font-size="24" fill="#19344d" text-anchor="middle">3</text><rect x="855" y="325" width="112" height="92" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="911.0" y="386.75" font-size="24" fill="#19344d" text-anchor="middle">4.5</text><path d="M110,460 L925,460" stroke="#d66b28" stroke-width="3" fill="none" /><text x="180" y="525" font-size="25" fill="#19344d" text-anchor="start">每个输出坐标保留输入路径，并接收局部修正</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img"><title>残差：沿原来的位置，加入一次修正</title><rect width="1200" height="750" fill="white"/><g font-family="Microsoft YaHei,sans-serif">
+<text x="46" y="54" font-size="32" fill="#233542" text-anchor="start">残差：沿原来的位置，加入一次修正</text>
+<text x="50" y="112" font-size="26" fill="#276b91" text-anchor="start">输入 x</text>
+<text x="487" y="112" font-size="26" fill="#c65f36" text-anchor="start">残差 F(x)</text>
+<text x="955" y="112" font-size="26" fill="#237c75" text-anchor="start">输出 x + F(x)</text>
+<rect x="50" y="180" width="68" height="68" fill="#cbd9df" stroke="white" stroke-width="2"/>
+<text x="84.0" y="223.0" font-size="24" fill="#233542" text-anchor="middle">1</text>
+<rect x="118" y="180" width="68" height="68" fill="#a1bdc9" stroke="white" stroke-width="2"/>
+<text x="152.0" y="223.0" font-size="24" fill="#233542" text-anchor="middle">2</text>
+<rect x="50" y="248" width="68" height="68" fill="#77a1b2" stroke="white" stroke-width="2"/>
+<text x="84.0" y="291.0" font-size="24" fill="white" text-anchor="middle">3</text>
+<rect x="118" y="248" width="68" height="68" fill="#4d859c" stroke="white" stroke-width="2"/>
+<text x="152.0" y="291.0" font-size="24" fill="white" text-anchor="middle">4</text>
+<rect x="485" y="180" width="68" height="68" fill="#276b91" stroke="white" stroke-width="2"/>
+<text x="519.0" y="223.0" font-size="24" fill="white" text-anchor="middle">0.1</text>
+<rect x="553" y="180" width="68" height="68" fill="#c65f36" stroke="white" stroke-width="2"/>
+<text x="587.0" y="223.0" font-size="24" fill="white" text-anchor="middle">-0.2</text>
+<rect x="485" y="248" width="68" height="68" fill="#edf0f1" stroke="white" stroke-width="2"/>
+<text x="519.0" y="291.0" font-size="24" fill="#233542" text-anchor="middle">0</text>
+<rect x="553" y="248" width="68" height="68" fill="#276b91" stroke="white" stroke-width="2"/>
+<text x="587.0" y="291.0" font-size="24" fill="white" text-anchor="middle">0.5</text>
+<rect x="955" y="180" width="68" height="68" fill="#ccdae0" stroke="white" stroke-width="2"/>
+<text x="989.0" y="223.0" font-size="24" fill="#233542" text-anchor="middle">1.1</text>
+<rect x="1023" y="180" width="68" height="68" fill="#b2c8d2" stroke="white" stroke-width="2"/>
+<text x="1057.0" y="223.0" font-size="24" fill="#233542" text-anchor="middle">1.8</text>
+<rect x="955" y="248" width="68" height="68" fill="#85aaba" stroke="white" stroke-width="2"/>
+<text x="989.0" y="291.0" font-size="24" fill="white" text-anchor="middle">3</text>
+<rect x="1023" y="248" width="68" height="68" fill="#4d859c" stroke="white" stroke-width="2"/>
+<text x="1057.0" y="291.0" font-size="24" fill="white" text-anchor="middle">4.5</text>
+<polyline points="210,245 360,245 360,158 820,158 820,245 920,245" fill="none" stroke="#276b91" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="600" y="143" font-size="25" fill="#276b91" text-anchor="middle">恒等捷径：保留 x</text>
+<path d="M210,290 L448,290" fill="none" stroke="#c65f36" stroke-width="3" stroke-dasharray=""/>
+<polyline points="436.94726807196537,294.6730201077038 448,290 436.94726807196537,285.3269798922962" fill="none" stroke="#c65f36" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M643,290 L920,290" fill="none" stroke="#c65f36" stroke-width="3" stroke-dasharray=""/>
+<polyline points="908.9472680719654,294.6730201077038 920,290 908.9472680719654,285.3269798922962" fill="none" stroke="#c65f36" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="332" y="330" font-size="24" fill="#c65f36" text-anchor="middle">计算 F(x)</text>
+<text x="780" y="330" font-size="24" fill="#c65f36" text-anchor="middle">逐坐标相加</text>
+<path d="M46,383 L1150,383" fill="none" stroke="#dce4e7" stroke-width="2" stroke-dasharray=""/>
+<text x="46" y="428" font-size="27" fill="#233542" text-anchor="start">把四个坐标展开，观察修正方向</text>
+<path d="M350,480 L1050,480" fill="none" stroke="#dce4e7" stroke-width="2" stroke-dasharray=""/>
+<text x="46" y="488" font-size="25" fill="#233542" text-anchor="start">左上</text>
+<circle cx="500" cy="480" r="8" fill="#276b91"/>
+<path d="M500,480 L515.0,480" fill="none" stroke="#c65f36" stroke-width="4" stroke-dasharray=""/>
+<polyline points="503.94726807196537,484.6730201077038 515.0,480 503.94726807196537,475.3269798922962" fill="none" stroke="#c65f36" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="515.0" cy="480" r="5" fill="#237c75"/>
+<text x="1110" y="488" font-size="25" fill="#c65f36" text-anchor="middle">+0.1</text>
+<text x="490" y="465" font-size="24" fill="#276b91" text-anchor="end">1</text>
+<text x="525.0" y="465" font-size="24" fill="#237c75" text-anchor="start">1.1</text>
+<path d="M350,541 L1050,541" fill="none" stroke="#dce4e7" stroke-width="2" stroke-dasharray=""/>
+<text x="46" y="549" font-size="25" fill="#233542" text-anchor="start">右上</text>
+<circle cx="650" cy="541" r="8" fill="#276b91"/>
+<path d="M650,541 L620.0,541" fill="none" stroke="#c65f36" stroke-width="4" stroke-dasharray=""/>
+<polyline points="631.0527319280346,536.3269798922962 620.0,541 631.0527319280346,545.6730201077038" fill="none" stroke="#c65f36" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="620.0" cy="541" r="5" fill="#237c75"/>
+<text x="1110" y="549" font-size="25" fill="#c65f36" text-anchor="middle">-0.2</text>
+<path d="M350,602 L1050,602" fill="none" stroke="#dce4e7" stroke-width="2" stroke-dasharray=""/>
+<text x="46" y="610" font-size="25" fill="#233542" text-anchor="start">左下</text>
+<circle cx="800" cy="602" r="8" fill="#276b91"/>
+<circle cx="800" cy="602" r="5" fill="#237c75"/>
+<text x="1110" y="610" font-size="25" fill="#c65f36" text-anchor="middle">0</text>
+<path d="M350,663 L1050,663" fill="none" stroke="#dce4e7" stroke-width="2" stroke-dasharray=""/>
+<text x="46" y="671" font-size="25" fill="#233542" text-anchor="start">右下</text>
+<circle cx="950" cy="663" r="8" fill="#276b91"/>
+<path d="M950,663 L1025.0,663" fill="none" stroke="#c65f36" stroke-width="4" stroke-dasharray=""/>
+<polyline points="1013.9472680719654,667.6730201077038 1025.0,663 1013.9472680719654,658.3269798922962" fill="none" stroke="#c65f36" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1025.0" cy="663" r="5" fill="#237c75"/>
+<text x="1110" y="671" font-size="25" fill="#c65f36" text-anchor="middle">+0.5</text>
+<text x="940" y="648" font-size="24" fill="#276b91" text-anchor="end">4</text>
+<text x="1035.0" y="648" font-size="24" fill="#237c75" text-anchor="start">4.5</text>
+<text x="610" y="730" font-size="26" fill="#233542" text-anchor="middle">位置不变；修正可以为正、为负，也可以为零。</text></g></svg>
