@@ -28,7 +28,7 @@
 若希望跟着一套数字看完一个方法，可按以下连续图组学习：先复算前一图的输出，再把它作为后一图的输入；图中省略的条件与公式紧接在正文解释。
 
 - **从数据到样本**：[历史事实、未知字段与标签成熟](Programming/Pandas/04-从原始表到训练样本的完整流程.md#pd4-visual-record-selection)；[阶段依赖、队列背压与训练前缀](ComputerScience/ComputerSystems/03-I_O缓存与数据加载流水线.md#visual-03-concept)。
-- **从坐标到统计对象**：[PCA 的中心化、旋转、重构与标签损失](Mathematics/LinearAlgebra/04-从协方差到PCA的完整实践.md#visual-linearalgebra-04)；[双峰密度、得分责任与去噪后验](AdvancedStudies/ContinuousGenerativeModels/01-得分匹配随机微分方程与概率流.md#visual-continuousgenerativemodels-01)。
+- **从坐标到统计对象**：[PCA 的中心化、正交坐标变换、重构与标签损失](Mathematics/LinearAlgebra/04-从协方差到PCA的完整实践.md#visual-linearalgebra-04)；[双峰密度、得分责任与去噪后验](AdvancedStudies/ContinuousGenerativeModels/01-得分匹配随机微分方程与概率流.md#visual-continuousgenerativemodels-01)。
 - **从前向到参数学习**：[批量 ReLU 的前向账本与共享梯度](DeepLearning/NeuralNetworkBasics/02-反向传播初始化与训练诊断.md#nnb-2-batch-ledger)；[交叉注意力的矩阵读取与双路径反向](DeepLearning/Transformer/03-编码器解码器的最小结构实践.md#transformer-3-cross-matrix-forward)。
 - **从递推到不确定性**：[同一 HMM 的前向、Viterbi 回溯与 EM 软计数](MachineLearning/ProbabilisticModels/04-隐马尔可夫模型与序列推断.md#visual-insight-probabilisticmodels-04)；[七位置 Q 学习的参照表、逐次更新与随机目标](ReinforcementLearning/ValueBasedMethods/02-一维导航的表格Q学习.md#visual-valuebasedmethods-02)。
 - **从观测到定位**：[CPU 时间预算、共享页计数与停顿位置](ComputerScience/Linux/04-服务器实验的监控与故障排查.md#linux-4-quota-timeline)；[同一优化实验的坐标轨迹、一步更新与成本剖面](Mathematics/Optimization/04-优化实验记录与故障定位.md#visual-optimization-04)。
