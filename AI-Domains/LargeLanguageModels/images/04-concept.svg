@@ -1,1 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img"><title>微调数据中的监督位置</title><rect width="1200" height="630" fill="white" /><g font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif"><text x="48" y="58" font-size="29" fill="#19344d" text-anchor="start">微调数据中的监督位置</text><path d="M48,86 L1152,86" stroke="#d8e3ed" stroke-width="2" fill="none" /><text x="65" y="135" font-size="25" fill="#19344d" text-anchor="start">有效监督掩码直接决定损失求和的格子</text><rect x="100" y="220" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="198.5" y="259.0" font-size="24" fill="#19344d" text-anchor="middle">指令</text><rect x="300" y="220" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="398.5" y="259.0" font-size="24" fill="#19344d" text-anchor="middle">上下文</text><rect x="500" y="220" width="197" height="57" rx="3" fill="#fceadf" stroke="white" stroke-width="2" /><text x="598.5" y="259.0" font-size="24" fill="#19344d" text-anchor="middle">答案1</text><rect x="700" y="220" width="197" height="57" rx="3" fill="#fceadf" stroke="white" stroke-width="2" /><text x="798.5" y="259.0" font-size="24" fill="#19344d" text-anchor="middle">答案2</text><rect x="900" y="220" width="197" height="57" rx="3" fill="#fceadf" stroke="white" stroke-width="2" /><text x="998.5" y="259.0" font-size="24" fill="#19344d" text-anchor="middle">EOS</text><rect x="100" y="340" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="198.5" y="379.0" font-size="24" fill="#19344d" text-anchor="middle">0</text><rect x="300" y="340" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="398.5" y="379.0" font-size="24" fill="#19344d" text-anchor="middle">0</text><rect x="500" y="340" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="598.5" y="379.0" font-size="24" fill="#19344d" text-anchor="middle">1</text><rect x="700" y="340" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="798.5" y="379.0" font-size="24" fill="#19344d" text-anchor="middle">1</text><rect x="900" y="340" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="998.5" y="379.0" font-size="24" fill="#19344d" text-anchor="middle">1</text><rect x="100" y="460" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="198.5" y="499.0" font-size="24" fill="#19344d" text-anchor="middle">忽略</text><rect x="300" y="460" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="398.5" y="499.0" font-size="24" fill="#19344d" text-anchor="middle">忽略</text><rect x="500" y="460" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="598.5" y="499.0" font-size="24" fill="#19344d" text-anchor="middle">1</text><rect x="700" y="460" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="798.5" y="499.0" font-size="24" fill="#19344d" text-anchor="middle">2</text><rect x="900" y="460" width="197" height="57" rx="3" fill="#eaf2fa" stroke="white" stroke-width="2" /><text x="998.5" y="499.0" font-size="24" fill="#19344d" text-anchor="middle">3</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc"><title id="title">因果监督：先对齐下一个符号，再选出有效标签</title><desc id="desc">正文两个样本的真实输入与标签；SEP位置预测首答案，答案位置预测后继，EOS有效、PAD无效，共五个监督位置。</desc><rect width="1400" height="900" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#20343d">
+<text x="45" y="55" font-size="38" fill="#20343d" text-anchor="start" font-weight="700">因果监督：SEP 位置负责预测第一个答案</text>
+<text x="45" y="105" font-size="27" fill="#6d7c84" text-anchor="start" font-weight="400">正文 encode 的两个样本；每列是一组对齐的输入与预测目标。</text>
+<line x1="45" y1="130" x2="1355" y2="130" stroke="#a9b8be" stroke-width="2"/>
+<text x="55" y="245" font-size="28" fill="#20343d" text-anchor="start" font-weight="400">输入</text>
+<text x="55" y="360" font-size="28" fill="#20343d" text-anchor="start" font-weight="400">标签</text>
+<rect x="210" y="205" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="292" y="249" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">BOS</text>
+<line x1="292" y1="275" x2="292" y2="306" stroke="#cbd5da" stroke-width="3"/>
+<rect x="210" y="320" width="165" height="65" fill="#f5f6f7" stroke="#e1e7ea" stroke-width="2"/>
+<text x="292" y="364" font-size="29" fill="#6d7c84" text-anchor="middle" font-weight="400">忽略</text>
+<rect x="390" y="205" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="472" y="249" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">4</text>
+<line x1="472" y1="275" x2="472" y2="306" stroke="#cbd5da" stroke-width="3"/>
+<rect x="390" y="320" width="165" height="65" fill="#f5f6f7" stroke="#e1e7ea" stroke-width="2"/>
+<text x="472" y="364" font-size="29" fill="#6d7c84" text-anchor="middle" font-weight="400">忽略</text>
+<rect x="570" y="205" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="652" y="249" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">5</text>
+<line x1="652" y1="275" x2="652" y2="306" stroke="#cbd5da" stroke-width="3"/>
+<rect x="570" y="320" width="165" height="65" fill="#f5f6f7" stroke="#e1e7ea" stroke-width="2"/>
+<text x="652" y="364" font-size="29" fill="#6d7c84" text-anchor="middle" font-weight="400">忽略</text>
+<rect x="750" y="205" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="832" y="249" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">SEP</text>
+<line x1="832" y1="275" x2="832" y2="306" stroke="#c67630" stroke-width="3"/>
+<rect x="750" y="320" width="165" height="65" fill="#fff0e3" stroke="#c67630" stroke-width="2"/>
+<text x="832" y="364" font-size="29" fill="#c67630" text-anchor="middle" font-weight="400">6</text>
+<rect x="930" y="205" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="1012" y="249" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">6</text>
+<line x1="1012" y1="275" x2="1012" y2="306" stroke="#c67630" stroke-width="3"/>
+<rect x="930" y="320" width="165" height="65" fill="#fff0e3" stroke="#c67630" stroke-width="2"/>
+<text x="1012" y="364" font-size="29" fill="#c67630" text-anchor="middle" font-weight="400">7</text>
+<rect x="1110" y="205" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="1192" y="249" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">7</text>
+<line x1="1192" y1="275" x2="1192" y2="306" stroke="#c67630" stroke-width="3"/>
+<rect x="1110" y="320" width="165" height="65" fill="#fff0e3" stroke="#c67630" stroke-width="2"/>
+<text x="1192" y="364" font-size="29" fill="#c67630" text-anchor="middle" font-weight="400">EOS</text>
+<text x="210" y="430" font-size="28" fill="#c67630" text-anchor="start" font-weight="400">有效目标：6、7、EOS，共 3 个</text>
+<text x="55" y="525" font-size="28" fill="#20343d" text-anchor="start" font-weight="400">输入</text>
+<text x="55" y="640" font-size="28" fill="#20343d" text-anchor="start" font-weight="400">标签</text>
+<rect x="210" y="485" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="292" y="529" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">BOS</text>
+<line x1="292" y1="555" x2="292" y2="586" stroke="#cbd5da" stroke-width="3"/>
+<rect x="210" y="600" width="165" height="65" fill="#f5f6f7" stroke="#e1e7ea" stroke-width="2"/>
+<text x="292" y="644" font-size="29" fill="#6d7c84" text-anchor="middle" font-weight="400">忽略</text>
+<rect x="390" y="485" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="472" y="529" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">5</text>
+<line x1="472" y1="555" x2="472" y2="586" stroke="#cbd5da" stroke-width="3"/>
+<rect x="390" y="600" width="165" height="65" fill="#f5f6f7" stroke="#e1e7ea" stroke-width="2"/>
+<text x="472" y="644" font-size="29" fill="#6d7c84" text-anchor="middle" font-weight="400">忽略</text>
+<rect x="570" y="485" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="652" y="529" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">SEP</text>
+<line x1="652" y1="555" x2="652" y2="586" stroke="#c67630" stroke-width="3"/>
+<rect x="570" y="600" width="165" height="65" fill="#fff0e3" stroke="#c67630" stroke-width="2"/>
+<text x="652" y="644" font-size="29" fill="#c67630" text-anchor="middle" font-weight="400">7</text>
+<rect x="750" y="485" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="832" y="529" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">7</text>
+<line x1="832" y1="555" x2="832" y2="586" stroke="#c67630" stroke-width="3"/>
+<rect x="750" y="600" width="165" height="65" fill="#fff0e3" stroke="#c67630" stroke-width="2"/>
+<text x="832" y="644" font-size="29" fill="#c67630" text-anchor="middle" font-weight="400">EOS</text>
+<rect x="930" y="485" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="1012" y="529" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">PAD</text>
+<line x1="1012" y1="555" x2="1012" y2="586" stroke="#cbd5da" stroke-width="3"/>
+<rect x="930" y="600" width="165" height="65" fill="#f5f6f7" stroke="#e1e7ea" stroke-width="2"/>
+<text x="1012" y="644" font-size="29" fill="#6d7c84" text-anchor="middle" font-weight="400">忽略</text>
+<rect x="1110" y="485" width="165" height="65" fill="#edf4f7" stroke="#d5dfe3" stroke-width="2"/>
+<text x="1192" y="529" font-size="30" fill="#20343d" text-anchor="middle" font-weight="400">PAD</text>
+<line x1="1192" y1="555" x2="1192" y2="586" stroke="#cbd5da" stroke-width="3"/>
+<rect x="1110" y="600" width="165" height="65" fill="#f5f6f7" stroke="#e1e7ea" stroke-width="2"/>
+<text x="1192" y="644" font-size="29" fill="#6d7c84" text-anchor="middle" font-weight="400">忽略</text>
+<text x="210" y="710" font-size="28" fill="#c67630" text-anchor="start" font-weight="400">有效目标：7、EOS，共 2 个</text>
+<line x1="45" y1="765" x2="1355" y2="765" stroke="#a9b8be" stroke-width="2"/>
+<text x="60" y="825" font-size="32" fill="#20343d" text-anchor="start" font-weight="700">L = 五个有效位置的损失之和 ÷ 5</text>
+<text x="60" y="875" font-size="26" fill="#6d7c84" text-anchor="start" font-weight="400">提示参与前向；填充和忽略标签不进入损失分母。</text></g></svg>
