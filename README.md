@@ -39,7 +39,7 @@
 - **从分母到概率质量**：[订单行流、三值逻辑与聚合权重](ComputerScience/Databases/01-关系模型筛选与聚合.md#db1-order-group-lineage)；[高斯搬运、支持与频率、筛选流量及条件尺度](AI-Domains/GenerativeModels/05-生成实验设计与可控性评价.md#geneval-gaussian-coupling)。
 - **从独立规格到可信评价**：[梯度检查、最小状态反例与发布失败路径](Programming/Python/05-调试测试与可复现小项目.md#py-5-first-valid-key)；[检索分数、来源隔离与实体跨度](AI-Domains/NLP/03-检索序列标注与文本分类实践.md#nlp3-retrieval-score-geometry)；[命题引用、来源自助抽样与风险覆盖](AI-Domains/NLP/04-生成任务数据质量与评价设计.md#nlp4-source-bootstrap)。
 
-部分章节另附已下载的经典配图与卷积动画，均可离线查看。
+[线性变换](Mathematics/LinearAlgebra/01-向量矩阵与线性变换.md#visual-linearalgebra-01)另有本地网格动画，可连续观察同一批交点如何随基向量移动；旁边的静态图保留端点坐标和面积，便于暂停核对。部分章节还附有已下载的经典配图与卷积动画，均可离线查看。
 
 离线阅读时，请保留完整仓库及各主题的 images 目录、assets 目录，并使用支持本地 SVG 和 GIF 的 Markdown 阅读器；图片均通过相对路径引用，显示图片无需联网。来源链接仅供追溯，不参与图片加载。
 
