@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1296pt" height="756pt" viewBox="0 0 1296 756" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <metadata>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1296" height="661.251" viewBox="0 94.749340 1296 661.250660" version="1.1">
+ <rect id="offline-white-background" x="0" y="94.749340" width="1296" height="661.250660" fill="#ffffff"/><title>DBSCAN：边界点可归属一侧，但不能把两侧核心簇连成一簇</title><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -21,37 +18,20 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 756
-L 1296 756
-L 1296 0
-L 0 0
-z
-" style="fill: #ffffff"/>
+   <path d="M 0 756 L 1296 756 L 1296 0 L 0 0 z " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 116.64 574.56
-L 590.387899 574.56
-L 590.387899 158.76
-L 116.64 158.76
-z
-" style="fill: #ffffff"/>
+    <path d="M 116.64 574.56 L 590.387899 574.56 L 590.387899 158.76 L 116.64 158.76 z " style="fill: #ffffff"/>
    </g>
    <g id="patch_3">
-    <path d="M 195.597983 574.56
-L 511.429916 574.56
-L 511.429916 158.76
-L 195.597983 158.76
-z
-" clip-path="url(#p0b7319806d)" style="fill: #faeadf; stroke: #faeadf; stroke-linejoin: miter"/>
+    <path d="M 195.597983 574.56 L 511.429916 574.56 L 511.429916 158.76 L 195.597983 158.76 z " clip-path="url(#p0b7319806d)" style="fill: #faeadf; stroke: #faeadf; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="mb649b9530f" d="M 0 0
-L 0 3.5
-" style="stroke: #526b76; stroke-width: 0.8"/>
+       <path id="mb649b9530f" d="M 0 0 L 0 3.5 " style="stroke: #526b76; stroke-width: 0.8"/>
       </defs>
       <g>
        <use xlink:href="#mb649b9530f" x="116.64" y="574.56" style="fill: #526b76; stroke: #526b76; stroke-width: 0.8"/>
@@ -127,28 +107,14 @@ L 0 3.5
    </g>
    <g id="matplotlib.axis_2"/>
    <g id="patch_4">
-    <path d="M 116.64 574.56
-L 116.64 158.76
-" style="fill: none; stroke: #71858b; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+    <path d="M 116.64 574.56 L 116.64 158.76 " style="fill: none; stroke: #71858b; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_5">
-    <path d="M 116.64 574.56
-L 590.387899 574.56
-" style="fill: none; stroke: #71858b; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+    <path d="M 116.64 574.56 L 590.387899 574.56 " style="fill: none; stroke: #71858b; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="PathCollection_1">
     <defs>
-     <path id="C0_0_ebc76837d6" d="M 0 5.91608
-C 1.568963 5.91608 3.073876 5.292724 4.1833 4.1833
-C 5.292724 3.073876 5.91608 1.568963 5.91608 -0
-C 5.91608 -1.568963 5.292724 -3.073876 4.1833 -4.1833
-C 3.073876 -5.292724 1.568963 -5.91608 0 -5.91608
-C -1.568963 -5.91608 -3.073876 -5.292724 -4.1833 -4.1833
-C -5.292724 -3.073876 -5.91608 -1.568963 -5.91608 0
-C -5.91608 1.568963 -5.292724 3.073876 -4.1833 4.1833
-C -3.073876 5.292724 -1.568963 5.91608 0 5.91608
-z
-"/>
+     <path id="C0_0_ebc76837d6" d="M 0 5.91608 C 1.568963 5.91608 3.073876 5.292724 4.1833 4.1833 C 5.292724 3.073876 5.91608 1.568963 5.91608 -0 C 5.91608 -1.568963 5.292724 -3.073876 4.1833 -4.1833 C 3.073876 -5.292724 1.568963 -5.91608 0 -5.91608 C -1.568963 -5.91608 -3.073876 -5.292724 -4.1833 -4.1833 C -5.292724 -3.073876 -5.91608 -1.568963 -5.91608 0 C -5.91608 1.568963 -5.292724 3.073876 -4.1833 4.1833 C -3.073876 5.292724 -1.568963 5.91608 0 5.91608 z "/>
     </defs>
     <g clip-path="url(#p0b7319806d)">
      <use xlink:href="#C0_0_ebc76837d6" x="148.223193" y="366.66" style="fill: #246b82; stroke: #246b82"/>
@@ -188,17 +154,7 @@ z
   <g id="axes_2">
    <g id="PathCollection_2">
     <defs>
-     <path id="m05ed56366e" d="M 0 5.700877
-C 1.51189 5.700877 2.962061 5.100197 4.031129 4.031129
-C 5.100197 2.962061 5.700877 1.51189 5.700877 0
-C 5.700877 -1.51189 5.100197 -2.962061 4.031129 -4.031129
-C 2.962061 -5.100197 1.51189 -5.700877 0 -5.700877
-C -1.51189 -5.700877 -2.962061 -5.100197 -4.031129 -4.031129
-C -5.100197 -2.962061 -5.700877 -1.51189 -5.700877 0
-C -5.700877 1.51189 -5.100197 2.962061 -4.031129 4.031129
-C -2.962061 5.100197 -1.51189 5.700877 0 5.700877
-z
-" style="stroke: #246b82"/>
+     <path id="m05ed56366e" d="M 0 5.700877 C 1.51189 5.700877 2.962061 5.100197 4.031129 4.031129 C 5.100197 2.962061 5.700877 1.51189 5.700877 0 C 5.700877 -1.51189 5.100197 -2.962061 4.031129 -4.031129 C 2.962061 -5.100197 1.51189 -5.700877 0 -5.700877 C -1.51189 -5.700877 -2.962061 -5.100197 -4.031129 -4.031129 C -5.100197 -2.962061 -5.700877 -1.51189 -5.700877 0 C -5.700877 1.51189 -5.100197 2.962061 -4.031129 4.031129 C -2.962061 5.100197 -1.51189 5.700877 0 5.700877 z " style="stroke: #246b82"/>
     </defs>
     <g clip-path="url(#p6e9ecc14b8)">
      <use xlink:href="#m05ed56366e" x="817.786891" y="408.24" style="fill: #246b82; stroke: #246b82"/>
@@ -217,87 +173,50 @@ z
    </g>
    <g id="PathCollection_4">
     <defs>
-     <path id="m0644e163bd" d="M 0 6.519202
-C 1.728913 6.519202 3.387246 5.832298 4.609772 4.609772
-C 5.832298 3.387246 6.519202 1.728913 6.519202 0
-C 6.519202 -1.728913 5.832298 -3.387246 4.609772 -4.609772
-C 3.387246 -5.832298 1.728913 -6.519202 0 -6.519202
-C -1.728913 -6.519202 -3.387246 -5.832298 -4.609772 -4.609772
-C -5.832298 -3.387246 -6.519202 -1.728913 -6.519202 0
-C -6.519202 1.728913 -5.832298 3.387246 -4.609772 4.609772
-C -3.387246 5.832298 -1.728913 6.519202 0 6.519202
-z
-" style="stroke: #d47636"/>
+     <path id="m0644e163bd" d="M 0 6.519202 C 1.728913 6.519202 3.387246 5.832298 4.609772 4.609772 C 5.832298 3.387246 6.519202 1.728913 6.519202 0 C 6.519202 -1.728913 5.832298 -3.387246 4.609772 -4.609772 C 3.387246 -5.832298 1.728913 -6.519202 0 -6.519202 C -1.728913 -6.519202 -3.387246 -5.832298 -4.609772 -4.609772 C -5.832298 -3.387246 -6.519202 -1.728913 -6.519202 0 C -6.519202 1.728913 -5.832298 3.387246 -4.609772 4.609772 C -3.387246 5.832298 -1.728913 6.519202 0 6.519202 z " style="stroke: #d47636"/>
     </defs>
     <g clip-path="url(#p6e9ecc14b8)">
      <use xlink:href="#m0644e163bd" x="1007.28605" y="366.66" style="fill: #d47636; stroke: #d47636"/>
     </g>
    </g>
    <g id="line2d_8">
-    <path d="M 880.953277 408.24
-L 817.786891 408.24
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 880.953277 408.24 L 817.786891 408.24 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_9">
-    <path d="M 817.786891 325.08
-L 817.786891 408.24
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 817.786891 325.08 L 817.786891 408.24 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_10">
-    <path d="M 817.786891 325.08
-L 880.953277 408.24
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 817.786891 325.08 L 880.953277 408.24 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_11">
-    <path d="M 880.953277 325.08
-L 817.786891 408.24
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 880.953277 325.08 L 817.786891 408.24 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_12">
-    <path d="M 880.953277 325.08
-L 880.953277 408.24
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 880.953277 325.08 L 880.953277 408.24 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_13">
-    <path d="M 880.953277 325.08
-L 817.786891 325.08
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 880.953277 325.08 L 817.786891 325.08 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_14">
-    <path d="M 1196.78521 408.24
-L 1133.618824 408.24
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 1196.78521 408.24 L 1133.618824 408.24 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_15">
-    <path d="M 1133.618824 325.08
-L 1133.618824 408.24
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 1133.618824 325.08 L 1133.618824 408.24 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_16">
-    <path d="M 1133.618824 325.08
-L 1196.78521 408.24
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 1133.618824 325.08 L 1196.78521 408.24 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_17">
-    <path d="M 1196.78521 325.08
-L 1133.618824 408.24
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 1196.78521 325.08 L 1133.618824 408.24 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_18">
-    <path d="M 1196.78521 325.08
-L 1196.78521 408.24
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 1196.78521 325.08 L 1196.78521 408.24 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_19">
-    <path d="M 1196.78521 325.08
-L 1133.618824 325.08
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
+    <path d="M 1196.78521 325.08 L 1133.618824 325.08 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke: #e5eef1; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="line2d_20">
-    <path d="M 880.953277 366.66
-L 1007.28605 366.66
-L 1133.618824 366.66
-" clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3"/>
+    <path d="M 880.953277 366.66 L 1007.28605 366.66 L 1133.618824 366.66 " clip-path="url(#p6e9ecc14b8)" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3"/>
    </g>
    <g id="text_11">
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; fill: #d47636" transform="translate(948.697925 452.01675)">非核心点 0</text>
@@ -306,9 +225,6 @@ L 1133.618824 366.66
    <g id="text_12">
     <text style="font-size: 26px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #183944" x="1007.28605" y="138.76" transform="rotate(-0 1007.28605 138.76)">核心点图始终有两个分量</text>
    </g>
-  </g>
-  <g id="text_13">
-   <text style="font-size: 30px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #183944" x="71.28" y="46.66125" transform="rotate(-0 71.28 46.66125)">DBSCAN：边界点可归属一侧，但不能把两侧核心簇连成一簇</text>
   </g>
   <g id="text_14">
    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #183944" x="71.28" y="729.54" transform="rotate(-0 71.28 729.54)">虚线是边界邻接，不是允许继续扩展的核心路径；两侧核心团内部均有至少四点。</text>

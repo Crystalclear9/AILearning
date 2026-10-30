@@ -21,8 +21,8 @@
 
 可按三种方式练习读图：
 
-- **逐项复算**：[批量矩阵乘法](Programming/NumPy/03-高级索引批量运算与内存布局.md#visual-03-mechanism)、[一轮高斯 EM](MachineLearning/ProbabilisticModels/02-隐变量高斯混合与EM.md#visual-depth-probabilisticmodels-02)和[相关噪声下的融合系数](AI-Domains/MultimodalLearning/02-融合跨模态生成与评估.md#visual-correlated-fusion)，从输入追到每个中间量与最终结果。
-- **用反例检查保证**：[掩码的求值边界](Programming/NumPy/01-数组形状索引与广播.md#visual-mask-execution)、[牛顿法的两步循环](Mathematics/NumericalMethods/04-根查找数值积分与停止准则.md#visual-newton-two-cycle)和[跨行读写依赖环](ComputerScience/Databases/02-连接索引事务与特征数据.md#visual-write-skew-cycle)，固定条件后只改变一项，判断原结论是否仍成立。
+- **逐项复算**：[前门识别的两次平均](AdvancedStudies/CausalInference/01-潜在结果因果图与效应识别.md#causal-1-detail-26)、[LoRA 零增量的起始梯度](AI-Domains/LargeLanguageModels/02-指令微调偏好学习与LoRA.md#visual-local-largelanguagemodels-02)和[t-SNE 同一步的点对位移](MachineLearning/UnsupervisedLearning/02-降维可视化与结果验证.md#unsup-tsne-gradient-ledger)，从明确输入追到每个中间量与最终结果。
+- **用反例检查保证**：[一个桥接像素怎样改变连通性](AI-Domains/ComputerVision/02-检测分割与视觉评价.md#cv2-pixel-confusion-ledger)、[牛顿法的两步循环](Mathematics/NumericalMethods/04-根查找数值积分与停止准则.md#visual-newton-two-cycle)和[跨行读写依赖环](ComputerScience/Databases/02-连接索引事务与特征数据.md#visual-write-skew-cycle)，固定条件后只改变一项，判断原结论是否仍成立。
 - **连接几何与概率**：[对数坐标下的密度面积](Programming/Matplotlib/02-训练诊断分布比较与导出.md#visual-log-density-measure)、[动量的均值与噪声平台](Mathematics/Optimization/02-动量自适应方法与训练诊断.md#visual-momentum-noise-floor)和[POMDP 策略上包络](ReinforcementLearning/MDP/04-部分可观测与奖励建模边界.md#visual-alpha-listening-region)，先读坐标、单位和模型假设，再解释峰、斜率、面积或行动区间。
 
 同一章里的图组各有分工：机制图说明对象怎样变化，算例图给出可复算的数量，对照或反例图标出结论的边界。跨章节比较时，先重新确认变量、数据和假设，不能将不同算例的输出直接拼接。

@@ -1,8 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1296pt" height="720pt" viewBox="0 0 1296 720" xmlns="http://www.w3.org/2000/svg" version="1.1">
- <metadata>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="1296" height="552.465" viewBox="0 167.534626 1296 552.465374" version="1.1">
+ <rect id="offline-white-background" x="0" y="167.534626" width="1296" height="552.465374" fill="#ffffff"/><title>截断时保留后继价值，但不要把新回合的优势接回来</title><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -21,27 +18,12 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 720
-L 1296 720
-L 1296 0
-L 0 0
-z
-" style="fill: #ffffff"/>
+   <path d="M 0 720 L 1296 720 L 1296 0 L 0 0 z " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="PathCollection_1">
     <defs>
-     <path id="C0_0_808f39422a" d="M 0 7.416198
-C 1.966799 7.416198 3.853307 6.634781 5.244044 5.244044
-C 6.634781 3.853307 7.416198 1.966799 7.416198 -0
-C 7.416198 -1.966799 6.634781 -3.853307 5.244044 -5.244044
-C 3.853307 -6.634781 1.966799 -7.416198 0 -7.416198
-C -1.966799 -7.416198 -3.853307 -6.634781 -5.244044 -5.244044
-C -6.634781 -3.853307 -7.416198 -1.966799 -7.416198 0
-C -7.416198 1.966799 -6.634781 3.853307 -5.244044 5.244044
-C -3.853307 6.634781 -1.966799 7.416198 0 7.416198
-z
-"/>
+     <path id="C0_0_808f39422a" d="M 0 7.416198 C 1.966799 7.416198 3.853307 6.634781 5.244044 5.244044 C 6.634781 3.853307 7.416198 1.966799 7.416198 -0 C 7.416198 -1.966799 6.634781 -3.853307 5.244044 -5.244044 C 3.853307 -6.634781 1.966799 -7.416198 0 -7.416198 C -1.966799 -7.416198 -3.853307 -6.634781 -5.244044 -5.244044 C -6.634781 -3.853307 -7.416198 -1.966799 -7.416198 0 C -7.416198 1.966799 -6.634781 3.853307 -5.244044 5.244044 C -3.853307 6.634781 -1.966799 7.416198 0 7.416198 z "/>
     </defs>
     <g clip-path="url(#p90fa1a81f3)">
      <use xlink:href="#C0_0_808f39422a" x="398.52" y="224.147368" style="fill: #246b82; stroke: #246b82"/>
@@ -55,17 +37,7 @@ z
    </g>
    <g id="PathCollection_2">
     <defs>
-     <path id="C1_0_2995fd9e78" d="M 0 7.416198
-C 1.966799 7.416198 3.853307 6.634781 5.244044 5.244044
-C 6.634781 3.853307 7.416198 1.966799 7.416198 -0
-C 7.416198 -1.966799 6.634781 -3.853307 5.244044 -5.244044
-C 3.853307 -6.634781 1.966799 -7.416198 0 -7.416198
-C -1.966799 -7.416198 -3.853307 -6.634781 -5.244044 -5.244044
-C -6.634781 -3.853307 -7.416198 -1.966799 -7.416198 0
-C -7.416198 1.966799 -6.634781 3.853307 -5.244044 5.244044
-C -3.853307 6.634781 -1.966799 7.416198 0 7.416198
-z
-"/>
+     <path id="C1_0_2995fd9e78" d="M 0 7.416198 C 1.966799 7.416198 3.853307 6.634781 5.244044 5.244044 C 6.634781 3.853307 7.416198 1.966799 7.416198 -0 C 7.416198 -1.966799 6.634781 -3.853307 5.244044 -5.244044 C 3.853307 -6.634781 1.966799 -7.416198 0 -7.416198 C -1.966799 -7.416198 -3.853307 -6.634781 -5.244044 -5.244044 C -6.634781 -3.853307 -7.416198 -1.966799 -7.416198 0 C -7.416198 1.966799 -6.634781 3.853307 -5.244044 5.244044 C -3.853307 6.634781 -1.966799 7.416198 0 7.416198 z "/>
     </defs>
     <g clip-path="url(#p90fa1a81f3)">
      <use xlink:href="#C1_0_2995fd9e78" x="398.52" y="349.2" style="fill: #246b82; stroke: #246b82"/>
@@ -79,17 +51,7 @@ z
    </g>
    <g id="PathCollection_3">
     <defs>
-     <path id="C2_0_28f25cbe3b" d="M 0 7.416198
-C 1.966799 7.416198 3.853307 6.634781 5.244044 5.244044
-C 6.634781 3.853307 7.416198 1.966799 7.416198 -0
-C 7.416198 -1.966799 6.634781 -3.853307 5.244044 -5.244044
-C 3.853307 -6.634781 1.966799 -7.416198 0 -7.416198
-C -1.966799 -7.416198 -3.853307 -6.634781 -5.244044 -5.244044
-C -6.634781 -3.853307 -7.416198 -1.966799 -7.416198 0
-C -7.416198 1.966799 -6.634781 3.853307 -5.244044 5.244044
-C -3.853307 6.634781 -1.966799 7.416198 0 7.416198
-z
-"/>
+     <path id="C2_0_28f25cbe3b" d="M 0 7.416198 C 1.966799 7.416198 3.853307 6.634781 5.244044 5.244044 C 6.634781 3.853307 7.416198 1.966799 7.416198 -0 C 7.416198 -1.966799 6.634781 -3.853307 5.244044 -5.244044 C 3.853307 -6.634781 1.966799 -7.416198 0 -7.416198 C -1.966799 -7.416198 -3.853307 -6.634781 -5.244044 -5.244044 C -6.634781 -3.853307 -7.416198 -1.966799 -7.416198 0 C -7.416198 1.966799 -6.634781 3.853307 -5.244044 5.244044 C -3.853307 6.634781 -1.966799 7.416198 0 7.416198 z "/>
     </defs>
     <g clip-path="url(#p90fa1a81f3)">
      <use xlink:href="#C2_0_28f25cbe3b" x="398.52" y="474.252632" style="fill: #246b82; stroke: #246b82"/>
@@ -114,22 +76,12 @@ z
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #183944" x="868.32" y="265.146217" transform="rotate(-0 868.32 265.146217)">下一记录</text>
    </g>
    <g id="patch_2">
-    <path d="M 428.711188 224.147368
-Q 492.483393 224.147368 552.901496 224.147368
-" style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
-    <path d="M 543.301496 219.347368
-L 552.901496 224.147368
-L 543.301496 228.947368
-" style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 428.711188 224.147368 Q 492.483393 224.147368 552.901496 224.147368 " style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 543.301496 219.347368 L 552.901496 224.147368 L 543.301496 228.947368 " style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
    </g>
    <g id="patch_3">
-    <path d="M 626.026901 224.147368
-Q 727.380333 224.147368 825.379662 224.147368
-" style="fill: none; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
-    <path d="M 815.779662 219.347368
-L 825.379662 224.147368
-L 815.779662 228.947368
-" style="fill: none; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 626.026901 224.147368 Q 727.380333 224.147368 825.379662 224.147368 " style="fill: none; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 815.779662 219.347368 L 825.379662 224.147368 L 815.779662 228.947368 " style="fill: none; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
    </g>
    <g id="text_5">
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #246b82" x="962.28" y="209.557895" transform="rotate(-0 962.28 209.557895)">自举 = 1</text>
@@ -150,28 +102,13 @@ L 815.779662 228.947368
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #183944" x="868.32" y="390.198849" transform="rotate(-0 868.32 390.198849)">下一记录</text>
    </g>
    <g id="patch_4">
-    <path d="M 428.711188 349.2
-Q 492.483393 349.2 552.901496 349.2
-" style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
-    <path d="M 543.301496 344.4
-L 552.901496 349.2
-L 543.301496 354
-" style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 428.711188 349.2 Q 492.483393 349.2 552.901496 349.2 " style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 543.301496 344.4 L 552.901496 349.2 L 543.301496 354 " style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
    </g>
    <g id="patch_5">
-    <path d="M 626.026901 349.2
-Q 727.380333 349.2 828.733764 349.2
-" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
-    <path d="M 626.026901 325.2
-L 626.026901 325.2
-L 626.026901 373.2
-L 626.026901 373.2
-" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
-    <path d="M 828.733764 373.2
-L 828.733764 373.2
-L 828.733764 325.2
-L 828.733764 325.2
-" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 626.026901 349.2 Q 727.380333 349.2 828.733764 349.2 " style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 626.026901 325.2 L 626.026901 325.2 L 626.026901 373.2 L 626.026901 373.2 " style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 828.733764 373.2 L 828.733764 373.2 L 828.733764 325.2 L 828.733764 325.2 " style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
    </g>
    <g id="text_11">
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #246b82" x="962.28" y="334.610526" transform="rotate(-0 962.28 334.610526)">自举 = 0</text>
@@ -192,28 +129,13 @@ L 828.733764 325.2
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #183944" x="868.32" y="515.25148" transform="rotate(-0 868.32 515.25148)">下一记录</text>
    </g>
    <g id="patch_6">
-    <path d="M 428.711188 474.252632
-Q 492.483393 474.252632 552.901496 474.252632
-" style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
-    <path d="M 543.301496 469.452632
-L 552.901496 474.252632
-L 543.301496 479.052632
-" style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 428.711188 474.252632 Q 492.483393 474.252632 552.901496 474.252632 " style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 543.301496 469.452632 L 552.901496 474.252632 L 543.301496 479.052632 " style="fill: none; stroke: #246b82; stroke-width: 3; stroke-linecap: round"/>
    </g>
    <g id="patch_7">
-    <path d="M 626.026901 474.252632
-Q 727.380333 474.252632 828.733764 474.252632
-" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
-    <path d="M 626.026901 450.252632
-L 626.026901 450.252632
-L 626.026901 498.252632
-L 626.026901 498.252632
-" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
-    <path d="M 828.733764 498.252632
-L 828.733764 498.252632
-L 828.733764 450.252632
-L 828.733764 450.252632
-" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 626.026901 474.252632 Q 727.380333 474.252632 828.733764 474.252632 " style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 626.026901 450.252632 L 626.026901 450.252632 L 626.026901 498.252632 L 626.026901 498.252632 " style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
+    <path d="M 828.733764 498.252632 L 828.733764 498.252632 L 828.733764 450.252632 L 828.733764 450.252632 " style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #d47636; stroke-width: 3; stroke-linecap: round"/>
    </g>
    <g id="text_17">
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #246b82" x="962.28" y="459.663158" transform="rotate(-0 962.28 459.663158)">自举 = 1</text>
@@ -221,9 +143,6 @@ L 828.733764 450.252632
    <g id="text_18">
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #d47636" x="962.28" y="497.178947" transform="rotate(-0 962.28 497.178947)">连迹 = 0</text>
    </g>
-  </g>
-  <g id="text_19">
-   <text style="font-size: 30px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #183944" x="71.28" y="45.58125" transform="rotate(-0 71.28 45.58125)">截断时保留后继价值，但不要把新回合的优势接回来</text>
   </g>
   <g id="text_20">
    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #183944" x="71.28" y="694.8" transform="rotate(-0 71.28 694.8)">自举读取原回合末状态；截断后的重置状态属于另一条轨迹。</text>
