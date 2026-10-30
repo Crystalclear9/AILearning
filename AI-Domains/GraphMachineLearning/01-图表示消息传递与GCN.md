@@ -161,6 +161,14 @@
 因此“均值聚合”不能省略含不含中心的约定，而“归一化”也不能省略接收者与发送者两端的度。三种结果不是谁更接近同一个正确答案，而是三个不同预测函数；应根据任务是否需要区分中心与邻域来选择。对邻居收集、聚合、更新的分工，可结合 [Distill 的逐步消息传递说明](https://distill.pub/2021/gnn-intro/#passing-messages-between-parts-of-the-graph)阅读；对称度系数则以本章第 4 节及 [Kipf 作者的公式](https://tkipf.github.io/graph-convolutional-networks/)为准。
 
 
+
+**邻边与自环共享归一化分母。** 下半图先使用行归一化来隔离分母效应：某节点只有自环权一和一条邻边权 w，读取系数分别为 1 除以 (1+w) 与 w 除以 (1+w)。修改邻边会同时削弱自环系数，所以归一化传播不是每条边互不相关地缩放。对称度归一化还依赖另一端的度，必须按本章矩阵式重新计算，不能将这条行归一化曲线冒充 GCN 的全部行为。进一步阅读可对照[Distill 对图传播算子的推导](https://distill.pub/2021/understanding-gnns/)。
+
+$$
+a_{\mathrm{self}}=\frac{1}{1+w},\qquad a_{\mathrm{neighbor}}=\frac{w}{1+w},\qquad w\geq0.
+$$
+
+
 <a id="sec-2-1"></a>
 
 <a id="graph-1-detail-9"></a>

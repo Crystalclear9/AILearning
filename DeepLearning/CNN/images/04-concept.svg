@@ -1,1 +1,213 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1000" viewBox="0 0 1280 1000" role="img"><title>全局平均以后，再把通道证据变成分类分数</title><rect width="1280" height="1000" fill="white"/><g font-family="Microsoft YaHei, sans-serif"><text x="60" y="65" font-size="35" fill="#19343e" text-anchor="start">全局平均以后，再把通道证据变成分类分数</text><text x="60" y="112" font-size="27" fill="#19343e" text-anchor="start">三通道 2 × 2 特征：各自在空间归约，再由头部混合通道</text><text x="90" y="180" font-size="29" fill="#19343e" text-anchor="start">通道 1</text><rect x="90" y="215" width="61" height="61" fill="#e8eff2"/><text x="121.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">1</text><rect x="153" y="215" width="61" height="61" fill="#e8eff2"/><text x="184.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">3</text><rect x="90" y="278" width="61" height="61" fill="#e8eff2"/><text x="121.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">5</text><rect x="153" y="278" width="61" height="61" fill="#e8eff2"/><text x="184.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">7</text><line x1="153" y1="355" x2="153" y2="405" stroke="#276a80" stroke-width="4"/><path d="M147.25,394.47 L153.00,405.00 L158.75,394.47" fill="none" stroke="#276a80" stroke-width="4"/><text x="153" y="455" font-size="36" fill="#276a80" text-anchor="middle">4</text><text x="470" y="180" font-size="29" fill="#19343e" text-anchor="start">通道 2</text><rect x="470" y="215" width="61" height="61" fill="#e8eff2"/><text x="501.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">2</text><rect x="533" y="215" width="61" height="61" fill="#e8eff2"/><text x="564.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">2</text><rect x="470" y="278" width="61" height="61" fill="#e8eff2"/><text x="501.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">6</text><rect x="533" y="278" width="61" height="61" fill="#e8eff2"/><text x="564.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">6</text><line x1="533" y1="355" x2="533" y2="405" stroke="#276a80" stroke-width="4"/><path d="M527.25,394.47 L533.00,405.00 L538.75,394.47" fill="none" stroke="#276a80" stroke-width="4"/><text x="533" y="455" font-size="36" fill="#276a80" text-anchor="middle">4</text><text x="850" y="180" font-size="29" fill="#19343e" text-anchor="start">通道 3</text><rect x="850" y="215" width="61" height="61" fill="#e8eff2"/><text x="881.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">0</text><rect x="913" y="215" width="61" height="61" fill="#e8eff2"/><text x="944.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">4</text><rect x="850" y="278" width="61" height="61" fill="#e8eff2"/><text x="881.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">0</text><rect x="913" y="278" width="61" height="61" fill="#e8eff2"/><text x="944.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">4</text><line x1="913" y1="355" x2="913" y2="405" stroke="#276a80" stroke-width="4"/><path d="M907.25,394.47 L913.00,405.00 L918.75,394.47" fill="none" stroke="#276a80" stroke-width="4"/><text x="913" y="455" font-size="36" fill="#276a80" text-anchor="middle">2</text><line x1="60" y1="500" x2="1220" y2="500" stroke="#dbe5e8" stroke-width="2"/><text x="60" y="560" font-size="28" fill="#19343e" text-anchor="start">均值向量</text><rect x="240" y="525" width="53" height="53" fill="#e8eff2"/><text x="267.5" y="562.4" font-size="25.849999999999998" fill="#19343e" text-anchor="middle">4</text><rect x="240" y="580" width="53" height="53" fill="#e8eff2"/><text x="267.5" y="617.4" font-size="25.849999999999998" fill="#19343e" text-anchor="middle">4</text><rect x="240" y="635" width="53" height="53" fill="#e8eff2"/><text x="267.5" y="672.4" font-size="25.849999999999998" fill="#19343e" text-anchor="middle">2</text><text x="420" y="560" font-size="28" fill="#19343e" text-anchor="start">头部权重 W</text><rect x="430" y="605" width="58" height="58" fill="#e8eff2"/><text x="460.0" y="645.8" font-size="28.2" fill="#19343e" text-anchor="middle">1</text><rect x="490" y="605" width="58" height="58" fill="#e8eff2"/><text x="520.0" y="645.8" font-size="28.2" fill="#19343e" text-anchor="middle">-1</text><rect x="550" y="605" width="58" height="58" fill="#e8eff2"/><text x="580.0" y="645.8" font-size="28.2" fill="#19343e" text-anchor="middle">1</text><rect x="430" y="665" width="58" height="58" fill="#e8eff2"/><text x="460.0" y="705.8" font-size="28.2" fill="#19343e" text-anchor="middle">-1</text><rect x="490" y="665" width="58" height="58" fill="#e8eff2"/><text x="520.0" y="705.8" font-size="28.2" fill="#19343e" text-anchor="middle">1</text><rect x="550" y="665" width="58" height="58" fill="#e8eff2"/><text x="580.0" y="705.8" font-size="28.2" fill="#19343e" text-anchor="middle">0</text><text x="675" y="650" font-size="35" fill="#19343e" text-anchor="start">×</text><rect x="750" y="605" width="43" height="43" fill="#e8eff2"/><text x="772.5" y="635.6" font-size="24" fill="#19343e" text-anchor="middle">4</text><rect x="750" y="650" width="43" height="43" fill="#e8eff2"/><text x="772.5" y="680.6" font-size="24" fill="#19343e" text-anchor="middle">4</text><rect x="750" y="695" width="43" height="43" fill="#e8eff2"/><text x="772.5" y="725.6" font-size="24" fill="#19343e" text-anchor="middle">2</text><text x="830" y="650" font-size="35" fill="#19343e" text-anchor="start">=</text><rect x="900" y="605" width="58" height="58" fill="#e8eff2"/><text x="930.0" y="645.8" font-size="28.2" fill="#19343e" text-anchor="middle">2</text><rect x="900" y="665" width="58" height="58" fill="#e8eff2"/><text x="930.0" y="705.8" font-size="28.2" fill="#19343e" text-anchor="middle">0</text><text x="1005" y="650" font-size="28" fill="#19343e" text-anchor="start">logits</text><text x="60" y="790" font-size="28" fill="#19343e" text-anchor="start">只重排通道 1 内部位置：</text><rect x="500" y="750" width="43" height="43" fill="#e8eff2"/><text x="522.5" y="780.6" font-size="24" fill="#19343e" text-anchor="middle">7</text><rect x="545" y="750" width="43" height="43" fill="#e8eff2"/><text x="567.5" y="780.6" font-size="24" fill="#19343e" text-anchor="middle">5</text><rect x="500" y="795" width="43" height="43" fill="#e8eff2"/><text x="522.5" y="825.6" font-size="24" fill="#19343e" text-anchor="middle">3</text><rect x="545" y="795" width="43" height="43" fill="#e8eff2"/><text x="567.5" y="825.6" font-size="24" fill="#19343e" text-anchor="middle">1</text><line x1="620" y1="800" x2="730" y2="800" stroke="#c2673f" stroke-width="4"/><path d="M719.47,805.75 L730.00,800.00 L719.47,794.25" fill="none" stroke="#c2673f" stroke-width="4"/><text x="760" y="810" font-size="27" fill="#c2673f" text-anchor="start">均值仍为 4</text><text x="760" y="870" font-size="27" fill="#c2673f" text-anchor="start">分类头无法识别这次重排</text><text x="60" y="940" font-size="27" fill="#19343e" text-anchor="start">平均不混通道；头部才混通道。</text><text x="60" y="985" font-size="27" fill="#19343e" text-anchor="start">这里的两个分数是指定权重的手算，不是训练结果。</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="1570.0" viewBox="0 0 1280 1570" role="img"><title>全局平均以后，再把通道证据变成分类分数</title><rect width="1280" height="1000" fill="white" /><g font-family="Microsoft YaHei, sans-serif"><text x="60" y="65" font-size="35" fill="#19343e" text-anchor="start">全局平均以后，再把通道证据变成分类分数</text><text x="60" y="112" font-size="27" fill="#19343e" text-anchor="start">三通道 2 × 2 特征：各自在空间归约，再由头部混合通道</text><text x="90" y="180" font-size="29" fill="#19343e" text-anchor="start">通道 1</text><rect x="90" y="215" width="61" height="61" fill="#e8eff2" /><text x="121.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">1</text><rect x="153" y="215" width="61" height="61" fill="#e8eff2" /><text x="184.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">3</text><rect x="90" y="278" width="61" height="61" fill="#e8eff2" /><text x="121.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">5</text><rect x="153" y="278" width="61" height="61" fill="#e8eff2" /><text x="184.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">7</text><line x1="153" y1="355" x2="153" y2="405" stroke="#276a80" stroke-width="4" /><path d="M147.25,394.47 L153.00,405.00 L158.75,394.47" fill="none" stroke="#276a80" stroke-width="4" /><text x="153" y="455" font-size="36" fill="#276a80" text-anchor="middle">4</text><text x="470" y="180" font-size="29" fill="#19343e" text-anchor="start">通道 2</text><rect x="470" y="215" width="61" height="61" fill="#e8eff2" /><text x="501.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">2</text><rect x="533" y="215" width="61" height="61" fill="#e8eff2" /><text x="564.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">2</text><rect x="470" y="278" width="61" height="61" fill="#e8eff2" /><text x="501.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">6</text><rect x="533" y="278" width="61" height="61" fill="#e8eff2" /><text x="564.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">6</text><line x1="533" y1="355" x2="533" y2="405" stroke="#276a80" stroke-width="4" /><path d="M527.25,394.47 L533.00,405.00 L538.75,394.47" fill="none" stroke="#276a80" stroke-width="4" /><text x="533" y="455" font-size="36" fill="#276a80" text-anchor="middle">4</text><text x="850" y="180" font-size="29" fill="#19343e" text-anchor="start">通道 3</text><rect x="850" y="215" width="61" height="61" fill="#e8eff2" /><text x="881.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">0</text><rect x="913" y="215" width="61" height="61" fill="#e8eff2" /><text x="944.5" y="257.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">4</text><rect x="850" y="278" width="61" height="61" fill="#e8eff2" /><text x="881.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">0</text><rect x="913" y="278" width="61" height="61" fill="#e8eff2" /><text x="944.5" y="320.84000000000003" font-size="29.61" fill="#19343e" text-anchor="middle">4</text><line x1="913" y1="355" x2="913" y2="405" stroke="#276a80" stroke-width="4" /><path d="M907.25,394.47 L913.00,405.00 L918.75,394.47" fill="none" stroke="#276a80" stroke-width="4" /><text x="913" y="455" font-size="36" fill="#276a80" text-anchor="middle">2</text><line x1="60" y1="500" x2="1220" y2="500" stroke="#dbe5e8" stroke-width="2" /><text x="60" y="560" font-size="28" fill="#19343e" text-anchor="start">均值向量</text><rect x="240" y="525" width="53" height="53" fill="#e8eff2" /><text x="267.5" y="562.4" font-size="25.849999999999998" fill="#19343e" text-anchor="middle">4</text><rect x="240" y="580" width="53" height="53" fill="#e8eff2" /><text x="267.5" y="617.4" font-size="25.849999999999998" fill="#19343e" text-anchor="middle">4</text><rect x="240" y="635" width="53" height="53" fill="#e8eff2" /><text x="267.5" y="672.4" font-size="25.849999999999998" fill="#19343e" text-anchor="middle">2</text><text x="420" y="560" font-size="28" fill="#19343e" text-anchor="start">头部权重 W</text><rect x="430" y="605" width="58" height="58" fill="#e8eff2" /><text x="460.0" y="645.8" font-size="28.2" fill="#19343e" text-anchor="middle">1</text><rect x="490" y="605" width="58" height="58" fill="#e8eff2" /><text x="520.0" y="645.8" font-size="28.2" fill="#19343e" text-anchor="middle">-1</text><rect x="550" y="605" width="58" height="58" fill="#e8eff2" /><text x="580.0" y="645.8" font-size="28.2" fill="#19343e" text-anchor="middle">1</text><rect x="430" y="665" width="58" height="58" fill="#e8eff2" /><text x="460.0" y="705.8" font-size="28.2" fill="#19343e" text-anchor="middle">-1</text><rect x="490" y="665" width="58" height="58" fill="#e8eff2" /><text x="520.0" y="705.8" font-size="28.2" fill="#19343e" text-anchor="middle">1</text><rect x="550" y="665" width="58" height="58" fill="#e8eff2" /><text x="580.0" y="705.8" font-size="28.2" fill="#19343e" text-anchor="middle">0</text><text x="675" y="650" font-size="35" fill="#19343e" text-anchor="start">×</text><rect x="750" y="605" width="43" height="43" fill="#e8eff2" /><text x="772.5" y="635.6" font-size="24" fill="#19343e" text-anchor="middle">4</text><rect x="750" y="650" width="43" height="43" fill="#e8eff2" /><text x="772.5" y="680.6" font-size="24" fill="#19343e" text-anchor="middle">4</text><rect x="750" y="695" width="43" height="43" fill="#e8eff2" /><text x="772.5" y="725.6" font-size="24" fill="#19343e" text-anchor="middle">2</text><text x="830" y="650" font-size="35" fill="#19343e" text-anchor="start">=</text><rect x="900" y="605" width="58" height="58" fill="#e8eff2" /><text x="930.0" y="645.8" font-size="28.2" fill="#19343e" text-anchor="middle">2</text><rect x="900" y="665" width="58" height="58" fill="#e8eff2" /><text x="930.0" y="705.8" font-size="28.2" fill="#19343e" text-anchor="middle">0</text><text x="1005" y="650" font-size="28" fill="#19343e" text-anchor="start">logits</text><text x="60" y="790" font-size="28" fill="#19343e" text-anchor="start">只重排通道 1 内部位置：</text><rect x="500" y="750" width="43" height="43" fill="#e8eff2" /><text x="522.5" y="780.6" font-size="24" fill="#19343e" text-anchor="middle">7</text><rect x="545" y="750" width="43" height="43" fill="#e8eff2" /><text x="567.5" y="780.6" font-size="24" fill="#19343e" text-anchor="middle">5</text><rect x="500" y="795" width="43" height="43" fill="#e8eff2" /><text x="522.5" y="825.6" font-size="24" fill="#19343e" text-anchor="middle">3</text><rect x="545" y="795" width="43" height="43" fill="#e8eff2" /><text x="567.5" y="825.6" font-size="24" fill="#19343e" text-anchor="middle">1</text><line x1="620" y1="800" x2="730" y2="800" stroke="#c2673f" stroke-width="4" /><path d="M719.47,805.75 L730.00,800.00 L719.47,794.25" fill="none" stroke="#c2673f" stroke-width="4" /><text x="760" y="810" font-size="27" fill="#c2673f" text-anchor="start">均值仍为 4</text><text x="760" y="870" font-size="27" fill="#c2673f" text-anchor="start">分类头无法识别这次重排</text><text x="60" y="940" font-size="27" fill="#19343e" text-anchor="start">平均不混通道；头部才混通道。</text><text x="60" y="985" font-size="27" fill="#19343e" text-anchor="start">这里的两个分数是指定权重的手算，不是训练结果。</text></g><g transform="translate(0,1000) scale(1.38889)"><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-10-30T09:58:27.462782</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 410.4  L 921.6 410.4  L 921.6 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 110.592 324.216  L 884.736 324.216  L 884.736 102.6  L 110.592 102.6  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m8967e9b2d6" d="M 0 0  L 0 3.5  " style="stroke: #536875; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#m8967e9b2d6" x="125.479385" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="125.479385" y="345.60475" transform="rotate(-0 125.479385 345.60475)">2</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m8967e9b2d6" x="231.817846" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="231.817846" y="345.60475" transform="rotate(-0 231.817846 345.60475)">4</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m8967e9b2d6" x="338.156308" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="338.156308" y="345.60475" transform="rotate(-0 338.156308 345.60475)">6</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m8967e9b2d6" x="444.494769" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="444.494769" y="345.60475" transform="rotate(-0 444.494769 345.60475)">8</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m8967e9b2d6" x="550.833231" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="550.833231" y="345.60475" transform="rotate(-0 550.833231 345.60475)">10</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m8967e9b2d6" x="657.171692" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="657.171692" y="345.60475" transform="rotate(-0 657.171692 345.60475)">12</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m8967e9b2d6" x="763.510154" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="763.510154" y="345.60475" transform="rotate(-0 763.510154 345.60475)">14</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m8967e9b2d6" x="869.848615" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="869.848615" y="345.60475" transform="rotate(-0 869.848615 345.60475)">16</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243c49" x="497.664" y="376.468188" transform="rotate(-0 497.664 376.468188)">正方形边长 H</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <path d="M 110.592 305.606157  L 884.736 305.606157  " clip-path="url(#pabd0695f23)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_10">
+      <defs>
+       <path id="mc9539a185b" d="M 0 0  L -3.5 0  " style="stroke: #536875; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#mc9539a185b" x="110.592" y="305.606157" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="312.800532" transform="rotate(-0 103.592 312.800532)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_11">
+      <path d="M 110.592 232.982378  L 884.736 232.982378  " clip-path="url(#pabd0695f23)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#mc9539a185b" x="110.592" y="232.982378" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="240.176753" transform="rotate(-0 103.592 240.176753)">0.1</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13">
+      <path d="M 110.592 160.358599  L 884.736 160.358599  " clip-path="url(#pabd0695f23)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#mc9539a185b" x="110.592" y="160.358599" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="167.552974" transform="rotate(-0 103.592 167.552974)">0.2</text>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243c49" x="63.672625" y="213.408" transform="rotate(-90 63.672625 213.408)">每个位置的梯度</text>
+    </g>
+   </g>
+   <g id="line2d_15">
+    <path d="M 125.479385 124.04671  L 178.648615 224.913069  L 231.817846 260.216295  L 284.987077 276.556645  L 338.156308 285.432885  L 391.325538 290.784977  L 444.494769 294.258691  L 497.664 296.640258  L 550.833231 298.343779  L 604.002462 299.604191  L 657.171692 300.562839  L 710.340923 301.308892  L 763.510154 301.900862  L 816.679385 302.378433  L 869.848615 302.76929  " clip-path="url(#pabd0695f23)" style="fill: none; stroke: #26748e; stroke-width: 3.2; stroke-linecap: square" />
+   </g>
+   <g id="line2d_16">
+    <defs>
+     <path id="m6c9aab0173" d="M 0 1.5  C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066  C 1.341951 0.77937 1.5 0.397805 1.5 0  C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066  C 0.77937 -1.341951 0.397805 -1.5 0 -1.5  C -0.397805 -1.5 -0.77937 -1.341951 -1.06066 -1.06066  C -1.341951 -0.77937 -1.5 -0.397805 -1.5 0  C -1.5 0.397805 -1.341951 0.77937 -1.06066 1.06066  C -0.77937 1.341951 -0.397805 1.5 0 1.5  z " style="stroke: #26748e" />
+    </defs>
+    <g clip-path="url(#pabd0695f23)">
+     <use xlink:href="#m6c9aab0173" x="125.479385" y="124.04671" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="178.648615" y="224.913069" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="231.817846" y="260.216295" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="284.987077" y="276.556645" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="338.156308" y="285.432885" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="391.325538" y="290.784977" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="444.494769" y="294.258691" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="497.664" y="296.640258" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="550.833231" y="298.343779" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="604.002462" y="299.604191" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="657.171692" y="300.562839" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="710.340923" y="301.308892" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="763.510154" y="301.900862" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="816.679385" y="302.378433" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#m6c9aab0173" x="869.848615" y="302.76929" style="fill: #26748e; stroke: #26748e" />
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 110.592 324.216  L 110.592 102.6  " style="fill: none; stroke: #82919a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 110.592 324.216  L 884.736 324.216  " style="fill: none; stroke: #82919a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="legend_1">
+    <g id="line2d_17">
+     <path d="M 626.419125 126.88875  L 644.419125 126.88875  L 662.419125 126.88875  " style="fill: none; stroke: #26748e; stroke-width: 3.2; stroke-linecap: square" />
+    </g>
+    <g id="text_14">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243c49" x="676.819125" y="133.18875" transform="rotate(-0 676.819125 133.18875)">单通道 GAP 的局部导数</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243c49" x="46.08" y="32.832" transform="rotate(-0 46.08 32.832)">平均池化如何分配一单位上游梯度</text>
+  </g>
+  <g id="text_16">
+
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pabd0695f23">
+   <rect x="110.592" y="102.6" width="774.144" height="221.616" />
+  </clipPath>
+ </defs>
+</g></svg>

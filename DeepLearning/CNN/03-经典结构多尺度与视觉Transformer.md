@@ -158,6 +158,14 @@ print('identity path and projected branch shapes verified')
 [D2L 的残差块图](https://d2l.ai/chapter_convolutional-modern/resnet.html#residual-blocks)将学习完整映射与学习恒等修正作对照。它所画的具体块在加法后还有激活；本图上半的数值加法及下半的两条直线均未接这一激活，因此保持与本章所写运算一致。
 
 
+
+**捷径仍可能在特定方向抵消。** 下半图研究一条固定特征方向；假定该方向是分支雅可比的实特征向量，对应特征值 λ。恒等捷径使同方向增益从 λ 变为 1+λ，绝对增益如图。λ=−1 时恰好抵消，λ=0 时完整保留，λ=1 时放大两倍。因而“有捷径就不会梯度消失”仍需条件；非正规矩阵还不能只凭特征值判断全部奇异方向的放大。
+
+$$
+J_{\mathrm{res}}v=(I+J_F)v=(1+\lambda)v,\qquad J_Fv=\lambda v.
+$$
+
+
 <a id="sec-5"></a>
 ## 3. 深度分离、倒残差与通道表达限制
 

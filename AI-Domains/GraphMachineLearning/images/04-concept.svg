@@ -1,1 +1,213 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1120" viewBox="0 0 1280 1120" role="img"><title>图读出：重新排序、整体复制与只复制一个节点</title><rect width="1280" height="1120" fill="white"/><g font-family="Microsoft YaHei, sans-serif"><text x="60" y="65" font-size="35" fill="#19343e" text-anchor="start">图读出：重新排序、整体复制与只复制一个节点</text><text x="60" y="120" font-size="27" fill="#74888d" text-anchor="start">固定节点表示；注意力打分取 ln h，所以权重等于 h 除以本图总和。</text><text x="810" y="205" font-size="27" fill="#19343e" text-anchor="middle">求和</text><text x="925" y="205" font-size="27" fill="#19343e" text-anchor="middle">均值</text><text x="1040" y="205" font-size="27" fill="#19343e" text-anchor="middle">最大值</text><text x="1170" y="205" font-size="27" fill="#19343e" text-anchor="middle">注意力</text><text x="60" y="290" font-size="28" fill="#276a80" text-anchor="start">原顺序</text><circle cx="245" cy="280" r="25" fill="#276a80"/><text x="245" y="290" font-size="28" fill="white" text-anchor="middle">1</text><text x="245" y="338" font-size="24" fill="#74888d" text-anchor="middle">1</text><line x1="217" y1="346" x2="273" y2="346" stroke="#74888d" stroke-width="2"/><text x="245" y="376" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="309" cy="280" r="25" fill="#276a80"/><text x="309" y="290" font-size="28" fill="white" text-anchor="middle">2</text><text x="309" y="338" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="281" y1="346" x2="337" y2="346" stroke="#74888d" stroke-width="2"/><text x="309" y="376" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="373" cy="280" r="25" fill="#276a80"/><text x="373" y="290" font-size="28" fill="white" text-anchor="middle">3</text><text x="373" y="338" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="345" y1="346" x2="401" y2="346" stroke="#74888d" stroke-width="2"/><text x="373" y="376" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="437" cy="280" r="25" fill="#276a80"/><text x="437" y="290" font-size="28" fill="white" text-anchor="middle">2</text><text x="437" y="338" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="409" y1="346" x2="465" y2="346" stroke="#74888d" stroke-width="2"/><text x="437" y="376" font-size="24" fill="#74888d" text-anchor="middle">8</text><text x="810" y="290" font-size="28" fill="#19343e" text-anchor="middle">8</text><text x="925" y="290" font-size="28" fill="#19343e" text-anchor="middle">2.00</text><text x="1040" y="290" font-size="28" fill="#19343e" text-anchor="middle">3</text><text x="1170" y="290" font-size="28" fill="#19343e" text-anchor="middle">2.2500</text><line x1="60" y1="425" x2="1220" y2="425" stroke="#dbe5e8" stroke-width="2"/><text x="60" y="490" font-size="28" fill="#276a80" text-anchor="start">只重排</text><circle cx="245" cy="480" r="25" fill="#276a80"/><text x="245" y="490" font-size="28" fill="white" text-anchor="middle">3</text><text x="245" y="538" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="217" y1="546" x2="273" y2="546" stroke="#74888d" stroke-width="2"/><text x="245" y="576" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="309" cy="480" r="25" fill="#276a80"/><text x="309" y="490" font-size="28" fill="white" text-anchor="middle">1</text><text x="309" y="538" font-size="24" fill="#74888d" text-anchor="middle">1</text><line x1="281" y1="546" x2="337" y2="546" stroke="#74888d" stroke-width="2"/><text x="309" y="576" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="373" cy="480" r="25" fill="#276a80"/><text x="373" y="490" font-size="28" fill="white" text-anchor="middle">2</text><text x="373" y="538" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="345" y1="546" x2="401" y2="546" stroke="#74888d" stroke-width="2"/><text x="373" y="576" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="437" cy="480" r="25" fill="#276a80"/><text x="437" y="490" font-size="28" fill="white" text-anchor="middle">2</text><text x="437" y="538" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="409" y1="546" x2="465" y2="546" stroke="#74888d" stroke-width="2"/><text x="437" y="576" font-size="24" fill="#74888d" text-anchor="middle">8</text><text x="810" y="490" font-size="28" fill="#19343e" text-anchor="middle">8</text><text x="925" y="490" font-size="28" fill="#19343e" text-anchor="middle">2.00</text><text x="1040" y="490" font-size="28" fill="#19343e" text-anchor="middle">3</text><text x="1170" y="490" font-size="28" fill="#19343e" text-anchor="middle">2.2500</text><line x1="60" y1="625" x2="1220" y2="625" stroke="#dbe5e8" stroke-width="2"/><text x="60" y="690" font-size="28" fill="#c2673f" text-anchor="start">整体复制</text><circle cx="245" cy="680" r="25" fill="#c2673f"/><text x="245" y="690" font-size="28" fill="white" text-anchor="middle">1</text><text x="245" y="738" font-size="24" fill="#74888d" text-anchor="middle">1</text><line x1="217" y1="746" x2="273" y2="746" stroke="#74888d" stroke-width="2"/><text x="245" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="309" cy="680" r="25" fill="#c2673f"/><text x="309" y="690" font-size="28" fill="white" text-anchor="middle">2</text><text x="309" y="738" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="281" y1="746" x2="337" y2="746" stroke="#74888d" stroke-width="2"/><text x="309" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="373" cy="680" r="25" fill="#c2673f"/><text x="373" y="690" font-size="28" fill="white" text-anchor="middle">3</text><text x="373" y="738" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="345" y1="746" x2="401" y2="746" stroke="#74888d" stroke-width="2"/><text x="373" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="437" cy="680" r="25" fill="#c2673f"/><text x="437" y="690" font-size="28" fill="white" text-anchor="middle">2</text><text x="437" y="738" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="409" y1="746" x2="465" y2="746" stroke="#74888d" stroke-width="2"/><text x="437" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="501" cy="680" r="25" fill="#c2673f"/><text x="501" y="690" font-size="28" fill="white" text-anchor="middle">1</text><text x="501" y="738" font-size="24" fill="#74888d" text-anchor="middle">1</text><line x1="473" y1="746" x2="529" y2="746" stroke="#74888d" stroke-width="2"/><text x="501" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="565" cy="680" r="25" fill="#c2673f"/><text x="565" y="690" font-size="28" fill="white" text-anchor="middle">2</text><text x="565" y="738" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="537" y1="746" x2="593" y2="746" stroke="#74888d" stroke-width="2"/><text x="565" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="629" cy="680" r="25" fill="#c2673f"/><text x="629" y="690" font-size="28" fill="white" text-anchor="middle">3</text><text x="629" y="738" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="601" y1="746" x2="657" y2="746" stroke="#74888d" stroke-width="2"/><text x="629" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="693" cy="680" r="25" fill="#c2673f"/><text x="693" y="690" font-size="28" fill="white" text-anchor="middle">2</text><text x="693" y="738" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="665" y1="746" x2="721" y2="746" stroke="#74888d" stroke-width="2"/><text x="693" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><text x="810" y="690" font-size="28" fill="#19343e" text-anchor="middle">16</text><text x="925" y="690" font-size="28" fill="#19343e" text-anchor="middle">2.00</text><text x="1040" y="690" font-size="28" fill="#19343e" text-anchor="middle">3</text><text x="1170" y="690" font-size="28" fill="#19343e" text-anchor="middle">2.2500</text><line x1="60" y1="825" x2="1220" y2="825" stroke="#dbe5e8" stroke-width="2"/><text x="60" y="890" font-size="28" fill="#c2673f" text-anchor="start">只多一个 3</text><circle cx="245" cy="880" r="25" fill="#c2673f"/><text x="245" y="890" font-size="28" fill="white" text-anchor="middle">1</text><text x="245" y="938" font-size="24" fill="#74888d" text-anchor="middle">1</text><line x1="217" y1="946" x2="273" y2="946" stroke="#74888d" stroke-width="2"/><text x="245" y="976" font-size="24" fill="#74888d" text-anchor="middle">11</text><circle cx="309" cy="880" r="25" fill="#c2673f"/><text x="309" y="890" font-size="28" fill="white" text-anchor="middle">2</text><text x="309" y="938" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="281" y1="946" x2="337" y2="946" stroke="#74888d" stroke-width="2"/><text x="309" y="976" font-size="24" fill="#74888d" text-anchor="middle">11</text><circle cx="373" cy="880" r="25" fill="#c2673f"/><text x="373" y="890" font-size="28" fill="white" text-anchor="middle">3</text><text x="373" y="938" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="345" y1="946" x2="401" y2="946" stroke="#74888d" stroke-width="2"/><text x="373" y="976" font-size="24" fill="#74888d" text-anchor="middle">11</text><circle cx="437" cy="880" r="25" fill="#c2673f"/><text x="437" y="890" font-size="28" fill="white" text-anchor="middle">2</text><text x="437" y="938" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="409" y1="946" x2="465" y2="946" stroke="#74888d" stroke-width="2"/><text x="437" y="976" font-size="24" fill="#74888d" text-anchor="middle">11</text><circle cx="501" cy="880" r="25" fill="#c2673f"/><text x="501" y="890" font-size="28" fill="white" text-anchor="middle">3</text><text x="501" y="938" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="473" y1="946" x2="529" y2="946" stroke="#74888d" stroke-width="2"/><text x="501" y="976" font-size="24" fill="#74888d" text-anchor="middle">11</text><text x="810" y="890" font-size="28" fill="#19343e" text-anchor="middle">11</text><text x="925" y="890" font-size="28" fill="#19343e" text-anchor="middle">2.20</text><text x="1040" y="890" font-size="28" fill="#19343e" text-anchor="middle">3</text><text x="1170" y="890" font-size="28" fill="#19343e" text-anchor="middle">2.4545</text><text x="60" y="1070" font-size="27" fill="#19343e" text-anchor="start">圆下分数是该节点的注意力；整体复制使每份权重减半，但读出不变。</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="1690.0" viewBox="0 0 1280 1690" role="img"><title>图读出：重新排序、整体复制与只复制一个节点</title><rect width="1280" height="1120" fill="white" /><g font-family="Microsoft YaHei, sans-serif"><text x="60" y="65" font-size="35" fill="#19343e" text-anchor="start">图读出：重新排序、整体复制与只复制一个节点</text><text x="60" y="120" font-size="27" fill="#74888d" text-anchor="start">固定节点表示；注意力打分取 ln h，所以权重等于 h 除以本图总和。</text><text x="810" y="205" font-size="27" fill="#19343e" text-anchor="middle">求和</text><text x="925" y="205" font-size="27" fill="#19343e" text-anchor="middle">均值</text><text x="1040" y="205" font-size="27" fill="#19343e" text-anchor="middle">最大值</text><text x="1170" y="205" font-size="27" fill="#19343e" text-anchor="middle">注意力</text><text x="60" y="290" font-size="28" fill="#276a80" text-anchor="start">原顺序</text><circle cx="245" cy="280" r="25" fill="#276a80" /><text x="245" y="290" font-size="28" fill="white" text-anchor="middle">1</text><text x="245" y="338" font-size="24" fill="#74888d" text-anchor="middle">1</text><line x1="217" y1="346" x2="273" y2="346" stroke="#74888d" stroke-width="2" /><text x="245" y="376" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="309" cy="280" r="25" fill="#276a80" /><text x="309" y="290" font-size="28" fill="white" text-anchor="middle">2</text><text x="309" y="338" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="281" y1="346" x2="337" y2="346" stroke="#74888d" stroke-width="2" /><text x="309" y="376" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="373" cy="280" r="25" fill="#276a80" /><text x="373" y="290" font-size="28" fill="white" text-anchor="middle">3</text><text x="373" y="338" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="345" y1="346" x2="401" y2="346" stroke="#74888d" stroke-width="2" /><text x="373" y="376" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="437" cy="280" r="25" fill="#276a80" /><text x="437" y="290" font-size="28" fill="white" text-anchor="middle">2</text><text x="437" y="338" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="409" y1="346" x2="465" y2="346" stroke="#74888d" stroke-width="2" /><text x="437" y="376" font-size="24" fill="#74888d" text-anchor="middle">8</text><text x="810" y="290" font-size="28" fill="#19343e" text-anchor="middle">8</text><text x="925" y="290" font-size="28" fill="#19343e" text-anchor="middle">2.00</text><text x="1040" y="290" font-size="28" fill="#19343e" text-anchor="middle">3</text><text x="1170" y="290" font-size="28" fill="#19343e" text-anchor="middle">2.2500</text><line x1="60" y1="425" x2="1220" y2="425" stroke="#dbe5e8" stroke-width="2" /><text x="60" y="490" font-size="28" fill="#276a80" text-anchor="start">只重排</text><circle cx="245" cy="480" r="25" fill="#276a80" /><text x="245" y="490" font-size="28" fill="white" text-anchor="middle">3</text><text x="245" y="538" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="217" y1="546" x2="273" y2="546" stroke="#74888d" stroke-width="2" /><text x="245" y="576" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="309" cy="480" r="25" fill="#276a80" /><text x="309" y="490" font-size="28" fill="white" text-anchor="middle">1</text><text x="309" y="538" font-size="24" fill="#74888d" text-anchor="middle">1</text><line x1="281" y1="546" x2="337" y2="546" stroke="#74888d" stroke-width="2" /><text x="309" y="576" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="373" cy="480" r="25" fill="#276a80" /><text x="373" y="490" font-size="28" fill="white" text-anchor="middle">2</text><text x="373" y="538" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="345" y1="546" x2="401" y2="546" stroke="#74888d" stroke-width="2" /><text x="373" y="576" font-size="24" fill="#74888d" text-anchor="middle">8</text><circle cx="437" cy="480" r="25" fill="#276a80" /><text x="437" y="490" font-size="28" fill="white" text-anchor="middle">2</text><text x="437" y="538" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="409" y1="546" x2="465" y2="546" stroke="#74888d" stroke-width="2" /><text x="437" y="576" font-size="24" fill="#74888d" text-anchor="middle">8</text><text x="810" y="490" font-size="28" fill="#19343e" text-anchor="middle">8</text><text x="925" y="490" font-size="28" fill="#19343e" text-anchor="middle">2.00</text><text x="1040" y="490" font-size="28" fill="#19343e" text-anchor="middle">3</text><text x="1170" y="490" font-size="28" fill="#19343e" text-anchor="middle">2.2500</text><line x1="60" y1="625" x2="1220" y2="625" stroke="#dbe5e8" stroke-width="2" /><text x="60" y="690" font-size="28" fill="#c2673f" text-anchor="start">整体复制</text><circle cx="245" cy="680" r="25" fill="#c2673f" /><text x="245" y="690" font-size="28" fill="white" text-anchor="middle">1</text><text x="245" y="738" font-size="24" fill="#74888d" text-anchor="middle">1</text><line x1="217" y1="746" x2="273" y2="746" stroke="#74888d" stroke-width="2" /><text x="245" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="309" cy="680" r="25" fill="#c2673f" /><text x="309" y="690" font-size="28" fill="white" text-anchor="middle">2</text><text x="309" y="738" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="281" y1="746" x2="337" y2="746" stroke="#74888d" stroke-width="2" /><text x="309" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="373" cy="680" r="25" fill="#c2673f" /><text x="373" y="690" font-size="28" fill="white" text-anchor="middle">3</text><text x="373" y="738" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="345" y1="746" x2="401" y2="746" stroke="#74888d" stroke-width="2" /><text x="373" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="437" cy="680" r="25" fill="#c2673f" /><text x="437" y="690" font-size="28" fill="white" text-anchor="middle">2</text><text x="437" y="738" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="409" y1="746" x2="465" y2="746" stroke="#74888d" stroke-width="2" /><text x="437" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="501" cy="680" r="25" fill="#c2673f" /><text x="501" y="690" font-size="28" fill="white" text-anchor="middle">1</text><text x="501" y="738" font-size="24" fill="#74888d" text-anchor="middle">1</text><line x1="473" y1="746" x2="529" y2="746" stroke="#74888d" stroke-width="2" /><text x="501" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="565" cy="680" r="25" fill="#c2673f" /><text x="565" y="690" font-size="28" fill="white" text-anchor="middle">2</text><text x="565" y="738" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="537" y1="746" x2="593" y2="746" stroke="#74888d" stroke-width="2" /><text x="565" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="629" cy="680" r="25" fill="#c2673f" /><text x="629" y="690" font-size="28" fill="white" text-anchor="middle">3</text><text x="629" y="738" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="601" y1="746" x2="657" y2="746" stroke="#74888d" stroke-width="2" /><text x="629" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><circle cx="693" cy="680" r="25" fill="#c2673f" /><text x="693" y="690" font-size="28" fill="white" text-anchor="middle">2</text><text x="693" y="738" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="665" y1="746" x2="721" y2="746" stroke="#74888d" stroke-width="2" /><text x="693" y="776" font-size="24" fill="#74888d" text-anchor="middle">16</text><text x="810" y="690" font-size="28" fill="#19343e" text-anchor="middle">16</text><text x="925" y="690" font-size="28" fill="#19343e" text-anchor="middle">2.00</text><text x="1040" y="690" font-size="28" fill="#19343e" text-anchor="middle">3</text><text x="1170" y="690" font-size="28" fill="#19343e" text-anchor="middle">2.2500</text><line x1="60" y1="825" x2="1220" y2="825" stroke="#dbe5e8" stroke-width="2" /><text x="60" y="890" font-size="28" fill="#c2673f" text-anchor="start">只多一个 3</text><circle cx="245" cy="880" r="25" fill="#c2673f" /><text x="245" y="890" font-size="28" fill="white" text-anchor="middle">1</text><text x="245" y="938" font-size="24" fill="#74888d" text-anchor="middle">1</text><line x1="217" y1="946" x2="273" y2="946" stroke="#74888d" stroke-width="2" /><text x="245" y="976" font-size="24" fill="#74888d" text-anchor="middle">11</text><circle cx="309" cy="880" r="25" fill="#c2673f" /><text x="309" y="890" font-size="28" fill="white" text-anchor="middle">2</text><text x="309" y="938" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="281" y1="946" x2="337" y2="946" stroke="#74888d" stroke-width="2" /><text x="309" y="976" font-size="24" fill="#74888d" text-anchor="middle">11</text><circle cx="373" cy="880" r="25" fill="#c2673f" /><text x="373" y="890" font-size="28" fill="white" text-anchor="middle">3</text><text x="373" y="938" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="345" y1="946" x2="401" y2="946" stroke="#74888d" stroke-width="2" /><text x="373" y="976" font-size="24" fill="#74888d" text-anchor="middle">11</text><circle cx="437" cy="880" r="25" fill="#c2673f" /><text x="437" y="890" font-size="28" fill="white" text-anchor="middle">2</text><text x="437" y="938" font-size="24" fill="#74888d" text-anchor="middle">2</text><line x1="409" y1="946" x2="465" y2="946" stroke="#74888d" stroke-width="2" /><text x="437" y="976" font-size="24" fill="#74888d" text-anchor="middle">11</text><circle cx="501" cy="880" r="25" fill="#c2673f" /><text x="501" y="890" font-size="28" fill="white" text-anchor="middle">3</text><text x="501" y="938" font-size="24" fill="#74888d" text-anchor="middle">3</text><line x1="473" y1="946" x2="529" y2="946" stroke="#74888d" stroke-width="2" /><text x="501" y="976" font-size="24" fill="#74888d" text-anchor="middle">11</text><text x="810" y="890" font-size="28" fill="#19343e" text-anchor="middle">11</text><text x="925" y="890" font-size="28" fill="#19343e" text-anchor="middle">2.20</text><text x="1040" y="890" font-size="28" fill="#19343e" text-anchor="middle">3</text><text x="1170" y="890" font-size="28" fill="#19343e" text-anchor="middle">2.4545</text><text x="60" y="1070" font-size="27" fill="#19343e" text-anchor="start">圆下分数是该节点的注意力；整体复制使每份权重减半，但读出不变。</text></g><g transform="translate(0,1120) scale(1.38889)"><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-10-30T09:58:32.238875</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 410.4  L 921.6 410.4  L 921.6 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 110.592 324.216  L 884.736 324.216  L 884.736 102.6  L 110.592 102.6  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mdb7ee70886" d="M 0 0  L 0 3.5  " style="stroke: #536875; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#mdb7ee70886" x="208.187077" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="208.187077" y="345.60475" transform="rotate(-0 208.187077 345.60475)">2</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mdb7ee70886" x="373.602462" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="373.602462" y="345.60475" transform="rotate(-0 373.602462 345.60475)">4</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mdb7ee70886" x="539.017846" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="539.017846" y="345.60475" transform="rotate(-0 539.017846 345.60475)">6</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mdb7ee70886" x="704.433231" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="704.433231" y="345.60475" transform="rotate(-0 704.433231 345.60475)">8</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mdb7ee70886" x="869.848615" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="869.848615" y="345.60475" transform="rotate(-0 869.848615 345.60475)">10</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243c49" x="497.664" y="376.468188" transform="rotate(-0 497.664 376.468188)">同一标量特征 2 的节点个数 n</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <path d="M 110.592 322.627355  L 884.736 322.627355  " clip-path="url(#p83b0c322c6)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_7">
+      <defs>
+       <path id="mc1d8377a2a" d="M 0 0  L -3.5 0  " style="stroke: #536875; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#mc1d8377a2a" x="110.592" y="322.627355" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="329.82173" transform="rotate(-0 103.592 329.82173)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_8">
+      <path d="M 110.592 272.982194  L 884.736 272.982194  " clip-path="url(#p83b0c322c6)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mc1d8377a2a" x="110.592" y="272.982194" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="280.176569" transform="rotate(-0 103.592 280.176569)">5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <path d="M 110.592 223.337032  L 884.736 223.337032  " clip-path="url(#p83b0c322c6)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mc1d8377a2a" x="110.592" y="223.337032" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="230.531407" transform="rotate(-0 103.592 230.531407)">10</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12">
+      <path d="M 110.592 173.691871  L 884.736 173.691871  " clip-path="url(#p83b0c322c6)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#mc1d8377a2a" x="110.592" y="173.691871" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="180.886246" transform="rotate(-0 103.592 180.886246)">15</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_14">
+      <path d="M 110.592 124.04671  L 884.736 124.04671  " clip-path="url(#p83b0c322c6)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#mc1d8377a2a" x="110.592" y="124.04671" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="131.241085" transform="rotate(-0 103.592 131.241085)">20</text>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243c49" x="68.006687" y="213.408" transform="rotate(-90 68.006687 213.408)">图级读出</text>
+    </g>
+   </g>
+   <g id="line2d_16">
+    <path d="M 125.479385 302.76929  L 208.187077 282.911226  L 290.894769 263.053161  L 373.602462 243.195097  L 456.310154 223.337032  L 539.017846 203.478968  L 621.725538 183.620903  L 704.433231 163.762839  L 787.140923 143.904774  L 869.848615 124.04671  " clip-path="url(#p83b0c322c6)" style="fill: none; stroke: #26748e; stroke-width: 3.2; stroke-linecap: square" />
+   </g>
+   <g id="line2d_17">
+    <path d="M 125.479385 302.76929  L 208.187077 302.76929  L 290.894769 302.76929  L 373.602462 302.76929  L 456.310154 302.76929  L 539.017846 302.76929  L 621.725538 302.76929  L 704.433231 302.76929  L 787.140923 302.76929  L 869.848615 302.76929  " clip-path="url(#p83b0c322c6)" style="fill: none; stroke-dasharray: 11.84,5.12; stroke-dashoffset: 0; stroke: #cf793e; stroke-width: 3.2" />
+   </g>
+   <g id="line2d_18">
+    <defs>
+     <path id="ma6e82f1cbf" d="M 0 1.5  C 0.397805 1.5 0.77937 1.341951 1.06066 1.06066  C 1.341951 0.77937 1.5 0.397805 1.5 0  C 1.5 -0.397805 1.341951 -0.77937 1.06066 -1.06066  C 0.77937 -1.341951 0.397805 -1.5 0 -1.5  C -0.397805 -1.5 -0.77937 -1.341951 -1.06066 -1.06066  C -1.341951 -0.77937 -1.5 -0.397805 -1.5 0  C -1.5 0.397805 -1.341951 0.77937 -1.06066 1.06066  C -0.77937 1.341951 -0.397805 1.5 0 1.5  z " style="stroke: #26748e" />
+    </defs>
+    <g clip-path="url(#p83b0c322c6)">
+     <use xlink:href="#ma6e82f1cbf" x="125.479385" y="302.76929" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#ma6e82f1cbf" x="208.187077" y="282.911226" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#ma6e82f1cbf" x="290.894769" y="263.053161" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#ma6e82f1cbf" x="373.602462" y="243.195097" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#ma6e82f1cbf" x="456.310154" y="223.337032" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#ma6e82f1cbf" x="539.017846" y="203.478968" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#ma6e82f1cbf" x="621.725538" y="183.620903" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#ma6e82f1cbf" x="704.433231" y="163.762839" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#ma6e82f1cbf" x="787.140923" y="143.904774" style="fill: #26748e; stroke: #26748e" />
+     <use xlink:href="#ma6e82f1cbf" x="869.848615" y="124.04671" style="fill: #26748e; stroke: #26748e" />
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 110.592 324.216  L 110.592 102.6  " style="fill: none; stroke: #82919a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 110.592 324.216  L 884.736 324.216  " style="fill: none; stroke: #82919a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="legend_1">
+    <g id="line2d_19">
+     <path d="M 126.792 126.88875  L 144.792 126.88875  L 162.792 126.88875  " style="fill: none; stroke: #26748e; stroke-width: 3.2; stroke-linecap: square" />
+    </g>
+    <g id="text_13">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243c49" x="177.192" y="133.18875" transform="rotate(-0 177.192 133.18875)">求和读出</text>
+    </g>
+    <g id="line2d_20">
+     <path d="M 126.792 154.752188  L 144.792 154.752188  L 162.792 154.752188  " style="fill: none; stroke-dasharray: 11.84,5.12; stroke-dashoffset: 0; stroke: #cf793e; stroke-width: 3.2" />
+    </g>
+    <g id="text_14">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243c49" x="177.192" y="161.052188" transform="rotate(-0 177.192 161.052188)">均值读出</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243c49" x="46.08" y="32.832" transform="rotate(-0 46.08 32.832)">复制节点多重集合，求和与均值会保留不同信息</text>
+  </g>
+  <g id="text_16">
+
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p83b0c322c6">
+   <rect x="110.592" y="102.6" width="774.144" height="221.616" />
+  </clipPath>
+ </defs>
+</g></svg>

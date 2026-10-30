@@ -1,1 +1,216 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1050" viewBox="0 0 1280 1050" role="img"><title>参数没动，表示为什么仍变？把状态代进同一个输出</title><rect width="1280" height="1050" fill="white"/><g font-family="Microsoft YaHei, sans-serif"><text x="60" y="65" font-size="35" fill="#19343e" text-anchor="start">参数没动，表示为什么仍变？把状态代进同一个输出</text><text x="60" y="112" font-size="27" fill="#19343e" text-anchor="start">每批同通道均为 10；更新系数 0.1；γ = 1、β = 0、ε = 0.00001</text><text x="60" y="180" font-size="29" fill="#19343e" text-anchor="start">初始状态下，eval 读取</text><text x="690" y="180" font-size="29" fill="#19343e" text-anchor="start">10 次训练前向后，eval 读取</text><text x="60" y="245" font-size="29" fill="#276a80" text-anchor="start">同一输入：10</text><text x="60" y="300" font-size="28" fill="#19343e" text-anchor="start">运行均值：0.0000</text><text x="60" y="355" font-size="28" fill="#19343e" text-anchor="start">运行方差：1.0000</text><line x1="315" y1="280" x2="470" y2="280" stroke="#276a80" stroke-width="4"/><path d="M459.47,285.75 L470.00,280.00 L459.47,274.25" fill="none" stroke="#276a80" stroke-width="4"/><text x="370" y="355" font-size="27" fill="#19343e" text-anchor="middle">输出</text><text x="370" y="410" font-size="36" fill="#c2673f" text-anchor="middle">10.0000</text><text x="690" y="245" font-size="29" fill="#276a80" text-anchor="start">同一输入：10</text><text x="690" y="300" font-size="28" fill="#19343e" text-anchor="start">运行均值：6.5132</text><text x="690" y="355" font-size="28" fill="#19343e" text-anchor="start">运行方差：0.3487</text><line x1="945" y1="280" x2="1100" y2="280" stroke="#276a80" stroke-width="4"/><path d="M1089.47,285.75 L1100.00,280.00 L1089.47,274.25" fill="none" stroke="#276a80" stroke-width="4"/><text x="1000" y="355" font-size="27" fill="#19343e" text-anchor="middle">输出</text><text x="1000" y="410" font-size="36" fill="#c2673f" text-anchor="middle">5.9048</text><line x1="60" y1="455" x2="1220" y2="455" stroke="#dbe5e8" stroke-width="2"/><text x="60" y="570" font-size="27" fill="#276a80" text-anchor="start">运行均值</text><line x1="290" y1="620" x2="1150" y2="620" stroke="#74888d" stroke-width="2"/><line x1="290" y1="510" x2="290" y2="620" stroke="#74888d" stroke-width="2"/><line x1="290" y1="620.0" x2="1150" y2="620.0" stroke="#dbe5e8" stroke-width="1"/><text x="275" y="628.0" font-size="24" fill="#19343e" text-anchor="end">0</text><line x1="290" y1="565.0" x2="1150" y2="565.0" stroke="#dbe5e8" stroke-width="1"/><text x="275" y="573.0" font-size="24" fill="#19343e" text-anchor="end">5</text><line x1="290" y1="510.0" x2="1150" y2="510.0" stroke="#dbe5e8" stroke-width="1"/><text x="275" y="518.0" font-size="24" fill="#19343e" text-anchor="end">10</text><path d="M290.00,620.00 L376.00,609.00 L462.00,599.10 L548.00,590.19 L634.00,582.17 L720.00,574.95 L806.00,568.46 L892.00,562.61 L978.00,557.35 L1064.00,552.62 L1150.00,548.35" fill="none" stroke="#276a80" stroke-width="4"/><circle cx="290.0" cy="620.0" r="4" fill="#276a80"/><circle cx="376.0" cy="609.0" r="4" fill="#276a80"/><circle cx="462.0" cy="599.1" r="4" fill="#276a80"/><circle cx="548.0" cy="590.19" r="4" fill="#276a80"/><circle cx="634.0" cy="582.171" r="4" fill="#276a80"/><circle cx="720.0" cy="574.9539" r="4" fill="#276a80"/><circle cx="806.0" cy="568.45851" r="4" fill="#276a80"/><circle cx="892.0" cy="562.612659" r="4" fill="#276a80"/><circle cx="978.0" cy="557.3513931" r="4" fill="#276a80"/><circle cx="1064.0" cy="552.61625379" r="4" fill="#276a80"/><circle cx="1150.0" cy="548.354628411" r="4" fill="#276a80"/><text x="290" y="652" font-size="24" fill="#19343e" text-anchor="middle">0</text><text x="720" y="652" font-size="24" fill="#19343e" text-anchor="middle">5</text><text x="1150" y="652" font-size="24" fill="#19343e" text-anchor="middle">10</text><text x="60" y="735" font-size="27" fill="#c2673f" text-anchor="start">运行方差</text><line x1="290" y1="785" x2="1150" y2="785" stroke="#74888d" stroke-width="2"/><line x1="290" y1="675" x2="290" y2="785" stroke="#74888d" stroke-width="2"/><line x1="290" y1="785.0" x2="1150" y2="785.0" stroke="#dbe5e8" stroke-width="1"/><text x="275" y="793.0" font-size="24" fill="#19343e" text-anchor="end">0</text><line x1="290" y1="730.0" x2="1150" y2="730.0" stroke="#dbe5e8" stroke-width="1"/><text x="275" y="738.0" font-size="24" fill="#19343e" text-anchor="end">0.5</text><line x1="290" y1="675.0" x2="1150" y2="675.0" stroke="#dbe5e8" stroke-width="1"/><text x="275" y="683.0" font-size="24" fill="#19343e" text-anchor="end">1</text><path d="M290.00,675.00 L376.00,686.00 L462.00,695.90 L548.00,704.81 L634.00,712.83 L720.00,720.05 L806.00,726.54 L892.00,732.39 L978.00,737.65 L1064.00,742.38 L1150.00,746.65" fill="none" stroke="#c2673f" stroke-width="4"/><circle cx="290.0" cy="675.0" r="4" fill="#c2673f"/><circle cx="376.0" cy="686.0" r="4" fill="#c2673f"/><circle cx="462.0" cy="695.9" r="4" fill="#c2673f"/><circle cx="548.0" cy="704.81" r="4" fill="#c2673f"/><circle cx="634.0" cy="712.829" r="4" fill="#c2673f"/><circle cx="720.0" cy="720.0461" r="4" fill="#c2673f"/><circle cx="806.0" cy="726.54149" r="4" fill="#c2673f"/><circle cx="892.0" cy="732.387341" r="4" fill="#c2673f"/><circle cx="978.0" cy="737.6486069" r="4" fill="#c2673f"/><circle cx="1064.0" cy="742.38374621" r="4" fill="#c2673f"/><circle cx="1150.0" cy="746.645371589" r="4" fill="#c2673f"/><text x="290" y="817" font-size="24" fill="#19343e" text-anchor="middle">0</text><text x="720" y="817" font-size="24" fill="#19343e" text-anchor="middle">5</text><text x="1150" y="817" font-size="24" fill="#19343e" text-anchor="middle">10</text><text x="60" y="900" font-size="27" fill="#5d8c79" text-anchor="start">eval 输出</text><line x1="290" y1="950" x2="1150" y2="950" stroke="#74888d" stroke-width="2"/><line x1="290" y1="840" x2="290" y2="950" stroke="#74888d" stroke-width="2"/><line x1="290" y1="950.0" x2="1150" y2="950.0" stroke="#dbe5e8" stroke-width="1"/><text x="275" y="958.0" font-size="24" fill="#19343e" text-anchor="end">0</text><line x1="290" y1="895.0" x2="1150" y2="895.0" stroke="#dbe5e8" stroke-width="1"/><text x="275" y="903.0" font-size="24" fill="#19343e" text-anchor="end">5</text><line x1="290" y1="840.0" x2="1150" y2="840.0" stroke="#dbe5e8" stroke-width="1"/><text x="275" y="848.0" font-size="24" fill="#19343e" text-anchor="end">10</text><path d="M290.00,840.00 L376.00,845.65 L462.00,851.00 L548.00,856.08 L634.00,860.90 L720.00,865.47 L806.00,869.81 L892.00,873.93 L978.00,877.83 L1064.00,881.53 L1150.00,885.05" fill="none" stroke="#5d8c79" stroke-width="4"/><circle cx="290.0" cy="840.0005499958751" r="4" fill="#5d8c79"/><circle cx="376.0" cy="845.6454169605166" r="4" fill="#5d8c79"/><circle cx="462.0" cy="851.0006111054527" r="4" fill="#5d8c79"/><circle cx="548.0" cy="856.0809976540435" r="4" fill="#5d8c79"/><circle cx="634.0" cy="860.9006790045838" r="4" fill="#5d8c79"/><circle cx="720.0" cy="865.4730338764657" r="4" fill="#5d8c79"/><circle cx="806.0" cy="869.8107544475147" r="4" fill="#5d8c79"/><circle cx="892.0" cy="873.9258815855894" r="4" fill="#5d8c79"/><circle cx="978.0" cy="877.8298382722414" r="4" fill="#5d8c79"/><circle cx="1064.0" cy="881.5334613112132" r="4" fill="#5d8c79"/><circle cx="1150.0" cy="885.0470314097951" r="4" fill="#5d8c79"/><text x="290" y="982" font-size="24" fill="#19343e" text-anchor="middle">0</text><text x="720" y="982" font-size="24" fill="#19343e" text-anchor="middle">5</text><text x="1150" y="982" font-size="24" fill="#19343e" text-anchor="middle">10</text><text x="1210" y="1020" font-size="26" fill="#19343e" text-anchor="end">训练前向次数</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="1620.0" viewBox="0 0 1280 1620" role="img"><title>参数没动，表示为什么仍变？把状态代进同一个输出</title><rect width="1280" height="1050" fill="white" /><g font-family="Microsoft YaHei, sans-serif"><text x="60" y="65" font-size="35" fill="#19343e" text-anchor="start">参数没动，表示为什么仍变？把状态代进同一个输出</text><text x="60" y="112" font-size="27" fill="#19343e" text-anchor="start">每批同通道均为 10；更新系数 0.1；γ = 1、β = 0、ε = 0.00001</text><text x="60" y="180" font-size="29" fill="#19343e" text-anchor="start">初始状态下，eval 读取</text><text x="690" y="180" font-size="29" fill="#19343e" text-anchor="start">10 次训练前向后，eval 读取</text><text x="60" y="245" font-size="29" fill="#276a80" text-anchor="start">同一输入：10</text><text x="60" y="300" font-size="28" fill="#19343e" text-anchor="start">运行均值：0.0000</text><text x="60" y="355" font-size="28" fill="#19343e" text-anchor="start">运行方差：1.0000</text><line x1="315" y1="280" x2="470" y2="280" stroke="#276a80" stroke-width="4" /><path d="M459.47,285.75 L470.00,280.00 L459.47,274.25" fill="none" stroke="#276a80" stroke-width="4" /><text x="370" y="355" font-size="27" fill="#19343e" text-anchor="middle">输出</text><text x="370" y="410" font-size="36" fill="#c2673f" text-anchor="middle">10.0000</text><text x="690" y="245" font-size="29" fill="#276a80" text-anchor="start">同一输入：10</text><text x="690" y="300" font-size="28" fill="#19343e" text-anchor="start">运行均值：6.5132</text><text x="690" y="355" font-size="28" fill="#19343e" text-anchor="start">运行方差：0.3487</text><line x1="945" y1="280" x2="1100" y2="280" stroke="#276a80" stroke-width="4" /><path d="M1089.47,285.75 L1100.00,280.00 L1089.47,274.25" fill="none" stroke="#276a80" stroke-width="4" /><text x="1000" y="355" font-size="27" fill="#19343e" text-anchor="middle">输出</text><text x="1000" y="410" font-size="36" fill="#c2673f" text-anchor="middle">5.9048</text><line x1="60" y1="455" x2="1220" y2="455" stroke="#dbe5e8" stroke-width="2" /><text x="60" y="570" font-size="27" fill="#276a80" text-anchor="start">运行均值</text><line x1="290" y1="620" x2="1150" y2="620" stroke="#74888d" stroke-width="2" /><line x1="290" y1="510" x2="290" y2="620" stroke="#74888d" stroke-width="2" /><line x1="290" y1="620.0" x2="1150" y2="620.0" stroke="#dbe5e8" stroke-width="1" /><text x="275" y="628.0" font-size="24" fill="#19343e" text-anchor="end">0</text><line x1="290" y1="565.0" x2="1150" y2="565.0" stroke="#dbe5e8" stroke-width="1" /><text x="275" y="573.0" font-size="24" fill="#19343e" text-anchor="end">5</text><line x1="290" y1="510.0" x2="1150" y2="510.0" stroke="#dbe5e8" stroke-width="1" /><text x="275" y="518.0" font-size="24" fill="#19343e" text-anchor="end">10</text><path d="M290.00,620.00 L376.00,609.00 L462.00,599.10 L548.00,590.19 L634.00,582.17 L720.00,574.95 L806.00,568.46 L892.00,562.61 L978.00,557.35 L1064.00,552.62 L1150.00,548.35" fill="none" stroke="#276a80" stroke-width="4" /><circle cx="290.0" cy="620.0" r="4" fill="#276a80" /><circle cx="376.0" cy="609.0" r="4" fill="#276a80" /><circle cx="462.0" cy="599.1" r="4" fill="#276a80" /><circle cx="548.0" cy="590.19" r="4" fill="#276a80" /><circle cx="634.0" cy="582.171" r="4" fill="#276a80" /><circle cx="720.0" cy="574.9539" r="4" fill="#276a80" /><circle cx="806.0" cy="568.45851" r="4" fill="#276a80" /><circle cx="892.0" cy="562.612659" r="4" fill="#276a80" /><circle cx="978.0" cy="557.3513931" r="4" fill="#276a80" /><circle cx="1064.0" cy="552.61625379" r="4" fill="#276a80" /><circle cx="1150.0" cy="548.354628411" r="4" fill="#276a80" /><text x="290" y="652" font-size="24" fill="#19343e" text-anchor="middle">0</text><text x="720" y="652" font-size="24" fill="#19343e" text-anchor="middle">5</text><text x="1150" y="652" font-size="24" fill="#19343e" text-anchor="middle">10</text><text x="60" y="735" font-size="27" fill="#c2673f" text-anchor="start">运行方差</text><line x1="290" y1="785" x2="1150" y2="785" stroke="#74888d" stroke-width="2" /><line x1="290" y1="675" x2="290" y2="785" stroke="#74888d" stroke-width="2" /><line x1="290" y1="785.0" x2="1150" y2="785.0" stroke="#dbe5e8" stroke-width="1" /><text x="275" y="793.0" font-size="24" fill="#19343e" text-anchor="end">0</text><line x1="290" y1="730.0" x2="1150" y2="730.0" stroke="#dbe5e8" stroke-width="1" /><text x="275" y="738.0" font-size="24" fill="#19343e" text-anchor="end">0.5</text><line x1="290" y1="675.0" x2="1150" y2="675.0" stroke="#dbe5e8" stroke-width="1" /><text x="275" y="683.0" font-size="24" fill="#19343e" text-anchor="end">1</text><path d="M290.00,675.00 L376.00,686.00 L462.00,695.90 L548.00,704.81 L634.00,712.83 L720.00,720.05 L806.00,726.54 L892.00,732.39 L978.00,737.65 L1064.00,742.38 L1150.00,746.65" fill="none" stroke="#c2673f" stroke-width="4" /><circle cx="290.0" cy="675.0" r="4" fill="#c2673f" /><circle cx="376.0" cy="686.0" r="4" fill="#c2673f" /><circle cx="462.0" cy="695.9" r="4" fill="#c2673f" /><circle cx="548.0" cy="704.81" r="4" fill="#c2673f" /><circle cx="634.0" cy="712.829" r="4" fill="#c2673f" /><circle cx="720.0" cy="720.0461" r="4" fill="#c2673f" /><circle cx="806.0" cy="726.54149" r="4" fill="#c2673f" /><circle cx="892.0" cy="732.387341" r="4" fill="#c2673f" /><circle cx="978.0" cy="737.6486069" r="4" fill="#c2673f" /><circle cx="1064.0" cy="742.38374621" r="4" fill="#c2673f" /><circle cx="1150.0" cy="746.645371589" r="4" fill="#c2673f" /><text x="290" y="817" font-size="24" fill="#19343e" text-anchor="middle">0</text><text x="720" y="817" font-size="24" fill="#19343e" text-anchor="middle">5</text><text x="1150" y="817" font-size="24" fill="#19343e" text-anchor="middle">10</text><text x="60" y="900" font-size="27" fill="#5d8c79" text-anchor="start">eval 输出</text><line x1="290" y1="950" x2="1150" y2="950" stroke="#74888d" stroke-width="2" /><line x1="290" y1="840" x2="290" y2="950" stroke="#74888d" stroke-width="2" /><line x1="290" y1="950.0" x2="1150" y2="950.0" stroke="#dbe5e8" stroke-width="1" /><text x="275" y="958.0" font-size="24" fill="#19343e" text-anchor="end">0</text><line x1="290" y1="895.0" x2="1150" y2="895.0" stroke="#dbe5e8" stroke-width="1" /><text x="275" y="903.0" font-size="24" fill="#19343e" text-anchor="end">5</text><line x1="290" y1="840.0" x2="1150" y2="840.0" stroke="#dbe5e8" stroke-width="1" /><text x="275" y="848.0" font-size="24" fill="#19343e" text-anchor="end">10</text><path d="M290.00,840.00 L376.00,845.65 L462.00,851.00 L548.00,856.08 L634.00,860.90 L720.00,865.47 L806.00,869.81 L892.00,873.93 L978.00,877.83 L1064.00,881.53 L1150.00,885.05" fill="none" stroke="#5d8c79" stroke-width="4" /><circle cx="290.0" cy="840.0005499958751" r="4" fill="#5d8c79" /><circle cx="376.0" cy="845.6454169605166" r="4" fill="#5d8c79" /><circle cx="462.0" cy="851.0006111054527" r="4" fill="#5d8c79" /><circle cx="548.0" cy="856.0809976540435" r="4" fill="#5d8c79" /><circle cx="634.0" cy="860.9006790045838" r="4" fill="#5d8c79" /><circle cx="720.0" cy="865.4730338764657" r="4" fill="#5d8c79" /><circle cx="806.0" cy="869.8107544475147" r="4" fill="#5d8c79" /><circle cx="892.0" cy="873.9258815855894" r="4" fill="#5d8c79" /><circle cx="978.0" cy="877.8298382722414" r="4" fill="#5d8c79" /><circle cx="1064.0" cy="881.5334613112132" r="4" fill="#5d8c79" /><circle cx="1150.0" cy="885.0470314097951" r="4" fill="#5d8c79" /><text x="290" y="982" font-size="24" fill="#19343e" text-anchor="middle">0</text><text x="720" y="982" font-size="24" fill="#19343e" text-anchor="middle">5</text><text x="1150" y="982" font-size="24" fill="#19343e" text-anchor="middle">10</text><text x="1210" y="1020" font-size="26" fill="#19343e" text-anchor="end">训练前向次数</text></g><g transform="translate(0,1050) scale(1.38889)"><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-10-30T09:58:27.192908</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 410.4  L 921.6 410.4  L 921.6 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 110.592 324.216  L 884.736 324.216  L 884.736 102.6  L 110.592 102.6  z " style="fill: #ffffff" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="md054129f69" d="M 0 0  L 0 3.5  " style="stroke: #536875; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#md054129f69" x="125.479385" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="125.479385" y="345.60475" transform="rotate(-0 125.479385 345.60475)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#md054129f69" x="249.540923" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="249.540923" y="345.60475" transform="rotate(-0 249.540923 345.60475)">5</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#md054129f69" x="373.602462" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="373.602462" y="345.60475" transform="rotate(-0 373.602462 345.60475)">10</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#md054129f69" x="497.664" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="497.664" y="345.60475" transform="rotate(-0 497.664 345.60475)">15</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#md054129f69" x="621.725538" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="621.725538" y="345.60475" transform="rotate(-0 621.725538 345.60475)">20</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#md054129f69" x="745.787077" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="745.787077" y="345.60475" transform="rotate(-0 745.787077 345.60475)">25</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#md054129f69" x="869.848615" y="324.216" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #536875" x="869.848615" y="345.60475" transform="rotate(-0 869.848615 345.60475)">30</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243c49" x="497.664" y="376.468188" transform="rotate(-0 497.664 376.468188)">重复批次数 t</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <path d="M 110.592 302.76929  L 884.736 302.76929  " clip-path="url(#p7b005c171a)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_9">
+      <defs>
+       <path id="m98a0958a85" d="M 0 0  L -3.5 0  " style="stroke: #536875; stroke-width: 0.8" />
+      </defs>
+      <g>
+       <use xlink:href="#m98a0958a85" x="110.592" y="302.76929" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="309.963665" transform="rotate(-0 103.592 309.963665)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <path d="M 110.592 258.080665  L 884.736 258.080665  " clip-path="url(#p7b005c171a)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m98a0958a85" x="110.592" y="258.080665" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="265.27504" transform="rotate(-0 103.592 265.27504)">2.5</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_12">
+      <path d="M 110.592 213.392039  L 884.736 213.392039  " clip-path="url(#p7b005c171a)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m98a0958a85" x="110.592" y="213.392039" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="220.586414" transform="rotate(-0 103.592 220.586414)">5.0</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14">
+      <path d="M 110.592 168.703413  L 884.736 168.703413  " clip-path="url(#p7b005c171a)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m98a0958a85" x="110.592" y="168.703413" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="175.897788" transform="rotate(-0 103.592 175.897788)">7.5</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_16">
+      <path d="M 110.592 124.014787  L 884.736 124.014787  " clip-path="url(#p7b005c171a)" style="fill: none; stroke: #e6edef; stroke-width: 0.8; stroke-linecap: square" />
+     </g>
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m98a0958a85" x="110.592" y="124.014787" style="fill: #536875; stroke: #536875; stroke-width: 0.8" />
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536875" x="103.592" y="131.209162" transform="rotate(-0 103.592 131.209162)">10.0</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243c49" x="53.117312" y="213.408" transform="rotate(-90 53.117312 213.408)">运行均值</text>
+    </g>
+   </g>
+   <g id="line2d_18">
+    <path d="M 125.479385 302.76929  L 150.291692 284.89384  L 175.104 268.805935  L 199.916308 254.32682  L 224.728615 241.295617  L 249.540923 229.567534  L 274.353231 219.012259  L 299.165538 209.512512  L 323.977846 200.96274  L 348.790154 193.267944  L 373.602462 186.342629  L 398.414769 180.109844  L 423.227077 174.500339  L 448.039385 169.451784  L 472.851692 164.908084  L 497.664 160.818754  L 522.476308 157.138358  L 547.288615 153.826001  L 572.100923 150.844879  L 596.913231 148.16187  L 621.725538 145.747162  L 646.537846 143.573924  L 671.350154 141.618011  L 696.162462 139.857688  L 720.974769 138.273398  L 745.787077 136.847537  L 770.599385 135.564262  L 795.411692 134.409315  L 820.224 133.369862  L 845.036308 132.434354  L 869.848615 131.592398  " clip-path="url(#p7b005c171a)" style="fill: none; stroke: #26748e; stroke-width: 3.2; stroke-linecap: square" />
+   </g>
+   <g id="line2d_19">
+    <path d="M 125.479385 302.76929  L 150.291692 258.080665  L 175.104 224.564195  L 199.916308 199.426843  L 224.728615 180.573829  L 249.540923 166.434069  L 274.353231 155.829248  L 299.165538 147.875633  L 323.977846 141.910422  L 348.790154 137.436513  L 373.602462 134.081082  L 398.414769 131.564508  L 423.227077 129.677078  L 448.039385 128.261505  L 472.851692 127.199826  L 497.664 126.403566  L 522.476308 125.806371  L 547.288615 125.358475  L 572.100923 125.022553  L 596.913231 124.770612  L 621.725538 124.581656  L 646.537846 124.439939  L 671.350154 124.333651  L 696.162462 124.253935  L 720.974769 124.194148  L 745.787077 124.149308  L 770.599385 124.115678  L 795.411692 124.090455  L 820.224 124.071538  L 845.036308 124.05735  L 869.848615 124.04671  " clip-path="url(#p7b005c171a)" style="fill: none; stroke-dasharray: 11.84,5.12; stroke-dashoffset: 0; stroke: #cf793e; stroke-width: 3.2" />
+   </g>
+   <g id="patch_3">
+    <path d="M 110.592 324.216  L 110.592 102.6  " style="fill: none; stroke: #82919a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 110.592 324.216  L 884.736 324.216  " style="fill: none; stroke: #82919a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="legend_1">
+    <g id="line2d_20">
+     <path d="M 704.809125 269.377875  L 722.809125 269.377875  L 740.809125 269.377875  " style="fill: none; stroke: #26748e; stroke-width: 3.2; stroke-linecap: square" />
+    </g>
+    <g id="text_15">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243c49" x="755.209125" y="275.677875" transform="rotate(-0 755.209125 275.677875)">统计动量 0.1</text>
+    </g>
+    <g id="line2d_21">
+     <path d="M 704.809125 297.241312  L 722.809125 297.241312  L 740.809125 297.241312  " style="fill: none; stroke-dasharray: 11.84,5.12; stroke-dashoffset: 0; stroke: #cf793e; stroke-width: 3.2" />
+    </g>
+    <g id="text_16">
+     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243c49" x="755.209125" y="303.541313" transform="rotate(-0 755.209125 303.541313)">统计动量 0.25</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243c49" x="46.08" y="32.832" transform="rotate(-0 46.08 32.832)">权重不更新，运行统计仍会逐批迁移</text>
+  </g>
+  <g id="text_18">
+
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7b005c171a">
+   <rect x="110.592" y="102.6" width="774.144" height="221.616" />
+  </clipPath>
+ </defs>
+</g></svg>
