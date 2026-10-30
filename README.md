@@ -27,7 +27,7 @@
 
 同一章里的图组各有分工：机制图说明对象怎样变化，算例图给出可复算的数量，对照或反例图标出结论的边界。跨章节比较时，先重新确认变量、数据和假设，不能将不同算例的输出直接拼接。
 
-例如，可用[整体光滑、节点不可微的计算图](Mathematics/Calculus/01-导数偏导数与链式法则.md#ad-smooth-composite)检查求导规则，用[同一预算线上的分层方差](Mathematics/Probability/04-采样大数定律与蒙特卡洛推断.md#strata-cost-worked)比较采样成本，再用[逐时检验的首次越界分布](Mathematics/Statistics/02-假设检验相关性与实验.md#optional-stopping-count)理解停止规则。每个例子的条件、数字和推导都在对应图旁说明。
+例如，可从[三角形支持上的条件密度](Mathematics/Probability/03-联合分布边缘化与条件期望.md#triangle-conditioning-visual)看懂“切片后重新归一”，用[异方差置换检验](Mathematics/Statistics/04-重采样实验设计与报告实践.md#permutation-scale-counterexample)比较真实抽样与置换分布的尺度，再沿[有限步训练的计算图](Mathematics/Calculus/04-从导数到训练目标的推导实践.md#finite-training-derivative)追踪每条参数依赖。先预测图中哪一项会改变，再用相邻推导复算，有助于发现看似相同的公式实际上回答了不同问题。
 
 [线性变换](Mathematics/LinearAlgebra/01-向量矩阵与线性变换.md#visual-linearalgebra-01)另有本地网格动画，可连续观察同一批交点如何随基向量移动；旁边的静态图保留端点坐标和面积，便于暂停核对。部分章节还附有已下载的经典配图与卷积动画，均可离线查看。
 
