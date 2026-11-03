@@ -128,7 +128,6 @@ $$
 图源：Nicoguaro，[原始来源](https://commons.wikimedia.org/wiki/File:GaussianScatterPCA.svg)，[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)；本地原图，图形内容未改动。
 
 
-
 <a id="sec-2"></a>
 
 ## 2. 拟合、投影、重构与可保存的变换
@@ -558,14 +557,13 @@ $$
 
 ![相同扰动遇到小谱间隙会产生大旋转](images/04-mechanism.svg)
 
-左图保留两个可精确求解的二维协方差：$`\left[\begin{smallmatrix}2&\varepsilon\\\varepsilon&1\end{smallmatrix}\right]`$ 与 $`\left[\begin{smallmatrix}1.01&\varepsilon\\\varepsilon&1\end{smallmatrix}\right]`$。相对于 $`\varepsilon=0`$ 时的第一坐标轴，主方向转角满足 $`\theta=\frac{1}{2}\arctan(\frac{2\varepsilon}{\Delta})`$，这里 $`\Delta`$ 指**扰动前**的两个特征值之差。相同 $`\varepsilon=0.05`$ 分别造成约 2.855° 与 42.145° 的旋转，不能将扰动的绝对大小直接当成方向误差。
+前两幅图固定同一个非对角扰动 $`\varepsilon=0.1`$，分别取扰动前协方差 $`S=\operatorname{diag}(1+\delta,1)`$ 的谱间隙 $`\delta=2`$ 与 $`0.2`$。灰虚线为原协方差椭圆，蓝实线按扰动后矩阵 $`S+\left[\begin{smallmatrix}0&\varepsilon\\\varepsilon&0\end{smallmatrix}\right]`$ 的真实特征分解绘制。箭头标记原方向与新的第一主方向；椭圆是单位圆经协方差平方根的像，不是一个由有限样本估计的置信区域。
 
-右图补足“方向”和“保留子空间”的区别。取三维矩阵 $`A_0=\operatorname{diag}(1.01,1,0.1)`$，只增加 $`E_{12}=E_{21}=0.05`$。前两个特征值变为约 1.055249 和 0.954751；两个特征向量在 $`(e_1,e_2)`$ 平面内旋转，而第三个方向仍为 $`e_3`$，特征值仍为 0.1。因此前两主方向张成的子空间**完全不变**，其正交投影矩阵前后都为 $`\operatorname{diag}(1,1,0)`$。图中的圆表示这个保留平面中的单位圆，不是数据点云或置信区域。
+新的主方向转角满足 $`\tan(2\theta)=\frac{2\varepsilon}{\delta}`$，在图中取 $`0<\theta<\frac\pi4`$。两组转角分别约 $`2.8553^\circ`$ 与 $`22.5^\circ`$：扰动矩阵完全相同，较小的谱间隙造成更大旋转。第三图连续改变原谱间隙，保留同一个扰动，显示整个角度响应，而不是只比较两张看起来不同的椭圆。
 
-本例恰好没有跨平面耦合，故子空间不变是精确结果，不应推广为任意扰动。一般子空间误差应结合保留特征值簇与外部特征值之间的分离条件；内部两个特征值很接近时，单个基向量可以剧烈改变而整个簇仍稳定。相关定理见 [Yu、Wang 与 Samworth 的 Davis–Kahan 统计版本](https://arxiv.org/abs/1405.0680)。
+单个方向与整个保留子空间还须分别讨论。作为图外的精确扩展，取三维 $`A_0=\operatorname{diag}(1.01,1,0.1)`$，只加 $`E_{12}=E_{21}=0.05`$。前两个特征值变成约 $`1.055249,0.954751`$，方向在原来的前二维平面内旋转约 $`42.145^\circ`$，但保留平面及投影矩阵 $`\operatorname{diag}(1,1,0)`$ 完全不变，第三方向仍为 $`e_3`$。这些数属于这一单独扩展，不能代入前两幅的 $`\varepsilon=0.1`$ 模型。
 
-
-
+本扩展恰无跨平面耦合，子空间不变是精确结果；一般扰动须结合保留特征值簇与外部谱的分离判断。内部谱接近可以让基向量大转，却未必破坏整个簇的稳定性。相关条件见 [Yu、Wang 与 Samworth 的 Davis–Kahan 统计版本](https://arxiv.org/abs/1405.0680)。
 
 
 <a id="sec-7"></a>
