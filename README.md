@@ -29,6 +29,8 @@
 
 例如，可从[三角形支持上的条件密度](Mathematics/Probability/03-联合分布边缘化与条件期望.md#triangle-conditioning-visual)看懂“切片后重新归一”，用[异方差置换检验](Mathematics/Statistics/04-重采样实验设计与报告实践.md#permutation-scale-counterexample)比较真实抽样与置换分布的尺度，再沿[有限步训练的计算图](Mathematics/Calculus/04-从导数到训练目标的推导实践.md#finite-training-derivative)追踪每条参数依赖。先预测图中哪一项会改变，再用相邻推导复算，有助于发现看似相同的公式实际上回答了不同问题。
 
+也可以围绕一个问题跨主题阅读：[标签广播](Mathematics/MatrixCalculus/02-批量损失与反向传播推导.md#label-broadcast-objective-worked)说明形状合法为何仍可能改变训练目标，[共享键值注意力](DeepLearning/Attention/04-注意力效率位置与解释实验.md#attention-4-gqa-numeric)追踪同一份记忆怎样被不同查询读取并汇合梯度，[整数重定标](AdvancedStudies/EfficientModelSystems/02-量化误差校准与推理瓶颈.md#integer-requantization-worked)则将输入码、累加单位、输出舍入与饱和连接起来。按图中的小规模输入手算，再检查正文给出的条件，能把接口行为、数学目标和数值实现联系起来。
+
 [线性变换](Mathematics/LinearAlgebra/01-向量矩阵与线性变换.md#visual-linearalgebra-01)另有本地网格动画，可连续观察同一批交点如何随基向量移动；旁边的静态图保留端点坐标和面积，便于暂停核对。部分章节还附有已下载的经典配图与卷积动画，均可离线查看。
 
 离线阅读时，请保留完整仓库及各主题的 images 目录、assets 目录，并使用支持本地 SVG 和 GIF 的 Markdown 阅读器；图片均通过相对路径引用，显示图片无需联网。来源链接仅供追溯，不参与图片加载。

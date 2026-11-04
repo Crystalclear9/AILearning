@@ -148,7 +148,11 @@
 
 ![窗口的分区决定哪些行允许共享累计状态](images/03-window-partition-reset.svg)
 
-窗口的分区决定哪些行允许共享累计状态。输入依次为A组2、3，B组10、20，组内都有明确次序。按组分区的ROWS前缀和是2、5、10、30；漏写PARTITION BY则变成2、5、15、35，B组继承了A组的5。窗口函数仍返回四行，不能靠行数验收发现这个错误；还需检查分区边界处的值。图中没有并列排序键，因而不涉及同级行或默认RANGE的额外差别。
+窗口的分区决定哪些行允许共享累计状态。输入的唯一顺序键为 id=1、2、3、4，对应 A1=2、A2=3、B1=10、B2=20；字母表示分区，编号只是本例的明确次序。两种查询都显式采用 `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`。
+
+中间行保留 `PARTITION BY g`：A2 的结果是 $2+3=5$，而 B1 重新从自己的分区开始，结果为 10，B2 再得到 $10+20=30$。最下面漏掉分区时，整个关系成为一个分区，B1 会继承 A 的五，得到 $5+10=15$，接着 B2 得到 $15+20=35$。箭头表达前缀和的逻辑依赖，“重置”不是要求数据库按某个固定物理顺序执行，也不是修改原数据。
+
+两个查询仍都返回四行，单靠行数无法发现分区错误；应核对边界行 B1 的参与集合及数值。图中没有并列排序键，因而暂不混入同级行或默认 RANGE 的额外差别。分区独立计算、缺省时全体属于一个分区的规则，可对照 [SQLite 的 PARTITION BY 教学示例](https://www.sqlite.org/windowfunctions.html#the_partition_by_clause)。
 
 继续阅读：[PostgreSQL窗口与查询教程](https://www.postgresql.org/docs/current/tutorial-window.html)。
 
