@@ -7,6 +7,7 @@
 ## 本章目录
 
 - [1. 一条轨迹首先是一份带身份的数据](#policy-3-detail-1)
+  - [科学图解：GAE不能越过回合边界](#scientific-plate-03)
   - [1.1 时间步与批次轴](#policy-3-detail-2)
   - [1.2 收集与更新分开](#policy-3-detail-3)
   - [图解：GAE 的完整算例：带符号加权与回合边界反例](#visual-policybasedmethods-03)
@@ -91,6 +92,15 @@
 - [参考资料](#policy-3-detail-79)
 
 <a id="sec-1"></a>
+
+
+<a id="scientific-plate-03"></a>
+
+### 科学图解：GAE不能越过回合边界
+
+![GAE不能越过回合边界](images/03-scientific-plate.webp)
+
+蓝色带显示同一回合中的后续TD残差如何对前面的优势产生贡献，带宽不作为精确权重。红色隔面阻止新回合的残差进入旧回合递推。截断处是否保留价值自举属于另一问题，因此不能用一个掩码替代两种语义。
 
 <a id="policy-3-detail-1"></a>
 
