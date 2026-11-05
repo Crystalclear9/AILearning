@@ -478,6 +478,11 @@ LAG 可以取排序前一条记录，适合差分与间隔计算；LEAD 取后�
 
 ![LAST_VALUE 取决于窗口终点](images/03-advanced.svg)
 
+**底部同时固定当前行、窗口和空值政策。** 当前行为 id 二、值为空。窗口截止当前行时，`LAST_VALUE` 返回该空值；扩大到分区末得到三十，但那是未来 id 三的值；如果目标是“截至当前行最后已知值”，正确对象应是 id 一的十。三个结果分别对应三个不同查询，不能用得到非空值来证明历史特征正确。
+
+有些数据库提供忽略空值的窗口选项，有些需要另外构造查询，但跳过空值不会授权跨过时间边界。还应确认排序键唯一、窗口端点明确，并按系统支持的实际语法实现。特别是 PostgreSQL 的窗口函数空值处理约定，参见 [官方窗口函数说明](https://www.postgresql.org/docs/current/functions-window.html)。
+
+
 蓝色或橙色底带表示当前 frame，底带以外的记录仍在分区内；箭头从实际被读取的记录指向结果。三行图都固定同一当前行，不能把它们当作依次推进了三次查询。三行按唯一 id=1、2、3 排序，值为 10、NULL、30。两次都固定当前行 id=2，仅改变 frame：从开头到当前行时，末行值就是 NULL；从开头到分区末尾时，末行值为 30。白格表示仍在同一分区却尚未进入上方 frame 的记录，并不是记录不存在。
 
 在 PostgreSQL 中，可以分别用 ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW 与 ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING 明确这两种范围。带排序的默认 RANGE frame 终止于当前行的最后一个同级行；本例排序键唯一，才与“到当前行”的结果一致。若排序键并列，必须重新分析同级组及组内次序。
