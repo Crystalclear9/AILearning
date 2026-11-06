@@ -1,27 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="581.4257" viewBox="0 0 1440 581.4257" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">同一逻辑损失叶内的真实目标、二阶近似与概率更新</title><rect width="1440" height="581.4257" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">同一逻辑损失叶内的真实目标、二阶近似与概率更新</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="439.4257" viewBox="0 0 1358.7136 444.2364" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-04T20:05:41.407236</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 444.236406 L 1358.713594 444.236406 L 1358.713594 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3000" viewBox="0 0 960 3000" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一逻辑损失叶内的真实目标、二阶近似与概率更新</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m3b72f6bc6e" d="M 0 0 L 0 3.5 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
+      <path id="m41d6c1f5a7" d="M 0 0 L -3.5 0 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
+      <path id="C0_0_8489d31c2b" d="M 0 4.472136 C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278 C 4.000923 2.323632 4.472136 1.186024 4.472136 -0 C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278 C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136 C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278 C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0 C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278 C -2.323632 4.000923 -1.186024 4.472136 0 4.472136 z "/>
+    <path id="C1_0_f027bbaee0" d="M 0 4.472136 C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278 C 4.000923 2.323632 4.472136 1.186024 4.472136 -0 C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278 C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136 C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278 C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0 C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278 C -2.323632 4.000923 -1.186024 4.472136 0 4.472136 z "/>
+    <path id="C2_0_3d1972f372" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 -0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z "/>
+    <clipPath id="p180da9caa9">
+   <rect x="68.113594" y="50.385" width="337.736842" height="332.64"/>
+  </clipPath>
+  <clipPath id="p8757b9497e">
+   <rect x="540.945173" y="50.385" width="337.736842" height="332.64"/>
+  </clipPath>
+  <clipPath id="pea29635b4d">
+   <rect x="1013.776752" y="50.385" width="337.736842" height="332.64"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="3000" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">同一逻辑损失叶内的真实目标、二阶近似与概率更</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">新</text></g><path d="M 44 143.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(77.63700 159.40146) scale(2.01794603)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 68.113594 383.025 L 405.850436 383.025 L 405.850436 50.385 L 68.113594 50.385 z " style="fill: #ffffff"/>
    </g>
@@ -31,9 +24,6 @@
       <path d="M 127.714213 383.025 L 127.714213 50.385 " clip-path="url(#p180da9caa9)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.17; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
-      <defs>
-       <path id="m3b72f6bc6e" d="M 0 0 L 0 3.5 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m3b72f6bc6e" x="127.714213" y="383.025" style="fill: #5c7c8d; stroke: #5c7c8d; stroke-width: 0.8"/>
       </g>
@@ -89,9 +79,6 @@
       <path d="M 68.113594 365.632059 L 405.850436 365.632059 " clip-path="url(#p180da9caa9)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.17; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
-      <defs>
-       <path id="m41d6c1f5a7" d="M 0 0 L -3.5 0 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m41d6c1f5a7" x="68.113594" y="365.632059" style="fill: #5c7c8d; stroke: #5c7c8d; stroke-width: 0.8"/>
       </g>
@@ -208,9 +195,6 @@
     <path d="M 68.113594 383.025 L 405.850436 383.025 " style="fill: none; stroke: #92a0b4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="C0_0_8489d31c2b" d="M 0 4.472136 C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278 C 4.000923 2.323632 4.472136 1.186024 4.472136 -0 C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278 C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136 C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278 C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0 C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278 C -2.323632 4.000923 -1.186024 4.472136 0 4.472136 z "/>
-    </defs>
     <g clip-path="url(#p180da9caa9)">
      <use xlink:href="#C0_0_8489d31c2b" x="127.714213" y="241.144534" style="fill: #92a0b4; stroke: #92a0b4"/>
     </g>
@@ -239,7 +223,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M 44 1091.34 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-876.51161 1110.18895) scale(2.01794603)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 540.945173 383.025 L 878.682015 383.025 L 878.682015 50.385 L 540.945173 50.385 z " style="fill: #ffffff"/>
    </g>
@@ -410,9 +394,6 @@
     <path d="M 540.945173 383.025 L 878.682015 383.025 " style="fill: none; stroke: #92a0b4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="PathCollection_2">
-    <defs>
-     <path id="C1_0_f027bbaee0" d="M 0 4.472136 C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278 C 4.000923 2.323632 4.472136 1.186024 4.472136 -0 C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278 C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136 C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278 C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0 C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278 C -2.323632 4.000923 -1.186024 4.472136 0 4.472136 z "/>
-    </defs>
     <g clip-path="url(#p8757b9497e)">
      <use xlink:href="#C1_0_f027bbaee0" x="600.545792" y="302.385" style="fill: #92a0b4; stroke: #92a0b4"/>
     </g>
@@ -463,7 +444,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M 44 2042.13 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-1830.66022 2060.97644) scale(2.01794603)"><g id="axes_3">
    <g id="patch_10">
     <path d="M 1013.776752 383.025 L 1351.513594 383.025 L 1351.513594 50.385 L 1013.776752 50.385 z " style="fill: #ffffff"/>
    </g>
@@ -656,9 +637,6 @@
     <path d="M 1013.776752 383.025 L 1351.513594 383.025 " style="fill: none; stroke: #92a0b4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="PathCollection_3">
-    <defs>
-     <path id="C2_0_3d1972f372" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 -0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z "/>
-    </defs>
     <g clip-path="url(#pea29635b4d)">
      <use xlink:href="#C2_0_3d1972f372" x="1073.377371" y="290.625" style="fill: #92a0b4; stroke: #92a0b4"/>
     </g>
@@ -690,16 +668,4 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #1f3449" x="1013.776752" y="26.385" transform="rotate(-0 1013.776752 26.385)">C  分数更新后再映射为概率</text>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p180da9caa9">
-   <rect x="68.113594" y="50.385" width="337.736842" height="332.64"/>
-  </clipPath>
-  <clipPath id="p8757b9497e">
-   <rect x="540.945173" y="50.385" width="337.736842" height="332.64"/>
-  </clipPath>
-  <clipPath id="pea29635b4d">
-   <rect x="1013.776752" y="50.385" width="337.736842" height="332.64"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

@@ -1,27 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="713.0292" viewBox="0 0 1440 713.0292" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">重要性权重重建目标区域的风险占比</title><rect width="1440" height="713.0292" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">重要性权重重建目标区域的风险占比</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="571.0292" viewBox="0 0 1035.8537 440.1062" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T10:44:53.744816</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 440.106194 L 1035.85375 440.106194 L 1035.85375 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3557" viewBox="0 0 960 3557" role="img" aria-labelledby="diagram-title"><title id="diagram-title">重要性权重重建目标区域的风险占比</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m97f6bc20d8" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
+      <path id="m0f7570bc37" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
+      <clipPath id="pc1d99a507d">
+   <rect x="57.585" y="37.388125" width="252.568421" height="304.92"/>
+  </clipPath>
+  <clipPath id="p6d4256baab">
+   <rect x="411.180789" y="37.388125" width="252.568421" height="304.92"/>
+  </clipPath>
+  <clipPath id="pe27252ba3d">
+   <rect x="764.776579" y="37.388125" width="252.568421" height="304.92"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="3557" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">重要性权重重建目标区域的风险占比</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(71.39267 115.61220) scale(2.52687987)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 57.585 342.308125 L 310.153421 342.308125 L 310.153421 37.388125 L 57.585 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -37,9 +27,6 @@
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="m97f6bc20d8" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m97f6bc20d8" x="57.585" y="342.308125" style="fill: #536f80; stroke: #536f80; stroke-width: 0.8"/>
       </g>
@@ -78,9 +65,6 @@
       <path d="M 57.585 342.308125 L 310.153421 342.308125 " clip-path="url(#pc1d99a507d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.13; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_5">
-      <defs>
-       <path id="m0f7570bc37" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m0f7570bc37" x="57.585" y="342.308125" style="fill: #536f80; stroke: #536f80; stroke-width: 0.8"/>
       </g>
@@ -189,7 +173,7 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="57.585" y="22.388125" transform="rotate(-0 57.585 22.388125)">A  源域：质量 × 条件损失</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M 44 1260.30 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-822.10141 1279.91654) scale(2.52687987)"><g id="axes_2">
    <g id="patch_8">
     <path d="M 411.180789 342.308125 L 663.749211 342.308125 L 663.749211 37.388125 L 411.180789 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -404,7 +388,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M 44 2384.88 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-1715.59549 2404.49132) scale(2.52687987)"><g id="axes_3">
    <g id="patch_17">
     <path d="M 764.776579 342.308125 L 1017.345 342.308125 L 1017.345 37.388125 L 764.776579 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -566,16 +550,4 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="764.776579" y="22.388125" transform="rotate(-0 764.776579 22.388125)">C  目标域：重建区域占比</text>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="pc1d99a507d">
-   <rect x="57.585" y="37.388125" width="252.568421" height="304.92"/>
-  </clipPath>
-  <clipPath id="p6d4256baab">
-   <rect x="411.180789" y="37.388125" width="252.568421" height="304.92"/>
-  </clipPath>
-  <clipPath id="pe27252ba3d">
-   <rect x="764.776579" y="37.388125" width="252.568421" height="304.92"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

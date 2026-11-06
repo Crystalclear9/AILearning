@@ -1,27 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="928.5012" viewBox="0 0 1440 928.5012" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">同一批回报项改变分母会改变更新尺度</title><rect width="1440" height="928.5012" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">同一批回报项改变分母会改变更新尺度</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="786.5012" viewBox="0 0 1043.0366 610.3791" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T09:48:29.708367</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 610.379063 L 1043.036562 610.379063 L 1043.036562 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2265" viewBox="0 0 960 2265" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一批回报项改变分母会改变更新尺度</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m10363a4321" d="M 0 0 L 0 3.5 " style="stroke: #233b53; stroke-width: 0.8"/>
+      <path id="m1b945cfc30" d="M 0 0 L -3.5 0 " style="stroke: #233b53; stroke-width: 0.8"/>
+      <clipPath id="p0557c6b870">
+   <rect x="60.046563" y="40.388125" width="442.59" height="193.86"/>
+  </clipPath>
+  <clipPath id="pbe4c5692a2">
+   <rect x="593.246562" y="40.388125" width="442.59" height="193.86"/>
+  </clipPath>
+  <clipPath id="pbdc7751a93">
+   <rect x="60.046563" y="362.688125" width="442.59" height="193.86"/>
+  </clipPath>
+  <clipPath id="p6c2ee22a25">
+   <rect x="593.246562" y="362.688125" width="442.59" height="193.86"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="2265" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">同一批回报项改变分母会改变更新尺度</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(49.28899 114.43353) scale(1.68960414)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 60.046563 234.248125 L 502.636563 234.248125 L 502.636563 40.388125 L 60.046563 40.388125 z " style="fill: #ffffff"/>
    </g>
@@ -52,9 +45,6 @@
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="m10363a4321" d="M 0 0 L 0 3.5 " style="stroke: #233b53; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m10363a4321" x="98.453133" y="234.248125" style="fill: #233b53; stroke: #233b53; stroke-width: 0.8"/>
       </g>
@@ -143,9 +133,6 @@
       <path d="M 60.046563 234.248125 L 502.636563 234.248125 " clip-path="url(#p0557c6b870)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_10">
-      <defs>
-       <path id="m1b945cfc30" d="M 0 0 L -3.5 0 " style="stroke: #233b53; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m1b945cfc30" x="60.046563" y="234.248125" style="fill: #233b53; stroke: #233b53; stroke-width: 0.8"/>
       </g>
@@ -223,7 +210,7 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="60.046563" y="22.388125" transform="rotate(-0 60.046563 22.388125)">A 原始带权梯度项</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M 44 636.36 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-851.60794 654.79130) scale(1.68960414)"><g id="axes_2">
    <g id="patch_13">
     <path d="M 593.246562 234.248125 L 1035.836562 234.248125 L 1035.836562 40.388125 L 593.246562 40.388125 z " style="fill: #ffffff"/>
    </g>
@@ -422,7 +409,7 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="593.246562" y="22.388125" transform="rotate(-0 593.246562 22.388125)">B 轨迹求和后按回合平均</text>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M 44 1176.72 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(49.28899 650.71839) scale(1.68960414)"><g id="axes_3">
    <g id="patch_24">
     <path d="M 60.046563 556.548125 L 502.636563 556.548125 L 502.636563 362.688125 L 60.046563 362.688125 z " style="fill: #ffffff"/>
    </g>
@@ -595,7 +582,7 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="60.046563" y="344.688125" transform="rotate(-0 60.046563 344.688125)">C 按全部有效步平均</text>
    </g>
   </g>
-  <g id="axes_4">
+  </g><path d="M 44 1717.07 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-851.60794 1191.07616) scale(1.68960414)"><g id="axes_4">
    <g id="patch_35">
     <path d="M 593.246562 556.548125 L 1035.836562 556.548125 L 1035.836562 362.688125 L 593.246562 362.688125 z " style="fill: #ffffff"/>
    </g>
@@ -781,19 +768,4 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="593.246562" y="344.688125" transform="rotate(-0 593.246562 344.688125)">D 各轨迹先取步均值</text>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p0557c6b870">
-   <rect x="60.046563" y="40.388125" width="442.59" height="193.86"/>
-  </clipPath>
-  <clipPath id="pbe4c5692a2">
-   <rect x="593.246562" y="40.388125" width="442.59" height="193.86"/>
-  </clipPath>
-  <clipPath id="pbdc7751a93">
-   <rect x="60.046563" y="362.688125" width="442.59" height="193.86"/>
-  </clipPath>
-  <clipPath id="p6c2ee22a25">
-   <rect x="593.246562" y="362.688125" width="442.59" height="193.86"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

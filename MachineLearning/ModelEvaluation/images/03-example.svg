@@ -1,36 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="687.0078" viewBox="0 0 1440 687.0078" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">基率迁移改变概率但保留严格排序</title><rect width="1440" height="687.0078" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">基率迁移改变概率但保留严格排序</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="545.0078" viewBox="0 0 1045.8144 424.0901" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T10:44:53.437486</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 424.090056 L 1045.814423 424.090056 L 1045.814423 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3248" viewBox="0 0 960 3248" role="img" aria-labelledby="diagram-title"><title id="diagram-title">基率迁移改变概率但保留严格排序</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m4419197e48" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
+      <path id="m1ff2ba5435" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
+      <path id="m2a5591ab77" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z " style="stroke: #419e95"/>
+    <clipPath id="p5eda4d237b">
+   <rect x="58.0375" y="37.388125" width="250.384615" height="299.376"/>
+  </clipPath>
+  <clipPath id="p55d1f44e1c">
+   <rect x="421.095192" y="37.388125" width="250.384615" height="299.376"/>
+  </clipPath>
+  <clipPath id="pa48ff1a97e">
+   <rect x="784.152885" y="37.388125" width="250.384615" height="299.376"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="3248" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">基率迁移改变概率但保留严格排序</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(69.59933 113.25259) scale(2.43918244)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 58.0375 336.764125 L 308.422115 336.764125 L 308.422115 37.388125 L 58.0375 37.388125 z " style="fill: #ffffff"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="m4419197e48" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m4419197e48" x="58.0375" y="336.764125" style="fill: #536f80; stroke: #536f80; stroke-width: 0.8"/>
       </g>
@@ -69,9 +57,6 @@
       <path d="M 58.0375 336.764125 L 308.422115 336.764125 " clip-path="url(#p5eda4d237b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.13; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_5">
-      <defs>
-       <path id="m1ff2ba5435" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m1ff2ba5435" x="58.0375" y="336.764125" style="fill: #536f80; stroke: #536f80; stroke-width: 0.8"/>
       </g>
@@ -174,9 +159,6 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="58.0375" y="22.388125" transform="rotate(-0 58.0375 22.388125)">A  换算保持排序，移动工作点</text>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="m2a5591ab77" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z " style="stroke: #419e95"/>
-    </defs>
     <g clip-path="url(#p5eda4d237b)">
      <use xlink:href="#m2a5591ab77" x="78.902885" y="282.332125" style="fill: #419e95; stroke: #419e95"/>
      <use xlink:href="#m2a5591ab77" x="162.364423" y="148.345663" style="fill: #419e95; stroke: #419e95"/>
@@ -184,7 +166,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M 44 1099.99 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-815.96462 1117.24683) scale(2.43918244)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 421.095192 336.764125 L 671.479808 336.764125 L 671.479808 37.388125 L 421.095192 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -330,7 +312,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M 44 2170.04 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-1701.52857 2187.29200) scale(2.43918244)"><g id="axes_3">
    <g id="patch_16">
     <path d="M 784.152885 336.764125 L 1034.5375 336.764125 L 1034.5375 37.388125 L 784.152885 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -487,16 +469,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p5eda4d237b">
-   <rect x="58.0375" y="37.388125" width="250.384615" height="299.376"/>
-  </clipPath>
-  <clipPath id="p55d1f44e1c">
-   <rect x="421.095192" y="37.388125" width="250.384615" height="299.376"/>
-  </clipPath>
-  <clipPath id="pa48ff1a97e">
-   <rect x="784.152885" y="37.388125" width="250.384615" height="299.376"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

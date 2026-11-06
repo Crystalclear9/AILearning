@@ -1,36 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="540.4407" viewBox="0 0 1440 540.4407" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">Bernoulli 策略对 logit 的真实梯度在概率中部最大</title><rect width="1440" height="540.4407" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">Bernoulli 策略对 logit 的真实梯度在概率中部最大</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="398.4407" viewBox="0 0 1258.9348 373.2223" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T09:48:29.184701</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 373.222344 L 1258.934844 373.222344 L 1258.934844 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2613" viewBox="0 0 960 2613" role="img" aria-labelledby="diagram-title"><title id="diagram-title">Bernoulli 策略对 logit 的真实梯度在概率中部最大</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m82ba093b4e" d="M 0 0 L 0 3.5 " style="stroke: #233b53; stroke-width: 0.8"/>
+      <path id="m34e9a3b60b" d="M 0 0 L -3.5 0 " style="stroke: #233b53; stroke-width: 0.8"/>
+      <path id="m43fabd30d2" d="M 0 3.708099 C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022 C 3.317391 1.926654 3.708099 0.983399 3.708099 0 C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022 C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099 C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022 C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0 C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022 C -1.926654 3.317391 -0.983399 3.708099 0 3.708099 z " style="stroke: #2182a1"/>
+    <path id="m05fd5981b8" d="M 0 3.708099 C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022 C 3.317391 1.926654 3.708099 0.983399 3.708099 0 C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022 C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099 C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022 C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0 C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022 C -1.926654 3.317391 -0.983399 3.708099 0 3.708099 z " style="stroke: #cf7d44"/>
+    <clipPath id="pf022e61d33">
+   <rect x="60.676094" y="41.073906" width="328.542917" height="277.6375"/>
+  </clipPath>
+  <clipPath id="pe93b8268ae">
+   <rect x="491.93401" y="41.073906" width="328.542917" height="277.6375"/>
+  </clipPath>
+  <clipPath id="p690b237701">
+   <rect x="923.191927" y="41.073906" width="328.542917" height="277.6375"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="2613" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">Bernoulli 策略对 logit 的真实梯度在概率中部</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">最大</text></g><path d="M 44 143.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(69.02472 158.08620) scale(2.06174683)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 60.676094 318.711406 L 389.21901 318.711406 L 389.21901 41.073906 L 60.676094 41.073906 z " style="fill: #ffffff"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="m82ba093b4e" d="M 0 0 L 0 3.5 " style="stroke: #233b53; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m82ba093b4e" x="60.676094" y="318.711406" style="fill: #233b53; stroke: #233b53; stroke-width: 0.8"/>
       </g>
@@ -99,9 +88,6 @@
       <path d="M 60.676094 318.711406 L 389.21901 318.711406 " clip-path="url(#pf022e61d33)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
-      <defs>
-       <path id="m34e9a3b60b" d="M 0 0 L -3.5 0 " style="stroke: #233b53; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m34e9a3b60b" x="60.676094" y="318.711406" style="fill: #233b53; stroke: #233b53; stroke-width: 0.8"/>
       </g>
@@ -218,7 +204,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M 44 966.90 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-820.11992 984.30505) scale(2.06174683)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 491.93401 318.711406 L 820.476927 318.711406 L 820.476927 41.073906 L 491.93401 41.073906 z " style="fill: #ffffff"/>
    </g>
@@ -423,25 +409,19 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="491.93401" y="23.073906" transform="rotate(-0 491.93401 23.073906)">B 沿 logit 方向走一步</text>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="m43fabd30d2" d="M 0 3.708099 C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022 C 3.317391 1.926654 3.708099 0.983399 3.708099 0 C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022 C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099 C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022 C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0 C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022 C -1.926654 3.317391 -0.983399 3.708099 0 3.708099 z " style="stroke: #2182a1"/>
-    </defs>
     <g clip-path="url(#pe93b8268ae)">
      <use xlink:href="#m43fabd30d2" x="549.573119" y="244.67474" style="fill: #2182a1; stroke: #2182a1"/>
      <use xlink:href="#m43fabd30d2" x="563.982896" y="221.658035" style="fill: #2182a1; stroke: #2182a1"/>
     </g>
    </g>
    <g id="PathCollection_2">
-    <defs>
-     <path id="m05fd5981b8" d="M 0 3.708099 C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022 C 3.317391 1.926654 3.708099 0.983399 3.708099 0 C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022 C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099 C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022 C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0 C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022 C -1.926654 3.317391 -0.983399 3.708099 0 3.708099 z " style="stroke: #cf7d44"/>
-    </defs>
     <g clip-path="url(#pe93b8268ae)">
      <use xlink:href="#m05fd5981b8" x="773.89417" y="66.98674" style="fill: #cf7d44; stroke: #cf7d44"/>
      <use xlink:href="#m05fd5981b8" x="775.023896" y="66.84586" style="fill: #cf7d44; stroke: #cf7d44"/>
     </g>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M 44 1788.49 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-1709.26456 1803.57139) scale(2.06174683)"><g id="axes_3">
    <g id="patch_10">
     <path d="M 923.191927 318.711406 L 1251.734844 318.711406 L 1251.734844 41.073906 L 923.191927 41.073906 z " style="fill: #ffffff"/>
    </g>
@@ -601,16 +581,4 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="923.191927" y="23.073906" transform="rotate(-0 923.191927 23.073906)">C 概率真正增加多少</text>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="pf022e61d33">
-   <rect x="60.676094" y="41.073906" width="328.542917" height="277.6375"/>
-  </clipPath>
-  <clipPath id="pe93b8268ae">
-   <rect x="491.93401" y="41.073906" width="328.542917" height="277.6375"/>
-  </clipPath>
-  <clipPath id="p690b237701">
-   <rect x="923.191927" y="41.073906" width="328.542917" height="277.6375"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

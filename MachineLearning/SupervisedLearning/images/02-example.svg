@@ -1,27 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="581.8545" viewBox="0 0 1440 581.8545" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">相关误差限制 Bagging 的方差收益</title><rect width="1440" height="581.8545" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">相关误差限制 Bagging 的方差收益</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="439.8545" viewBox="0 0 1584 518.4" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-04T17:34:26.778310</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 518.4 L 1584 518.4 L 1584 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2260" viewBox="0 0 960 2260" role="img" aria-labelledby="diagram-title"><title id="diagram-title">相关误差限制 Bagging 的方差收益</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="mde7b9e4736" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
+      <path id="mb3c9f492d6" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
+      <path id="m22f09ac45c" d="M 0 2 C 0.530406 2 1.03916 1.789267 1.414214 1.414214 C 1.789267 1.03916 2 0.530406 2 0 C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 C 1.03916 -1.789267 0.530406 -2 0 -2 C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 C -1.789267 -1.03916 -2 -0.530406 -2 0 C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 C -1.03916 1.789267 -0.530406 2 0 2 z " style="stroke: #1f7e9c"/>
+    <path id="m6387dcfd72" d="M 0 2 C 0.530406 2 1.03916 1.789267 1.414214 1.414214 C 1.789267 1.03916 2 0.530406 2 0 C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 C 1.03916 -1.789267 0.530406 -2 0 -2 C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 C -1.789267 -1.03916 -2 -0.530406 -2 0 C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 C -1.03916 1.789267 -0.530406 2 0 2 z " style="stroke: #31a7a0"/>
+    <path id="m60dfe37db9" d="M 0 2 C 0.530406 2 1.03916 1.789267 1.414214 1.414214 C 1.789267 1.03916 2 0.530406 2 0 C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 C 1.03916 -1.789267 0.530406 -2 0 -2 C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 C -1.789267 -1.03916 -2 -0.530406 -2 0 C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 C -1.03916 1.789267 -0.530406 2 0 2 z " style="stroke: #cd7941"/>
+    <clipPath id="p816f4dcb84">
+   <rect x="105.512135" y="72.576" width="331.776" height="331.776"/>
+  </clipPath>
+  <clipPath id="p017b999107">
+   <rect x="589.553818" y="72.576" width="352.72027" height="331.776"/>
+  </clipPath>
+  <clipPath id="p6b643b71a0">
+   <rect x="1084.067636" y="72.576" width="476.172364" height="331.776"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="2260" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">相关误差限制 Bagging 的方差收益</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(4.06512 55.02466) scale(1.53948684)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 105.512135 404.352 L 437.288135 404.352 L 437.288135 72.576 L 105.512135 72.576 z " style="fill: #ffffff"/>
    </g>
@@ -31,9 +24,6 @@
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="mde7b9e4736" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#mde7b9e4736" x="146.984135" y="404.352" style="fill: #66889b; stroke: #66889b; stroke-width: 0.8"/>
       </g>
@@ -79,9 +69,6 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_5">
-      <defs>
-       <path id="mb3c9f492d6" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#mb3c9f492d6" x="105.512135" y="114.048" style="fill: #66889b; stroke: #66889b; stroke-width: 0.8"/>
       </g>
@@ -182,7 +169,7 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="271.400135" y="66.576" transform="rotate(-0 271.400135 66.576)">A  四成员的协方差</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M 44 815.51 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-741.11068 774.53815) scale(1.53948684)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 589.553818 404.352 L 942.274088 404.352 L 942.274088 72.576 L 589.553818 72.576 z " style="fill: #ffffff"/>
    </g>
@@ -368,7 +355,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M 44 1535.03 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-1502.40820 1491.87438) scale(1.53948684)"><g id="axes_3">
    <g id="patch_16">
     <path d="M 1084.067636 404.352 L 1560.24 404.352 L 1560.24 72.576 L 1084.067636 72.576 z " style="fill: #ffffff"/>
    </g>
@@ -527,9 +514,6 @@
    </g>
    <g id="line2d_48">
     <path d="M 1105.711834 96.274286 L 1134.570766 244.388571 L 1163.429697 293.76 L 1192.288628 318.445714 L 1221.147559 333.257143 L 1250.00649 343.131429 L 1278.865421 350.18449 L 1307.724352 355.474286 L 1336.583284 359.588571 L 1365.442215 362.88 L 1394.301146 365.572987 L 1423.160077 367.817143 L 1452.019008 369.716044 L 1480.877939 371.343673 L 1509.73687 372.754286 L 1538.595802 373.988571 " clip-path="url(#p6b643b71a0)" style="fill: none; stroke: #1f7e9c; stroke-width: 3; stroke-linecap: square"/>
-    <defs>
-     <path id="m22f09ac45c" d="M 0 2 C 0.530406 2 1.03916 1.789267 1.414214 1.414214 C 1.789267 1.03916 2 0.530406 2 0 C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 C 1.03916 -1.789267 0.530406 -2 0 -2 C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 C -1.789267 -1.03916 -2 -0.530406 -2 0 C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 C -1.03916 1.789267 -0.530406 2 0 2 z " style="stroke: #1f7e9c"/>
-    </defs>
     <g clip-path="url(#p6b643b71a0)">
      <use xlink:href="#m22f09ac45c" x="1105.711834" y="96.274286" style="fill: #1f7e9c; stroke: #1f7e9c"/>
      <use xlink:href="#m22f09ac45c" x="1134.570766" y="244.388571" style="fill: #1f7e9c; stroke: #1f7e9c"/>
@@ -554,9 +538,6 @@
    </g>
    <g id="line2d_50">
     <path d="M 1105.711834 96.274286 L 1134.570766 170.331429 L 1163.429697 195.017143 L 1192.288628 207.36 L 1221.147559 214.765714 L 1250.00649 219.702857 L 1278.865421 223.229388 L 1307.724352 225.874286 L 1336.583284 227.931429 L 1365.442215 229.577143 L 1394.301146 230.923636 L 1423.160077 232.045714 L 1452.019008 232.995165 L 1480.877939 233.80898 L 1509.73687 234.514286 L 1538.595802 235.131429 " clip-path="url(#p6b643b71a0)" style="fill: none; stroke: #31a7a0; stroke-width: 3; stroke-linecap: square"/>
-    <defs>
-     <path id="m6387dcfd72" d="M 0 2 C 0.530406 2 1.03916 1.789267 1.414214 1.414214 C 1.789267 1.03916 2 0.530406 2 0 C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 C 1.03916 -1.789267 0.530406 -2 0 -2 C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 C -1.789267 -1.03916 -2 -0.530406 -2 0 C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 C -1.03916 1.789267 -0.530406 2 0 2 z " style="stroke: #31a7a0"/>
-    </defs>
     <g clip-path="url(#p6b643b71a0)">
      <use xlink:href="#m6387dcfd72" x="1105.711834" y="96.274286" style="fill: #31a7a0; stroke: #31a7a0"/>
      <use xlink:href="#m6387dcfd72" x="1134.570766" y="170.331429" style="fill: #31a7a0; stroke: #31a7a0"/>
@@ -581,9 +562,6 @@
    </g>
    <g id="line2d_52">
     <path d="M 1105.711834 96.274286 L 1134.570766 111.085714 L 1163.429697 116.022857 L 1192.288628 118.491429 L 1221.147559 119.972571 L 1250.00649 120.96 L 1278.865421 121.665306 L 1307.724352 122.194286 L 1336.583284 122.605714 L 1365.442215 122.934857 L 1394.301146 123.204156 L 1423.160077 123.428571 L 1452.019008 123.618462 L 1480.877939 123.781224 L 1509.73687 123.922286 L 1538.595802 124.045714 " clip-path="url(#p6b643b71a0)" style="fill: none; stroke: #cd7941; stroke-width: 3; stroke-linecap: square"/>
-    <defs>
-     <path id="m60dfe37db9" d="M 0 2 C 0.530406 2 1.03916 1.789267 1.414214 1.414214 C 1.789267 1.03916 2 0.530406 2 0 C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 C 1.03916 -1.789267 0.530406 -2 0 -2 C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 C -1.789267 -1.03916 -2 -0.530406 -2 0 C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 C -1.03916 1.789267 -0.530406 2 0 2 z " style="stroke: #cd7941"/>
-    </defs>
     <g clip-path="url(#p6b643b71a0)">
      <use xlink:href="#m60dfe37db9" x="1105.711834" y="96.274286" style="fill: #cd7941; stroke: #cd7941"/>
      <use xlink:href="#m60dfe37db9" x="1134.570766" y="111.085714" style="fill: #cd7941; stroke: #cd7941"/>
@@ -645,16 +623,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p816f4dcb84">
-   <rect x="105.512135" y="72.576" width="331.776" height="331.776"/>
-  </clipPath>
-  <clipPath id="p017b999107">
-   <rect x="589.553818" y="72.576" width="352.72027" height="331.776"/>
-  </clipPath>
-  <clipPath id="p6b643b71a0">
-   <rect x="1084.067636" y="72.576" width="476.172364" height="331.776"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

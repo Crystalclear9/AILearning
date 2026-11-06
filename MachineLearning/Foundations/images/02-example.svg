@@ -1,27 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1056.7278" viewBox="0 0 1440 1056.7278" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">收缩系数的偏差平方与方差相加</title><rect width="1440" height="1056.7278" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">收缩系数的偏差平方与方差相加</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="914.7278" viewBox="0 0 1135.5136 772.8317" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-04T20:05:41.792706</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 772.831719 L 1135.513594 772.831719 L 1135.513594 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2718" viewBox="0 0 960 2718" role="img" aria-labelledby="diagram-title"><title id="diagram-title">收缩系数的偏差平方与方差相加</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="mb9ec409c08" d="M 0 0 L 0 3.5 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
+      <path id="m8556edbb9b" d="M 0 0 L -3.5 0 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
+      <path id="m725bbf249e" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z " style="stroke: #419893"/>
+    <clipPath id="pcbfaa5ba3b">
+   <rect x="68.113594" y="46.385" width="456.982759" height="266.112"/>
+  </clipPath>
+  <clipPath id="pb4f5cdb43c">
+   <rect x="671.330835" y="46.385" width="456.982759" height="266.112"/>
+  </clipPath>
+  <clipPath id="p370d04a675">
+   <rect x="68.113594" y="445.553" width="456.982759" height="266.112"/>
+  </clipPath>
+  <clipPath id="p62d416b812">
+   <rect x="671.330835" y="445.553" width="456.982759" height="266.112"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="2718" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">收缩系数的偏差平方与方差相加</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(60.56619 116.88939) scale(1.59716236)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 68.113594 312.497 L 525.096352 312.497 L 525.096352 46.385 L 68.113594 46.385 z " style="fill: #ffffff"/>
    </g>
@@ -31,9 +25,6 @@
       <path d="M 88.885537 312.497 L 88.885537 46.385 " clip-path="url(#pcbfaa5ba3b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.17; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
-      <defs>
-       <path id="mb9ec409c08" d="M 0 0 L 0 3.5 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#mb9ec409c08" x="88.885537" y="312.497" style="fill: #5c7c8d; stroke: #5c7c8d; stroke-width: 0.8"/>
       </g>
@@ -130,9 +121,6 @@
       <path d="M 68.113594 300.42994 L 525.096352 300.42994 " clip-path="url(#pcbfaa5ba3b)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.17; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_16">
-      <defs>
-       <path id="m8556edbb9b" d="M 0 0 L -3.5 0 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m8556edbb9b" x="68.113594" y="300.42994" style="fill: #5c7c8d; stroke: #5c7c8d; stroke-width: 0.8"/>
       </g>
@@ -243,7 +231,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M 44 749.20 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-902.86968 770.08802) scale(1.59716236)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 671.330835 312.497 L 1128.313594 312.497 L 1128.313594 46.385 L 671.330835 46.385 z " style="fill: #ffffff"/>
    </g>
@@ -452,9 +440,6 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #1f3449" x="671.330835" y="26.385" transform="rotate(-0 671.330835 26.385)">B  同时计算偏差与方差</text>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="m725bbf249e" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z " style="stroke: #419893"/>
-    </defs>
     <g clip-path="url(#pb4f5cdb43c)">
      <use xlink:href="#m725bbf249e" x="915.054973" y="264.113" style="fill: #419893; stroke: #419893"/>
     </g>
@@ -480,7 +465,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M 44 1404.02 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(60.56619 786.90751) scale(1.59716236)"><g id="axes_3">
    <g id="patch_9">
     <path d="M 68.113594 711.665 L 525.096352 711.665 L 525.096352 445.553 L 68.113594 445.553 z " style="fill: #ffffff"/>
    </g>
@@ -693,7 +678,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_4">
+  </g><path d="M 44 2057.22 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-902.86968 1440.10615) scale(1.59716236)"><g id="axes_4">
    <g id="patch_24">
     <path d="M 671.330835 711.665 L 1128.313594 711.665 L 1128.313594 445.553 L 671.330835 445.553 z " style="fill: #ffffff"/>
    </g>
@@ -865,19 +850,4 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #1f3449" x="671.330835" y="425.553" transform="rotate(-0 671.330835 425.553)">D  预测新标签，还要加噪声</text>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="pcbfaa5ba3b">
-   <rect x="68.113594" y="46.385" width="456.982759" height="266.112"/>
-  </clipPath>
-  <clipPath id="pb4f5cdb43c">
-   <rect x="671.330835" y="46.385" width="456.982759" height="266.112"/>
-  </clipPath>
-  <clipPath id="p370d04a675">
-   <rect x="68.113594" y="445.553" width="456.982759" height="266.112"/>
-  </clipPath>
-  <clipPath id="p62d416b812">
-   <rect x="671.330835" y="445.553" width="456.982759" height="266.112"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

@@ -1,27 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="620.5455" viewBox="0 0 1440 620.5455" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">采样概率与损失权重共同决定期望目标</title><rect width="1440" height="620.5455" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">采样概率与损失权重共同决定期望目标</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="478.5455" viewBox="0 0 950.4 338.4" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-03T10:26:42.945219</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 338.4 L 950.4 338.4 L 950.4 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1416" viewBox="0 0 960 1416" role="img" aria-labelledby="diagram-title"><title id="diagram-title">采样概率与损失权重共同决定期望目标</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m33345c8637" d="M 0 0 L 0 3.5 " style="stroke: #527186; stroke-width: 0.8"/>
+      <path id="m3513cec216" d="M 0 0 L -3.5 0 " style="stroke: #527186; stroke-width: 0.8"/>
+      <clipPath id="p42466c6575">
+   <rect x="71.28" y="40.608" width="369.829565" height="243.648"/>
+  </clipPath>
+  <clipPath id="pb5c3c93ab0">
+   <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="1416" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">采样概率与损失权重共同决定期望目标</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(22.20657 91.57270) scale(1.98340885)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -34,9 +21,6 @@
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="m33345c8637" d="M 0 0 L 0 3.5 " style="stroke: #527186; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m33345c8637" x="162.803478" y="284.256" style="fill: #527186; stroke: #527186; stroke-width: 0.8"/>
       </g>
@@ -59,9 +43,6 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_3">
-      <defs>
-       <path id="m3513cec216" d="M 0 0 L -3.5 0 " style="stroke: #527186; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m3513cec216" x="71.28" y="284.256" style="fill: #527186; stroke: #527186; stroke-width: 0.8"/>
       </g>
@@ -144,7 +125,7 @@
     <text style="font-size: 19.2px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="256.194783" y="34.608" transform="rotate(-0 256.194783 34.608)">原分布(0.1,0.9)，抽样已平衡</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M 44 752.08 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-931.37363 747.64857) scale(1.98340885)"><g id="axes_2">
    <g id="patch_7">
     <path d="M 552.058435 284.256 L 921.888 284.256 L 921.888 40.608 L 552.058435 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -251,13 +232,4 @@
     <text style="font-size: 19.2px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="736.973217" y="34.608" transform="rotate(-0 736.973217 34.608)">再乘原逆频率，变成(0.9,0.1)</text>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p42466c6575">
-   <rect x="71.28" y="40.608" width="369.829565" height="243.648"/>
-  </clipPath>
-  <clipPath id="pb5c3c93ab0">
-   <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

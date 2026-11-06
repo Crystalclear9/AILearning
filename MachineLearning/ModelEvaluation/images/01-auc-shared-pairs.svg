@@ -1,34 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="736.3024" viewBox="0 0 1440 736.3024" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">AUC三乘三配对表中共享对象造成的信息复用</title><rect width="1440" height="736.3024" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">AUC三乘三配对表中共享对象造成的信息复用</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="594.3024" viewBox="0 0 1009.4703 446.3769" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T10:44:52.690701</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 446.376936 L 1009.470308 446.376936 L 1009.470308 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3397" viewBox="0 0 960 3397" role="img" aria-labelledby="diagram-title"><title id="diagram-title">AUC三乘三配对表中共享对象造成的信息复用</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m2b531cf239" d="M 0 5.244044 C 1.390737 5.244044 2.7247 4.691499 3.708099 3.708099 C 4.691499 2.7247 5.244044 1.390737 5.244044 0 C 5.244044 -1.390737 4.691499 -2.7247 3.708099 -3.708099 C 2.7247 -4.691499 1.390737 -5.244044 0 -5.244044 C -1.390737 -5.244044 -2.7247 -4.691499 -3.708099 -3.708099 C -4.691499 -2.7247 -5.244044 -1.390737 -5.244044 0 C -5.244044 1.390737 -4.691499 2.7247 -3.708099 3.708099 C -2.7247 4.691499 -1.390737 5.244044 0 5.244044 z " style="stroke: #2182a1"/>
+    <path id="me3e39a988b" d="M -5 5 L 5 5 L 5 -5 L -5 -5 z " style="stroke: #cf7d44"/>
+    <path id="m1466fd44dd" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
+      <path id="md11b07e139" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
+      <path id="mebe14a364b" d="M 0 5.477226 C 1.452577 5.477226 2.845856 4.900111 3.872983 3.872983 C 4.900111 2.845856 5.477226 1.452577 5.477226 0 C 5.477226 -1.452577 4.900111 -2.845856 3.872983 -3.872983 C 2.845856 -4.900111 1.452577 -5.477226 0 -5.477226 C -1.452577 -5.477226 -2.845856 -4.900111 -3.872983 -3.872983 C -4.900111 -2.845856 -5.477226 -1.452577 -5.477226 0 C -5.477226 1.452577 -4.900111 2.845856 -3.872983 3.872983 C -2.845856 4.900111 -1.452577 5.477226 0 5.477226 z " style="stroke: #419e95; stroke-width: 2"/>
+    <clipPath id="p4d05249bc5">
+   <rect x="46.2" y="37.388125" width="244.484536" height="321.552"/>
+  </clipPath>
+  <clipPath id="p6203d2a056">
+   <rect x="398.257732" y="77.431021" width="244.484536" height="241.466208"/>
+  </clipPath>
+  <clipPath id="p83e3d001d0">
+   <rect x="750.315464" y="77.431021" width="244.484536" height="241.466208"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="3397" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">AUC三乘三配对表中共享对象造成的信息复用</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(78.76694 113.56992) scale(2.62000000)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 46.2 358.940125 L 290.684536 358.940125 L 290.684536 37.388125 L 46.2 37.388125 z " style="fill: #ffffff"/>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="m2b531cf239" d="M 0 5.244044 C 1.390737 5.244044 2.7247 4.691499 3.708099 3.708099 C 4.691499 2.7247 5.244044 1.390737 5.244044 0 C 5.244044 -1.390737 4.691499 -2.7247 3.708099 -3.708099 C 2.7247 -4.691499 1.390737 -5.244044 0 -5.244044 C -1.390737 -5.244044 -2.7247 -4.691499 -3.708099 -3.708099 C -4.691499 -2.7247 -5.244044 -1.390737 -5.244044 0 C -5.244044 1.390737 -4.691499 2.7247 -3.708099 3.708099 C -2.7247 4.691499 -1.390737 5.244044 0 5.244044 z " style="stroke: #2182a1"/>
-    </defs>
     <g clip-path="url(#p4d05249bc5)">
      <use xlink:href="#m2b531cf239" x="266.236082" y="144.572125" style="fill: #2182a1; stroke: #2182a1"/>
      <use xlink:href="#m2b531cf239" x="192.890722" y="144.572125" style="fill: #2182a1; stroke: #2182a1"/>
@@ -36,9 +26,6 @@
     </g>
    </g>
    <g id="PathCollection_2">
-    <defs>
-     <path id="me3e39a988b" d="M -5 5 L 5 5 L 5 -5 L -5 -5 z " style="stroke: #cf7d44"/>
-    </defs>
     <g clip-path="url(#p4d05249bc5)">
      <use xlink:href="#me3e39a988b" x="241.787629" y="323.212125" style="fill: #cf7d44; stroke: #cf7d44"/>
      <use xlink:href="#me3e39a988b" x="168.442268" y="323.212125" style="fill: #cf7d44; stroke: #cf7d44"/>
@@ -48,9 +35,6 @@
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="m1466fd44dd" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m1466fd44dd" x="46.2" y="358.940125" style="fill: #536f80; stroke: #536f80; stroke-width: 0.8"/>
       </g>
@@ -119,9 +103,6 @@
       <path d="M 46.2 323.212125 L 290.684536 323.212125 " clip-path="url(#p4d05249bc5)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.13; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
-      <defs>
-       <path id="md11b07e139" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#md11b07e139" x="46.2" y="323.212125" style="fill: #536f80; stroke: #536f80; stroke-width: 0.8"/>
       </g>
@@ -179,9 +160,6 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="46.2" y="22.388125" transform="rotate(-0 46.2 22.388125)">A  一次只替换一个正例</text>
    </g>
    <g id="PathCollection_3">
-    <defs>
-     <path id="mebe14a364b" d="M 0 5.477226 C 1.452577 5.477226 2.845856 4.900111 3.872983 3.872983 C 4.900111 2.845856 5.477226 1.452577 5.477226 0 C 5.477226 -1.452577 4.900111 -2.845856 3.872983 -3.872983 C 2.845856 -4.900111 1.452577 -5.477226 0 -5.477226 C -1.452577 -5.477226 -2.845856 -4.900111 -3.872983 -3.872983 C -4.900111 -2.845856 -5.477226 -1.452577 -5.477226 0 C -5.477226 1.452577 -4.900111 2.845856 -3.872983 3.872983 C -2.845856 4.900111 -1.452577 5.477226 0 5.477226 z " style="stroke: #419e95; stroke-width: 2"/>
-    </defs>
     <g clip-path="url(#p4d05249bc5)">
      <use xlink:href="#mebe14a364b" x="70.648454" y="144.572125" style="fill: #ffffff; stroke: #419e95; stroke-width: 2"/>
     </g>
@@ -205,7 +183,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M 44 1300.80 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-843.62432 1214.46601) scale(2.62000000)"><g id="axes_2">
    <g id="patch_6">
     <path d="M 398.257732 318.897229 L 642.742268 318.897229 L 642.742268 77.431021 L 398.257732 77.431021 z " style="fill: #ffffff"/>
    </g>
@@ -386,7 +364,7 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="398.257732" y="62.431021" transform="rotate(-0 398.257732 62.431021)">B  原来：六个正确配对</text>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M 44 2345.02 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-1766.01558 2258.68755) scale(2.62000000)"><g id="axes_3">
    <g id="patch_10">
     <path d="M 750.315464 318.897229 L 994.8 318.897229 L 994.8 77.431021 L 750.315464 77.431021 z " style="fill: #ffffff"/>
    </g>
@@ -563,16 +541,4 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="750.315464" y="62.431021" transform="rotate(-0 750.315464 62.431021)">C  替换后：同一整行一起改变</text>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p4d05249bc5">
-   <rect x="46.2" y="37.388125" width="244.484536" height="321.552"/>
-  </clipPath>
-  <clipPath id="p6203d2a056">
-   <rect x="398.257732" y="77.431021" width="244.484536" height="241.466208"/>
-  </clipPath>
-  <clipPath id="p83e3d001d0">
-   <rect x="750.315464" y="77.431021" width="244.484536" height="241.466208"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

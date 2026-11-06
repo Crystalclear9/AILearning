@@ -569,7 +569,7 @@ $$
 
 ![相同扰动遇到小谱间隙会产生大旋转](images/04-mechanism.svg)
 
-前两幅图固定同一个非对角扰动 $`\varepsilon=0.1`$，分别取扰动前协方差 $`S=\mathrm{diag}(1+\delta,1)`$ 的谱间隙 $`\delta=2`$ 与 $`0.2`$。灰虚线为原协方差椭圆，蓝实线按扰动后矩阵 $`S+\left[\begin{smallmatrix}0&\varepsilon\\\varepsilon&0\end{smallmatrix}\right]`$ 的真实特征分解绘制。箭头标记原方向与新的第一主方向；椭圆是单位圆经协方差平方根的像，不是一个由有限样本估计的置信区域。
+前两幅图固定同一个非对角扰动 $`\varepsilon=0.1`$，分别取扰动前协方差 $`S=\mathrm{diag}(1+\delta,1)`$ 的谱间隙 $`\delta=2`$ 与 $`0.2`$。灰虚线为原协方差椭圆，蓝实线按扰动后矩阵 $`S+\left[\begin{smallmatrix}0&\varepsilon\\\varepsilon&0\end{smallmatrix}\right]`$ 的真实特征分解绘制。原主方向沿水平轴，蓝箭头标记扰动后的第一主方向。两种椭圆都是单位圆经对应协方差平方根的像。
 
 新的主方向转角满足 $`\tan(2\theta)=\frac{2\varepsilon}{\delta}`$，在图中取 $`0<\theta<\frac\pi4`$。两组转角分别约 $`2.8553^\circ`$ 与 $`22.5^\circ`$：扰动矩阵完全相同，较小的谱间隙造成更大旋转。第三图连续改变原谱间隙，保留同一个扰动，显示整个角度响应，而不是只比较两张看起来不同的椭圆。
 

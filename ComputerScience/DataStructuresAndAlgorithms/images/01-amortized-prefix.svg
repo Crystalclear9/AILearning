@@ -1,27 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="620.5455" viewBox="0 0 1440 620.5455" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">摊还常数是对每个前缀的总成本保证，不是把偶然尖峰忽略掉</title><rect width="1440" height="620.5455" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">摊还常数是对每个前缀的总成本保证，不是把偶然尖峰忽略掉</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="478.5455" viewBox="0 0 950.4 338.4" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-03T10:26:41.302872</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 338.4 L 950.4 338.4 L 950.4 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1556" viewBox="0 0 960 1556" role="img" aria-labelledby="diagram-title"><title id="diagram-title">摊还常数是对每个前缀的总成本保证，不是把偶然尖峰忽略掉</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m5de1e86889" d="M 0 0 L 0 3.5 " style="stroke: #527186; stroke-width: 0.8"/>
+      <path id="m25dee27469" d="M 0 0 L -3.5 0 " style="stroke: #527186; stroke-width: 0.8"/>
+      <path id="md166b3d24e" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z " style="stroke: #2073b2"/>
+    <clipPath id="p02069044f5">
+   <rect x="71.28" y="40.608" width="369.829565" height="243.648"/>
+  </clipPath>
+  <clipPath id="pfa4a6ac07d">
+   <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="1556" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">摊还常数是对每个前缀的总成本保证，不是把偶然</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">尖峰忽略掉</text></g><path d="M 44 143.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(14.43976 138.35000) scale(2.00078016)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -76,9 +64,6 @@
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="m5de1e86889" d="M 0 0 L 0 3.5 " style="stroke: #527186; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m5de1e86889" x="96.602047" y="284.256" style="fill: #527186; stroke: #527186; stroke-width: 0.8"/>
       </g>
@@ -144,9 +129,6 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_7">
-      <defs>
-       <path id="m25dee27469" d="M 0 0 L -3.5 0 " style="stroke: #527186; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m25dee27469" x="71.28" y="284.256" style="fill: #527186; stroke: #527186; stroke-width: 0.8"/>
       </g>
@@ -209,7 +191,7 @@
     <text style="font-size: 19.2px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="256.194783" y="34.608" transform="rotate(-0 256.194783 34.608)">满容量翻倍：成本在扩容时突增</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M 44 845.01 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-947.49220 840.35878) scale(2.00078016)"><g id="axes_2">
    <g id="patch_21">
     <path d="M 552.058435 284.256 L 921.888 284.256 L 921.888 40.608 L 552.058435 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -345,9 +327,6 @@
    </g>
    <g id="line2d_24">
     <path d="M 568.86887 273.181091 L 591.282783 263.755636 L 613.696696 249.617455 L 636.110609 244.904727 L 658.524522 221.341091 L 680.938435 216.628364 L 703.352348 211.915636 L 725.766261 207.202909 L 748.180174 164.788364 L 770.594087 160.075636 L 793.008 155.362909 L 815.421913 150.650182 L 837.835826 145.937455 L 860.249739 141.224727 L 882.663652 136.512 L 905.077565 131.799273 " clip-path="url(#pfa4a6ac07d)" style="fill: none; stroke: #2073b2; stroke-width: 1.5; stroke-linecap: square"/>
-    <defs>
-     <path id="md166b3d24e" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z " style="stroke: #2073b2"/>
-    </defs>
     <g clip-path="url(#pfa4a6ac07d)">
      <use xlink:href="#md166b3d24e" x="568.86887" y="273.181091" style="fill: #2073b2; stroke: #2073b2"/>
      <use xlink:href="#md166b3d24e" x="591.282783" y="263.755636" style="fill: #2073b2; stroke: #2073b2"/>
@@ -397,13 +376,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p02069044f5">
-   <rect x="71.28" y="40.608" width="369.829565" height="243.648"/>
-  </clipPath>
-  <clipPath id="pfa4a6ac07d">
-   <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>
