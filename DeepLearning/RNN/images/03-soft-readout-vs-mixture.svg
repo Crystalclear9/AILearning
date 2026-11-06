@@ -1,27 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="601.3726" viewBox="0 0 1440 601.3726" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">先混合特征与先预测后混合在sigmoid曲线上的差别</title><rect width="1440" height="601.3726" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">先混合特征与先预测后混合在sigmoid曲线上的差别</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="459.3726" viewBox="2 3 1103 377" version="1.1" x="48" y="106" overflow="hidden">
- <rect x="2" y="3" width="1103" height="377" fill="#ffffff"/><metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-30T13:48:06.322480</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 386.054813  L 1109.324062 386.054813  L 1109.324062 0  L 0 0  z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1503" viewBox="0 0 960 1503" role="img" aria-labelledby="diagram-title"><title id="diagram-title">先混合特征与先预测后混合在sigmoid曲线上的差别</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m343afe0abd" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8"/>
+      <path id="md31abd91b7" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8"/>
+      <path id="m2fd513b950" d="M 0 4.609772  C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601  C 4.124058 2.395145 4.609772 1.222526 4.609772 0  C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601  C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772  C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601  C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0  C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601  C -2.395145 4.124058 -1.222526 4.609772 0 4.609772  z " style="stroke: #2075a6"/>
+    <path id="C0_0_f774ed6891" d="M 0 5  C 1.326016 5 2.597899 4.473168 3.535534 3.535534  C 4.473168 2.597899 5 1.326016 5 -0  C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534  C 2.597899 -4.473168 1.326016 -5 0 -5  C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534  C -4.473168 -2.597899 -5 -1.326016 -5 0  C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534  C -2.597899 4.473168 -1.326016 5 0 5  z "/>
+    <clipPath id="p62e1ef7c82">
+   <rect x="79.004063" y="21.6" width="460.8" height="292.032"/>
+  </clipPath>
+  <clipPath id="p4dafa61081">
+   <rect x="706.844063" y="21.6" width="380.16" height="292.032"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="1503" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">先混合特征与先预测后混合在sigmoid曲线上的差</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">别</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(26.468838 179.623433) scale(1.61358894)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 79.004063 313.632  L 539.804063 313.632  L 539.804063 21.6  L 79.004063 21.6  z " style="fill: #ffffff"/>
    </g>
@@ -31,9 +20,6 @@
       <path d="M 141.840426 313.632  L 141.840426 21.6  " clip-path="url(#p62e1ef7c82)" style="fill: none; stroke: #9abbce; stroke-opacity: 0.18; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
-      <defs>
-       <path id="m343afe0abd" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m343afe0abd" x="141.840426" y="313.632" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
@@ -104,9 +90,6 @@
       <path d="M 79.004063 302.158768  L 539.804063 302.158768  " clip-path="url(#p62e1ef7c82)" style="fill: none; stroke: #9abbce; stroke-opacity: 0.18; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_12">
-      <defs>
-       <path id="md31abd91b7" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#md31abd91b7" x="79.004063" y="302.158768" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
@@ -185,9 +168,6 @@
     </g>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="m2fd513b950" d="M 0 4.609772  C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601  C 4.124058 2.395145 4.609772 1.222526 4.609772 0  C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601  C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772  C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601  C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0  C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601  C -2.395145 4.124058 -1.222526 4.609772 0 4.609772  z " style="stroke: #2075a6"/>
-    </defs>
     <g clip-path="url(#p62e1ef7c82)">
      <use xlink:href="#m2fd513b950" x="141.840426" y="297.318939" style="fill: #2075a6; stroke: #2075a6"/>
      <use xlink:href="#m2fd513b950" x="476.967699" y="37.913061" style="fill: #2075a6; stroke: #2075a6"/>
@@ -209,9 +189,6 @@
     <path d="M 79.004062 313.632  L 539.804063 313.632  " style="fill: none; stroke: #9fadc2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="PathCollection_2">
-    <defs>
-     <path id="C0_0_f774ed6891" d="M 0 5  C 1.326016 5 2.597899 4.473168 3.535534 3.535534  C 4.473168 2.597899 5 1.326016 5 -0  C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534  C 2.597899 -4.473168 1.326016 -5 0 -5  C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534  C -4.473168 -2.597899 -5 -1.326016 -5 0  C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534  C -2.597899 4.473168 -1.326016 5 0 5  z "/>
-    </defs>
     <g clip-path="url(#p62e1ef7c82)">
      <use xlink:href="#C0_0_f774ed6891" x="393.185881" y="65.149015" style="fill: #cd6e30; stroke: #cd6e30"/>
     </g>
@@ -234,7 +211,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 817.963 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="829.96" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="855.96" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">B</text></g><g transform="translate(-986.606842 856.586872) scale(1.61358894)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 706.844063 313.632  L 1087.004062 313.632  L 1087.004062 21.6  L 706.844063 21.6  z " style="fill: #ffffff"/>
    </g>
@@ -418,13 +395,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p62e1ef7c82">
-   <rect x="79.004063" y="21.6" width="460.8" height="292.032"/>
-  </clipPath>
-  <clipPath id="p4dafa61081">
-   <rect x="706.844063" y="21.6" width="380.16" height="292.032"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

@@ -1,30 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="759.0026" viewBox="0 0 1440 759.0026" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">共享参数驱动三步内层迭代，以及有限步导数与隐式近似的差别</title><rect width="1440" height="759.0026" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">共享参数驱动三步内层迭代，以及有限步导数与隐式近似的差别</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1344" height="617.0026" viewBox="114.56 24.96 1000.96 459.52" version="1.1" x="48" y="106" overflow="hidden">
- <title>共享参数的有限步训练图及其完整导数与隐式近似的区别</title>
- <metadata>
-  <rdf:RDF>
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title>共享参数的有限步训练图及其完整导数与隐式近似的区别</dc:title>
-    <dc:date>2026-10-30T13:06:07.352641</dc:date>
-    <dc:description>共享参数的有限步训练图及其完整导数与隐式近似的区别</dc:description>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 504 L 1152 504 L 1152 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1695" viewBox="0 0 960 1695" role="img" aria-labelledby="diagram-title"><title id="diagram-title">共享参数驱动三步内层迭代，以及有限步导数与隐式近似的差别</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="mb51b47a37d" d="M 0 0 L 0 3.5 " style="stroke: #527588; stroke-width: 0.8"/>
+      <path id="mf7fe8c31f8" d="M 0 0 L -3.5 0 " style="stroke: #527588; stroke-width: 0.8"/>
+      <path id="me5821c790d" d="M 0 2.5 C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 C 2.236584 1.29895 2.5 0.663008 2.5 0 C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 C -1.29895 2.236584 -0.663008 2.5 0 2.5 z " style="stroke: #20759b"/>
+    <path id="m9d996e4b68" d="M -2 2 L 2 2 L 2 -2 L -2 -2 z " style="stroke: #c66d3a; stroke-linejoin: miter"/>
+    <clipPath id="pb95e1d61b6">
+   <rect x="115.2" y="90.72" width="403.2" height="312.48"/>
+  </clipPath>
+  <clipPath id="p542c8032d0">
+   <rect x="679.68" y="90.72" width="403.2" height="312.48"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="1695" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">共享参数驱动三步内层迭代，以及有限步导数与</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">隐式近似的差别</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-37.629398 133.184208) scale(1.69765818)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 158.88 302.946 C 164.672036 302.946 170.227624 301.16257 174.323212 297.988489 C 178.4188 294.814409 180.72 290.508828 180.72 286.02 C 180.72 281.531172 178.4188 277.225591 174.323212 274.051511 C 170.227624 270.87743 164.672036 269.094 158.88 269.094 C 153.087964 269.094 147.532376 270.87743 143.436788 274.051511 C 139.3412 277.225591 137.04 281.531172 137.04 286.02 C 137.04 290.508828 139.3412 294.814409 143.436788 297.988489 C 147.532376 301.16257 153.087964 302.946 158.88 302.946 z " clip-path="url(#pb95e1d61b6)" style="fill: #ffffff; stroke: #20759b; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
@@ -131,7 +117,7 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #20354b" x="316.8" y="67.72" transform="rotate(-0 316.8 67.72)">同一参数进入每步更新</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 853.107 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="865.11" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="891.11" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">B</text></g><g transform="translate(-958.846635 845.291018) scale(1.69765818)"><g id="axes_2">
    <g id="patch_12">
     <path d="M 679.68 403.2 L 1082.88 403.2 L 1082.88 90.72 L 679.68 90.72 z " style="fill: #ffffff"/>
    </g>
@@ -141,9 +127,6 @@
       <path d="M 679.68 403.2 L 679.68 90.72 " clip-path="url(#p542c8032d0)" style="fill: none; stroke: #dce6ec; stroke-opacity: 0.55; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
-      <defs>
-       <path id="mb51b47a37d" d="M 0 0 L 0 3.5 " style="stroke: #527588; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#mb51b47a37d" x="679.68" y="403.2" style="fill: #527588; stroke: #527588; stroke-width: 0.8"/>
       </g>
@@ -201,9 +184,6 @@
       <path d="M 679.68 385.84 L 1082.88 385.84 " clip-path="url(#p542c8032d0)" style="fill: none; stroke: #dce6ec; stroke-opacity: 0.55; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_10">
-      <defs>
-       <path id="mf7fe8c31f8" d="M 0 0 L -3.5 0 " style="stroke: #527588; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#mf7fe8c31f8" x="679.68" y="385.84" style="fill: #527588; stroke: #527588; stroke-width: 0.8"/>
       </g>
@@ -257,9 +237,6 @@
    </g>
    <g id="line2d_17">
     <path d="M 679.68 320.74 L 700.901053 308.53375 L 722.122105 283.358359 L 743.343158 255.465171 L 764.564211 229.476229 L 785.785263 207.133182 L 807.006316 188.772017 L 828.227368 174.098961 L 849.448421 162.586692 L 870.669474 153.667034 L 891.890526 146.816721 L 913.111579 141.588667 L 934.332632 137.616821 L 955.553684 134.609359 L 976.774737 132.337687 L 997.995789 130.624891 L 1019.216842 129.335208 L 1040.437895 128.365084 L 1061.658947 127.635882 L 1082.88 127.088076 " clip-path="url(#p542c8032d0)" style="fill: none; stroke: #20759b; stroke-width: 2.6; stroke-linecap: square"/>
-    <defs>
-     <path id="me5821c790d" d="M 0 2.5 C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 C 2.236584 1.29895 2.5 0.663008 2.5 0 C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 C -1.29895 2.236584 -0.663008 2.5 0 2.5 z " style="stroke: #20759b"/>
-    </defs>
     <g clip-path="url(#p542c8032d0)">
      <use xlink:href="#me5821c790d" x="679.68" y="320.74" style="fill: #20759b; stroke: #20759b"/>
      <use xlink:href="#me5821c790d" x="700.901053" y="308.53375" style="fill: #20759b; stroke: #20759b"/>
@@ -285,9 +262,6 @@
    </g>
    <g id="line2d_18">
     <path d="M 679.68 385.84 L 700.901053 320.74 L 722.122105 271.915 L 743.343158 235.29625 L 764.564211 207.832187 L 785.785263 187.234141 L 807.006316 171.785605 L 828.227368 160.199204 L 849.448421 151.509403 L 870.669474 144.992052 L 891.890526 140.104039 L 913.111579 136.438029 L 934.332632 133.688522 L 955.553684 131.626392 L 976.774737 130.079794 L 997.995789 128.919845 L 1019.216842 128.049884 L 1040.437895 127.397413 L 1061.658947 126.90806 L 1082.88 126.541045 " clip-path="url(#p542c8032d0)" style="fill: none; stroke-dasharray: 9.62,4.16; stroke-dashoffset: 0; stroke: #c66d3a; stroke-width: 2.6"/>
-    <defs>
-     <path id="m9d996e4b68" d="M -2 2 L 2 2 L 2 -2 L -2 -2 z " style="stroke: #c66d3a; stroke-linejoin: miter"/>
-    </defs>
     <g clip-path="url(#p542c8032d0)">
      <use xlink:href="#m9d996e4b68" x="679.68" y="385.84" style="fill: #c66d3a; stroke: #c66d3a; stroke-linejoin: miter"/>
      <use xlink:href="#m9d996e4b68" x="700.901053" y="320.74" style="fill: #c66d3a; stroke: #c66d3a; stroke-linejoin: miter"/>
@@ -353,13 +327,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="pb95e1d61b6">
-   <rect x="115.2" y="90.72" width="403.2" height="312.48"/>
-  </clipPath>
-  <clipPath id="p542c8032d0">
-   <rect x="679.68" y="90.72" width="403.2" height="312.48"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

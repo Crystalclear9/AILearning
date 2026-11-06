@@ -1,27 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1130.2353" viewBox="0 0 1440 1130.2353" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">朴素贝叶斯：两条证据的交集与后验归一化</title><rect width="1440" height="1130.2353" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">朴素贝叶斯：两条证据的交集与后验归一化</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="988.2353" viewBox="0 0 1224 900" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-04T18:08:42.984087</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 900 L 1224 900 L 1224 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2767" viewBox="0 0 960 2767" role="img" aria-labelledby="diagram-title"><title id="diagram-title">朴素贝叶斯：两条证据的交集与后验归一化</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="ma1aed981fc" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
+      <path id="m26f53e2fa1" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
+      <path id="m1140211fcc" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z " style="stroke: #cd7941"/>
+    <clipPath id="pad87e8f3ab">
+   <rect x="187.934095" y="63" width="307.317073" height="307.317073"/>
+  </clipPath>
+  <clipPath id="pf836f65ef6">
+   <rect x="796.068832" y="63" width="307.317073" height="307.317073"/>
+  </clipPath>
+  <clipPath id="pa256bfc32e">
+   <rect x="104.04" y="511.682927" width="475.105263" height="307.317073"/>
+  </clipPath>
+  <clipPath id="p0a527c9943">
+   <rect x="712.174737" y="511.682927" width="475.105263" height="307.317073"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="2767" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">朴素贝叶斯：两条证据的交集与后验归一化</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(-125.053978 65.978029) scale(1.51369876)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 187.934095 370.317073 L 495.251168 370.317073 L 495.251168 63 L 187.934095 63 z " style="fill: #ffffff"/>
    </g>
@@ -40,9 +34,6 @@
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="ma1aed981fc" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#ma1aed981fc" x="187.934095" y="370.317073" style="fill: #66889b; stroke: #66889b; stroke-width: 0.8"/>
       </g>
@@ -78,9 +69,6 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_4">
-      <defs>
-       <path id="m26f53e2fa1" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m26f53e2fa1" x="187.934095" y="370.317073" style="fill: #66889b; stroke: #66889b; stroke-width: 0.8"/>
       </g>
@@ -192,7 +180,7 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="341.592632" y="57" transform="rotate(-0 341.592632 57)">A  给定类别 A</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 761.052 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(-1045.586773 733.030330) scale(1.51369876)"><g id="axes_2">
    <g id="patch_9">
     <path d="M 796.068832 370.317073 L 1103.385905 370.317073 L 1103.385905 63 L 796.068832 63 z " style="fill: #ffffff"/>
    </g>
@@ -357,7 +345,7 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="949.727368" y="57" transform="rotate(-0 949.727368 57)">B  给定类别 B</text>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M44 1428.105 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(1.936410 720.183211) scale(1.51369876)"><g id="axes_3">
    <g id="patch_16">
     <path d="M 104.04 819 L 579.145263 819 L 579.145263 511.682927 L 104.04 511.682927 z " style="fill: #ffffff"/>
    </g>
@@ -509,7 +497,7 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="341.592632" y="505.682927" transform="rotate(-0 341.592632 505.682927)">C  先验各半：归一化</text>
    </g>
   </g>
-  <g id="axes_4">
+  </g><path d="M44 2095.157 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(-918.596386 1387.235512) scale(1.51369876)"><g id="axes_4">
    <g id="patch_20">
     <path d="M 712.174737 819 L 1187.28 819 L 1187.28 511.682927 L 712.174737 511.682927 z " style="fill: #ffffff"/>
    </g>
@@ -674,9 +662,6 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="949.727368" y="505.682927" transform="rotate(-0 949.727368 505.682927)">D  似然不变，先验改变</text>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="m1140211fcc" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z " style="stroke: #cd7941"/>
-    </defs>
     <g clip-path="url(#p0a527c9943)">
      <use xlink:href="#m1140211fcc" x="759.685263" y="674.380201" style="fill: #cd7941; stroke: #cd7941"/>
     </g>
@@ -687,19 +672,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="pad87e8f3ab">
-   <rect x="187.934095" y="63" width="307.317073" height="307.317073"/>
-  </clipPath>
-  <clipPath id="pf836f65ef6">
-   <rect x="796.068832" y="63" width="307.317073" height="307.317073"/>
-  </clipPath>
-  <clipPath id="pa256bfc32e">
-   <rect x="104.04" y="511.682927" width="475.105263" height="307.317073"/>
-  </clipPath>
-  <clipPath id="p0a527c9943">
-   <rect x="712.174737" y="511.682927" width="475.105263" height="307.317073"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

@@ -1,27 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="996.8896" viewBox="0 0 1440 996.8896" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">精确HMC在四分之一周期、半周期和整周期的不同位置更新</title><rect width="1440" height="996.8896" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">精确HMC在四分之一周期、半周期和整周期的不同位置更新</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="854.8896" viewBox="0 72.7668 1296 824.3578" version="1.1" x="48" y="106" overflow="hidden">
- <rect id="offline-white-background" x="0" y="72.766773" width="1296" height="824.357827" fill="#ffffff"/><title>精确 HMC 接受率都为 1，位置更新却可以完全不同</title><metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-30T12:33:20.932384</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 936 L 1296 936 L 1296 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2888" viewBox="0 0 960 2888" role="img" aria-labelledby="diagram-title"><title id="diagram-title">精确HMC在四分之一周期、半周期和整周期的不同位置更新</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m9a58197561" d="M 0 0 L 0 3.5 " style="stroke: #527383; stroke-width: 0.8"/>
+      <path id="ma9747c2c76" d="M 0 0 L -3.5 0 " style="stroke: #527383; stroke-width: 0.8"/>
+      <path id="md828a1f9fc" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z " style="stroke: #217292"/>
+    <path id="m968ccf8301" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z " style="stroke: #217292"/>
+    <path id="m3ca38016ff" d="M -3 3 L 3 3 L 3 -3 L -3 -3 z " style="stroke: #d0773a; stroke-linejoin: miter"/>
+    <clipPath id="p09c447825d">
+   <rect x="227.776573" y="131.04" width="267.952941" height="267.952941"/>
+  </clipPath>
+  <clipPath id="p826455bf9e">
+   <rect x="865.070486" y="131.04" width="267.952941" height="267.952941"/>
+  </clipPath>
+  <clipPath id="p4cb748aa23">
+   <rect x="227.776573" y="546.367059" width="267.952941" height="267.952941"/>
+  </clipPath>
+  <clipPath id="p410b726486">
+   <rect x="753.933913" y="546.367059" width="490.226087" height="267.952941"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="2888" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">精确HMC在四分之一周期、半周期和整周期的不同</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">位置更新</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-184.387014 69.690027) scale(1.50758977)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 227.776573 398.992941 L 495.729514 398.992941 L 495.729514 131.04 L 227.776573 131.04 z " style="fill: #ffffff"/>
    </g>
@@ -31,9 +27,6 @@
       <path d="M 250.105985 398.992941 L 250.105985 131.04 " clip-path="url(#p09c447825d)" style="fill: none; stroke: #e6eff2; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
-      <defs>
-       <path id="m9a58197561" d="M 0 0 L 0 3.5 " style="stroke: #527383; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m9a58197561" x="250.105985" y="398.992941" style="fill: #527383; stroke: #527383; stroke-width: 0.8"/>
       </g>
@@ -78,9 +71,6 @@
       <path d="M 227.776573 376.663529 L 495.729514 376.663529 " clip-path="url(#p09c447825d)" style="fill: none; stroke: #e6eff2; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
-      <defs>
-       <path id="ma9747c2c76" d="M 0 0 L -3.5 0 " style="stroke: #527383; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#ma9747c2c76" x="227.776573" y="376.663529" style="fill: #527383; stroke: #527383; stroke-width: 0.8"/>
       </g>
@@ -120,9 +110,6 @@
     </g>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="md828a1f9fc" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z " style="stroke: #217292"/>
-    </defs>
     <g clip-path="url(#p09c447825d)">
      <use xlink:href="#md828a1f9fc" x="250.105985" y="376.663529" style="fill: #217292; stroke: #217292"/>
      <use xlink:href="#md828a1f9fc" x="305.929514" y="376.663529" style="fill: #217292; stroke: #217292"/>
@@ -181,7 +168,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 816.592 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="828.59" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="854.59" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">B</text></g><g transform="translate(-1145.164801 741.793404) scale(1.50758977)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 865.070486 398.992941 L 1133.023427 398.992941 L 1133.023427 131.04 L 865.070486 131.04 z " style="fill: #ffffff"/>
    </g>
@@ -327,7 +314,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M44 1488.696 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="1500.7" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="1526.7" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">C</text></g><g transform="translate(-184.387014 787.622452) scale(1.50758977)"><g id="axes_3">
    <g id="patch_8">
     <path d="M 227.776573 814.32 L 495.729514 814.32 L 495.729514 546.367059 L 227.776573 546.367059 z " style="fill: #ffffff"/>
    </g>
@@ -473,7 +460,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_4">
+  </g><path d="M44 2160.799 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="2172.8" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="2198.8" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">D</text></g><g transform="translate(-977.616440 1510.316234) scale(1.50758977)"><g id="axes_4">
    <g id="patch_11">
     <path d="M 753.933913 814.32 L 1244.16 814.32 L 1244.16 546.367059 L 753.933913 546.367059 z " style="fill: #ffffff"/>
    </g>
@@ -619,9 +606,6 @@
    </g>
    <g id="line2d_57">
     <path d="M 776.216917 558.546738 L 820.782925 743.600137 L 865.348933 720.620685 L 909.914941 627.058432 L 954.480949 639.441452 L 999.046957 646.738232 L 1043.612964 586.965758 L 1088.178972 802.140321 L 1132.74498 647.148412 L 1177.310988 624.419075 L 1221.876996 697.278758 " clip-path="url(#p410b726486)" style="fill: none; stroke: #217292; stroke-width: 3; stroke-linecap: square"/>
-    <defs>
-     <path id="m968ccf8301" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z " style="stroke: #217292"/>
-    </defs>
     <g clip-path="url(#p410b726486)">
      <use xlink:href="#m968ccf8301" x="776.216917" y="558.546738" style="fill: #217292; stroke: #217292"/>
      <use xlink:href="#m968ccf8301" x="820.782925" y="743.600137" style="fill: #217292; stroke: #217292"/>
@@ -638,9 +622,6 @@
    </g>
    <g id="line2d_58">
     <path d="M 776.216917 558.546738 L 820.782925 693.372346 L 865.348933 558.546738 L 909.914941 693.372346 L 954.480949 558.546738 L 999.046957 693.372346 L 1043.612964 558.546738 L 1088.178972 693.372346 L 1132.74498 558.546738 L 1177.310988 693.372346 L 1221.876996 558.546738 " clip-path="url(#p410b726486)" style="fill: none; stroke: #d0773a; stroke-width: 3; stroke-linecap: square"/>
-    <defs>
-     <path id="m3ca38016ff" d="M -3 3 L 3 3 L 3 -3 L -3 -3 z " style="stroke: #d0773a; stroke-linejoin: miter"/>
-    </defs>
     <g clip-path="url(#p410b726486)">
      <use xlink:href="#m3ca38016ff" x="776.216917" y="558.546738" style="fill: #d0773a; stroke: #d0773a; stroke-linejoin: miter"/>
      <use xlink:href="#m3ca38016ff" x="820.782925" y="693.372346" style="fill: #d0773a; stroke: #d0773a; stroke-linejoin: miter"/>
@@ -718,19 +699,4 @@
     </g>
    </g>
   </g>
-  </g>
- <defs>
-  <clipPath id="p09c447825d">
-   <rect x="227.776573" y="131.04" width="267.952941" height="267.952941"/>
-  </clipPath>
-  <clipPath id="p826455bf9e">
-   <rect x="865.070486" y="131.04" width="267.952941" height="267.952941"/>
-  </clipPath>
-  <clipPath id="p4cb748aa23">
-   <rect x="227.776573" y="546.367059" width="267.952941" height="267.952941"/>
-  </clipPath>
-  <clipPath id="p410b726486">
-   <rect x="753.933913" y="546.367059" width="490.226087" height="267.952941"/>
-  </clipPath>
- </defs>
-<desc> 标准正态目标、单位质量；前三图使用输入格点说明映射，最后一图才是十次更新轨迹。</desc></svg></svg>
+  </g></svg>

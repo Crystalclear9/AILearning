@@ -497,8 +497,7 @@ print('snapshot, scope, time and packing changes cannot hit the same cache entry
 
 $$
 \frac{2}{4}
-=
-\frac{3}{4}
+=\frac{3}{4}
 \cdot\frac{2}{3}
 \cdot\frac{2}{2}
 \cdot\frac{2}{2}.

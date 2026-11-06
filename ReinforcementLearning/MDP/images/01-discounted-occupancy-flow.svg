@@ -1,27 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="898" viewBox="0 0 1440 898" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">两状态重启链的折扣访问流量及有限前缀质量的收敛</title><rect width="1440" height="898" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">两状态重启链的折扣访问流量及有限前缀质量的收敛</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="756" viewBox="0 0 1152 648" version="1.1" x="48" y="106" overflow="hidden">
- <rect id="offline-white-background" x="0" y="0" width="1152" height="648" fill="#ffffff"/><metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-30T13:06:42.666404</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 648 L 1152 648 L 1152 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1833" viewBox="0 0 960 1833" role="img" aria-labelledby="diagram-title"><title id="diagram-title">两状态重启链的折扣访问流量及有限前缀质量的收敛</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="me98aff890d" d="M 0 0 L 0 3.5 " style="stroke: #527385; stroke-width: 0.8"/>
+      <path id="mf7831760f5" d="M 0 0 L -3.5 0 " style="stroke: #527385; stroke-width: 0.8"/>
+      <clipPath id="p72fabb528e">
+   <rect x="57.6" y="84.24" width="460.092166" height="466.56"/>
+  </clipPath>
+  <clipPath id="p56f52f0bec">
+   <rect x="599.818618" y="84.24" width="506.101382" height="466.56"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="1833" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">两状态重启链的折扣访问流量及有限前缀质量的</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">收敛</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-22.839494 104.477602) scale(1.45564085)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 149.618433 365.9256 C 159.745916 365.9256 169.459967 360.825281 176.621179 351.747928 C 183.782391 342.670575 187.806083 330.357315 187.806083 317.52 C 187.806083 304.682685 183.782391 292.369425 176.621179 283.292072 C 169.459967 274.214719 159.745916 269.1144 149.618433 269.1144 C 139.49095 269.1144 129.776899 274.214719 122.615687 283.292072 C 115.454475 292.369425 111.430783 304.682685 111.430783 317.52 C 111.430783 330.357315 115.454475 342.670575 122.615687 351.747928 C 129.776899 360.825281 139.49095 365.9256 149.618433 365.9256 z " clip-path="url(#p72fabb528e)" style="fill: #ffffff; stroke: #2082ac; stroke-width: 3; stroke-linejoin: miter"/>
    </g>
@@ -150,16 +137,13 @@
     <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="287.646083" y="90.072" transform="rotate(-0 287.646083 90.072)">重启链：80% 继续，20% 回到 A</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 887.907 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="899.91" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="925.91" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">B</text></g><g transform="translate(-733.756778 905.285006) scale(1.45564085)"><g id="axes_2">
    <g id="patch_8">
     <path d="M 599.818618 550.8 L 1105.92 550.8 L 1105.92 84.24 L 599.818618 84.24 z " style="fill: #ffffff"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="me98aff890d" d="M 0 0 L 0 3.5 " style="stroke: #527385; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#me98aff890d" x="599.818618" y="550.8" style="fill: #527385; stroke: #527385; stroke-width: 0.8"/>
       </g>
@@ -225,9 +209,6 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_7">
-      <defs>
-       <path id="mf7831760f5" d="M 0 0 L -3.5 0 " style="stroke: #527385; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#mf7831760f5" x="599.818618" y="550.8" style="fill: #527385; stroke: #527385; stroke-width: 0.8"/>
       </g>
@@ -357,13 +338,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p72fabb528e">
-   <rect x="57.6" y="84.24" width="460.092166" height="466.56"/>
-  </clipPath>
-  <clipPath id="p56f52f0bec">
-   <rect x="599.818618" y="84.24" width="506.101382" height="466.56"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

@@ -1,27 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="718" viewBox="0 0 1440 718" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">前门识别从观察条件均值到中介干预均值，再到处理干预结果</title><rect width="1440" height="718" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">前门识别从观察条件均值到中介干预均值，再到处理干预结果</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="576" viewBox="0 0 1008 432" version="1.1" x="48" y="106" overflow="hidden">
- <rect id="offline-white-background" x="0" y="0" width="1008" height="432" fill="#ffffff"/><metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-30T14:45:19.803764</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 432  L 1008 432  L 1008 0  L 0 0  z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1515" viewBox="0 0 960 1515" role="img" aria-labelledby="diagram-title"><title id="diagram-title">前门识别从观察条件均值到中介干预均值，再到处理干预结果</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m09f7e59cb5" d="M 0 0  L 0 3.5  " style="stroke: #7e8ca3; stroke-width: 0.8"/>
+      <path id="m84027d1919" d="M -0 7.745967  L 7.745967 -7.745967  L -7.745967 -7.745967  z " style="stroke: #237e9f"/>
+    <path id="m62beb24d7c" d="M -0 7.745967  L 7.745967 -7.745967  L -7.745967 -7.745967  z " style="stroke: #c47645"/>
+    <clipPath id="p3da423df04">
+   <rect x="65.52" y="73.44" width="367.794707" height="302.4"/>
+  </clipPath>
+  <clipPath id="p3419da8be7">
+   <rect x="559.836087" y="73.44" width="422.963913" height="302.4"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="1515" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">前门识别从观察条件均值到中介干预均值，再到</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">处理干预结果</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(-39.844724 110.416187) scale(1.69807578)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 128.734715 203.04  L 235.625052 203.04  L 235.625052 118.56  L 128.734715 118.56  z " clip-path="url(#p3da423df04)" style="fill: #237e9f; opacity: 0.144; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
@@ -82,7 +70,7 @@
     <text style="font-size: 21px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #20344a" x="65.52" y="51.44" transform="rotate(-0 65.52 51.44)">① 在同一处理比例下平均</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 768.101 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(-771.887522 737.516961) scale(1.69807578)"><g id="axes_2">
    <g id="patch_8">
     <path d="M 559.836087 375.84  L 982.8 375.84  L 982.8 73.44  L 559.836087 73.44  z " style="fill: #ffffff"/>
    </g>
@@ -95,9 +83,6 @@
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_3">
-      <defs>
-       <path id="m09f7e59cb5" d="M 0 0  L 0 3.5  " style="stroke: #7e8ca3; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m09f7e59cb5" x="614.664742" y="375.84" style="fill: #7e8ca3; stroke: #7e8ca3; stroke-width: 0.8"/>
       </g>
@@ -156,9 +141,6 @@
     <path d="M 559.836087 375.84  L 982.8 375.84  " style="fill: none; stroke: #7e8ca3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="PathCollection_3">
-    <defs>
-     <path id="m84027d1919" d="M -0 7.745967  L 7.745967 -7.745967  L -7.745967 -7.745967  z " style="stroke: #237e9f"/>
-    </defs>
     <g clip-path="url(#p3419da8be7)">
      <use xlink:href="#m84027d1919" x="645.995402" y="158.90087" style="fill: #237e9f; stroke: #237e9f"/>
     </g>
@@ -173,9 +155,6 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #c47645" x="927.971345" y="123.401739" transform="rotate(-0 927.971345 123.401739)">0.1</text>
    </g>
    <g id="PathCollection_4">
-    <defs>
-     <path id="m62beb24d7c" d="M -0 7.745967  L 7.745967 -7.745967  L -7.745967 -7.745967  z " style="stroke: #c47645"/>
-    </defs>
     <g clip-path="url(#p3419da8be7)">
      <use xlink:href="#m62beb24d7c" x="865.310024" y="290.37913" style="fill: #c47645; stroke: #c47645"/>
     </g>
@@ -225,13 +204,4 @@
     <text style="font-size: 21px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #20344a" x="559.836087" y="51.44" transform="rotate(-0 559.836087 51.44)">② 用干预产生的中介比例加权</text>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p3da423df04">
-   <rect x="65.52" y="73.44" width="367.794707" height="302.4"/>
-  </clipPath>
-  <clipPath id="p3419da8be7">
-   <rect x="559.836087" y="73.44" width="422.963913" height="302.4"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

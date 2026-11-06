@@ -1,34 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="700.2769" viewBox="0 0 1440 700.2769" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">注意力输出对分数的局部敏感性</title><rect width="1440" height="700.2769" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">注意力输出对分数的局部敏感性</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="558.2769" viewBox="0 0 936 388.8" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-03T10:08:06.613649</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 388.8 L 936 388.8 L 936 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1568" viewBox="0 0 960 1568" role="img" aria-labelledby="diagram-title"><title id="diagram-title">注意力输出对分数的局部敏感性</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="C0_0_881cd0813f" d="M 0 4.031129 C 1.069068 4.031129 2.094493 3.606384 2.850439 2.850439 C 3.606384 2.094493 4.031129 1.069068 4.031129 -0 C 4.031129 -1.069068 3.606384 -2.094493 2.850439 -2.850439 C 2.094493 -3.606384 1.069068 -4.031129 0 -4.031129 C -1.069068 -4.031129 -2.094493 -3.606384 -2.850439 -2.850439 C -3.606384 -2.094493 -4.031129 -1.069068 -4.031129 0 C -4.031129 1.069068 -3.606384 2.094493 -2.850439 2.850439 C -2.094493 3.606384 -1.069068 4.031129 0 4.031129 z "/>
+    <path id="m2beab9ee89" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
+      <path id="me8f9f82efd" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
+      <path id="m5c38e1e85f" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z " style="stroke: #1f3348"/>
+    <clipPath id="p8809cc8826">
+   <rect x="99.225066" y="46.656" width="247.764706" height="252.72"/>
+  </clipPath>
+  <clipPath id="pb6ba4e31b1">
+   <rect x="507.55271" y="46.656" width="409.72729" height="252.72"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="1568" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">注意力输出对分数的局部敏感性</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(1.927747 140.354656) scale(1.75700441)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 99.225066 299.376 L 346.989772 299.376 L 346.989772 46.656 L 99.225066 46.656 z " style="fill: #ffffff"/>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="C0_0_881cd0813f" d="M 0 4.031129 C 1.069068 4.031129 2.094493 3.606384 2.850439 2.850439 C 3.606384 2.094493 4.031129 1.069068 4.031129 -0 C 4.031129 -1.069068 3.606384 -2.094493 2.850439 -2.850439 C 2.094493 -3.606384 1.069068 -4.031129 0 -4.031129 C -1.069068 -4.031129 -2.094493 -3.606384 -2.850439 -2.850439 C -3.606384 -2.094493 -4.031129 -1.069068 -4.031129 0 C -4.031129 1.069068 -3.606384 2.094493 -2.850439 2.850439 C -2.094493 3.606384 -1.069068 4.031129 0 4.031129 z "/>
-    </defs>
     <g clip-path="url(#p8809cc8826)">
      <use xlink:href="#C0_0_881cd0813f" x="218.152125" y="274.599529" style="fill: #217ca4; stroke: #217ca4"/>
     </g>
@@ -45,9 +31,6 @@
       <path d="M 119.046243 299.376 L 119.046243 46.656 " clip-path="url(#p8809cc8826)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
-      <defs>
-       <path id="m2beab9ee89" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m2beab9ee89" x="119.046243" y="299.376" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
@@ -92,9 +75,6 @@
       <path d="M 99.225066 274.599529 L 346.989772 274.599529 " clip-path="url(#p8809cc8826)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.15; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
-      <defs>
-       <path id="me8f9f82efd" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#me8f9f82efd" x="99.225066" y="274.599529" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
@@ -217,15 +197,12 @@
     <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #1f3348" x="99.225066" y="31.656" transform="rotate(-0 99.225066 31.656)">局部方向</text>
    </g>
    <g id="PathCollection_2">
-    <defs>
-     <path id="m5c38e1e85f" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z " style="stroke: #1f3348"/>
-    </defs>
     <g clip-path="url(#p8809cc8826)">
      <use xlink:href="#m5c38e1e85f" x="234.669772" y="158.976" style="fill: #1f3348; stroke: #1f3348"/>
     </g>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 799.633 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="811.63" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="837.63" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">B</text></g><g transform="translate(-715.505725 845.987699) scale(1.75700441)"><g id="axes_2">
    <g id="patch_8">
     <path d="M 507.55271 299.376 L 917.28 299.376 L 917.28 46.656 L 507.55271 46.656 z " style="fill: #ffffff"/>
    </g>
@@ -493,13 +470,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p8809cc8826">
-   <rect x="99.225066" y="46.656" width="247.764706" height="252.72"/>
-  </clipPath>
-  <clipPath id="pb6ba4e31b1">
-   <rect x="507.55271" y="46.656" width="409.72729" height="252.72"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

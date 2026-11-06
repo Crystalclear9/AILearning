@@ -1,27 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="724.3812" viewBox="0 0 1440 724.3812" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">每四个查询头共享一组键值头，KV缓存随长度的容量变化</title><rect width="1440" height="724.3812" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">每四个查询头共享一组键值头，KV缓存随长度的容量变化</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="582.3812" viewBox="0 135.6574 1296 561.5819" version="1.1" x="48" y="106" overflow="hidden">
- <rect id="offline-white-background" x="0" y="135.657431" width="1296" height="561.581864" fill="#ffffff"/><title>KV 缓存按键值头保存；查询头共享，不应重复计数</title><metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-30T12:33:21.497258</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 792 L 1296 792 L 1296 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1821" viewBox="0 0 960 1821" role="img" aria-labelledby="diagram-title"><title id="diagram-title">每四个查询头共享一组键值头，KV缓存随长度的容量变化</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m1d0b237d12" d="M 0 0 L 0 3.5 " style="stroke: #527383; stroke-width: 0.8"/>
+      <path id="m8728f4acc4" d="M 0 0 L -3.5 0 " style="stroke: #527383; stroke-width: 0.8"/>
+      <path id="C0_0_55010a1f4c" d="M 0 4.743416 C 1.257969 4.743416 2.464584 4.24362 3.354102 3.354102 C 4.24362 2.464584 4.743416 1.257969 4.743416 -0 C 4.743416 -1.257969 4.24362 -2.464584 3.354102 -3.354102 C 2.464584 -4.24362 1.257969 -4.743416 0 -4.743416 C -1.257969 -4.743416 -2.464584 -4.24362 -3.354102 -3.354102 C -4.24362 -2.464584 -4.743416 -1.257969 -4.743416 0 C -4.743416 1.257969 -4.24362 2.464584 -3.354102 3.354102 C -2.464584 4.24362 -1.257969 4.743416 0 4.743416 z "/>
+    <clipPath id="p6c13474369">
+   <rect x="110.16" y="158.4" width="482.553191" height="459.36"/>
+  </clipPath>
+  <clipPath id="p39f487ae41">
+   <rect x="761.606809" y="158.4" width="482.553191" height="459.36"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="1821" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">每四个查询头共享一组键值头，KV缓存随长度的</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">容量变化</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-67.343520 -97.296923) scale(1.56514471)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 131.732966 534.24 L 156.71219 534.24 L 156.71219 488.304 L 131.732966 488.304 z " clip-path="url(#p6c13474369)" style="fill: #e6eff2; stroke: #217292; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
@@ -121,7 +109,7 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1c2e40" x="308.858373" y="584.352" transform="rotate(-0 308.858373 584.352)">仅展开 2 组；数值例共 8 组</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 877.991 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="889.99" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="915.99" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">B</text></g><g transform="translate(-1053.187232 703.082243) scale(1.56514471)"><g id="axes_2">
    <g id="patch_20">
     <path d="M 761.606809 617.76 L 1244.16 617.76 L 1244.16 158.4 L 761.606809 158.4 z " style="fill: #ffffff"/>
    </g>
@@ -131,9 +119,6 @@
       <path d="M 783.541044 617.76 L 783.541044 158.4 " clip-path="url(#p39f487ae41)" style="fill: none; stroke: #e6eff2; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
-      <defs>
-       <path id="m1d0b237d12" d="M 0 0 L 0 3.5 " style="stroke: #527383; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m1d0b237d12" x="783.541044" y="617.76" style="fill: #527383; stroke: #527383; stroke-width: 0.8"/>
       </g>
@@ -191,9 +176,6 @@
       <path d="M 761.606809 617.76 L 1244.16 617.76 " clip-path="url(#p39f487ae41)" style="fill: none; stroke: #e6eff2; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_10">
-      <defs>
-       <path id="m8728f4acc4" d="M 0 0 L -3.5 0 " style="stroke: #527383; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m8728f4acc4" x="761.606809" y="617.76" style="fill: #527383; stroke: #527383; stroke-width: 0.8"/>
       </g>
@@ -259,9 +241,6 @@
     </g>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="C0_0_55010a1f4c" d="M 0 4.743416 C 1.257969 4.743416 2.464584 4.24362 3.354102 3.354102 C 4.24362 2.464584 4.743416 1.257969 4.743416 -0 C 4.743416 -1.257969 4.24362 -2.464584 3.354102 -3.354102 C 2.464584 -4.24362 1.257969 -4.743416 0 -4.743416 C -1.257969 -4.743416 -2.464584 -4.24362 -3.354102 -3.354102 C -4.24362 -2.464584 -4.743416 -1.257969 -4.743416 0 C -4.743416 1.257969 -4.24362 2.464584 -3.354102 3.354102 C -2.464584 4.24362 -1.257969 4.743416 0 4.743416 z "/>
-    </defs>
     <g clip-path="url(#p39f487ae41)">
      <use xlink:href="#C0_0_55010a1f4c" x="1222.225764" y="515.68" style="fill: #d0773a; stroke: #d0773a"/>
     </g>
@@ -299,13 +278,4 @@
     </g>
    </g>
   </g>
-  </g>
- <defs>
-  <clipPath id="p6c13474369">
-   <rect x="110.16" y="158.4" width="482.553191" height="459.36"/>
-  </clipPath>
-  <clipPath id="p39f487ae41">
-   <rect x="761.606809" y="158.4" width="482.553191" height="459.36"/>
-  </clipPath>
- </defs>
-<desc> 32 层、32 查询头、每头 128 维、FP16/BF16；B = 1。GQA 每新增 token 存入 128 KiB。</desc></svg></svg>
+  </g></svg>

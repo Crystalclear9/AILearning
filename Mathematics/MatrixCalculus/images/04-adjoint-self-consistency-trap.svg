@@ -1,30 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="696.3226" viewBox="0 0 1440 696.3226" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">真实剪切导数、错误单位算子与独立前向余项的对照</title><rect width="1440" height="696.3226" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">真实剪切导数、错误单位算子与独立前向余项的对照</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1344" height="554.3226" viewBox="17.28 26.24 1111.04 458.24" version="1.1" x="48" y="106" overflow="hidden">
- <title>错误JVP与VJP通过伴随恒等式却无法通过真实前向泰勒余项检验</title>
- <metadata>
-  <rdf:RDF>
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title>错误JVP与VJP通过伴随恒等式却无法通过真实前向泰勒余项检验</dc:title>
-    <dc:date>2026-10-30T13:06:07.452936</dc:date>
-    <dc:description>错误JVP与VJP通过伴随恒等式却无法通过真实前向泰勒余项检验</dc:description>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 504 L 1152 504 L 1152 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3216" viewBox="0 0 960 3216" role="img" aria-labelledby="diagram-title"><title id="diagram-title">真实剪切导数、错误单位算子与独立前向余项的对照</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m79727de5c7" d="M 0 0 L 0 3.5 " style="stroke: #527588; stroke-width: 0.8"/>
+      <path id="m4e63559abe" d="M 0 0 L -3.5 0 " style="stroke: #527588; stroke-width: 0.8"/>
+      <clipPath id="pa6cc90ce53">
+   <rect x="103.68" y="114.48" width="264.96" height="264.96"/>
+  </clipPath>
+  <clipPath id="p2271089f0f">
+   <rect x="472.32" y="114.48" width="264.96" height="264.96"/>
+  </clipPath>
+  <clipPath id="p77bb94acb8">
+   <rect x="840.96" y="90.72" width="264.96" height="312.48"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="3216" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">真实剪切导数、错误单位算子与独立前向余项的</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">对照</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(41.486426 52.875178) scale(2.30911994)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 103.68 379.44 L 368.64 379.44 L 368.64 114.48 L 103.68 114.48 z " style="fill: #ffffff"/>
    </g>
@@ -34,9 +21,6 @@
       <path d="M 130.176 379.44 L 130.176 114.48 " clip-path="url(#pa6cc90ce53)" style="fill: none; stroke: #dce6ec; stroke-opacity: 0.55; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
-      <defs>
-       <path id="m79727de5c7" d="M 0 0 L 0 3.5 " style="stroke: #527588; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m79727de5c7" x="130.176" y="379.44" style="fill: #527588; stroke: #527588; stroke-width: 0.8"/>
       </g>
@@ -81,9 +65,6 @@
       <path d="M 103.68 299.952 L 368.64 299.952 " clip-path="url(#pa6cc90ce53)" style="fill: none; stroke: #dce6ec; stroke-opacity: 0.55; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
-      <defs>
-       <path id="m4e63559abe" d="M 0 0 L -3.5 0 " style="stroke: #527588; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m4e63559abe" x="103.68" y="299.952" style="fill: #527588; stroke: #527588; stroke-width: 0.8"/>
       </g>
@@ -142,7 +123,7 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #20354b" x="236.16" y="91.48" transform="rotate(-0 236.16 91.48)">真实 J：剪切单位圆</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 1127.212 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="1139.21" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="1165.21" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">B</text></g><g transform="translate(-809.747551 1039.087056) scale(2.30911994)"><g id="axes_2">
    <g id="patch_6">
     <path d="M 472.32 379.44 L 737.28 379.44 L 737.28 114.48 L 472.32 114.48 z " style="fill: #ffffff"/>
    </g>
@@ -254,7 +235,7 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #20354b" x="604.8" y="91.48" transform="rotate(-0 604.8 91.48)">错误近似：单位矩阵</text>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M44 2113.424 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="2125.42" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="2151.42" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">C</text></g><g transform="translate(-1660.981527 2080.274462) scale(2.30911994)"><g id="axes_3">
    <g id="patch_10">
     <path d="M 840.96 403.2 L 1105.92 403.2 L 1105.92 90.72 L 840.96 90.72 z " style="fill: #ffffff"/>
    </g>
@@ -446,16 +427,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="pa6cc90ce53">
-   <rect x="103.68" y="114.48" width="264.96" height="264.96"/>
-  </clipPath>
-  <clipPath id="p2271089f0f">
-   <rect x="472.32" y="114.48" width="264.96" height="264.96"/>
-  </clipPath>
-  <clipPath id="p77bb94acb8">
-   <rect x="840.96" y="90.72" width="264.96" height="312.48"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

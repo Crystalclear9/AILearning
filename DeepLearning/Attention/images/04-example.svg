@@ -1,27 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="698.5" viewBox="0 0 1440 698.5" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">RoPE：共同位移不变，相对位移改变点积</title><rect width="1440" height="698.5" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">RoPE：共同位移不变，相对位移改变点积</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="556.5" viewBox="0 0 921.6 381.6" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-03T10:21:15.883641</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 381.6 L 921.6 381.6 L 921.6 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1287" viewBox="0 0 960 1287" role="img" aria-labelledby="diagram-title"><title id="diagram-title">RoPE：共同位移不变，相对位移改变点积</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m87aba0e9fb" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
+      <path id="mfe4e7f2efb" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
+      <path id="mbf3d063c4b" d="M 0 3.872983 C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 C 3.464901 2.012324 3.872983 1.027127 3.872983 0 C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 z " style="stroke: #d17637"/>
+    <clipPath id="pce99e5d379">
+   <rect x="52.874045" y="53.424" width="261.542769" height="251.856"/>
+  </clipPath>
+  <clipPath id="pfe7a357f24">
+   <rect x="433.467424" y="53.424" width="469.700576" height="251.856"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="1287" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">RoPE：共同位移不变，相对位移改变点积</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(28.385015 115.693472) scale(1.56162042)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 183.64543 281.063077 C 209.335042 281.063077 233.975933 270.856486 252.141232 252.691187 C 270.306531 234.525888 280.513122 209.884997 280.513122 184.195385 C 280.513122 158.505772 270.306531 133.864882 252.141232 115.699583 C 233.975933 97.534283 209.335042 87.327692 183.64543 87.327692 C 157.955818 87.327692 133.314927 97.534283 115.149628 115.699583 C 96.984329 133.864882 86.777738 158.505772 86.777738 184.195385 C 86.777738 209.884997 96.984329 234.525888 115.149628 252.691187 C 133.314927 270.856486 157.955818 281.063077 183.64543 281.063077 L 183.64543 281.063077 z " clip-path="url(#pce99e5d379)" style="fill: none; stroke: #cdd5e0; stroke-width: 1.7; stroke-linejoin: miter"/>
    </g>
@@ -80,7 +68,7 @@
     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #1f3348" x="52.874045" y="47.424" transform="rotate(-0 52.874045 47.424)">键多转两格，夹角随之改变</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 647.233 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="659.23" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="685.23" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">B</text></g><g transform="translate(-513.012676 681.776432) scale(1.56162042)"><g id="axes_2">
    <g id="patch_8">
     <path d="M 433.467424 305.28 L 903.168 305.28 L 903.168 53.424 L 433.467424 53.424 z " style="fill: #ffffff"/>
    </g>
@@ -90,9 +78,6 @@
       <path d="M 446.162034 305.28 L 446.162034 53.424 " clip-path="url(#pfe7a357f24)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.13; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_4">
-      <defs>
-       <path id="m87aba0e9fb" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m87aba0e9fb" x="446.162034" y="305.28" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
@@ -216,9 +201,6 @@
       <path d="M 433.467424 284.720327 L 903.168 284.720327 " clip-path="url(#pfe7a357f24)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.13; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_20">
-      <defs>
-       <path id="mfe4e7f2efb" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#mfe4e7f2efb" x="433.467424" y="284.720327" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
@@ -355,9 +337,6 @@
     </g>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="mbf3d063c4b" d="M 0 3.872983 C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 C 3.464901 2.012324 3.872983 1.027127 3.872983 0 C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 z " style="stroke: #d17637"/>
-    </defs>
     <g clip-path="url(#pfe7a357f24)">
      <use xlink:href="#mbf3d063c4b" x="509.635085" y="130.522776" style="fill: #d17637; stroke: #d17637"/>
     </g>
@@ -378,13 +357,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="pce99e5d379">
-   <rect x="52.874045" y="53.424" width="261.542769" height="251.856"/>
-  </clipPath>
-  <clipPath id="pfe7a357f24">
-   <rect x="433.467424" y="53.424" width="469.700576" height="251.856"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

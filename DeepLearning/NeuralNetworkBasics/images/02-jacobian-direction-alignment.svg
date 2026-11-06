@@ -1,27 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="601.6006" viewBox="0 0 1440 601.6006" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">矩阵方向决定链式增长</title><rect width="1440" height="601.6006" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">矩阵方向决定链式增长</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="459.6006" viewBox="0 0 954.7776 326.5002" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-03T10:25:30.116660</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 326.500237 L 954.777594 326.500237 L 954.777594 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2973" viewBox="0 0 960 2973" role="img" aria-labelledby="diagram-title"><title id="diagram-title">矩阵方向决定链式增长</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m1313ab4113" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
+      <path id="m58120bd3a2" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
+      <clipPath id="pdcf9426e57">
+   <rect x="60.033594" y="29.02875" width="218.736" height="218.736"/>
+  </clipPath>
+  <clipPath id="pb8d7e668c9">
+   <rect x="393.717594" y="29.02875" width="218.736" height="218.736"/>
+  </clipPath>
+  <clipPath id="pc897ae7c3a">
+   <rect x="727.401594" y="29.02875" width="218.736" height="218.736"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="2973" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">矩阵方向决定链式增长</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(44.883800 150.918352) scale(2.65000000)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 60.033594 247.76475 L 278.769594 247.76475 L 278.769594 29.02875 L 60.033594 29.02875 z " style="fill: #ffffff"/>
    </g>
@@ -37,9 +27,6 @@
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_3">
-      <defs>
-       <path id="m1313ab4113" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m1313ab4113" x="81.907194" y="247.76475" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
@@ -75,9 +62,6 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_6">
-      <defs>
-       <path id="m58120bd3a2" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m58120bd3a2" x="60.033594" y="225.89115" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
@@ -155,7 +139,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 1049.284 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="1061.28" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="1087.28" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">B</text></g><g transform="translate(-839.378800 1110.720560) scale(2.65000000)"><g id="axes_2">
    <g id="patch_8">
     <path d="M 393.717594 247.76475 L 612.453594 247.76475 L 612.453594 29.02875 L 393.717594 29.02875 z " style="fill: #ffffff"/>
    </g>
@@ -285,7 +269,7 @@
     </g>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M44 2009.086 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="2021.09" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="2047.09" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">C</text></g><g transform="translate(-1723.641400 2068.263696) scale(2.65000000)"><g id="axes_3">
    <g id="patch_14">
     <path d="M 727.401594 247.76475 L 946.137594 247.76475 L 946.137594 29.02875 L 727.401594 29.02875 z " style="fill: #ffffff"/>
    </g>
@@ -416,16 +400,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="pdcf9426e57">
-   <rect x="60.033594" y="29.02875" width="218.736" height="218.736"/>
-  </clipPath>
-  <clipPath id="pb8d7e668c9">
-   <rect x="393.717594" y="29.02875" width="218.736" height="218.736"/>
-  </clipPath>
-  <clipPath id="pc897ae7c3a">
-   <rect x="727.401594" y="29.02875" width="218.736" height="218.736"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

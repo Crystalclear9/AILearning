@@ -1,34 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="629.034" viewBox="0 0 1440 629.034" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">原实验两新点的横轴投影、垂直残差和保留方向得分</title><rect width="1440" height="629.034" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">原实验两新点的横轴投影、垂直残差和保留方向得分</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="487.034" viewBox="0 0 971.2214 351.9478" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T09:14:52.863270</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 351.947812 L 971.221406 351.947812 L 971.221406 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1612" viewBox="0 0 960 1612" role="img" aria-labelledby="diagram-title"><title id="diagram-title">原实验两新点的横轴投影、垂直残差和保留方向得分</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m8a67c194a7" d="M 0 2.95804 C 0.784481 2.95804 1.536938 2.646362 2.09165 2.09165 C 2.646362 1.536938 2.95804 0.784481 2.95804 0 C 2.95804 -0.784481 2.646362 -1.536938 2.09165 -2.09165 C 1.536938 -2.646362 0.784481 -2.95804 0 -2.95804 C -0.784481 -2.95804 -1.536938 -2.646362 -2.09165 -2.09165 C -2.646362 -1.536938 -2.95804 -0.784481 -2.95804 0 C -2.95804 0.784481 -2.646362 1.536938 -2.09165 2.09165 C -1.536938 2.646362 -0.784481 2.95804 0 2.95804 z " style="stroke: #728997"/>
+    <path id="C0_0_11c615a632" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 -0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z "/>
+    <path id="m4ec9eb11e6" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
+      <path id="m93d9845f01" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
+      <clipPath id="p0c72a37c1d">
+   <rect x="53.841406" y="39.58875" width="414.208546" height="262.72"/>
+  </clipPath>
+  <clipPath id="pb0193778c0">
+   <rect x="549.812861" y="39.58875" width="414.208546" height="262.72"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="1612" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">原实验两新点的横轴投影、垂直残差和保留方向</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">得分</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(56.774478 203.081203) scale(1.79304454)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 53.841406 302.30875 L 468.049952 302.30875 L 468.049952 39.58875 L 53.841406 39.58875 z " style="fill: #ffffff"/>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="m8a67c194a7" d="M 0 2.95804 C 0.784481 2.95804 1.536938 2.646362 2.09165 2.09165 C 2.646362 1.536938 2.95804 0.784481 2.95804 0 C 2.95804 -0.784481 2.646362 -1.536938 2.09165 -2.09165 C 1.536938 -2.646362 0.784481 -2.95804 0 -2.95804 C -0.784481 -2.95804 -1.536938 -2.646362 -2.09165 -2.09165 C -2.646362 -1.536938 -2.95804 -0.784481 -2.95804 0 C -2.95804 0.784481 -2.646362 1.536938 -2.09165 2.09165 C -1.536938 2.646362 -0.784481 2.95804 0 2.95804 z " style="stroke: #728997"/>
-    </defs>
     <g clip-path="url(#p0c72a37c1d)">
      <use xlink:href="#m8a67c194a7" x="76.155671" y="264.777321" style="fill: #728997; stroke: #728997"/>
      <use xlink:href="#m8a67c194a7" x="79.642275" y="264.777321" style="fill: #728997; stroke: #728997"/>
@@ -40,9 +26,6 @@
     </g>
    </g>
    <g id="PathCollection_2">
-    <defs>
-     <path id="C0_0_11c615a632" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 -0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z "/>
-    </defs>
     <g clip-path="url(#p0c72a37c1d)">
      <use xlink:href="#C0_0_11c615a632" x="435.275875" y="264.777321" style="fill: #2182a1; stroke: #2182a1"/>
     </g>
@@ -56,9 +39,6 @@
       <path d="M 86.615483 302.30875 L 86.615483 39.58875 " clip-path="url(#p0c72a37c1d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
-      <defs>
-       <path id="m4ec9eb11e6" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m4ec9eb11e6" x="86.615483" y="302.30875" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
@@ -148,9 +128,6 @@
       <path d="M 53.841406 302.30875 L 468.049952 302.30875 " clip-path="url(#p0c72a37c1d)" style="fill: none; stroke: #b0b0b0; stroke-opacity: 0.12; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_14">
-      <defs>
-       <path id="m93d9845f01" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m93d9845f01" x="53.841406" y="302.30875" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
@@ -282,7 +259,7 @@
     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="53.841406" y="21.58875" transform="rotate(-0 53.841406 21.58875)">A 横轴投影与垂直残差</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 873.216 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="885.22" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="911.22" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">B</text></g><g transform="translate(-832.524433 935.297338) scale(1.79304454)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 549.812861 302.30875 L 964.021406 302.30875 L 964.021406 39.58875 L 549.812861 39.58875 z " style="fill: #ffffff"/>
    </g>
@@ -472,13 +449,4 @@
     </g>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p0c72a37c1d">
-   <rect x="53.841406" y="39.58875" width="414.208546" height="262.72"/>
-  </clipPath>
-  <clipPath id="pb0193778c0">
-   <rect x="549.812861" y="39.58875" width="414.208546" height="262.72"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>

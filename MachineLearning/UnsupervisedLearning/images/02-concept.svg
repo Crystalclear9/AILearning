@@ -1,34 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1130.2353" viewBox="0 0 1440 1130.2353" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">PCA 的保留对象：主方向重构与低方差判别反例</title><rect width="1440" height="1130.2353" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">PCA 的保留对象：主方向重构与低方差判别反例</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="988.2353" viewBox="0 0 1224 900" version="1.1" x="48" y="106" overflow="hidden">
- <metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-04T18:01:08.571320</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
-  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- </defs>
- <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 900 L 1224 900 L 1224 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2612" viewBox="0 0 960 2612" role="img" aria-labelledby="diagram-title"><title id="diagram-title">PCA 的保留对象：主方向重构与低方差判别反例</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="C0_0_6affa85332" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 -0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z "/>
+    <path id="mc49ea711d3" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
+      <path id="m01fa2ce8b4" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
+      <path id="C1_0_10b9e2c1a5" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 -0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z "/>
+    <path id="m02f5636f1b" d="M 0 4.472136 C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278 C 4.000923 2.323632 4.472136 1.186024 4.472136 0 C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278 C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136 C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278 C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0 C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278 C -2.323632 4.000923 -1.186024 4.472136 0 4.472136 z " style="stroke: #cd7941"/>
+    <path id="m2fe7e776b7" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z " style="stroke: #cd7941"/>
+    <path id="mf8d7520f57" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z " style="stroke: #1f7e9c"/>
+    <clipPath id="p795d058eab">
+   <rect x="111.926252" y="63" width="457.258065" height="304.83871"/>
+  </clipPath>
+  <clipPath id="p38e2c53e04">
+   <rect x="714.249432" y="63" width="473.030568" height="304.83871"/>
+  </clipPath>
+  <clipPath id="p7a3a1ff5a2">
+   <rect x="104.04" y="514.16129" width="473.030568" height="304.83871"/>
+  </clipPath>
+  <clipPath id="pc0dd64a66c">
+   <rect x="714.249432" y="514.16129" width="473.030568" height="304.83871"/>
+  </clipPath>
+ </defs><rect x="0" y="0" width="960" height="2612" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">PCA 的保留对象：主方向重构与低方差判别反例</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(64.584413 68.721323) scale(1.42538856)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 111.926252 367.83871 L 569.184316 367.83871 L 569.184316 63 L 111.926252 63 z " style="fill: #ffffff"/>
    </g>
    <g id="PathCollection_1">
-    <defs>
-     <path id="C0_0_6affa85332" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 -0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z "/>
-    </defs>
     <g clip-path="url(#p795d058eab)">
      <use xlink:href="#C0_0_6affa85332" x="516.634468" y="97.574012" style="fill: #cd7941; stroke: #cd7941"/>
     </g>
@@ -81,9 +76,6 @@
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <defs>
-       <path id="mc49ea711d3" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#mc49ea711d3" x="137.329477" y="367.83871" style="fill: #66889b; stroke: #66889b; stroke-width: 0.8"/>
       </g>
@@ -139,9 +131,6 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_6">
-      <defs>
-       <path id="m01fa2ce8b4" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
-      </defs>
       <g>
        <use xlink:href="#m01fa2ce8b4" x="111.926252" y="367.83871" style="fill: #66889b; stroke: #66889b; stroke-width: 0.8"/>
       </g>
@@ -275,7 +264,7 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="340.555284" y="57" transform="rotate(-0 340.555284 57)">A  投影与重构残差</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g><path d="M44 721.138 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(-793.960157 695.859571) scale(1.42538856)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 714.249432 367.83871 L 1187.28 367.83871 L 1187.28 63 L 714.249432 63 z " style="fill: #ffffff"/>
    </g>
@@ -304,9 +293,6 @@
     <path d="M 1169.468798 367.83871 L 1169.468798 63 " clip-path="url(#p38e2c53e04)" style="fill: none; stroke: #e7eef1; stroke-linecap: square"/>
    </g>
    <g id="PathCollection_2">
-    <defs>
-     <path id="C1_0_10b9e2c1a5" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 -0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z "/>
-    </defs>
     <g clip-path="url(#p38e2c53e04)">
      <use xlink:href="#C1_0_10b9e2c1a5" x="1169.468798" y="190.682646" style="fill: #cd7941; stroke: #cd7941"/>
     </g>
@@ -459,14 +445,11 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="950.764716" y="57" transform="rotate(-0 950.764716 57)">B  高方差并未区分类别</text>
    </g>
   </g>
-  <g id="axes_3">
+  </g><path d="M44 1348.276 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(75.825387 679.648692) scale(1.42538856)"><g id="axes_3">
    <g id="patch_8">
     <path d="M 104.04 819 L 577.070568 819 L 577.070568 514.16129 L 104.04 514.16129 z " style="fill: #ffffff"/>
    </g>
    <g id="PathCollection_3">
-    <defs>
-     <path id="m02f5636f1b" d="M 0 4.472136 C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278 C 4.000923 2.323632 4.472136 1.186024 4.472136 0 C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278 C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136 C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278 C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0 C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278 C -2.323632 4.000923 -1.186024 4.472136 0 4.472136 z " style="stroke: #cd7941"/>
-    </defs>
     <g clip-path="url(#p7a3a1ff5a2)">
      <use xlink:href="#m02f5636f1b" x="125.541389" y="788.516129" style="fill: #cd7941; stroke: #cd7941"/>
      <use xlink:href="#m02f5636f1b" x="555.569178" y="544.645161" style="fill: #cd7941; stroke: #cd7941"/>
@@ -612,14 +595,11 @@
     </g>
    </g>
   </g>
-  <g id="axes_4">
+  </g><path d="M44 1978.530 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(-793.960157 1309.902432) scale(1.42538856)"><g id="axes_4">
    <g id="patch_11">
     <path d="M 714.249432 819 L 1187.28 819 L 1187.28 514.16129 L 714.249432 514.16129 z " style="fill: #ffffff"/>
    </g>
    <g id="PathCollection_4">
-    <defs>
-     <path id="m2fe7e776b7" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z " style="stroke: #cd7941"/>
-    </defs>
     <g clip-path="url(#pc0dd64a66c)">
      <use xlink:href="#m2fe7e776b7" x="1164.714361" y="571.920204" style="fill: #cd7941; stroke: #cd7941"/>
     </g>
@@ -660,9 +640,6 @@
     </g>
    </g>
    <g id="PathCollection_12">
-    <defs>
-     <path id="mf8d7520f57" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z " style="stroke: #1f7e9c"/>
-    </defs>
     <g clip-path="url(#pc0dd64a66c)">
      <use xlink:href="#mf8d7520f57" x="736.815071" y="600.79966" style="fill: #1f7e9c; stroke: #1f7e9c"/>
     </g>
@@ -866,19 +843,4 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="950.764716" y="508.16129" transform="rotate(-0 950.764716 508.16129)">D  保留下来的可区分性</text>
    </g>
   </g>
- </g>
- <defs>
-  <clipPath id="p795d058eab">
-   <rect x="111.926252" y="63" width="457.258065" height="304.83871"/>
-  </clipPath>
-  <clipPath id="p38e2c53e04">
-   <rect x="714.249432" y="63" width="473.030568" height="304.83871"/>
-  </clipPath>
-  <clipPath id="p7a3a1ff5a2">
-   <rect x="104.04" y="514.16129" width="473.030568" height="304.83871"/>
-  </clipPath>
-  <clipPath id="pc0dd64a66c">
-   <rect x="714.249432" y="514.16129" width="473.030568" height="304.83871"/>
-  </clipPath>
- </defs>
-</svg></svg>
+ </g></svg>
