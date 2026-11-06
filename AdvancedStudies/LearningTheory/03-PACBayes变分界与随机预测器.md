@@ -7,7 +7,6 @@
 ## 本章目录
 
 - [1. 把预测对象从单个函数扩展为分布](#sec-1)
-  - [科学图解：随机预测器从后验中抽取](#scientific-plate-03)
   - [1.1 四种随机性必须先分开](#notation-probability)
   - [1.2 先验与后验是数学角色，不限定训练方式](#prior-posterior-roles)
   - [1.3 KL 散度与支持：为什么有些后验代价无穷](#absolute-continuity)
@@ -23,6 +22,7 @@
   - [3.3 多个先验的选择也需要控制](#prior-selection)
 - [4. Gibbs 后验与变分恒等式的完整算例](#sec-4)
   - [4.1 为什么指数权重恰好最小化风险加 KL](#variational-identity)
+  - [科学图解：随机预测器从后验中抽取](#scientific-plate-03)
   - [4.2 逆温度如何平衡先验偏好与经验拟合](#temperature-limits)
   - [4.3 两个固定模型的完整数字](#two-model-example)
   - [4.4 与有限类模型选择的关系](#finite-class-connection)
@@ -56,15 +56,6 @@
 <a id="sec-1"></a>
 
 ## 1. 把预测对象从单个函数扩展为分布
-
-
-<a id="scientific-plate-03"></a>
-
-### 科学图解：随机预测器从后验中抽取
-
-![随机预测器从后验中抽取](images/03-scientific-plate.webp)
-
-蓝色曲面示意训练损失的空间几何，红色密度示意学习到的后验集中区，两个高度不能直接比较。Gibbs预测器抽出一个预测器，再面对新样本；后验可以是为界或预测选定的分布，不一定是贝叶斯更新的精确后验。相应风险也不能直接替换成均值网络的风险。
 
 <a id="notation-probability"></a>
 
@@ -293,6 +284,14 @@ $$
 +\lambda\sum_hQ(h)\widehat R(h)+\log Z.
 \end{aligned}
 $$
+
+<a id="scientific-plate-03"></a>
+
+Gibbs 形式给出的是预测器上的分布。沿图从先验到抽取预测器，可以区分学习分布和使用分布这两个步骤。
+
+![随机预测器从后验中抽取](images/03-scientific-plate.webp)
+
+蓝色曲面示意训练损失的空间几何，红色密度示意学习到的后验集中区，两个高度不能直接比较。Gibbs预测器抽出一个预测器，再面对新样本；后验可以是为界或预测选定的分布，不一定是贝叶斯更新的精确后验。相应风险也不能直接替换成均值网络的风险。
 
 整理得到精确恒等式
 
