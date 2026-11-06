@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3182" viewBox="0 0 960 3182" role="img" aria-labelledby="diagram-title"><title id="diagram-title">固定分量质量下的密度尖峰收缩与四点观察似然</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3105.415697" viewBox="0 76.584303 960 3105.415697" role="img" aria-labelledby="diagram-title"><rect x="0" y="76.584303" width="960" height="3105.415697" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">固定分量质量下的密度尖峰收缩与四点观察似然</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mefd9e03c66" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
       <path id="m6547f4b9e3" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
       <path id="mb20a731c30" d="M 0 7.5 L 0 -7.5 " style="stroke: #233b53; stroke-width: 2"/>
@@ -14,7 +14,7 @@
   <clipPath id="p59ebd65db9">
    <rect x="772.999737" y="37.388125" width="255.505263" height="299.376"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="3182" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">固定分量质量下的密度尖峰收缩与四点观察似然</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(76.02096 110.72896) scale(2.51029820)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="3182" fill="#ffffff"/><g transform="translate(76.02096 110.72896) scale(2.51029820)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 57.585 336.764125 L 313.090263 336.764125 L 313.090263 37.388125 L 57.585 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -184,10 +184,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="50.585" y="43.783125" transform="rotate(-0 50.585 43.783125)">0.9</text>
      </g>
     </g>
-    <g id="text_15">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="19.99" y="187.076125" transform="rotate(-90 19.99 187.076125)">加权分量密度</text>
     </g>
-   </g>
    <g id="line2d_24">
     <path d="M 57.585 327.539948 L 62.357613 325.521194 L 67.641578 323.035549 L 73.777795 319.888295 L 93.3796 309.617349 L 97.640862 307.757581 L 101.390772 306.350865 L 104.970232 305.247447 L 108.208791 304.475681 L 111.44735 303.937073 L 114.515459 303.652974 L 117.583567 303.594907 L 120.651676 303.764062 L 123.719785 304.156972 L 126.958344 304.805543 L 130.196903 305.679886 L 133.776363 306.88554 L 137.526273 308.384335 L 141.787535 310.3276 L 147.0715 312.994676 L 156.105375 317.859254 L 164.457448 322.255108 L 170.082314 324.966839 L 175.195828 327.183385 L 179.968442 329.009343 L 184.570604 330.538437 L 189.343218 331.886741 L 194.115831 333.005992 L 199.229345 333.973735 L 204.683761 334.775243 L 210.649527 335.424519 L 217.467546 335.938042 L 225.649169 336.321898 L 236.217099 336.580583 L 252.068993 336.721999 L 289.056746 336.763459 L 313.090263 336.764099 L 313.090263 336.764099 " clip-path="url(#pe17feb58f0)" style="fill: none; stroke: #8d9aad; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
@@ -599,10 +596,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="765.999737" y="78.684179" transform="rotate(-0 765.999737 78.684179)">−4.5</text>
      </g>
     </g>
-    <g id="text_49">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="723.537237" y="187.076125" transform="rotate(-90 723.537237 187.076125)">四点观察总对数似然</text>
     </g>
-   </g>
    <g id="line2d_74">
     <path d="M 784.613612 297.823361 L 862.03945 239.252835 L 939.465287 172.610627 L 1016.891124 105.534463 " clip-path="url(#p59ebd65db9)" style="fill: none; stroke: #233b53; stroke-width: 3; stroke-linecap: square"/>
     <g clip-path="url(#p59ebd65db9)">
@@ -646,4 +640,4 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="772.999737" y="22.388125" transform="rotate(-0 772.999737 22.388125)">C  固定四点的总似然仍上升</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="223.576482" y="115.584303" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="加权分量密度" id="text_15" data-axis-label="matplotlib.axis_2">加权分量密度</text><text x="155.576478" y="2662.5793" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" aria-label="四点观察总对数似然" id="text_49" data-axis-label="matplotlib.axis_6"><tspan x="155.576478" dy="0">四点观察总</tspan><tspan x="155.576478" dy="28.32">对数似然</tspan></text></svg>

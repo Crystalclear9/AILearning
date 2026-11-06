@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1552" viewBox="0 0 960 1552" role="img" aria-labelledby="diagram-title"><title id="diagram-title">下界成立，不等于下界必然可达到</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1470" viewBox="0 82 960 1470" role="img" aria-labelledby="diagram-title"><title id="diagram-title">下界成立，不等于下界必然可达到</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="md199a5d8f8" d="M 0 0 L 0 3.5 " style="stroke: #527186; stroke-width: 0.8"/>
       <path id="m7129cfe504" d="M 0 0 L -3.5 0 " style="stroke: #527186; stroke-width: 0.8"/>
       <clipPath id="p20bb3e4aee">
@@ -8,7 +8,7 @@
   <clipPath id="p793adeaa88">
    <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1552" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">下界成立，不等于下界必然可达到</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(16.287515 132.460326) scale(1.99217424)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1552" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(16.287515 132.460326) scale(1.99217424)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -134,10 +134,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527186" x="64.28" y="47.003" transform="rotate(-0 64.28 47.003)">7</text>
      </g>
     </g>
-    <g id="text_12">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="46.92" y="162.432" transform="rotate(-90 46.92 162.432)">时间单位</text>
     </g>
-   </g>
    <g id="patch_6">
     <path d="M 71.28 284.256 L 71.28 40.608 " style="fill: none; stroke: #96a6bd; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -284,4 +281,4 @@
     <text style="font-size: 19.2px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="736.973217" y="34.608" transform="rotate(-0 736.973217 34.608)">三个独立任务：各耗时3</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="161.289695" y="190.358538" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.874788" fill="#25364a" text-anchor="start" aria-label="时间单位" id="text_12" data-axis-label="matplotlib.axis_2">时间单位</text></svg>

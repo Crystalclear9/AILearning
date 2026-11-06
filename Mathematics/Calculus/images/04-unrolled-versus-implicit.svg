@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1695" viewBox="0 0 960 1695" role="img" aria-labelledby="diagram-title"><title id="diagram-title">共享参数驱动三步内层迭代，以及有限步导数与隐式近似的差别</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1566" viewBox="0 129 960 1566" role="img" aria-labelledby="diagram-title"><title id="diagram-title">共享参数驱动三步内层迭代，以及有限步导数与隐式近似的差别</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mb51b47a37d" d="M 0 0 L 0 3.5 " style="stroke: #527588; stroke-width: 0.8"/>
       <path id="mf7fe8c31f8" d="M 0 0 L -3.5 0 " style="stroke: #527588; stroke-width: 0.8"/>
       <path id="me5821c790d" d="M 0 2.5 C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 C 2.236584 1.29895 2.5 0.663008 2.5 0 C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 C -1.29895 2.236584 -0.663008 2.5 0 2.5 z " style="stroke: #20759b"/>
@@ -10,7 +10,7 @@
   <clipPath id="p542c8032d0">
    <rect x="679.68" y="90.72" width="403.2" height="312.48"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1695" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">共享参数驱动三步内层迭代，以及有限步导数与</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">隐式近似的差别</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-37.629398 133.184208) scale(1.69765818)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1695" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-37.629398 133.184208) scale(1.69765818)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 158.88 302.946 C 164.672036 302.946 170.227624 301.16257 174.323212 297.988489 C 178.4188 294.814409 180.72 290.508828 180.72 286.02 C 180.72 281.531172 178.4188 277.225591 174.323212 274.051511 C 170.227624 270.87743 164.672036 269.094 158.88 269.094 C 153.087964 269.094 147.532376 270.87743 143.436788 274.051511 C 139.3412 277.225591 137.04 281.531172 137.04 286.02 C 137.04 290.508828 139.3412 294.814409 143.436788 297.988489 C 147.532376 301.16257 153.087964 302.946 158.88 302.946 z " clip-path="url(#pb95e1d61b6)" style="fill: #ffffff; stroke: #20759b; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
@@ -231,10 +231,7 @@
       <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527588" x="672.68" y="133.43375" transform="rotate(-0 672.68 133.43375)">1.0</text>
      </g>
     </g>
-    <g id="text_21">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #20354b" x="618.285938" y="246.96" transform="rotate(-90 618.285938 246.96)">外层目标对 θ 的导数</text>
     </g>
-   </g>
    <g id="line2d_17">
     <path d="M 679.68 320.74 L 700.901053 308.53375 L 722.122105 283.358359 L 743.343158 255.465171 L 764.564211 229.476229 L 785.785263 207.133182 L 807.006316 188.772017 L 828.227368 174.098961 L 849.448421 162.586692 L 870.669474 153.667034 L 891.890526 146.816721 L 913.111579 141.588667 L 934.332632 137.616821 L 955.553684 134.609359 L 976.774737 132.337687 L 997.995789 130.624891 L 1019.216842 129.335208 L 1040.437895 128.365084 L 1061.658947 127.635882 L 1082.88 127.088076 " clip-path="url(#p542c8032d0)" style="fill: none; stroke: #20759b; stroke-width: 2.6; stroke-linecap: square"/>
     <g clip-path="url(#p542c8032d0)">
@@ -327,4 +324,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="130.017677" y="1243.484682" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="外层目标对 θ 的导数" id="text_21" data-axis-label="matplotlib.axis_2"><tspan x="130.017677" dy="0">外层目标</tspan><tspan x="130.017677" dy="30.68">对 θ 的导</tspan><tspan x="130.017677" dy="30.68">数</tspan></text></svg>

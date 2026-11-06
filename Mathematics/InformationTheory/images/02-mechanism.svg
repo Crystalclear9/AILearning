@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2034" viewBox="0 0 960 2034" role="img" aria-labelledby="diagram-title"><title id="diagram-title">交换 KL 的两个分布会改变代价</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1954.658097" viewBox="0 79.341903 960 1954.658097" role="img" aria-labelledby="diagram-title"><rect x="0" y="79.341903" width="960" height="1954.658097" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">交换 KL 的两个分布会改变代价</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m16042a1db0" d="M 0 0 L 0 3.5 " style="stroke: #608295; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-7c7b" d="M 6338 -359 Q 6213 -503 6006 -853 Q 3975 -459 3200 884 Q 2644 -497 400 -897 Q 288 -684 131 -434 Q 2244 -147 2744 1047 L 275 1047 L 275 1484 L 2875 1484 Q 2925 1691 2956 1978 L 3456 1978 Q 3413 1697 3369 1484 L 6125 1484 L 6125 1047 L 3619 1047 Q 4450 -159 6338 -359 z M 325 3741 L 2975 3741 L 2975 5303 L 3450 5303 L 3450 3741 L 6075 3741 L 6075 3322 L 3450 3322 L 3450 2953 L 3625 3191 Q 5325 2528 6231 2128 L 6013 1722 Q 4956 2266 3450 2847 L 3450 2197 L 2975 2197 L 2975 3241 Q 1863 2191 450 1741 Q 319 1934 144 2153 Q 1569 2553 2538 3322 L 325 3322 L 325 3741 z M 5550 4784 Q 5163 4459 4394 3891 L 4069 4222 Q 4569 4578 5194 5122 L 5550 4784 z M 900 4791 L 1206 5122 Q 1875 4647 2306 4266 L 1969 3897 Q 1581 4284 900 4791 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-522b" d="M 538 4959 L 3375 4959 L 3375 2772 L 2888 2772 L 2888 3028 L 1025 3028 L 1025 2772 L 538 2772 L 538 4959 z M 300 2116 L 1316 2116 Q 1331 2431 1338 2822 L 1825 2822 Q 1816 2431 1797 2116 L 3431 2116 Q 3413 1028 3363 328 Q 3319 -684 2431 -678 Q 2006 -678 1563 -641 Q 1531 -347 1469 -122 Q 1963 -203 2350 -203 Q 2850 -209 2875 378 Q 2925 891 2938 1666 L 1769 1666 Q 1688 53 431 -859 Q 300 -666 88 -441 Q 1238 366 1288 1666 L 300 1666 L 300 2116 z M 5425 5278 L 5944 5278 L 5944 53 Q 5944 -747 5163 -747 Q 4756 -747 4175 -741 Q 4138 -484 4081 -178 Q 4725 -228 4994 -228 Q 5425 -228 5425 191 L 5425 5278 z M 4138 4647 L 4644 4647 L 4644 666 L 4138 666 L 4138 4647 z M 2888 4509 L 1025 4509 L 1025 3478 L 2888 3478 L 2888 4509 z " transform="scale(0.015625)"/>
@@ -86,7 +86,7 @@
   <clipPath id="pd444b1c09a">
    <rect x="570.250947" y="48.186875" width="518.148573" height="526.629676"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2034" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">交换 KL 的两个分布会改变代价</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(39.731703 101.731703) scale(1.44458839)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2034" fill="#ffffff"/><g transform="translate(39.731703 101.731703) scale(1.44458839)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 76.593125 277.12851 L 508.383603 277.12851 L 508.383603 48.186875 L 76.593125 48.186875 z " style="fill: #ffffff"/>
    </g>
@@ -231,14 +231,7 @@
       </g>
      </g>
     </g>
-    <g id="text_9">
-     <!-- 概率 -->
-     <g style="fill: #21364c" transform="translate(39.914531 180.657692) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-6982"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(100 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 96.219965 277.12851 L 168.025477 277.12851 L 168.025477 256.315634 L 96.219965 256.315634 z " clip-path="url(#p09b154866c)" style="fill: #1f6f94"/>
    </g>
@@ -478,25 +471,7 @@
       </g>
      </g>
     </g>
-    <g id="text_25">
-     <!-- KL 的分类贡献（nat） -->
-     <g style="fill: #21364c" transform="translate(28.78875 550.214952) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-4b"/>
-      <use xlink:href="#MicrosoftYaHei-4c" transform="translate(63.476562 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(114.794922 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(144.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5206" transform="translate(244.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7c7b" transform="translate(344.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8d21" transform="translate(444.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-732e" transform="translate(544.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(644.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6e" transform="translate(744.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-61" transform="translate(806.005859 0)"/>
-      <use xlink:href="#MicrosoftYaHei-74" transform="translate(861.279297 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(898.535156 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_12">
     <path d="M 96.219965 506.535713 L 168.025477 506.535713 L 168.025477 523.239949 L 96.219965 523.239949 z " clip-path="url(#p79873a9bc2)" style="fill: #1f6f94"/>
    </g>
@@ -849,22 +824,7 @@
       </g>
      </g>
     </g>
-    <g id="text_47">
-     <!-- KL 总和（nat） -->
-     <g style="fill: #21364c" transform="translate(533.572353 374.370932) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-4b"/>
-      <use xlink:href="#MicrosoftYaHei-4c" transform="translate(63.476562 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(114.794922 0)"/>
-      <use xlink:href="#MicrosoftYaHei-603b" transform="translate(144.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-548c" transform="translate(244.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(344.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6e" transform="translate(444.384766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-61" transform="translate(506.005859 0)"/>
-      <use xlink:href="#MicrosoftYaHei-74" transform="translate(561.279297 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(598.535156 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#pd444b1c09a)">
      <use xlink:href="#m15ced2715e" x="972.065887" y="393.293808" style="fill: #1f6f94; stroke: #1f6f94"/>
@@ -976,4 +936,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="153.377242" y="112.341903" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.002591" fill="#25364a" text-anchor="start" aria-label="概率" id="text_9" data-axis-label="matplotlib.axis_2">概率</text><text x="153.377242" y="571.333236" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.002591" fill="#25364a" text-anchor="start" aria-label="KL 的分类贡献（nat）" id="text_25" data-axis-label="matplotlib.axis_4">KL 的分类贡献（nat）</text><text x="153.377241" y="1062.227409" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.002591" fill="#25364a" text-anchor="start" aria-label="KL 总和（nat）" id="text_47" data-axis-label="matplotlib.axis_6">KL 总和（nat）</text></svg>

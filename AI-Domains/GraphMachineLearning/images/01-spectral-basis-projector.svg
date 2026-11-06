@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1070.6038" viewBox="0 0 1440 1070.6038" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">四节点环的重特征子空间旋转与不变投影矩阵</title><rect width="1440" height="1070.6038" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">四节点环的重特征子空间旋转与不变投影矩阵</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="928.6038" viewBox="26 60 1113 769" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden">
-<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="60" width="1113" height="769" fill="#ffffff"/><title id="title">四节点环的拉普拉斯特征子空间旋转</title><desc id="desc">四节点环组合拉普拉斯特征值为0,2,2,4。特征值2的两列正交特征向量允许旋转45度；节点坐标改变，但UU转置投影矩阵不变。</desc>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1113" height="769" viewBox="26 60 1113 769" role="img" aria-labelledby="title desc">
+<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="60" width="1113" height="769" fill="#ffffff"/><title id="title">四节点环的重特征子空间旋转与不变投影矩阵</title><desc id="desc">四节点环组合拉普拉斯特征值为0,2,2,4。特征值2的两列正交特征向量允许旋转45度；节点坐标改变，但UU转置投影矩阵不变。</desc>
 <rect width="1200" height="870" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1f3449">
 <text x="44" y="100" font-size="26" fill="#62819a" text-anchor="start" font-weight="400">四节点环 1—2—3—4—1；组合拉普拉斯的特征值为 0、2、2、4</text>
@@ -77,4 +77,4 @@
 <rect x="44" y="729" width="1112" height="101" rx="12" fill="url(#book-wash-eef4f9)" stroke="none"/>
 <text x="65" y="768" font-size="25" fill="#1f3449" text-anchor="start" font-weight="400">换基不变 ≠ 节点重编号不变：重编号时，P 的行与列必须一起重排。</text>
 <text x="65" y="807" font-size="25" fill="#1f3449" text-anchor="start" font-weight="400">只取重特征值中的一列，或只检查符号翻转，都不足以处理整个子空间。</text>
-</g></svg></svg>
+</g></svg>

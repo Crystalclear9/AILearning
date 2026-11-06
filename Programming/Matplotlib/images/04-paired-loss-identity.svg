@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1444" viewBox="0 0 960 1444" role="img" aria-labelledby="diagram-title"><title id="diagram-title">总体指标相同也可能掩盖不同的具体失败</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1360" viewBox="0 84 960 1360" role="img" aria-labelledby="diagram-title"><title id="diagram-title">总体指标相同也可能掩盖不同的具体失败</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m09acbc65f9" d="M 0 0 L 0 3.5 " style="stroke: #527186; stroke-width: 0.8"/>
       <path id="ma757d7c758" d="M 0 0 L -3.5 0 " style="stroke: #527186; stroke-width: 0.8"/>
       <path id="m37efcd919d" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z " style="stroke: #2073b2"/>
@@ -10,7 +10,7 @@
   <clipPath id="pd8169143f9">
    <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1444" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">总体指标相同也可能掩盖不同的具体失败</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(42.08115 92.65091) scale(1.89930517)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1444" fill="#ffffff"/><g transform="translate(42.08115 92.65091) scale(1.89930517)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -100,10 +100,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527186" x="64.28" y="58.077909" transform="rotate(-0 64.28 58.077909)">1</text>
      </g>
     </g>
-    <g id="text_10">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="46.92" y="162.432" transform="rotate(-90 46.92 162.432)">标签</text>
     </g>
-   </g>
    <g id="line2d_9">
     <g clip-path="url(#p6db0a02b72)">
      <use xlink:href="#m37efcd919d" x="108.262957" y="273.181091" style="fill: #2073b2; stroke: #2073b2"/>
@@ -272,10 +269,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527186" x="545.058435" y="69.152818" transform="rotate(-0 545.058435 69.152818)">0.20</text>
      </g>
     </g>
-    <g id="text_24">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="505.080935" y="162.432" transform="rotate(-90 505.080935 162.432)">逐条Brier损失</text>
     </g>
-   </g>
    <g id="patch_14">
     <path d="M 552.058435 284.256 L 552.058435 40.608 " style="fill: none; stroke: #96a6bd; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -300,4 +294,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="180.463623" y="146.777894" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.388883" fill="#25364a" text-anchor="start" aria-label="标签" id="text_10" data-axis-label="matplotlib.axis_2">标签</text><text x="180.46362" y="752.040024" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.388883" fill="#25364a" text-anchor="start" aria-label="逐条Brier损失" id="text_24" data-axis-label="matplotlib.axis_4">逐条Brier损失</text></svg>

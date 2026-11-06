@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1775" viewBox="0 0 960 1775" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">控制变量的贡献曲线及系数对应的精确方差</title><desc id="artwork-desc">控制变量消去哪部分波动？系数偏离又会怎样？</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1728" viewBox="0 47 960 1728" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">控制变量的贡献曲线及系数对应的精确方差</title><desc id="artwork-desc">控制变量消去哪部分波动？系数偏离又会怎样？</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mc6cbc9f999" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="m688e51435f" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="m58dec6351a" d="M 0 3.5 C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 C 3.131218 1.81853 3.5 0.928211 3.5 0 C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874 C 1.81853 -3.131218 0.928211 -3.5 0 -3.5 C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874 C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0 C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874 C -1.81853 3.131218 -0.928211 3.5 0 3.5 z " style="stroke: #ba602b"/>
@@ -9,7 +9,7 @@
   <clipPath id="p9a8943b8af">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1775" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">控制变量的贡献曲线及系数对应的精确方差</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-3.157937 27.545041) scale(0.983477)"><g id="text_39">
+ </defs><rect width="960" height="1775" fill="#ffffff"/><g transform="translate(-3.157937 27.545041) scale(0.983477)"><g id="text_39">
 
    <g style="fill: #47586b" transform="translate(51.84 81.648)">
     <text>
@@ -229,10 +229,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="108.2" y="205.99375" transform="rotate(-0 108.2 205.99375)">1.0</text>
      </g>
     </g>
-    <g id="text_15">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="53.805938" y="330.48" transform="rotate(-90 53.805938 330.48)">单次估计贡献</text>
     </g>
-   </g>
    <g id="line2d_27">
     <polyline clip-path="url(#pb2a2a7e923)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="115.2,428.4 124.272,428.28336 133.344,427.93344 142.416,427.35024 151.488,426.53376 160.56,425.484 169.632,424.20096 178.704,422.68464 187.776,420.93504 196.848,418.95216 205.92,416.736 214.992,414.28656 224.064,411.60384 233.136,408.68784 242.208,405.53856 251.28,402.156 260.352,398.54016 269.424,394.69104 278.496,390.60864 287.568,386.29296 296.64,381.744 305.712,376.96176 314.784,371.94624 323.856,366.69744 332.928,361.21536 343.008,354.85056 353.088,348.19776 363.168,341.25696 373.248,334.02816 383.328,326.51136 393.408,318.70656 403.488,310.61376 413.568,302.23296 423.648,293.56416 433.728,284.60736 443.808,275.36256 453.888,265.82976 463.968,256.00896 474.048,245.90016 485.136,234.44784 496.224,222.64704 507.312,210.49776 518.4,198 518.4,198"/>
    </g>
@@ -548,4 +545,4 @@
     <rect x="233.820605" y="-5.514063" width="30.729932" height="1.4375"/>
    </g>
   </g>
- </g></svg>
+ </g><text x="223.991018" y="171.26462" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="单次估计贡献" id="text_15" data-axis-label="matplotlib.axis_2">单次估计贡献</text></svg>

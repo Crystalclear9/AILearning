@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1658" viewBox="0 0 960 1658" role="img" aria-labelledby="diagram-title"><title id="diagram-title">固定直线与随尺度转动的弯曲路径，具有不同的归一化余项极限</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1529" viewBox="0 129 960 1529" role="img" aria-labelledby="diagram-title"><title id="diagram-title">固定直线与随尺度转动的弯曲路径，具有不同的归一化余项极限</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m89941c1739" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-2e" d="M 372 322 Q 372 491 487 606 Q 603 722 775 722 Q 950 722 1065 605 Q 1181 488 1181 322 Q 1181 159 1065 42 Q 950 -75 772 -75 Q 600 -75 486 42 Q 372 159 372 322 z " transform="scale(0.015625)"/>
@@ -76,7 +76,7 @@
   <clipPath id="p79575018f1">
    <rect x="504.519669" y="23.38899" width="412.430091" height="311.723739"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1658" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">固定直线与随尺度转动的弯曲路径，具有不同的</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">归一化余项极限</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(84.427030 210.562084) scale(1.67101245)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1658" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(84.427030 210.562084) scale(1.67101245)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 59.122754 335.112729 L 370.846493 335.112729 L 370.846493 23.38899 L 59.122754 23.38899 z " style="fill: #ffffff"/>
    </g>
@@ -274,18 +274,7 @@
       </g>
      </g>
     </g>
-    <g id="text_14">
-     <!-- 第二坐标 y -->
-     <g transform="translate(22.848848 217.853359) rotate(-90) scale(0.16 -0.16)">
-      <use xlink:href="#MicrosoftYaHei-7b2c"/>
-      <use xlink:href="#MicrosoftYaHei-4e8c" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5750" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-79" transform="translate(429.589844 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_13">
     <path d="M 59.122754 335.112729 L 364.734263 29.50122 L 364.734263 29.50122 " clip-path="url(#pc634354700)" style="fill: none; stroke: #2174a1; stroke-width: 2; stroke-linecap: square"/>
    </g>
@@ -899,4 +888,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="186.221888" y="190.645377" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.736199" fill="#25364a" text-anchor="start" aria-label="第二坐标 y" id="text_14" data-axis-label="matplotlib.axis_2">第二坐标 y</text></svg>

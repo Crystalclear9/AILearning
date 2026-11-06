@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1128" viewBox="0 0 960 1128" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1058.36" viewBox="0 69.64 960 1058.36" role="img" aria-labelledby="title desc">
 <title id="title">岭回归对参数和预测做了什么</title><desc id="desc">使用相同奇异值。参数增益在 0.1 和 10 时相同，预测保留比例却分别约为百分之一和百分之九十九。</desc>
 <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#536f86"/></marker></defs>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0" y="0" width="960" height="1128" rx="0" fill="#fff" stroke="none" stroke-width="1.8"/>
-<text x="44" y="61" font-size="39" fill="#172a40" font-weight="700" text-anchor="start">岭回归对参数和预测做了什么</text>
 <text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">固定 λ = 1，沿同一个奇异方向跟踪两次变换</text>
 <rect x="44" y="134" width="240" height="67" rx="10" fill="#f7fafc" stroke="#cedae4" stroke-width="1.8"/>
 <text x="164" y="178" font-size="27" fill="#172a40" font-weight="650" text-anchor="middle">观测投影</text>

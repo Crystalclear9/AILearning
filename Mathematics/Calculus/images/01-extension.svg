@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="513" viewBox="0 0 960 513" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">绝对值函数的支持线、左右差商与零点次微分竖段</title><desc id="artwork-desc">尖点处的斜率：差商、支持线与次微分 左右差商不一致；但所有 g∈[−1,1] 都满足 |z|≥g·z。</desc><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="415.704545"/></clipPath></defs><rect width="960" height="513" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">绝对值函数的支持线、左右差商与零点次微分竖段</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(23.448864 42.392045) scale(0.807884)"><g><title>绝对值函数的支持线、单侧差商与次微分图像</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1039.789723" height="466" viewBox="-79.789723 47 1039.789723 466" role="img" aria-labelledby="artwork-title artwork-desc"><rect x="-79.789723" y="47" width="1039.789723" height="466" fill="#ffffff" id="plate-canvas"/><title id="artwork-title">绝对值函数的支持线、左右差商与零点次微分竖段</title><desc id="artwork-desc">尖点处的斜率：差商、支持线与次微分 左右差商不一致；但所有 g∈[−1,1] 都满足 |z|≥g·z。</desc><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="415.704545"/></clipPath></defs><rect width="960" height="513" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(23.448864 42.392045) scale(0.807884)"><g><title>绝对值函数的支持线、单侧差商与次微分图像</title>
  <metadata xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <rdf:RDF>
    <cc:Work>
@@ -182,10 +182,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="96.68" y="195.91375" transform="rotate(-0 96.68 195.91375)">2.0</text>
      </g>
     </g>
-    <g id="text_13">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="42.285937" y="330.48" transform="rotate(-90 42.285937 330.48)">函数与支持线</text>
     </g>
-   </g>
    <g id="line2d_23">
     <polyline clip-path="url(#pb90076a362)" style="fill: none; stroke: #15688c; stroke-width: 4; stroke-linecap: square" points="93.489231,236.797714 236.16,350.845714 378.830769,236.797714 378.830769,236.797714"/>
    </g>
@@ -553,10 +550,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="833.96" y="195.91375" transform="rotate(-0 833.96 195.91375)">1.5</text>
      </g>
     </g>
-    <g id="text_41">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="779.43875" y="330.48" transform="rotate(-90 779.43875 330.48)">允许的次梯度 g</text>
     </g>
-   </g>
    <g id="line2d_77">
     <line clip-path="url(#p1f2b3d428a)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" x1="851.150769" y1="425.52" x2="973.44" y2="425.52"/>
    </g>
@@ -604,4 +598,4 @@
    <rect x="840.96" y="187.92" width="264.96" height="285.12"/>
   </clipPath>
  </defs>
-<desc> 尖点处的斜率：差商、支持线与次微分 左右差商不一致；但所有 g∈[−1,1] 都满足 |z|≥g·z。</desc></g></g></g></svg>
+<desc> 尖点处的斜率：差商、支持线与次微分 左右差商不一致；但所有 g∈[−1,1] 都满足 |z|≥g·z。</desc></g></g></g><text x="705.846993" y="135.209606" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="允许的次梯度 g" id="text_41" data-axis-label="matplotlib.axis_6">允许的次梯度 g</text><text x="42.210277" y="303.401549" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="函数与支持线" id="text_13" data-axis-label="matplotlib.axis_2"><tspan x="42.210277" dy="0">函数与支</tspan><tspan x="42.210277" dy="30.68">持线</tspan></text></svg>

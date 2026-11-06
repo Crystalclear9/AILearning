@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1547" viewBox="0 0 960 1547" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一个联合分布的概率面积与各条件分支的熵，稀有分支熵上升但加权平均下降</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1418" viewBox="0 129 960 1418" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一个联合分布的概率面积与各条件分支的熵，稀有分支熵上升但加权平均下降</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mcf84dead14" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-2e" d="M 372 322 Q 372 491 487 606 Q 603 722 775 722 Q 950 722 1065 605 Q 1181 488 1181 322 Q 1181 159 1065 42 Q 950 -75 772 -75 Q 600 -75 486 42 Q 372 159 372 322 z " transform="scale(0.015625)"/>
@@ -79,7 +79,7 @@
   <clipPath id="p10cca3541e">
    <rect x="474.246397" y="23.38899" width="516.353363" height="326.123739"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1547" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">同一个联合分布的概率面积与各条件分支的熵，</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">稀有分支熵上升但加权平均下降</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(42.638421 209.777441) scale(1.48104896)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1547" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(42.638421 209.777441) scale(1.48104896)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 61.035135 349.512729 L 387.158874 349.512729 L 387.158874 23.38899 L 61.035135 23.38899 z " style="fill: #ffffff"/>
    </g>
@@ -204,30 +204,7 @@
       </g>
      </g>
     </g>
-    <g id="text_8">
-     <!-- 纵向高度：条件比例 P(Y | X) -->
-     <g transform="translate(24.761229 287.934609) rotate(-90) scale(0.16 -0.16)">
-      <use xlink:href="#MicrosoftYaHei-7eb5"/>
-      <use xlink:href="#MicrosoftYaHei-5411" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-9ad8" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff1a" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6761" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4ef6" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6bd4" transform="translate(700 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4f8b" transform="translate(800 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(900 0)"/>
-      <use xlink:href="#MicrosoftYaHei-50" transform="translate(929.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-28" transform="translate(990.771484 0)"/>
-      <use xlink:href="#MicrosoftYaHei-59" transform="translate(1024.169922 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(1084.521484 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7c" transform="translate(1114.111328 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(1141.015625 0)"/>
-      <use xlink:href="#MicrosoftYaHei-58" transform="translate(1170.605469 0)"/>
-      <use xlink:href="#MicrosoftYaHei-29" transform="translate(1235.107422 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_6">
     <path d="M 61.035135 349.512729 L 61.035135 23.38899 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -567,18 +544,7 @@
       </g>
      </g>
     </g>
-    <g id="text_24">
-     <!-- 熵（bit） -->
-     <g transform="translate(438.064991 220.669609) rotate(-90) scale(0.16 -0.16)">
-      <use xlink:href="#MicrosoftYaHei-71b5"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-62" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-69" transform="translate(263.867188 0)"/>
-      <use xlink:href="#MicrosoftYaHei-74" transform="translate(290.478516 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(327.734375 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_11">
     <path d="M 497.717005 349.512729 L 572.665163 349.512729 L 572.665163 272.954658 L 497.717005 272.954658 z " clip-path="url(#p10cca3541e)" style="fill: #2174a1; opacity: 0.85"/>
    </g>
@@ -646,4 +612,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="136.034444" y="171.41768" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="纵向高度：条件比例 P(Y | X)" id="text_8" data-axis-label="matplotlib.axis_2"><tspan x="136.034444" dy="0">纵向高度：条件比例 P(Y |</tspan><tspan x="136.034444" dy="30.24">X)</tspan></text><text x="136.034443" y="925.345053" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="熵（bit）" id="text_24" data-axis-label="matplotlib.axis_4">熵（bit）</text></svg>

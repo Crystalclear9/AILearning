@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="890" viewBox="0 0 960 890" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="821.44" viewBox="0 68.56 960 821.44" role="img" aria-labelledby="title desc">
 <title id="title">显著差异与等效可以同时成立</title><desc id="desc">灰色 95% 区间用于检出非零差异，蓝色 90% 区间用于检验落在 -1 到 1 的等效范围。</desc>
 <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#536f86"/></marker></defs>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0" y="0" width="960" height="890" rx="0" fill="#fff" stroke="none" stroke-width="1.8"/>
-<text x="44" y="61" font-size="39" fill="#172a40" font-weight="700" text-anchor="start">显著差异与等效可以同时成立</text>
 <text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">同一个效应估计，用两条区间回答两个问题</text>
 <text x="49" y="167" font-size="27" fill="#465d72" font-weight="650" text-anchor="start">95%：排除 0 才建立差异</text>
 <text x="500" y="167" font-size="26" fill="#136d84" font-weight="650" text-anchor="start">90%：全部落入 ±1 才建立等效</text>

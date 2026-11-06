@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="727" viewBox="0 0 960 727" role="img" aria-labelledby="artwork-title"><title id="artwork-title">同一两层网络中，四种反向故障对四个参数块造成的相对误差</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="630"/></clipPath></defs><rect width="960" height="727" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">同一两层网络中，四种反向故障对四个参数块造成的相对误差</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.972222)"><g><title>错误分布沿计算依赖传播：先分参数块，再定位故障</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="689.326504" viewBox="0 37.673496 960 689.326504" role="img" aria-labelledby="artwork-title"><rect x="0" y="37.673496" width="960" height="689.326504" fill="#ffffff" id="plate-canvas"/><title id="artwork-title">同一两层网络中，四种反向故障对四个参数块造成的相对误差</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="630"/></clipPath><path id="MicrosoftYaHei-76f8" d="M 2738 4891 L 6025 4891 L 6025 -822 L 5550 -822 L 5550 -397 L 3213 -397 L 3213 -822 L 2738 -822 L 2738 4891 z M 94 1409 Q 784 2372 1128 3622 L 169 3622 L 169 4041 L 1138 4041 L 1138 5284 L 1594 5284 L 1594 4041 L 2506 4041 L 2506 3622 L 1594 3622 L 1594 2534 L 1844 2791 Q 2275 2372 2638 1984 L 2300 1653 Q 1956 2059 1594 2444 L 1594 -809 L 1138 -809 L 1138 2444 Q 800 1516 319 866 Q 225 1134 94 1409 z M 3213 28 L 5550 28 L 5550 1241 L 3213 1241 L 3213 28 z M 5550 4466 L 3213 4466 L 3213 3266 L 5550 3266 L 5550 4466 z M 3213 1653 L 5550 1653 L 5550 2853 L 3213 2853 L 3213 1653 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-5bf9" d="M 694 3691 Q 1234 2909 1741 2166 Q 2113 3081 2213 4147 L 250 4147 L 250 4622 L 2725 4622 L 2725 4166 Q 2553 2809 2059 1700 Q 2569 953 3044 247 L 2594 -53 Q 2203 563 1803 1181 Q 1247 163 388 -622 Q 263 -428 81 -166 Q 975 638 1500 1647 Q 919 2538 319 3434 L 694 3691 z M 2975 3941 L 5056 3941 L 5056 5278 L 5563 5278 L 5563 3941 L 6325 3941 L 6325 3466 L 5563 3466 L 5563 191 Q 5563 -716 4669 -716 Q 4388 -716 3744 -709 Q 3713 -478 3644 -147 Q 4263 -197 4588 -197 Q 5056 -197 5056 278 L 5056 3466 L 2975 3466 L 2975 3941 z M 3088 2684 L 3494 2928 Q 4000 2184 4388 1484 L 3919 1216 Q 3550 1922 3088 2684 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-68af" d="M 4988 5328 L 5438 5103 Q 5150 4684 4894 4347 L 5863 4347 L 5863 2566 L 5413 2566 L 5413 2741 L 4338 2741 L 4338 1953 L 6206 1953 Q 6106 934 6038 491 Q 5950 -72 5250 -72 Q 4931 -72 4538 -16 Q 4500 284 4450 503 Q 4894 416 5150 403 Q 5513 384 5575 584 Q 5656 947 5713 1541 L 4338 1541 L 4338 -859 L 3888 -859 L 3888 1197 Q 3156 234 2044 -416 Q 1888 -209 1706 -28 Q 2938 584 3694 1541 L 2319 1541 L 2525 3153 L 3888 3153 L 3888 3934 L 2431 3934 L 2431 4347 L 3300 4347 Q 3094 4728 2819 5097 L 3200 5328 Q 3494 4947 3719 4578 L 3356 4347 L 4356 4347 Q 4675 4809 4988 5328 z M 75 1378 Q 731 2397 1000 3584 L 175 3584 L 175 4022 L 1013 4022 L 1013 5297 L 1463 5297 L 1463 4022 L 2188 4022 L 2188 3584 L 1463 3584 L 1463 2984 L 1650 3166 Q 1981 2847 2325 2484 L 2000 2178 Q 1688 2559 1463 2784 L 1463 -859 L 1013 -859 L 1013 2434 Q 700 1416 275 828 Q 194 1097 75 1378 z M 5413 3934 L 4338 3934 L 4338 3153 L 5413 3153 L 5413 3934 z M 2819 1953 L 3888 1953 L 3888 2741 L 2913 2741 L 2819 1953 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-5ea6" d="M 1550 1216 L 1550 1628 L 5469 1628 L 5469 1222 Q 4903 613 4147 163 Q 5050 -200 6263 -309 L 6019 -797 Q 4625 -603 3644 -109 Q 2600 -619 1250 -866 Q 1150 -666 994 -416 Q 2231 -222 3166 166 Q 2497 600 2066 1216 L 1550 1216 z M 1363 3541 L 2294 3541 L 2294 4066 L 2769 4066 L 2769 3541 L 4538 3541 L 4538 4072 L 5013 4072 L 5013 3541 L 6150 3541 L 6150 3128 L 5013 3128 L 5013 1928 L 4538 1928 L 4538 2147 L 2769 2147 L 2769 1922 L 2294 1922 L 2294 3128 L 1363 3128 L 1363 3541 z M 3025 5172 L 3481 5391 Q 3694 5056 3909 4634 L 6213 4634 L 6213 4197 L 1225 4197 L 1225 2316 Q 1225 178 394 -872 Q 238 -666 38 -447 Q 725 397 738 2347 L 738 4634 L 3331 4634 Q 3188 4909 3025 5172 z M 2769 2547 L 4538 2547 L 4538 3128 L 2769 3128 L 2769 2547 z M 4819 1216 L 2588 1216 Q 3031 728 3656 391 Q 4334 741 4819 1216 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-8bef" d="M 1819 1484 L 3706 1484 Q 3750 1769 3756 2222 L 2044 2222 L 2044 2659 L 6069 2659 L 6069 2222 L 4244 2222 Q 4234 1753 4203 1484 L 6288 1484 L 6288 1047 L 4356 1047 Q 4913 -53 6363 -359 Q 6138 -628 5981 -828 Q 4538 -406 3984 850 Q 3569 -272 1969 -847 Q 1819 -653 1631 -441 Q 3188 53 3588 1047 L 1819 1047 L 1819 1484 z M 2325 5034 L 5750 5034 L 5750 2991 L 5275 2991 L 5275 3272 L 2800 3272 L 2800 2991 L 2325 2991 L 2325 5034 z M 2044 784 Q 2063 459 2088 247 Q 1294 -272 925 -584 L 631 -166 Q 844 9 844 378 L 844 2716 L 100 2716 L 100 3166 L 1325 3166 L 1325 284 Q 1763 578 2044 784 z M 5275 4616 L 2800 4616 L 2800 3691 L 5275 3691 L 5275 4616 z M 831 5153 Q 1281 4697 1725 4184 L 1294 3822 Q 881 4347 450 4822 L 831 5153 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-5dee" d="M 1094 -172 L 3419 -172 L 3419 891 L 1813 891 L 1813 1088 Q 1200 394 331 -197 Q 206 3 31 247 Q 1213 1028 1859 1984 L 200 1984 L 200 2409 L 2119 2409 Q 2275 2694 2409 3028 L 638 3028 L 638 3447 L 2569 3447 Q 2666 3728 2750 4041 L 488 4041 L 488 4466 L 2075 4466 Q 1813 4797 1513 5122 L 1869 5397 Q 2231 5047 2563 4672 L 2278 4466 L 4219 4466 L 3975 4684 Q 4344 5047 4631 5403 L 5056 5122 Q 4738 4772 4413 4466 L 6050 4466 L 6050 4041 L 3291 4041 Q 3206 3731 3109 3447 L 5813 3447 L 5813 3028 L 2963 3028 Q 2838 2700 2697 2409 L 6294 2409 L 6294 1984 L 2469 1984 Q 2259 1634 1997 1309 L 5613 1309 L 5613 891 L 3925 891 L 3925 -172 L 6213 -172 L 6213 -597 L 1094 -597 L 1094 -172 z " transform="scale(0.015625)"/>
+      </defs><rect width="960" height="727" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.972222)"><g><title>错误分布沿计算依赖传播：先分参数块，再定位故障</title>
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -228,26 +234,7 @@
       </g>
      </g>
     </g>
-    <g id="text_11">
-     <!-- 相对梯度误差 -->
-     <g style="fill: #21364c" transform="translate(14.990865 218.432785) rotate(-90) scale(0.15 -0.15)">
-      <defs>
-       <path id="MicrosoftYaHei-76f8" d="M 2738 4891 L 6025 4891 L 6025 -822 L 5550 -822 L 5550 -397 L 3213 -397 L 3213 -822 L 2738 -822 L 2738 4891 z M 94 1409 Q 784 2372 1128 3622 L 169 3622 L 169 4041 L 1138 4041 L 1138 5284 L 1594 5284 L 1594 4041 L 2506 4041 L 2506 3622 L 1594 3622 L 1594 2534 L 1844 2791 Q 2275 2372 2638 1984 L 2300 1653 Q 1956 2059 1594 2444 L 1594 -809 L 1138 -809 L 1138 2444 Q 800 1516 319 866 Q 225 1134 94 1409 z M 3213 28 L 5550 28 L 5550 1241 L 3213 1241 L 3213 28 z M 5550 4466 L 3213 4466 L 3213 3266 L 5550 3266 L 5550 4466 z M 3213 1653 L 5550 1653 L 5550 2853 L 3213 2853 L 3213 1653 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-5bf9" d="M 694 3691 Q 1234 2909 1741 2166 Q 2113 3081 2213 4147 L 250 4147 L 250 4622 L 2725 4622 L 2725 4166 Q 2553 2809 2059 1700 Q 2569 953 3044 247 L 2594 -53 Q 2203 563 1803 1181 Q 1247 163 388 -622 Q 263 -428 81 -166 Q 975 638 1500 1647 Q 919 2538 319 3434 L 694 3691 z M 2975 3941 L 5056 3941 L 5056 5278 L 5563 5278 L 5563 3941 L 6325 3941 L 6325 3466 L 5563 3466 L 5563 191 Q 5563 -716 4669 -716 Q 4388 -716 3744 -709 Q 3713 -478 3644 -147 Q 4263 -197 4588 -197 Q 5056 -197 5056 278 L 5056 3466 L 2975 3466 L 2975 3941 z M 3088 2684 L 3494 2928 Q 4000 2184 4388 1484 L 3919 1216 Q 3550 1922 3088 2684 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-68af" d="M 4988 5328 L 5438 5103 Q 5150 4684 4894 4347 L 5863 4347 L 5863 2566 L 5413 2566 L 5413 2741 L 4338 2741 L 4338 1953 L 6206 1953 Q 6106 934 6038 491 Q 5950 -72 5250 -72 Q 4931 -72 4538 -16 Q 4500 284 4450 503 Q 4894 416 5150 403 Q 5513 384 5575 584 Q 5656 947 5713 1541 L 4338 1541 L 4338 -859 L 3888 -859 L 3888 1197 Q 3156 234 2044 -416 Q 1888 -209 1706 -28 Q 2938 584 3694 1541 L 2319 1541 L 2525 3153 L 3888 3153 L 3888 3934 L 2431 3934 L 2431 4347 L 3300 4347 Q 3094 4728 2819 5097 L 3200 5328 Q 3494 4947 3719 4578 L 3356 4347 L 4356 4347 Q 4675 4809 4988 5328 z M 75 1378 Q 731 2397 1000 3584 L 175 3584 L 175 4022 L 1013 4022 L 1013 5297 L 1463 5297 L 1463 4022 L 2188 4022 L 2188 3584 L 1463 3584 L 1463 2984 L 1650 3166 Q 1981 2847 2325 2484 L 2000 2178 Q 1688 2559 1463 2784 L 1463 -859 L 1013 -859 L 1013 2434 Q 700 1416 275 828 Q 194 1097 75 1378 z M 5413 3934 L 4338 3934 L 4338 3153 L 5413 3153 L 5413 3934 z M 2819 1953 L 3888 1953 L 3888 2741 L 2913 2741 L 2819 1953 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-5ea6" d="M 1550 1216 L 1550 1628 L 5469 1628 L 5469 1222 Q 4903 613 4147 163 Q 5050 -200 6263 -309 L 6019 -797 Q 4625 -603 3644 -109 Q 2600 -619 1250 -866 Q 1150 -666 994 -416 Q 2231 -222 3166 166 Q 2497 600 2066 1216 L 1550 1216 z M 1363 3541 L 2294 3541 L 2294 4066 L 2769 4066 L 2769 3541 L 4538 3541 L 4538 4072 L 5013 4072 L 5013 3541 L 6150 3541 L 6150 3128 L 5013 3128 L 5013 1928 L 4538 1928 L 4538 2147 L 2769 2147 L 2769 1922 L 2294 1922 L 2294 3128 L 1363 3128 L 1363 3541 z M 3025 5172 L 3481 5391 Q 3694 5056 3909 4634 L 6213 4634 L 6213 4197 L 1225 4197 L 1225 2316 Q 1225 178 394 -872 Q 238 -666 38 -447 Q 725 397 738 2347 L 738 4634 L 3331 4634 Q 3188 4909 3025 5172 z M 2769 2547 L 4538 2547 L 4538 3128 L 2769 3128 L 2769 2547 z M 4819 1216 L 2588 1216 Q 3031 728 3656 391 Q 4334 741 4819 1216 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-8bef" d="M 1819 1484 L 3706 1484 Q 3750 1769 3756 2222 L 2044 2222 L 2044 2659 L 6069 2659 L 6069 2222 L 4244 2222 Q 4234 1753 4203 1484 L 6288 1484 L 6288 1047 L 4356 1047 Q 4913 -53 6363 -359 Q 6138 -628 5981 -828 Q 4538 -406 3984 850 Q 3569 -272 1969 -847 Q 1819 -653 1631 -441 Q 3188 53 3588 1047 L 1819 1047 L 1819 1484 z M 2325 5034 L 5750 5034 L 5750 2991 L 5275 2991 L 5275 3272 L 2800 3272 L 2800 2991 L 2325 2991 L 2325 5034 z M 2044 784 Q 2063 459 2088 247 Q 1294 -272 925 -584 L 631 -166 Q 844 9 844 378 L 844 2716 L 100 2716 L 100 3166 L 1325 3166 L 1325 284 Q 1763 578 2044 784 z M 5275 4616 L 2800 4616 L 2800 3691 L 5275 3691 L 5275 4616 z M 831 5153 Q 1281 4697 1725 4184 L 1294 3822 Q 881 4347 450 4822 L 831 5153 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-5dee" d="M 1094 -172 L 3419 -172 L 3419 891 L 1813 891 L 1813 1088 Q 1200 394 331 -197 Q 206 3 31 247 Q 1213 1028 1859 1984 L 200 1984 L 200 2409 L 2119 2409 Q 2275 2694 2409 3028 L 638 3028 L 638 3447 L 2569 3447 Q 2666 3728 2750 4041 L 488 4041 L 488 4466 L 2075 4466 Q 1813 4797 1513 5122 L 1869 5397 Q 2231 5047 2563 4672 L 2278 4466 L 4219 4466 L 3975 4684 Q 4344 5047 4631 5403 L 5056 5122 Q 4738 4772 4413 4466 L 6050 4466 L 6050 4041 L 3291 4041 Q 3206 3731 3109 3447 L 5813 3447 L 5813 3028 L 2963 3028 Q 2838 2700 2697 2409 L 6294 2409 L 6294 1984 L 2469 1984 Q 2259 1634 1997 1309 L 5613 1309 L 5613 891 L 3925 891 L 3925 -172 L 6213 -172 L 6213 -597 L 1094 -597 L 1094 -172 z " transform="scale(0.015625)"/>
-      </defs>
-      <use xlink:href="#MicrosoftYaHei-76f8"/>
-      <use xlink:href="#MicrosoftYaHei-5bf9" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-68af" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 69.668965 293.372818 L 148.596491 293.372818 L 148.596491 98.803431 L 69.668965 98.803431 z " clip-path="url(#p6094822260)" style="fill: #136a8b"/>
    </g>
@@ -516,18 +503,7 @@
       </g>
      </g>
     </g>
-    <g id="text_27">
-     <!-- 相对梯度误差 -->
-     <g style="fill: #21364c" transform="translate(484.670625 218.432785) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-76f8"/>
-      <use xlink:href="#MicrosoftYaHei-5bf9" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-68af" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_10">
     <path d="M 539.348725 293.372818 L 618.276251 293.372818 L 618.276251 236.601202 L 539.348725 236.601202 z " clip-path="url(#p02d227618e)" style="fill: #136a8b"/>
    </g>
@@ -775,18 +751,7 @@
       </g>
      </g>
     </g>
-    <g id="text_43">
-     <!-- 相对梯度误差 -->
-     <g style="fill: #21364c" transform="translate(14.990865 527.620664) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-76f8"/>
-      <use xlink:href="#MicrosoftYaHei-5bf9" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-68af" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_17">
     <path d="M 69.668965 602.560698 L 148.596491 602.560698 L 148.596491 484.486398 L 69.668965 484.486398 z " clip-path="url(#p6d03c1adaf)" style="fill: #136a8b"/>
    </g>
@@ -1040,18 +1005,7 @@
       </g>
      </g>
     </g>
-    <g id="text_59">
-     <!-- 相对梯度误差 -->
-     <g style="fill: #21364c" transform="translate(484.670625 527.620664) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-76f8"/>
-      <use xlink:href="#MicrosoftYaHei-5bf9" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-68af" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_24">
     <path d="M 539.348725 602.560698 L 618.276251 602.560698 L 618.276251 602.560698 L 539.348725 602.560698 z " clip-path="url(#p065b4bf834)" style="fill: #136a8b"/>
    </g>
@@ -1201,4 +1155,4 @@
    <rect x="520.603437" y="362.680631" width="412.396323" height="239.880067"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="77.50912" y="69.006829" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="相对梯度误差" id="text_11" data-axis-label="matplotlib.axis_2">相对梯度误差</text><text x="534.142115" y="69.006829" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="相对梯度误差" id="text_27" data-axis-label="matplotlib.axis_4">相对梯度误差</text><text x="89.50912" y="405.606088" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="middle" aria-label="相对梯度误差" id="text_43" data-axis-label="matplotlib.axis_6">相对梯度误差</text><text x="531.142115" y="405.606088" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="middle" aria-label="相对梯度误差" id="text_59" data-axis-label="matplotlib.axis_8">相对梯度误差</text></svg>

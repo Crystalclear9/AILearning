@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2609" viewBox="0 0 960 2609" role="img" aria-labelledby="diagram-title"><title id="diagram-title">回归误差的尺度：同样零均值也有不同局部风险</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1026.871039" height="2534.713567" viewBox="-66.871039 74.286433 1026.871039 2534.713567" role="img" aria-labelledby="diagram-title"><rect x="-66.871039" y="74.286433" width="1026.871039" height="2534.713567" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">回归误差的尺度：同样零均值也有不同局部风险</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="C0_0_741ffd2e23" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 -0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z "/>
     <path id="C1_0_2696284a98" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 -0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z "/>
     <path id="C2_0_69928252a4" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 -0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z "/>
@@ -17,7 +17,7 @@
   <clipPath id="pe1548565c8">
    <rect x="571.214752" y="387.961875" width="392.677748" height="219.13375"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2609" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">回归误差的尺度：同样零均值也有不同局部风险</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(47.489281 111.061269) scale(1.81303698)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2609" fill="#ffffff"/><g transform="translate(47.489281 111.061269) scale(1.81303698)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 68.5625 259.521875 L 461.240248 259.521875 L 461.240248 40.388125 L 68.5625 40.388125 z " style="fill: #ffffff"/>
    </g>
@@ -172,10 +172,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #233b53" x="61.5625" y="47.182812" transform="rotate(-0 61.5625 47.182812)">15</text>
      </g>
     </g>
-    <g id="text_12">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="20.789375" y="149.955" transform="rotate(-90 20.789375 149.955)">残差（原单位）</text>
     </g>
-   </g>
    <g id="line2d_18">
     <path d="M 86.411489 164.563917 L 86.411489 135.346083 " clip-path="url(#pabc1ed2769)" style="fill: none; stroke: #2182a1; stroke-width: 2; stroke-linecap: square"/>
    </g>
@@ -299,10 +296,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #233b53" x="564.214752" y="55.611034" transform="rotate(-0 564.214752 55.611034)">15</text>
      </g>
     </g>
-    <g id="text_22">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="536.050846" y="149.955" transform="rotate(-90 536.050846 149.955)">MAE＝RMSE（原单位）</text>
     </g>
-   </g>
    <g id="patch_9">
     <path d="M 571.214752 259.521875 L 571.214752 40.388125 " style="fill: none; stroke: #8d9bb0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -446,10 +440,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #233b53" x="61.5625" y="403.184784" transform="rotate(-0 61.5625 403.184784)">2.5</text>
      </g>
     </g>
-    <g id="text_36">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="29.305313" y="497.52875" transform="rotate(-90 29.305313 497.52875)">MAE ÷ 参考尺度</text>
     </g>
-   </g>
    <g id="patch_15">
     <path d="M 68.5625 607.095625 L 68.5625 387.961875 " style="fill: none; stroke: #8d9bb0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -630,10 +621,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #233b53" x="564.214752" y="418.235179" transform="rotate(-0 564.214752 418.235179)">100</text>
      </g>
     </g>
-    <g id="text_54">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="526.08194" y="497.52875" transform="rotate(-90 526.08194 497.52875)">平方误差占比（%）</text>
     </g>
-   </g>
    <g id="patch_21">
     <path d="M 571.214752 607.095625 L 571.214752 387.961875 " style="fill: none; stroke: #8d9bb0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -653,4 +641,4 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="571.214752" y="369.961875" transform="rotate(-0 571.214752 369.961875)">D 谁主导总平方误差</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="174.795629" y="111.286433" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.821629" fill="#25364a" text-anchor="start" aria-label="残差（原单位）" id="text_12" data-axis-label="matplotlib.axis_2">残差（原单位）</text><text x="174.795629" y="1318.727828" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.821629" fill="#25364a" text-anchor="start" aria-label="MAE ÷ 参考尺度" id="text_36" data-axis-label="matplotlib.axis_6">MAE ÷ 参考尺度</text><text x="174.795628" y="1965.773896" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.821629" fill="#25364a" text-anchor="start" aria-label="平方误差占比（%）" id="text_54" data-axis-label="matplotlib.axis_8">平方误差占比（%）</text><text x="106.795628" y="997.277499" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="MAE＝RMSE（原单位）" id="text_22" data-axis-label="matplotlib.axis_4"><tspan x="106.795628" dy="0">MAE＝RMSE</tspan><tspan x="106.795628" dy="30.68">（原单位）</tspan></text></svg>

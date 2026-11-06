@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="630" viewBox="0 0 1440 630" role="img" aria-labelledby="title">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="550" viewBox="0 80 1440 550" role="img" aria-labelledby="title">
 <title id="title">PCA投影丢掉哪个方向</title>
 <defs>
 <marker id="ink" markerWidth="11" markerHeight="11" refX="9.5" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#172e46"/></marker>
@@ -8,9 +9,6 @@
 <marker id="purple" markerWidth="11" markerHeight="11" refX="9.5" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#7352a1"/></marker>
 </defs><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
 <rect x="0" y="0" width="1440" height="630" rx="10" fill="white" stroke-width="1.4"/>
-<rect x="44" y="35" width="5" height="37" rx="2" fill="#526bab" stroke-width="1.4"/>
-<text x="68" y="65" fill="#172e46" font-size="33" text-anchor="start" font-weight="700">PCA投影丢掉哪个方向</text>
-<line x1="44" y1="89" x2="1396" y2="89" stroke="#cbd9e6" stroke-width="1.6" stroke-linecap="round"/>
 <polygon points="264,243.6 844.8,327.2 592,506.4 11.2,422.8" fill="#e8f3fc" stroke="#286391" stroke-width="1.7"/>
 <line x1="290.4" y1="247.4" x2="37.6" y2="426.6" stroke="#cbd9e6" stroke-width="1.2" stroke-linecap="round"/>
 <line x1="422.4" y1="266.4" x2="169.6" y2="445.6" stroke="#cbd9e6" stroke-width="1.2" stroke-linecap="round"/>

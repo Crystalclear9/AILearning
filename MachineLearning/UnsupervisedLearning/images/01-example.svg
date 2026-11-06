@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2698" viewBox="0 0 960 2698" role="img" aria-labelledby="diagram-title"><title id="diagram-title">单链接、完全链接与 Ward 怎样度量同一次合并</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2614" viewBox="0 84 960 2614" role="img" aria-labelledby="diagram-title"><title id="diagram-title">单链接、完全链接与 Ward 怎样度量同一次合并</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m54e3344f76" d="M 0 0 L 0 3.5 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
       <path id="m8ce0dd8fb7" d="M 0 5.700877 C 1.51189 5.700877 2.962061 5.100197 4.031129 4.031129 C 5.100197 2.962061 5.700877 1.51189 5.700877 0 C 5.700877 -1.51189 5.100197 -2.962061 4.031129 -4.031129 C 2.962061 -5.100197 1.51189 -5.700877 0 -5.700877 C -1.51189 -5.700877 -2.962061 -5.100197 -4.031129 -4.031129 C -5.100197 -2.962061 -5.700877 -1.51189 -5.700877 0 C -5.700877 1.51189 -5.100197 2.962061 -4.031129 4.031129 C -2.962061 5.100197 -1.51189 5.700877 0 5.700877 z " style="stroke: #1f7e9c"/>
     <path id="m7f2766f656" d="M 0 0 L -3.5 0 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
@@ -15,7 +15,7 @@
   <clipPath id="p033bb9b392">
    <rect x="659.520108" y="443.406935" width="453.076923" height="268.258065"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2698" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">单链接、完全链接与 Ward 怎样度量同一次合并</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(67.82142 115.35782) scale(1.64397042)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2698" fill="#ffffff"/><g transform="translate(67.82142 115.35782) scale(1.64397042)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 52.397031 314.643065 L 505.473954 314.643065 L 505.473954 46.385 L 52.397031 46.385 z " style="fill: #ffffff"/>
    </g>
@@ -222,10 +222,7 @@
       <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #5c7c8d" x="652.520108" y="113.204869" transform="rotate(-0 652.520108 113.204869)">6</text>
      </g>
     </g>
-    <g id="text_22">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1f3449" x="631.909327" y="180.514032" transform="rotate(-90 631.909327 180.514032)">合并距离</text>
     </g>
-   </g>
    <g id="line2d_21">
     <path d="M 697.276518 314.643065 L 697.276518 279.804355 L 823.131219 279.804355 L 823.131219 314.643065 " clip-path="url(#p4722d0cb66)" style="fill: none; stroke: #1f7e9c; stroke-width: 2.7; stroke-linecap: square"/>
    </g>
@@ -359,10 +356,7 @@
       <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #5c7c8d" x="45.397031" y="510.226804" transform="rotate(-0 45.397031 510.226804)">6</text>
      </g>
     </g>
-    <g id="text_32">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1f3449" x="24.78625" y="577.535968" transform="rotate(-90 24.78625 577.535968)">合并距离</text>
     </g>
-   </g>
    <g id="line2d_41">
     <path d="M 90.153442 711.665 L 90.153442 676.82629 L 216.008142 676.82629 L 216.008142 711.665 " clip-path="url(#pd40aaa290e)" style="fill: none; stroke: #cd7941; stroke-width: 2.7; stroke-linecap: square"/>
    </g>
@@ -512,10 +506,7 @@
       <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #5c7c8d" x="652.520108" y="479.742933" transform="rotate(-0 652.520108 479.742933)">25</text>
      </g>
     </g>
-    <g id="text_44">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1f3449" x="620.767608" y="577.535968" transform="rotate(-90 620.767608 577.535968)">组内平方误差增量</text>
     </g>
-   </g>
    <g id="patch_13">
     <path d="M 680.114514 711.665 L 797.796831 711.665 L 797.796831 706.874677 L 680.114514 706.874677 z " clip-path="url(#p033bb9b392)" style="fill: #1f7e9c"/>
    </g>
@@ -569,4 +560,4 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #1f3449" x="659.520108" y="423.406935" transform="rotate(-0 659.520108 423.406935)">D  Ward：每一步增加多少 SSE</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="88.960589" y="1078.29933" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="合并距离" id="text_22" data-axis-label="matplotlib.axis_4"><tspan x="88.960589" dy="0">合并</tspan><tspan x="88.960589" dy="30.68">距离</tspan></text><text x="88.960589" y="1702.948977" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="合并距离" id="text_32" data-axis-label="matplotlib.axis_6"><tspan x="88.960589" dy="0">合并</tspan><tspan x="88.960589" dy="30.68">距离</tspan></text><text x="88.960589" y="2314.794257" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="23" fill="#25364a" aria-label="组内平方误差增量" id="text_44" data-axis-label="matplotlib.axis_8"><tspan x="88.960589" dy="0">组内平</tspan><tspan x="88.960589" dy="27.14">方误差</tspan><tspan x="88.960589" dy="27.14">增量</tspan></text></svg>

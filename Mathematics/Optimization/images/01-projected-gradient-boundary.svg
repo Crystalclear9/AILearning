@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1033" viewBox="0 0 960 1033" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="963.36" viewBox="0 69.64 960 963.36" role="img" aria-labelledby="title desc">
 <title id="title">投影把越界试探拉回可行域</title><desc id="desc">先作无约束梯度试探，再投影到非负半平面。最优点仍有非零普通梯度，但投影后的实际步长为零。</desc>
 <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#536f86"/></marker></defs>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0" y="0" width="960" height="1033" rx="0" fill="#fff" stroke="none" stroke-width="1.8"/>
-<text x="44" y="61" font-size="39" fill="#172a40" font-weight="700" text-anchor="start">投影把越界试探拉回可行域</text>
 <text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">可行域是 x ≥ 0，两个面板使用相同横纵比例</text>
 <rect x="44" y="143" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
 <text x="65" y="173" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">A</text>

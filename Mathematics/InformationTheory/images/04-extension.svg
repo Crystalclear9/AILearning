@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1847" viewBox="0 0 960 1847" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">独立候选取最大后互信息的精确分布及选择尾概率</title><desc id="artwork-desc">零假设下挑最大互信息，会改变整个参照分布</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1039.947026" height="1800" viewBox="-79.947026 47 1039.947026 1800" role="img" aria-labelledby="artwork-title artwork-desc"><rect x="-79.947026" y="47" width="1039.947026" height="1800" fill="#ffffff" id="plate-canvas"/><title id="artwork-title">独立候选取最大后互信息的精确分布及选择尾概率</title><desc id="artwork-desc">零假设下挑最大互信息，会改变整个参照分布</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mc3befff57d" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="mcba7380d04" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="m97359093bc" d="M 0 2 C 0.530406 2 1.03916 1.789267 1.414214 1.414214 C 1.789267 1.03916 2 0.530406 2 0 C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 C 1.03916 -1.789267 0.530406 -2 0 -2 C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 C -1.789267 -1.03916 -2 -0.530406 -2 0 C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 C -1.03916 1.789267 -0.530406 2 0 2 z " style="stroke: #15688c"/>
@@ -10,7 +10,7 @@
   <clipPath id="pfe5a26c1dc">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1847" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">独立候选取最大后互信息的精确分布及选择尾概率</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-2.402456 29.843041) scale(0.981177)"><g id="text_31">
+ </defs><rect width="960" height="1847" fill="#ffffff"/><g transform="translate(-2.402456 29.843041) scale(0.981177)"><g id="text_31">
    <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #47586b" x="51.84" y="81.648" transform="rotate(-0 51.84 81.648)">每个候选特征的同一八样本固定边际模型；本图特设候选之间独立</text>
   </g>
   </g><rect x="35" y="142.32" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="167.32" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(-8.460326 -21.482763) scale(1.714525)"><g id="axes_1">
@@ -140,10 +140,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="108.2" y="211.230114" transform="rotate(-0 108.2 211.230114)">1.0</text>
      </g>
     </g>
-    <g id="text_11">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="62.459062" y="330.48" transform="rotate(-90 62.459062 330.48)">精确概率质量</text>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 133.527273 486 L 165.633444 486 L 165.633444 340.578701 L 133.527273 340.578701 z " clip-path="url(#pcf7100b731)" style="fill: #15688c"/>
    </g>
@@ -357,10 +354,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="672.68" y="197.765179" transform="rotate(-0 672.68 197.765179)">1.0</text>
      </g>
     </g>
-    <g id="text_28">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="626.939062" y="330.48" transform="rotate(-90 626.939062 330.48)">P(最大互信息≥0.1887 bit)</text>
     </g>
-   </g>
    <g id="line2d_41">
     <polyline clip-path="url(#pfe5a26c1dc)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="679.68,342.117551 700.901053,268.120863 722.122105,230.065423 743.343158,210.494054 764.564211,200.428779 785.785263,195.252352 807.006316,192.590189 828.227368,191.221077 849.448421,190.516962 870.669474,190.154846 891.890526,189.968615 913.111579,189.872838 934.332632,189.823582 955.553684,189.79825 976.774737,189.785223 997.995789,189.778523 1019.216842,189.775077 1040.437895,189.773305 1061.658947,189.772394 1082.88,189.771925"/>
     <g clip-path="url(#pfe5a26c1dc)">
@@ -462,4 +456,4 @@
     <rect x="144.805664" y="-6.065625" width="20.486621" height="1.4375"/>
    </g>
   </g>
- </g></svg>
+ </g><text x="192.052954" y="172.490531" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="精确概率质量" id="text_11" data-axis-label="matplotlib.axis_2">精确概率质量</text><text x="112.052974" y="1371.676685" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="P(最大互信息≥0.1887 bit)" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="112.052974" dy="0">P(最大互信息≥</tspan><tspan x="112.052974" dy="30.68">0.1887 bit)</tspan></text></svg>

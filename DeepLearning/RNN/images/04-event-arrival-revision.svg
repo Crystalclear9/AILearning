@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1774" viewBox="0 0 960 1774" role="img" aria-labelledby="diagram-title"><title id="diagram-title">预测时刻6的事件到达二维可见区域与同一事件的两个发布时间版本</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1645" viewBox="0 129 960 1645" role="img" aria-labelledby="diagram-title"><title id="diagram-title">预测时刻6的事件到达二维可见区域与同一事件的两个发布时间版本</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="madc5a3d509" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="m242b4c9baf" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="C0_0_7c191fac35" d="M 0 5.91608  C 1.568963 5.91608 3.073876 5.292724 4.1833 4.1833  C 5.292724 3.073876 5.91608 1.568963 5.91608 -0  C 5.91608 -1.568963 5.292724 -3.073876 4.1833 -4.1833  C 3.073876 -5.292724 1.568963 -5.91608 0 -5.91608  C -1.568963 -5.91608 -3.073876 -5.292724 -4.1833 -4.1833  C -5.292724 -3.073876 -5.91608 -1.568963 -5.91608 0  C -5.91608 1.568963 -5.292724 3.073876 -4.1833 4.1833  C -3.073876 5.292724 -1.568963 5.91608 0 5.91608  z "/>
@@ -10,7 +10,7 @@
   <clipPath id="pb723889de2">
    <rect x="606.462" y="54.18625" width="391.68" height="303.264"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1774" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">预测时刻6的事件到达二维可见区域与同一事件的</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">两个发布时间版本</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(22.899605 126.476467) scale(1.83834358)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1774" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(22.899605 126.476467) scale(1.83834358)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 74.67 357.45025  L 377.934 357.45025  L 377.934 54.18625  L 74.67 54.18625  z " style="fill: #ffffff"/>
    </g>
@@ -176,10 +176,7 @@
       <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end" x="67.67" y="61.380625" transform="rotate(-0 67.67 61.380625)">10</text>
      </g>
     </g>
-    <g id="text_14">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="37.5875" y="205.81825" transform="rotate(-90 37.5875 205.81825)">到达时间</text>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 74.67 357.45025  L 256.6284 357.45025  L 256.6284 175.49185  L 74.67 175.49185  z " clip-path="url(#p9deb38d3a1)" style="fill: #e4eff6; stroke: #2075a6; stroke-width: 1.5; stroke-linejoin: miter"/>
    </g>
@@ -356,4 +353,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="163.16872" y="203.089412" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="到达时间" id="text_14" data-axis-label="matplotlib.axis_2">到达时间</text></svg>

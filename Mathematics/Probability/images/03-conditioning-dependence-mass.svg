@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="848.8881" viewBox="0 0 1440 848.8881" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">用概率质量看筛选如何制造依赖</title><rect width="1440" height="848.8881" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">用概率质量看筛选如何制造依赖</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="706.8881" viewBox="44.3333 80.1111 1292.6667 679.8889" role="img" x="48" y="106" overflow="hidden">
-<rect width="1400" height="760" fill="white"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1292.6667" height="679.8889" viewBox="44.3333 80.1111 1292.6667 679.8889" role="img" aria-labelledby="plate-title">
+<title xmlns:xlink="http://www.w3.org/1999/xlink" id="plate-title">用概率质量看筛选如何制造依赖</title><rect width="1400" height="760" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" fill="#143653">
 <text x="70.00" y="130.00" font-size="28" fill="#143653" text-anchor="start">A  未筛选：四个结果等概率</text>
 <text x="770.00" y="130.00" font-size="28" fill="#143653" text-anchor="start">B  只保留 X + Y = 1</text>
@@ -44,4 +44,4 @@
 <text x="100.00" y="190.00" font-size="24" fill="#143653" text-anchor="start">X、Y 为独立公平 Bernoulli</text>
 <text x="800.00" y="190.00" font-size="24" fill="#143653" text-anchor="start">条件事件 S = 1；保留概率 0.5</text>
 <text x="100.00" y="733.00" font-size="28" fill="#1c74be" text-anchor="start">Cov(X,Y) = 0</text>
-</g><desc> 原来独立的变量，为什么条件化后完全负相关？ Cov(X,Y | S=1) = −0.25；ρ = −1</desc><text x="800" y="733" font-size="26" fill="#bd6a3f" font-family="Microsoft YaHei, sans-serif">Cov(X,Y | S=1) = −0.25；ρ = −1</text></svg></svg>
+</g><desc> 原来独立的变量，为什么条件化后完全负相关？ Cov(X,Y | S=1) = −0.25；ρ = −1</desc><text x="800" y="733" font-size="26" fill="#bd6a3f" font-family="Microsoft YaHei, sans-serif">Cov(X,Y | S=1) = −0.25；ρ = −1</text></svg>

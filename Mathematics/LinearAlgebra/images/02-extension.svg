@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1772" viewBox="0 0 960 1772" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">精确拟合直线、最小范数点与岭正则的参数及残差路径</title><desc id="artwork-desc">最小范数选解，与正则化路径的极限 λ↓0 时岭解趋向 P=(0.5,0.5)；任意有限 λ&gt;0 的预测和都严格小于 1。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1725" viewBox="0 47 960 1725" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">精确拟合直线、最小范数点与岭正则的参数及残差路径</title><desc id="artwork-desc">最小范数选解，与正则化路径的极限 λ↓0 时岭解趋向 P=(0.5,0.5)；任意有限 λ&gt;0 的预测和都严格小于 1。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m1a1b11b305" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="m57f68e3580" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="mae02dfb353" d="M 0 3.5 C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 C 3.131218 1.81853 3.5 0.928211 3.5 0 C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874 C 1.81853 -3.131218 0.928211 -3.5 0 -3.5 C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874 C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0 C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874 C -1.81853 3.131218 -0.928211 3.5 0 3.5 z " style="stroke: #15688c"/>
@@ -10,7 +10,7 @@
   <clipPath id="pb4b0235d99">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1772" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">精确拟合直线、最小范数点与岭正则的参数及残差路径</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-2.13846 29.311066) scale(0.993965)"><g id="text_29">
+ </defs><rect width="960" height="1772" fill="#ffffff"/><g transform="translate(-2.13846 29.311066) scale(0.993965)"><g id="text_29">
    <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #47586b" x="51.84" y="81.648" transform="rotate(-0 51.84 81.648)">观测仅给出 z1+z2=1；比较精确拟合与有限强度岭正则</text>
   </g>
   </g><rect x="35" y="143.5" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="168.5" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(-87.254804 -19.37588) scale(1.705456)"><g id="axes_1">
@@ -323,10 +323,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="672.68" y="210.725179" transform="rotate(-0 672.68 210.725179)">1.0</text>
      </g>
     </g>
-    <g id="text_24">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="626.939062" y="330.48" transform="rotate(-90 626.939062 330.48)">预测与误差</text>
     </g>
-   </g>
    <g id="line2d_46">
     <polyline clip-path="url(#pb4b0235d99)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="679.68,202.731429 683.712,213.412747 687.744,223.302857 691.776,232.486531 695.808,241.036847 699.84,249.017143 703.872,256.482581 707.904,263.481429 711.936,270.056104 715.968,276.244034 720,282.078367 724.032,287.588571 729.072,294.060288 734.112,300.111763 739.152,305.782642 744.192,311.107735 749.232,316.117735 754.272,320.839803 759.312,325.298069 765.36,330.329884 771.408,335.045565 777.456,339.473996 783.504,343.640647 789.552,347.568066 796.608,351.874286 803.664,355.91016 810.72,359.700373 818.784,363.75904 826.848,367.553728 834.912,371.109381 843.984,374.850929 853.056,378.344874 862.128,381.615008 872.208,385.011252 882.288,388.181832 893.376,391.434725 904.464,394.466059 916.56,397.545928 929.664,400.642759 942.768,403.516549 956.88,406.388571 972,409.236923 988.128,412.043181 1005.264,414.792219 1023.408,417.471953 1042.56,420.073043 1062.72,422.588571 1082.88,424.902857 1082.88,424.902857"/>
    </g>
@@ -375,4 +372,4 @@
     </g>
    </g>
   </g>
-  </g></svg>
+  </g><text x="190.800886" y="992.33396" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="预测与误差" id="text_24" data-axis-label="matplotlib.axis_4">预测与误差</text></svg>

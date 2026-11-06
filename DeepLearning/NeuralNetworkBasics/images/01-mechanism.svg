@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="424" viewBox="0 0 960 424" role="img" aria-labelledby="artwork-title"><title id="artwork-title">相同决策边界可以对应不同置信度</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="326.559191"/></clipPath></defs><rect width="960" height="424" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">相同决策边界可以对应不同置信度</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.868575)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="386.592134" viewBox="0 37.407866 960 386.592134" role="img" aria-labelledby="artwork-title"><rect x="0" y="37.407866" width="960" height="386.592134" fill="#ffffff" id="plate-canvas"/><title id="artwork-title">相同决策边界可以对应不同置信度</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="326.559191"/></clipPath></defs><rect width="960" height="424" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.868575)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -452,10 +452,7 @@
       <text style="font-size: 20.23px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end" x="724.334542" y="42.934358" transform="rotate(-0 724.334542 42.934358)">1.0</text>
      </g>
     </g>
-    <g id="text_35">
-     <text style="font-size: 21.93px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle" x="692.077354" y="149.780357" transform="rotate(-90 692.077354 149.780357)">正类概率</text>
     </g>
-   </g>
    <g id="line2d_37">
     <polyline clip-path="url(#pda756762a6)" style="fill: none; stroke: #156f95; stroke-width: 3; stroke-linecap: square" points="745.321771,257.966038 752.806576,256.503393 759.355781,255.009703 765.904985,253.287513 771.518589,251.606606 777.132193,249.715129 782.745797,247.591428 788.359401,245.212934 793.973005,242.556509 798.651008,240.11374 803.329011,237.448611 808.007014,234.54845 812.685018,231.401467 817.363021,227.997148 822.041024,224.326687 826.719027,220.383452 831.397031,216.163466 836.075034,211.665894 840.753037,206.893496 846.366641,200.813674 851.980245,194.36803 857.593849,187.585971 864.143053,179.30081 871.627858,169.436482 881.919465,155.432764 899.695878,131.168129 907.180683,121.35007 913.729887,113.118344 919.343491,106.389906 924.957095,100.003448 930.570699,93.986787 935.248702,89.268946 939.926705,84.826792 944.604709,80.662331 949.282712,76.774061 953.960715,73.157435 958.638718,69.805349 963.316722,66.708618 967.994725,63.85644 972.672728,61.236819 977.350731,58.836949 982.964335,56.228463 988.577939,53.894031 994.191543,51.810581 999.805147,49.955674 1006.354351,48.051884 1012.903556,46.397956 1019.45276,44.964355 1025.066364,43.890447 1025.066364,43.890447"/>
    </g>
@@ -592,4 +589,4 @@
    <rect x="731.334542" y="29.252357" width="307.719052" height="241.056"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="663.2189" y="68.407866" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="正类概率" id="text_35" data-axis-label="matplotlib.axis_6">正类概率</text></svg>

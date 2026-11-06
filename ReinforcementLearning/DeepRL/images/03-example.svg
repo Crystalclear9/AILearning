@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1142" viewBox="0 0 960 1142" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1072.36" viewBox="0 69.64 960 1072.36" role="img" aria-labelledby="title desc">
 <title id="title">只用样本 A 更新，样本 B 也会变</title><desc id="desc">共享参数从零变为 0.1 后，A 预测变成 0.1，B 预测变成 0.2。联合损失从 0.5 降至 0.425，最小值在参数 0.2。</desc>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0.000" y="0.000" width="960.000" height="1142.000" rx="0" fill="#ffffff" stroke="none" stroke-width="1.6"/>
-<text x="44.000" y="61.000" fill="#172a40" font-size="38" font-weight="700" text-anchor="start">只用样本 A 更新，样本 B 也会变</text>
 <text x="46.000" y="106.000" fill="#465d72" font-size="26" font-weight="400" text-anchor="start">同一个参数经过两个输入，产生两份预测</text>
 <rect x="44.000" y="143.000" width="44.000" height="41.000" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.6"/>
 <text x="66.000" y="172.000" fill="#136d84" font-size="26" font-weight="700" text-anchor="middle">A</text>

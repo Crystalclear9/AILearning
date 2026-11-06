@@ -1,38 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="819" viewBox="0 0 960 819" role="img" aria-labelledby="title description">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="756" viewBox="0 63 960 756" role="img" aria-labelledby="title description">
 <title id="title">请求字节相同，缓存填充量可以不同</title>
 <desc id="description">A 请求 0 到 64 字节，填充一条线。B 请求 4 到 68 字节，填充两条线。C 每隔 64 字节读取 4 字节，填充十六条线。区间均为左闭右开。</desc>
 <rect x="0" y="0" width="960" height="819" rx="0" fill="#fff" stroke="none"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
-<rect x="36" y="26" width="5" height="32" rx="2" fill="#526bab" stroke="none"/>
-<text x="57.00" y="53.00" font-size="35" fill="#172e46" text-anchor="start" font-weight="700">请求字节相同，缓存填充量可以不同</text>
-<path d="M36.00 72.00L924.00 72.00" stroke="#d7e1ee" stroke-width="2" />
 <text x="53.00" y="144.00" font-size="30" fill="#172e46" text-anchor="start" font-weight="700">A  从缓存线边界开始</text>
 <text x="905.00" y="144.00" font-size="26" fill="#286391" text-anchor="end">触及 1 条线，填充 64 B</text>
 <rect x="202" y="180" width="336" height="46" rx="0" fill="#e8f0f7" stroke="#9fb8cc"/>
 <rect x="538" y="180" width="336" height="46" rx="0" fill="#eef4f8" stroke="#9fb8cc"/>
 <rect x="202.0" y="186" width="336.0" height="34" rx="0" fill="#286391" stroke="none"/>
-<path d="M202.00 170.00L202.00 233.00" stroke="#496477" stroke-width="2" />
+<path d="M202.00 170.00L202.00 233.00" stroke="#496477" stroke-width="2"/>
 <text x="202.00" y="263.00" font-size="25" fill="#496477" text-anchor="middle">0 B</text>
-<path d="M538.00 170.00L538.00 233.00" stroke="#496477" stroke-width="2" />
+<path d="M538.00 170.00L538.00 233.00" stroke="#496477" stroke-width="2"/>
 <text x="538.00" y="263.00" font-size="25" fill="#496477" text-anchor="middle">64 B</text>
-<path d="M874.00 170.00L874.00 233.00" stroke="#496477" stroke-width="2" />
+<path d="M874.00 170.00L874.00 233.00" stroke="#496477" stroke-width="2"/>
 <text x="874.00" y="263.00" font-size="25" fill="#496477" text-anchor="middle">128 B</text>
 <text x="53.00" y="331.00" font-size="30" fill="#172e46" text-anchor="start" font-weight="700">B  起点后移 4 B</text>
 <text x="905.00" y="331.00" font-size="26" fill="#136e64" text-anchor="end">触及 2 条线，填充 128 B</text>
 <rect x="202" y="367" width="336" height="46" rx="0" fill="#e8f0f7" stroke="#9fb8cc"/>
 <rect x="538" y="367" width="336" height="46" rx="0" fill="#eef4f8" stroke="#9fb8cc"/>
 <rect x="223.0" y="373" width="336.0" height="34" rx="0" fill="#136e64" stroke="none"/>
-<path d="M202.00 357.00L202.00 420.00" stroke="#496477" stroke-width="2" />
+<path d="M202.00 357.00L202.00 420.00" stroke="#496477" stroke-width="2"/>
 <text x="202.00" y="450.00" font-size="25" fill="#496477" text-anchor="middle">0 B</text>
-<path d="M538.00 357.00L538.00 420.00" stroke="#496477" stroke-width="2" />
+<path d="M538.00 357.00L538.00 420.00" stroke="#496477" stroke-width="2"/>
 <text x="538.00" y="450.00" font-size="25" fill="#496477" text-anchor="middle">64 B</text>
-<path d="M874.00 357.00L874.00 420.00" stroke="#496477" stroke-width="2" />
+<path d="M874.00 357.00L874.00 420.00" stroke="#496477" stroke-width="2"/>
 <text x="874.00" y="450.00" font-size="25" fill="#496477" text-anchor="middle">128 B</text>
-<path d="M223.00 407.00L223.00 477.00" stroke="#136e64" stroke-width="2.3" />
+<path d="M223.00 407.00L223.00 477.00" stroke="#136e64" stroke-width="2.3"/>
 <text x="245.00" y="485.00" font-size="24" fill="#136e64" text-anchor="start">4 B</text>
-<path d="M559.00 407.00L559.00 477.00" stroke="#136e64" stroke-width="2.3" />
+<path d="M559.00 407.00L559.00 477.00" stroke="#136e64" stroke-width="2.3"/>
 <text x="581.00" y="485.00" font-size="24" fill="#136e64" text-anchor="start">68 B</text>
-<path d="M53.00 508.00L905.00 508.00" stroke="#d7e1ee" stroke-width="2" />
+<path d="M53.00 508.00L905.00 508.00" stroke="#d7e1ee" stroke-width="2"/>
 <text x="53.00" y="562.00" font-size="30" fill="#172e46" text-anchor="start" font-weight="700">C  每隔一条缓存线取 4 B</text>
 <text x="905.00" y="562.00" font-size="26" fill="#b55532" text-anchor="end">触及 16 条线，填充 1024 B</text>
 <rect x="72" y="627" width="146" height="55" rx="4" fill="#f3f6fa" stroke="#a5b9c9"/>

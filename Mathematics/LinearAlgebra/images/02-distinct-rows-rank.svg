@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2964" viewBox="0 0 960 2964" role="img" aria-labelledby="diagram-title"><title id="diagram-title">样本多且没有重复，也可能无法识别系数</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2880" viewBox="0 84 960 2880" role="img" aria-labelledby="diagram-title"><title id="diagram-title">样本多且没有重复，也可能无法识别系数</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="MicrosoftYaHei-7279" d="M 81 1609 Q 666 1806 1238 2003 L 1238 3472 L 744 3472 Q 616 2878 431 2384 Q 238 2522 19 2659 Q 369 3484 475 4716 L 925 4641 Q 884 4250 822 3891 L 1238 3891 L 1238 5291 L 1706 5291 L 1706 3891 L 2488 3891 L 2488 3472 L 1706 3472 L 1706 2166 Q 2059 2291 2406 2416 Q 2438 2141 2475 1941 Q 2113 1813 1706 1663 L 1706 -828 L 1238 -828 L 1238 1488 Q 734 1297 175 1078 L 81 1609 z M 2263 3103 L 3981 3103 L 3981 4028 L 2525 4028 L 2525 4453 L 3981 4453 L 3981 5322 L 4469 5322 L 4469 4453 L 5988 4453 L 5988 4028 L 4469 4028 L 4469 3103 L 6275 3103 L 6275 2678 L 2263 2678 L 2263 3103 z M 2394 1834 L 4906 1834 L 4906 2497 L 5394 2497 L 5394 1834 L 6306 1834 L 6306 1409 L 5394 1409 L 5394 34 Q 5394 -747 4606 -753 Q 4325 -759 3756 -747 Q 3719 -503 3663 -209 Q 4156 -259 4513 -259 Q 4906 -259 4906 178 L 4906 1409 L 2394 1409 L 2394 1834 z M 2744 978 L 3106 1266 Q 3556 772 3881 366 L 3481 59 Q 3125 541 2744 978 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-5f81" d="M 2013 -59 L 2656 -59 L 2656 3141 L 3144 3141 L 3144 -59 L 4231 -59 L 4231 4453 L 2438 4453 L 2438 4922 L 6175 4922 L 6175 4453 L 4719 4453 L 4719 2559 L 6050 2559 L 6050 2097 L 4719 2097 L 4719 -59 L 6269 -59 L 6269 -522 L 2013 -522 L 2013 -59 z M 94 1578 Q 1069 2372 1856 3809 L 2294 3541 Q 1975 2991 1619 2506 L 1619 -816 L 1100 -816 L 1100 1863 Q 725 1434 313 1072 Q 213 1334 94 1578 z M 231 3766 Q 1225 4503 1656 5222 L 2106 4947 Q 1456 4053 481 3284 Q 369 3522 231 3766 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-20" transform="scale(0.015625)"/>
@@ -81,7 +81,7 @@
   <clipPath id="p69168df923">
    <rect x="781.387597" y="48.8275" width="308.451923" height="321.772958"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2964" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">样本多且没有重复，也可能无法识别系数</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(64.52024 94.71041) scale(2.27254436)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2964" fill="#ffffff"/><g transform="translate(64.52024 94.71041) scale(2.27254436)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 56.810469 370.600457 L 365.262392 370.600457 L 365.262392 48.8275 L 56.810469 48.8275 z " style="fill: #ffffff"/>
    </g>
@@ -420,18 +420,7 @@
       </g>
      </g>
     </g>
-    <g id="text_25">
-     <!-- 实际特征数值 -->
-     <g style="fill: #223950" transform="translate(386.051767 260.713979) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-5b9e"/>
-      <use xlink:href="#MicrosoftYaHei-9645" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7279" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5f81" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6570" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_10">
     <path d="M 422.921684 370.600457 L 458.496194 370.600457 L 458.496194 330.378838 L 422.921684 330.378838 z " clip-path="url(#p8e4412eccb)" style="fill: #207397"/>
    </g>
@@ -688,17 +677,7 @@
       </g>
      </g>
     </g>
-    <g id="text_40">
-     <!-- 系数 w₂ -->
-     <g style="fill: #223950" transform="translate(738.14244 239.348432) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-7cfb"/>
-      <use xlink:href="#MicrosoftYaHei-6570" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-77" transform="translate(229.589844 0)"/>
-      <use xlink:href="#DejaVuSans-2082" transform="translate(308.544922 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p69168df923)">
      <use xlink:href="#C0_0_a3e70e1876" x="910.871425" y="195.087935" style="fill: #207397; stroke: #207397"/>
@@ -781,4 +760,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="128.624554" y="1497.834869" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="实际特征数值" id="text_25" data-axis-label="matplotlib.axis_4"><tspan x="128.624554" dy="0">实际特征</tspan><tspan x="128.624554" dy="30.68">数值</tspan></text><text x="128.624547" y="2452.165459" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="系数 w₂" id="text_40" data-axis-label="matplotlib.axis_6">系数 w₂</text></svg>

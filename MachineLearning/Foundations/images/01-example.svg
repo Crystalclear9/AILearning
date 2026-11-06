@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="4415" viewBox="0 0 960 4415" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一条件分布在不同损失下有不同最优点</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="4341.617226" viewBox="0 73.382774 960 4341.617226" role="img" aria-labelledby="diagram-title"><rect x="0" y="73.382774" width="960" height="4341.617226" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">同一条件分布在不同损失下有不同最优点</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mcb2cb3c0ac" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
       <path id="m30a9fae420" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
       <path id="C0_0_3ae7579814" d="M 0 5.700877 C 1.51189 5.700877 2.962061 5.100197 4.031129 4.031129 C 5.100197 2.962061 5.700877 1.51189 5.700877 -0 C 5.700877 -1.51189 5.100197 -2.962061 4.031129 -4.031129 C 2.962061 -5.100197 1.51189 -5.700877 0 -5.700877 C -1.51189 -5.700877 -2.962061 -5.100197 -4.031129 -4.031129 C -5.100197 -2.962061 -5.700877 -1.51189 -5.700877 0 C -5.700877 1.51189 -5.100197 2.962061 -4.031129 4.031129 C -2.962061 5.100197 -1.51189 5.700877 0 5.700877 z "/>
@@ -21,7 +21,7 @@
   <clipPath id="pf9824b5ffa">
    <rect x="731.477694" y="329.372125" width="289.372306" height="184.8"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="4415" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">同一条件分布在不同损失下有不同最优点</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(75.793594 109.510341) scale(2.44834688)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="4415" fill="#ffffff"/><g transform="translate(75.793594 109.510341) scale(2.44834688)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 44.35 514.172125 L 228.496013 514.172125 L 228.496013 37.388125 L 44.35 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -104,10 +104,7 @@
       </g>
      </g>
     </g>
-    <g id="text_7">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="19.99" y="275.780125" transform="rotate(-90 19.99 275.780125)">概率质量</text>
     </g>
-   </g>
    <g id="LineCollection_1">
     <path d="M 75.041002 514.172125 L 75.041002 168.676473 " clip-path="url(#pcc924b6766)" style="fill: none; stroke: #2182a1; stroke-width: 8"/>
     <path d="M 197.805011 514.172125 L 197.805011 341.424299 " clip-path="url(#pcc924b6766)" style="fill: none; stroke: #cf7d44; stroke-width: 8"/>
@@ -252,10 +249,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="328.3007" y="74.583125" transform="rotate(-0 328.3007 74.583125)">30</text>
      </g>
     </g>
-    <g id="text_20">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="301.5582" y="129.788125" transform="rotate(-90 301.5582 129.788125)">期望平方损失</text>
     </g>
-   </g>
    <g id="line2d_21">
     <path d="M 335.3007 218.765903 L 341.679649 219.866507 L 348.058598 220.754247 L 354.437546 221.429123 L 360.816495 221.891135 L 367.195444 222.140283 L 373.574392 222.176566 L 379.953341 221.999986 L 386.332289 221.610541 L 392.711238 221.008233 L 399.090187 220.19306 L 405.469135 219.165023 L 411.848084 217.924122 L 418.227033 216.470357 L 424.605981 214.803728 L 430.98493 212.924234 L 437.943783 210.631107 L 444.902636 208.084654 L 451.861489 205.284875 L 458.820342 202.231771 L 465.779195 198.92534 L 472.738048 195.365583 L 479.696901 191.552501 L 486.655754 187.486093 L 493.614607 183.166358 L 500.57346 178.593298 L 507.532313 173.766912 L 514.491166 168.687201 L 522.029924 162.898308 L 529.568681 156.81211 L 537.107439 150.428605 L 544.646196 143.747794 L 552.184954 136.769678 L 559.723711 129.494255 L 567.262469 121.921526 L 574.801226 114.051491 L 582.919888 105.243579 L 591.03855 96.090861 L 599.157212 86.593339 L 607.275874 76.751013 L 615.394536 66.563882 L 623.513198 56.031946 L 624.673006 54.499236 L 624.673006 54.499236 " clip-path="url(#p3c5d506685)" style="fill: none; stroke: #2182a1; stroke-width: 2; stroke-linecap: square"/>
    </g>
@@ -430,10 +424,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="724.477694" y="43.783125" transform="rotate(-0 724.477694 43.783125)">10</text>
      </g>
     </g>
-    <g id="text_35">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="695.250194" y="129.788125" transform="rotate(-90 695.250194 129.788125)">风险导数</text>
     </g>
-   </g>
    <g id="line2d_39">
     <path d="M 731.477694 152.888125 L 1020.85 152.888125 " clip-path="url(#p1886011033)" style="fill: none; stroke: #8d9aad; stroke-linecap: square"/>
    </g>
@@ -610,10 +601,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="328.3007" y="335.767125" transform="rotate(-0 328.3007 335.767125)">6</text>
      </g>
     </g>
-    <g id="text_49">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="310.9407" y="421.772125" transform="rotate(-90 310.9407 421.772125)">期望绝对损失</text>
     </g>
-   </g>
    <g id="line2d_58">
     <path d="M 335.3007 493.638792 L 371.254775 514.048678 L 371.834679 513.96638 L 624.673006 370.438792 L 624.673006 370.438792 " clip-path="url(#pb371f06b26)" style="fill: none; stroke: #2182a1; stroke-width: 2; stroke-linecap: square"/>
    </g>
@@ -785,10 +773,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="724.477694" y="357.090202" transform="rotate(-0 724.477694 357.090202)">1</text>
      </g>
     </g>
-    <g id="text_63">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="695.250194" y="421.772125" transform="rotate(-90 695.250194 421.772125)">导数 / 次梯度</text>
     </g>
-   </g>
    <g id="line2d_75">
     <path d="M 731.477694 421.772125 L 1020.85 421.772125 " clip-path="url(#pf9824b5ffa)" style="fill: none; stroke: #8d9aad; stroke-linecap: square"/>
    </g>
@@ -842,4 +827,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="187.377778" y="112.04944" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="概率质量" id="text_7" data-axis-label="matplotlib.axis_2">概率质量</text><text x="119.377778" y="1857.185346" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="期望平方损失" id="text_20" data-axis-label="matplotlib.axis_4"><tspan x="119.377778" dy="0">期望平</tspan><tspan x="119.377778" dy="30.68">方损失</tspan></text><text x="119.377776" y="2578.419252" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="风险导数" id="text_35" data-axis-label="matplotlib.axis_6"><tspan x="119.377776" dy="0">风险导</tspan><tspan x="119.377776" dy="30.68">数</tspan></text><text x="119.377778" y="3297.629183" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="期望绝对损失" id="text_49" data-axis-label="matplotlib.axis_8"><tspan x="119.377778" dy="0">期望绝</tspan><tspan x="119.377778" dy="30.68">对损失</tspan></text><text x="119.377776" y="4016.615747" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="导数 / 次梯度" id="text_63" data-axis-label="matplotlib.axis_10"><tspan x="119.377776" dy="0">导数 /</tspan><tspan x="119.377776" dy="30.68">次梯度</tspan></text></svg>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1620" viewBox="0 0 960 1620" role="img" aria-labelledby="artwork-title"><title id="artwork-title">两点软间隔例子中松弛和形成平台而截距改变决策边界</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1573" viewBox="0 47 960 1573" role="img" aria-labelledby="artwork-title"><title id="artwork-title">两点软间隔例子中松弛和形成平台而截距改变决策边界</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="ma7fe09308a" d="M 0 0  L 0 3.5  " style="stroke: #7e8ca3; stroke-width: 0.8"/>
       <path id="m244ad91123" d="M 0 0  L -3.5 0  " style="stroke: #7e8ca3; stroke-width: 0.8"/>
       <path id="C0_0_eaf1f71810" d="M 0 6.123724  C 1.624031 6.123724 3.181764 5.47849 4.330127 4.330127  C 5.47849 3.181764 6.123724 1.624031 6.123724 -0  C 6.123724 -1.624031 5.47849 -3.181764 4.330127 -4.330127  C 3.181764 -5.47849 1.624031 -6.123724 0 -6.123724  C -1.624031 -6.123724 -3.181764 -5.47849 -4.330127 -4.330127  C -5.47849 -3.181764 -6.123724 -1.624031 -6.123724 0  C -6.123724 1.624031 -5.47849 3.181764 -4.330127 4.330127  C -3.181764 5.47849 -1.624031 6.123724 0 6.123724  z "/>
@@ -10,7 +10,7 @@
   <clipPath id="p0bff8b5cba">
    <rect x="585.516522" y="73.44" width="392.243478" height="259.2"/>
   </clipPath>
- </defs><rect width="960" height="1620" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">两点软间隔例子中松弛和形成平台而截距改变决策边界</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><rect x="35" y="86" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="111" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(27.791284 81.210554) scale(1.843003)"><g id="axes_1">
+ </defs><rect width="960" height="1620" fill="#ffffff"/><rect x="35" y="86" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="111" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(27.791284 81.210554) scale(1.843003)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 75.6 332.64  L 467.843478 332.64  L 467.843478 73.44  L 75.6 73.44  z " style="fill: #ffffff"/>
    </g>
@@ -91,10 +91,7 @@
       <text style="font-size: 20.23px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #47586b" x="68.6" y="165.568021" transform="rotate(-0 68.6 165.568021)">1.6</text>
      </g>
     </g>
-    <g id="text_8">
-     <text style="font-size: 24.51px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20344a" x="35.845625" y="203.04" transform="rotate(-90 35.845625 203.04)">最小可行松弛</text>
     </g>
-   </g>
    <g id="line2d_7">
     <polyline clip-path="url(#p34710101b3)" style="fill: none; stroke: #bd6731; stroke-width: 2.6; stroke-linecap: square" points="75.6,329.44 150.910748,329.44 152.479722,328.416 467.843478,105.44 467.843478,105.44"/>
    </g>
@@ -259,4 +256,4 @@
   </g><g transform="translate(-164.58 1155.516456) scale(1.065278)"><g id="text_28">
    <text style="font-size: 24.51px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20344a" x="514.08" y="421.2" transform="rotate(-0 514.08 421.2)">两种截距的原始目标都为 0.18；圆点颜色始终是真实标签。</text>
   </g>
- </g></svg>
+ </g><text x="170.122311" y="127.560694" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="最小可行松弛" id="text_8" data-axis-label="matplotlib.axis_2">最小可行松弛</text></svg>

@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="918.844" viewBox="0 0 1440 918.844" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">LoRA：四个矩阵元素共用一个输出方向</title><rect width="1440" height="918.844" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">LoRA：四个矩阵元素共用一个输出方向</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="776.844" viewBox="27 64 1346 778" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden"><rect x="27" y="64" width="1346" height="778" fill="#ffffff"/><title id="title">LoRA：矩阵的四个数字，只沿一个方向移动</title><desc id="desc">正文二维增量的精确秩一分解，以及三个输入对应的共线输出增量。</desc><rect width="1400" height="870" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1346" height="778" viewBox="27 64 1346 778" role="img" aria-labelledby="title desc"><rect x="27" y="64" width="1346" height="778" fill="#ffffff"/><title id="title">LoRA：四个矩阵元素共用一个输出方向</title><desc id="desc">正文二维增量的精确秩一分解，以及三个输入对应的共线输出增量。</desc><rect width="1400" height="870" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
 <text x="45" y="105" font-size="27" fill="#6d8491" text-anchor="start" font-weight="400">取正文实验的目标增量；缩放 s = 1</text>
 <line x1="45" y1="130" x2="1355" y2="130" stroke="#abb5c3" stroke-width="2"/>
 <text x="65" y="185" font-size="30" fill="#1c2e41" text-anchor="start" font-weight="700">① 因子乘积</text>
@@ -45,4 +45,4 @@
 <line x1="45" y1="650" x2="1355" y2="650" stroke="#abb5c3" stroke-width="2"/>
 <text x="60" y="710" font-size="30" fill="#1c2e41" text-anchor="start" font-weight="700">③ 部署可合并：W0x + B(Ax) = (W0 + BA)x</text>
 <text x="60" y="770" font-size="27" fill="#1c2e41" text-anchor="start" font-weight="400">相同确定性线性映射；低秩约束只施加在增量 BA 上。</text>
-<text x="60" y="820" font-size="26" fill="#6d8491" text-anchor="start" font-weight="400">本例用于看清几何：2 × 2、秩一并不节省因子存储。</text></g></svg></svg>
+<text x="60" y="820" font-size="26" fill="#6d8491" text-anchor="start" font-weight="400">本例用于看清几何：2 × 2、秩一并不节省因子存储。</text></g></svg>

@@ -1,5 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="492" viewBox="0 0 960 492" role="img" aria-labelledby="artwork-title"><title id="artwork-title">PAC Bayes二元KL预算的风险反演与平方根放松对照</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="394.333333"/></clipPath></defs><rect width="960" height="492" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">PAC Bayes二元KL预算的风险反演与平方根放松对照</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.842593)"><g><title>先反演同一 KL 预算，再比较放松究竟丢失了多少</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="460.609022" viewBox="0 31.390978 960 460.609022" role="img" aria-labelledby="artwork-title"><rect x="0" y="31.390978" width="960" height="460.609022" fill="#ffffff" id="plate-canvas"/><title id="artwork-title">PAC Bayes二元KL预算的风险反演与平方根放松对照</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="394.333333"/></clipPath><path id="MicrosoftYaHei-6b" d="M 3484 0 L 2650 0 L 1172 1666 L 1159 1666 L 1159 0 L 547 0 L 547 5116 L 1159 5116 L 1159 1872 L 1172 1872 L 2575 3456 L 3363 3456 L 1800 1794 L 3484 0 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-6c" d="M 544 0 L 544 5116 L 1156 5116 L 1156 0 L 544 0 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-ff08" d="M 5288 -1100 Q 4172 119 4172 1850 Q 4172 3603 5288 4838 L 5825 4838 Q 4716 3572 4716 1856 Q 4716 166 5819 -1100 L 5288 -1100 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-7ecf" d="M 2550 4572 L 2550 5022 L 5563 5022 L 5563 4566 Q 5156 3981 4606 3481 Q 5547 2997 6319 2528 L 6000 2103 Q 5200 2653 4253 3178 Q 3509 2569 2356 2116 Q 2231 2341 2056 2547 Q 3875 3141 4988 4572 L 2550 4572 z M 2150 -84 L 3931 -84 L 3931 1441 L 2575 1441 L 2575 1891 L 5750 1891 L 5750 1441 L 4425 1441 L 4425 -84 L 6175 -84 L 6175 -534 L 2150 -534 L 2150 -84 z M 888 1591 Q 1500 1672 2231 1791 Q 2194 1528 2175 1328 Q 1406 1222 313 1034 L 200 1497 Q 684 1997 1188 2756 Q 581 2719 250 2691 L 131 3116 Q 813 4022 1394 5347 L 1869 5159 Q 1288 4041 694 3153 Q 1091 3163 1453 3172 Q 1697 3569 1944 4028 L 2406 3797 Q 1600 2497 888 1591 z M 125 141 Q 1425 403 2319 628 Q 2300 372 2300 166 Q 1450 -9 269 -322 L 125 141 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-9a8c" d="M 963 4116 L 819 2397 L 1450 2397 L 1613 4503 L 194 4503 L 194 4928 L 2088 4928 L 1894 2397 L 2288 2397 Q 2244 1078 2206 228 Q 2188 -722 1381 -722 Q 1044 -722 588 -703 Q 556 -472 506 -209 Q 956 -266 1306 -266 Q 1744 -266 1769 266 Q 1806 953 1831 1972 L 331 1972 L 531 4116 L 963 4116 z M 2338 -103 L 4594 -103 Q 5044 1009 5394 2222 L 5869 2072 Q 5500 953 5088 -103 L 6188 -103 L 6188 -534 L 2338 -534 L 2338 -103 z M 4606 5278 L 4488 5078 Q 5244 3734 6363 3122 Q 6163 2872 6031 2684 Q 4931 3497 4238 4641 Q 3600 3509 2456 2609 Q 2344 2772 2144 3003 Q 3388 3866 4050 5278 L 4606 5278 z M 2975 2978 L 5550 2978 L 5550 2547 L 2975 2547 L 2975 2978 z M 3731 2178 L 4175 2297 Q 4438 1359 4606 659 L 4150 528 Q 3969 1391 3731 2178 z M 2656 1897 L 3094 2034 Q 3400 1147 3606 453 L 3144 297 Q 2938 1097 2656 1897 z M 38 1034 Q 763 1178 1631 1384 Q 1625 1134 1638 941 Q 925 791 131 572 L 38 1034 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-71" d="M 3547 -1591 L 2934 -1591 L 2934 581 L 2922 581 Q 2559 -81 1753 -81 Q 1100 -81 708 380 Q 316 841 316 1647 Q 316 2506 747 3022 Q 1178 3538 1903 3538 Q 2603 3538 2922 2988 L 2934 2988 L 2934 3456 L 3547 3456 L 3547 -1591 z M 2934 2044 Q 2938 2453 2673 2742 Q 2409 3031 1984 3031 Q 1497 3031 1219 2668 Q 941 2306 941 1663 Q 941 1081 1208 753 Q 1475 425 1909 425 Q 2384 425 2661 751 Q 2938 1078 2934 1566 L 2934 2044 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-2225" d="M 2803 4038 L 3231 4038 L 3231 0 L 2803 0 L 2803 4038 z M 1422 4038 L 1856 4038 L 1856 0 L 1422 0 L 1422 4038 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-ff09" d="M 1113 -1100 L 575 -1100 Q 1684 163 1684 1888 Q 1684 3581 581 4838 L 1113 4838 Q 2222 3628 2222 1888 Q 2222 128 1113 -1100 z " transform="scale(0.015625)"/>
+      </defs><rect width="960" height="492" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.842593)"><g><title>先反演同一 KL 预算，再比较放松究竟丢失了多少</title>
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -284,37 +292,7 @@
       </g>
      </g>
     </g>
-    <g id="text_13">
-     <!-- kl（经验 q ∥ 总体 r） -->
-     <g style="fill: #21364c" transform="translate(15.546334 311.491568) rotate(-90) scale(0.15 -0.15)">
-      <defs>
-       <path id="MicrosoftYaHei-6b" d="M 3484 0 L 2650 0 L 1172 1666 L 1159 1666 L 1159 0 L 547 0 L 547 5116 L 1159 5116 L 1159 1872 L 1172 1872 L 2575 3456 L 3363 3456 L 1800 1794 L 3484 0 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-6c" d="M 544 0 L 544 5116 L 1156 5116 L 1156 0 L 544 0 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-ff08" d="M 5288 -1100 Q 4172 119 4172 1850 Q 4172 3603 5288 4838 L 5825 4838 Q 4716 3572 4716 1856 Q 4716 166 5819 -1100 L 5288 -1100 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-7ecf" d="M 2550 4572 L 2550 5022 L 5563 5022 L 5563 4566 Q 5156 3981 4606 3481 Q 5547 2997 6319 2528 L 6000 2103 Q 5200 2653 4253 3178 Q 3509 2569 2356 2116 Q 2231 2341 2056 2547 Q 3875 3141 4988 4572 L 2550 4572 z M 2150 -84 L 3931 -84 L 3931 1441 L 2575 1441 L 2575 1891 L 5750 1891 L 5750 1441 L 4425 1441 L 4425 -84 L 6175 -84 L 6175 -534 L 2150 -534 L 2150 -84 z M 888 1591 Q 1500 1672 2231 1791 Q 2194 1528 2175 1328 Q 1406 1222 313 1034 L 200 1497 Q 684 1997 1188 2756 Q 581 2719 250 2691 L 131 3116 Q 813 4022 1394 5347 L 1869 5159 Q 1288 4041 694 3153 Q 1091 3163 1453 3172 Q 1697 3569 1944 4028 L 2406 3797 Q 1600 2497 888 1591 z M 125 141 Q 1425 403 2319 628 Q 2300 372 2300 166 Q 1450 -9 269 -322 L 125 141 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-9a8c" d="M 963 4116 L 819 2397 L 1450 2397 L 1613 4503 L 194 4503 L 194 4928 L 2088 4928 L 1894 2397 L 2288 2397 Q 2244 1078 2206 228 Q 2188 -722 1381 -722 Q 1044 -722 588 -703 Q 556 -472 506 -209 Q 956 -266 1306 -266 Q 1744 -266 1769 266 Q 1806 953 1831 1972 L 331 1972 L 531 4116 L 963 4116 z M 2338 -103 L 4594 -103 Q 5044 1009 5394 2222 L 5869 2072 Q 5500 953 5088 -103 L 6188 -103 L 6188 -534 L 2338 -534 L 2338 -103 z M 4606 5278 L 4488 5078 Q 5244 3734 6363 3122 Q 6163 2872 6031 2684 Q 4931 3497 4238 4641 Q 3600 3509 2456 2609 Q 2344 2772 2144 3003 Q 3388 3866 4050 5278 L 4606 5278 z M 2975 2978 L 5550 2978 L 5550 2547 L 2975 2547 L 2975 2978 z M 3731 2178 L 4175 2297 Q 4438 1359 4606 659 L 4150 528 Q 3969 1391 3731 2178 z M 2656 1897 L 3094 2034 Q 3400 1147 3606 453 L 3144 297 Q 2938 1097 2656 1897 z M 38 1034 Q 763 1178 1631 1384 Q 1625 1134 1638 941 Q 925 791 131 572 L 38 1034 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-71" d="M 3547 -1591 L 2934 -1591 L 2934 581 L 2922 581 Q 2559 -81 1753 -81 Q 1100 -81 708 380 Q 316 841 316 1647 Q 316 2506 747 3022 Q 1178 3538 1903 3538 Q 2603 3538 2922 2988 L 2934 2988 L 2934 3456 L 3547 3456 L 3547 -1591 z M 2934 2044 Q 2938 2453 2673 2742 Q 2409 3031 1984 3031 Q 1497 3031 1219 2668 Q 941 2306 941 1663 Q 941 1081 1208 753 Q 1475 425 1909 425 Q 2384 425 2661 751 Q 2938 1078 2934 1566 L 2934 2044 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-2225" d="M 2803 4038 L 3231 4038 L 3231 0 L 2803 0 L 2803 4038 z M 1422 4038 L 1856 4038 L 1856 0 L 1422 0 L 1422 4038 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-ff09" d="M 1113 -1100 L 575 -1100 Q 1684 163 1684 1888 Q 1684 3581 581 4838 L 1113 4838 Q 2222 3628 2222 1888 Q 2222 128 1113 -1100 z " transform="scale(0.015625)"/>
-      </defs>
-      <use xlink:href="#MicrosoftYaHei-6b"/>
-      <use xlink:href="#MicrosoftYaHei-6c" transform="translate(54.443359 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(81.054688 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7ecf" transform="translate(181.054688 0)"/>
-      <use xlink:href="#MicrosoftYaHei-9a8c" transform="translate(281.054688 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(381.054688 0)"/>
-      <use xlink:href="#MicrosoftYaHei-71" transform="translate(410.644531 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(474.609375 0)"/>
-      <use xlink:href="#MicrosoftYaHei-2225" transform="translate(504.199219 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(577.001953 0)"/>
-      <use xlink:href="#MicrosoftYaHei-603b" transform="translate(606.591797 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4f53" transform="translate(706.591797 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(806.591797 0)"/>
-      <use xlink:href="#MicrosoftYaHei-72" transform="translate(836.181641 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(874.365234 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <defs>
      <path id="mbd75decc36" d="M 0 4.031129 C 1.069068 4.031129 2.094493 3.606384 2.850439 2.850439 C 3.606384 2.094493 4.031129 1.069068 4.031129 0 C 4.031129 -1.069068 3.606384 -2.094493 2.850439 -2.850439 C 2.094493 -3.606384 1.069068 -4.031129 0 -4.031129 C -1.069068 -4.031129 -2.094493 -3.606384 -2.850439 -2.850439 C -3.606384 -2.094493 -4.031129 -1.069068 -4.031129 0 C -4.031129 1.069068 -3.606384 2.094493 -2.850439 2.850439 C -2.094493 3.606384 -1.069068 4.031129 0 4.031129 z " style="stroke: #136a8b"/>
@@ -665,18 +643,7 @@
       </g>
      </g>
     </g>
-    <g id="text_29">
-     <!-- 总体风险上界 -->
-     <g style="fill: #21364c" transform="translate(375.061018 283.413443) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-603b"/>
-      <use xlink:href="#MicrosoftYaHei-4f53" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-98ce" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-9669" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e0a" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-754c" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_6">
     <path d="M 433.226067 422.560698 L 463.995861 422.560698 L 463.995861 404.437736 L 433.226067 404.437736 z " clip-path="url(#p4acacb7fa8)" style="fill: #136a8b"/>
    </g>
@@ -1539,16 +1506,7 @@
       </g>
      </g>
     </g>
-    <g id="text_44">
-     <!-- 风险上界 -->
-     <g style="fill: #21364c" transform="translate(734.575701 268.413443) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-98ce"/>
-      <use xlink:href="#MicrosoftYaHei-9669" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e0a" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-754c" transform="translate(300 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_148">
     <polyline clip-path="url(#p5b8bab752f)" style="fill: none; stroke: #136a8b; stroke-width: 3; stroke-linecap: square" points="794.840751,405.820038 980.464578,182.317395 1010.68241,146.275126 1029.028951,124.707927 1043.058659,108.551524 1053.850742,96.454936 1062.484408,87.085124 1063.563617,85.938165 1063.563617,85.938165"/>
    </g>
@@ -1709,4 +1667,4 @@
    <rect x="781.404607" y="54.266189" width="295.595153" height="368.294509"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="78.787495" y="62.724311" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="kl（经验 q ∥ 总体 r）" id="text_13" data-axis-label="matplotlib.axis_2">kl（经验 q ∥ 总体 r）</text><text x="381.712051" y="62.724311" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="总体风险上界" id="text_29" data-axis-label="matplotlib.axis_4">总体风险上界</text><text x="686.406052" y="88.724311" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="风险上界" id="text_44" data-axis-label="matplotlib.axis_6">风险上界</text></svg>

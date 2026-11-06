@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1276" viewBox="0 0 960 1276" role="img" aria-labelledby="artwork-title"><title id="artwork-title">正温度保持样本内部类别次序但可翻转两个样本最大置信度排序</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="1178.125"/></clipPath></defs><rect width="960" height="1276" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">正温度保持样本内部类别次序但可翻转两个样本最大置信度排序</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1229" viewBox="0 47 960 1229" role="img" aria-labelledby="artwork-title"><title id="artwork-title">正温度保持样本内部类别次序但可翻转两个样本最大置信度排序</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="1178.125"/></clipPath></defs><rect width="960" height="1276" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -144,10 +144,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="95.96" y="104.043857" transform="rotate(-0 95.96 104.043857)">1.2</text>
      </g>
     </g>
-    <g id="text_12">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="55.391875" y="267.84" transform="rotate(-90 55.391875 267.84)">三类 softmax 概率</text>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 130.757468 449.28 L 220.827478 449.28 L 220.827478 294.398835 L 130.757468 294.398835 z " clip-path="url(#p034263ba8a)" style="fill: #146c8d"/>
    </g>
@@ -386,10 +383,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="933.775696" y="110.004554" transform="rotate(-0 933.775696 110.004554)">0.8</text>
      </g>
     </g>
-    <g id="text_37">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="893.207571" y="267.84" transform="rotate(-90 893.207571 267.84)">最大类别概率</text>
     </g>
-   </g>
    <g id="line2d_27">
     <polyline clip-path="url(#pbb1ff14c25)" style="fill: none; stroke: #146c8d; stroke-width: 3; stroke-linecap: square" points="940.775696,286.477223 944.866294,288.560061 948.956891,290.420956 953.047488,292.093506 959.183384,294.307199 965.31928,296.228886 971.455176,297.912688 977.591072,299.400152 985.772267,301.133059 993.953462,302.632787 1004.179955,304.245837 1014.406448,305.627175 1026.678241,307.044683 1040.995331,308.441763 1057.357721,309.783006 1075.765409,311.053334 1098.263694,312.367149 1126.897876,313.800279 1171.894446,315.799045 1257.796991,319.600703 1310.974756,322.202567 1366.197821,325.136319 1429.60208,328.736207 1521.64052,334.212833 1552.32,336.062949 1552.32,336.062949"/>
    </g>
@@ -451,4 +445,4 @@
    <rect x="940.775696" y="86.4" width="611.544304" height="362.88"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="158.464851" y="91.643115" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.200268" fill="#25364a" text-anchor="start" aria-label="三类 softmax 概率" id="text_12" data-axis-label="matplotlib.axis_2">三类 softmax 概率</text><text x="149.731582" y="701.487591" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.200268" fill="#25364a" text-anchor="start" aria-label="最大类别概率" id="text_37" data-axis-label="matplotlib.axis_4">最大类别概率</text></svg>

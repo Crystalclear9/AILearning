@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1554" viewBox="0 0 960 1554" role="img" aria-labelledby="diagram-title"><title id="diagram-title">统一成本轴的误差阶梯与各精度首次达到的成本</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1472" viewBox="0 82 960 1472" role="img" aria-labelledby="diagram-title"><title id="diagram-title">统一成本轴的误差阶梯与各精度首次达到的成本</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m7fc5e89780" d="M 0 0 L 0 3.5 " style="stroke: #688495; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
        <path id="MicrosoftYaHei-35" d="M 3294 1494 Q 3294 784 2823 350 Q 2353 -84 1559 -84 Q 878 -84 544 119 L 544 744 Q 1034 425 1544 425 Q 2050 425 2361 704 Q 2672 984 2672 1447 Q 2672 1909 2348 2167 Q 2025 2425 1434 2425 Q 978 2425 613 2384 L 791 4841 L 3053 4841 L 3053 4303 L 1306 4303 L 1206 2931 L 1647 2950 Q 2416 2950 2855 2567 Q 3294 2184 3294 1494 z " transform="scale(0.015625)"/>
@@ -76,7 +76,7 @@
   <clipPath id="pc18e8e2a21">
    <rect x="525.639041" y="34.63" width="371.42951" height="245.50975"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1554" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">统一成本轴的误差阶梯与各精度首次达到的成本</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(32.018644 139.018644) scale(1.96255778)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1554" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(32.018644 139.018644) scale(1.96255778)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 68.239531 280.13975 L 439.669041 280.13975 L 439.669041 34.63 L 68.239531 34.63 z " style="fill: #ffffff"/>
    </g>
@@ -482,22 +482,7 @@
       </g>
      </g>
     </g>
-    <g id="text_13">
-     <!-- 完成更新后可用的误差 -->
-     <g style="fill: #1a2a3c" transform="translate(27.830625 232.384875) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-5b8c"/>
-      <use xlink:href="#MicrosoftYaHei-6210" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-66f4" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-65b0" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-540e" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-53ef" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7528" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(700 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(800 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(900 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p6153619495)">
      <use xlink:href="#m6cdded3727" x="85.122691" y="45.789534" style="fill: #1670a0; stroke: #1670a0"/>
@@ -1004,18 +989,7 @@
       </g>
      </g>
     </g>
-    <g id="text_29">
-     <!-- 首次达到成本 -->
-     <g style="fill: #1a2a3c" transform="translate(496.836385 202.384875) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-9996"/>
-      <use xlink:href="#MicrosoftYaHei-6b21" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8fbe" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5230" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6210" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-672c" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_100">
     <path d="M 542.5222 268.980216 L 553.815284 268.980216 L 553.815284 262.780475 L 566.237675 262.780475 L 566.237675 256.580734 L 578.660067 256.580734 L 578.660067 250.380992 L 589.95315 250.380992 L 589.95315 244.181251 L 602.375542 244.181251 L 602.375542 237.98151 L 614.797933 237.98151 L 614.797933 231.781769 L 627.220325 231.781769 L 627.220325 225.582028 L 638.513408 225.582028 L 638.513408 219.382287 L 650.9358 219.382287 L 650.9358 213.182545 L 663.358192 213.182545 L 663.358192 206.982804 L 674.651275 206.982804 L 674.651275 200.783063 L 687.073666 200.783063 L 687.073666 194.583322 L 699.496058 194.583322 L 699.496058 188.383581 L 711.91845 188.383581 L 711.91845 182.18384 L 723.211533 182.18384 L 723.211533 175.984098 L 735.633925 175.984098 L 735.633925 169.784357 L 748.056316 169.784357 L 748.056316 163.584616 L 760.478708 163.584616 L 760.478708 157.384875 L 771.771791 157.384875 L 771.771791 151.185134 L 784.194183 151.185134 L 784.194183 144.985393 L 796.616574 144.985393 L 796.616574 138.785652 L 809.038966 138.785652 L 809.038966 132.58591 L 820.332049 132.58591 L 820.332049 126.386169 L 832.754441 126.386169 L 832.754441 120.186428 L 845.176833 120.186428 L 845.176833 113.986687 L 856.469916 113.986687 L 856.469916 107.786946 L 868.892307 107.786946 L 868.892307 101.587205 L 880.185391 101.587205 L 880.185391 101.587205 " clip-path="url(#pc18e8e2a21)" style="fill: none; stroke: #1670a0; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
@@ -1097,4 +1071,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="168.942666" y="117.98202" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="29.438367" fill="#25364a" text-anchor="start" aria-label="完成更新后可用的误差" id="text_13" data-axis-label="matplotlib.axis_2"><tspan x="168.942666" dy="0">完成更新后可用的误</tspan><tspan x="168.942666" dy="37.092342">差</tspan></text><text x="168.942666" y="873.686591" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="29.438367" fill="#25364a" text-anchor="start" aria-label="首次达到成本" id="text_29" data-axis-label="matplotlib.axis_4">首次达到成本</text></svg>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2677" viewBox="0 0 960 2677" role="img" aria-labelledby="diagram-title"><title id="diagram-title">行动效果的证据：随机分配、组内提升与组成反例</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2555.453547" viewBox="0 121.546453 960 2555.453547" role="img" aria-labelledby="diagram-title"><rect x="0" y="121.546453" width="960" height="2555.453547" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">行动效果的证据：随机分配、组内提升与组成反例</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m32fc0fae27" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
       <path id="m3c3a68f24d" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
       <path id="md20f8b6936" d="M 0 4 C 1.060812 4 2.078319 3.578535 2.828427 2.828427 C 3.578535 2.078319 4 1.060812 4 0 C 4 -1.060812 3.578535 -2.078319 2.828427 -2.828427 C 2.078319 -3.578535 1.060812 -4 0 -4 C -1.060812 -4 -2.078319 -3.578535 -2.828427 -2.828427 C -3.578535 -2.078319 -4 -1.060812 -4 0 C -4 1.060812 -3.578535 2.078319 -2.828427 2.828427 C -2.078319 3.578535 -1.060812 4 0 4 z " style="stroke: #2182a1"/>
@@ -18,7 +18,7 @@
   <clipPath id="p153d73e91a">
    <rect x="542.0575" y="373.329133" width="344.1" height="207.370992"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2677" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">行动效果的证据：随机分配、组内提升与组成反</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">例</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(73.159204 158.860450) scale(1.95300879)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2677" fill="#ffffff"/><g transform="translate(73.159204 158.860450) scale(1.95300879)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 60.3175 244.759117 L 404.4175 244.759117 L 404.4175 37.388125 L 60.3175 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -126,10 +126,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="53.3175" y="59.143939" transform="rotate(-0 53.3175 59.143939)">1.0</text>
      </g>
     </g>
-    <g id="text_10">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="22.7225" y="141.073621" transform="rotate(-90 22.7225 141.073621)">组内成功概率</text>
     </g>
-   </g>
    <g id="line2d_15">
     <path d="M 100.021346 91.150975 L 364.713654 71.949957 " clip-path="url(#p3d42e7fb75)" style="fill: none; stroke: #2182a1; stroke-width: 3; stroke-linecap: square"/>
     <g clip-path="url(#p3d42e7fb75)">
@@ -306,10 +303,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="535.0575" y="70.831515" transform="rotate(-0 535.0575 70.831515)">1000</text>
      </g>
     </g>
-    <g id="text_27">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="489.55" y="141.073621" transform="rotate(-90 489.55 141.073621)">每个行动的人数</text>
     </g>
-   </g>
    <g id="patch_10">
     <path d="M 542.0575 244.759117 L 542.0575 37.388125 " style="fill: none; stroke: #9da8ba; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -594,10 +588,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="535.0575" y="379.724133" transform="rotate(-0 535.0575 379.724133)">1.0</text>
      </g>
     </g>
-    <g id="text_60">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="504.4625" y="477.014629" transform="rotate(-90 504.4625 477.014629)">总体成功率</text>
     </g>
-   </g>
    <g id="line2d_57">
     <path d="M 581.761346 427.245591 L 846.453654 506.046568 " clip-path="url(#p153d73e91a)" style="fill: none; stroke: #8d9aad; stroke-width: 3; stroke-linecap: square"/>
     <g clip-path="url(#p153d73e91a)">
@@ -654,4 +645,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="193.959812" y="158.879787" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.248141" fill="#25364a" text-anchor="start" aria-label="组内成功概率" id="text_10" data-axis-label="matplotlib.axis_2">组内成功概率</text><text x="193.959811" y="758.312976" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.248141" fill="#25364a" text-anchor="start" aria-label="每个行动的人数" id="text_27" data-axis-label="matplotlib.axis_4">每个行动的人数</text><text x="193.959811" y="2023.441651" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.248141" fill="#25364a" text-anchor="start" aria-label="总体成功率" id="text_60" data-axis-label="matplotlib.axis_8">总体成功率</text></svg>

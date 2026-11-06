@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="488" viewBox="0 0 960 488" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">同一个线性函数的化简表达与含两个ReLU节点的计算图</title><desc id="artwork-desc">函数是一条直线，逐节点反传却可能给出零 局部不可微节点的约定，需要回到整体映射核对；此例整体导数存在且等于 1。</desc><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="390.308057"/></clipPath></defs><rect width="960" height="488" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">同一个线性函数的化简表达与含两个ReLU节点的计算图</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(2.896919 40.958531) scale(0.842343)"><g><title>整体光滑函数的不可微计算图表示与零点反向规则</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="446.854119" viewBox="0 41.145881 960 446.854119" role="img" aria-labelledby="artwork-title artwork-desc"><rect x="0" y="41.145881" width="960" height="446.854119" fill="#ffffff" id="plate-canvas"/><title id="artwork-title">同一个线性函数的化简表达与含两个ReLU节点的计算图</title><desc id="artwork-desc">函数是一条直线，逐节点反传却可能给出零 局部不可微节点的约定，需要回到整体映射核对；此例整体导数存在且等于 1。</desc><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="390.308057"/></clipPath></defs><rect width="960" height="488" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(2.896919 40.958531) scale(0.842343)"><g><title>整体光滑函数的不可微计算图表示与零点反向规则</title>
  <metadata xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <rdf:RDF>
    <cc:Work>
@@ -143,10 +143,7 @@
       <text style="font-size: 22.61px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #416a7f" x="169.11079" y="176.876348" transform="rotate(-0 169.11079 176.876348)">1.0</text>
      </g>
     </g>
-    <g id="text_10">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1c2e41" x="118.69079" y="297.648" transform="rotate(-90 118.69079 297.648)">整个函数 f(x)</text>
     </g>
-   </g>
    <g id="line2d_17">
     <polyline clip-path="url(#p271b9b0e77)" style="fill: none; stroke: #13688d; stroke-width: 2.8; stroke-linecap: square" points="182.529076,426.013714 439.260504,169.282286 439.260504,169.282286"/>
    </g>
@@ -229,4 +226,4 @@
    <rect x="176.11079" y="162.864" width="269.568" height="269.568"/>
   </clipPath>
  </defs>
-<desc> 函数是一条直线，逐节点反传却可能给出零 局部不可微节点的约定，需要回到整体映射核对；此例整体导数存在且等于 1。</desc></g></g></g></svg>
+<desc> 函数是一条直线，逐节点反传却可能给出零 局部不可微节点的约定，需要回到整体映射核对；此例整体导数存在且等于 1。</desc></g></g></g><text x="154.24261" y="72.145881" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="整个函数 f(x)" id="text_10" data-axis-label="matplotlib.axis_2">整个函数 f(x)</text></svg>

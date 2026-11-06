@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1547" viewBox="0 0 960 1547" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">同一个可积幂函数在不同重要性提议下的样本贡献与方差存在区域</title><desc id="artwork-desc">积分有限，估计方差却可以无限 a=0.25 时贡献恒为 4；均匀提议 a=1 仍无偏且一致，但不满足有限方差 CLT 的前提。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1462" viewBox="0 85 960 1462" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">同一个可积幂函数在不同重要性提议下的样本贡献与方差存在区域</title><desc id="artwork-desc">积分有限，估计方差却可以无限 a=0.25 时贡献恒为 4；均匀提议 a=1 仍无偏且一致，但不满足有限方差 CLT 的前提。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m84b39401df" d="M 0 0 L 0 3.5 " style="stroke: #3a5c6b; stroke-width: 0.8"/>
       <path id="m2c59fb4089" d="M 0 0 L 0 2 " style="stroke: #3a5c6b; stroke-width: 0.6"/>
       <path id="m39b25ed408" d="M 0 0 L -3.5 0 " style="stroke: #3a5c6b; stroke-width: 0.8"/>
@@ -27,7 +27,7 @@
   <clipPath id="p912c21ed2d">
    <rect x="685.73042" y="162.864" width="425.94958" height="269.568"/>
   </clipPath>
- </defs><rect width="960" height="1547" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">同一个可积幂函数在不同重要性提议下的样本贡献与方差存在区</text><text x="25" y="79" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">域</text><line x1="25" x2="935" y1="97" y2="97" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(5.607449 75.156333) scale(0.955474)"><g id="text_33">
+ </defs><rect width="960" height="1547" fill="#ffffff"/><g transform="translate(5.607449 75.156333) scale(0.955474)"><g id="text_33">
 
    <g style="fill: #49778f" transform="translate(46.08 80.3088)">
     <text>
@@ -947,10 +947,7 @@
       <text style="font-size: 22.61px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #416a7f" x="678.73042" y="170.458063" transform="rotate(-0 678.73042 170.458063)">100</text>
      </g>
     </g>
-    <g id="text_29">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1c2e41" x="635.836201" y="297.648" transform="rotate(-90 635.836201 297.648)">单次贡献的方差</text>
     </g>
-   </g>
    <g id="patch_6">
     <path d="M 888.563553 432.432 L 1111.68 432.432 L 1111.68 162.864 L 888.563553 162.864 z " clip-path="url(#p912c21ed2d)" style="fill: #ba602b; opacity: 0.08; stroke: #ba602b; stroke-linejoin: miter" stroke-width="1.23"/>
    </g>
@@ -979,4 +976,4 @@
     </g>
    </g>
   </g>
-  </g></svg>
+  </g><text x="117.467247" y="1168.379628" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="单次贡献的方差" id="text_29" data-axis-label="matplotlib.axis_4"><tspan x="117.467247" dy="0">单次贡</tspan><tspan x="117.467247" dy="30.68">献的方</tspan><tspan x="117.467247" dy="30.68">差</tspan></text></svg>

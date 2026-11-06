@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2767" viewBox="0 0 960 2767" role="img" aria-labelledby="diagram-title"><title id="diagram-title">朴素贝叶斯：两条证据的交集与后验归一化</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2703.325616" viewBox="0 63.674384 960 2703.325616" role="img" aria-labelledby="diagram-title"><rect x="0" y="63.674384" width="960" height="2703.325616" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">朴素贝叶斯：两条证据的交集与后验归一化</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="ma1aed981fc" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="m26f53e2fa1" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="m1140211fcc" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z " style="stroke: #cd7941"/>
@@ -15,7 +15,7 @@
   <clipPath id="p0a527c9943">
    <rect x="712.174737" y="511.682927" width="475.105263" height="307.317073"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2767" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">朴素贝叶斯：两条证据的交集与后验归一化</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(-125.053978 65.978029) scale(1.51369876)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2767" fill="#ffffff"/><g transform="translate(-125.053978 65.978029) scale(1.51369876)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 187.934095 370.317073 L 495.251168 370.317073 L 495.251168 63 L 187.934095 63 z " style="fill: #ffffff"/>
    </g>
@@ -97,10 +97,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="180.934095" y="71.793125" transform="rotate(-0 180.934095 71.793125)">1.0</text>
      </g>
     </g>
-    <g id="text_8">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="140.36597" y="216.658537" transform="rotate(-90 140.36597 216.658537)">纵向事件 X2＝1</text>
     </g>
-   </g>
    <g id="line2d_7">
     <path d="M 187.934095 370.317073 L 187.934095 63 " clip-path="url(#pad87e8f3ab)" style="fill: none; stroke: #ffffff; stroke-linecap: square"/>
    </g>
@@ -262,10 +259,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="789.068832" y="71.793125" transform="rotate(-0 789.068832 71.793125)">1.0</text>
      </g>
     </g>
-    <g id="text_18">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="748.500707" y="216.658537" transform="rotate(-90 748.500707 216.658537)">纵向事件 X2＝1</text>
     </g>
-   </g>
    <g id="line2d_35">
     <path d="M 796.068832 370.317073 L 796.068832 63 " clip-path="url(#pf836f65ef6)" style="fill: none; stroke: #ffffff; stroke-linecap: square"/>
    </g>
@@ -627,10 +621,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="705.174737" y="520.476052" transform="rotate(-0 705.174737 520.476052)">1.0</text>
      </g>
     </g>
-    <g id="text_48">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="664.606612" y="665.341463" transform="rotate(-90 664.606612 665.341463)">同一观测后的 A 后验</text>
     </g>
-   </g>
    <g id="line2d_78">
     <path d="M 712.174737 819 L 715.025368 804.843359 L 717.876 791.783728 L 720.726632 779.698349 L 723.577263 768.482125 L 726.427895 758.044547 L 729.278526 748.307255 L 732.129158 739.202058 L 734.979789 730.669344 L 738.780632 720.093356 L 742.581474 710.3354 L 746.382316 701.3041 L 750.183158 692.921201 L 753.984 685.119295 L 757.784842 677.840005 L 761.585684 671.03252 L 765.386526 664.652412 L 769.187368 658.660657 L 772.988211 653.022847 L 777.739263 646.427239 L 782.490316 640.28516 L 787.241368 634.551386 L 791.992421 629.186514 L 796.743474 624.15605 L 801.494526 619.429673 L 806.245579 614.980619 L 811.946842 609.974622 L 817.648105 605.297916 L 823.349368 600.919044 L 829.050632 596.810434 L 834.751895 592.947812 L 841.403368 588.723846 L 848.054842 584.775662 L 854.706316 581.077105 L 862.308 577.126538 L 869.909684 573.442194 L 877.511368 569.998041 L 886.063263 566.38226 L 894.615158 563.013544 L 904.117263 559.530622 L 913.619368 556.29347 L 924.071684 552.98658 L 934.524 549.917885 L 945.926526 546.812781 L 957.329053 543.933895 L 969.681789 541.042797 L 982.984737 538.16516 L 997.237895 535.322702 L 1012.441263 532.533348 L 1028.594842 529.811486 L 1045.698632 527.168298 L 1063.752632 524.612124 L 1082.756842 522.148833 L 1102.711263 519.782192 L 1124.566105 517.415806 L 1148.321368 515.076409 L 1173.026842 512.866433 L 1187.28 511.682927 L 1187.28 511.682927 " clip-path="url(#p0a527c9943)" style="fill: none; stroke: #1f7e9c; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -672,4 +663,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="162.421629" y="102.341051" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="纵向事件 X2＝1" id="text_8" data-axis-label="matplotlib.axis_2">纵向事件 X2＝1</text><text x="159.421631" y="805.393352" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="middle" aria-label="纵向事件 X2＝1" id="text_18" data-axis-label="matplotlib.axis_4">纵向事件 X2＝1</text><text x="94.42163" y="2375.73206" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="23" fill="#25364a" aria-label="同一观测后的 A 后验" id="text_48" data-axis-label="matplotlib.axis_8"><tspan x="94.42163" dy="0">同一观</tspan><tspan x="94.42163" dy="27.14">测后的</tspan><tspan x="94.42163" dy="27.14">A 后验</tspan></text></svg>

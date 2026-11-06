@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2015" viewBox="0 0 960 2015" role="img" aria-labelledby="artwork-title"><title id="artwork-title">软阈值与相关设计：零系数不保证唯一选择</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="1917.5"/></clipPath></defs><rect width="960" height="2015" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">软阈值与相关设计：零系数不保证唯一选择</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1968" viewBox="0 47 960 1968" role="img" aria-labelledby="artwork-title"><title id="artwork-title">软阈值与相关设计：零系数不保证唯一选择</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="1917.5"/></clipPath></defs><rect width="960" height="2015" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -143,10 +143,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="74" y="140.121125" transform="rotate(-0 74 140.121125)">2.5</text>
      </g>
     </g>
-    <g id="text_13">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="33.431875" y="270.72" transform="rotate(-90 33.431875 270.72)">最优系数</text>
     </g>
-   </g>
    <g id="line2d_12">
     <polyline clip-path="url(#pdae8339929)" style="fill: none; stroke: #146c8d; stroke-width: 3; stroke-linecap: square" points="101.901639,131.328 362.779243,447.651609 363.826944,448.128 519.934426,448.128 519.934426,448.128"/>
    </g>
@@ -267,10 +264,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="725.42" y="127.449125" transform="rotate(-0 725.42 127.449125)">0.8</text>
      </g>
     </g>
-    <g id="text_26">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="668.534062" y="270.72" transform="rotate(-90 668.534062 270.72)">系数 w2</text>
     </g>
-   </g>
    <g id="line2d_24">
     <line clip-path="url(#pdad80407bb)" style="fill: none; stroke: #ced8e1; stroke-linecap: square" x1="732.42" y1="270.72" x2="1112.58" y2="270.72"/>
    </g>
@@ -412,10 +406,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="1337.001967" y="127.449125" transform="rotate(-0 1337.001967 127.449125)">0.8</text>
      </g>
     </g>
-    <g id="text_38">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="1280.11603" y="270.72" transform="rotate(-90 1280.11603 270.72)">系数 w2</text>
     </g>
-   </g>
    <g id="line2d_36">
     <line clip-path="url(#p2bbde34f9c)" style="fill: none; stroke: #ced8e1; stroke-linecap: square" x1="1344.001967" y1="270.72" x2="1724.161967" y2="270.72"/>
    </g>
@@ -482,4 +473,4 @@
    <rect x="1344.001967" y="80.64" width="380.16" height="380.16"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="236.212299" y="117.947765" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="27.557278" fill="#25364a" text-anchor="start" aria-label="最优系数" id="text_13" data-axis-label="matplotlib.axis_2">最优系数</text><text x="296.333884" y="730.822426" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="27.557278" fill="#25364a" text-anchor="start" aria-label="系数 w2" id="text_26" data-axis-label="matplotlib.axis_4">系数 w2</text><text x="296.333842" y="1365.971103" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="27.557278" fill="#25364a" text-anchor="start" aria-label="系数 w2" id="text_38" data-axis-label="matplotlib.axis_6">系数 w2</text></svg>

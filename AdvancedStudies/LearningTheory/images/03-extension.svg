@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2554" viewBox="0 0 960 2554" role="img" aria-labelledby="diagram-title"><title id="diagram-title">随机 Gibbs 预测与多数投票风险不同</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1041.182644" height="2472" viewBox="-81.182644 82 1041.182644 2472" role="img" aria-labelledby="diagram-title"><rect x="-81.182644" y="82" width="1041.182644" height="2472" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">随机 Gibbs 预测与多数投票风险不同</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m879a4310ea" d="M 0 0 L 0 3.5 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
       <path id="me338244eea" d="M 0 0 L -3.5 0 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
       <path id="m281fb685cc" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z " style="stroke: #1f7e9c"/>
@@ -16,7 +16,7 @@
   <clipPath id="paf352f4dff">
    <rect x="671.330835" y="445.553" width="456.982759" height="266.112"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2554" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">随机 Gibbs 预测与多数投票风险不同</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(49.499780 111.182669) scale(1.59024902)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2554" fill="#ffffff"/><g transform="translate(49.499780 111.182669) scale(1.59024902)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 68.113594 312.497 L 525.096352 312.497 L 525.096352 46.385 L 68.113594 46.385 z " style="fill: #ffffff"/>
    </g>
@@ -543,10 +543,7 @@
       <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #5c7c8d" x="61.113594" y="453.147062" transform="rotate(-0 61.113594 453.147062)">0.6</text>
      </g>
     </g>
-    <g id="text_67">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1f3449" x="24.78625" y="578.609" transform="rotate(-90 24.78625 578.609)">六个等概率对象上的错误率</text>
     </g>
-   </g>
    <g id="patch_9">
     <path d="M 88.885537 711.665 L 138.863146 711.665 L 138.863146 563.825 L 88.885537 563.825 z " clip-path="url(#p85799d4d2f)" style="fill: #1f7e9c"/>
    </g>
@@ -795,10 +792,7 @@
       <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #5c7c8d" x="664.330835" y="476.49022" transform="rotate(-0 664.330835 476.49022)">0.5</text>
      </g>
     </g>
-    <g id="text_89">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1f3449" x="628.003491" y="578.609" transform="rotate(-90 628.003491 578.609)">对对象与抽票共同平均的错误率</text>
     </g>
-   </g>
    <g id="line2d_105">
     <path d="M 671.330835 546.706684 L 717.029111 581.28914 L 762.727387 604.344111 L 808.425663 621.421867 L 854.123939 634.704566 L 899.822214 645.330726 L 945.52049 653.989078 L 991.218766 661.135654 L 1036.917042 667.091134 L 1082.615318 672.090797 L 1128.313594 676.312734 " clip-path="url(#paf352f4dff)" style="fill: none; stroke: #1f7e9c; stroke-width: 2.7; stroke-linecap: square"/>
     <g clip-path="url(#paf352f4dff)">
@@ -864,4 +858,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="92.817356" y="1590.164032" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="六个等概率对象上的错误率" id="text_67" data-axis-label="matplotlib.axis_6"><tspan x="92.817356" dy="0">六个等概率对</tspan><tspan x="92.817356" dy="30.68">象上的错误率</tspan></text><text x="92.817357" y="2179.861514" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="对对象与抽票共同平均的错误率" id="text_89" data-axis-label="matplotlib.axis_8"><tspan x="92.817357" dy="0">对对象与抽票</tspan><tspan x="92.817357" dy="30.68">共同平均的错</tspan><tspan x="92.817357" dy="30.68">误率</tspan></text></svg>

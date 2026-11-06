@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1472" viewBox="0 0 960 1472" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一对数字可属于不同坐标系</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1388" viewBox="0 84 960 1388" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一对数字可属于不同坐标系</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mb59d278bb7" d="M 0 0 L 0 3.5 " style="stroke: #527186; stroke-width: 0.8"/>
       <path id="mb72643eea2" d="M 0 0 L -3.5 0 " style="stroke: #527186; stroke-width: 0.8"/>
       <path id="me36c1172d9" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z " style="stroke: #2073b2"/>
@@ -10,7 +10,7 @@
   <clipPath id="p5259f5748c">
    <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1472" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">同一对数字可属于不同坐标系</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(22.83779 92.13012) scale(1.93992815)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1472" fill="#ffffff"/><g transform="translate(22.83779 92.13012) scale(1.93992815)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -140,10 +140,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527186" x="64.28" y="47.003" transform="rotate(-0 64.28 47.003)">1.0</text>
      </g>
     </g>
-    <g id="text_14">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="33.5925" y="162.432" transform="rotate(-90 33.5925 162.432)">数据y</text>
     </g>
-   </g>
    <g id="line2d_13">
     <g clip-path="url(#p8eaf68128f)">
      <use xlink:href="#me36c1172d9" x="163.737391" y="113.7024" style="fill: #2073b2; stroke: #2073b2"/>
@@ -291,10 +288,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527186" x="545.058435" y="47.003" transform="rotate(-0 545.058435 47.003)">1.0</text>
      </g>
     </g>
-    <g id="text_29">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="514.370935" y="162.432" transform="rotate(-90 514.370935 162.432)">数据y</text>
     </g>
-   </g>
    <g id="line2d_26">
     <g clip-path="url(#p5259f5748c)">
      <use xlink:href="#me36c1172d9" x="598.28713" y="113.7024" style="fill: #2073b2; stroke: #2073b2"/>
@@ -325,4 +319,4 @@
     <text style="font-size: 19.2px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="736.973217" y="34.608" transform="rotate(-0 736.973217 34.608)">x轴范围[0,2]</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="164.115869" y="147.906722" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.03885" fill="#25364a" text-anchor="start" aria-label="数据y" id="text_14" data-axis-label="matplotlib.axis_2">数据y</text><text x="164.115869" y="832.157182" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.03885" fill="#25364a" text-anchor="start" aria-label="数据y" id="text_29" data-axis-label="matplotlib.axis_4">数据y</text></svg>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1805" viewBox="0 0 960 1805" role="img" aria-labelledby="diagram-title"><title id="diagram-title">Landweber不同迭代次数的谱滤波因子，以及持续下降的残差和先降后升的参数误差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1676" viewBox="0 129 960 1676" role="img" aria-labelledby="diagram-title"><title id="diagram-title">Landweber不同迭代次数的谱滤波因子，以及持续下降的残差和先降后升的参数误差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m94dc6e18ad" d="M 0 0 L 0 3.5 " style="stroke: #527588; stroke-width: 0.8"/>
       <path id="m9190440d1b" d="M 0 0 L 0 2 " style="stroke: #527588; stroke-width: 0.6"/>
       <path id="m9607888c99" d="M 0 0 L -3.5 0 " style="stroke: #527588; stroke-width: 0.8"/>
@@ -10,7 +10,7 @@
   <clipPath id="pb8edd1603b">
    <rect x="679.68" y="90.72" width="403.2" height="312.48"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1805" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">Landweber不同迭代次数的谱滤波因子，以及持续</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">下降的残差和先降后升的参数误差</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-13.251877 133.106797) scale(1.68586998)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1805" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-13.251877 133.106797) scale(1.68586998)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 115.2 403.2 L 518.4 403.2 L 518.4 90.72 L 115.2 90.72 z " style="fill: #ffffff"/>
    </g>
@@ -389,10 +389,7 @@
       <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527588" x="672.68" y="106.048961" transform="rotate(-0 672.68 106.048961)">2</text>
      </g>
     </g>
-    <g id="text_21">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #20354b" x="643.482813" y="246.96" transform="rotate(-90 643.482813 246.96)">欧氏范数</text>
     </g>
-   </g>
    <g id="line2d_51">
     <path d="M 680.0832 245.859718 L 686.1312 262.037679 L 692.1792 277.619469 L 698.2272 292.627057 L 704.6784 308.02608 L 711.1296 322.820558 L 717.5808 337.034223 L 724.032 350.68988 L 730.4832 363.809433 L 736.9344 376.41393 L 743.3856 388.52359 L 744.9984 391.451343 L 751.4496 379.932998 L 757.9008 368.866849 L 764.352 358.235141 L 770.8032 348.020821 L 777.2544 338.207501 L 783.7056 328.779439 L 790.56 319.167345 L 797.4144 309.955696 L 804.2688 301.127809 L 811.1232 292.667696 L 817.9776 284.560036 L 824.832 276.790146 L 831.6864 269.343954 L 838.944 261.797591 L 846.2016 254.583695 L 853.4592 247.687616 L 860.7168 241.095354 L 867.9744 234.793523 L 875.6352 228.442542 L 883.296 222.386541 L 890.9568 216.611818 L 898.6176 211.105309 L 906.6816 205.585059 L 914.7456 200.334363 L 922.8096 195.340059 L 931.2768 190.358292 L 939.744 185.631631 L 948.6144 180.939284 L 957.4848 176.498353 L 966.7584 172.109767 L 976.032 167.966705 L 985.7088 163.89043 L 995.3856 160.051828 L 1005.4656 156.291085 L 1015.9488 152.621713 L 1026.8352 149.055723 L 1037.7216 145.722774 L 1049.0112 142.496257 L 1060.704 139.384554 L 1072.8 136.394639 L 1082.88 134.068952 L 1082.88 134.068952 " clip-path="url(#pb8edd1603b)" style="fill: none; stroke: #c66d3a; stroke-width: 2.6; stroke-linecap: square"/>
    </g>
@@ -463,4 +460,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="183.960346" y="1024.925152" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="欧氏范数" id="text_21" data-axis-label="matplotlib.axis_4">欧氏范数</text></svg>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1792" viewBox="0 0 960 1792" role="img" aria-labelledby="diagram-title"><title id="diagram-title">逐邻居非线性保留二阶信息</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1708" viewBox="0 84 960 1708" role="img" aria-labelledby="diagram-title"><title id="diagram-title">逐邻居非线性保留二阶信息</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m9075ce8400" d="M 0 0 L 0 3.5 " style="stroke: #608295; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-2e" d="M 372 322 Q 372 491 487 606 Q 603 722 775 722 Q 950 722 1065 605 Q 1181 488 1181 322 Q 1181 159 1065 42 Q 950 -75 772 -75 Q 600 -75 486 42 Q 372 159 372 322 z " transform="scale(0.015625)"/>
@@ -67,7 +67,7 @@
   <clipPath id="pae216b096f">
    <rect x="585.014643" y="48.186875" width="431.384877" height="382.629676"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1792" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">逐邻居非线性保留二阶信息</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(34.92034 103.96362) scale(1.65331536)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1792" fill="#ffffff"/><g transform="translate(34.92034 103.96362) scale(1.65331536)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 81.880469 430.816551 L 513.265346 430.816551 L 513.265346 48.186875 L 81.880469 48.186875 z " style="fill: #ffffff"/>
    </g>
@@ -594,16 +594,7 @@
       </g>
      </g>
     </g>
-    <g id="text_30">
-     <!-- 聚合结果 -->
-     <g style="fill: #21364c" transform="translate(548.336049 275.501713) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-805a"/>
-      <use xlink:href="#MicrosoftYaHei-5408" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7ed3" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-679c" transform="translate(300 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_4">
     <g clip-path="url(#pae216b096f)">
      <use xlink:href="#m262d626bd6" x="604.623046" y="401.383499" style="fill: #c86e3a; stroke: #c86e3a"/>
@@ -706,4 +697,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="173.294575" y="922.028091" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="29.759676" fill="#25364a" text-anchor="start" aria-label="聚合结果" id="text_30" data-axis-label="matplotlib.axis_4">聚合结果</text></svg>

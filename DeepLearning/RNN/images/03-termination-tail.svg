@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="993.0818" viewBox="0 0 1440 993.0818" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">两种结束概率的未终止尾概率及有限串质量</title><rect width="1440" height="993.0818" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">两种结束概率的未终止尾概率及有限串质量</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="851.0818" viewBox="26 60 1137 720" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden">
-<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="60" width="1137" height="720" fill="#ffffff"/><title id="title">序列结束：局部归一化不等于有限长度保证</title><desc id="desc">比较两种结束率：第t步的结束概率分别为1除以(t+1)平方和1除以(t+1)。前者一半概率永不结束；后者几乎必然结束但期望长度无穷。</desc>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1137" height="720" viewBox="26 60 1137 720" role="img" aria-labelledby="title desc">
+<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="60" width="1137" height="720" fill="#ffffff"/><title id="title">两种结束概率的未终止尾概率及有限串质量</title><desc id="desc">比较两种结束率：第t步的结束概率分别为1除以(t+1)平方和1除以(t+1)。前者一半概率永不结束；后者几乎必然结束但期望长度无穷。</desc>
 <rect width="1200" height="800" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1f3449">
 <text x="44" y="100" font-size="26" fill="#62819a" text-anchor="start" font-weight="400">仅有继续符号和 EOS；T 是首次输出 EOS 的步数，t 从 1 开始</text>
@@ -49,4 +49,4 @@
 <text x="730" y="547" font-size="25" fill="#2472b1" text-anchor="start" font-weight="400">总质量为 1，但平均长度仍无穷</text>
 <rect x="44" y="724" width="1112" height="48" rx="10" fill="url(#book-wash-eef4f9)" stroke="none"/>
 <text x="65" y="758" font-size="26" fill="#1f3449" text-anchor="start" font-weight="400">B：截断到 10、100、1000 步，期望长度约为 2.929、5.187、7.485。</text>
-</g></svg></svg>
+</g></svg>

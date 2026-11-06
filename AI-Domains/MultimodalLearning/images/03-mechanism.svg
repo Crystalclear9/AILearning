@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="948.1716" viewBox="0 0 1440 948.1716" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">压缩为少量查询会形成信息瓶颈</title><rect width="1440" height="948.1716" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">压缩为少量查询会形成信息瓶颈</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="806.1716" viewBox="22 66 1177 706" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden"><rect x="22" y="66" width="1177" height="706" fill="#ffffff"/><title id="title">压缩碰撞：不同输入得到同一组连接token</title><desc id="desc">固定两个查询，各自均匀汇总三个位置。输入A一零零零一零和B零一零一零零均压缩为三分之一、三分之一，无法回答第一位置是否为一。</desc><rect width="1320" height="800" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1177" height="706" viewBox="22 66 1177 706" role="img" aria-labelledby="title desc"><rect x="22" y="66" width="1177" height="706" fill="#ffffff"/><title id="title">压缩为少量查询会形成信息瓶颈</title><desc id="desc">固定两个查询，各自均匀汇总三个位置。输入A一零零零一零和B零一零一零零均压缩为三分之一、三分之一，无法回答第一位置是否为一。</desc><rect width="1320" height="800" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
 <text x="40" y="108" font-size="28" fill="#648496" text-anchor="start" font-weight="400">固定两个查询：各自读取三个位置的均值</text>
 <text x="270" y="175" font-size="25" fill="#1c2e41" text-anchor="middle" font-weight="400">位置 1</text>
 <text x="390" y="175" font-size="25" fill="#1c2e41" text-anchor="middle" font-weight="400">位置 2</text>
@@ -52,4 +52,4 @@
 <text x="1150" y="288" font-size="32" fill="#c9772e" text-anchor="middle" font-weight="400">不同</text>
 <text x="1150" y="575" font-size="32" fill="#2375be" text-anchor="middle" font-weight="400">相同</text>
 <text x="40" y="690" font-size="31" fill="#1c2e41" text-anchor="start" font-weight="700">问题：第一个位置是 1 吗？</text>
-<text x="40" y="750" font-size="29" fill="#c9772e" text-anchor="start" font-weight="400">A：是；B：否。只看这两个摘要，后续模型无法区分。</text></g></svg></svg>
+<text x="40" y="750" font-size="29" fill="#c9772e" text-anchor="start" font-weight="400">A：是；B：否。只看这两个摘要，后续模型无法区分。</text></g></svg>

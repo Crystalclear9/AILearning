@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1038" viewBox="0 0 1440 1038" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">三输入四隐藏单元两输出的全连接神经网络</title><rect width="1440" height="1038" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">三输入四隐藏单元两输出的全连接神经网络</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg viewBox="0 0 1500 1000" width="1344" height="896" role="img" x="48" y="106" overflow="hidden">
-<rect width="1500" height="1000" fill="white"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000" width="1500" height="1000" role="img" aria-labelledby="plate-title">
+<title xmlns:xlink="http://www.w3.org/1999/xlink" id="plate-title">三输入四隐藏单元两输出的全连接神经网络</title><rect width="1500" height="1000" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#21374d">
 <text x="65" y="55" font-size="33" fill="#21374d" text-anchor="start" font-weight="normal">A  同一条输入，逐层追踪数值</text>
 <line x1="192" y1="225" x2="582" y2="170" stroke="#e0e5ed" stroke-width="2"/>
@@ -109,4 +109,4 @@
 <text x="1120" y="760" font-size="28" fill="#217599" text-anchor="start" font-weight="normal">权重 12 + 8</text>
 <text x="1120" y="820" font-size="28" fill="#cb753f" text-anchor="start" font-weight="normal">偏置 4 + 2</text>
 <text x="1120" y="890" font-size="31" fill="#22959c" text-anchor="start" font-weight="normal">共 26 个参数</text>
-</g></svg></svg>
+</g></svg>

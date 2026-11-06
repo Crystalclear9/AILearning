@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2133" viewBox="0 0 960 2133" role="img" aria-labelledby="artwork-title"><title id="artwork-title">匹配均值仍可能错过计数数据的离散程度</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="2035.3125"/></clipPath></defs><rect width="960" height="2133" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">匹配均值仍可能错过计数数据的离散程度</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2086" viewBox="0 47 960 2086" role="img" aria-labelledby="artwork-title"><title id="artwork-title">匹配均值仍可能错过计数数据的离散程度</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="2035.3125"/></clipPath></defs><rect width="960" height="2133" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -112,10 +112,7 @@
       <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #48728b" x="37.35" y="103.658325" transform="rotate(-0 37.35 103.658325)">4</text>
      </g>
     </g>
-    <g id="text_9">
-     <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b53" x="19.99" y="187.076125" transform="rotate(-90 19.99 187.076125)">观察计数</text>
     </g>
-   </g>
    <g id="LineCollection_1">
     <line clip-path="url(#pcbd1354fd9)" style="fill: none; stroke: #157092; stroke-width: 4" x1="55.830383" y1="314.991325" x2="55.830383" y2="314.991325"/>
     <line clip-path="url(#pcbd1354fd9)" style="fill: none; stroke: #157092; stroke-width: 4" x1="132.366268" y1="314.991325" x2="132.366268" y2="314.991325"/>
@@ -352,10 +349,7 @@
       <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #48728b" x="390.945789" y="85.076366" transform="rotate(-0 390.945789 85.076366)">0.5</text>
      </g>
     </g>
-    <g id="text_27">
-     <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b53" x="360.350789" y="187.076125" transform="rotate(-90 360.350789 187.076125)">概率质量 / 经验频率</text>
     </g>
-   </g>
    <g id="patch_20">
     <line style="fill: none; stroke: #aabbcb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="397.945789" y1="336.764125" x2="397.945789" y2="37.388125"/>
    </g>
@@ -538,10 +532,7 @@
       <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #48728b" x="744.541579" y="70.999125" transform="rotate(-0 744.541579 70.999125)">1.0</text>
      </g>
     </g>
-    <g id="text_45">
-     <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b53" x="713.946579" y="187.076125" transform="rotate(-90 713.946579 187.076125)">累计概率 / 经验比例</text>
     </g>
-   </g>
    <g id="line2d_50">
     <polyline clip-path="url(#pac977da0b4)" style="fill: none; stroke: #157092; stroke-width: 3; stroke-linecap: square" points="728.923511,336.764125 766.620291,336.764125 766.620291,200.684125 804.31707,200.684125 804.31707,200.684125 842.013849,200.684125 842.013849,200.684125 879.710628,200.684125 879.710628,200.684125 917.407408,200.684125 917.407408,64.604125 955.104187,64.604125 955.104187,64.604125 992.800966,64.604125 992.800966,64.604125"/>
    </g>
@@ -593,4 +584,4 @@
    <rect x="751.541579" y="37.388125" width="252.568421" height="299.376"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="320.040252" y="99.585087" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.499987" fill="#25364a" text-anchor="start" aria-label="观察计数" id="text_9" data-axis-label="matplotlib.axis_2">观察计数</text><text x="329.957726" y="1492.331615" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.499987" fill="#25364a" text-anchor="start" aria-label="累计概率 / 经验比例" id="text_45" data-axis-label="matplotlib.axis_6">累计概率 / 经验比例</text><text x="262.573514" y="1086.546023" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="概率质量 / 经验频率" id="text_27" data-axis-label="matplotlib.axis_4"><tspan x="262.573514" dy="0">概率质量 /</tspan><tspan x="262.573514" dy="30.68">经验频率</tspan></text></svg>

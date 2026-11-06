@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1860" viewBox="0 0 960 1860" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">不停止优势梯度会多出一条参数依赖路径</title><desc id="artwork-desc">坐标、条件与计算过程见紧邻本图的正文。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1034.653303" height="1820.116687" viewBox="-74.653303 39.883313 1034.653303 1820.116687" role="img" aria-labelledby="artwork-title artwork-desc"><rect x="-74.653303" y="39.883313" width="1034.653303" height="1820.116687" fill="#ffffff" id="plate-canvas"/><title id="artwork-title">不停止优势梯度会多出一条参数依赖路径</title><desc id="artwork-desc">坐标、条件与计算过程见紧邻本图的正文。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m8cc83bcf23" d="M 0 0  L 0 3.5  " style="stroke: #45687a; stroke-width: 0.8"/>
       <path id="m33a76d5dcc" d="M 0 0  L -3.5 0  " style="stroke: #45687a; stroke-width: 0.8"/>
       <path id="C0_0_2a24d25d5c" d="M 0 3  C 0.795609 3 1.55874 2.683901 2.12132 2.12132  C 2.683901 1.55874 3 0.795609 3 -0  C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132  C 1.55874 -2.683901 0.795609 -3 0 -3  C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132  C -2.683901 -1.55874 -3 -0.795609 -3 0  C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132  C -1.55874 2.683901 -0.795609 3 0 3  z "/>
@@ -10,7 +10,7 @@
   <clipPath id="paf1a0b2312">
    <rect x="770.412101" y="158.4" width="473.747899" height="424.8"/>
   </clipPath>
- </defs><rect width="960" height="1860" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">不停止优势梯度会多出一条参数依赖路径</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><rect x="35" y="86" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="111" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(2.957744 -104.706664) scale(1.529398)"><g id="axes_1">
+ </defs><rect width="960" height="1860" fill="#ffffff"/><rect x="35" y="86" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="111" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(2.957744 -104.706664) scale(1.529398)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 116.64 583.2  L 590.387899 583.2  L 590.387899 158.4  L 116.64 158.4  z " style="fill: #ffffff"/>
    </g>
@@ -148,10 +148,7 @@
       <text style="font-size: 28.56px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="109.64" y="186.102528" transform="rotate(-0 109.64 186.102528)">0.0</text>
      </g>
     </g>
-    <g id="text_13">
-     <text style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233950" x="54.660781" y="370.8" transform="rotate(-90 54.660781 370.8)">actor 损失对 θ 的导数</text>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p52f10f147d)">
      <use xlink:href="#C0_0_2a24d25d5c" x="353.51395" y="247.281902" style="fill: #156e9f; stroke: #156e9f"/>
@@ -312,10 +309,7 @@
       <text style="font-size: 28.56px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="763.412101" y="219.599288" transform="rotate(-0 763.412101 219.599288)">−0.4</text>
      </g>
     </g>
-    <g id="text_27">
-     <text style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233950" x="708.299913" y="370.8" transform="rotate(-90 708.299913 370.8)">额外梯度项 log sigmoid(θ)</text>
     </g>
-   </g>
    <g id="PathCollection_2">
     <g clip-path="url(#paf1a0b2312)">
      <use xlink:href="#m2785b1af67" x="1007.28605" y="324.413961" style="fill: #c26828; stroke: #c26828"/>
@@ -337,4 +331,4 @@
   </g><g transform="translate(-59.56 1280.876468) scale(0.828549)"><g id="text_30">
    <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #233950" x="129.6" y="676.8" transform="rotate(-0 129.6 676.8)">固定采样动作 1、奖励 1、基线 θ；actor 数值为 −log sigmoid(θ) × (1−θ)</text>
   </g>
- </g></svg>
+ </g><text x="184.346727" y="78.549979" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="actor 损失对 θ 的导数" id="text_13" data-axis-label="matplotlib.axis_2"><tspan x="184.346727" dy="0">actor 损失对 θ 的</tspan><tspan x="184.346727" dy="41.58">导数</tspan></text><text x="116.346697" y="1267.87485" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="额外梯度项 log sigmoid(θ)" id="text_27" data-axis-label="matplotlib.axis_4"><tspan x="116.346697" dy="0">额外梯度项</tspan><tspan x="116.346697" dy="30.68">log sigmoid(θ</tspan><tspan x="116.346697" dy="30.68">)</tspan></text></svg>

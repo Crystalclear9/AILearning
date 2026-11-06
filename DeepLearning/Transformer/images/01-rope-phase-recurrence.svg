@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1012.9787" viewBox="0 0 1440 1012.9787" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">RoPE 相对相位的回转与频率缩放对照</title><rect width="1440" height="1012.9787" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">RoPE 相对相位的回转与频率缩放对照</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="870.9787" viewBox="26 60 1128 731" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden">
-<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="60" width="1128" height="731" fill="#ffffff"/><title id="title">RoPE相对位置不保证逐项单调衰减</title><desc id="desc">固定查询和键只在标准首个二维通道对取(1,0)，频率1弧度，点积cos相对位移。距离3时接近负一，距离6时回升至约0.96；频率减半改变原有短距离分数。</desc>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1128" height="731" viewBox="26 60 1128 731" role="img" aria-labelledby="title desc">
+<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="60" width="1128" height="731" fill="#ffffff"/><title id="title">RoPE 相对相位的回转与频率缩放对照</title><desc id="desc">固定查询和键只在标准首个二维通道对取(1,0)，频率1弧度，点积cos相对位移。距离3时接近负一，距离6时回升至约0.96；频率减半改变原有短距离分数。</desc>
 <rect width="1200" height="810" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1f3449">
 <text x="44" y="100" font-size="26" fill="#62819a" text-anchor="start" font-weight="400">只激活标准首个二维通道对，频率为 1 弧度；其余通道为 0</text>
@@ -68,4 +68,4 @@
 <rect x="44" y="700" width="1112" height="77" rx="12" fill="url(#book-wash-eef4f9)" stroke="none"/>
 <text x="65" y="735" font-size="26" fill="#1f3449" text-anchor="start" font-weight="400">在 Δ = 1 处，频率减半使原始点积从 0.5403 变为 0.8776。</text>
 <text x="65" y="769" font-size="25" fill="#1f3449" text-anchor="start" font-weight="400">图中是固定内容的未缩放点积，不是注意力概率或模型的长文本任务成绩。</text>
-</g></svg></svg>
+</g></svg>

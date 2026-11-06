@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1793" viewBox="0 0 960 1793" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">未见词平滑强度的概率路径与完整测试总体风险</title><desc id="artwork-desc">未见词的平滑不是免费收益：完整风险随强度变化 α↓0 时未见词损失发散；α 很大时趋于均匀，并不自动接近真实总体。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1746" viewBox="0 47 960 1746" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">未见词平滑强度的概率路径与完整测试总体风险</title><desc id="artwork-desc">未见词的平滑不是免费收益：完整风险随强度变化 α↓0 时未见词损失发散；α 很大时趋于均匀，并不自动接近真实总体。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m14498c7cf4" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="m7e2fb25168" d="M 0 0 L 0 2 " style="stroke: #45697b; stroke-width: 0.6"/>
       <path id="mdd979cdd28" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
@@ -10,7 +10,7 @@
   <clipPath id="ped4023e9a5">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1793" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">未见词平滑强度的概率路径与完整测试总体风险</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-1.247071 29.865321) scale(0.978887)"><g id="text_33">
+ </defs><rect width="960" height="1793" fill="#ffffff"/><g transform="translate(-1.247071 29.865321) scale(0.978887)"><g id="text_33">
    <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #47586b" x="51.84" y="81.648" transform="rotate(-0 51.84 81.648)">训练计数 A=3、B=0；仅为说明机制，设测试总体 P(B)=0.1</text>
   </g>
   </g><rect x="35" y="143.5" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="168.5" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(-9.33246 -14.279786) scale(1.712093)"><g id="axes_1">
@@ -504,10 +504,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="108.2" y="211.230114" transform="rotate(-0 108.2 211.230114)">0.5</text>
      </g>
     </g>
-    <g id="text_14">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="62.459062" y="330.48" transform="rotate(-90 62.459062 330.48)">分配给 B 的概率</text>
     </g>
-   </g>
    <g id="line2d_65">
     <polyline clip-path="url(#p03af999595)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="115.2,485.811616 147.502146,485.526656 168.844635,485.130577 184.995708,484.62363 198.262661,483.994219 209.222318,483.264344 219.028326,482.391653 227.680687,481.396862 235.179399,480.319858 242.101288,479.108817 248.446352,477.779838 254.214592,476.358236 259.982833,474.700899 265.174249,472.978608 270.365665,471.00829 274.980258,469.023627 279.59485,466.79507 284.209442,464.29785 288.24721,461.872075 292.284979,459.202989 296.322747,456.272579 300.360515,453.062948 304.398283,449.556687 308.436052,445.737327 312.47382,441.589855 316.511588,437.1013 320.549356,432.261365 324.587124,427.063107 328.624893,421.503615 332.662661,415.584681 337.277253,408.389421 341.891845,400.754081 346.506438,392.709159 351.697854,383.220868 357.466094,372.22324 364.964807,357.411051 386.88412,313.709065 392.652361,302.84256 397.843777,293.500285 402.458369,285.602917 407.072961,278.127692 411.687554,271.101137 415.725322,265.3339 419.76309,259.927479 423.800858,254.881595 427.838627,250.191546 431.876395,245.848886 435.914163,241.842103 439.951931,238.157287 443.9897,234.778741 448.027468,231.689539 452.065236,228.872013 456.103004,226.308177 460.140773,223.980065 464.755365,221.585379 469.369957,219.450034 473.984549,217.549735 479.175966,215.664431 484.367382,214.01748 490.135622,212.433546 495.903863,211.075613 502.248927,209.806743 509.170815,208.650973 516.669528,207.623519 518.4,207.415137 518.4,207.415137"/>
    </g>
@@ -1010,10 +1007,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="672.68" y="182.95375" transform="rotate(-0 672.68 182.95375)">1.0</text>
      </g>
     </g>
-    <g id="text_28">
-     <text style="font-size: 25.52px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="626.939062" y="330.48" transform="rotate(-90 626.939062 330.48)">设定测试总体的期望交叉熵</text>
     </g>
-   </g>
    <g id="line2d_130">
     <polyline clip-path="url(#ped4023e9a5)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="679.68,257.487932 721.788155,306.998568 747.168412,336.51759 765.626781,357.657131 780.047382,373.84455 791.583863,386.484057 801.966695,397.531628 810.619056,406.425811 818.694592,414.401911 825.616481,420.931948 831.961545,426.619932 837.729785,431.501421 842.921202,435.623889 848.112618,439.455212 852.72721,442.587078 857.341803,445.432768 861.379571,447.665196 865.417339,449.635996 868.878283,451.101186 872.339227,452.345436 875.800172,453.355331 879.261116,454.11759 882.72206,454.619263 885.60618,454.829302 888.4903,454.843009 891.374421,454.654137 894.258541,454.25706 897.142661,453.646895 900.026781,452.819631 902.910901,451.772252 905.795021,450.502863 908.679142,449.010806 911.563262,447.296773 915.024206,444.950031 918.48515,442.293379 921.946094,439.336686 925.407039,436.093168 929.444807,431.968789 933.482575,427.508391 938.097167,422.047277 943.288584,415.515886 949.056824,407.894027 957.709185,396.048922 970.399313,378.691159 976.744378,370.389159 982.512618,363.213421 987.704034,357.121031 992.318627,352.028713 996.933219,347.258625 1001.547811,342.819885 1006.162403,338.714568 1010.776996,334.938757 1015.391588,331.483642 1020.00618,328.336582 1024.620773,325.482104 1029.235365,322.902787 1033.849957,320.580034 1038.464549,318.494715 1043.655966,316.408705 1048.847382,314.572317 1054.038798,312.960045 1059.807039,311.402347 1066.152103,309.938056 1072.497167,308.699431 1079.419056,307.567546 1082.88,307.07616 1082.88,307.07616"/>
    </g>
@@ -1049,4 +1043,4 @@
     <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="881.28" y="151.96" transform="rotate(-0 881.28 151.96)">比较完整词表的风险</text>
    </g>
   </g>
-  </g></svg>
+  </g><text x="190.900654" y="196.268005" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="分配给 B 的概率" id="text_14" data-axis-label="matplotlib.axis_2">分配给 B 的概率</text><text x="122.900927" y="1299.008294" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="23" fill="#25364a" aria-label="设定测试总体的期望交叉熵" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="122.900927" dy="0">设定测试</tspan><tspan x="122.900927" dy="27.14">总体的期</tspan><tspan x="122.900927" dy="27.14">望交叉熵</tspan></text></svg>

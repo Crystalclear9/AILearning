@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2313" viewBox="0 0 960 2313" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一输入的两条求导路径</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2229" viewBox="0 84 960 2229" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一输入的两条求导路径</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="MicrosoftYaHei-32" d="M 2666 3572 Q 2666 3963 2419 4186 Q 2172 4409 1747 4409 Q 1447 4409 1140 4256 Q 834 4103 569 3819 L 569 4413 Q 806 4659 1107 4790 Q 1409 4922 1816 4922 Q 2472 4922 2872 4570 Q 3272 4219 3272 3619 Q 3272 3084 3026 2693 Q 2781 2303 2188 1894 Q 1581 1475 1376 1294 Q 1172 1113 1090 947 Q 1009 781 1009 544 L 3416 544 L 3416 0 L 372 0 L 372 241 Q 372 659 486 951 Q 600 1244 862 1520 Q 1125 1797 1681 2184 Q 2250 2584 2458 2886 Q 2666 3188 2666 3572 z " transform="scale(0.015625)"/>
      <path id="MicrosoftYaHei-31" d="M 1781 0 L 1781 4141 Q 1638 3997 1295 3819 Q 953 3641 663 3569 L 663 4169 Q 1047 4275 1484 4508 Q 1922 4741 2156 4947 L 2388 4947 L 2388 0 L 1781 0 z " transform="scale(0.015625)"/>
      <path id="MicrosoftYaHei-33" d="M 447 809 Q 944 425 1569 425 Q 2069 425 2361 670 Q 2653 916 2653 1328 Q 2653 2247 1338 2247 L 934 2247 L 934 2753 L 1319 2753 Q 2484 2753 2484 3616 Q 2484 4413 1594 4413 Q 1084 4413 634 4069 L 634 4647 Q 1109 4922 1744 4922 Q 2363 4922 2738 4598 Q 3113 4275 3113 3759 Q 3113 2809 2144 2538 L 2144 2525 Q 2669 2469 2973 2155 Q 3278 1841 3278 1372 Q 3278 719 2808 319 Q 2338 -81 1556 -81 Q 869 -81 447 175 L 447 809 z " transform="scale(0.015625)"/>
@@ -102,7 +102,7 @@
   <clipPath id="p38e31896df">
    <rect x="629.292416" y="383.70229" width="459.107104" height="227.114261"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2313" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">同一输入的两条求导路径</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-9.26766 104.95176) scale(1.54457699)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2313" fill="#ffffff"/><g transform="translate(-9.26766 104.95176) scale(1.54457699)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 155.510546 130.151395 C 162.340796 130.151395 168.892216 128.015536 173.721932 124.214217 C 178.551648 120.412897 181.265335 115.256477 181.265335 109.8806 C 181.265335 104.504722 178.551648 99.348303 173.721932 95.546983 C 168.892216 91.745663 162.340796 89.609804 155.510546 89.609804 C 148.680296 89.609804 142.128876 91.745663 137.29916 95.546983 C 132.469444 99.348303 129.755757 104.504722 129.755757 109.8806 C 129.755757 115.256477 132.469444 120.412897 137.29916 124.214217 C 142.128876 128.015536 148.680296 130.151395 155.510546 130.151395 z " clip-path="url(#pd8eb60ec39)" style="fill: #ffffff; stroke: #1f6f94; stroke-width: 1.8; stroke-linejoin: miter"/>
    </g>
@@ -890,16 +890,7 @@
       </g>
      </g>
     </g>
-    <g id="text_65">
-     <!-- 损失增量 -->
-     <g style="fill: #21364c" transform="translate(583.817729 533.259421) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-635f"/>
-      <use xlink:href="#MicrosoftYaHei-5931" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-589e" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cf" transform="translate(300 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p38e31896df)">
      <use xlink:href="#C0_0_1bcd57f7f6" x="858.845968" y="501.951864" style="fill: #1f6f94; stroke: #1f6f94"/>
@@ -996,4 +987,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="194.150096" y="1730.293558" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="27.802386" fill="#25364a" text-anchor="start" aria-label="损失增量" id="text_65" data-axis-label="matplotlib.axis_4">损失增量</text></svg>

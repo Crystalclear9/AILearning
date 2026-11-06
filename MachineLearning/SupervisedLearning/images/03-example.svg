@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2181" viewBox="0 0 960 2181" role="img" aria-labelledby="diagram-title"><title id="diagram-title">软间隔 KKT 把乘子与间隔位置联系起来</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2118.102438" viewBox="0 62.897562 960 2118.102438" role="img" aria-labelledby="diagram-title"><rect x="0" y="62.897562" width="960" height="2118.102438" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">软间隔 KKT 把乘子与间隔位置联系起来</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m4d1420d58b" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="m3b2df693cc" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="m37463e0638" d="M 0 4.472136 C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278 C 4.000923 2.323632 4.472136 1.186024 4.472136 0 C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278 C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136 C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278 C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0 C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278 C -2.323632 4.000923 -1.186024 4.472136 0 4.472136 z " style="stroke: #cd7941"/>
@@ -15,7 +15,7 @@
   <clipPath id="pa640a81a38">
    <rect x="1078.591207" y="80.64" width="473.728793" height="312.48"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2181" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">软间隔 KKT 把乘子与间隔位置联系起来</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(17.111866 35.285279) scale(1.54942481)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2181" fill="#ffffff"/><g transform="translate(17.111866 35.285279) scale(1.54942481)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 95.04 393.12 L 433.417709 393.12 L 433.417709 80.64 L 95.04 80.64 z " style="fill: #ffffff"/>
    </g>
@@ -127,10 +127,7 @@
       <text style="font-size: 23px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="88.04" y="151.71004" transform="rotate(-0 88.04 151.71004)">1.5</text>
      </g>
     </g>
-    <g id="text_11">
-     <text style="font-size: 23px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="45.809687" y="236.88" transform="rotate(-90 45.809687 236.88)">最小松弛 ξ</text>
     </g>
-   </g>
    <g id="line2d_14">
     <path d="M 95.04 96.109307 L 329.366563 374.556832 L 433.417709 374.556832 L 433.417709 374.556832 " clip-path="url(#pba3be364c6)" style="fill: none; stroke: #1f7e9c; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -452,4 +449,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="167.3692" y="101.230896" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="最小松弛 ξ" id="text_11" data-axis-label="matplotlib.axis_2">最小松弛 ξ</text></svg>

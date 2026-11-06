@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2319" viewBox="0 0 960 2319" role="img" aria-labelledby="diagram-title"><title id="diagram-title">两次访问同一个状态，在线写入为何破坏冻结恒等式</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2190" viewBox="0 129 960 2190" role="img" aria-labelledby="diagram-title"><title id="diagram-title">两次访问同一个状态，在线写入为何破坏冻结恒等式</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="MicrosoftYaHei-73" d="M 353 747 Q 816 413 1350 413 Q 2066 413 2066 881 Q 2066 1081 1909 1211 Q 1753 1341 1275 1519 Q 700 1750 528 1976 Q 356 2203 356 2525 Q 356 2984 745 3261 Q 1134 3538 1703 3538 Q 2144 3538 2522 3384 L 2522 2794 Q 2134 3044 1644 3044 Q 1350 3044 1165 2916 Q 981 2788 981 2578 Q 981 2372 1114 2256 Q 1247 2141 1703 1959 Q 2281 1744 2484 1512 Q 2688 1281 2688 941 Q 2688 466 2298 192 Q 1909 -81 1291 -81 Q 753 -81 353 122 L 353 747 z " transform="scale(0.015625)"/>
      <path id="MicrosoftYaHei-7ec8" d="M 2156 3234 Q 2944 4253 3356 5366 L 3825 5209 Q 3700 4925 3563 4653 L 5906 4653 L 5906 4209 Q 5425 3378 4663 2750 Q 5381 2259 6350 2097 Q 6219 1797 6131 1566 Q 5038 1875 4278 2456 Q 3447 1878 2331 1503 Q 2231 1734 2113 1941 Q 3156 2238 3931 2756 Q 3434 3228 3119 3847 Q 2816 3350 2469 2903 Q 2350 3041 2156 3234 z M 888 1528 Q 1413 1603 2113 1709 Q 2075 1466 2056 1241 Q 1344 1141 319 978 L 219 1434 Q 594 1828 1163 2794 Q 506 2753 219 2728 L 100 3153 Q 663 3897 1288 5366 L 1763 5178 Q 1156 3991 656 3191 Q 1047 3200 1403 3209 Q 1638 3625 1900 4122 L 2369 3916 Q 1463 2347 888 1528 z M 2625 109 L 2819 547 Q 3969 234 5675 -297 L 5444 -791 Q 3850 -222 2625 109 z M 5356 4234 L 3372 4234 Q 3750 3513 4303 3028 Q 4938 3541 5356 4234 z M 88 66 Q 1069 259 2250 547 Q 2231 203 2231 78 Q 1375 -109 225 -416 L 88 66 z M 3338 1247 L 3525 1666 Q 4469 1384 5413 1047 L 5206 553 Q 4275 953 3338 1247 z " transform="scale(0.015625)"/>
       <path id="MicrosoftYaHei-6b62" d="M 156 172 L 1263 172 L 1263 4153 L 1788 4153 L 1788 172 L 3319 172 L 3319 5316 L 3856 5316 L 3856 3478 L 5950 3478 L 5950 2978 L 3856 2978 L 3856 172 L 6281 172 L 6281 -341 L 156 -341 L 156 172 z " transform="scale(0.015625)"/>
@@ -98,7 +98,7 @@
   <clipPath id="pa969b3a467">
    <rect x="572.883588" y="362.15926" width="444.955932" height="253.456666"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2319" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">两次访问同一个状态，在线写入为何破坏冻结恒</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">等式</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(17.924009 66.533333) scale(1.67163699)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2319" fill="#ffffff"/><g transform="translate(17.924009 66.533333) scale(1.67163699)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 107.527781 220.051426 C 114.608002 220.051426 121.399189 217.238424 126.405662 212.231952 C 131.412135 207.225479 134.225137 200.434292 134.225137 193.35407 C 134.225137 186.273849 131.412135 179.482662 126.405662 174.476189 C 121.399189 169.469716 114.608002 166.656714 107.527781 166.656714 C 100.447559 166.656714 93.656372 169.469716 88.649899 174.476189 C 83.643427 179.482662 80.830425 186.273849 80.830425 193.35407 C 80.830425 200.434292 83.643427 207.225479 88.649899 212.231952 C 93.656372 217.238424 100.447559 220.051426 107.527781 220.051426 z " clip-path="url(#pc21fbac83b)" style="fill: #ffffff; stroke: #207397; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
@@ -420,24 +420,7 @@
       </g>
      </g>
     </g>
-    <g id="text_19">
-     <!-- 同一个状态的迹 e(s) -->
-     <g style="fill: #223950" transform="translate(531.657494 252.008021) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-540c"/>
-      <use xlink:href="#MicrosoftYaHei-4e00" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e2a" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-72b6" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6001" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8ff9" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(700 0)"/>
-      <use xlink:href="#MicrosoftYaHei-65" transform="translate(729.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-28" transform="translate(786.328125 0)"/>
-      <use xlink:href="#MicrosoftYaHei-73" transform="translate(819.726562 0)"/>
-      <use xlink:href="#MicrosoftYaHei-29" transform="translate(866.015625 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_8">
     <path d="M 593.108858 302.284166 L 727.943989 302.284166 L 727.943989 175.555833 L 593.108858 175.555833 z " clip-path="url(#p724c1b877d)" style="fill: #207397"/>
    </g>
@@ -627,18 +610,7 @@
       </g>
      </g>
     </g>
-    <g id="text_29">
-     <!-- 贡献 αδe -->
-     <g style="fill: #223950" transform="translate(29.429375 524.27814) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-8d21"/>
-      <use xlink:href="#MicrosoftYaHei-732e" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-3b1" transform="translate(229.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-3b4" transform="translate(296.191406 0)"/>
-      <use xlink:href="#MicrosoftYaHei-65" transform="translate(359.619141 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_13">
     <path d="M 83.257457 615.615926 L 263.037632 615.615926 L 263.037632 562.812454 L 83.257457 562.812454 z " clip-path="url(#p364b34acae)" style="fill: #207397"/>
    </g>
@@ -833,18 +805,7 @@
       </g>
      </g>
     </g>
-    <g id="text_39">
-     <!-- 贡献 αδe -->
-     <g style="fill: #223950" transform="translate(539.280776 524.27814) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-8d21"/>
-      <use xlink:href="#MicrosoftYaHei-732e" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-3b1" transform="translate(229.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-3b4" transform="translate(296.191406 0)"/>
-      <use xlink:href="#MicrosoftYaHei-65" transform="translate(359.619141 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_18">
     <path d="M 593.108858 615.615926 L 772.889032 615.615926 L 772.889032 562.812454 L 593.108858 562.812454 z " clip-path="url(#pa969b3a467)" style="fill: #207397"/>
    </g>
@@ -895,4 +856,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="156.043139" y="510.657357" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.417829" fill="#25364a" text-anchor="start" aria-label="同一个状态的迹 e(s)" id="text_19" data-axis-label="matplotlib.axis_2">同一个状态的迹 e(s)</text><text x="156.043138" y="1104.893882" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.417829" fill="#25364a" text-anchor="start" aria-label="贡献 αδe" id="text_29" data-axis-label="matplotlib.axis_4">贡献 αδe</text><text x="156.043139" y="1696.820114" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.417829" fill="#25364a" text-anchor="start" aria-label="贡献 αδe" id="text_39" data-axis-label="matplotlib.axis_6">贡献 αδe</text></svg>

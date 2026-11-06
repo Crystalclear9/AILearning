@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="764" viewBox="0 0 1440 764" role="img" aria-labelledby="title">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="684" viewBox="0 80 1440 684" role="img" aria-labelledby="title">
 <title id="title">前向破坏一个样本，反向从新噪声生成另一个</title>
 <defs>
 <marker id="ink" markerWidth="11" markerHeight="11" refX="9.5" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#172e46"/></marker>
@@ -9,9 +9,6 @@
 <marker id="purple" markerWidth="11" markerHeight="11" refX="9.5" refY="5.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L11 5.5 L0 11 Z" fill="#7352a1"/></marker>
 </defs><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
 <rect x="0" y="0" width="1440" height="764" rx="10" fill="white" stroke-width="1.4"/>
-<rect x="44" y="35" width="5" height="37" rx="2" fill="#526bab" stroke-width="1.4"/>
-<text x="68" y="65" fill="#172e46" font-size="33" text-anchor="start" font-weight="700">前向破坏一个样本，反向从新噪声生成另一个</text>
-<line x1="44" y1="89" x2="1396" y2="89" stroke="#cbd9e6" stroke-width="1.6" stroke-linecap="round"/>
 <text x="137" y="216" fill="#286391" font-size="23" text-anchor="middle" font-weight="700">前向加噪</text>
 <text x="137" y="248" fill="#546b83" font-size="23" text-anchor="middle" font-weight="400">从数据开始</text>
 <rect x="229" y="134" width="252" height="176" rx="10" fill="#e8f3fc" stroke="#cbd9e6" stroke-width="1.4"/>

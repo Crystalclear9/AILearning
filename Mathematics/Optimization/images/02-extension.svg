@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1794" viewBox="0 0 960 1794" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">稳定项下两个坐标归一化分量及更新方向角</title><desc id="artwork-desc">稳定项不仅改变步长，还可能改变更新方向 ε=0 时两个分量恒为 1；ε&gt;0 时，小尺度近似原梯度方向，大尺度趋向 (1,1)。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1747" viewBox="0 47 960 1747" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">稳定项下两个坐标归一化分量及更新方向角</title><desc id="artwork-desc">稳定项不仅改变步长，还可能改变更新方向 ε=0 时两个分量恒为 1；ε&gt;0 时，小尺度近似原梯度方向，大尺度趋向 (1,1)。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m29e0143715" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="mdf1b6a0907" d="M 0 0 L 0 2 " style="stroke: #45697b; stroke-width: 0.6"/>
       <path id="m167e98d5e9" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
@@ -33,7 +33,7 @@
   <clipPath id="p67f44e1919">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1794" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">稳定项下两个坐标归一化分量及更新方向角</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-2.33 29.985758) scale(0.977746)"><g id="text_37">
+ </defs><rect width="960" height="1794" fill="#ffffff"/><g transform="translate(-2.33 29.985758) scale(0.977746)"><g id="text_37">
    <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #47586b" x="51.84" y="81.648" transform="rotate(-0 51.84 81.648)">冻结一维归一化的状态，原梯度 g=(1,2)；观察正比例 c·g</text>
   </g>
   </g><rect x="35" y="145.86" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="170.86" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(-9.272973 -18.275834) scale(1.713105)"><g xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ns2="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" id="axes_1">
@@ -604,10 +604,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="108.2" y="218.737113" transform="rotate(-0 108.2 218.737113)">1.0</text>
      </g>
     </g>
-    <g id="text_15">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="62.459062" y="330.48" transform="rotate(-90 62.459062 330.48)">归一化更新分量</text>
     </g>
-   </g>
    <g id="line2d_75">
     <polyline clip-path="url(#p1918e17461)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="115.2,485.725018 137.696137,485.406304 153.84721,484.969102 166.537339,484.410825 176.920172,483.737398 185.572532,482.965178 193.071245,482.088704 199.993133,481.060576 206.338197,479.887648 212.106438,478.587873 217.297854,477.191028 221.912446,475.738275 226.527039,474.056677 230.564807,472.372258 234.602575,470.464294 238.640343,468.307269 242.678112,465.873963 246.139056,463.546677 249.6,460.976669 253.060944,458.144911 256.521888,455.032354 259.982833,451.620329 263.443777,447.891013 266.904721,443.827985 270.365665,439.416864 273.826609,434.646004 277.287554,429.507241 280.748498,423.996662 284.209442,418.115354 288.24721,410.794661 292.284979,403.000483 296.899571,393.557393 301.514163,383.612098 307.282403,370.616363 315.35794,351.771214 327.471245,323.48666 333.239485,310.602558 337.854077,300.774963 342.46867,291.469406 346.506438,283.807586 350.544206,276.626675 354.581974,269.944876 358.042918,264.620399 361.503863,259.66636 364.964807,255.076626 368.425751,250.841196 371.886695,246.946964 375.347639,243.378447 378.808584,240.11845 382.269528,237.14866 385.730472,234.450164 389.191416,232.003882 393.229185,229.443467 397.266953,227.17146 401.304721,225.159984 405.342489,223.382768 409.957082,221.607207 414.571674,220.072213 419.76309,218.595359 424.954506,217.346502 430.722747,216.185707 437.067811,215.13925 443.9897,214.222801 452.065236,213.38983 461.294421,212.677383 471.677253,212.101267 484.367382,211.623973 500.518455,211.25039 518.4,211.018344 518.4,211.018344"/>
    </g>
@@ -1277,10 +1274,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="672.68" y="208.87375" transform="rotate(-0 672.68 208.87375)">65</text>
      </g>
     </g>
-    <g id="text_32">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="631.754688" y="330.48" transform="rotate(-90 631.754688 330.48)">更新向量的方向角（度）</text>
     </g>
-   </g>
    <g id="line2d_152">
     <polyline clip-path="url(#p67f44e1919)" style="fill: none; stroke: #16768c; stroke-width: 2.6; stroke-linecap: square" points="679.68,221.459729 701.599313,221.790926 717.173562,222.231744 729.863691,222.809969 740.246524,223.506976 748.898884,224.305588 756.397597,225.211176 763.319485,226.272315 769.664549,227.481397 775.43279,228.819357 780.624206,230.255031 785.238798,231.745736 789.853391,233.468162 793.891159,235.190131 797.928927,237.136571 801.966695,239.331892 806.004464,241.801747 809.465408,244.157373 812.926352,246.751132 816.387296,249.599862 819.84824,252.719905 823.309185,256.126651 826.770129,259.833999 830.231073,263.853758 833.692017,268.194981 837.152961,272.86327 841.19073,278.724644 845.228498,285.026843 849.266266,291.753526 853.880858,299.925132 858.495451,308.555252 864.263691,319.865752 871.762403,335.135733 885.60618,363.425834 891.374421,374.643894 895.989013,383.178162 900.603605,391.238944 904.641373,397.859841 908.679142,404.05107 912.71691,409.798996 916.177854,414.369906 919.638798,418.615008 923.099742,422.541005 926.560687,426.157836 930.021631,429.478 933.482575,432.515896 936.943519,435.287251 940.404464,437.808596 944.442232,440.456741 948.48,442.814431 952.517768,444.907903 956.555536,446.762353 961.170129,448.619558 965.784721,450.228736 970.976137,451.780112 976.167554,453.094394 981.935794,454.317976 988.280858,455.422664 995.202747,456.391377 1002.701459,457.217492 1011.35382,457.945566 1021.736652,458.580662 1033.849957,459.087942 1048.847382,459.485624 1069.036223,459.782043 1082.88,459.894501 1082.88,459.894501"/>
    </g>
@@ -1332,4 +1326,4 @@
     </g>
    </g>
   </g>
-  </g></svg>
+  </g><text x="191.076723" y="175.449017" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="归一化更新分量" id="text_15" data-axis-label="matplotlib.axis_2">归一化更新分量</text><text x="123.076837" y="1359.198884" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="更新向量的方向角（度）" id="text_32" data-axis-label="matplotlib.axis_4"><tspan x="123.076837" dy="0">更新向量</tspan><tspan x="123.076837" dy="30.68">的方向角</tspan><tspan x="123.076837" dy="30.68">（度）</tspan></text></svg>

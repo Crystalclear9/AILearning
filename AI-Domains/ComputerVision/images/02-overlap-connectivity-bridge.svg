@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1020" viewBox="0 0 960 1020" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="951.44" viewBox="0 68.56 960 951.44" role="img" aria-labelledby="title desc">
 <title id="title">只添一格，高重叠也会连错</title><desc id="desc">真值有两个连通分量。预测只多出一个桥接像素，两个分量合为一个。交并比为十八除以十九，Dice 为三十六除以三十七。</desc>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0" y="0" width="960" height="1020" rx="0" fill="#ffffff" stroke="none" stroke-width="2"/>
-<text x="45.000" y="61.000" font-size="38" fill="#172a40" font-weight="700" text-anchor="start">只添一格，高重叠也会连错</text>
 <text x="47.000" y="106.000" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">两个三乘三前景块，四邻接按共享边判断</text>
 <rect x="44" y="144" width="43" height="41" rx="9" fill="#e9f5f7" stroke="none" stroke-width="2"/>
 <text x="65.000" y="173.000" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">A</text>

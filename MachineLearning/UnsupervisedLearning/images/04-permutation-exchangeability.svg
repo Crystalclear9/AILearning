@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1981" viewBox="0 0 960 1981" role="img" aria-labelledby="diagram-title"><title id="diagram-title">八对象全体置换改变来源组成，层内置换保留来源组成，及精确均值差分布</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1852" viewBox="0 129 960 1852" role="img" aria-labelledby="diagram-title"><title id="diagram-title">八对象全体置换改变来源组成，层内置换保留来源组成，及精确均值差分布</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m0edb4cb657" d="M 0 0 L 0 3.5 " style="stroke: #527385; stroke-width: 0.8"/>
       <path id="m03b22ad79b" d="M 0 0 L -3.5 0 " style="stroke: #527385; stroke-width: 0.8"/>
       <path id="mb575b579f0" d="M 0 5.123475 C 1.358762 5.123475 2.662055 4.583634 3.622844 3.622844 C 4.583634 2.662055 5.123475 1.358762 5.123475 0 C 5.123475 -1.358762 4.583634 -2.662055 3.622844 -3.622844 C 2.662055 -4.583634 1.358762 -5.123475 0 -5.123475 C -1.358762 -5.123475 -2.662055 -4.583634 -3.622844 -3.622844 C -4.583634 -2.662055 -5.123475 -1.358762 -5.123475 0 C -5.123475 1.358762 -4.583634 2.662055 -3.622844 3.622844 C -2.662055 4.583634 -1.358762 5.123475 0 5.123475 z " style="stroke: #2082ac"/>
@@ -9,7 +9,7 @@
   <clipPath id="p0d790c0e31">
    <rect x="697.103192" y="71.28" width="420.336808" height="479.52"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1981" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">八对象全体置换改变来源组成，层内置换保留来</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">源组成，及精确均值差分布</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-36.638643 104.872526) scale(1.51773998)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1981" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-36.638643 104.872526) scale(1.51773998)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 195.785384 228.379886 L 228.906367 228.379886 L 228.906367 169.924114 L 195.785384 169.924114 z " clip-path="url(#p58bcbf99fe)" style="fill: #2082ac"/>
    </g>
@@ -303,10 +303,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527385" x="690.103192" y="121.667415" transform="rotate(-0 690.103192 121.667415)">0.6</text>
      </g>
     </g>
-    <g id="text_43">
-     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="657.59741" y="311.04" transform="rotate(-90 657.59741 311.04)">全体置换的精确概率</text>
     </g>
-   </g>
    <g id="LineCollection_1">
     <path d="M 724.163501 550.8 L 724.163501 540.420779 " clip-path="url(#p0d790c0e31)" style="fill: none; stroke: #2082ac; stroke-width: 3"/>
     <path d="M 814.364533 550.8 L 814.364533 384.732468 " clip-path="url(#p0d790c0e31)" style="fill: none; stroke: #2082ac; stroke-width: 3"/>
@@ -394,4 +391,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="263.512665" y="1051.46973" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="27.31932" fill="#25364a" text-anchor="start" aria-label="全体置换的精确概率" id="text_43" data-axis-label="matplotlib.axis_2">全体置换的精确概率</text></svg>

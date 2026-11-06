@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1589" viewBox="0 0 960 1589" role="img" aria-labelledby="diagram-title"><title id="diagram-title">非正交基保持向量对象，但单位长度由 Gram 矩阵计算</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1460" viewBox="0 129 960 1460" role="img" aria-labelledby="diagram-title"><title id="diagram-title">非正交基保持向量对象，但单位长度由 Gram 矩阵计算</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="C0_0_6182f82f03" d="M 0 2.5 C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 C 2.236584 1.29895 2.5 0.663008 2.5 -0 C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 C -1.29895 2.236584 -0.663008 2.5 0 2.5 z "/>
     <path id="m79f60fa307" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
@@ -57,7 +57,7 @@
   <clipPath id="p784b4bc6ed">
    <rect x="569.198178" y="25.38024" width="345.125817" height="276.100654"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1589" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">非正交基保持向量对象，但单位长度由 Gram 矩</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">阵计算</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(56.847423 167.280075) scale(1.77041353)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1589" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(56.847423 167.280075) scale(1.77041353)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 63.097428 279.43187 L 474.374775 279.43187 L 474.374775 47.429264 L 63.097428 47.429264 z " style="fill: #ffffff"/>
    </g>
@@ -280,19 +280,7 @@
       </g>
      </g>
     </g>
-    <g id="text_15">
-     <!-- 原坐标第二分量 -->
-     <g transform="translate(15.79024 219.430567) rotate(-90) scale(0.16 -0.16)">
-      <use xlink:href="#MicrosoftYaHei-539f"/>
-      <use xlink:href="#MicrosoftYaHei-5750" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7b2c" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e8c" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5206" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cf" transform="translate(600 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_14">
     <path d="M -1 216.982421 L 200.189877 15.792544 " clip-path="url(#pcb024b35b8)" style="fill: none; stroke: #d9e5eb; stroke-linecap: square"/>
    </g>
@@ -696,4 +684,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="171.555963" y="192.249486" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.326616" fill="#25364a" text-anchor="start" aria-label="原坐标第二分量" id="text_15" data-axis-label="matplotlib.axis_2">原坐标第二分量</text></svg>

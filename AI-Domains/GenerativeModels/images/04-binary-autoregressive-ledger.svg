@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="919.0304" viewBox="0 0 1440 919.0304" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">二元自回归模型的路径概率、相同边际反例与反向条件</title><rect width="1440" height="919.0304" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">二元自回归模型的路径概率、相同边际反例与反向条件</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="777.0304" viewBox="29 70 1382 799" role="img" x="48" y="106" overflow="hidden"><rect x="29" y="70" width="1382" height="799" fill="#ffffff"/><title>同一个二元联合分布：沿路径相乘，沿事件相加</title><rect width="1440" height="900" fill="white"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#1f3348">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1382" height="799" viewBox="29 70 1382 799" role="img" aria-labelledby="plate-title"><rect x="29" y="70" width="1382" height="799" fill="#ffffff"/><title id="plate-title">二元自回归模型的路径概率、相同边际反例与反向条件</title><rect width="1440" height="900" fill="white"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#1f3348">
 <text x="52" y="112" font-size="28" fill="#1f3348" text-anchor="start" font-weight="700">① 正向生成：每条叶路径对应一个联合事件</text>
 <circle cx="105" cy="330" r="10" fill="#1f3348"/>
 <text x="105" y="300" font-size="26" fill="#1f3348" text-anchor="middle">起点</text>
@@ -61,4 +61,4 @@
 <text x="76" y="695" font-size="28" fill="#1f3348" text-anchor="start" font-weight="700">③ 反向条件：先把 B=1 的两条叶路径合并，再归一化</text>
 <text x="76" y="750" font-size="28" fill="#1f3348" text-anchor="start">P(B=1) = 0.06 + 0.63 = 0.69</text>
 <text x="76" y="805" font-size="28" fill="#1f3348" text-anchor="start">P(A=1 | B=1) = 0.913043…；正向 P(B=1 | A=1) = 0.9</text>
-</g></svg></svg>
+</g></svg>

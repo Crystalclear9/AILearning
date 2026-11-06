@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="819.7848" viewBox="0 0 1440 819.7848" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">逼真度与模式覆盖要在同一分布图上分开看</title><rect width="1440" height="819.7848" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">逼真度与模式覆盖要在同一分布图上分开看</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="677.7848" viewBox="16 64 1394 703" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden"><rect x="16" y="64" width="1394" height="703" fill="#ffffff"/><title id="title">四个模式：位置覆盖与样本逼真度必须同时看</title><desc id="desc">相同四个真实中心，半径0.6。三组64个受控点：平衡参考、单模式坍塌、象限齐全但远离真实中心。</desc><rect width="1440" height="760" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1394" height="703" viewBox="16 64 1394 703" role="img" aria-labelledby="title desc"><rect x="16" y="64" width="1394" height="703" fill="#ffffff"/><title id="title">逼真度与模式覆盖要在同一分布图上分开看</title><desc id="desc">相同四个真实中心，半径0.6。三组64个受控点：平衡参考、单模式坍塌、象限齐全但远离真实中心。</desc><rect width="1440" height="760" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
 <text x="48" y="106" font-size="28" fill="#64748b" text-anchor="start" font-weight="400">每组 64 点；虚线圈距真实中心 0.6；三图使用相同坐标。</text>
 <text x="70" y="163" font-size="28" fill="#2075af" text-anchor="start" font-weight="700">平衡参考</text>
 <line x1="128.33333333333331" y1="185" x2="128.33333333333331" y2="535" stroke="#ebeef3" stroke-width="2"/>
@@ -275,4 +275,4 @@
 <text x="1010" y="625" font-size="26" fill="#1c2e41" text-anchor="start" font-weight="400">分组计数：16, 16, 16, 16</text>
 <text x="1010" y="673" font-size="29" fill="#15949c" text-anchor="start" font-weight="700">近中心比例：0%</text>
 <line x1="48" y1="705" x2="1392" y2="705" stroke="#e8ecf1" stroke-width="2"/>
-<text x="48" y="745" font-size="27" fill="#1c2e41" text-anchor="start" font-weight="400">受控反例，不是训练结果；“分到某个中心”不等于“靠近那个中心”。</text></g></svg></svg>
+<text x="48" y="745" font-size="27" fill="#1c2e41" text-anchor="start" font-weight="400">受控反例，不是训练结果；“分到某个中心”不等于“靠近那个中心”。</text></g></svg>

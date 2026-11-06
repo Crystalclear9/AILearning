@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1608" viewBox="0 0 960 1608" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同组三个浮点数的六种排列与普通及补偿求和结果</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1479" viewBox="0 129 960 1479" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同组三个浮点数的六种排列与普通及补偿求和结果</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m5b51307e3a" d="M 0 0 L 0 3.5 " style="stroke: #688495; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-2e" d="M 372 322 Q 372 491 487 606 Q 603 722 775 722 Q 950 722 1065 605 Q 1181 488 1181 322 Q 1181 159 1065 42 Q 950 -75 772 -75 Q 600 -75 486 42 Q 372 159 372 322 z " transform="scale(0.015625)"/>
@@ -83,7 +83,7 @@
   <clipPath id="p7dc53ae997">
    <rect x="529.176406" y="34.63" width="368.575" height="247.51"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1608" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">同组三个浮点数的六种排列与普通及补偿求和结</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">果</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(32.024750 186.024750) scale(1.95970264)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1608" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(32.024750 186.024750) scale(1.95970264)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 71.751406 282.14 L 440.326406 282.14 L 440.326406 34.63 L 71.751406 34.63 z " style="fill: #ffffff"/>
    </g>
@@ -401,24 +401,7 @@
       </g>
      </g>
     </g>
-    <g id="text_18">
-     <!-- 部分和（单位 10¹⁶） -->
-     <g style="fill: #1a2a3c" transform="translate(27.830625 227.793984) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-90e8"/>
-      <use xlink:href="#MicrosoftYaHei-5206" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-548c" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5355" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4f4d" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-31" transform="translate(629.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-30" transform="translate(688.232422 0)"/>
-      <use xlink:href="#MicrosoftYaHei-b9" transform="translate(746.875 0)"/>
-      <use xlink:href="#DejaVuSans-2076" transform="translate(785.351562 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(825.439453 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_33">
     <path d="M 88.504815 158.385 L 200.194209 45.880455 L 311.883603 45.880455 L 423.572997 158.385 " clip-path="url(#p6cd26b80bd)" style="fill: none; stroke: #1b82c5; stroke-width: 1.5; stroke-linecap: square"/>
     <g clip-path="url(#p6cd26b80bd)">
@@ -839,18 +822,7 @@
       </g>
      </g>
     </g>
-    <g id="text_42">
-     <!-- 最终求和结果 -->
-     <g style="fill: #1a2a3c" transform="translate(497.484375 203.385) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-6700"/>
-      <use xlink:href="#MicrosoftYaHei-7ec8" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6c42" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-548c" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7ed3" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-679c" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p7dc53ae997)">
      <use xlink:href="#C0_0_467721b634" x="545.929815" y="258.187419" style="fill: #1b82c5; stroke: #1b82c5"/>
@@ -929,4 +901,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="175.63617" y="194.889252" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="29.39554" fill="#25364a" text-anchor="start" aria-label="部分和（单位 10¹⁶）" id="text_18" data-axis-label="matplotlib.axis_2">部分和（单位 10¹⁶）</text><text x="175.636169" y="924.939676" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="29.39554" fill="#25364a" text-anchor="start" aria-label="最终求和结果" id="text_42" data-axis-label="matplotlib.axis_4">最终求和结果</text></svg>

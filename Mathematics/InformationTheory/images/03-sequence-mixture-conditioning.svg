@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1570" viewBox="0 0 960 1570" role="img" aria-labelledby="diagram-title"><title id="diagram-title">整段混合与逐位置混合的前缀损失，以及固定成员混合中的后验条件权重</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1482.893894" viewBox="0 87.106106 960 1482.893894" role="img" aria-labelledby="diagram-title"><rect x="0" y="87.106106" width="960" height="1482.893894" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">整段混合与逐位置混合的前缀损失，以及固定成员混合中的后验条件权重</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m2208a7de92" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-31" d="M 1781 0 L 1781 4141 Q 1638 3997 1295 3819 Q 953 3641 663 3569 L 663 4169 Q 1047 4275 1484 4508 Q 1922 4741 2156 4947 L 2388 4947 L 2388 0 L 1781 0 z " transform="scale(0.015625)"/>
        <path id="MicrosoftYaHei-32" d="M 2666 3572 Q 2666 3963 2419 4186 Q 2172 4409 1747 4409 Q 1447 4409 1140 4256 Q 834 4103 569 3819 L 569 4413 Q 806 4659 1107 4790 Q 1409 4922 1816 4922 Q 2472 4922 2872 4570 Q 3272 4219 3272 3619 Q 3272 3084 3026 2693 Q 2781 2303 2188 1894 Q 1581 1475 1376 1294 Q 1172 1113 1090 947 Q 1009 781 1009 544 L 3416 544 L 3416 0 L 372 0 L 372 241 Q 372 659 486 951 Q 600 1244 862 1520 Q 1125 1797 1681 2184 Q 2250 2584 2458 2886 Q 2666 3188 2666 3572 z " transform="scale(0.015625)"/>
@@ -86,7 +86,7 @@
   <clipPath id="pcccb3d3d46">
    <rect x="529.9915" y="23.38899" width="431.80826" height="297.323739"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1570" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">整段混合与逐位置混合的前缀损失，以及固定成员</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">混合中的后验条件权重</text></g><path d="M 44 143.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(78.18843 169.70719) scale(1.74151384)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1570" fill="#ffffff"/><g transform="translate(78.18843 169.70719) scale(1.74151384)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 39.563834 320.712729 L 471.372094 320.712729 L 471.372094 23.38899 L 39.563834 23.38899 z " style="fill: #ffffff"/>
    </g>
@@ -320,29 +320,7 @@
       </g>
      </g>
     </g>
-    <g id="text_15">
-     <!-- 这一个前缀的总负对数概率（nat） -->
-     <g transform="translate(15.79024 296.383359) rotate(-90) scale(0.16 -0.16)">
-      <use xlink:href="#MicrosoftYaHei-8fd9"/>
-      <use xlink:href="#MicrosoftYaHei-4e00" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e2a" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-524d" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7f00" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-603b" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8d1f" transform="translate(700 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5bf9" transform="translate(800 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6570" transform="translate(900 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6982" transform="translate(1000 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(1100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(1200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6e" transform="translate(1300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-61" transform="translate(1361.621094 0)"/>
-      <use xlink:href="#MicrosoftYaHei-74" transform="translate(1416.894531 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(1454.150391 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_27">
     <path d="M 59.191482 307.198013 L 115.270477 296.142815 L 171.349472 289.666275 L 227.428466 283.729034 L 283.507461 277.85212 L 339.586456 271.981915 L 395.665451 266.112454 L 451.744446 260.243076 " clip-path="url(#p3d99b009ee)" style="fill: none; stroke: #2174a1; stroke-width: 1.5; stroke-linecap: square"/>
     <g clip-path="url(#p3d99b009ee)">
@@ -714,19 +692,7 @@
       </g>
      </g>
     </g>
-    <g id="text_35">
-     <!-- 概率或成员权重 -->
-     <g transform="translate(493.810094 228.050859) rotate(-90) scale(0.16 -0.16)">
-      <use xlink:href="#MicrosoftYaHei-6982"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6216" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6210" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5458" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6743" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cd" transform="translate(600 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_61">
     <path d="M 549.619148 286.871002 L 598.688269 93.489709 L 647.757389 51.040157 L 696.82651 45.80665 L 745.89563 45.21806 L 794.96475 45.152573 L 844.033871 45.145295 L 893.102991 45.144487 L 942.172112 45.144397 " clip-path="url(#pcccb3d3d46)" style="fill: none; stroke: #2174a1; stroke-width: 1.5; stroke-linecap: square"/>
     <g clip-path="url(#pcccb3d3d46)">
@@ -877,4 +843,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="150.089394" y="121.43944" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="27.864221" fill="#25364a" text-anchor="start" aria-label="这一个前缀的总负对数概率（nat）" id="text_15" data-axis-label="matplotlib.axis_2"><tspan x="150.089394" dy="0">这一个前缀的总负对</tspan><tspan x="150.089394" dy="35.108919">数概率（nat）</tspan></text><text x="150.089392" y="831.4341" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="27.864221" fill="#25364a" text-anchor="start" aria-label="概率或成员权重" id="text_35" data-axis-label="matplotlib.axis_4">概率或成员权重</text></svg>

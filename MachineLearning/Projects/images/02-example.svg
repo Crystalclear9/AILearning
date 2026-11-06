@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2180" viewBox="0 0 960 2180" role="img" aria-labelledby="artwork-title"><title id="artwork-title">阈值移动同时改变漏报和误报</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="2082.03125"/></clipPath></defs><rect width="960" height="2180" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">阈值移动同时改变漏报和误报</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2133" viewBox="0 47 960 2133" role="img" aria-labelledby="artwork-title"><title id="artwork-title">阈值移动同时改变漏报和误报</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="2082.03125"/></clipPath></defs><rect width="960" height="2180" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -408,10 +408,7 @@
       <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #48728b" x="426.315658" y="63.350184" transform="rotate(-0 426.315658 63.350184)">1.6</text>
      </g>
     </g>
-    <g id="text_23">
-     <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b53" x="395.720658" y="203.708125" transform="rotate(-90 395.720658 203.708125)">错分数</text>
     </g>
-   </g>
    <g id="patch_12">
     <line style="fill: none; stroke: #aabbcb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="433.315658" y1="370.028125" x2="433.315658" y2="37.388125"/>
    </g>
@@ -585,10 +582,7 @@
       <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #48728b" x="786.078816" y="43.783125" transform="rotate(-0 786.078816 43.783125)">6</text>
      </g>
     </g>
-    <g id="text_38">
-     <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b53" x="768.718816" y="203.708125" transform="rotate(-90 768.718816 203.708125)">四条记录的总成本</text>
     </g>
-   </g>
    <g id="patch_23">
     <line style="fill: none; stroke: #aabbcb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="793.078816" y1="370.028125" x2="793.078816" y2="37.388125"/>
    </g>
@@ -634,4 +628,4 @@
    <rect x="793.078816" y="37.388125" width="256.973684" height="332.64"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="326.310806" y="747.542063" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.499987" fill="#25364a" text-anchor="start" aria-label="错分数" id="text_23" data-axis-label="matplotlib.axis_4">错分数</text><text x="249.065241" y="1794.885341" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="四条记录的总成本" id="text_38" data-axis-label="matplotlib.axis_6"><tspan x="249.065241" dy="0">四条记录的</tspan><tspan x="249.065241" dy="30.68">总成本</tspan></text></svg>

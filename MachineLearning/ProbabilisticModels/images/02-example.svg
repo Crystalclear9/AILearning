@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1123" viewBox="0 0 960 1123" role="img" aria-labelledby="artwork-title"><title id="artwork-title">EM 的单调性由贴紧下界和抬高下界衔接</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="1025.104167"/></clipPath></defs><rect width="960" height="1123" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">EM 的单调性由贴紧下界和抬高下界衔接</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1076" viewBox="0 47 960 1076" role="img" aria-labelledby="artwork-title"><title id="artwork-title">EM 的单调性由贴紧下界和抬高下界衔接</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="1025.104167"/></clipPath></defs><rect width="960" height="1123" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -173,10 +173,7 @@
       <text style="font-size: 23.60298px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="106.4" y="120.256909" transform="rotate(-0 106.4 120.256909)">−0.25</text>
      </g>
     </g>
-    <g id="text_16">
-     <text style="font-size: 23.60298px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="36.613125" y="270.72" transform="rotate(-90 36.613125 270.72)">对数似然或下界</text>
     </g>
-   </g>
    <g id="line2d_15">
     <polyline clip-path="url(#p09cea84c8b)" style="fill: none; stroke: #1e3145; stroke-width: 3; stroke-linecap: square" points="115.412828,372.15717 124.09143,364.872391 133.437616,357.322993 142.783802,350.057762 152.797573,342.565543 162.811343,335.353282 173.492699,327.946092 184.174055,320.812657 195.522995,313.511543 206.871935,306.476538 218.88846,299.296991 230.904985,292.37492 243.589095,285.327948 256.273204,278.529196 269.624899,271.622228 283.644178,264.626434 297.663457,257.87533 312.350321,251.04719 327.704769,244.157867 343.726803,237.221891 359.748836,230.52651 376.438454,223.790618 393.795657,217.026026 411.820444,210.243479 430.512816,203.452718 449.872773,196.662538 469.900315,189.880851 490.595441,183.114751 511.958152,176.370571 533.988448,169.653942 556.686328,162.969854 580.051793,156.322707 604.084843,149.716363 628.785478,143.154192 654.821282,136.470606 681.524671,129.847875 708.895644,123.287454 737.601787,116.638451 766.975515,110.063899 782.329963,106.714297 782.329963,106.714297"/>
    </g>
@@ -358,10 +355,7 @@
       <text style="font-size: 23.60298px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="943.53016" y="100.953125" transform="rotate(-0 943.53016 100.953125)">−0.2</text>
      </g>
     </g>
-    <g id="text_31">
-     <text style="font-size: 23.60298px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="886.644223" y="270.72" transform="rotate(-90 886.644223 270.72)">同一模型、同一观测的目标</text>
     </g>
-   </g>
    <g id="line2d_38">
     <polyline clip-path="url(#pa56c0963bd)" style="fill: none; stroke: #1e3145; stroke-width: 3; stroke-linecap: square" points="1013.91207,385.681202 1195.003242,202.666309 1376.094414,202.666309"/>
     <defs>
@@ -445,4 +439,4 @@
    <rect x="950.53016" y="92.16" width="516.10984" height="357.12"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="151.930889" y="95.226357" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.499987" fill="#25364a" text-anchor="start" aria-label="对数似然或下界" id="text_16" data-axis-label="matplotlib.axis_2">对数似然或下界</text><text x="159.376721" y="828.873429" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="同一模型、同一观测的目标" id="text_31" data-axis-label="matplotlib.axis_4"><tspan x="159.376721" dy="0">同一模型、</tspan><tspan x="159.376721" dy="30.68">同一观测的</tspan><tspan x="159.376721" dy="30.68">目标</tspan></text></svg>

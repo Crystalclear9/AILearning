@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2612" viewBox="0 0 960 2612" role="img" aria-labelledby="diagram-title"><title id="diagram-title">PCA 的保留对象：主方向重构与低方差判别反例</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2530" viewBox="0 82 960 2530" role="img" aria-labelledby="diagram-title"><title id="diagram-title">PCA 的保留对象：主方向重构与低方差判别反例</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="C0_0_6affa85332" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 -0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z "/>
     <path id="mc49ea711d3" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="m01fa2ce8b4" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
@@ -19,7 +19,7 @@
   <clipPath id="pc0dd64a66c">
    <rect x="714.249432" y="514.16129" width="473.030568" height="304.83871"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2612" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">PCA 的保留对象：主方向重构与低方差判别反例</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(64.584413 68.721323) scale(1.42538856)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2612" fill="#ffffff"/><g transform="translate(64.584413 68.721323) scale(1.42538856)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 111.926252 367.83871 L 569.184316 367.83871 L 569.184316 63 L 111.926252 63 z " style="fill: #ffffff"/>
    </g>
@@ -199,10 +199,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="104.926252" y="71.793125" transform="rotate(-0 104.926252 71.793125)">3</text>
      </g>
     </g>
-    <g id="text_14">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="66.238439" y="215.419355" transform="rotate(-90 66.238439 215.419355)">原坐标 2</text>
     </g>
-   </g>
    <g id="line2d_13">
     <path d="M 516.634468 97.574012 L 523.643203 109.713496 " clip-path="url(#p795d058eab)" style="fill: none; stroke: #bac4d2; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
@@ -428,10 +425,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="707.249432" y="134.554036" transform="rotate(-0 707.249432 134.554036)">1</text>
      </g>
     </g>
-    <g id="text_25">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="668.56162" y="215.419355" transform="rotate(-90 668.56162 215.419355)">第二主坐标</text>
     </g>
-   </g>
    <g id="line2d_46">
     <path d="M 714.249432 215.419355 L 1187.28 215.419355 " clip-path="url(#p38e2c53e04)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #778f9d; stroke-width: 1.5"/>
    </g>
@@ -561,10 +555,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="97.04" y="522.954415" transform="rotate(-0 97.04 522.954415)">10</text>
      </g>
     </g>
-    <g id="text_38">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="61.769063" y="666.580645" transform="rotate(-90 61.769063 666.580645)">平方量 / 每样本</text>
     </g>
-   </g>
    <g id="line2d_57">
     <path d="M 125.541389 544.645161 L 131.275093 544.752119 L 137.008797 545.072806 L 142.742501 545.606659 L 148.476205 546.352741 L 154.209909 547.309744 L 159.943613 548.475989 L 165.677316 549.849429 L 171.41102 551.427656 L 177.144724 553.207899 L 182.878428 555.187038 L 188.612132 557.361598 L 195.779262 560.348768 L 202.946391 563.627111 L 210.113521 567.187643 L 217.280651 571.020604 L 224.447781 575.115489 L 231.614911 579.461073 L 238.78204 584.045446 L 247.382596 589.844159 L 255.983152 595.945715 L 264.583708 602.326035 L 273.184264 608.959939 L 283.218245 616.985016 L 294.685653 626.480131 L 307.586487 637.494953 L 323.354172 651.298077 L 379.257785 700.599561 L 390.725193 710.278414 L 400.759174 718.498249 L 410.793156 726.439232 L 419.393712 732.991469 L 427.994268 739.281614 L 436.594823 745.284841 L 445.195379 750.977458 L 452.362509 755.467787 L 459.529639 759.714483 L 466.696769 763.705906 L 473.863898 767.431115 L 481.031028 770.8799 L 488.198158 774.042808 L 495.365288 776.91117 L 501.098992 778.988475 L 506.832696 780.868578 L 512.566399 782.548182 L 518.300103 784.024339 L 524.033807 785.29446 L 529.767511 786.356316 L 535.501215 787.208046 L 541.234919 787.848154 L 546.968622 788.275517 L 552.702326 788.489387 L 555.569178 788.516129 L 555.569178 788.516129 " clip-path="url(#p7a3a1ff5a2)" style="fill: none; stroke: #1f7e9c; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -843,4 +834,4 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="950.764716" y="508.16129" transform="rotate(-0 950.764716 508.16129)">D  保留下来的可区分性</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="227.122812" y="135.520802" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.358548" fill="#25364a" text-anchor="start" aria-label="原坐标 2" id="text_14" data-axis-label="matplotlib.axis_2">原坐标 2</text><text x="227.122812" y="762.65905" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.358548" fill="#25364a" text-anchor="start" aria-label="第二主坐标" id="text_25" data-axis-label="matplotlib.axis_4">第二主坐标</text><text x="227.122813" y="1323.528313" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.358548" fill="#25364a" text-anchor="start" aria-label="平方量 / 每样本" id="text_38" data-axis-label="matplotlib.axis_6">平方量 / 每样本</text></svg>

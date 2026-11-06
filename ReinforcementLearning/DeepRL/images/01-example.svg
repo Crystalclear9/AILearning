@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1724" viewBox="0 0 960 1724" role="img" aria-labelledby="diagram-title"><title id="diagram-title">优先回放改变抽样目标，完整校正需要相应权重</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1046.64821" height="1642" viewBox="-86.64821 82 1046.64821 1642" role="img" aria-labelledby="diagram-title"><rect x="-86.64821" y="82" width="1046.64821" height="1642" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">优先回放改变抽样目标，完整校正需要相应权重</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m3f1448b2f1" d="M 75.6 -108  L 75.6 -164.347826  L 398.516814 -164.347826  L 398.516814 -108  L 398.516814 -108  L 75.6 -108  z " style="stroke: #237e9f; stroke-opacity: 0.18"/>
     <path id="m83ea3ed5bd" d="M 398.516814 -108  L 398.516814 -333.391304  L 479.246018 -333.391304  L 479.246018 -108  L 479.246018 -108  L 398.516814 -108  z " style="stroke: #c47645; stroke-opacity: 0.25"/>
     <path id="mf59e13061f" d="M 0 0  L 0 3.5  " style="stroke: #7e8ca3; stroke-width: 0.8"/>
@@ -12,7 +12,7 @@
   <clipPath id="p8a736585a6">
    <rect x="584.193982" y="64.8" width="403.646018" height="259.2"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1724" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">优先回放改变抽样目标，完整校正需要相应权重</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(16.482765 115.226417) scale(1.79720935)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1724" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(16.482765 115.226417) scale(1.79720935)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 75.6 324  L 479.246018 324  L 479.246018 64.8  L 75.6 64.8  z " style="fill: #ffffff"/>
    </g>
@@ -122,10 +122,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #7e8ca3" x="68.6" y="105.403383" transform="rotate(-0 68.6 105.403383)">4</text>
      </g>
     </g>
-    <g id="text_11">
-     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #20344a" x="49.907812" y="194.4" transform="rotate(-90 49.907812 194.4)">抽中后使用的损失</text>
     </g>
-   </g>
    <g id="line2d_10">
     <path d="M 398.516814 324  L 398.516814 64.8  " clip-path="url(#paf567b7525)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #7e8ca3; stroke-width: 1.5"/>
    </g>
@@ -278,10 +275,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #7e8ca3" x="577.193982" y="105.403383" transform="rotate(-0 577.193982 105.403383)">10</text>
      </g>
     </g>
-    <g id="text_28">
-     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #20344a" x="548.532889" y="194.4" transform="rotate(-90 548.532889 194.4)">乘重要性权重后的损失</text>
     </g>
-   </g>
    <g id="line2d_23">
     <path d="M 907.110796 324  L 907.110796 64.8  " clip-path="url(#p8a736585a6)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #7e8ca3; stroke-width: 1.5"/>
    </g>
@@ -314,4 +308,4 @@
     <text style="font-size: 21px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #20344a" x="584.193982" y="46.8" transform="rotate(-0 584.193982 46.8)">完整校正：面积为 2.5</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="155.351792" y="158.685583" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="抽中后使用的损失" id="text_11" data-axis-label="matplotlib.axis_2">抽中后使用的损失</text><text x="87.35179" y="1270.176122" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="乘重要性权重后的损失" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="87.35179" dy="0">乘重要性权重</tspan><tspan x="87.35179" dy="30.68">后的损失</tspan></text></svg>

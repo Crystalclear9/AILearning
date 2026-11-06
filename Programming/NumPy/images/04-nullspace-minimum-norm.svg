@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1528" viewBox="0 0 960 1528" role="img" aria-labelledby="diagram-title"><title id="diagram-title">损失收敛并不总能唯一识别参数</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1446" viewBox="0 82 960 1446" role="img" aria-labelledby="diagram-title"><title id="diagram-title">损失收敛并不总能唯一识别参数</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m6916ed93d6" d="M 0 0 L 0 3.5 " style="stroke: #527186; stroke-width: 0.8"/>
       <path id="m1075945f3e" d="M 0 0 L -3.5 0 " style="stroke: #527186; stroke-width: 0.8"/>
       <path id="m71fbdb040a" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z " style="stroke: #c56a29"/>
@@ -9,7 +9,7 @@
   <clipPath id="p2f7bf3fcf9">
    <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1528" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">损失收敛并不总能唯一识别参数</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(42.809000 133.772566) scale(1.88981543)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1528" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(42.809000 133.772566) scale(1.88981543)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -318,10 +318,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527186" x="545.058435" y="58.077909" transform="rotate(-0 545.058435 58.077909)">1.0</text>
      </g>
     </g>
-    <g id="text_31">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="514.463435" y="162.432" transform="rotate(-90 514.463435 162.432)">参数平方范数</text>
     </g>
-   </g>
    <g id="line2d_28">
     <path d="M 568.86887 51.682909 L 572.264917 60.541932 L 575.660964 69.220159 L 579.057012 77.71759 L 582.453059 86.034224 L 585.849107 94.170062 L 589.245154 102.125103 L 592.641202 109.899348 L 596.037249 117.492796 L 599.433296 124.905449 L 602.829344 132.137304 L 606.225391 139.188364 L 609.621439 146.058627 L 613.017486 152.748093 L 616.413534 159.256763 L 619.809581 165.584637 L 623.205628 171.731715 L 626.601676 177.697995 L 629.997723 183.48348 L 633.393771 189.088168 L 636.789818 194.51206 L 640.185866 199.755156 L 643.581913 204.817455 L 646.97796 209.698957 L 650.374008 214.399663 L 653.770055 218.919573 L 657.166103 223.258687 L 660.56215 227.417004 L 663.958198 231.394524 L 667.354245 235.191249 L 670.750292 238.807177 L 674.14634 242.242308 L 677.542387 245.496643 L 680.938435 248.570182 L 684.334482 251.462924 L 687.73053 254.17487 L 691.126577 256.70602 L 694.522625 259.056373 L 697.918672 261.225929 L 701.314719 263.21469 L 704.710767 265.022654 L 708.106814 266.649821 L 711.502862 268.096192 L 714.898909 269.361767 L 718.294957 270.446545 L 721.691004 271.350527 L 725.087051 272.073713 L 728.483099 272.616102 L 731.879146 272.977695 L 735.275194 273.158491 L 738.671241 273.158491 L 742.067289 272.977695 L 745.463336 272.616102 L 748.859383 272.073713 L 752.255431 271.350527 L 755.651478 270.446545 L 759.047526 269.361767 L 762.443573 268.096192 L 765.839621 266.649821 L 769.235668 265.022654 L 772.631715 263.21469 L 776.027763 261.225929 L 779.42381 259.056373 L 782.819858 256.70602 L 786.215905 254.17487 L 789.611953 251.462924 L 793.008 248.570182 L 796.404047 245.496643 L 799.800095 242.242308 L 803.196142 238.807177 L 806.59219 235.191249 L 809.988237 231.394524 L 813.384285 227.417004 L 816.780332 223.258687 L 820.176379 218.919573 L 823.572427 214.399663 L 826.968474 209.698957 L 830.364522 204.817455 L 833.760569 199.755156 L 837.156617 194.51206 L 840.552664 189.088168 L 843.948711 183.48348 L 847.344759 177.697995 L 850.740806 171.731715 L 854.136854 165.584637 L 857.532901 159.256763 L 860.928949 152.748093 L 864.324996 146.058627 L 867.721043 139.188364 L 871.117091 132.137304 L 874.513138 124.905449 L 877.909186 117.492796 L 881.305233 109.899348 L 884.701281 102.125103 L 888.097328 94.170062 L 891.493375 86.034224 L 894.889423 77.71759 L 898.28547 69.220159 L 901.681518 60.541932 L 905.077565 51.682909 " clip-path="url(#p2f7bf3fcf9)" style="fill: none; stroke: #2073b2; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
@@ -335,4 +332,4 @@
     <text style="font-size: 19.2px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="736.973217" y="34.608" transform="rotate(-0 736.973217 34.608)">零损失解中，最小范数选(0.5,0.5)</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="180.515042" y="861.93125" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.237047" fill="#25364a" text-anchor="start" aria-label="参数平方范数" id="text_31" data-axis-label="matplotlib.axis_4">参数平方范数</text></svg>

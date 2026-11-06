@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1655" viewBox="0 0 960 1655" role="img" aria-labelledby="artwork-title"><title id="artwork-title">对同一噪声集合取最大值会产生选择偏差</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="1557.291667"/></clipPath></defs><rect width="960" height="1655" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">对同一噪声集合取最大值会产生选择偏差</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1641.861068" viewBox="0 13.138932 960 1641.861068" role="img" aria-labelledby="artwork-title"><rect x="0" y="13.138932" width="960" height="1641.861068" fill="#ffffff" id="plate-canvas"/><title id="artwork-title">对同一噪声集合取最大值会产生选择偏差</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="1557.291667"/></clipPath></defs><rect width="960" height="1655" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -161,10 +161,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="96.68" y="112.287319" transform="rotate(-0 96.68 112.287319)">1.5</text>
      </g>
     </g>
-    <g id="text_12">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="39.794062" y="267.84" transform="rotate(-90 39.794062 267.84)">两个零真值动作的估计误差</text>
     </g>
-   </g>
    <g id="line2d_19">
     <line clip-path="url(#p61ec756969)" style="fill: none; stroke: #d9e1e8; stroke-width: 7; stroke-linecap: square" x1="123.534545" y1="160.165161" x2="152.948687" y2="160.165161"/>
    </g>
@@ -331,10 +328,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="664.52" y="100.953125" transform="rotate(-0 664.52 100.953125)">1.0</text>
      </g>
     </g>
-    <g id="text_22">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="623.951875" y="267.84" transform="rotate(-90 623.951875 267.84)">选中动作的读值概率</text>
     </g>
-   </g>
    <g id="patch_6">
     <path d="M 691.374545 443.52 L 771.738182 443.52 L 771.738182 355.68 L 691.374545 355.68 z " clip-path="url(#p42ce603a7a)" style="fill: #146c8d"/>
    </g>
@@ -521,10 +515,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="1232.36" y="131.24278" transform="rotate(-0 1232.36 131.24278)">1.0</text>
      </g>
     </g>
-    <g id="text_42">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="1191.791875" y="267.84" transform="rotate(-90 1191.791875 267.84)">选择后估计的期望偏差</text>
     </g>
-   </g>
    <g id="line2d_54">
     <polyline clip-path="url(#pb062448531)" style="fill: none; stroke: #146c8d; stroke-width: 3; stroke-linecap: square" points="1259.214545,425.346207 1315.941818,273.897931 1372.669091,198.173793 1429.396364,160.311724 1486.123636,141.38069 1542.850909,131.915172 1599.578182,127.182414 1656.305455,124.816034"/>
     <defs>
@@ -624,4 +615,4 @@
    <rect x="1239.36" y="92.16" width="436.8" height="351.36"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="276.671393" y="45.472266" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="25.620821" fill="#25364a" text-anchor="start" aria-label="两个零真值动作的估计误差" id="text_12" data-axis-label="matplotlib.axis_2"><tspan x="276.671393" dy="0">两个零真值动作的估计</tspan><tspan x="276.671393" dy="32.282234">误差</tspan></text><text x="264.104617" y="607.006712" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="25.620821" fill="#25364a" text-anchor="middle" aria-label="选中动作的读值概率" id="text_22" data-axis-label="matplotlib.axis_4">选中动作的读值概率</text><text x="199.168398" y="1339.208766" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="选择后估计的期望偏差" id="text_42" data-axis-label="matplotlib.axis_6"><tspan x="199.168398" dy="0">选择后估计</tspan><tspan x="199.168398" dy="30.68">的期望偏差</tspan></text></svg>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3294" viewBox="0 0 960 3294" role="img" aria-labelledby="diagram-title"><title id="diagram-title">最大间隔的几何：距离、规范化与间隔内不等于错分</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3165" viewBox="0 129 960 3165" role="img" aria-labelledby="diagram-title"><title id="diagram-title">最大间隔的几何：距离、规范化与间隔内不等于错分</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m27b4d04c02" d="M 0 4.472136 C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278 C 4.000923 2.323632 4.472136 1.186024 4.472136 0 C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278 C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136 C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278 C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0 C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278 C -2.323632 4.000923 -1.186024 4.472136 0 4.472136 z " style="stroke: #2182a1"/>
     <path id="m36ac6aa7bb" d="M 0 4.472136 C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278 C 4.000923 2.323632 4.472136 1.186024 4.472136 0 C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278 C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136 C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278 C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0 C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278 C -2.323632 4.000923 -1.186024 4.472136 0 4.472136 z " style="stroke: #cf7d44"/>
     <path id="C0_0_4afde1724e" d="M 0 6.708204 C 1.779036 6.708204 3.485448 6.001385 4.743416 4.743416 C 6.001385 3.485448 6.708204 1.779036 6.708204 -0 C 6.708204 -1.779036 6.001385 -3.485448 4.743416 -4.743416 C 3.485448 -6.001385 1.779036 -6.708204 0 -6.708204 C -1.779036 -6.708204 -3.485448 -6.001385 -4.743416 -4.743416 C -6.001385 -3.485448 -6.708204 -1.779036 -6.708204 0 C -6.708204 1.779036 -6.001385 3.485448 -4.743416 4.743416 C -3.485448 6.001385 -1.779036 6.708204 0 6.708204 z "/>
@@ -17,7 +17,7 @@
   <clipPath id="p408453f25d">
    <rect x="788.978816" y="37.388125" width="256.973684" height="310.464"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="3294" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">最大间隔的几何：距离、规范化与间隔内不等于</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">错分</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(34.516606 74.451740) scale(2.62316676)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="3294" fill="#ffffff"/><g transform="translate(34.516606 74.451740) scale(2.62316676)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 69.4525 316.348195 L 326.426184 316.348195 L 326.426184 68.892055 L 69.4525 68.892055 z " style="fill: #ffffff"/>
    </g>
@@ -479,10 +479,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="781.978816" y="61.523925" transform="rotate(-0 781.978816 61.523925)">1.6</text>
      </g>
     </g>
-    <g id="text_35">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="751.291316" y="192.620125" transform="rotate(-90 751.291316 192.620125)">hinge 损失</text>
     </g>
-   </g>
    <g id="line2d_46">
     <path d="M 800.659438 55.128925 L 944.420939 338.981725 L 1034.271878 338.981725 L 1034.271878 338.981725 " clip-path="url(#p408453f25d)" style="fill: none; stroke: #2182a1; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -502,4 +499,4 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="788.978816" y="22.388125" transform="rotate(-0 788.978816 22.388125)">C  正类查询的距离进入损失</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="151.702093" y="2688.838846" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="hinge 损失" id="text_35" data-axis-label="matplotlib.axis_6">hinge 损失</text></svg>

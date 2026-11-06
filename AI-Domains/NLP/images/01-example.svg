@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="931.9687" viewBox="0 0 1440 931.9687" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">TF-IDF 拟合只能使用训练文档集合</title><rect width="1440" height="931.9687" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">TF-IDF 拟合只能使用训练文档集合</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="789.9687" viewBox="22 61 1276 750" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden"><rect x="22" y="61" width="1276" height="750" fill="#ffffff"/><title id="title">TF-IDF：训练文档决定每个坐标</title><desc id="desc">三篇训练文档的计数、文档频率和 IDF；冻结词表之后，测试中的新词没有新坐标。</desc><rect width="1320" height="820" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1276" height="750" viewBox="22 61 1276 750" role="img" aria-labelledby="title desc"><rect x="22" y="61" width="1276" height="750" fill="#ffffff"/><title id="title">TF-IDF 拟合只能使用训练文档集合</title><desc id="desc">三篇训练文档的计数、文档频率和 IDF；冻结词表之后，测试中的新词没有新坐标。</desc><rect width="1320" height="820" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
 <text x="40" y="103" font-size="28" fill="#1c2e41" text-anchor="start" font-weight="400">训练：猫 猫 鱼 ｜ 狗 鱼 ｜ 狗</text>
 <text x="370" y="163" font-size="32" fill="#1c2e41" text-anchor="middle" font-weight="700">猫</text>
 <text x="520" y="163" font-size="32" fill="#1c2e41" text-anchor="middle" font-weight="700">狗</text>
@@ -55,4 +55,4 @@
 <text x="780" y="725" font-size="30" fill="#1c2e41" text-anchor="middle" font-weight="400">0</text>
 <text x="990" y="705" font-size="27" fill="#1c2e41" text-anchor="start" font-weight="400">仍按 猫、狗、鱼</text>
 <text x="990" y="750" font-size="27" fill="#c7772d" text-anchor="start" font-weight="400">新词不扩充词表</text>
-<text x="450" y="789" font-size="26" fill="#658596" text-anchor="start" font-weight="400">L2 归一化后的向量</text></g></svg></svg>
+<text x="450" y="789" font-size="26" fill="#658596" text-anchor="start" font-weight="400">L2 归一化后的向量</text></g></svg>

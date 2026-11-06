@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1133.7181" viewBox="0 0 1440 1133.7181" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">二元分箱的连续密度积分、均匀去量化下界与真实条件噪声</title><rect width="1440" height="1133.7181" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">二元分箱的连续密度积分、均匀去量化下界与真实条件噪声</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="991.7181" viewBox="47 70 1362 1005" role="img" x="48" y="106" overflow="hidden"><rect x="47" y="70" width="1362" height="1005" fill="#ffffff"/><title>离散事件、连续密度与去量化下界：同一二元例子逐项对应</title><rect width="1440" height="1080" fill="white"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#1f3348">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1362" height="1005" viewBox="47 70 1362 1005" role="img" aria-labelledby="plate-title"><rect x="47" y="70" width="1362" height="1005" fill="#ffffff"/><title id="plate-title">二元分箱的连续密度积分、均匀去量化下界与真实条件噪声</title><rect width="1440" height="1080" fill="white"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#1f3348">
 <text x="65" y="112" font-size="28" fill="#1f3348" text-anchor="start" font-weight="700">① 连续密度 pY(y)=2y，0 ≤ y &lt; 1</text>
 <line x1="100.0" y1="180" x2="100.0" y2="510" stroke="#dce4ec" stroke-width="2"/>
 <text x="100.0" y="545" font-size="24" fill="#6b7f92" text-anchor="middle">0</text>
@@ -69,4 +69,4 @@
 <text x="685" y="905" font-size="27" fill="#25918d" text-anchor="start">若 q 等于对应条件密度，KL=0，</text>
 <text x="685" y="950" font-size="27" fill="#25918d" text-anchor="start">下界就与精确分箱 log 概率相等。</text>
 <text x="65" y="1050" font-size="26" fill="#1f3348" text-anchor="start">缩放到 y 坐标后，要把 log pY 减去 log 2 才是单位小格密度。</text>
-</g></svg></svg>
+</g></svg>

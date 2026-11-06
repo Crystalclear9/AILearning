@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1691" viewBox="0 0 960 1691" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">简单根和重根的残差换算与相同阈值允许的位置区间</title><desc id="artwork-desc">残差小到什么程度，才能保证根的位置准确？</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1644" viewBox="0 47 960 1644" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">简单根和重根的残差换算与相同阈值允许的位置区间</title><desc id="artwork-desc">残差小到什么程度，才能保证根的位置准确？</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m708c1d436f" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="mc689a3532c" d="M 0 0 L 0 2 " style="stroke: #45697b; stroke-width: 0.6"/>
       <path id="m6c448e519b" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
@@ -12,7 +12,7 @@
   <clipPath id="p293e454d52">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1691" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">简单根和重根的残差换算与相同阈值允许的位置区间</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-2.92 30.244829) scale(0.971519)"><g id="text_31">
+ </defs><rect width="960" height="1691" fill="#ffffff"/><g transform="translate(-2.92 30.244829) scale(0.971519)"><g id="text_31">
    <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #47586b" x="51.84" y="81.648" transform="rotate(-0 51.84 81.648)">同一根 x*=0；三种函数尺度与局部结构，候选取 x≥0</text>
   </g>
   </g><rect x="35" y="142.32" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="167.32" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(90.190444 -1.345768) scale(1.538602)"><g id="axes_1">
@@ -523,10 +523,7 @@
       </g>
      </g>
     </g>
-    <g id="text_14">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="38.930937" y="330.48" transform="rotate(-90 38.930937 330.48)">绝对残差</text>
     </g>
-   </g>
    <g id="line2d_60">
     <polyline clip-path="url(#pd8051f47ce)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="115.2,304.56 518.4,185.274605 518.4,185.274605"/>
    </g>
@@ -763,4 +760,4 @@
     </text>
    </g>
   </g>
- </g></svg>
+ </g><text x="270.437394" y="178.848038" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="绝对残差" id="text_14" data-axis-label="matplotlib.axis_2">绝对残差</text></svg>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2260" viewBox="0 0 960 2260" role="img" aria-labelledby="diagram-title"><title id="diagram-title">相关误差限制 Bagging 的方差收益</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2190.91221" viewBox="0 69.08779 960 2190.91221" role="img" aria-labelledby="diagram-title"><rect x="0" y="69.08779" width="960" height="2190.91221" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">相关误差限制 Bagging 的方差收益</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mde7b9e4736" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="mb3c9f492d6" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="m22f09ac45c" d="M 0 2 C 0.530406 2 1.03916 1.789267 1.414214 1.414214 C 1.789267 1.03916 2 0.530406 2 0 C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 C 1.03916 -1.789267 0.530406 -2 0 -2 C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 C -1.789267 -1.03916 -2 -0.530406 -2 0 C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 C -1.03916 1.789267 -0.530406 2 0 2 z " style="stroke: #1f7e9c"/>
@@ -14,7 +14,7 @@
   <clipPath id="p6b643b71a0">
    <rect x="1084.067636" y="72.576" width="476.172364" height="331.776"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2260" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">相关误差限制 Bagging 的方差收益</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(4.06512 55.02466) scale(1.53948684)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2260" fill="#ffffff"/><g transform="translate(4.06512 55.02466) scale(1.53948684)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 105.512135 404.352 L 437.288135 404.352 L 437.288135 72.576 L 105.512135 72.576 z " style="fill: #ffffff"/>
    </g>
@@ -107,10 +107,7 @@
       <text style="font-size: 23px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="98.512135" y="372.072812" transform="rotate(-0 98.512135 372.072812)">4</text>
      </g>
     </g>
-    <g id="text_10">
-     <text style="font-size: 23px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="75.307135" y="238.464" transform="rotate(-90 75.307135 238.464)">成员编号</text>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 105.512135 404.352 L 105.512135 72.576 " style="fill: none; stroke: #9da9bc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -300,10 +297,7 @@
       <text style="font-size: 23px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="582.553818" y="81.768812" transform="rotate(-0 582.553818 81.768812)">1.2</text>
      </g>
     </g>
-    <g id="text_39">
-     <text style="font-size: 23px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="540.323506" y="238.464" transform="rotate(-90 540.323506 238.464)">平均误差方差</text>
     </g>
-   </g>
    <g id="patch_6">
     <path d="M 605.586558 404.352 L 679.583817 404.352 L 679.583817 127.872 L 605.586558 127.872 z " clip-path="url(#p017b999107)" style="fill: #1f7e9c"/>
    </g>
@@ -508,10 +502,7 @@
       <text style="font-size: 23px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="1077.067636" y="105.467098" transform="rotate(-0 1077.067636 105.467098)">1.0</text>
      </g>
     </g>
-    <g id="text_58">
-     <text style="font-size: 23px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="1034.837324" y="238.464" transform="rotate(-90 1034.837324 238.464)">平均误差方差</text>
     </g>
-   </g>
    <g id="line2d_48">
     <path d="M 1105.711834 96.274286 L 1134.570766 244.388571 L 1163.429697 293.76 L 1192.288628 318.445714 L 1221.147559 333.257143 L 1250.00649 343.131429 L 1278.865421 350.18449 L 1307.724352 355.474286 L 1336.583284 359.588571 L 1365.442215 362.88 L 1394.301146 365.572987 L 1423.160077 367.817143 L 1452.019008 369.716044 L 1480.877939 371.343673 L 1509.73687 372.754286 L 1538.595802 373.988571 " clip-path="url(#p6b643b71a0)" style="fill: none; stroke: #1f7e9c; stroke-width: 3; stroke-linecap: square"/>
     <g clip-path="url(#p6b643b71a0)">
@@ -623,4 +614,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="169.499663" y="107.754457" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="成员编号" id="text_10" data-axis-label="matplotlib.axis_2">成员编号</text><text x="169.499664" y="797.267947" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="平均误差方差" id="text_39" data-axis-label="matplotlib.axis_4">平均误差方差</text><text x="169.499659" y="1580.604177" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="平均误差方差" id="text_58" data-axis-label="matplotlib.axis_6">平均误差方差</text></svg>

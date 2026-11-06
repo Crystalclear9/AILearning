@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2311" viewBox="0 0 960 2311" role="img" aria-labelledby="artwork-title"><title id="artwork-title">逐位置最优状态不一定组成最高概率路径</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="2213.355625"/></clipPath></defs><rect width="960" height="2311" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">逐位置最优状态不一定组成最高概率路径</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1035.370169" height="2264" viewBox="-75.370169 47 1035.370169 2264" role="img" aria-labelledby="artwork-title"><rect x="-75.370169" y="47" width="1035.370169" height="2264" fill="#ffffff" id="plate-canvas"/><title id="artwork-title">逐位置最优状态不一定组成最高概率路径</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="2213.355625"/></clipPath></defs><rect width="960" height="2311" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -76,10 +76,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="248.988174" y="323.289125" transform="rotate(-0 248.988174 323.289125)">B</text>
      </g>
     </g>
-    <g id="text_6">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="224.040049" y="229.824" transform="rotate(-90 224.040049 229.824)">时刻一状态</text>
     </g>
-   </g>
    <g id="patch_3">
     <line style="fill: none; stroke: #acbccc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="255.988174" y1="399.168" x2="255.988174" y2="60.48"/>
    </g>
@@ -193,10 +190,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="881.135652" y="92.90252" transform="rotate(-0 881.135652 92.90252)">0.8</text>
      </g>
     </g>
-    <g id="text_19">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="840.567527" y="229.824" transform="rotate(-90 840.567527 229.824)">边缘后验概率</text>
     </g>
-   </g>
    <g id="patch_10">
     <line style="fill: none; stroke: #acbccc; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="888.135652" y1="399.168" x2="888.135652" y2="60.48"/>
    </g>
@@ -376,10 +370,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="129.08" y="593.688922" transform="rotate(-0 129.08 593.688922)">1.2</text>
      </g>
     </g>
-    <g id="text_39">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="88.511875" y="737.856" transform="rotate(-90 88.511875 737.856)">整条路径错误的后验概率</text>
     </g>
-   </g>
    <g id="patch_15">
     <path d="M 162.375652 907.2 L 273.094188 907.2 L 273.094188 729.932688 L 162.375652 729.932688 z " clip-path="url(#p6464708897)" style="fill: #778f9d"/>
    </g>
@@ -557,10 +548,7 @@
       <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a768f" x="881.135652" y="600.836797" transform="rotate(-0 881.135652 600.836797)">1.50</text>
      </g>
     </g>
-    <g id="text_57">
-     <text style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1e3145" x="827.66659" y="737.856" transform="rotate(-90 827.66659 737.856)">两个位置的期望错误个数</text>
     </g>
-   </g>
    <g id="patch_22">
     <path d="M 914.431304 907.2 L 1025.14984 907.2 L 1025.14984 692.893697 L 914.431304 692.893697 z " clip-path="url(#p2d12cfa3d4)" style="fill: #778f9d"/>
    </g>
@@ -611,4 +599,4 @@
    <rect x="888.135652" y="568.512" width="578.504348" height="338.688"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="305.318146" y="85.21733" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="27.143472" fill="#25364a" text-anchor="start" aria-label="时刻一状态" id="text_6" data-axis-label="matplotlib.axis_2">时刻一状态</text><text x="166.697438" y="670.655334" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="27.143472" fill="#25364a" text-anchor="start" aria-label="边缘后验概率" id="text_19" data-axis-label="matplotlib.axis_4">边缘后验概率</text><text x="98.629831" y="1423.074203" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="整条路径错误的后验概率" id="text_39" data-axis-label="matplotlib.axis_6"><tspan x="98.629831" dy="0">整条路径错误</tspan><tspan x="98.629831" dy="30.68">的后验概率</tspan></text><text x="106.716809" y="1954.512884" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="两个位置的期望错误个数" id="text_57" data-axis-label="matplotlib.axis_8"><tspan x="106.716809" dy="0">两个位置的期</tspan><tspan x="106.716809" dy="30.68">望错误个数</tspan></text></svg>

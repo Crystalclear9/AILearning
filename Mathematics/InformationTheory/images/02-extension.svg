@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1773" viewBox="0 0 960 1773" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">硬标签和软目标的logit交叉熵及梯度零点</title><desc id="artwork-desc">标签平滑改变最优概率，也改变梯度的零点 软目标在 q=0.9 达到有限最小值；硬标签仅在 z→+∞ 时逼近损失下确界 0。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1726" viewBox="0 47 960 1726" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">硬标签和软目标的logit交叉熵及梯度零点</title><desc id="artwork-desc">标签平滑改变最优概率，也改变梯度的零点 软目标在 q=0.9 达到有限最小值；硬标签仅在 z→+∞ 时逼近损失下确界 0。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m6e50b0527c" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="ma24e2914d4" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="m65c168f39d" d="M 0 3.5 C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 C 3.131218 1.81853 3.5 0.928211 3.5 0 C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874 C 1.81853 -3.131218 0.928211 -3.5 0 -3.5 C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874 C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0 C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874 C -1.81853 3.131218 -0.928211 3.5 0 3.5 z " style="stroke: #ba602b"/>
@@ -9,7 +9,7 @@
   <clipPath id="p30e233e79b">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1773" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">硬标签和软目标的logit交叉熵及梯度零点</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-3.460833 27.934167) scale(0.998698)"><g id="text_36">
+ </defs><rect width="960" height="1773" fill="#ffffff"/><g transform="translate(-3.460833 27.934167) scale(0.998698)"><g id="text_36">
    <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #47586b" x="51.84" y="81.648" transform="rotate(-0 51.84 81.648)">二分类正类概率 q=σ(z)；硬标签 y=1，对照软目标 y=0.9</text>
   </g>
   </g><rect x="35" y="144.68" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="169.68" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(6.601573 -14.772798) scale(1.682888)"><g id="axes_1">
@@ -178,10 +178,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="108.2" y="206.879904" transform="rotate(-0 108.2 206.879904)">6</text>
      </g>
     </g>
-    <g id="text_14">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="79.002812" y="330.48" transform="rotate(-90 79.002812 330.48)">交叉熵（nat）</text>
     </g>
-   </g>
    <g id="line2d_25">
     <polyline clip-path="url(#pf55cde3da8)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="115.2,198.767687 156.73133,267.393002 179.804292,305.123767 195.955365,331.144917 208.645494,351.19953 219.028326,367.225055 228.257511,381.072458 236.333047,392.792148 243.254936,402.47443 249.6,411.001276 255.945064,419.144655 261.713305,426.173961 266.904721,432.166063 272.096137,437.817549 276.71073,442.539261 281.325322,446.965624 285.939914,451.089253 290.554506,454.90647 295.169099,458.417483 299.783691,461.626383 304.398283,464.54093 309.012876,467.172187 313.627468,469.533998 318.24206,471.642397 322.856652,473.51497 328.048069,475.362801 333.239485,476.962464 338.430901,478.340502 344.199142,479.64273 350.544206,480.834575 357.466094,481.892256 364.964807,482.803227 373.617167,483.612491 383.423176,484.289327 394.959657,484.847224 408.803433,485.2839 426.684979,485.613788 452.065236,485.839629 494.750215,485.963524 518.4,485.98395 518.4,485.98395"/>
    </g>
@@ -386,10 +383,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="672.68" y="205.170893" transform="rotate(-0 672.68 205.170893)">0.2</text>
      </g>
     </g>
-    <g id="text_31">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="618.15875" y="330.48" transform="rotate(-90 618.15875 330.48)">对 logit 的梯度</text>
     </g>
-   </g>
    <g id="line2d_54">
     <polyline clip-path="url(#p30e233e79b)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="679.68,463.233511 696.407897,462.802798 709.098026,462.263864 719.480858,461.610963 728.133219,460.859862 735.631931,460.005307 742.55382,459.00109 748.898884,457.853984 754.667124,456.581856 759.858541,455.21433 764.473133,453.792255 769.087725,452.147021 773.702318,450.248136 777.740086,448.35258 781.777854,446.213904 785.815622,443.807442 789.853391,441.107892 793.314335,438.541466 796.775279,435.725417 800.236223,432.644871 803.697167,429.286207 807.158112,425.637604 810.619056,421.689652 814.08,417.436003 818.117768,412.083774 822.155536,406.315478 826.193305,400.143848 830.231073,393.591883 834.845665,385.682054 840.037082,376.327757 846.382146,364.413552 867.147811,325.005223 872.339227,315.845954 876.95382,308.146856 880.991588,301.80098 885.029356,295.849424 889.067124,290.309437 893.104893,285.188479 896.565837,281.131899 900.026781,277.377321 903.487725,273.916352 906.94867,270.737961 910.409614,267.829103 913.870558,265.17529 917.908326,262.380931 921.946094,259.887451 925.983863,257.669459 930.021631,255.702041 934.059399,253.961227 938.673991,252.220131 943.288584,250.713848 948.48,249.264167 953.671416,248.038402 959.439657,246.89965 965.784721,245.874053 972.706609,244.977172 980.782146,244.163638 990.01133,243.469718 1000.970987,242.884922 1014.23794,242.416539 1030.965837,242.062555 1054.038798,241.814128 1082.88,241.685934 1082.88,241.685934"/>
    </g>
@@ -434,4 +428,4 @@
     </g>
    </g>
   </g>
-  </g></svg>
+  </g><text x="203.470271" y="173.665286" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="交叉熵（nat）" id="text_14" data-axis-label="matplotlib.axis_2">交叉熵（nat）</text><text x="203.470135" y="995.951377" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="对 logit 的梯度" id="text_31" data-axis-label="matplotlib.axis_4">对 logit 的梯度</text></svg>

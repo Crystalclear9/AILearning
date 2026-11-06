@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1521" viewBox="0 0 960 1521" role="img" aria-labelledby="diagram-title"><title id="diagram-title">固定保留率下不同初始状态在tanh读出上的位置和末读出导数</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1392" viewBox="0 129 960 1392" role="img" aria-labelledby="diagram-title"><title id="diagram-title">固定保留率下不同初始状态在tanh读出上的位置和末读出导数</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m202c939b0f" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="m2d0d56d079" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="m92318fbab5" d="M 0 5  C 1.326016 5 2.597899 4.473168 3.535534 3.535534  C 4.473168 2.597899 5 1.326016 5 0  C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534  C 2.597899 -4.473168 1.326016 -5 0 -5  C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534  C -4.473168 -2.597899 -5 -1.326016 -5 0  C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534  C -2.597899 4.473168 -1.326016 5 0 5  z " style="stroke: #2075a6"/>
@@ -12,7 +12,7 @@
   <clipPath id="p8ac4be51e0">
    <rect x="701.084063" y="21.6" width="391.68" height="297.648"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1521" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">固定保留率下不同初始状态在tanh读出上的位置</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">和末读出导数</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(25.864536 179.448433) scale(1.61481523)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1521" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(25.864536 179.448433) scale(1.61481523)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 79.004063 319.248  L 539.804063 319.248  L 539.804063 21.6  L 79.004063 21.6  z " style="fill: #ffffff"/>
    </g>
@@ -178,10 +178,7 @@
       <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end" x="72.004063" y="55.853284" transform="rotate(-0 72.004063 55.853284)">0.5</text>
      </g>
     </g>
-    <g id="text_14">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="37.5875" y="170.424" transform="rotate(-90 37.5875 170.424)">隐藏读出 h</text>
     </g>
-   </g>
    <g id="line2d_25">
     <path d="M 99.949517 319.248  L 112.548287 278.861869  L 119.897569 256.012461  L 126.196954 237.145587  L 131.446441 222.058818  L 136.695929 207.635303  L 141.945416 193.937621  L 146.145006 183.533334  L 150.344596 173.638938  L 154.544186 164.26387  L 158.743775 155.41167  L 162.943365 147.080545  L 167.142955 139.263991  L 171.342545 131.951437  L 175.542135 125.1289  L 179.741725 118.77962  L 183.941315 112.88466  L 188.140905 107.423457  L 192.340494 102.374329  L 196.540084 97.714914  L 200.739674 93.422553  L 204.939264 89.474621  L 209.138854 85.848792  L 213.338444 82.523261  L 217.538034 79.476916  L 221.737624 76.68947  L 225.937214 74.141557  L 230.136803 71.814792  L 235.386291 69.190975  L 240.635778 66.854023  L 245.885266 64.774829  L 251.134753 62.926746  L 256.38424 61.285495  L 262.683625 59.558131  L 268.98301 58.062873  L 276.332292 56.571796  L 283.681574 55.314183  L 292.080754 54.117252  L 301.529831 53.023917  L 312.028806 52.062337  L 323.577678 51.246198  L 336.176448 50.57656  L 351.92491 49.977116  L 370.823065 49.499231  L 394.970706 49.131403  L 427.517528 48.876269  L 478.962504 48.722583  L 518.858608 48.683477  L 518.858608 48.683477  " clip-path="url(#pb5331fb733)" style="fill: none; stroke: #2075a6; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -373,10 +370,7 @@
       <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end" x="694.084063" y="48.254652" transform="rotate(-0 694.084063 48.254652)">0.4</text>
      </g>
     </g>
-    <g id="text_29">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="659.6675" y="170.424" transform="rotate(-90 659.6675 170.424)">末读出对初态的导数</text>
     </g>
-   </g>
    <g id="PathCollection_3">
     <g clip-path="url(#p8ac4be51e0)">
      <use xlink:href="#m2838d51518" x="790.102244" y="158.163656" style="fill: #2075a6; stroke: #2075a6"/>
@@ -409,4 +403,4 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start" x="911.166972" y="253.029877" transform="rotate(-0 911.166972 253.029877)">0.002348</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="156.4415" y="191.328442" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="32.296305" fill="#25364a" text-anchor="start" aria-label="隐藏读出 h" id="text_14" data-axis-label="matplotlib.axis_2">隐藏读出 h</text><text x="88.4415" y="1122.804259" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="23" fill="#25364a" aria-label="末读出对初态的导数" id="text_29" data-axis-label="matplotlib.axis_4"><tspan x="88.4415" dy="0">末读出</tspan><tspan x="88.4415" dy="27.14">对初态</tspan><tspan x="88.4415" dy="27.14">的导数</tspan></text></svg>

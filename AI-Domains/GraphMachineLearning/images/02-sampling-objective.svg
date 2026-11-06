@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="978.7636" viewBox="0 0 1440 978.7636" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">无偏邻居采样引入方差项并移动最优参数</title><rect width="1440" height="978.7636" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">无偏邻居采样引入方差项并移动最优参数</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="836.7636" viewBox="26 59 1142 711" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden">
-<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="59" width="1142" height="711" fill="#ffffff"/><title id="title">邻居采样改变训练目标</title><desc id="desc">两个邻居消息1和3，等概率抽一个，均值估计无偏。平方损失的采样目标比全邻域目标多w平方除以2，最优参数从0.5变为0.4。</desc>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1142" height="711" viewBox="26 59 1142 711" role="img" aria-labelledby="title desc">
+<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="59" width="1142" height="711" fill="#ffffff"/><title id="title">无偏邻居采样引入方差项并移动最优参数</title><desc id="desc">两个邻居消息1和3，等概率抽一个，均值估计无偏。平方损失的采样目标比全邻域目标多w平方除以2，最优参数从0.5变为0.4。</desc>
 <rect width="1200" height="800" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1f3449">
 <text x="44" y="99" font-size="26" fill="#62819a" text-anchor="start" font-weight="400">固定邻居消息为 1 和 3；单个线性权重 w，监督目标 y = 1</text>
@@ -52,4 +52,4 @@
 <rect x="44" y="707" width="1112" height="63" rx="12" fill="url(#book-wash-eef4f9)" stroke="none"/>
 <text x="65" y="748" font-size="26" fill="#1f3449" text-anchor="start" font-weight="400">在全图最优 w = 0.5 处，采样梯度的期望为 0.5；它仍会推动参数移动。</text>
 <line x1="670" y1="402" x2="724" y2="543" stroke="#c57439" stroke-width="1.5"/>
-</g></svg></svg>
+</g></svg>

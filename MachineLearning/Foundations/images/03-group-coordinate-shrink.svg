@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1120" viewBox="0 0 960 1120" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1050.36" viewBox="0 69.64 960 1050.36" role="img" aria-labelledby="title desc">
 <title id="title">成组收缩与逐坐标收缩走向不同</title><desc id="desc">从 (3,4) 出发，组收缩到 (1.8,2.4) 并保留方向；逐坐标软阈值到 (1,2)。随着惩罚增加，组分量同时归零，逐坐标分量分别归零。</desc>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0.000" y="0.000" width="960.000" height="1120.000" rx="0" fill="#ffffff" stroke="none" stroke-width="1.6"/>
-<text x="44.000" y="61.000" fill="#172a40" font-size="38" font-weight="700" text-anchor="start">成组收缩与逐坐标收缩走向不同</text>
 <text x="46.000" y="106.000" fill="#465d72" font-size="26" font-weight="400" text-anchor="start">同一输入向量，在两种惩罚下观察更新方向</text>
 <rect x="44.000" y="145.000" width="44.000" height="41.000" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.6"/>
 <text x="66.000" y="174.000" fill="#136d84" font-size="26" font-weight="700" text-anchor="middle">A</text>

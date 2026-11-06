@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1283" viewBox="0 0 960 1283" role="img" aria-labelledby="diagram-title"><title id="diagram-title">稳定结果与访问成本需要分别说明</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1201" viewBox="0 82 960 1201" role="img" aria-labelledby="diagram-title"><title id="diagram-title">稳定结果与访问成本需要分别说明</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="ma973aab424" d="M 0 0 L 0 3.5 " style="stroke: #527186; stroke-width: 0.8"/>
       <path id="mc8bdc11bca" d="M 0 0 L 0 2 " style="stroke: #527186; stroke-width: 0.6"/>
       <path id="mc4244581e4" d="M 0 0 L -3.5 0 " style="stroke: #527186; stroke-width: 0.8"/>
@@ -12,7 +12,7 @@
   <clipPath id="p0a72aa5c2f">
    <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1283" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">稳定结果与访问成本需要分别说明</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(29.161605 132.829469) scale(1.96337995)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1283" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(29.161605 132.829469) scale(1.96337995)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -491,10 +491,7 @@
       </g>
      </g>
     </g>
-    <g id="text_9">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="30.3825" y="162.432" transform="rotate(-90 30.3825 162.432)">访问工作单位</text>
     </g>
-   </g>
    <g id="line2d_58">
     <path d="M 88.090435 263.981933 L 200.16 213.336296 L 312.229565 135.153034 L 424.29913 51.682909 " clip-path="url(#p8ed2f7d290)" style="fill: none; stroke: #c56a29; stroke-width: 1.5; stroke-linecap: square"/>
     <g clip-path="url(#p8ed2f7d290)">
@@ -591,4 +588,4 @@
     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="699.990261" y="223.68945" transform="rotate(-0 699.990261 223.68945)">固定视图、唯一不变排序键</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="172.111328" y="153.558402" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.414079" fill="#25364a" text-anchor="start" aria-label="访问工作单位" id="text_9" data-axis-label="matplotlib.axis_2">访问工作单位</text></svg>

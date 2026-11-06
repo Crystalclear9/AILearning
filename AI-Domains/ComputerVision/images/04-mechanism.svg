@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="984.9951" viewBox="0 0 1440 984.9951" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">置信筛选必须同时报告覆盖与条件错误率</title><rect width="1440" height="984.9951" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">置信筛选必须同时报告覆盖与条件错误率</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="842.9951" viewBox="38 69 1234 774" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden"><rect x="38" y="69" width="1234" height="774" fill="#ffffff"/><title id="title">高置信筛选反而放大错误的八样本反例</title><desc id="desc">分数由高到低为0.99到0.55，前两个预测错误，之后六个正确。只接收前四个时覆盖0.5、条件错误率0.5；全接收时条件错误率0.25。</desc><rect width="1400" height="840" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1234" height="774" viewBox="38 69 1234 774" role="img" aria-labelledby="title desc"><rect x="38" y="69" width="1234" height="774" fill="#ffffff"/><title id="title">置信筛选必须同时报告覆盖与条件错误率</title><desc id="desc">分数由高到低为0.99到0.55，前两个预测错误，之后六个正确。只接收前四个时覆盖0.5、条件错误率0.5；全接收时条件错误率0.25。</desc><rect width="1400" height="840" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
 <text x="56" y="110" font-size="27" fill="#62818f" text-anchor="start" font-weight="400">沿用实验五的 8 条人工预测；橙色叉号是错误，蓝色勾号是正确。</text>
 <text x="120" y="182" font-size="28" fill="#62818f" text-anchor="middle" font-weight="400">0.99</text>
 <circle cx="120" cy="230" r="28" fill="#ba6c2c" stroke="none" stroke-width="3"/>
@@ -67,4 +67,4 @@
 <text x="900" y="501" font-size="29" fill="#ba6c2c" text-anchor="start" font-weight="400">覆盖 50% · 错误 50%</text>
 <text x="900" y="594" font-size="30" fill="#167e9e" text-anchor="start" font-weight="600">全部 8 条</text>
 <text x="900" y="643" font-size="29" fill="#167e9e" text-anchor="start" font-weight="400">覆盖 100% · 错误 25%</text>
-<text x="56" y="821" font-size="26" fill="#62818f" text-anchor="start" font-weight="400">覆盖为零时，条件错误率无定义；连线只帮助追踪阈值变化。</text></g></svg></svg>
+<text x="56" y="821" font-size="26" fill="#62818f" text-anchor="start" font-weight="400">覆盖为零时，条件错误率无定义；连线只帮助追踪阈值变化。</text></g></svg>

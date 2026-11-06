@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3053" viewBox="0 0 960 3053" role="img" aria-labelledby="diagram-title"><title id="diagram-title">小残差与大解误差的区别</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2971" viewBox="0 82 960 2971" role="img" aria-labelledby="diagram-title"><title id="diagram-title">小残差与大解误差的区别</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m91087e8d9a" d="M 0 3.162278 C 0.838646 3.162278 1.643056 2.82908 2.236068 2.236068 C 2.82908 1.643056 3.162278 0.838646 3.162278 0 C 3.162278 -0.838646 2.82908 -1.643056 2.236068 -2.236068 C 1.643056 -2.82908 0.838646 -3.162278 0 -3.162278 C -0.838646 -3.162278 -1.643056 -2.82908 -2.236068 -2.236068 C -2.82908 -1.643056 -3.162278 -0.838646 -3.162278 0 C -3.162278 0.838646 -2.82908 1.643056 -2.236068 2.236068 C -1.643056 2.82908 -0.838646 3.162278 0 3.162278 z " style="stroke: #1f6f94"/>
     <path id="m8e859e2e4a" d="M 0 3.162278 C 0.838646 3.162278 1.643056 2.82908 2.236068 2.236068 C 2.82908 1.643056 3.162278 0.838646 3.162278 0 C 3.162278 -0.838646 2.82908 -1.643056 2.236068 -2.236068 C 1.643056 -2.82908 0.838646 -3.162278 0 -3.162278 C -0.838646 -3.162278 -1.643056 -2.82908 -2.236068 -2.236068 C -2.82908 -1.643056 -3.162278 -0.838646 -3.162278 0 C -3.162278 0.838646 -2.82908 1.643056 -2.236068 2.236068 C -1.643056 2.82908 -0.838646 3.162278 0 3.162278 z " style="stroke: #c86e3a"/>
     <path id="m1855d31593" d="M 0 0 L 0 3.5 " style="stroke: #608295; stroke-width: 0.8"/>
@@ -73,7 +73,7 @@
   <clipPath id="p9c737780c7">
    <rect x="781.17238" y="49.281038" width="233.78714" height="312.350599"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="3053" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">小残差与大解误差的区别</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(34.788325 96.564801) scale(2.37118807)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="3053" fill="#ffffff"/><g transform="translate(34.788325 96.564801) scale(2.37118807)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 69.794531 351.5733 L 362.028456 351.5733 L 362.028456 59.339375 L 69.794531 59.339375 z " style="fill: #ffffff"/>
    </g>
@@ -263,15 +263,6 @@
        <use xlink:href="#MicrosoftYaHei-2e" transform="translate(58.642578 0)"/>
        <use xlink:href="#MicrosoftYaHei-30" transform="translate(82.714844 0)"/>
       </g>
-     </g>
-    </g>
-    <g id="text_13">
-     <!-- 第二坐标 -->
-     <g style="fill: #21364c" transform="translate(26.549375 239.456337) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-7b2c"/>
-      <use xlink:href="#MicrosoftYaHei-4e8c" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5750" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(300 0)"/>
      </g>
     </g>
     <g id="text_14">
@@ -509,16 +500,7 @@
       </g>
      </g>
     </g>
-    <g id="text_28">
-     <!-- 第二坐标 -->
-     <g style="fill: #21364c" transform="translate(382.337831 239.456337) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-7b2c"/>
-      <use xlink:href="#MicrosoftYaHei-4e8c" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5750" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(300 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_22">
     <path d="M 693.464085 205.456337 L 693.328233 199.043043 L 692.920981 192.644059 L 692.243237 186.273664 L 691.296515 179.946074 L 690.082925 173.675406 L 688.605177 167.475655 L 686.866568 161.360653 L 684.870977 155.344046 L 682.622857 149.439259 L 680.127224 143.659468 L 677.389648 138.01757 L 674.416237 132.526154 L 671.213626 127.197474 L 667.788961 122.04342 L 664.149884 117.075493 L 660.304514 112.304779 L 656.261434 107.741921 L 652.029663 103.397103 L 647.618646 99.280019 L 643.038224 95.399856 L 638.298619 91.765272 L 633.410406 88.384377 L 628.384493 85.264715 L 623.232094 82.413248 L 617.964707 79.836338 L 612.594086 77.539735 L 607.132213 75.528565 L 601.591277 73.807314 L 595.983642 72.379823 L 590.321821 71.249279 L 584.618447 70.418202 L 578.886247 69.888449 L 573.138011 69.6612 L 567.386566 69.736964 L 561.644747 70.115571 L 555.925364 70.796175 L 550.241181 71.77726 L 544.60488 73.056634 L 539.029039 74.631444 L 533.5261 76.498176 L 528.108342 78.652663 L 522.787853 81.090099 L 517.576507 83.805045 L 512.485931 86.791443 L 507.527485 90.042628 L 502.712232 93.551346 L 498.050918 97.309769 L 493.553944 101.309508 L 489.231344 105.54164 L 485.092764 109.99672 L 481.147439 114.664809 L 477.404171 119.535488 L 473.871315 124.597891 L 470.556752 129.84072 L 467.467879 135.252278 L 464.611589 140.820488 L 461.994254 146.532926 L 459.621716 152.376845 L 457.499269 158.339206 L 455.631647 164.406703 L 454.02302 170.565797 L 452.676976 176.802747 L 451.596518 183.103633 L 450.784058 189.454398 L 450.241409 195.840869 L 449.969782 202.248795 L 449.969782 208.663879 L 450.241409 215.071806 L 450.784058 221.458277 L 451.596518 227.809041 L 452.676976 234.109928 L 454.02302 240.346877 L 455.631647 246.505972 L 457.499269 252.573469 L 459.621716 258.535829 L 461.994254 264.379748 L 464.611589 270.092187 L 467.467879 275.660397 L 470.556752 281.071954 L 473.871315 286.314784 L 477.404171 291.377186 L 481.147439 296.247866 L 485.092764 300.915954 L 489.231344 305.371035 L 493.553944 309.603167 L 498.050918 313.602906 L 502.712232 317.361328 L 507.527485 320.870047 L 512.485931 324.121232 L 517.576507 327.107629 L 522.787853 329.822575 L 528.108342 332.260011 L 533.5261 334.414499 L 539.029039 336.28123 L 544.60488 337.85604 L 550.241181 339.135415 L 555.925364 340.116499 L 561.644747 340.797104 L 567.386566 341.175711 L 573.138011 341.251474 L 578.886247 341.024226 L 584.618447 340.494472 L 590.321821 339.663396 L 595.983642 338.532851 L 601.591277 337.105361 L 607.132213 335.38411 L 612.594086 333.372939 L 617.964707 331.076337 L 623.232094 328.499427 L 628.384493 325.64796 L 633.410406 322.528298 L 638.298619 319.147403 L 643.038224 315.512819 L 647.618646 311.632655 L 652.029663 307.515571 L 656.261434 303.170753 L 660.304514 298.607896 L 664.149884 293.837181 L 667.788961 288.869254 L 671.213626 283.7152 L 674.416237 278.38652 L 677.389648 272.895105 L 680.127224 267.253207 L 682.622857 261.473416 L 684.870977 255.568629 L 686.866568 249.552021 L 688.605177 243.43702 L 690.082925 237.237268 L 691.296515 230.966601 L 692.243237 224.63901 L 692.920981 218.268616 L 693.328233 211.869632 L 693.464085 205.456337 L 693.464085 205.456337 " clip-path="url(#pf9b22b4de7)" style="fill: none; stroke: #1f6f94; stroke-width: 2.4; stroke-linecap: square"/>
    </g>
@@ -904,25 +886,7 @@
       </g>
      </g>
     </g>
-    <g id="text_37">
-     <!-- 本例的归一化误差（对数轴） -->
-     <g style="fill: #21364c" transform="translate(738.126287 315.956337) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-672c"/>
-      <use xlink:href="#MicrosoftYaHei-4f8b" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5f52" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e00" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5316" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(700 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(800 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5bf9" transform="translate(900 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6570" transform="translate(1000 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8f74" transform="translate(1100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(1200 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_15">
     <path d="M 791.799069 82761.593852 L 867.214275 82761.593852 L 867.214275 336.744624 L 791.799069 336.744624 z " clip-path="url(#p9c737780c7)" style="fill: #1f6f94"/>
    </g>
@@ -965,4 +929,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="135.284284" y="592.840417" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="第二坐标" id="text_13" data-axis-label="matplotlib.axis_2">第二坐标</text><text x="135.284284" y="1576.163787" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="第二坐标" id="text_28" data-axis-label="matplotlib.axis_4">第二坐标</text><text x="135.284283" y="2555.695813" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="23" fill="#25364a" aria-label="本例的归一化误差（对数轴）" id="text_37" data-axis-label="matplotlib.axis_6"><tspan x="135.284283" dy="0">本例的归一</tspan><tspan x="135.284283" dy="27.14">化误差（对</tspan><tspan x="135.284283" dy="27.14">数轴）</tspan></text></svg>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="4841" viewBox="0 0 960 4841" role="img" aria-labelledby="diagram-title"><title id="diagram-title">曲率不同，稳定步长范围也不同</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="4759" viewBox="0 82 960 4759" role="img" aria-labelledby="diagram-title"><title id="diagram-title">曲率不同，稳定步长范围也不同</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m3252677499" d="M 0 0 L 0 3.5 " style="stroke: #688495; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-2d" d="M 2328 1681 L 488 1681 L 488 2153 L 2328 2153 L 2328 1681 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-32" d="M 2666 3572 Q 2666 3963 2419 4186 Q 2172 4409 1747 4409 Q 1447 4409 1140 4256 Q 834 4103 569 3819 L 569 4413 Q 806 4659 1107 4790 Q 1409 4922 1816 4922 Q 2472 4922 2872 4570 Q 3272 4219 3272 3619 Q 3272 3084 3026 2693 Q 2781 2303 2188 1894 Q 1581 1475 1376 1294 Q 1172 1113 1090 947 Q 1009 781 1009 544 L 3416 544 L 3416 0 L 372 0 L 372 241 Q 372 659 486 951 Q 600 1244 862 1520 Q 1125 1797 1681 2184 Q 2250 2584 2458 2886 Q 2666 3188 2666 3572 z " transform="scale(0.015625)"/>
@@ -53,7 +53,7 @@
   <clipPath id="pba9d025cf1">
    <rect x="685.622656" y="300.1625" width="210.2275" height="198.0625"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="4841" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">曲率不同，稳定步长范围也不同</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(56.868336 130.264641) scale(2.65000000)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="4841" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(56.868336 130.264641) scale(2.65000000)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 59.522656 233.3625 L 269.750156 233.3625 L 269.750156 35.3 L 59.522656 35.3 z " style="fill: #ffffff"/>
    </g>
@@ -230,15 +230,7 @@
       </g>
      </g>
     </g>
-    <g id="text_12">
-     <!-- 目标值 -->
-     <g style="fill: #1a2a3c" transform="translate(37.756875 156.83125) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-76ee"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(200 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_21">
     <path d="M 69.078452 44.302841 L 73.880359 61.944772 L 78.682266 78.677324 L 83.484173 94.500499 L 88.286081 109.414296 L 92.127607 120.690582 L 95.969132 131.384866 L 99.810658 141.497148 L 103.652184 151.027428 L 107.49371 159.975706 L 111.335236 168.341982 L 115.176761 176.126257 L 119.018287 183.32853 L 122.859813 189.948801 L 125.740957 194.532065 L 128.622102 198.787953 L 131.503246 202.716466 L 134.38439 206.317602 L 137.265535 209.591362 L 140.146679 212.537747 L 143.027824 215.156755 L 145.908968 217.448387 L 148.790112 219.412643 L 151.671257 221.049524 L 154.552401 222.359028 L 157.433545 223.341156 L 160.31469 223.995908 L 163.195834 224.323284 L 166.076978 224.323284 L 168.958123 223.995908 L 171.839267 223.341156 L 174.720412 222.359028 L 177.601556 221.049524 L 180.4827 219.412643 L 183.363845 217.448387 L 186.244989 215.156755 L 189.126133 212.537747 L 192.007278 209.591362 L 194.888422 206.317602 L 197.769566 202.716466 L 200.650711 198.787953 L 203.531855 194.532065 L 206.412999 189.948801 L 209.294144 185.03816 L 213.13567 177.981388 L 216.977195 170.342614 L 220.818721 162.121838 L 224.660247 153.31906 L 228.501773 143.93428 L 232.343299 133.967499 L 236.184824 123.418716 L 240.02635 112.28793 L 243.867876 100.575143 L 248.669783 85.11572 L 253.471691 68.746918 L 258.273598 51.468739 L 260.194361 44.302841 L 260.194361 44.302841 " clip-path="url(#pe538127e17)" style="fill: none; stroke: #1670a0; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
@@ -490,15 +482,7 @@
       </g>
      </g>
     </g>
-    <g id="text_28">
-     <!-- 目标值 -->
-     <g style="fill: #1a2a3c" transform="translate(343.77 156.83125) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-76ee"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(200 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_43">
     <path d="M 382.128452 44.302841 L 386.930359 61.944772 L 391.732266 78.677324 L 396.534173 94.500499 L 401.336081 109.414296 L 405.177607 120.690582 L 409.019132 131.384866 L 412.860658 141.497148 L 416.702184 151.027428 L 420.54371 159.975706 L 424.385236 168.341982 L 428.226761 176.126257 L 432.068287 183.32853 L 435.909813 189.948801 L 438.790957 194.532065 L 441.672102 198.787953 L 444.553246 202.716466 L 447.43439 206.317602 L 450.315535 209.591362 L 453.196679 212.537747 L 456.077824 215.156755 L 458.958968 217.448387 L 461.840112 219.412643 L 464.721257 221.049524 L 467.602401 222.359028 L 470.483545 223.341156 L 473.36469 223.995908 L 476.245834 224.323284 L 479.126978 224.323284 L 482.008123 223.995908 L 484.889267 223.341156 L 487.770412 222.359028 L 490.651556 221.049524 L 493.5327 219.412643 L 496.413845 217.448387 L 499.294989 215.156755 L 502.176133 212.537747 L 505.057278 209.591362 L 507.938422 206.317602 L 510.819566 202.716466 L 513.700711 198.787953 L 516.581855 194.532065 L 519.462999 189.948801 L 522.344144 185.03816 L 526.18567 177.981388 L 530.027195 170.342614 L 533.868721 162.121838 L 537.710247 153.31906 L 541.551773 143.93428 L 545.393299 133.967499 L 549.234824 123.418716 L 553.07635 112.28793 L 556.917876 100.575143 L 561.719783 85.11572 L 566.521691 68.746918 L 571.323598 51.468739 L 573.244361 44.302841 L 573.244361 44.302841 " clip-path="url(#p6d818db021)" style="fill: none; stroke: #24999a; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
@@ -752,15 +736,7 @@
       </g>
      </g>
     </g>
-    <g id="text_44">
-     <!-- 目标值 -->
-     <g style="fill: #1a2a3c" transform="translate(656.82 156.83125) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-76ee"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(200 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_65">
     <path d="M 695.178452 44.302841 L 699.980359 61.944772 L 704.782266 78.677324 L 709.584173 94.500499 L 714.386081 109.414296 L 718.227607 120.690582 L 722.069132 131.384866 L 725.910658 141.497148 L 729.752184 151.027428 L 733.59371 159.975706 L 737.435236 168.341982 L 741.276761 176.126257 L 745.118287 183.32853 L 748.959813 189.948801 L 751.840957 194.532065 L 754.722102 198.787953 L 757.603246 202.716466 L 760.48439 206.317602 L 763.365535 209.591362 L 766.246679 212.537747 L 769.127824 215.156755 L 772.008968 217.448387 L 774.890112 219.412643 L 777.771257 221.049524 L 780.652401 222.359028 L 783.533545 223.341156 L 786.41469 223.995908 L 789.295834 224.323284 L 792.176978 224.323284 L 795.058123 223.995908 L 797.939267 223.341156 L 800.820412 222.359028 L 803.701556 221.049524 L 806.5827 219.412643 L 809.463845 217.448387 L 812.344989 215.156755 L 815.226133 212.537747 L 818.107278 209.591362 L 820.988422 206.317602 L 823.869566 202.716466 L 826.750711 198.787953 L 829.631855 194.532065 L 832.512999 189.948801 L 835.394144 185.03816 L 839.23567 177.981388 L 843.077195 170.342614 L 846.918721 162.121838 L 850.760247 153.31906 L 854.601773 143.93428 L 858.443299 133.967499 L 862.284824 123.418716 L 866.12635 112.28793 L 869.967876 100.575143 L 874.769783 85.11572 L 879.571691 68.746918 L 884.373598 51.468739 L 886.294361 44.302841 L 886.294361 44.302841 " clip-path="url(#pa044abcd9c)" style="fill: none; stroke: #c96c3a; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
@@ -1542,4 +1518,4 @@
     <path d="M 685.622656 498.225 L 895.850156 498.225 " style="fill: none; stroke: #8e9aac; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
   </g>
- </g></svg>
+ </g><text x="217.603374" y="164.809641" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="目标值" id="text_12" data-axis-label="matplotlib.axis_2">目标值</text><text x="217.603374" y="965.64662" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="目标值" id="text_28" data-axis-label="matplotlib.axis_4">目标值</text><text x="217.603374" y="1794.483598" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="目标值" id="text_44" data-axis-label="matplotlib.axis_6">目标值</text></svg>

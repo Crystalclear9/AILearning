@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3248" viewBox="0 0 960 3248" role="img" aria-labelledby="diagram-title"><title id="diagram-title">基率迁移改变概率但保留严格排序</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3187.884285" viewBox="0 60.115715 960 3187.884285" role="img" aria-labelledby="diagram-title"><rect x="0" y="60.115715" width="960" height="3187.884285" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">基率迁移改变概率但保留严格排序</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m4419197e48" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
       <path id="m1ff2ba5435" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
       <path id="m2a5591ab77" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z " style="stroke: #419e95"/>
@@ -12,7 +12,7 @@
   <clipPath id="pa48ff1a97e">
    <rect x="784.152885" y="37.388125" width="250.384615" height="299.376"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="3248" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">基率迁移改变概率但保留严格排序</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(69.59933 113.25259) scale(2.43918244)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="3248" fill="#ffffff"/><g transform="translate(69.59933 113.25259) scale(2.43918244)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 58.0375 336.764125 L 308.422115 336.764125 L 308.422115 37.388125 L 58.0375 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -130,10 +130,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="51.0375" y="70.999125" transform="rotate(-0 51.0375 70.999125)">1.0</text>
      </g>
     </g>
-    <g id="text_11">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="20.4425" y="187.076125" transform="rotate(-90 20.4425 187.076125)">目标后验 q</text>
     </g>
-   </g>
    <g id="line2d_16">
     <path d="M 58.0375 336.764125 L 62.627885 323.652767 L 67.218269 311.22494 L 71.808654 299.42855 L 76.399038 288.216666 L 80.989423 277.546894 L 85.997115 266.480408 L 91.004808 255.968401 L 96.0125 245.970219 L 101.020192 236.449087 L 106.445192 226.634265 L 111.870192 217.301834 L 117.295192 208.417084 L 122.720192 199.948557 L 128.145192 191.867674 L 133.9875 183.568909 L 139.829808 175.660018 L 145.672115 168.114158 L 151.931731 160.404445 L 158.191346 153.056125 L 164.450962 146.044369 L 171.127885 138.9107 L 177.804808 132.109313 L 184.481731 125.617519 L 191.575962 119.036125 L 198.670192 112.75835 L 206.181731 106.419436 L 213.693269 100.375737 L 221.204808 94.607098 L 229.133654 88.796125 L 237.479808 82.966727 L 245.825962 77.411654 L 254.589423 71.853393 L 263.352885 66.556842 L 266.691346 64.604125 L 266.691346 64.604125 " clip-path="url(#p5eda4d237b)" style="fill: none; stroke: #2182a1; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -469,4 +466,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="214.163381" y="98.449048" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="目标后验 q" id="text_11" data-axis-label="matplotlib.axis_2">目标后验 q</text></svg>

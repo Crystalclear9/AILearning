@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="993.2792" viewBox="0 0 1440 993.2792" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">梯度惩罚的软约束最优点与 Wasserstein 真值对照</title><rect width="1440" height="993.2792" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">梯度惩罚的软约束最优点与 Wasserstein 真值对照</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="851.2792" viewBox="26 60 1132 717" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden">
-<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="60" width="1132" height="717" fill="#ffffff"/><title id="title">WGAN梯度惩罚的软约束偏差</title><desc id="desc">真实点0，生成点2，线性critic f(x)=wx。有限惩罚lambda最优w=-1-1/lambda，Lipschitz常数超过1。lambda10时原始分差2.2，减惩罚后2.1，均非真实W1距离2。</desc>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1132" height="717" viewBox="26 60 1132 717" role="img" aria-labelledby="title desc">
+<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="60" width="1132" height="717" fill="#ffffff"/><title id="title">梯度惩罚的软约束最优点与 Wasserstein 真值对照</title><desc id="desc">真实点0，生成点2，线性critic f(x)=wx。有限惩罚lambda最优w=-1-1/lambda，Lipschitz常数超过1。lambda10时原始分差2.2，减惩罚后2.1，均非真实W1距离2。</desc>
 <rect width="1200" height="800" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1f3449">
 <text x="44" y="100" font-size="26" fill="#62819a" text-anchor="start" font-weight="400">真实分布在 0，生成分布在 2；线性 critic 为 f(x) = wx，真实 W1 = 2</text>
@@ -57,4 +57,4 @@
 <rect x="44" y="718" width="1112" height="57" rx="12" fill="url(#book-wash-eef4f9)" stroke="none"/>
 <text x="65" y="755" font-size="26" fill="#1f3449" text-anchor="start" font-weight="400">有限 λ 允许用少量惩罚换取更大的 critic 分差；增加采样点不能消除这种偏差。</text>
 </g><text font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" x="100" y="260" fill="#62819a" font-size="24">目标 J</text>
-</svg></svg>
+</svg>

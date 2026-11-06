@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1779" viewBox="0 0 960 1779" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">四单位六种合法处理分配与对应均值差的双侧尾部</title><desc id="artwork-desc">精确随机化：结果固定，只重排处理身份</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1732" viewBox="0 47 960 1732" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">四单位六种合法处理分配与对应均值差的双侧尾部</title><desc id="artwork-desc">精确随机化：结果固定，只重排处理身份</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m4c5f950071" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="m29c954edc8" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
       <clipPath id="p75e516b205">
@@ -8,7 +8,7 @@
   <clipPath id="p45b7a2727f">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1779" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">四单位六种合法处理分配与对应均值差的双侧尾部</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-2.92 30.244829) scale(0.971519)"><g id="text_58">
+ </defs><rect width="960" height="1779" fill="#ffffff"/><g transform="translate(-2.92 30.244829) scale(0.971519)"><g id="text_58">
    <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #47586b" x="51.84" y="81.648" transform="rotate(-0 51.84 81.648)">四个单位结果为 1、2、4、5；等概率从四人中选择两人处理</text>
   </g>
   </g><rect x="35" y="142.32" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="167.32" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(49.588148 -13.132696) scale(1.651081)"><g id="axes_1">
@@ -360,10 +360,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="672.68" y="221.83375" transform="rotate(-0 672.68 221.83375)">3</text>
      </g>
     </g>
-    <g id="text_49">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="634.829687" y="330.48" transform="rotate(-90 634.829687 330.48)">处理均值 − 对照均值</text>
     </g>
-   </g>
    <g id="patch_6">
     <path d="M 698.007273 330.48 L 748.565266 330.48 L 748.565266 447.12 L 698.007273 447.12 z " clip-path="url(#p45b7a2727f)" style="fill: #ba602b"/>
    </g>
@@ -453,4 +450,4 @@
     <rect x="480.486621" y="-6.295313" width="10.243311" height="1.4375"/>
    </g>
   </g>
- </g></svg>
+ </g><text x="174.792699" y="1316.583891" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="处理均值 − 对照均值" id="text_49" data-axis-label="matplotlib.axis_4"><tspan x="174.792699" dy="0">处理均值 −</tspan><tspan x="174.792699" dy="30.68">对照均值</tspan></text></svg>

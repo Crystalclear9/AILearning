@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2888" viewBox="0 0 960 2888" role="img" aria-labelledby="diagram-title"><title id="diagram-title">精确HMC在四分之一周期、半周期和整周期的不同位置更新</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2759" viewBox="0 129 960 2759" role="img" aria-labelledby="diagram-title"><title id="diagram-title">精确HMC在四分之一周期、半周期和整周期的不同位置更新</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m9a58197561" d="M 0 0 L 0 3.5 " style="stroke: #527383; stroke-width: 0.8"/>
       <path id="ma9747c2c76" d="M 0 0 L -3.5 0 " style="stroke: #527383; stroke-width: 0.8"/>
       <path id="md828a1f9fc" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z " style="stroke: #217292"/>
@@ -17,7 +17,7 @@
   <clipPath id="p410b726486">
    <rect x="753.933913" y="546.367059" width="490.226087" height="267.952941"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2888" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">精确HMC在四分之一周期、半周期和整周期的不同</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">位置更新</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-184.387014 69.690027) scale(1.50758977)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2888" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-184.387014 69.690027) scale(1.50758977)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 227.776573 398.992941 L 495.729514 398.992941 L 495.729514 131.04 L 227.776573 131.04 z " style="fill: #ffffff"/>
    </g>
@@ -105,10 +105,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527383" x="220.776573" y="162.162537" transform="rotate(-0 220.776573 162.162537)">2</text>
      </g>
     </g>
-    <g id="text_8">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1c2e40" x="181.591573" y="265.016471" transform="rotate(-90 181.591573 265.016471)">下一位置 q′</text>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p09c447825d)">
      <use xlink:href="#md828a1f9fc" x="250.105985" y="376.663529" style="fill: #217292; stroke: #217292"/>
@@ -256,10 +253,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527383" x="858.070486" y="162.162537" transform="rotate(-0 858.070486 162.162537)">2</text>
      </g>
     </g>
-    <g id="text_17">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1c2e40" x="818.885486" y="265.016471" transform="rotate(-90 818.885486 265.016471)">下一位置 q′</text>
     </g>
-   </g>
    <g id="PathCollection_2">
     <g clip-path="url(#p826455bf9e)">
      <use xlink:href="#md828a1f9fc" x="887.399898" y="153.369412" style="fill: #217292; stroke: #217292"/>
@@ -402,10 +396,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527383" x="220.776573" y="577.489596" transform="rotate(-0 220.776573 577.489596)">2</text>
      </g>
     </g>
-    <g id="text_26">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1c2e40" x="181.591573" y="680.343529" transform="rotate(-90 181.591573 680.343529)">下一位置 q′</text>
     </g>
-   </g>
    <g id="PathCollection_3">
     <g clip-path="url(#p4cb748aa23)">
      <use xlink:href="#md828a1f9fc" x="250.105985" y="791.990588" style="fill: #217292; stroke: #217292"/>
@@ -600,10 +591,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527383" x="746.933913" y="567.339863" transform="rotate(-0 746.933913 567.339863)">1</text>
      </g>
     </g>
-    <g id="text_39">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1c2e40" x="707.748913" y="680.343529" transform="rotate(-90 707.748913 680.343529)">位置 q</text>
     </g>
-   </g>
    <g id="line2d_57">
     <path d="M 776.216917 558.546738 L 820.782925 743.600137 L 865.348933 720.620685 L 909.914941 627.058432 L 954.480949 639.441452 L 999.046957 646.738232 L 1043.612964 586.965758 L 1088.178972 802.140321 L 1132.74498 647.148412 L 1177.310988 624.419075 L 1221.876996 697.278758 " clip-path="url(#p410b726486)" style="fill: none; stroke: #217292; stroke-width: 3; stroke-linecap: square"/>
     <g clip-path="url(#p410b726486)">
@@ -699,4 +687,4 @@
     </g>
    </g>
   </g>
-  </g></svg>
+  </g><text x="162.006617" y="194.24459" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="下一位置 q′" id="text_8" data-axis-label="matplotlib.axis_2">下一位置 q′</text><text x="162.006614" y="866.347967" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="下一位置 q′" id="text_17" data-axis-label="matplotlib.axis_4">下一位置 q′</text><text x="162.006617" y="1538.319841" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="下一位置 q′" id="text_26" data-axis-label="matplotlib.axis_6">下一位置 q′</text><text x="94.006614" y="2545.095179" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="位置 q" id="text_39" data-axis-label="matplotlib.axis_8">位置 q</text></svg>

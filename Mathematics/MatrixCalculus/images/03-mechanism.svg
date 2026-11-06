@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2605" viewBox="0 0 960 2605" role="img" aria-labelledby="diagram-title"><title id="diagram-title">Softmax 的公共平移方向是零曲率方向</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2529.530692" viewBox="0 75.469308 960 2529.530692" role="img" aria-labelledby="diagram-title"><rect x="0" y="75.469308" width="960" height="2529.530692" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">Softmax 的公共平移方向是零曲率方向</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mc6ec14ee78" d="M 0 0 L 0 3.5 " style="stroke: #608295; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-65" d="M 3363 1572 L 944 1572 Q 959 1019 1246 717 Q 1534 416 2050 416 Q 2631 416 3116 788 L 3116 241 Q 2659 -81 1906 -81 Q 1156 -81 736 394 Q 316 869 316 1713 Q 316 2506 777 3022 Q 1238 3538 1922 3538 Q 2600 3538 2981 3102 Q 3363 2666 3363 1881 L 3363 1572 z M 2750 2063 Q 2747 2531 2528 2787 Q 2309 3044 1913 3044 Q 1547 3044 1280 2772 Q 1013 2500 944 2063 L 2750 2063 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-78" d="M 3163 3456 L 2006 1716 L 3147 0 L 2434 0 L 1775 1100 Q 1722 1188 1625 1369 L 1613 1369 Q 1609 1350 1456 1100 L 784 0 L 81 0 L 1256 1697 L 134 3456 L 847 3456 L 1494 2300 Q 1553 2194 1638 2025 L 1650 2025 L 2491 3456 L 3163 3456 z " transform="scale(0.015625)"/>
@@ -90,7 +90,7 @@
   <clipPath id="p29a49676c8">
    <rect x="566.206127" y="390.606635" width="439.59144" height="256.209916"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2605" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">Softmax 的公共平移方向是零曲率方向</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(37.90813 103.79975) scale(1.67409814)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2605" fill="#ffffff"/><g transform="translate(37.90813 103.79975) scale(1.67409814)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 65.467344 304.396791 L 505.058783 304.396791 L 505.058783 48.186875 L 65.467344 48.186875 z " style="fill: #ffffff"/>
    </g>
@@ -277,18 +277,7 @@
       </g>
      </g>
     </g>
-    <g id="text_11">
-     <!-- 未归一化质量 -->
-     <g style="fill: #21364c" transform="translate(28.78875 230.291833) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-672a"/>
-      <use xlink:href="#MicrosoftYaHei-5f52" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e00" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5316" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8d28" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cf" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 85.448773 304.396791 L 227.252463 304.396791 L 227.252463 110.938247 L 85.448773 110.938247 z " clip-path="url(#p5a7217211f)" style="fill: #1f6f94"/>
    </g>
@@ -624,17 +613,7 @@
       </g>
      </g>
     </g>
-    <g id="text_32">
-     <!-- 第一类概率 -->
-     <g style="fill: #21364c" transform="translate(529.527533 221.291833) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-7b2c"/>
-      <use xlink:href="#MicrosoftYaHei-4e00" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7c7b" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6982" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(400 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p5071c218b6)">
      <use xlink:href="#m8182a29060" x="786.001847" y="178.621014" style="fill: #1f6f94; stroke: #1f6f94"/>
@@ -884,18 +863,7 @@
       </g>
      </g>
     </g>
-    <g id="text_45">
-     <!-- 未归一化质量 -->
-     <g style="fill: #21364c" transform="translate(28.78875 572.711593) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-672a"/>
-      <use xlink:href="#MicrosoftYaHei-5f52" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e00" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5316" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8d28" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cf" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_12">
     <path d="M 85.448773 646.816551 L 227.252463 646.816551 L 227.252463 453.358007 L 85.448773 453.358007 z " clip-path="url(#pb95307191f)" style="fill: #1f6f94"/>
    </g>
@@ -1231,17 +1199,7 @@
       </g>
      </g>
     </g>
-    <g id="text_66">
-     <!-- 第一类概率 -->
-     <g style="fill: #21364c" transform="translate(529.527533 563.711593) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-7b2c"/>
-      <use xlink:href="#MicrosoftYaHei-4e00" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7c7b" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6982" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(400 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_2">
     <g clip-path="url(#p29a49676c8)">
      <use xlink:href="#m040608e59e" x="786.001847" y="521.040774" style="fill: #c86e3a; stroke: #c86e3a"/>
@@ -1320,4 +1278,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="150.506889" y="111.469308" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.133767" fill="#25364a" text-anchor="start" aria-label="未归一化质量" id="text_11" data-axis-label="matplotlib.axis_2">未归一化质量</text><text x="150.506884" y="686.152748" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.133767" fill="#25364a" text-anchor="start" aria-label="第一类概率" id="text_32" data-axis-label="matplotlib.axis_4">第一类概率</text><text x="150.506889" y="1329.352641" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.133767" fill="#25364a" text-anchor="start" aria-label="未归一化质量" id="text_45" data-axis-label="matplotlib.axis_6">未归一化质量</text><text x="150.506884" y="1937.036081" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.133767" fill="#25364a" text-anchor="start" aria-label="第一类概率" id="text_66" data-axis-label="matplotlib.axis_8">第一类概率</text></svg>

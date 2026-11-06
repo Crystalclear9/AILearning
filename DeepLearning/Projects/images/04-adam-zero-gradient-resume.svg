@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1578" viewBox="0 0 960 1578" role="img" aria-labelledby="diagram-title"><title id="diagram-title">相同权重在完整恢复Adam状态和重建优化器后的不同更新</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1449" viewBox="0 129 960 1449" role="img" aria-labelledby="diagram-title"><title id="diagram-title">相同权重在完整恢复Adam状态和重建优化器后的不同更新</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mfef3a1398d" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="m7b8c8bb8d7" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="m62010b9854" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z " style="stroke: #2372a9"/>
@@ -9,7 +9,7 @@
   <clipPath id="p795fea900f">
    <rect x="591.12476" y="10.8" width="421.67476" height="302.128739"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1578" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">相同权重在完整恢复Adam状态和重建优化器后的</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">不同更新</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(61.567517 196.584637) scale(1.66535024)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1578" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(61.567517 196.584637) scale(1.66535024)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 79.807344 312.928739 L 501.482104 312.928739 L 501.482104 10.8 L 79.807344 10.8 z " style="fill: #ffffff"/>
    </g>
@@ -131,10 +131,7 @@
       <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end" x="72.807344" y="31.727499" transform="rotate(-0 72.807344 31.727499)">1.00</text>
      </g>
     </g>
-    <g id="text_12">
-     <text style="font-size: 21px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #20354a" x="27.586875" y="161.864369" transform="rotate(-90 27.586875 161.864369)">参数值</text>
     </g>
-   </g>
    <g id="line2d_15">
     <path d="M 98.974378 24.533124 L 137.308447 65.927028 L 175.642516 103.37495 L 213.976586 137.251432 L 252.310655 167.89565 L 290.644724 195.614728 L 328.978793 220.686755 L 367.312862 243.363507 L 405.646931 263.872926 L 443.981 282.421364 L 482.315069 299.195614 " clip-path="url(#p04a614585a)" style="fill: none; stroke: #2372a9; stroke-width: 3; stroke-linecap: square"/>
     <g clip-path="url(#p04a614585a)">
@@ -357,4 +354,4 @@
     <path d="M 591.12476 312.928739 L 1012.79952 312.928739 " style="fill: none; stroke: #8996a8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
   </g>
- </g></svg>
+ </g><text x="197.474696" y="191.57042" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="参数值" id="text_12" data-axis-label="matplotlib.axis_2">参数值</text></svg>

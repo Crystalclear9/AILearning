@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1568" viewBox="0 0 960 1568" role="img" aria-labelledby="diagram-title"><title id="diagram-title">注意力输出对分数的局部敏感性</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1486" viewBox="0 82 960 1486" role="img" aria-labelledby="diagram-title"><title id="diagram-title">注意力输出对分数的局部敏感性</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="C0_0_881cd0813f" d="M 0 4.031129 C 1.069068 4.031129 2.094493 3.606384 2.850439 2.850439 C 3.606384 2.094493 4.031129 1.069068 4.031129 -0 C 4.031129 -1.069068 3.606384 -2.094493 2.850439 -2.850439 C 2.094493 -3.606384 1.069068 -4.031129 0 -4.031129 C -1.069068 -4.031129 -2.094493 -3.606384 -2.850439 -2.850439 C -3.606384 -2.094493 -4.031129 -1.069068 -4.031129 0 C -4.031129 1.069068 -3.606384 2.094493 -2.850439 2.850439 C -2.094493 3.606384 -1.069068 4.031129 0 4.031129 z "/>
     <path id="m2beab9ee89" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="me8f9f82efd" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
@@ -10,7 +10,7 @@
   <clipPath id="pb6ba4e31b1">
    <rect x="507.55271" y="46.656" width="409.72729" height="252.72"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1568" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">注意力输出对分数的局部敏感性</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(1.927747 140.354656) scale(1.75700441)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1568" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(1.927747 140.354656) scale(1.75700441)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 99.225066 299.376 L 346.989772 299.376 L 346.989772 46.656 L 99.225066 46.656 z " style="fill: #ffffff"/>
    </g>
@@ -109,10 +109,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end" x="92.225066" y="83.182452" transform="rotate(-0 92.225066 83.182452)">2</text>
      </g>
     </g>
-    <g id="text_8">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1f3348" x="74.030066" y="173.016" transform="rotate(-90 74.030066 173.016)">输出第二坐标</text>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 99.225066 299.376 L 99.225066 46.656 " style="fill: none; stroke: #8490a3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -381,10 +378,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end" x="500.55271" y="58.463803" transform="rotate(-0 500.55271 58.463803)">0.6</text>
      </g>
     </g>
-    <g id="text_30">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1f3348" x="455.686304" y="173.016" transform="rotate(-90 455.686304 173.016)">输出第二坐标的变化</text>
     </g>
-   </g>
    <g id="line2d_37">
     <path d="M 526.176678 131.00094 L 542.938249 132.386427 L 557.837423 133.83036 L 571.805399 135.392974 L 584.842176 137.05826 L 597.878954 138.947958 L 609.984533 140.926414 L 621.158913 142.963672 L 632.333294 145.222432 L 643.507675 147.72184 L 653.750857 150.241111 L 663.994039 152.9943 L 673.306023 155.7129 L 682.618007 158.648351 L 691.929991 161.811193 L 701.241975 165.211213 L 710.553958 168.857173 L 719.865942 172.756514 L 729.177926 176.915041 L 738.48991 181.336597 L 747.801894 186.022737 L 757.113878 190.972409 L 766.425862 196.181665 L 775.737845 201.643406 L 785.049829 207.347195 L 795.293012 213.88423 L 806.467392 221.30268 L 818.572971 229.635232 L 831.609749 238.890046 L 848.371319 251.090824 L 896.793636 286.561328 L 898.656032 287.888727 L 898.656032 287.888727 " clip-path="url(#pb6ba4e31b1)" style="fill: none; stroke: #217ca4; stroke-width: 2.7; stroke-linecap: square"/>
    </g>
@@ -470,4 +464,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="179.266626" y="149.329454" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="29.869075" fill="#25364a" text-anchor="start" aria-label="输出第二坐标" id="text_8" data-axis-label="matplotlib.axis_2">输出第二坐标</text><text x="179.266625" y="854.962497" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="29.869075" fill="#25364a" text-anchor="start" aria-label="输出第二坐标的变化" id="text_30" data-axis-label="matplotlib.axis_4">输出第二坐标的变化</text></svg>

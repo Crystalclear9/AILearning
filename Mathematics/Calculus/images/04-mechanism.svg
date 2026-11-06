@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2557" viewBox="0 0 960 2557" role="img" aria-labelledby="diagram-title"><title id="diagram-title">不等长微批次必须按有效计数加权</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2485.432352" viewBox="0 71.567648 960 2485.432352" role="img" aria-labelledby="diagram-title"><rect x="0" y="71.567648" width="960" height="2485.432352" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">不等长微批次必须按有效计数加权</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="ma35e146fd9" d="M 0 0 L 0 3.5 " style="stroke: #608295; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-41" d="M 4428 0 L 3738 0 L 3244 1325 L 1228 1325 L 763 0 L 72 0 L 1916 4841 L 2584 4841 L 4428 0 z M 3050 1872 L 2319 3884 Q 2284 3981 2244 4222 L 2228 4222 Q 2194 4003 2150 3884 L 1425 1872 L 3050 1872 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-ff1a" d="M 1606 3531 Q 1772 3531 1890 3415 Q 2009 3300 2009 3138 Q 2009 2975 1893 2858 Q 1778 2741 1606 2741 Q 1434 2741 1318 2858 Q 1203 2975 1203 3138 Q 1203 3300 1322 3415 Q 1441 3531 1606 3531 z M 1606 716 Q 1772 716 1890 600 Q 2009 484 2009 319 Q 2009 150 1890 36 Q 1772 -78 1606 -78 Q 1441 -78 1322 36 Q 1203 150 1203 319 Q 1203 484 1322 600 Q 1441 716 1606 716 z " transform="scale(0.015625)"/>
@@ -76,7 +76,7 @@
   <clipPath id="pb7cf780c85">
    <rect x="571.507104" y="372.426635" width="444.892416" height="261.253354"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2557" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">不等长微批次必须按有效计数加权</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(37.715290 99.715290) scale(1.68480922)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2557" fill="#ffffff"/><g transform="translate(37.715290 99.715290) scale(1.68480922)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 65.467344 309.440229 L 510.35976 309.440229 L 510.35976 48.186875 L 65.467344 48.186875 z " style="fill: #ffffff"/>
    </g>
@@ -269,20 +269,7 @@
       </g>
      </g>
     </g>
-    <g id="text_12">
-     <!-- 该样本的实际权重 -->
-     <g style="fill: #21364c" transform="translate(28.78875 250.813552) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-8be5"/>
-      <use xlink:href="#MicrosoftYaHei-6837" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-672c" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5b9e" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-9645" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6743" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cd" transform="translate(700 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 85.689726 309.440229 L 157.71465 309.440229 L 157.71465 117.342175 L 85.689726 117.342175 z " clip-path="url(#pbe69238021)" style="fill: #1f6f94"/>
    </g>
@@ -532,19 +519,7 @@
       </g>
      </g>
     </g>
-    <g id="text_28">
-     <!-- 权重 × 梯度 -->
-     <g style="fill: #21364c" transform="translate(534.82851 226.815896) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-6743"/>
-      <use xlink:href="#MicrosoftYaHei-91cd" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-d7" transform="translate(229.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(303.759766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-68af" transform="translate(333.349609 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(433.349609 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_10">
     <path d="M 591.729486 309.440229 L 663.75441 309.440229 L 663.75441 212.679727 L 591.729486 212.679727 z " clip-path="url(#p3ed2f089a0)" style="fill: #1f6f94"/>
    </g>
@@ -822,20 +797,7 @@
       </g>
      </g>
     </g>
-    <g id="text_46">
-     <!-- 该样本的实际权重 -->
-     <g style="fill: #21364c" transform="translate(28.78875 575.053312) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-8be5"/>
-      <use xlink:href="#MicrosoftYaHei-6837" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-672c" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5b9e" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-9645" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6743" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cd" transform="translate(700 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_17">
     <path d="M 85.689726 633.679989 L 157.71465 633.679989 L 157.71465 537.630962 L 85.689726 537.630962 z " clip-path="url(#p659dbe5f29)" style="fill: #1f6f94"/>
    </g>
@@ -1086,19 +1048,7 @@
       </g>
      </g>
     </g>
-    <g id="text_62">
-     <!-- 权重 × 梯度 -->
-     <g style="fill: #21364c" transform="translate(534.82851 551.055656) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-6743"/>
-      <use xlink:href="#MicrosoftYaHei-91cd" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-d7" transform="translate(229.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(303.759766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-68af" transform="translate(333.349609 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(433.349609 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_24">
     <path d="M 591.729486 633.679989 L 663.75441 633.679989 L 663.75441 585.299738 L 591.729486 585.299738 z " clip-path="url(#pb7cf780c85)" style="fill: #1f6f94"/>
    </g>
@@ -1180,4 +1130,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="151.015275" y="107.900981" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.326566" fill="#25364a" text-anchor="start" aria-label="该样本的实际权重" id="text_12" data-axis-label="matplotlib.axis_2">该样本的实际权重</text><text x="151.015277" y="688.164226" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.326566" fill="#25364a" text-anchor="start" aria-label="权重 × 梯度" id="text_28" data-axis-label="matplotlib.axis_4">权重 × 梯度</text><text x="151.015275" y="1303.440077" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.326566" fill="#25364a" text-anchor="start" aria-label="该样本的实际权重" id="text_46" data-axis-label="matplotlib.axis_6">该样本的实际权重</text><text x="151.015277" y="1915.152696" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="30.326566" fill="#25364a" text-anchor="start" aria-label="权重 × 梯度" id="text_62" data-axis-label="matplotlib.axis_8">权重 × 梯度</text></svg>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3568" viewBox="0 0 960 3568" role="img" aria-labelledby="diagram-title"><title id="diagram-title">固定九个参考点加入一个远点后的PCA方向切换与精确特征值交叉</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3453.859859" viewBox="0 114.140141 960 3453.859859" role="img" aria-labelledby="diagram-title"><rect x="0" y="114.140141" width="960" height="3453.859859" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">固定九个参考点加入一个远点后的PCA方向切换与精确特征值交叉</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="me7f287d507" d="M 0 0 L 0 3.5 " style="stroke: #608295; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-2212" d="M 3972 1772 L 788 1772 L 788 2250 L 3972 2250 L 3972 1772 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-34" d="M 2906 4841 L 2906 1644 L 3631 1644 L 3631 1138 L 2906 1138 L 2906 0 L 2313 0 L 2313 1138 L 53 1138 L 53 1616 Q 656 2294 1265 3178 Q 1875 4063 2272 4841 L 2906 4841 z M 741 1644 L 2313 1644 L 2313 3950 Q 1988 3366 1616 2817 Q 1244 2269 741 1644 z " transform="scale(0.015625)"/>
@@ -74,7 +74,7 @@
   <clipPath id="p8df950fbb8">
    <rect x="782.655305" y="48.186875" width="305.744215" height="368.229676"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="3568" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">固定九个参考点加入一个远点后的PCA方向切换与</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">精确特征值交叉</text></g><path d="M 44 143.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(32.78605 145.68878) scale(2.34748627)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="3568" fill="#ffffff"/><g transform="translate(32.78605 145.68878) scale(2.34748627)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 61.855625 416.416551 L 367.59984 416.416551 L 367.59984 48.186875 L 61.855625 48.186875 z " style="fill: #ffffff"/>
    </g>
@@ -272,17 +272,7 @@
       </g>
      </g>
     </g>
-    <g id="text_14">
-     <!-- 原第二坐标 -->
-     <g style="fill: #21364c" transform="translate(28.78875 277.301713) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-539f"/>
-      <use xlink:href="#MicrosoftYaHei-7b2c" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e8c" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5750" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(400 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#pa94e2f4685)">
      <use xlink:href="#mdd7d07da76" x="75.753089" y="371.631861" style="fill: #1f6f94; stroke: #1f6f94"/>
@@ -546,19 +536,7 @@
       </g>
      </g>
     </g>
-    <g id="text_30">
-     <!-- 中心化第二坐标 -->
-     <g style="fill: #21364c" transform="translate(389.18859 295.301713) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-4e2d"/>
-      <use xlink:href="#MicrosoftYaHei-5fc3" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5316" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7b2c" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e8c" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5750" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(600 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_3">
     <g clip-path="url(#p9a0575e43c)">
      <use xlink:href="#mdd7d07da76" x="436.152929" y="401.488321" style="fill: #1f6f94; stroke: #1f6f94"/>
@@ -814,17 +792,7 @@
       </g>
      </g>
     </g>
-    <g id="text_45">
-     <!-- 中心化方差 -->
-     <g style="fill: #21364c" transform="translate(749.58843 277.301713) rotate(-90) scale(0.18 -0.18)">
-      <use xlink:href="#MicrosoftYaHei-4e2d"/>
-      <use xlink:href="#MicrosoftYaHei-5fc3" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5316" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-65b9" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(400 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_5">
     <g clip-path="url(#p8df950fbb8)">
      <use xlink:href="#C0_0_4461f51df1" x="938.393171" y="328.041429" style="fill: #229495; stroke: #229495"/>
@@ -934,4 +902,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="180.99128" y="152.806807" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="原第二坐标" id="text_14" data-axis-label="matplotlib.axis_2">原第二坐标</text><text x="112.991287" y="1809.131442" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="中心化第二坐标" id="text_30" data-axis-label="matplotlib.axis_4"><tspan x="112.991287" dy="0">中心化</tspan><tspan x="112.991287" dy="30.68">第二坐</tspan><tspan x="112.991287" dy="30.68">标</tspan></text><text x="112.991283" y="2963.389022" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="中心化方差" id="text_45" data-axis-label="matplotlib.axis_6"><tspan x="112.991283" dy="0">中心化</tspan><tspan x="112.991283" dy="30.68">方差</tspan></text></svg>

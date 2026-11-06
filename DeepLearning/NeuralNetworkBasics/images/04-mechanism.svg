@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1448" viewBox="0 0 960 1448" role="img" aria-labelledby="diagram-title"><title id="diagram-title">多任务梯度可能同向也可能相互冲突</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1366" viewBox="0 82 960 1366" role="img" aria-labelledby="diagram-title"><title id="diagram-title">多任务梯度可能同向也可能相互冲突</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="me85a683554" d="M 0 3.708099 C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022 C 3.317391 1.926654 3.708099 0.983399 3.708099 0 C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022 C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099 C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022 C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0 C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022 C -1.926654 3.317391 -0.983399 3.708099 0 3.708099 z " style="stroke: #1f3348"/>
     <path id="mcdb93a34c2" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="mdbb8a7253d" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
@@ -12,7 +12,7 @@
   <clipPath id="p2e6d5a39e4">
    <rect x="606.387477" y="29.02875" width="255.853714" height="244.224"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1448" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">多任务梯度可能同向也可能相互冲突</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(45.518059 83.467838) scale(1.97251046)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1448" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(45.518059 83.467838) scale(1.97251046)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 74.095781 238.129005 L 430.970675 238.129005 L 430.970675 64.152495 L 74.095781 64.152495 z " style="fill: #ffffff"/>
    </g>
@@ -137,10 +137,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end" x="67.095781" y="70.947182" transform="rotate(-0 67.095781 70.947182)">0.5</text>
      </g>
     </g>
-    <g id="text_10">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="22.229375" y="151.14075" transform="rotate(-90 22.229375 151.14075)">第二梯度坐标</text>
     </g>
-   </g>
    <g id="line2d_19">
     <path d="M 118.705143 108.761856 L 386.361313 197.98058 " clip-path="url(#p371c262163)" style="fill: none; stroke: #8c98ab; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -415,4 +412,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="194.672762" y="151.009305" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="第二梯度坐标" id="text_10" data-axis-label="matplotlib.axis_2">第二梯度坐标</text></svg>

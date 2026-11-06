@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1514" viewBox="0 0 960 1514" role="img" aria-labelledby="diagram-title"><title id="diagram-title">有效配置身份：等价表示需要同一规范形式</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1432" viewBox="0 82 960 1432" role="img" aria-labelledby="diagram-title"><title id="diagram-title">有效配置身份：等价表示需要同一规范形式</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="MicrosoftYaHei-7b" d="M 1919 -1100 Q 841 -1091 841 -31 L 841 956 Q 841 1634 316 1663 L 316 2078 Q 841 2113 841 2797 L 841 3759 Q 841 4831 1919 4841 L 1919 4384 Q 1381 4372 1381 3728 L 1381 2769 Q 1381 2047 875 1881 L 875 1866 Q 1381 1713 1381 984 L 1381 41 Q 1381 -347 1507 -498 Q 1634 -650 1919 -653 L 1919 -1100 z " transform="scale(0.015625)"/>
       <path id="MicrosoftYaHei-22" d="M 1284 4847 L 1181 3341 L 763 3341 L 663 4847 L 1284 4847 z M 2128 4847 L 2028 3341 L 1606 3341 L 1503 4847 L 2128 4847 z " transform="scale(0.015625)"/>
       <path id="MicrosoftYaHei-6c" d="M 544 0 L 544 5116 L 1156 5116 L 1156 0 L 544 0 z " transform="scale(0.015625)"/>
@@ -84,7 +84,7 @@
   <clipPath id="pfb4e708e83">
    <rect x="622.604535" y="53.188125" width="440.835465" height="282.50512"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1514" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">有效配置身份：等价表示需要同一规范形式</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(28.005195 138.590267) scale(1.70041338)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1514" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(28.005195 138.590267) scale(1.70041338)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 73.143103 118.567881 L 469.817682 118.567881 Q 472.485897 118.567881 472.485897 116.146409 L 472.485897 83.052952 Q 472.485897 80.63148 469.817682 80.63148 L 73.143103 80.63148 Q 70.474888 80.63148 70.474888 83.052952 L 70.474888 116.146409 Q 70.474888 118.567881 73.143103 118.567881 z " clip-path="url(#p188ea47e5a)" style="fill: #f3f7f9; stroke: #1c77a4; stroke-width: 1.2; stroke-linejoin: miter"/>
    </g>
@@ -397,21 +397,7 @@
       </g>
      </g>
     </g>
-    <g id="text_16">
-     <!-- 按类别解释后的概率 -->
-     <g transform="translate(585.009535 266.440685) rotate(-90) scale(0.16 -0.16)">
-      <use xlink:href="#MicrosoftYaHei-6309"/>
-      <use xlink:href="#MicrosoftYaHei-7c7b" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-522b" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-89e3" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91ca" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-540e" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6982" transform="translate(700 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(800 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_10">
     <path d="M 642.642511 335.693245 L 720.839489 335.693245 L 720.839489 123.814405 L 642.642511 123.814405 z " clip-path="url(#pfb4e708e83)" style="fill: #1c77a4"/>
    </g>
@@ -548,4 +534,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="150.841636" y="801.225432" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="27.206614" fill="#25364a" text-anchor="start" aria-label="按类别解释后的概率" id="text_16" data-axis-label="matplotlib.axis_2">按类别解释后的概率</text></svg>

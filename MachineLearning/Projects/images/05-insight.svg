@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3220" viewBox="0 0 960 3220" role="img" aria-labelledby="diagram-title"><title id="diagram-title">边际置换相关特征可能制造原数据之外的组合</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3136" viewBox="0 84 960 3136" role="img" aria-labelledby="diagram-title"><title id="diagram-title">边际置换相关特征可能制造原数据之外的组合</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="ma1097d4fd6" d="M 0 4.1833 C 1.109424 4.1833 2.173559 3.742521 2.95804 2.95804 C 3.742521 2.173559 4.1833 1.109424 4.1833 0 C 4.1833 -1.109424 3.742521 -2.173559 2.95804 -2.95804 C 2.173559 -3.742521 1.109424 -4.1833 0 -4.1833 C -1.109424 -4.1833 -2.173559 -3.742521 -2.95804 -2.95804 C -3.742521 -2.173559 -4.1833 -1.109424 -4.1833 0 C -4.1833 1.109424 -3.742521 2.173559 -2.95804 2.95804 C -2.173559 3.742521 -1.109424 4.1833 0 4.1833 z " style="stroke: #2182a1"/>
     <path id="m150918e5a6" d="M 0 4.330127 C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862 C 3.873878 2.249847 4.330127 1.148363 4.330127 0 C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862 C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127 C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862 C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0 C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862 C -2.249847 3.873878 -1.148363 4.330127 0 4.330127 z " style="stroke: #cf7d44"/>
     <path id="m65ed500112" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
@@ -14,7 +14,7 @@
   <clipPath id="p771b04d4a1">
    <rect x="775.743816" y="37.388125" width="256.973684" height="304.92"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="3220" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">边际置换相关特征可能制造原数据之外的组合</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(51.93668 49.82208) scale(2.62000000)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="3220" fill="#ffffff"/><g transform="translate(51.93668 49.82208) scale(2.62000000)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 56.2175 318.334967 L 313.191184 318.334967 L 313.191184 61.361283 L 56.2175 61.361283 z " style="fill: #ffffff"/>
    </g>
@@ -341,10 +341,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="408.980658" y="74.275125" transform="rotate(-0 408.980658 74.275125)">2</text>
      </g>
     </g>
-    <g id="text_28">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="379.753158" y="189.848125" transform="rotate(-90 379.753158 189.848125)">标签、预测及残差</text>
     </g>
-   </g>
    <g id="line2d_30">
     <path d="M 415.980658 189.848125 L 672.954342 189.848125 " clip-path="url(#p53ecd6e191)" style="fill: none; stroke: #cf7d44; stroke-width: 2; stroke-linecap: square"/>
    </g>
@@ -534,10 +531,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="768.743816" y="49.761949" transform="rotate(-0 768.743816 49.761949)">5</text>
      </g>
     </g>
-    <g id="text_44">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="751.383816" y="189.848125" transform="rotate(-90 751.383816 189.848125)">各对象的平方损失</text>
     </g>
-   </g>
    <g id="line2d_49">
     <path d="M 775.743816 222.731654 L 1032.7175 222.731654 " clip-path="url(#p771b04d4a1)" style="fill: none; stroke-dasharray: 7.4,3.2; stroke-dashoffset: 0; stroke: #233b53; stroke-width: 2"/>
    </g>
@@ -574,4 +568,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="134.226534" y="1560.721878" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="标签、预测及残差" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="134.226534" dy="0">标签、预</tspan><tspan x="134.226534" dy="30.68">测及残差</tspan></text><text x="134.226528" y="2641.016187" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="各对象的平方损失" id="text_44" data-axis-label="matplotlib.axis_6"><tspan x="134.226528" dy="0">各对象的</tspan><tspan x="134.226528" dy="30.68">平方损失</tspan></text></svg>

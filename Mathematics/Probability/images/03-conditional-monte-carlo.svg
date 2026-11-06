@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3068" viewBox="0 0 960 3068" role="img" aria-labelledby="diagram-title"><title id="diagram-title">条件平均到底积分掉了哪次随机性</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2984" viewBox="0 84 960 2984" role="img" aria-labelledby="diagram-title"><title id="diagram-title">条件平均到底积分掉了哪次随机性</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="MicrosoftYaHei-58" d="M 4034 0 L 3275 0 L 2194 1822 Q 2156 1884 2084 2072 L 2069 2072 Q 2063 2047 1956 1819 L 844 0 L 81 0 L 1691 2431 L 209 4841 L 975 4841 L 1931 3166 Q 2016 3019 2100 2822 L 2113 2822 Q 2188 2991 2297 3181 L 3297 4841 L 4013 4841 L 2500 2441 L 4034 0 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-3d" d="M 3972 2497 L 788 2497 L 788 2969 L 3972 2969 L 3972 2497 z M 3972 1053 L 788 1053 L 788 1525 L 3972 1525 L 3972 1053 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
@@ -72,7 +72,7 @@
   <clipPath id="pe0220ad037">
    <rect x="780.17968" y="48.8275" width="309.65984" height="336.172957"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="3068" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">条件平均到底积分掉了哪次随机性</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(87.74203 94.63375) scale(2.28036028)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="3068" fill="#ffffff"/><g transform="translate(87.74203 94.63375) scale(2.28036028)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 44.452344 385.000457 L 354.112184 385.000457 L 354.112184 48.8275 L 44.452344 48.8275 z " style="fill: #ffffff"/>
    </g>
@@ -463,16 +463,7 @@
       </g>
      </g>
     </g>
-    <g id="text_26">
-     <!-- 概率质量 -->
-     <g style="fill: #223950" transform="translate(374.901559 250.913979) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-6982"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8d28" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cf" transform="translate(300 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p31e873964b)">
      <use xlink:href="#m835dc603f6" x="422.579819" y="174.892359" style="fill: #207397; stroke: #207397"/>
@@ -765,20 +756,7 @@
       </g>
      </g>
     </g>
-    <g id="text_41">
-     <!-- 单次返回值的方差 -->
-     <g style="fill: #223950" transform="translate(738.953586 284.913979) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-5355"/>
-      <use xlink:href="#MicrosoftYaHei-6b21" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8fd4" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-56de" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-65b9" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(700 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_11">
     <path d="M 794.255127 385.000457 L 919.370214 385.000457 L 919.370214 309.361542 L 794.255127 309.361542 z " clip-path="url(#pe0220ad037)" style="fill: #cb703c"/>
    </g>
@@ -865,4 +843,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="124.109382" y="1563.148631" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="概率质量" id="text_26" data-axis-label="matplotlib.axis_4">概率质量</text><text x="100.109384" y="2556.292781" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="单次返回值的方差" id="text_41" data-axis-label="matplotlib.axis_6"><tspan x="100.109384" dy="0">单次返</tspan><tspan x="100.109384" dy="30.68">回值的</tspan><tspan x="100.109384" dy="30.68">方差</tspan></text></svg>

@@ -253,20 +253,7 @@
       </g>
      </g>
     </g>
-    <g id="text_10">
-     <!-- 正在编码的训练行 -->
-     <g style="fill: #21364c" transform="translate(24.15125 215.208144) rotate(-90) scale(0.14 -0.14)">
-      <use xlink:href="#MicrosoftYaHei-6b63"/>
-      <use xlink:href="#MicrosoftYaHei-5728" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7f16" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7801" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bad" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7ec3" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-884c" transform="translate(700 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 94.708125 286.026787 L 94.708125 32.3895 " style="fill: none; stroke: #96a2b6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -580,13 +567,7 @@
       </g>
      </g>
     </g>
-    <g id="text_39">
-     <!-- 值 -->
-     <g style="fill: #21364c" transform="translate(425.159682 166.208144) rotate(-90) scale(0.14 -0.14)">
-      <use xlink:href="#MicrosoftYaHei-503c"/>
-     </g>
     </g>
-   </g>
    <g id="patch_6">
     <path d="M 474.590685 286.026787 L 496.986697 286.026787 L 496.986697 98.147315 L 474.590685 98.147315 z " clip-path="url(#p31cb367a97)" style="fill: #1675a4"/>
    </g>
@@ -850,15 +831,7 @@
       </g>
      </g>
     </g>
-    <g id="text_56">
-     <!-- 编码值 -->
-     <g style="fill: #21364c" transform="translate(837.07799 180.208144) rotate(-90) scale(0.14 -0.14)">
-      <use xlink:href="#MicrosoftYaHei-7f16"/>
-      <use xlink:href="#MicrosoftYaHei-7801" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(200 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_19">
     <path d="M 884.531552 275.233711 L 972.417799 275.233711 L 972.417799 185.291411 L 884.531552 185.291411 z " clip-path="url(#pb954556635)" style="fill: #219396"/>
    </g>
@@ -945,4 +918,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="230.981171" y="154.89712" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.100375" fill="#25364a" text-anchor="start" aria-label="正在编码的训练行" id="text_10" data-axis-label="matplotlib.axis_2">正在编码的训练行</text><text x="230.981165" y="990.21285" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.100375" fill="#25364a" text-anchor="start" aria-label="值" id="text_39" data-axis-label="matplotlib.axis_4">值</text><text x="230.981168" y="1689.66057" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.100375" fill="#25364a" text-anchor="start" aria-label="编码值" id="text_56" data-axis-label="matplotlib.axis_6">编码值</text></svg>

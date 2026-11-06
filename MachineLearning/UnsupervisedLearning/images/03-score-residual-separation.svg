@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1612" viewBox="0 0 960 1612" role="img" aria-labelledby="diagram-title"><title id="diagram-title">原实验两新点的横轴投影、垂直残差和保留方向得分</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1031.685485" height="1483" viewBox="-71.685485 129 1031.685485 1483" role="img" aria-labelledby="diagram-title"><rect x="-71.685485" y="129" width="1031.685485" height="1483" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">原实验两新点的横轴投影、垂直残差和保留方向得分</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m8a67c194a7" d="M 0 2.95804 C 0.784481 2.95804 1.536938 2.646362 2.09165 2.09165 C 2.646362 1.536938 2.95804 0.784481 2.95804 0 C 2.95804 -0.784481 2.646362 -1.536938 2.09165 -2.09165 C 1.536938 -2.646362 0.784481 -2.95804 0 -2.95804 C -0.784481 -2.95804 -1.536938 -2.646362 -2.09165 -2.09165 C -2.646362 -1.536938 -2.95804 -0.784481 -2.95804 0 C -2.95804 0.784481 -2.646362 1.536938 -2.09165 2.09165 C -1.536938 2.646362 -0.784481 2.95804 0 2.95804 z " style="stroke: #728997"/>
     <path id="C0_0_11c615a632" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 -0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z "/>
     <path id="m4ec9eb11e6" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
@@ -10,7 +10,7 @@
   <clipPath id="pb0193778c0">
    <rect x="549.812861" y="39.58875" width="414.208546" height="262.72"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1612" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">原实验两新点的横轴投影、垂直残差和保留方向</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">得分</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(56.774478 203.081203) scale(1.79304454)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1612" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(56.774478 203.081203) scale(1.79304454)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 53.841406 302.30875 L 468.049952 302.30875 L 468.049952 39.58875 L 53.841406 39.58875 z " style="fill: #ffffff"/>
    </g>
@@ -405,10 +405,7 @@
       </g>
      </g>
     </g>
-    <g id="text_28">
-     <text style="font-size: 15px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="510.783954" y="170.94875" transform="rotate(-90 510.783954 170.94875)">各自定义的分数（非同单位）</text>
     </g>
-   </g>
    <g id="patch_10">
     <path d="M 549.812861 302.30875 L 549.812861 39.58875 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
@@ -449,4 +446,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="76.314515" y="1220.756061" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="各自定义的分数（非同单位）" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="76.314515" dy="0">各自定义的</tspan><tspan x="76.314515" dy="30.68">分数（非同</tspan><tspan x="76.314515" dy="30.68">单位）</tspan></text></svg>

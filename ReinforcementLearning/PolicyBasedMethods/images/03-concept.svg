@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="492" viewBox="0 0 960 492" role="img" aria-labelledby="artwork-title"><title id="artwork-title">GAE 的完整算例：带符号加权与回合边界反例</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="394.333333"/></clipPath></defs><rect width="960" height="492" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">GAE 的完整算例：带符号加权与回合边界反例</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.842593)"><g><title>逆序递推等价于上三角加权，重置边界必须切断传播</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="445" viewBox="0 47 960 445" role="img" aria-labelledby="artwork-title"><title id="artwork-title">GAE 的完整算例：带符号加权与回合边界反例</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="394.333333"/></clipPath><path id="MicrosoftYaHei-8d77" d="M 106 -266 Q 581 566 619 2241 L 1081 2216 Q 1059 1606 991 1091 Q 1225 588 1613 288 L 1613 2616 L 138 2616 L 138 3072 L 1419 3072 L 1419 3966 L 356 3966 L 356 4422 L 1419 4422 L 1419 5309 L 1906 5309 L 1906 4422 L 2956 4422 L 2956 3966 L 1906 3966 L 1906 3072 L 3081 3072 L 3081 2616 L 2081 2616 L 2081 1647 L 3031 1647 L 3031 1197 L 2081 1197 L 2081 16 Q 2516 -159 3081 -166 Q 4613 -178 6313 -141 Q 6200 -422 6138 -634 Q 4169 -641 2950 -616 Q 1438 -588 884 478 Q 709 -341 381 -853 Q 256 -559 106 -266 z M 3850 1347 Q 3850 1009 4188 1009 L 5263 1009 Q 5613 1009 5656 1316 Q 5694 1597 5725 2153 Q 5919 2066 6200 1972 Q 6144 1366 6088 1084 Q 5994 559 5325 559 L 4069 559 Q 3375 559 3375 1272 L 3375 3303 L 5325 3303 L 5325 4491 L 3256 4491 L 3256 4941 L 5800 4941 L 5800 2641 L 5325 2641 L 5325 2853 L 3850 2853 L 3850 1347 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-70b9" d="M 900 3378 L 2863 3378 L 2863 5341 L 3388 5341 L 3388 4591 L 6181 4591 L 6181 4141 L 3388 4141 L 3388 3378 L 5600 3378 L 5600 991 L 5088 991 L 5088 1253 L 1413 1253 L 1413 991 L 900 991 L 900 3378 z M 5088 2928 L 1413 2928 L 1413 1703 L 5088 1703 L 5088 2928 z M 5425 847 Q 5925 91 6225 -516 L 5750 -772 Q 5438 -134 4994 622 L 5425 847 z M 1369 553 Q 894 -303 531 -791 L 100 -484 Q 506 53 931 803 L 1369 553 z M 2413 828 Q 2700 197 2913 -503 L 2406 -678 Q 2213 3 1963 666 L 2413 828 z M 3906 872 Q 4206 253 4450 -422 L 3956 -616 Q 3781 -53 3450 697 L 3906 872 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-7684" d="M 356 4284 L 988 4284 Q 1219 4853 1369 5322 L 1894 5172 Q 1697 4694 1513 4284 L 2763 4284 L 2763 -691 L 2263 -691 L 2263 -203 L 856 -203 L 856 -734 L 356 -734 L 356 4284 z M 2856 3003 Q 3444 3934 3850 5322 L 4375 5191 Q 4216 4719 4050 4303 L 6063 4303 Q 5988 1091 5938 259 Q 5894 -722 4906 -722 Q 4338 -722 3750 -684 Q 3713 -372 3650 -128 L 3669 -128 Q 4294 -216 4813 -216 Q 5381 -216 5425 384 Q 5494 1316 5525 3834 L 3850 3834 Q 3578 3231 3288 2772 Q 3119 2891 2856 3003 z M 856 266 L 2263 266 L 2263 1847 L 856 1847 L 856 266 z M 2263 3816 L 856 3816 L 856 2297 L 2263 2297 L 2263 3816 z M 3406 2578 L 3788 2859 Q 4481 2041 4894 1441 L 4431 1116 Q 3988 1841 3406 2578 z " transform="scale(0.015625)"/>
+      </defs><rect width="960" height="492" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.842593)"><g><title>逆序递推等价于上三角加权，重置边界必须切断传播</title>
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -706,25 +709,7 @@
       </g>
      </g>
     </g>
-    <g id="text_36">
-     <!-- 旧轨迹起点的优势 -->
-     <g style="fill: #21364c" transform="translate(721.315922 298.026724) rotate(-90) scale(0.15 -0.15)">
-      <defs>
-       <path id="MicrosoftYaHei-8d77" d="M 106 -266 Q 581 566 619 2241 L 1081 2216 Q 1059 1606 991 1091 Q 1225 588 1613 288 L 1613 2616 L 138 2616 L 138 3072 L 1419 3072 L 1419 3966 L 356 3966 L 356 4422 L 1419 4422 L 1419 5309 L 1906 5309 L 1906 4422 L 2956 4422 L 2956 3966 L 1906 3966 L 1906 3072 L 3081 3072 L 3081 2616 L 2081 2616 L 2081 1647 L 3031 1647 L 3031 1197 L 2081 1197 L 2081 16 Q 2516 -159 3081 -166 Q 4613 -178 6313 -141 Q 6200 -422 6138 -634 Q 4169 -641 2950 -616 Q 1438 -588 884 478 Q 709 -341 381 -853 Q 256 -559 106 -266 z M 3850 1347 Q 3850 1009 4188 1009 L 5263 1009 Q 5613 1009 5656 1316 Q 5694 1597 5725 2153 Q 5919 2066 6200 1972 Q 6144 1366 6088 1084 Q 5994 559 5325 559 L 4069 559 Q 3375 559 3375 1272 L 3375 3303 L 5325 3303 L 5325 4491 L 3256 4491 L 3256 4941 L 5800 4941 L 5800 2641 L 5325 2641 L 5325 2853 L 3850 2853 L 3850 1347 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-70b9" d="M 900 3378 L 2863 3378 L 2863 5341 L 3388 5341 L 3388 4591 L 6181 4591 L 6181 4141 L 3388 4141 L 3388 3378 L 5600 3378 L 5600 991 L 5088 991 L 5088 1253 L 1413 1253 L 1413 991 L 900 991 L 900 3378 z M 5088 2928 L 1413 2928 L 1413 1703 L 5088 1703 L 5088 2928 z M 5425 847 Q 5925 91 6225 -516 L 5750 -772 Q 5438 -134 4994 622 L 5425 847 z M 1369 553 Q 894 -303 531 -791 L 100 -484 Q 506 53 931 803 L 1369 553 z M 2413 828 Q 2700 197 2913 -503 L 2406 -678 Q 2213 3 1963 666 L 2413 828 z M 3906 872 Q 4206 253 4450 -422 L 3956 -616 Q 3781 -53 3450 697 L 3906 872 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-7684" d="M 356 4284 L 988 4284 Q 1219 4853 1369 5322 L 1894 5172 Q 1697 4694 1513 4284 L 2763 4284 L 2763 -691 L 2263 -691 L 2263 -203 L 856 -203 L 856 -734 L 356 -734 L 356 4284 z M 2856 3003 Q 3444 3934 3850 5322 L 4375 5191 Q 4216 4719 4050 4303 L 6063 4303 Q 5988 1091 5938 259 Q 5894 -722 4906 -722 Q 4338 -722 3750 -684 Q 3713 -372 3650 -128 L 3669 -128 Q 4294 -216 4813 -216 Q 5381 -216 5425 384 Q 5494 1316 5525 3834 L 3850 3834 Q 3578 3231 3288 2772 Q 3119 2891 2856 3003 z M 856 266 L 2263 266 L 2263 1847 L 856 1847 L 856 266 z M 2263 3816 L 856 3816 L 856 2297 L 2263 2297 L 2263 3816 z M 3406 2578 L 3788 2859 Q 4481 2041 4894 1441 L 4431 1116 Q 3988 1841 3406 2578 z " transform="scale(0.015625)"/>
-      </defs>
-      <use xlink:href="#MicrosoftYaHei-65e7"/>
-      <use xlink:href="#MicrosoftYaHei-8f68" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8ff9" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8d77" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-70b9" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4f18" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-52bf" transform="translate(700 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_18">
     <path d="M 774.738235 422.560698 L 902.679621 422.560698 L 902.679621 326.527565 L 774.738235 326.527565 z " clip-path="url(#p4d0afcdfeb)" style="fill: #136a8b"/>
    </g>
@@ -861,4 +846,4 @@
    <rect x="760.344829" y="53.492751" width="316.654931" height="369.067946"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="668.661231" y="88.072618" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="旧轨迹起点的优势" id="text_36" data-axis-label="matplotlib.axis_6">旧轨迹起点的优势</text></svg>

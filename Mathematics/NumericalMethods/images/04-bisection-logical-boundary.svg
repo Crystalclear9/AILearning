@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3192" viewBox="0 0 960 3192" role="img" aria-labelledby="diagram-title"><title id="diagram-title">存在性条件不是黑箱运行结果</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3108" viewBox="0 84 960 3108" role="img" aria-labelledby="diagram-title"><title id="diagram-title">存在性条件不是黑箱运行结果</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="med750aa14c" d="M 0 0 L 0 3.5 " style="stroke: #608397; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-2212" d="M 3972 1772 L 788 1772 L 788 2250 L 3972 2250 L 3972 1772 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-31" d="M 1781 0 L 1781 4141 Q 1638 3997 1295 3819 Q 953 3641 663 3569 L 663 4169 Q 1047 4275 1484 4508 Q 1922 4741 2156 4947 L 2388 4947 L 2388 0 L 1781 0 z " transform="scale(0.015625)"/>
@@ -57,7 +57,7 @@
   <clipPath id="p9585927ba2">
    <rect x="792.80119" y="48.8275" width="297.03833" height="328.972958"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="3192" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">存在性条件不是黑箱运行结果</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(28.00299 94.00299) scale(2.34466956)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="3192" fill="#ffffff"/><g transform="translate(28.00299 94.00299) scale(2.34466956)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 72.674531 377.800457 L 369.712861 377.800457 L 369.712861 48.8275 L 72.674531 48.8275 z " style="fill: #ffffff"/>
    </g>
@@ -474,23 +474,7 @@
       </g>
      </g>
     </g>
-    <g id="text_25">
-     <!-- 左侧 −1，其余 +1 -->
-     <g style="fill: #223950" transform="translate(390.502236 283.423041) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-5de6"/>
-      <use xlink:href="#MicrosoftYaHei-4fa7" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-2212" transform="translate(229.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-31" transform="translate(303.759766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff0c" transform="translate(362.402344 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5176" transform="translate(462.402344 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4f59" transform="translate(562.402344 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(662.402344 0)"/>
-      <use xlink:href="#MicrosoftYaHei-2b" transform="translate(691.992188 0)"/>
-      <use xlink:href="#MicrosoftYaHei-31" transform="translate(766.162109 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_33">
     <path d="M 444.748812 330.804321 L 582.129039 330.804321 " clip-path="url(#p46e21218a4)" style="fill: none; stroke: #cb703c; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
@@ -836,4 +820,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="109.400757" y="1602.619412" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="左侧 −1，其余 +1" id="text_25" data-axis-label="matplotlib.axis_4"><tspan x="109.400757" dy="0">左侧</tspan><tspan x="109.400757" dy="30.68">−1，其</tspan><tspan x="109.400757" dy="30.68">余 +1</tspan></text></svg>

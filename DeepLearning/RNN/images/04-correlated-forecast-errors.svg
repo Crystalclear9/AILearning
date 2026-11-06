@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1531" viewBox="0 0 960 1531" role="img" aria-labelledby="diagram-title"><title id="diagram-title">旧误差与新残差的协方差如何改变第二步预测方差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1402" viewBox="0 129 960 1402" role="img" aria-labelledby="diagram-title"><title id="diagram-title">旧误差与新残差的协方差如何改变第二步预测方差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m6b9bed1830" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="m4244bb4315" d="M 0 0 L -3.5 0 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="C0_0_671f8a5770" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 -0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z "/>
@@ -9,7 +9,7 @@
   <clipPath id="p8649712156">
    <rect x="584.463354" y="10.8" width="428.336166" height="302.128739"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1531" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">旧误差与新残差的协方差如何改变第二步预测方</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">差</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(73.996034 196.637093) scale(1.65496939)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1531" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(73.996034 196.637093) scale(1.65496939)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 69.252031 312.928739 L 497.588198 312.928739 L 497.588198 10.8 L 69.252031 10.8 z " style="fill: #ffffff"/>
    </g>
@@ -338,10 +338,7 @@
       <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end" x="577.463354" y="50.656941" transform="rotate(-0 577.463354 50.656941)">0.75</text>
      </g>
     </g>
-    <g id="text_25">
-     <text style="font-size: 21px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #20354a" x="524.455073" y="161.864369" transform="rotate(-90 524.455073 161.864369)">第二步方差的组成</text>
     </g>
-   </g>
    <g id="line2d_36">
     <path d="M 584.463354 165.94719 L 1012.79952 165.94719 " clip-path="url(#p8649712156)" style="fill: none; stroke: #8592a5; stroke-linecap: square"/>
    </g>
@@ -355,4 +352,4 @@
     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #20354a" x="798.631437" y="41.012874" transform="rotate(-0 798.631437 41.012874)">0.64 + 0.41 - 0.80 = 0.25</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="191.606024" y="905.919409" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="第二步方差的组成" id="text_25" data-axis-label="matplotlib.axis_4">第二步方差的组成</text></svg>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1365" viewBox="0 0 960 1365" role="img" aria-labelledby="diagram-title"><title id="diagram-title">对象内完全相关时零错误概率与独立样本单位</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1281" viewBox="0 84 960 1281" role="img" aria-labelledby="diagram-title"><title id="diagram-title">对象内完全相关时零错误概率与独立样本单位</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="MicrosoftYaHei-89c2" d="M 788 3672 Q 1125 3025 1469 2359 Q 1722 3225 1806 4266 L 250 4266 L 250 4741 L 2294 4741 L 2294 4284 Q 2181 2869 1784 1747 Q 2159 1019 2544 266 L 2081 9 Q 1841 534 1544 1147 Q 1094 163 394 -559 Q 269 -366 81 -103 Q 825 659 1253 1741 Q 859 2538 381 3466 L 788 3672 z M 4031 4141 L 4506 4141 L 4506 3009 Q 4506 2256 4394 1678 L 4769 1678 L 4769 191 Q 4769 -203 5094 -203 L 5394 -203 Q 5713 -203 5756 134 Q 5794 441 5819 966 Q 6025 878 6313 772 Q 6263 216 6213 -91 Q 6119 -666 5500 -666 L 5019 -666 Q 4306 -666 4306 72 L 4306 1313 Q 4200 953 4044 678 Q 3600 -116 2381 -822 Q 2250 -634 2038 -409 Q 3206 216 3625 941 Q 4031 1584 4031 2978 L 4031 4141 z M 2744 5034 L 5794 5034 L 5794 1284 L 5319 1284 L 5319 4572 L 3219 4572 L 3219 1197 L 2744 1197 L 2744 5034 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-6d4b" d="M 875 1753 Q 1175 1597 1369 1522 Q 950 -41 763 -784 L 250 -547 Q 619 497 875 1753 z M 638 5166 Q 1019 4847 1588 4303 Q 1381 4103 1213 3928 Q 756 4434 313 4853 L 638 5166 z M 356 3559 Q 881 3134 1350 2716 Q 1188 2547 988 2322 Q 425 2878 50 3216 L 356 3559 z M 5575 5284 L 6031 5284 L 6031 -34 Q 6031 -753 5338 -753 Q 5038 -753 4625 -741 Q 4600 -509 4538 -228 Q 4938 -272 5219 -272 Q 5575 -272 5575 84 L 5575 5284 z M 5038 634 L 4600 634 L 4600 4778 L 5038 4778 L 5038 634 z M 1706 4941 L 4063 4941 L 4063 991 L 3613 991 L 3613 4503 L 2156 4503 L 2156 991 L 1706 991 L 1706 4941 z M 2681 3966 L 3138 3966 L 3138 2416 Q 3138 1466 2963 891 Q 3775 266 4375 -234 L 4038 -616 Q 3538 -141 2800 472 Q 2413 -297 1406 -884 Q 1269 -684 1100 -484 Q 2031 53 2375 709 Q 2681 1278 2681 2403 L 2681 3966 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-20" transform="scale(0.015625)"/>
@@ -60,7 +60,7 @@
   <clipPath id="pcd616e5fbd">
    <rect x="468.090096" y="27.58875" width="499.646154" height="321.535"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1365" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">对象内完全相关时零错误概率与独立样本单位</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(47.93869 115.24523) scale(1.47820065)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1365" fill="#ffffff"/><g transform="translate(47.93869 115.24523) scale(1.47820065)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 62.73125 349.12375 L 375.010096 349.12375 L 375.010096 27.58875 L 62.73125 27.58875 z " style="fill: #ffffff"/>
    </g>
@@ -575,21 +575,7 @@
       </g>
      </g>
     </g>
-    <g id="text_24">
-     <!-- 观察到零错误的概率 -->
-     <g transform="translate(432.157284 255.85625) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-89c2"/>
-      <use xlink:href="#MicrosoftYaHei-5bdf" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5230" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-96f6" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-9519" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6982" transform="translate(700 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(800 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_49">
     <path d="M 468.090096 33.893358 L 473.09908 48.732217 L 478.108064 62.928242 L 483.117048 76.506851 L 488.126032 89.492552 L 493.135016 101.908975 L 498.144 113.778899 L 503.152984 125.12428 L 508.161968 135.966275 L 513.170952 146.325271 L 518.179936 156.22091 L 523.18892 165.67211 L 528.197904 174.697092 L 533.206888 183.313403 L 538.215872 191.537935 L 543.224856 199.38695 L 548.23384 206.876101 L 553.242824 214.020449 L 558.251808 220.834488 L 563.260792 227.332159 L 568.269776 233.526872 L 573.27876 239.431524 L 578.287744 245.058515 L 584.548974 251.719909 L 590.810204 257.988321 L 597.071434 263.884942 L 603.332664 269.429927 L 609.593894 274.642445 L 615.855124 279.540717 L 622.116354 284.142061 L 628.377584 288.462931 L 634.638814 292.518958 L 640.900044 296.32498 L 647.161274 299.895088 L 653.422504 303.242649 L 660.93598 306.983775 L 668.449456 310.443344 L 675.962932 313.640755 L 683.476408 316.594192 L 690.989884 319.320699 L 698.50336 321.836239 L 707.269082 324.524283 L 716.034804 326.967572 L 724.800526 329.186536 L 734.818494 331.471966 L 744.836462 333.514906 L 754.85443 335.338975 L 766.124644 337.156164 L 777.394858 338.751294 L 789.917318 340.29348 L 803.692024 341.745102 L 817.46673 342.974891 L 832.493682 344.100102 L 848.77288 345.103706 L 867.55657 346.031522 L 888.844752 346.843243 L 912.637426 347.516251 L 940.186838 348.065533 L 967.73625 348.437562 L 967.73625 348.437562 " clip-path="url(#pcd616e5fbd)" style="fill: none; stroke: #d37937; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
@@ -703,4 +689,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="143.668064" y="694.877088" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="观察到零错误的概率" id="text_24" data-axis-label="matplotlib.axis_4">观察到零错误的概率</text></svg>

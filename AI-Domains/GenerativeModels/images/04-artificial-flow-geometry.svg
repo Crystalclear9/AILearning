@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1188.6087" viewBox="0 0 1440 1188.6087" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">实验三人工流的潜空间网格、输出弯曲、条件均值与标准差</title><rect width="1440" height="1188.6087" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">实验三人工流的潜空间网格、输出弯曲、条件均值与标准差</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="1046.6087" viewBox="46 70 1288 1003" role="img" x="48" y="106" overflow="hidden"><rect x="46" y="70" width="1288" height="1003" fill="#ffffff"/><title>人工流的形状从哪里来：同一张网格经过弯曲与异方差缩放</title><rect width="1440" height="1080" fill="white"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#1f3348">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1288" height="1003" viewBox="46 70 1288 1003" role="img" aria-labelledby="plate-title"><rect x="46" y="70" width="1288" height="1003" fill="#ffffff"/><title id="plate-title">实验三人工流的潜空间网格、输出弯曲、条件均值与标准差</title><rect width="1440" height="1080" fill="white"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#1f3348">
 <text x="70" y="112" font-size="28" fill="#1f3348" text-anchor="start" font-weight="700">① 潜空间：Z0、Z1 独立标准正态</text>
 <text x="800" y="112" font-size="28" fill="#1f3348" text-anchor="start" font-weight="700">② 数据空间：横向平移缩放，纵向弯曲</text>
 <line x1="100.0" y1="175" x2="100.0" y2="605" stroke="#dce4ec" stroke-width="2"/>
@@ -103,4 +103,4 @@
 <text x="790" y="989" font-size="27" fill="#1f3348" text-anchor="start">1.305463</text>
 <text x="1100" y="989" font-size="27" fill="#1f3348" text-anchor="start">0.528922</text>
 <text x="80" y="1050" font-size="26" fill="#6b7f92" text-anchor="start">网格线是坐标映射，不是等密度线；图只显示潜坐标 [−2,2] 内的截面。</text>
-</g></svg></svg>
+</g></svg>

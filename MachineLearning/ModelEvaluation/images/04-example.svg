@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3557" viewBox="0 0 960 3557" role="img" aria-labelledby="diagram-title"><title id="diagram-title">重要性权重重建目标区域的风险占比</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3474.245833" viewBox="0 82.754167 960 3474.245833" role="img" aria-labelledby="diagram-title"><rect x="0" y="82.754167" width="960" height="3474.245833" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">重要性权重重建目标区域的风险占比</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m97f6bc20d8" d="M 0 0 L 0 3.5 " style="stroke: #536f80; stroke-width: 0.8"/>
       <path id="m0f7570bc37" d="M 0 0 L -3.5 0 " style="stroke: #536f80; stroke-width: 0.8"/>
       <clipPath id="pc1d99a507d">
@@ -11,7 +11,7 @@
   <clipPath id="pe27252ba3d">
    <rect x="764.776579" y="37.388125" width="252.568421" height="304.92"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="3557" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">重要性权重重建目标区域的风险占比</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(71.39267 115.61220) scale(2.52687987)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="3557" fill="#ffffff"/><g transform="translate(71.39267 115.61220) scale(2.52687987)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 57.585 342.308125 L 310.153421 342.308125 L 310.153421 37.388125 L 57.585 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -138,10 +138,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="50.585" y="71.503125" transform="rotate(-0 50.585 71.503125)">1.0</text>
      </g>
     </g>
-    <g id="text_11">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="19.99" y="189.848125" transform="rotate(-90 19.99 189.848125)">区域条件平均损失</text>
     </g>
-   </g>
    <g id="line2d_16">
     <path d="M 259.639737 342.308125 L 259.639737 37.388125 " clip-path="url(#pc1d99a507d)" style="fill: none; stroke-dasharray: 1,1.65; stroke-dashoffset: 0; stroke: #8d9aad"/>
    </g>
@@ -515,10 +512,7 @@
       <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #536f80" x="757.776579" y="71.503125" transform="rotate(-0 757.776579 71.503125)">1.0</text>
      </g>
     </g>
-    <g id="text_50">
-     <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="727.181579" y="189.848125" transform="rotate(-90 727.181579 189.848125)">区域条件平均损失</text>
     </g>
-   </g>
    <g id="line2d_55">
     <path d="M 865.803947 342.308125 L 865.803947 37.388125 " clip-path="url(#pe27252ba3d)" style="fill: none; stroke-dasharray: 1,1.65; stroke-dashoffset: 0; stroke: #8d9aad"/>
    </g>
@@ -550,4 +544,4 @@
     <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233b53" x="764.776579" y="22.388125" transform="rotate(-0 764.776579 22.388125)">C  目标域：重建区域占比</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="219.903047" y="121.0875" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="区域条件平均损失" id="text_11" data-axis-label="matplotlib.axis_2">区域条件平均损失</text><text x="151.903053" y="2910.234725" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="区域条件平均损失" id="text_50" data-axis-label="matplotlib.axis_6"><tspan x="151.903053" dy="0">区域条件平</tspan><tspan x="151.903053" dy="30.68">均损失</tspan></text></svg>

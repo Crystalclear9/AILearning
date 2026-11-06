@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1743" viewBox="0 0 960 1743" role="img" aria-labelledby="diagram-title"><title id="diagram-title">概率流的散度控制体积与密度</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1661" viewBox="0 82 960 1661" role="img" aria-labelledby="diagram-title"><title id="diagram-title">概率流的散度控制体积与密度</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m9ce1fb0558" d="M 0 0  L 0 3.5  " style="stroke: #527487; stroke-width: 0.8"/>
       <path id="m3821d878a5" d="M 0 0  L -3.5 0  " style="stroke: #527487; stroke-width: 0.8"/>
       <path id="m1c08a8acb6" d="M 0 3  C 0.795609 3 1.55874 2.683901 2.12132 2.12132  C 2.683901 1.55874 3 0.795609 3 0  C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132  C 1.55874 -2.683901 0.795609 -3 0 -3  C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132  C -2.683901 -1.55874 -3 -0.795609 -3 0  C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132  C -1.55874 2.683901 -0.795609 3 0 3  z " style="stroke: #cb793a"/>
@@ -9,7 +9,7 @@
   <clipPath id="p1d84fe7be0">
    <rect x="770.412101" y="158.4" width="473.747899" height="424.8"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1743" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">概率流的散度控制体积与密度</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(2.391992 -61.648096) scale(1.51700043)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1743" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(2.391992 -61.648096) scale(1.51700043)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 116.64 535.581878  L 590.387899 535.581878  L 590.387899 206.018122  L 116.64 206.018122  z " style="fill: #ffffff"/>
    </g>
@@ -313,10 +313,7 @@
       <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527487" x="763.412101" y="190.092106" transform="rotate(-0 763.412101 190.092106)">0.14</text>
      </g>
     </g>
-    <g id="text_27">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233950" x="711.694445" y="370.8" transform="rotate(-90 711.694445 370.8)">该位置的概率密度</text>
     </g>
-   </g>
    <g id="line2d_35">
     <path d="M 791.946096 563.890909  L 804.866494 546.42601  L 817.786891 529.334942  L 830.707288 512.62329  L 843.627685 496.295367  L 856.548083 480.354286  L 869.46848 464.802043  L 882.388877 449.639592  L 895.309274 434.866917  L 908.229672 420.483112  L 921.150069 406.486443  L 934.070466 392.874426  L 946.990863 379.643888  L 959.911261 366.79103  L 972.831658 354.311492  L 985.752055 342.200408  L 998.672452 330.452462  L 1011.59285 319.061938  L 1024.513247 308.02277  L 1037.433644 297.32859  L 1050.354041 286.972768  L 1063.274439 276.948452  L 1076.194836 267.248609  L 1089.115233 257.866056  L 1102.03563 248.793493  L 1114.956028 240.023535  L 1127.876425 231.548734  L 1140.796822 223.361611  L 1153.717219 215.454672  L 1166.637617 207.820433  L 1179.558014 200.451439  L 1192.478411 193.340277  L 1205.398808 186.479596  L 1218.319206 179.862118  L 1222.626005 177.709091  L 1222.626005 177.709091  " clip-path="url(#p1d84fe7be0)" style="fill: none; stroke: #2173ad; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -344,4 +341,4 @@
     </g>
    </g>
   </g>
-  </g></svg>
+  </g><text x="182.334921" y="933.063061" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="该位置的概率密度" id="text_27" data-axis-label="matplotlib.axis_4">该位置的概率密度</text></svg>

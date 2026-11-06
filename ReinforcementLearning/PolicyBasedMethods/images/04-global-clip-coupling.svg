@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2504" viewBox="0 0 960 2504" role="img" aria-labelledby="diagram-title"><title id="diagram-title">参数分离之后，共同裁剪仍会改变 actor</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2422" viewBox="0 82 960 2422" role="img" aria-labelledby="diagram-title"><title id="diagram-title">参数分离之后，共同裁剪仍会改变 actor</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m299e1ce9b3" d="M 0 0 L 0 3.5 " style="stroke: #608397; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-2e" d="M 372 322 Q 372 491 487 606 Q 603 722 775 722 Q 950 722 1065 605 Q 1181 488 1181 322 Q 1181 159 1065 42 Q 950 -75 772 -75 Q 600 -75 486 42 Q 372 159 372 322 z " transform="scale(0.015625)"/>
@@ -42,7 +42,7 @@
   <clipPath id="p004ed9f8f1">
    <rect x="569.071947" y="48.8275" width="295.332135" height="386.572957"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2504" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">参数分离之后，共同裁剪仍会改变 actor</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(27.004888 89.004888) scale(2.41576626)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2504" fill="#ffffff"/><g transform="translate(27.004888 89.004888) scale(2.41576626)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 63.032188 435.400457 L 358.364323 435.400457 L 358.364323 48.8275 L 63.032188 48.8275 z " style="fill: #ffffff"/>
    </g>
@@ -166,26 +166,7 @@
       </g>
      </g>
     </g>
-    <g id="text_8">
-     <!-- 裁剪后的 critic 分量 -->
-     <g style="fill: #223950" transform="translate(29.429375 317.604604) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-88c1"/>
-      <use xlink:href="#MicrosoftYaHei-526a" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-540e" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-63" transform="translate(429.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-72" transform="translate(479.736328 0)"/>
-      <use xlink:href="#MicrosoftYaHei-69" transform="translate(517.919922 0)"/>
-      <use xlink:href="#MicrosoftYaHei-74" transform="translate(544.53125 0)"/>
-      <use xlink:href="#MicrosoftYaHei-69" transform="translate(581.787109 0)"/>
-      <use xlink:href="#MicrosoftYaHei-63" transform="translate(608.398438 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(658.544922 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5206" transform="translate(688.134766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cf" transform="translate(788.134766 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p0776045118)">
      <use xlink:href="#m09b840cfb5" x="226.305238" y="192.891956" style="fill: #223950; stroke: #223950"/>
@@ -412,26 +393,7 @@
       </g>
      </g>
     </g>
-    <g id="text_20">
-     <!-- 裁剪后的 critic 分量 -->
-     <g style="fill: #223950" transform="translate(535.469135 317.604604) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-88c1"/>
-      <use xlink:href="#MicrosoftYaHei-526a" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-540e" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-63" transform="translate(429.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-72" transform="translate(479.736328 0)"/>
-      <use xlink:href="#MicrosoftYaHei-69" transform="translate(517.919922 0)"/>
-      <use xlink:href="#MicrosoftYaHei-74" transform="translate(544.53125 0)"/>
-      <use xlink:href="#MicrosoftYaHei-69" transform="translate(581.787109 0)"/>
-      <use xlink:href="#MicrosoftYaHei-63" transform="translate(608.398438 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(658.544922 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5206" transform="translate(688.134766 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cf" transform="translate(788.134766 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_2">
     <g clip-path="url(#p004ed9f8f1)">
      <use xlink:href="#m09b840cfb5" x="606.238164" y="145.542937" style="fill: #223950; stroke: #223950"/>
@@ -535,4 +497,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="114.275921" y="652.835668" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="裁剪后的 critic 分量" id="text_8" data-axis-label="matplotlib.axis_2"><tspan x="114.275921" dy="0">裁剪后</tspan><tspan x="114.275921" dy="30.68">的 critic</tspan><tspan x="114.275921" dy="30.68">分量</tspan></text><text x="114.275919" y="1854.488303" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="裁剪后的 critic 分量" id="text_20" data-axis-label="matplotlib.axis_4"><tspan x="114.275919" dy="0">裁剪后</tspan><tspan x="114.275919" dy="30.68">的 critic</tspan><tspan x="114.275919" dy="30.68">分量</tspan></text></svg>

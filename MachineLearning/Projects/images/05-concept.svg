@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1393" viewBox="0 0 960 1393" role="img" aria-labelledby="diagram-title"><title id="diagram-title">交付的单位契约：同一物理输入必须产生同一结果</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1264" viewBox="0 129 960 1264" role="img" aria-labelledby="diagram-title"><title id="diagram-title">交付的单位契约：同一物理输入必须产生同一结果</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m522105f76f" d="M 0 0 L 0 -3.5 " style="stroke: #233b53; stroke-width: 0.8"/>
        <path id="m82f3f87bc4" d="M 0 0 L 0 3.5 " style="stroke: #233b53; stroke-width: 0.8"/>
       <path id="m0e892934c3" d="M 0 0 L -3.5 0 " style="stroke: #233b53; stroke-width: 0.8"/>
@@ -13,7 +13,7 @@
   <clipPath id="ped819e5a39">
    <rect x="600.858257" y="90.792969" width="422.346694" height="220.68"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1393" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">交付的单位契约：同一物理输入必须产生同一结</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">果</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(75.338352 159.125768) scale(1.66840649)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1393" fill="#ffffff"/><g transform="translate(75.338352 159.125768) scale(1.66840649)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 60.046563 311.472969 L 482.393257 311.472969 L 482.393257 90.792969 L 60.046563 90.792969 z " style="fill: #ffffff"/>
    </g>
@@ -209,10 +209,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #233b53" x="53.046563" y="144.046604" transform="rotate(-0 53.046563 144.046604)">1.5</text>
      </g>
     </g>
-    <g id="text_19">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="20.789375" y="201.132969" transform="rotate(-90 20.789375 201.132969)">预测输出</text>
     </g>
-   </g>
    <g id="line2d_21">
     <path d="M 60.046563 311.472969 L 64.312691 309.419859 L 68.578819 307.366749 L 72.844947 305.313639 L 77.111075 303.260529 L 81.377204 301.207419 L 85.643332 299.154308 L 89.90946 297.101198 L 94.175588 295.048088 L 98.441717 292.994978 L 102.707845 290.941868 L 106.973973 288.888758 L 111.240101 286.835648 L 115.506229 284.782538 L 119.772358 282.729428 L 124.038486 280.676318 L 128.304614 278.623208 L 132.570742 276.570098 L 136.836871 274.516988 L 141.102999 272.463878 L 145.369127 270.410768 L 149.635255 268.357658 L 153.901383 266.304548 L 158.167512 264.251438 L 162.43364 262.198328 L 166.699768 260.145218 L 170.965896 258.092108 L 175.232025 256.038997 L 179.498153 253.985887 L 183.764281 251.932777 L 188.030409 249.879667 L 192.296537 247.826557 L 196.562666 245.773447 L 200.828794 243.720337 L 205.094922 241.667227 L 209.36105 239.614117 L 213.627179 237.561007 L 217.893307 235.507897 L 222.159435 233.454787 L 226.425563 231.401677 L 230.691691 229.348567 L 234.95782 227.295457 L 239.223948 225.242347 L 243.490076 223.189237 L 247.756204 221.136127 L 252.022333 219.083017 L 256.288461 217.029907 L 260.554589 214.976797 L 264.820717 212.923686 L 269.086845 210.870576 L 273.352974 208.817466 L 277.619102 206.764356 L 281.88523 204.711246 L 286.151358 202.658136 L 290.417487 200.605026 L 294.683615 198.551916 L 298.949743 196.498806 L 303.215871 194.445696 L 307.482 192.392586 L 311.748128 190.339476 L 316.014256 188.286366 L 320.280384 186.233256 L 324.546512 184.180146 L 328.812641 182.127036 L 333.078769 180.073926 L 337.344897 178.020816 L 341.611025 175.967706 L 345.877154 173.914596 L 350.143282 171.861486 L 354.40941 169.808375 L 358.675538 167.755265 L 362.941666 165.702155 L 367.207795 163.649045 L 371.473923 161.595935 L 375.740051 159.542825 L 380.006179 157.489715 L 384.272308 155.436605 L 388.538436 153.383495 L 392.804564 151.330385 L 397.070692 149.277275 L 401.33682 147.224165 L 405.602949 145.171055 L 409.869077 143.117945 L 414.135205 141.064835 L 418.401333 139.011725 L 422.667462 136.958615 L 426.93359 134.905505 L 431.199718 132.852395 L 435.465846 130.799285 L 439.731974 128.746175 L 443.998103 126.693064 L 448.264231 124.639954 L 452.530359 122.586844 L 456.796487 120.533734 L 461.062616 118.480624 L 465.328744 116.427514 L 469.594872 114.374404 L 473.861 112.321294 L 478.127128 110.268184 L 482.393257 108.215074 " clip-path="url(#p52f8fe0120)" style="fill: none; stroke: #2182a1; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -564,10 +561,7 @@
       </g>
      </g>
     </g>
-    <g id="text_30">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #233b53" x="545.756538" y="201.132969" transform="rotate(-90 545.756538 201.132969)">预测输出（对数刻度）</text>
     </g>
-   </g>
    <g id="line2d_66">
     <path d="M 620.055834 299.233573 L 812.031604 282.625748 L 1004.007374 272.910794 " clip-path="url(#ped819e5a39)" style="fill: none; stroke: #2182a1; stroke-width: 2.5; stroke-linecap: square"/>
     <g clip-path="url(#ped819e5a39)">
@@ -622,4 +616,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="178.520427" y="251.605347" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.36291" fill="#25364a" text-anchor="start" aria-label="预测输出" id="text_19" data-axis-label="matplotlib.axis_4">预测输出</text><text x="178.520426" y="785.039775" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.36291" fill="#25364a" text-anchor="start" aria-label="预测输出（对数刻度）" id="text_30" data-axis-label="matplotlib.axis_6">预测输出（对数刻度）</text></svg>

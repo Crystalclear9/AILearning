@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2792" viewBox="0 0 960 2792" role="img" aria-labelledby="diagram-title"><title id="diagram-title">模型复杂度与泛化：选择最优验证点而非最小训练误差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2663" viewBox="0 129 960 2663" role="img" aria-labelledby="diagram-title"><title id="diagram-title">模型复杂度与泛化：选择最优验证点而非最小训练误差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mab2e9a6152" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="m6506f33bdc" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="m510c530117" d="M 0 3 C 0.795609 3 1.55874 2.683901 2.12132 2.12132 C 2.683901 1.55874 3 0.795609 3 0 C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 C 1.55874 -2.683901 0.795609 -3 0 -3 C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 C -2.683901 -1.55874 -3 -0.795609 -3 0 C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 C -1.55874 2.683901 -0.795609 3 0 3 z " style="stroke: #1f7e9c"/>
@@ -21,7 +21,7 @@
   <clipPath id="pbbefcc46da">
    <rect x="701.178261" y="522.529412" width="457.121739" height="296.470588"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2792" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">模型复杂度与泛化：选择最优验证点而非最小训</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">练误差</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(14.968670 112.128380) scale(1.54105007)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2792" fill="#ffffff"/><g transform="translate(14.968670 112.128380) scale(1.54105007)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 106.92 359.470588 L 564.041739 359.470588 L 564.041739 63 L 106.92 63 z " style="fill: #ffffff"/>
    </g>
@@ -143,10 +143,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="99.92" y="103.236975" transform="rotate(-0 99.92 103.236975)">0.8</text>
      </g>
     </g>
-    <g id="text_12">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="59.351875" y="211.235294" transform="rotate(-90 59.351875 211.235294)">误差</text>
     </g>
-   </g>
    <g id="line2d_15">
     <path d="M 127.698261 94.44385 L 210.811304 184.283422 L 293.924348 238.187166 L 377.037391 281.31016 L 460.150435 317.245989 L 543.263478 345.994652 " clip-path="url(#p8e0d51c82d)" style="fill: none; stroke: #1f7e9c; stroke-width: 3; stroke-linecap: square"/>
     <g clip-path="url(#p8e0d51c82d)">
@@ -497,10 +494,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="99.92" y="531.322537" transform="rotate(-0 99.92 531.322537)">1.0</text>
      </g>
     </g>
-    <g id="text_36">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="59.351875" y="670.764706" transform="rotate(-90 59.351875 670.764706)">概率质量</text>
     </g>
-   </g>
    <g id="patch_9">
     <path d="M 153.346427 819 L 231.914226 819 L 231.914226 596.647059 L 153.346427 596.647059 z " clip-path="url(#p59a194449d)" style="fill: #1f7e9c"/>
    </g>
@@ -675,10 +669,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="694.178261" y="556.028419" transform="rotate(-0 694.178261 556.028419)">0.50</text>
      </g>
     </g>
-    <g id="text_52">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="640.709198" y="670.764706" transform="rotate(-90 640.709198 670.764706)">最小验证值的期望</text>
     </g>
-   </g>
    <g id="line2d_73">
     <path d="M 721.956522 547.235294 L 781.322981 670.764706 L 840.689441 732.529412 L 900.055901 763.411765 L 959.42236 778.852941 L 1018.78882 786.573529 L 1078.15528 790.433824 L 1137.521739 792.363971 " clip-path="url(#pbbefcc46da)" style="fill: none; stroke: #1f7e9c; stroke-width: 3; stroke-linecap: square"/>
     <g clip-path="url(#pbbefcc46da)">
@@ -722,4 +713,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="182.737743" y="186.214534" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="误差" id="text_12" data-axis-label="matplotlib.axis_2">误差</text><text x="182.737743" y="1507.250626" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="概率质量" id="text_36" data-axis-label="matplotlib.axis_6">概率质量</text><text x="179.737743" y="2169.218262" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="middle" aria-label="最小验证值的期望" id="text_52" data-axis-label="matplotlib.axis_8">最小验证值的期望</text></svg>

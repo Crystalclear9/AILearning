@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1608" viewBox="0 0 960 1608" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">周期高斯模糊的脉冲分辨率与噪声增益</title><desc id="artwork-desc">恢复得更尖锐，要付出多少噪声放大？ 噪声增益是逆算子的谱范数；峰值是特定信号的分辨表现，两者必须分开度量。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1561" viewBox="0 47 960 1561" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">周期高斯模糊的脉冲分辨率与噪声增益</title><desc id="artwork-desc">恢复得更尖锐，要付出多少噪声放大？ 噪声增益是逆算子的谱范数；峰值是特定信号的分辨表现，两者必须分开度量。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m6152e32fa2" d="M 0 0 L 0 3.5 " style="stroke: #3a5c6b; stroke-width: 0.8"/>
       <path id="m99ab4cff4a" d="M 0 0 L -3.5 0 " style="stroke: #3a5c6b; stroke-width: 0.8"/>
       <path id="m8fa23fc92e" d="M 0 2 C 0.530406 2 1.03916 1.789267 1.414214 1.414214 C 1.789267 1.03916 2 0.530406 2 0 C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 C 1.03916 -1.789267 0.530406 -2 0 -2 C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 C -1.789267 -1.03916 -2 -0.530406 -2 0 C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 C -1.03916 1.789267 -0.530406 2 0 2 z " style="stroke: #13688d"/>
@@ -13,7 +13,7 @@
   <clipPath id="p16c0d52186">
    <rect x="685.73042" y="162.864" width="425.94958" height="269.568"/>
   </clipPath>
- </defs><rect width="960" height="1608" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">周期高斯模糊的脉冲分辨率与噪声增益</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(5.371053 30.730366) scale(0.959847)"><g id="text_29">
+ </defs><rect width="960" height="1608" fill="#ffffff"/><g transform="translate(5.371053 30.730366) scale(0.959847)"><g id="text_29">
    <text style="font-size: 27.09px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #49778f" x="46.08" y="80.3088" transform="rotate(-0 46.08 80.3088)">41 点周期网格，归一化高斯核宽 1.2 格；同一个单位脉冲、同一个线性逆</text>
   </g>
   </g><rect x="35" y="139.96" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="164.96" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(3.379027 -8.67619) scale(1.719818)"><g id="axes_1">
@@ -169,10 +169,7 @@
       <text style="font-size: 22.61px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #416a7f" x="90.92" y="181.978062" transform="rotate(-0 90.92 181.978062)">1.0</text>
      </g>
     </g>
-    <g id="text_13">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1c2e41" x="54.592656" y="297.648" transform="rotate(-90 54.592656 297.648)">无噪声恢复幅值</text>
     </g>
-   </g>
    <g id="line2d_23">
     <polyline clip-path="url(#pb11681dbb8)" style="fill: none; stroke: #13688d; stroke-width: 2.8; stroke-linecap: square" points="117.281345,404.906794 136.642689,403.991988 156.004034,406.063092 175.365378,404.290297 194.726723,402.392493 214.088067,410.940246 233.449412,398.742043 252.810756,399.987274 272.172101,433.849421 291.533445,347.079275 310.89479,245.659974 330.256134,347.079275 349.617479,433.849421 368.978824,399.987274 388.340168,398.742043 407.701513,410.940246 427.062857,402.392493 446.424202,404.290297 465.785546,406.063092 485.146891,403.991988 504.508235,404.906794"/>
     <g clip-path="url(#pb11681dbb8)">
@@ -511,10 +508,7 @@
       <text style="font-size: 22.61px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #416a7f" x="678.73042" y="183.683757" transform="rotate(-0 678.73042 183.683757)">0.8</text>
      </g>
     </g>
-    <g id="text_24">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1c2e41" x="642.403076" y="297.648" transform="rotate(-90 642.403076 297.648)">恢复脉冲的中心峰值</text>
     </g>
-   </g>
    <g id="line2d_58">
     <polyline clip-path="url(#p16c0d52186)" style="fill: none; stroke: #13688d; stroke-width: 2.8; stroke-linecap: square" points="1092.318655,175.117091 1081.153732,180.658706 1073.855741,183.85978 1065.832868,187.088657 1057.088109,190.347626 1045.845607,194.467227 1041.183638,196.965261 1034.350484,200.328773 1026.797074,203.732073 1018.518429,207.177739 1009.521876,210.668433 1004.759932,212.431524 1001.518832,214.206918 996.617076,216.893876 989.456551,220.523025 981.571973,224.208258 972.96399,227.952907 963.951062,231.76051 959.144921,234.659784 953.939669,237.598271 946.367915,241.580329 938.070961,245.639728 926.98019,250.83007 922.077221,254.010063 916.773225,257.242236 909.06842,261.637247 900.638899,266.135606 893.846646,269.581141 888.779253,273.091421 883.449036,276.669478 875.708962,281.551083 867.244368,286.566428 862.743175,289.126699 859.265177,291.72335 853.98139,295.688685 848.29124,299.741347 840.069591,305.286148 833.510264,309.554449 828.34517,313.919628 822.775003,318.38377 816.796749,322.948368 808.193052,329.191909 801.098604,335.61429 795.313869,340.545706 789.121032,345.571321 784.907528,348.9714 779.524573,354.140684 773.734438,359.384778 767.536213,364.6923 765.403152,366.473244 759.95242,371.843302 754.094083,377.240409 747.93193,382.644746 742.350701,388.034171 736.361358,393.384531 734.274279,395.154896 728.629255,400.413018 718.819155,408.940257 710.976544,415.478852 705.091765,420.178909 705.091765,420.178909"/>
    </g>
@@ -544,4 +538,4 @@
     </g>
    </g>
   </g>
-  </g></svg>
+  </g><text x="174.783606" y="165.420249" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="无噪声恢复幅值" id="text_13" data-axis-label="matplotlib.axis_2">无噪声恢复幅值</text><text x="94.783845" y="1224.826585" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" aria-label="恢复脉冲的中心峰值" id="text_24" data-axis-label="matplotlib.axis_4"><tspan x="94.783845" dy="0">恢复脉</tspan><tspan x="94.783845" dy="28.32">冲的中</tspan><tspan x="94.783845" dy="28.32">心峰值</tspan></text></svg>

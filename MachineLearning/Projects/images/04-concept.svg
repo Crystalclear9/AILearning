@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2130" viewBox="0 0 960 2130" role="img" aria-labelledby="artwork-title"><title id="artwork-title">残差诊断的可复算例子：系统偏差与随机散布分开</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="2032.604167"/></clipPath></defs><rect width="960" height="2130" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">残差诊断的可复算例子：系统偏差与随机散布分开</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2083" viewBox="0 47 960 2083" role="img" aria-labelledby="artwork-title"><title id="artwork-title">残差诊断的可复算例子：系统偏差与随机散布分开</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="2032.604167"/></clipPath></defs><rect width="960" height="2130" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -181,10 +181,7 @@
       <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #48728b" x="50.585" y="95.106293" transform="rotate(-0 50.585 95.106293)">0.8</text>
      </g>
     </g>
-    <g id="text_13">
-     <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b53" x="19.99" y="189.848125" transform="rotate(-90 19.99 189.848125)">原始残差</text>
     </g>
-   </g>
    <g id="line2d_17">
     <polyline clip-path="url(#pa111de501e)" style="fill: none; stroke: #cf6b29; stroke-width: 2.46; stroke-linecap: square" points="69.265622,88.711293 115.98811,239.661788 162.710598,315.137036 209.433086,315.137036 256.155574,239.661788 302.878062,88.711293"/>
    </g>
@@ -416,10 +413,7 @@
       <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #48728b" x="410.348158" y="67.855757" transform="rotate(-0 410.348158 67.855757)">0.7</text>
      </g>
     </g>
-    <g id="text_31">
-     <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b53" x="379.753158" y="189.848125" transform="rotate(-90 379.753158 189.848125)">该处两条观测的平均平方残差</text>
     </g>
-   </g>
    <g id="patch_18">
     <line style="fill: none; stroke: #aabbcb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="417.348158" y1="342.308125" x2="417.348158" y2="37.388125"/>
    </g>
@@ -599,10 +593,7 @@
       <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #48728b" x="770.111316" y="74.275125" transform="rotate(-0 770.111316 74.275125)">0.04</text>
      </g>
     </g>
-    <g id="text_47">
-     <text style="font-size: 17.394872px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b53" x="718.266316" y="189.848125" transform="rotate(-90 718.266316 189.848125)">修正后残差（放大刻度）</text>
     </g>
-   </g>
    <g id="line2d_57">
     <line clip-path="url(#p28ab366359)" style="fill: none; stroke: #8d9aad; stroke-linecap: square" stroke-width="1.23" x1="777.111316" y1="189.848125" x2="1034.085" y2="189.848125"/>
    </g>
@@ -628,4 +619,4 @@
    <rect x="777.111316" y="37.388125" width="256.973684" height="304.92"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="326.611038" y="100.364681" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.499987" fill="#25364a" text-anchor="start" aria-label="原始残差" id="text_13" data-axis-label="matplotlib.axis_2">原始残差</text><text x="258.616187" y="1023.201787" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="该处两条观测的平均平方残差" id="text_31" data-axis-label="matplotlib.axis_4"><tspan x="258.616187" dy="0">该处两条观</tspan><tspan x="258.616187" dy="30.68">测的平均平</tspan><tspan x="258.616187" dy="30.68">方残差</tspan></text><text x="262.435965" y="1766.821595" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" aria-label="修正后残差（放大刻度）" id="text_47" data-axis-label="matplotlib.axis_6"><tspan x="262.435965" dy="0">修正后残差（</tspan><tspan x="262.435965" dy="28.32">放大刻度）</tspan></text></svg>

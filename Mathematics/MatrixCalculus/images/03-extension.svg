@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1807" viewBox="0 0 960 1807" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">中心化投影与全部单位方向的输出增益</title><desc id="artwork-desc">中心化保留多少变化，取决于扰动方向 公共方向完全消失，零和方向完全保留；只改变一个输入时，两个输出都会变化。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1760" viewBox="0 47 960 1760" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">中心化投影与全部单位方向的输出增益</title><desc id="artwork-desc">中心化保留多少变化，取决于扰动方向 公共方向完全消失，零和方向完全保留；只改变一个输入时，两个输出都会变化。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m01cc2b16e9" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="mdfdf26161d" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="m89a06034d4" d="M 0 3.5 C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 C 3.131218 1.81853 3.5 0.928211 3.5 0 C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874 C 1.81853 -3.131218 0.928211 -3.5 0 -3.5 C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874 C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0 C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874 C -1.81853 3.131218 -0.928211 3.5 0 3.5 z " style="stroke: #ba602b"/>
@@ -40,7 +40,7 @@
   <clipPath id="pe3dda2c4ec">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1807" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">中心化投影与全部单位方向的输出增益</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-3.154336 27.372996) scale(0.985789)"><g xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ns2="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" id="text_29">
+ </defs><rect width="960" height="1807" fill="#ffffff"/><g transform="translate(-3.154336 27.372996) scale(0.985789)"><g xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ns2="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" id="text_29">
 
    <g style="fill: #47586b" transform="translate(51.84 81.648)">
     <svg width="372.8" height="33.78" viewBox="0 0 372.8 33.78" version="1.1" x="0.0" y="-21.957" overflow="visible">
@@ -205,10 +205,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="169.832" y="214.05775" transform="rotate(-0 169.832 214.05775)">3</text>
      </g>
     </g>
-    <g id="text_10">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="131.981688" y="330.48" transform="rotate(-90 131.981688 330.48)">坐标 2</text>
     </g>
-   </g>
    <g id="line2d_17">
     <line clip-path="url(#p8ed8a2c976)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" x1="176.832" y1="268.272" x2="394.56" y2="486"/>
    </g>
@@ -435,4 +432,4 @@
     <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="881.28" y="151.96" transform="rotate(-0 881.28 151.96)">全部方向的局部增益</text>
    </g>
   </g>
-  </g></svg>
+  </g><text x="178.09353" y="178.75624" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="坐标 2" id="text_10" data-axis-label="matplotlib.axis_2">坐标 2</text></svg>

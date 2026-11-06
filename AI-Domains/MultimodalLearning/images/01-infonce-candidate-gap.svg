@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1008.0035" viewBox="0 0 1440 1008.0035" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">InfoNCE有限候选下界与改变负例分布的反例</title><rect width="1440" height="1008.0035" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">InfoNCE有限候选下界与改变负例分布的反例</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="866.0035" viewBox="26 59 1150 741" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden">
-<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="59" width="1150" height="741" fill="#ffffff"/><title id="title">InfoNCE的候选数和负采样机制</title><desc id="desc">二元等概率X且正例Y等于X，真实互信息为log2。独立边缘负采样下候选数增大使最优下界逐渐逼近log2；改用仅不同值负例时logB减损失不再是该互信息下界。</desc>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="741" viewBox="26 59 1150 741" role="img" aria-labelledby="title desc">
+<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="59" width="1150" height="741" fill="#ffffff"/><title id="title">InfoNCE有限候选下界与改变负例分布的反例</title><desc id="desc">二元等概率X且正例Y等于X，真实互信息为log2。独立边缘负采样下候选数增大使最优下界逐渐逼近log2；改用仅不同值负例时logB减损失不再是该互信息下界。</desc>
 <rect width="1200" height="820" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1f3449">
 <text x="44" y="99" font-size="26" fill="#62819a" text-anchor="start" font-weight="400">X 等概率取 0 或 1，正例 Y = X；真实互信息始终为 log 2 ≈ 0.6931</text>
@@ -60,4 +60,4 @@
 <text x="685" y="613" font-size="24" fill="#c57439" text-anchor="start" font-weight="700">超过 log 2，不能再称原互信息下界</text>
 <rect x="44" y="718" width="1112" height="66" rx="12" fill="url(#book-wash-eef4f9)" stroke="none"/>
 <text x="65" y="761" font-size="26" fill="#1f3449" text-anchor="start" font-weight="400">损失公式可以继续用于训练；一旦候选生成规则改变，其信息量解释需要重新证明。</text>
-</g></svg></svg>
+</g></svg>

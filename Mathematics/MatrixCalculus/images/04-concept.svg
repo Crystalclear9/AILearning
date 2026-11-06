@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2599" viewBox="0 0 960 2599" role="img" aria-labelledby="diagram-title"><title id="diagram-title">梯度检查的对照对象</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2530.850177" viewBox="0 68.149823 960 2530.850177" role="img" aria-labelledby="diagram-title"><rect x="0" y="68.149823" width="960" height="2530.850177" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">梯度检查的对照对象</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="ma8cb08041b" d="M 0 0 L 0 3.5 " style="stroke: #608295; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-31" d="M 1781 0 L 1781 4141 Q 1638 3997 1295 3819 Q 953 3641 663 3569 L 663 4169 Q 1047 4275 1484 4508 Q 1922 4741 2156 4947 L 2388 4947 L 2388 0 L 1781 0 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
@@ -74,7 +74,7 @@
   <clipPath id="p4f4759a35a">
    <rect x="778.71316" y="81.510799" width="250.64636" height="250.64636"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2599" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">梯度检查的对照对象</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(35.807218 97.807218) scale(2.14032549)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2599" fill="#ffffff"/><g transform="translate(35.807218 97.807218) scale(2.14032549)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 74.925469 367.720457 L 400.765737 367.720457 L 400.765737 45.9475 L 74.925469 45.9475 z " style="fill: #ffffff"/>
    </g>
@@ -750,21 +750,7 @@
       </g>
      </g>
     </g>
-    <g id="text_16">
-     <!-- 绝对误差（对数轴） -->
-     <g style="fill: #21364c" transform="translate(26.549375 283.333979) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-7edd"/>
-      <use xlink:href="#MicrosoftYaHei-5bf9" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5bf9" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6570" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8f74" transform="translate(700 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(800 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_80">
     <path d="M 89.73639 264.53159 L 91.02992 244.552974 L 92.323451 245.499436 L 93.616981 239.608513 L 94.910511 249.582557 L 96.204041 243.355732 L 97.497571 260.543899 L 98.791102 242.709435 L 100.084632 240.702371 L 101.378162 239.450942 L 102.671692 252.015339 L 103.965223 261.504071 L 105.258753 248.189529 L 106.552283 246.720317 L 107.845813 259.194903 L 109.139344 254.578266 L 110.432874 246.608229 L 111.726404 249.755085 L 113.019934 264.179429 L 114.313465 258.814214 L 115.606995 254.091438 L 116.900525 263.167209 L 118.194055 249.069536 L 119.487586 250.763969 L 120.781116 259.993318 L 122.074646 279.989192 L 123.368176 269.359553 L 124.661707 251.222023 L 125.955237 264.683687 L 127.248767 274.659671 L 128.542297 260.290447 L 129.835828 267.179945 L 131.129358 264.943298 L 132.422888 280.481167 L 133.716418 269.481511 L 135.009949 263.976195 L 136.303479 267.01978 L 137.597009 275.286014 L 138.890539 257.560599 L 140.18407 260.430096 L 141.4776 274.226113 L 142.77113 262.160575 L 144.06466 261.025243 L 145.35819 268.303078 L 146.651721 264.325165 L 147.945251 290.201216 L 149.238781 273.380728 L 150.532311 274.470348 L 151.825842 270.536893 L 153.119372 272.784063 L 154.412902 270.307558 L 155.706432 272.28193 L 156.999963 280.894523 L 158.293493 315.63102 L 159.587023 297.306723 L 160.880553 275.694521 L 162.174084 270.003368 L 163.467614 282.379349 L 164.761144 292.596903 L 166.054674 268.565193 L 167.348205 274.93495 L 168.641735 282.399367 L 169.935265 268.345424 L 171.228795 271.171944 L 172.522326 267.234784 L 173.815856 271.000271 L 175.109386 267.419071 L 176.402916 267.17368 L 177.696447 265.627298 L 178.989977 265.605712 L 180.283507 265.729122 L 181.577037 262.359979 L 182.870568 261.915842 L 184.164098 259.436651 L 185.457628 258.866479 L 186.751158 257.410309 L 188.044689 256.126374 L 189.338219 255.505487 L 190.631749 254.220395 L 191.925279 252.237107 L 195.80587 248.765876 L 204.860582 239.79204 L 208.741172 236.003633 L 221.676475 223.256968 L 309.636531 136.703527 L 385.954816 61.603161 L 385.954816 61.603161 " clip-path="url(#p4eabcb2a93)" style="fill: none; stroke: #1f6f94; stroke-width: 2.4; stroke-linecap: square"/>
    </g>
@@ -1037,18 +1023,7 @@
       </g>
      </g>
     </g>
-    <g id="text_34">
-     <!-- 第二梯度分量 -->
-     <g style="fill: #21364c" transform="translate(421.171112 257.833979) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-7b2c"/>
-      <use xlink:href="#MicrosoftYaHei-4e8c" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-68af" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5206" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cf" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_98">
     <path d="M 450.993306 345.580121 L 672.535482 124.037945 " clip-path="url(#pf51e1d5b3c)" style="fill: none; stroke: #8593a9; stroke-width: 1.3; stroke-linecap: square"/>
    </g>
@@ -1319,18 +1294,7 @@
       </g>
      </g>
     </g>
-    <g id="text_51">
-     <!-- 第二梯度分量 -->
-     <g style="fill: #21364c" transform="translate(735.468004 257.833979) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-7b2c"/>
-      <use xlink:href="#MicrosoftYaHei-4e8c" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-68af" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5206" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cf" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_115">
     <path d="M 765.290197 168.34638 L 986.832374 389.888557 " clip-path="url(#p4f4759a35a)" style="fill: none; stroke: #8593a9; stroke-width: 1.3; stroke-linecap: square"/>
    </g>
@@ -1406,4 +1370,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="199.172109" y="107.149823" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="绝对误差（对数轴）" id="text_16" data-axis-label="matplotlib.axis_2">绝对误差（对数轴）</text><text x="131.172109" y="1393.762924" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="第二梯度分量" id="text_34" data-axis-label="matplotlib.axis_4"><tspan x="131.172109" dy="0">第二梯度</tspan><tspan x="131.172109" dy="30.68">分量</tspan></text><text x="131.172109" y="2175.323365" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="第二梯度分量" id="text_51" data-axis-label="matplotlib.axis_6"><tspan x="131.172109" dy="0">第二梯度</tspan><tspan x="131.172109" dy="30.68">分量</tspan></text></svg>

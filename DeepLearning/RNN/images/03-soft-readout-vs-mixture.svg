@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1503" viewBox="0 0 960 1503" role="img" aria-labelledby="diagram-title"><title id="diagram-title">先混合特征与先预测后混合在sigmoid曲线上的差别</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1374" viewBox="0 129 960 1374" role="img" aria-labelledby="diagram-title"><title id="diagram-title">先混合特征与先预测后混合在sigmoid曲线上的差别</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m343afe0abd" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="md31abd91b7" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="m2fd513b950" d="M 0 4.609772  C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601  C 4.124058 2.395145 4.609772 1.222526 4.609772 0  C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601  C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772  C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601  C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0  C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601  C -2.395145 4.124058 -1.222526 4.609772 0 4.609772  z " style="stroke: #2075a6"/>
@@ -10,7 +10,7 @@
   <clipPath id="p4dafa61081">
    <rect x="706.844063" y="21.6" width="380.16" height="292.032"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1503" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">先混合特征与先预测后混合在sigmoid曲线上的差</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">别</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(26.468838 179.623433) scale(1.61358894)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1503" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(26.468838 179.623433) scale(1.61358894)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 79.004063 313.632  L 539.804063 313.632  L 539.804063 21.6  L 79.004063 21.6  z " style="fill: #ffffff"/>
    </g>
@@ -163,10 +163,7 @@
       <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end" x="72.004063" y="40.267607" transform="rotate(-0 72.004063 40.267607)">1.0</text>
      </g>
     </g>
-    <g id="text_13">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="37.5875" y="167.616" transform="rotate(-90 37.5875 167.616)">类别一的概率</text>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p62e1ef7c82)">
      <use xlink:href="#m2fd513b950" x="141.840426" y="297.318939" style="fill: #2075a6; stroke: #2075a6"/>
@@ -364,10 +361,7 @@
       <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end" x="699.844063" y="37.115333" transform="rotate(-0 699.844063 37.115333)">1.0</text>
      </g>
     </g>
-    <g id="text_28">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="665.4275" y="167.616" transform="rotate(-90 665.4275 167.616)">类别一的概率</text>
     </g>
-   </g>
    <g id="line2d_50">
     <path d="M 724.124063 34.874182  L 733.340063 36.025933  L 741.404063 37.245506  L 749.468062 38.700767  L 756.380063 40.167478  L 763.292063 41.86823  L 769.052063 43.488328  L 774.812063 45.315279  L 780.572063 47.371846  L 786.332063 49.682274  L 792.092062 52.272086  L 796.700063 54.562879  L 801.308063 57.063274  L 805.916062 59.787162  L 810.524063 62.748261  L 815.132062 65.959846  L 819.740063 69.434447  L 824.348062 73.183492  L 828.956063 77.216924  L 833.564062 81.542772  L 838.172063 86.166712  L 842.780062 91.09161  L 847.388062 96.317082  L 851.996062 101.839077  L 856.604063 107.649518  L 862.364063 115.298912  L 868.124063 123.34529  L 873.884063 131.743626  L 880.796062 142.207359  L 890.012062 156.623837  L 914.204062 194.793603  L 921.116062 205.193677  L 926.876062 213.525739  L 932.636062 221.495974  L 938.396062 229.061533  L 944.156062 236.190579  L 948.764062 241.565063  L 953.372062 246.640516  L 957.980063 251.41477  L 962.588062 255.889119  L 967.196062 260.067892  L 971.804062 263.957997  L 976.412062 267.568475  L 981.020062 270.910062  L 985.628062 273.994783  L 990.236062 276.835583  L 994.844062 279.445993  L 999.452063 281.839849  L 1005.212063 284.548794  L 1010.972062 286.96785  L 1016.732062 289.122974  L 1022.492062 291.038954  L 1028.252062 292.739162  L 1035.164062 294.52519  L 1042.076062 296.066411  L 1048.988062 297.393991  L 1057.052062 298.70979  L 1065.116062 299.811401  L 1069.724062 300.357818  L 1069.724062 300.357818  " clip-path="url(#p4dafa61081)" style="fill: none; stroke: #cd6e30; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -395,4 +389,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="156.94892" y="191.476954" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="32.271779" fill="#25364a" text-anchor="start" aria-label="类别一的概率" id="text_13" data-axis-label="matplotlib.axis_2">类别一的概率</text><text x="156.94892" y="868.440393" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="32.271779" fill="#25364a" text-anchor="start" aria-label="类别一的概率" id="text_28" data-axis-label="matplotlib.axis_4">类别一的概率</text></svg>

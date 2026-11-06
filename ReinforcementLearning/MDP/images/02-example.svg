@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1599" viewBox="0 0 960 1599" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一个 Bellman 残差在高折扣下给出更松的误差界</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1472.376054" viewBox="0 126.623946 960 1472.376054" role="img" aria-labelledby="diagram-title"><rect x="0" y="126.623946" width="960" height="1472.376054" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">同一个 Bellman 残差在高折扣下给出更松的误差界</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m13aa882caa" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-2e" d="M 372 322 Q 372 491 487 606 Q 603 722 775 722 Q 950 722 1065 605 Q 1181 488 1181 322 Q 1181 159 1065 42 Q 950 -75 772 -75 Q 600 -75 486 42 Q 372 159 372 322 z " transform="scale(0.015625)"/>
@@ -84,7 +84,7 @@
   <clipPath id="p4f6bad1f20">
    <rect x="677.221944" y="37.602938" width="492.910986" height="329.63"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1599" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">同一个 Bellman 残差在高折扣下给出更松的误差</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">界</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(39.460260 191.873474) scale(1.50033857)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1599" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(39.460260 191.873474) scale(1.50033857)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 79.595469 367.232938 L 572.506455 367.232938 L 572.506455 37.602938 L 79.595469 37.602938 z " style="fill: #ffffff"/>
    </g>
@@ -519,28 +519,7 @@
       </g>
      </g>
     </g>
-    <g id="text_12">
-     <!-- 由残差得到的误差上界（对数坐标） -->
-     <g style="fill: #21364c" transform="translate(27.989375 338.417938) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-7531"/>
-      <use xlink:href="#MicrosoftYaHei-6b8b" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5f97" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5230" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(700 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e0a" transform="translate(800 0)"/>
-      <use xlink:href="#MicrosoftYaHei-754c" transform="translate(900 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(1000 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5bf9" transform="translate(1100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6570" transform="translate(1200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5750" transform="translate(1300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(1400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(1500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_55">
     <path d="M 102.000514 352.249756 L 138.54093 349.536963 L 172.517107 346.794213 L 203.929044 344.034997 L 232.776741 341.27706 L 259.060198 338.543234 L 283.420476 335.786642 L 305.857574 333.023153 L 326.371492 330.273378 L 344.96223 327.563513 L 362.270848 324.820262 L 378.297347 322.056143 L 393.041726 319.287744 L 406.503984 316.536557 L 418.684123 313.829821 L 430.223202 311.03983 L 440.480161 308.3418 L 450.09606 305.591787 L 459.070899 302.797101 L 467.404678 299.968071 L 475.097398 297.118826 L 482.149057 294.268192 L 488.559656 291.440667 L 494.329196 288.667384 L 500.098735 285.635807 L 505.227215 282.681674 L 509.714634 279.856938 L 514.202054 276.763762 L 518.048413 273.856522 L 521.894773 270.664127 L 525.100073 267.741794 L 528.305372 264.531189 L 531.510672 260.969149 L 534.074912 257.809435 L 536.639152 254.30994 L 539.203391 250.388685 L 541.126571 247.103109 L 543.049751 243.448534 L 544.972931 239.331466 L 546.896111 234.617651 L 548.81929 229.104291 L 550.10141 224.830834 L 550.10141 224.830834 " clip-path="url(#pbf2a7d1707)" style="fill: none; stroke: #1675a4; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -913,23 +892,7 @@
       </g>
      </g>
     </g>
-    <g id="text_32">
-     <!-- 价值误差 / 完整残差 -->
-     <g style="fill: #21364c" transform="translate(637.964757 279.079969) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-4ef7"/>
-      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-2f" transform="translate(429.589844 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(472.314453 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5b8c" transform="translate(501.904297 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6574" transform="translate(601.904297 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6b8b" transform="translate(701.904297 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(801.904297 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_89">
     <path d="M 677.221944 361.013504 L 1158.110712 62.480673 L 1158.110712 62.480673 " clip-path="url(#p4f6bad1f20)" style="fill: none; stroke: #1675a4; stroke-width: 4; stroke-linecap: square"/>
    </g>
@@ -1077,4 +1040,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="161.880412" y="159.290612" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="25.505756" fill="#25364a" text-anchor="start" aria-label="由残差得到的误差上界（对数坐标）" id="text_12" data-axis-label="matplotlib.axis_2"><tspan x="161.880412" dy="0">由残差得到的误差上界</tspan><tspan x="161.880412" dy="32.137252">（对数坐标）</tspan></text><text x="161.880415" y="930.685916" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="25.505756" fill="#25364a" text-anchor="start" aria-label="价值误差 / 完整残差" id="text_32" data-axis-label="matplotlib.axis_4">价值误差 / 完整残差</text></svg>

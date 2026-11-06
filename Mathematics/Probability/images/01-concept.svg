@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="492" viewBox="0 0 960 492" role="img" aria-labelledby="artwork-title"><title id="artwork-title">贝叶斯更新中的基率</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="394.333333"/></clipPath></defs><rect width="960" height="492" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">贝叶斯更新中的基率</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.842593)"><g><title>阳性后重新选分母：先合并两条来源路径，再归一化</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="445" viewBox="0 47 960 445" role="img" aria-labelledby="artwork-title"><title id="artwork-title">贝叶斯更新中的基率</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="394.333333"/></clipPath><path id="MicrosoftYaHei-540e" d="M 1888 1984 L 5688 1984 L 5688 -828 L 5188 -828 L 5188 -403 L 2388 -403 L 2388 -828 L 1888 -828 L 1888 1984 z M 1313 2991 Q 1313 1272 1138 672 Q 963 -16 394 -847 Q 250 -634 50 -409 Q 494 222 650 859 Q 806 1472 806 2659 L 806 4766 Q 3544 4853 5631 5141 L 5931 4622 Q 3344 4359 1313 4284 L 1313 3459 L 6263 3459 L 6263 2991 L 1313 2991 z M 5188 1528 L 2388 1528 L 2388 41 L 5188 41 L 5188 1528 z " transform="scale(0.015625)"/>
+       <path id="MicrosoftYaHei-6982" d="M 2900 1359 L 3263 1559 Q 3519 1141 3869 466 L 3494 222 Q 3416 384 3344 528 Q 3041 325 2544 -22 Q 2419 -103 2219 -322 L 1869 91 Q 2063 303 2063 659 L 2063 4966 L 3606 4966 L 3606 1803 L 3206 1803 L 3206 2009 L 2469 2009 L 2469 484 Q 2781 669 3147 916 Q 3009 1178 2900 1359 z M 4313 2584 L 4850 2584 Q 4950 3300 4950 4566 L 3900 4566 L 3900 4966 L 6100 4966 L 6100 4566 L 5363 4566 Q 5369 3344 5272 2584 L 6138 2584 L 6138 2184 L 5209 2184 Q 5156 1897 5075 1628 L 5281 1628 L 5281 59 Q 5281 -228 5500 -228 L 5619 -228 Q 5781 -228 5844 22 Q 5913 284 5900 853 Q 6131 747 6319 691 Q 6306 141 6213 -216 Q 6081 -653 5744 -653 L 5369 -653 Q 4869 -653 4869 -3 L 4869 1072 Q 4366 -41 3281 -841 Q 3150 -647 2963 -484 Q 4425 534 4778 2184 L 3894 2184 L 4063 4253 L 4450 4253 L 4313 2584 z M 75 1384 Q 569 2369 856 3616 L 169 3616 L 169 4003 L 913 4003 L 913 5322 L 1325 5322 L 1325 4003 L 1913 4003 L 1913 3616 L 1325 3616 L 1325 2775 L 1494 2922 Q 1819 2578 2019 2309 L 1725 2059 Q 1534 2341 1325 2588 L 1325 -822 L 913 -822 L 913 2691 Q 622 1531 256 841 Q 175 1103 75 1384 z M 2469 2397 L 3206 2397 L 3206 3297 L 2469 3297 L 2469 2397 z M 3206 4578 L 2469 4578 L 2469 3684 L 3206 3684 L 3206 4578 z " transform="scale(0.015625)"/>
+      </defs><rect width="960" height="492" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.842593)"><g><title>阳性后重新选分母：先合并两条来源路径，再归一化</title>
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -683,24 +685,7 @@
       </g>
      </g>
     </g>
-    <g id="text_35">
-     <!-- 阳性后的缺陷概率 -->
-     <g style="fill: #21364c" transform="translate(705.307602 298.026724) rotate(-90) scale(0.15 -0.15)">
-      <defs>
-       <path id="MicrosoftYaHei-540e" d="M 1888 1984 L 5688 1984 L 5688 -828 L 5188 -828 L 5188 -403 L 2388 -403 L 2388 -828 L 1888 -828 L 1888 1984 z M 1313 2991 Q 1313 1272 1138 672 Q 963 -16 394 -847 Q 250 -634 50 -409 Q 494 222 650 859 Q 806 1472 806 2659 L 806 4766 Q 3544 4853 5631 5141 L 5931 4622 Q 3344 4359 1313 4284 L 1313 3459 L 6263 3459 L 6263 2991 L 1313 2991 z M 5188 1528 L 2388 1528 L 2388 41 L 5188 41 L 5188 1528 z " transform="scale(0.015625)"/>
-       <path id="MicrosoftYaHei-6982" d="M 2900 1359 L 3263 1559 Q 3519 1141 3869 466 L 3494 222 Q 3416 384 3344 528 Q 3041 325 2544 -22 Q 2419 -103 2219 -322 L 1869 91 Q 2063 303 2063 659 L 2063 4966 L 3606 4966 L 3606 1803 L 3206 1803 L 3206 2009 L 2469 2009 L 2469 484 Q 2781 669 3147 916 Q 3009 1178 2900 1359 z M 4313 2584 L 4850 2584 Q 4950 3300 4950 4566 L 3900 4566 L 3900 4966 L 6100 4966 L 6100 4566 L 5363 4566 Q 5369 3344 5272 2584 L 6138 2584 L 6138 2184 L 5209 2184 Q 5156 1897 5075 1628 L 5281 1628 L 5281 59 Q 5281 -228 5500 -228 L 5619 -228 Q 5781 -228 5844 22 Q 5913 284 5900 853 Q 6131 747 6319 691 Q 6306 141 6213 -216 Q 6081 -653 5744 -653 L 5369 -653 Q 4869 -653 4869 -3 L 4869 1072 Q 4366 -41 3281 -841 Q 3150 -647 2963 -484 Q 4425 534 4778 2184 L 3894 2184 L 4063 4253 L 4450 4253 L 4313 2584 z M 75 1384 Q 569 2369 856 3616 L 169 3616 L 169 4003 L 913 4003 L 913 5322 L 1325 5322 L 1325 4003 L 1913 4003 L 1913 3616 L 1325 3616 L 1325 2775 L 1494 2922 Q 1819 2578 2019 2309 L 1725 2059 Q 1534 2341 1325 2588 L 1325 -822 L 913 -822 L 913 2691 Q 622 1531 256 841 Q 175 1103 75 1384 z M 2469 2397 L 3206 2397 L 3206 3297 L 2469 3297 L 2469 2397 z M 3206 4578 L 2469 4578 L 2469 3684 L 3206 3684 L 3206 4578 z " transform="scale(0.015625)"/>
-      </defs>
-      <use xlink:href="#MicrosoftYaHei-9633"/>
-      <use xlink:href="#MicrosoftYaHei-6027" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-540e" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7f3a" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-9677" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6982" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(700 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <defs>
      <path id="C0_0_fb67ba0799" d="M 0 4.031129 C 1.069068 4.031129 2.094493 3.606384 2.850439 2.850439 C 3.606384 2.094493 4.031129 1.069068 4.031129 -0 C 4.031129 -1.069068 3.606384 -2.094493 2.850439 -2.850439 C 2.094493 -3.606384 1.069068 -4.031129 0 -4.031129 C -1.069068 -4.031129 -2.094493 -3.606384 -2.850439 -2.850439 C -3.606384 -2.094493 -4.031129 -1.069068 -4.031129 0 C -4.031129 1.069068 -3.606384 2.094493 -2.850439 2.850439 C -2.094493 3.606384 -1.069068 4.031129 0 4.031129 z "/>
@@ -857,4 +842,4 @@
    <rect x="741.240415" y="53.492751" width="335.759345" height="369.067946"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="652.563985" y="88.072618" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="阳性后的缺陷概率" id="text_35" data-axis-label="matplotlib.axis_4">阳性后的缺陷概率</text></svg>

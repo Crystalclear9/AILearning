@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="608" viewBox="0 0 1440 608" role="img" aria-labelledby="title description">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="529.04" viewBox="0 78.96 1440 529.04" role="img" aria-labelledby="title description">
   <title id="title">DPO 比较的是各自相对参考策略的增益</title>
   <desc id="description">两条回答的当前概率同为 0.3。偏好回答的参考概率为 0.1，增益为 ln 3。另一条参考概率为 0.3，增益为零。当 β 为一时，偏好比较模型给出 75%。</desc>
   <defs>
@@ -11,8 +12,6 @@
   </defs>
   <rect width="1440" height="608" fill="#fff"/>
   <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#142b45">
-    <rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/>
-    <text x="71" y="66" font-size="38" font-weight="700">DPO 比较的是各自相对参考策略的增益</text>
     <path d="M48 89H1392" stroke="#d7e1ee" stroke-width="1.4"/>
 
     <circle cx="257" cy="137" r="10" fill="#fff" stroke="#647e91" stroke-width="4"/>

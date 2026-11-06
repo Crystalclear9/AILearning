@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2660" viewBox="0 0 960 2660" role="img" aria-labelledby="diagram-title"><title id="diagram-title">动作缩放：同样的原始变化，不同的执行变化</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1032.727653" height="2576" viewBox="-72.727653 84 1032.727653 2576" role="img" aria-labelledby="diagram-title"><rect x="-72.727653" y="84" width="1032.727653" height="2576" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">动作缩放：同样的原始变化，不同的执行变化</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m1627275a45" d="M 0 0 L 0 3.5 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="md5bf5aec96" d="M 0 0 L -3.5 0 " style="stroke: #66889b; stroke-width: 0.8"/>
       <path id="m97192a97ec" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z " style="stroke: #1f7e9c"/>
@@ -18,7 +18,7 @@
   <clipPath id="p90d16f2dad">
    <rect x="841.010526" y="564.398381" width="555.789474" height="342.801619"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2660" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">动作缩放：同样的原始变化，不同的执行变化</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(-5.01305 81.12673) scale(1.32164663)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2660" fill="#ffffff"/><g transform="translate(-5.01305 81.12673) scale(1.32164663)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 129.6 403.281619 L 685.389474 403.281619 L 685.389474 60.48 L 129.6 60.48 z " style="fill: #ffffff"/>
    </g>
@@ -210,10 +210,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="122.6" y="84.339822" transform="rotate(-0 122.6 84.339822)">4</text>
      </g>
     </g>
-    <g id="text_16">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="83.912187" y="231.88081" transform="rotate(-90 83.912187 231.88081)">该维执行动作</text>
     </g>
-   </g>
    <g id="line2d_29">
     <path d="M 154.863158 387.699728 L 182.722279 387.339023 L 204.249782 386.844354 L 220.711991 386.257213 L 234.641551 385.551693 L 247.304788 384.6818 L 257.435378 383.781285 L 267.565968 382.651035 L 276.430233 381.431678 L 284.028176 380.18227 L 291.626118 378.712976 L 299.22406 376.990971 L 305.555679 375.337429 L 311.887297 373.462279 L 318.218916 371.343497 L 324.550534 368.959185 L 330.882153 366.288372 L 335.947448 363.932531 L 341.012742 361.372658 L 346.078037 358.602028 L 351.143332 355.616057 L 356.208627 352.412771 L 361.273922 348.993259 L 367.60554 344.422122 L 373.937159 339.537933 L 380.268777 334.368035 L 387.866719 327.840361 L 396.730985 319.884393 L 411.92687 305.842699 L 423.323783 295.434831 L 430.921725 288.758426 L 438.519668 282.400147 L 444.851286 277.397826 L 451.182905 272.698834 L 457.514523 268.324486 L 462.579818 265.066912 L 467.645113 262.026685 L 472.710408 259.202556 L 477.775702 256.590548 L 482.840997 254.184429 L 489.172616 251.453947 L 495.504234 249.013967 L 501.835853 246.843814 L 508.167471 244.921705 L 514.49909 243.225588 L 520.830708 241.73378 L 528.428651 240.184035 L 536.026593 238.864799 L 544.890859 237.576035 L 553.755125 236.515494 L 563.885714 235.534527 L 575.282628 234.668918 L 587.945865 233.938071 L 603.141749 233.301416 L 620.870281 232.794296 L 643.664108 232.386993 L 660.126316 232.202806 L 660.126316 232.202806 " clip-path="url(#pe4fc0fbc2b)" style="fill: none; stroke: #1f7e9c; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -407,10 +404,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="940.504453" y="89.738893" transform="rotate(-0 940.504453 89.738893)">−0.2</text>
      </g>
     </g>
-    <g id="text_32">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="883.618516" y="231.88081" transform="rotate(-90 883.618516 231.88081)">内部坐标 u2</text>
     </g>
-   </g>
    <g id="PathCollection_3">
     <g clip-path="url(#p34c8cd3cb8)">
      <use xlink:href="#m97192a97ec" x="1116.347042" y="234.439031" style="fill: #1f7e9c; stroke: #1f7e9c"/>
@@ -530,10 +524,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="270.466536" y="588.9525" transform="rotate(-0 270.466536 588.9525)">4</text>
      </g>
     </g>
-    <g id="text_42">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="248.096536" y="735.79919" transform="rotate(-90 248.096536 735.79919)">执行动作 2</text>
     </g>
-   </g>
    <g id="patch_9">
     <path d="M 289.287282 895.379255 L 525.702192 895.379255 L 525.702192 580.159375 L 289.287282 580.159375 z " clip-path="url(#pfbbd7d482d)" style="fill: #f2f6f8; stroke: #f2f6f8; stroke-linejoin: miter"/>
    </g>
@@ -749,10 +740,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #66889b" x="834.010526" y="588.755648" transform="rotate(-0 834.010526 588.755648)">2.0</text>
      </g>
     </g>
-    <g id="text_60">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1e3145" x="793.442401" y="735.79919" transform="rotate(-90 793.442401 735.79919)">执行动作对内部输出的导数</text>
     </g>
-   </g>
    <g id="line2d_98">
     <path d="M 866.273684 891.618108 L 878.936921 890.808363 L 890.333835 889.842961 L 900.464424 888.7405 L 909.32869 887.538457 L 916.926632 886.292944 L 924.524575 884.809996 L 930.856193 883.361873 L 937.187812 881.690333 L 943.51943 879.76305 L 948.584725 878.012859 L 953.65002 876.055389 L 958.715315 873.86841 L 963.780609 871.427929 L 968.845904 868.708214 L 973.911199 865.68189 L 978.976494 862.320104 L 982.775465 859.560569 L 986.574436 856.582433 L 990.373407 853.372545 L 994.172378 849.917759 L 997.971349 846.205126 L 1001.770321 842.222108 L 1005.569292 837.956848 L 1009.368263 833.398476 L 1013.167234 828.537461 L 1016.966205 823.366015 L 1020.765176 817.878546 L 1024.564147 812.072153 L 1028.363118 805.947169 L 1033.428413 797.292713 L 1038.493708 788.102015 L 1043.559003 778.413828 L 1048.624298 768.285833 L 1054.955916 755.129462 L 1065.086506 733.43951 L 1073.950772 714.60692 L 1079.016066 704.290019 L 1082.815038 696.916145 L 1086.614009 689.951331 L 1090.41298 683.483535 L 1094.211951 677.598919 L 1096.744598 674.040628 L 1099.277246 670.80104 L 1101.809893 667.901489 L 1104.342541 665.361476 L 1106.875188 663.198406 L 1109.407835 661.42733 L 1111.940483 660.060734 L 1114.47313 659.108351 L 1117.005778 658.577015 L 1119.538425 658.470555 L 1122.071072 658.789741 L 1124.60372 659.532269 L 1127.136367 660.692797 L 1129.669015 662.263025 L 1132.201662 664.231825 L 1134.734309 666.5854 L 1137.266957 669.307495 L 1139.799604 672.379623 L 1142.332252 675.781333 L 1144.864899 679.490482 L 1148.66387 685.578863 L 1152.462841 692.222039 L 1156.261812 699.333006 L 1161.327107 709.389827 L 1167.658726 722.598311 L 1189.186229 768.285833 L 1194.251524 778.413828 L 1199.316818 788.102015 L 1204.382113 797.292713 L 1209.447408 805.947169 L 1214.512703 814.043105 L 1218.311674 819.743056 L 1222.110645 825.124718 L 1225.909616 830.191948 L 1229.708587 834.951122 L 1233.507558 839.410657 L 1237.306529 843.580572 L 1241.105501 847.472105 L 1244.904472 851.097371 L 1248.703443 854.469071 L 1252.502414 857.600244 L 1256.301385 860.504056 L 1260.100356 863.193627 L 1265.165651 866.468771 L 1270.230946 869.415792 L 1275.296241 872.063194 L 1280.361535 874.437953 L 1285.42683 876.565374 L 1290.492125 878.46901 L 1295.55742 880.170648 L 1301.889038 882.044011 L 1308.220657 883.668403 L 1314.552275 885.075393 L 1322.150218 886.515947 L 1329.74816 887.725639 L 1338.612426 888.892928 L 1347.476692 889.842961 L 1357.607281 890.713362 L 1369.004195 891.474829 L 1371.536842 891.618108 L 1371.536842 891.618108 " clip-path="url(#p90d16f2dad)" style="fill: none; stroke: #1f7e9c; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -793,4 +781,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="169.272353" y="138.059918" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="29.076226" fill="#25364a" text-anchor="start" aria-label="该维执行动作" id="text_16" data-axis-label="matplotlib.axis_2">该维执行动作</text><text x="169.272347" y="726.032178" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="29.076226" fill="#25364a" text-anchor="start" aria-label="内部坐标 u2" id="text_32" data-axis-label="matplotlib.axis_4">内部坐标 u2</text><text x="169.272352" y="1349.595818" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="29.076226" fill="#25364a" text-anchor="start" aria-label="执行动作 2" id="text_42" data-axis-label="matplotlib.axis_6">执行动作 2</text><text x="101.272347" y="2298.81863" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="执行动作对内部输出的导数" id="text_60" data-axis-label="matplotlib.axis_8"><tspan x="101.272347" dy="0">执行动作对内</tspan><tspan x="101.272347" dy="30.68">部输出的导数</tspan></text></svg>

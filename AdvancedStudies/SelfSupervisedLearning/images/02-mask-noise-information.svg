@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2144" viewBox="0 0 960 2144" role="img" aria-labelledby="diagram-title"><title id="diagram-title">独立、重复与相反噪声产生不同的隐藏因素后验</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2062" viewBox="0 82 960 2062" role="img" aria-labelledby="diagram-title"><title id="diagram-title">独立、重复与相反噪声产生不同的隐藏因素后验</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mc20ae8aa0e" d="M 0 0  L 0 3.5  " style="stroke: #7e8ca3; stroke-width: 0.8"/>
       <path id="m8030570ba4" d="M 0 0  L -3.5 0  " style="stroke: #7e8ca3; stroke-width: 0.8"/>
       <path id="m1f2ed0e435" d="M 0 5.361903  C 1.421993 5.361903 2.785937 4.796939 3.791438 3.791438  C 4.796939 2.785937 5.361903 1.421993 5.361903 0  C 5.361903 -1.421993 4.796939 -2.785937 3.791438 -3.791438  C 2.785937 -4.796939 1.421993 -5.361903 0 -5.361903  C -1.421993 -5.361903 -2.785937 -4.796939 -3.791438 -3.791438  C -4.796939 -2.785937 -5.361903 -1.421993 -5.361903 0  C -5.361903 1.421993 -4.796939 2.785937 -3.791438 3.791438  C -2.785937 4.796939 -1.421993 5.361903 0 5.361903  z " style="stroke: #c47645"/>
@@ -10,7 +10,7 @@
   <clipPath id="pd392f4495e">
    <rect x="632.101883" y="60.48" width="302.4" height="302.4"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2144" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">独立、重复与相反噪声产生不同的隐藏因素后验</text></g><path d="M44 94.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-111.437245 110.923496) scale(2.33052001)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2144" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-111.437245 110.923496) scale(2.33052001)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 128.938117 362.88  L 431.338117 362.88  L 431.338117 60.48  L 128.938117 60.48  z " style="fill: #ffffff"/>
    </g>
@@ -125,18 +125,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #7e8ca3" x="121.938117" y="84.074688" transform="rotate(-0 121.938117 84.074688)">2</text>
      </g>
     </g>
-    <g id="text_12">
-     <!-- 噪声 $\epsilon$ -->
-     <g style="fill: #20344a" transform="translate(90.63671 238.66) rotate(-90)">
-      <text>
-       <tspan x="0" y="-0.21875" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #20344a">噪</tspan>
-       <tspan x="19" y="-0.21875" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #20344a">声</tspan>
-       <tspan x="38" y="-0.21875" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #20344a"> </tspan>
-       <tspan x="43.62207" y="-0.21875" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #20344a">ε</tspan>
-      </text>
-     </g>
     </g>
-   </g>
    <g id="line2d_11">
     <path d="M 347.338117 211.68  L 347.204847 207.449916  L 346.805569 203.23661  L 346.141864 199.056793  L 345.216365 194.927044  L 344.032744 190.863743  L 342.595695 186.883007  L 340.910918 183.000624  L 338.985095 179.231993  L 336.825864 175.592062  L 334.441791 172.095268  L 331.84233 168.755481  L 329.037793 165.585948  L 326.039303 162.599239  L 322.858752 159.807201  L 319.508758 157.220909  L 316.002605 154.85062  L 312.354202 152.705736  L 308.578019 150.794764  L 304.689033 149.125284  L 300.70267 147.703918  L 296.634741 146.536302  L 292.501381 145.627069  L 288.318984 144.979824  L 284.104138 144.597136  L 279.873562 144.480521  L 275.644035 144.630442  L 271.432334 145.046305  L 267.255162 145.72646  L 263.129089 146.668209  L 259.070479 147.867817  L 255.095431 149.320527  L 251.219711 151.020575  L 247.458691 152.96122  L 243.827289 155.134764  L 240.339908 157.532585  L 237.01038 160.145174  L 233.851912 162.962167  L 230.877031 165.972392  L 228.097536 169.163909  L 225.524452 172.52406  L 223.167985 176.039516  L 221.037481 179.696335  L 219.14139 183.480012  L 217.487233 187.37554  L 216.081571 191.367468  L 214.929979 195.439962  L 214.037025 199.57687  L 213.406251 203.761783  L 213.040159 207.978103  L 212.9402 212.209105  L 213.106771 216.438009  L 213.539211 220.64804  L 214.235805 224.822502  L 215.193791 228.944836  L 216.409368 232.998691  L 217.877715 236.96799  L 219.593009 240.836987  L 221.548445 244.590338  L 223.736268 248.213155  L 226.1478 251.691069  L 228.773476 255.010286  L 231.602882 258.157639  L 234.624795 261.120647  L 237.82723 263.887556  L 241.197484 266.447391  L 244.72219 268.790001  L 248.387368 270.906092  L 252.178481 272.787273  L 256.080491 274.426081  L 260.077921 275.816016  L 264.154918 276.951566  L 268.295309 277.828227  L 272.482673 278.442521  L 276.700401 278.792012  L 280.931764 278.875313  L 285.159979 278.692095  L 289.368276 278.243084  L 293.539962 277.530061  L 297.658493 276.555854  L 301.707532 275.324327  L 305.671019 273.840365  L 309.533233 272.109853  L 313.278857 270.139656  L 316.893033 267.937587  L 320.361426 265.512382  L 323.67028 262.873659  L 326.80647 260.031885  L 329.757558 256.99833  L 332.511838 253.785027  L 335.058386 250.404721  L 337.387101 246.87082  L 339.488747 243.19734  L 341.354988 239.398851  L 342.978422 235.490419  L 344.352609 231.487548  L 345.4721 227.406113  L 346.332454 223.262302  L 346.930258 219.072552  L 347.263142 214.853481  L 347.338117 211.68  L 347.338117 211.68  " clip-path="url(#p915e17f4e2)" style="fill: none; stroke: #7e8ca3; stroke-opacity: 0.5; stroke-width: 1.4; stroke-linecap: square"/>
    </g>
@@ -361,4 +350,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="124.055617" y="583.187972" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="噪&#10;       声&#10;        &#10;       ε" id="text_12" data-axis-label="matplotlib.axis_2"><tspan x="124.055617" dy="0">噪       声</tspan><tspan x="124.055617" dy="30.68"></tspan><tspan x="124.055617" dy="30.68">ε</tspan></text></svg>

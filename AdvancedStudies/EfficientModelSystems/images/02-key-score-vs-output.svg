@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2719" viewBox="0 0 960 2719" role="img" aria-labelledby="diagram-title"><title id="diagram-title">相反打分扰动改变注意力与输出，共同平移保持输出，及有限扰动界对照</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2592.766818" viewBox="0 126.233182 960 2592.766818" role="img" aria-labelledby="diagram-title"><rect x="0" y="126.233182" width="960" height="2592.766818" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">相反打分扰动改变注意力与输出，共同平移保持输出，及有限扰动界对照</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m76ae605894" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-2212" d="M 3972 1772 L 788 1772 L 788 2250 L 3972 2250 L 3972 1772 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-32" d="M 2666 3572 Q 2666 3963 2419 4186 Q 2172 4409 1747 4409 Q 1447 4409 1140 4256 Q 834 4103 569 3819 L 569 4413 Q 806 4659 1107 4790 Q 1409 4922 1816 4922 Q 2472 4922 2872 4570 Q 3272 4219 3272 3619 Q 3272 3084 3026 2693 Q 2781 2303 2188 1894 Q 1581 1475 1376 1294 Q 1172 1113 1090 947 Q 1009 781 1009 544 L 3416 544 L 3416 0 L 372 0 L 372 241 Q 372 659 486 951 Q 600 1244 862 1520 Q 1125 1797 1681 2184 Q 2250 2584 2458 2886 Q 2666 3188 2666 3572 z " transform="scale(0.015625)"/>
@@ -93,7 +93,7 @@
   <clipPath id="pe296ef19e3">
    <rect x="797.963389" y="23.38899" width="307.836371" height="275.051239"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2719" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">相反打分扰动改变注意力与输出，共同平移保持输</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">出，及有限扰动界对照</text></g><path d="M 44 143.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(79.24256 170.84985) scale(2.26816115)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2719" fill="#ffffff"/><g transform="translate(79.24256 170.84985) scale(2.26816115)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 51.971646 298.440229 L 359.808018 298.440229 L 359.808018 23.38899 L 51.971646 23.38899 z " style="fill: #ffffff"/>
    </g>
@@ -303,17 +303,7 @@
       </g>
      </g>
     </g>
-    <g id="text_13">
-     <!-- 注意力概率 -->
-     <g transform="translate(15.79024 200.914609) rotate(-90) scale(0.16 -0.16)">
-      <use xlink:href="#MicrosoftYaHei-6ce8"/>
-      <use xlink:href="#MicrosoftYaHei-610f" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-529b" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6982" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(400 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_23">
     <path d="M 65.964209 285.988657 L 73.800043 284.843131 L 80.516473 283.646006 L 86.673201 282.340292 L 92.829928 280.800854 L 98.426953 279.166632 L 103.464276 277.477522 L 108.501598 275.555204 L 112.979218 273.628489 L 117.456838 271.475233 L 121.934458 269.073917 L 126.412078 266.40231 L 130.329995 263.825173 L 134.247913 261.008706 L 138.16583 257.938167 L 142.083748 254.599501 L 146.001665 250.979752 L 149.919583 247.067504 L 153.8375 242.853384 L 157.755417 238.330587 L 161.673335 233.49542 L 166.150955 227.587154 L 170.628575 221.277604 L 175.106195 214.581315 L 180.143517 206.614774 L 185.18084 198.234368 L 190.777865 188.51085 L 198.053997 175.385163 L 223.800312 128.407911 L 229.397337 118.891231 L 234.434659 110.734212 L 239.471981 103.01845 L 243.949601 96.561722 L 248.427221 90.501789 L 252.904841 84.848159 L 256.822759 80.236341 L 260.740676 75.934596 L 264.658594 71.936953 L 268.576511 68.234717 L 272.494429 64.817006 L 276.412346 61.671253 L 280.330263 58.783675 L 284.807883 55.780989 L 289.285503 53.07401 L 293.763123 50.640134 L 298.240743 48.457065 L 302.718363 46.503178 L 307.755686 44.553285 L 312.793008 42.839561 L 318.390033 41.181181 L 323.987058 39.750388 L 330.143785 38.4048 L 336.860215 37.170731 L 344.136348 36.06572 L 345.815455 35.840562 L 345.815455 35.840562 " clip-path="url(#p4873bf7264)" style="fill: none; stroke: #2174a1; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
@@ -658,16 +648,7 @@
       </g>
      </g>
     </g>
-    <g id="text_32">
-     <!-- 加权输出 -->
-     <g transform="translate(379.990018 192.914609) rotate(-90) scale(0.16 -0.16)">
-      <use xlink:href="#MicrosoftYaHei-52a0"/>
-      <use xlink:href="#MicrosoftYaHei-6743" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8f93" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-51fa" transform="translate(300 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_56">
     <path d="M 438.96008 34.649381 L 446.795915 35.805816 L 453.512345 37.014342 L 459.669072 38.332492 L 465.8258 39.886591 L 471.422824 41.536378 L 476.460147 43.241574 L 481.497469 45.182199 L 485.975089 47.127265 L 490.452709 49.301027 L 494.930329 51.725213 L 499.407949 54.422264 L 503.325867 57.023945 L 507.243784 59.867235 L 511.161701 62.967018 L 515.079619 66.33748 L 518.997536 69.991704 L 522.915454 73.941211 L 526.833371 78.195466 L 530.751289 82.761337 L 534.669206 87.642553 L 539.146826 93.607089 L 543.624446 99.976729 L 548.102066 106.736792 L 553.139388 114.779205 L 558.176711 123.239425 L 563.773736 133.055547 L 571.049868 146.306241 L 596.796183 193.730895 L 602.393208 203.338211 L 607.43053 211.572916 L 612.467853 219.362161 L 616.945473 225.880382 L 621.423093 231.998028 L 625.900713 237.705502 L 629.81863 242.361243 L 633.736547 246.703957 L 637.654465 250.739672 L 641.572382 254.477167 L 645.4903 257.927428 L 649.408217 261.103141 L 653.326135 264.018219 L 657.244052 266.687386 L 661.721672 269.456212 L 666.199292 271.946489 L 670.676912 274.180787 L 675.154532 276.18104 L 680.191854 278.177688 L 685.229177 279.932903 L 690.826202 281.631789 L 696.423227 283.097812 L 702.579954 284.476769 L 709.296384 285.741644 L 716.572516 286.874404 L 718.811326 287.179838 L 718.811326 287.179838 " clip-path="url(#pa0f77c6a8d)" style="fill: none; stroke: #2174a1; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
@@ -997,18 +978,7 @@
       </g>
      </g>
     </g>
-    <g id="text_50">
-     <!-- 输出绝对误差 -->
-     <g transform="translate(752.985889 208.914609) rotate(-90) scale(0.16 -0.16)">
-      <use xlink:href="#MicrosoftYaHei-8f93"/>
-      <use xlink:href="#MicrosoftYaHei-51fa" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7edd" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5bf9" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_86">
     <path d="M 811.955951 290.799917 L 827.067918 270.34966 L 835.463456 259.37305 L 842.739588 250.239947 L 848.896316 242.854256 L 855.053043 235.826232 L 860.650068 229.773924 L 866.247093 224.059555 L 871.284415 219.214031 L 876.321738 214.653764 L 881.35906 210.378527 L 886.396383 206.385014 L 891.433705 202.667276 L 896.471028 199.21717 L 901.50835 196.02479 L 906.545672 193.078873 L 912.142697 190.079786 L 917.739722 187.35215 L 923.336747 184.877773 L 928.933772 182.638373 L 935.0905 180.42492 L 941.247227 178.450687 L 947.963657 176.543701 L 954.680087 174.867781 L 961.956219 173.283774 L 969.792054 171.814601 L 978.187592 170.476479 L 987.142831 169.278983 L 997.217476 168.169722 L 1007.851824 167.223987 L 1020.165279 166.360902 L 1034.157841 165.615756 L 1050.389213 164.986374 L 1069.419098 164.477507 L 1091.807198 164.091101 L 1091.807198 164.091101 " clip-path="url(#pe296ef19e3)" style="fill: none; stroke: #2174a1; stroke-width: 2.7; stroke-linecap: square"/>
    </g>
@@ -1107,4 +1077,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="200.122628" y="164.899848" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="注意力概率" id="text_13" data-axis-label="matplotlib.axis_2">注意力概率</text><text x="200.122624" y="972.535458" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="加权输出" id="text_32" data-axis-label="matplotlib.axis_4">加权输出</text><text x="200.122628" y="1827.171068" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="输出绝对误差" id="text_50" data-axis-label="matplotlib.axis_6">输出绝对误差</text></svg>

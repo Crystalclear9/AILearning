@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="996.3165" viewBox="0 0 1440 996.3165" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">单 logit 与双 logit 参数化的梯度几何和单步对照</title><rect width="1440" height="996.3165" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">单 logit 与双 logit 参数化的梯度几何和单步对照</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="854.3165" viewBox="13 60 1150 731" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden">
-<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="13" y="60" width="1150" height="731" fill="#ffffff"/><title id="title">同一二类概率的参数化改变SGD有效步长</title><desc id="desc">固定输入等于1，标签1，初始logit为0。单logit步长0.2后有效logit0.1；两个logit同样步长各向相反方向移动0.1，有效差值0.2；两logit学习率减半则恢复0.1。</desc>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="731" viewBox="13 60 1150 731" role="img" aria-labelledby="title desc">
+<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef4f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="13" y="60" width="1150" height="731" fill="#ffffff"/><title id="title">单 logit 与双 logit 参数化的梯度几何和单步对照</title><desc id="desc">固定输入等于1，标签1，初始logit为0。单logit步长0.2后有效logit0.1；两个logit同样步长各向相反方向移动0.1，有效差值0.2；两logit学习率减半则恢复0.1。</desc>
 <rect width="1200" height="820" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1f3449">
 <text x="44" y="100" font-size="26" fill="#62819a" text-anchor="start" font-weight="400">固定输入 x = 1，标签 y = 1，初始概率 0.5；无动量、无正则</text>
@@ -51,4 +51,4 @@
 <rect x="44" y="692" width="1112" height="92" rx="12" fill="url(#book-wash-eef4f9)" stroke="none"/>
 <text x="65" y="730" font-size="27" fill="#1f3449" text-anchor="start" font-weight="400">两分数梯度分别为 −g 与 g，所以差值更新含 2ηg。</text>
 <text x="65" y="769" font-size="25" fill="#1f3449" text-anchor="start" font-weight="400">图仅比较自由输出分数；共享骨干的学习率不能跟着整体减半。</text>
-</g></svg></svg>
+</g></svg>

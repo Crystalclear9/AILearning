@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="951" viewBox="0 0 960 951" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="882.526134" viewBox="0 68.473866 960 882.526134" role="img" aria-labelledby="title desc">
 <title id="title">自归一化偏差从哪几个结果来</title><desc id="desc">两次采样有三个结果，估计均值为一点七，真值一点四。图 B 比较精确有限样本偏差和零点三八四除以样本数。</desc>
 <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#536f86"/></marker></defs>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0" y="0" width="960" height="951" rx="0" fill="#fff" stroke="none" stroke-width="1.8"/>
-<text x="44" y="61" font-size="39" fill="#172a40" font-weight="700" text-anchor="start">自归一化偏差从哪几个结果来</text>
 <text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">两点分布可精确枚举，不需要重复模拟估计偏差</text>
 <rect x="44" y="144" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
 <text x="65" y="174" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">A</text>

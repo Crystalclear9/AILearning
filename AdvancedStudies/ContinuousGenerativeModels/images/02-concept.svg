@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2760" viewBox="0 0 960 2760" role="img" aria-labelledby="diagram-title"><title id="diagram-title">路径相同端点不等于相同动力学：机制、算例与边界</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2631" viewBox="0 129 960 2631" role="img" aria-labelledby="diagram-title"><title id="diagram-title">路径相同端点不等于相同动力学：机制、算例与边界</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m1589b62180" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-2e" d="M 372 322 Q 372 491 487 606 Q 603 722 775 722 Q 950 722 1065 605 Q 1181 488 1181 322 Q 1181 159 1065 42 Q 950 -75 772 -75 Q 600 -75 486 42 Q 372 159 372 322 z " transform="scale(0.015625)"/>
@@ -98,7 +98,7 @@
   <clipPath id="p3a6c9ae662">
    <rect x="514.013781" y="349.584375" width="404.585979" height="251.928354"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2760" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">路径相同端点不等于相同动力学：机制、算例与</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">边界</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g transform="translate(57.173736 158.601181) scale(1.84055166)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2760" fill="#ffffff"/><g transform="translate(57.173736 158.601181) scale(1.84055166)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 51.606021 279.228594 L 456.192 279.228594 L 456.192 27.30024 L 51.606021 27.30024 z " style="fill: #ffffff"/>
    </g>
@@ -312,16 +312,7 @@
       </g>
      </g>
     </g>
-    <g id="text_13">
-     <!-- 边缘方差 -->
-     <g transform="translate(16.589615 187.264417) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-8fb9"/>
-      <use xlink:href="#MicrosoftYaHei-7f18" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-65b9" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5dee" transform="translate(300 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_23">
     <path d="M 69.996293 42.724425 L 79.559234 55.890468 L 89.122176 68.653344 L 97.949506 80.076618 L 106.776837 91.156366 L 115.604167 101.892585 L 124.431497 112.285278 L 133.258828 122.334443 L 142.086158 132.04008 L 150.913489 141.40219 L 159.740819 150.420773 L 167.832539 158.386028 L 175.924258 166.062624 L 184.015978 173.450562 L 192.107698 180.549841 L 200.199417 187.360462 L 208.291137 193.882424 L 216.382856 200.115728 L 224.474576 206.060374 L 232.566295 211.716361 L 240.658015 217.083689 L 248.749735 222.162359 L 256.105843 226.528843 L 263.461952 230.656766 L 270.818061 234.546128 L 278.174169 238.19693 L 285.530278 241.609171 L 292.886387 244.782852 L 300.242495 247.717971 L 307.598604 250.41453 L 314.954713 252.872528 L 322.310822 255.091965 L 329.66693 257.072842 L 337.023039 258.815158 L 344.379148 260.318913 L 351.735256 261.584108 L 359.091365 262.610741 L 366.447474 263.398814 L 373.803583 263.948327 L 381.159691 264.259278 L 388.5158 264.331669 L 395.871909 264.165499 L 403.228017 263.760769 L 410.584126 263.117477 L 417.940235 262.235625 L 425.296343 261.115212 L 432.652452 259.756239 L 437.801728 258.663014 L 437.801728 258.663014 " clip-path="url(#p735d40170b)" style="fill: none; stroke: #2174a1; stroke-width: 2.6; stroke-linecap: square"/>
    </g>
@@ -586,16 +577,7 @@
       </g>
      </g>
     </g>
-    <g id="text_29">
-     <!-- 概率密度 -->
-     <g transform="translate(478.997375 187.264417) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-6982"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5bc6" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(300 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_46">
     <path d="M 532.404053 267.777305 L 560.357266 267.650414 L 572.12704 267.389016 L 580.21876 266.99274 L 586.103647 266.505462 L 591.252923 265.872112 L 595.666588 265.11949 L 599.344642 264.302378 L 603.022697 263.272262 L 606.700751 261.985629 L 609.643194 260.738945 L 612.585638 259.269486 L 615.528081 257.547941 L 618.470525 255.543379 L 621.412968 253.223642 L 624.355412 250.555844 L 627.297855 247.506996 L 630.240299 244.044743 L 633.182742 240.138217 L 636.125186 235.758998 L 639.067629 230.882163 L 642.010073 225.487405 L 644.952516 219.560198 L 647.89496 213.092965 L 650.837403 206.086224 L 653.779847 198.549658 L 657.457901 188.415084 L 661.135955 177.547222 L 665.549621 163.66812 L 670.698897 146.59541 L 686.882336 92.058167 L 690.56039 80.80056 L 693.502834 72.445302 L 696.445277 64.795143 L 698.65211 59.586769 L 700.858942 54.880277 L 703.065775 50.715341 L 705.272608 47.12759 L 706.743829 45.071959 L 708.215051 43.294755 L 709.686273 41.802922 L 711.157495 40.602322 L 712.628716 39.697687 L 714.099938 39.092597 L 715.57116 38.78945 L 717.042381 38.78945 L 718.513603 39.092597 L 719.984825 39.697687 L 721.456047 40.602322 L 722.927268 41.802922 L 724.39849 43.294755 L 725.869712 45.071959 L 727.340934 47.12759 L 729.547766 50.715341 L 731.754599 54.880277 L 733.961432 59.586769 L 736.168264 64.795143 L 739.110708 72.445302 L 742.053151 80.80056 L 745.731205 92.058167 L 750.144871 106.44912 L 756.765368 128.993764 L 764.857088 156.446367 L 769.270753 170.711211 L 772.948808 181.977178 L 776.626862 192.561045 L 780.304916 202.383179 L 783.24736 209.656655 L 786.189803 216.394255 L 789.132247 222.591008 L 792.07469 228.250581 L 795.017134 233.384173 L 797.959577 238.009347 L 800.902021 242.14886 L 803.844464 245.82952 L 806.786908 249.081098 L 809.729351 251.935318 L 812.671795 254.424952 L 815.614238 256.583024 L 818.556682 258.442124 L 821.499125 260.033853 L 824.441569 261.388374 L 827.384012 262.534075 L 831.062066 263.712531 L 834.740121 264.65253 L 839.153786 265.523581 L 843.567451 266.171734 L 848.716727 266.713338 L 855.337225 267.166497 L 863.428945 267.48029 L 875.198719 267.683547 L 895.795823 267.772658 L 900.209488 267.777305 L 900.209488 267.777305 " clip-path="url(#p9d6d9e7fd7)" style="fill: none; stroke: #2174a1; stroke-width: 2.6; stroke-linecap: square"/>
    </g>
@@ -1113,20 +1095,7 @@
       </g>
      </g>
     </g>
-    <g id="text_57">
-     <!-- 单位时间平均动能 -->
-     <g transform="translate(478.997375 543.548552) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-5355"/>
-      <use xlink:href="#MicrosoftYaHei-4f4d" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-65f6" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-95f4" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5e73" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5747" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-52a8" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-80fd" transform="translate(700 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_14">
     <path d="M 532.404053 601.512729 L 602.462231 601.512729 L 602.462231 384.025213 L 532.404053 384.025213 z " clip-path="url(#p3a6c9ae662)" style="fill: #2174a1"/>
    </g>
@@ -1205,4 +1174,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="155.157284" y="185.848683" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.289378" fill="#25364a" text-anchor="start" aria-label="边缘方差" id="text_13" data-axis-label="matplotlib.axis_2">边缘方差</text><text x="155.157285" y="853.369987" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.289378" fill="#25364a" text-anchor="start" aria-label="概率密度" id="text_29" data-axis-label="matplotlib.axis_4">概率密度</text><text x="155.157285" y="2109.788763" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="31.289378" fill="#25364a" text-anchor="start" aria-label="单位时间平均动能" id="text_57" data-axis-label="matplotlib.axis_8">单位时间平均动能</text></svg>

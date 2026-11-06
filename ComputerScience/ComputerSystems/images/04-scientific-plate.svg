@@ -1,11 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="514" viewBox="0 0 960 514" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="451" viewBox="0 63 960 451" role="img" aria-labelledby="title desc">
 <title id="title">四条线程怎样触及一段或四段</title>
 <desc id="desc">每段示意包含四个 float32 元素。四条线程读取相邻索引 0、1、2、3 时都触及段 0。读取索引 0、4、8、12 时每条线程分别触及一段。</desc>
 <rect x="0" y="0" width="960" height="514" fill="#fff" stroke="none"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
-<rect x="36" y="25" width="5" height="32" fill="#526bab" stroke="none"/>
-<text x="56" y="53" fill="#172e46" font-size="35" text-anchor="start" font-weight="700">四条线程怎样触及一段或四段</text>
-<path d="M36 72L924 72" stroke="#d7e1ee" stroke-width="1.4"/>
 <text x="60" y="117" fill="#172e46" font-size="31" text-anchor="start" font-weight="700">A  连续读取</text>
 <text x="900" y="117" fill="#166f64" font-size="28" text-anchor="end" font-weight="700">触及 1 段</text>
 <rect x="60" y="180" width="52" height="50" fill="#a9cce4" stroke="#b9cbd9"/>

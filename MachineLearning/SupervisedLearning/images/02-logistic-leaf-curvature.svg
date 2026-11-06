@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="3000" viewBox="0 0 960 3000" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一逻辑损失叶内的真实目标、二阶近似与概率更新</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2883.590996" viewBox="0 116.409004 960 2883.590996" role="img" aria-labelledby="diagram-title"><rect x="0" y="116.409004" width="960" height="2883.590996" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">同一逻辑损失叶内的真实目标、二阶近似与概率更新</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m3b72f6bc6e" d="M 0 0 L 0 3.5 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
       <path id="m41d6c1f5a7" d="M 0 0 L -3.5 0 " style="stroke: #5c7c8d; stroke-width: 0.8"/>
       <path id="C0_0_8489d31c2b" d="M 0 4.472136 C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278 C 4.000923 2.323632 4.472136 1.186024 4.472136 -0 C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278 C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136 C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278 C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0 C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278 C -2.323632 4.000923 -1.186024 4.472136 0 4.472136 z "/>
@@ -14,7 +14,7 @@
   <clipPath id="pea29635b4d">
    <rect x="1013.776752" y="50.385" width="337.736842" height="332.64"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="3000" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">同一逻辑损失叶内的真实目标、二阶近似与概率更</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">新</text></g><path d="M 44 143.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(77.63700 159.40146) scale(2.01794603)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="3000" fill="#ffffff"/><g transform="translate(77.63700 159.40146) scale(2.01794603)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 68.113594 383.025 L 405.850436 383.025 L 405.850436 50.385 L 68.113594 50.385 z " style="fill: #ffffff"/>
    </g>
@@ -178,10 +178,7 @@
       <text style="font-size: 21.96px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #5c7c8d" x="61.113594" y="68.849651" transform="rotate(-0 61.113594 68.849651)">3.6</text>
      </g>
     </g>
-    <g id="text_13">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1f3449" x="24.78625" y="216.705" transform="rotate(-90 24.78625 216.705)">四例交叉熵之和</text>
     </g>
-   </g>
    <g id="line2d_23">
     <path d="M 68.113594 72.136655 L 74.131177 92.613599 L 80.14876 112.348107 L 86.166343 131.328891 L 92.183925 149.545816 L 98.201508 166.989971 L 103.466893 181.613662 L 108.732279 195.635567 L 113.997664 209.05222 L 119.263049 221.860983 L 124.528434 234.060057 L 129.793819 245.648495 L 135.059204 256.626209 L 139.572391 265.550148 L 144.085578 274.026923 L 148.598765 282.057971 L 153.111953 289.645182 L 157.62514 296.790887 L 162.138327 303.49785 L 166.651514 309.769259 L 171.164701 315.608711 L 174.925691 320.147822 L 178.68668 324.392241 L 182.447669 328.344658 L 186.208659 332.007931 L 189.969648 335.385083 L 193.730637 338.479288 L 197.491627 341.29387 L 201.252616 343.83229 L 205.013605 346.098141 L 208.774595 348.095134 L 212.535584 349.827098 L 216.296573 351.297964 L 220.057563 352.51176 L 223.818552 353.4726 L 227.579541 354.184679 L 231.340531 354.652261 L 235.10152 354.879671 L 238.862509 354.871291 L 242.623499 354.631546 L 246.384488 354.164899 L 250.145477 353.475844 L 253.906467 352.568896 L 257.667456 351.448586 L 261.428445 350.119454 L 265.189435 348.58604 L 269.702622 346.482679 L 274.215809 344.099499 L 278.728996 341.44428 L 283.242184 338.52475 L 287.755371 335.348574 L 292.268558 331.92334 L 297.533943 327.622459 L 302.799328 323.004541 L 308.064713 318.081138 L 313.330098 312.863588 L 318.595483 307.362998 L 324.613066 300.743959 L 330.630649 293.785234 L 336.648232 286.502187 L 343.418013 277.939627 L 350.187794 269.005937 L 356.957575 259.720841 L 364.479553 249.014942 L 372.001532 237.923434 L 380.275708 225.305618 L 388.549885 212.27971 L 397.576259 197.637286 L 405.850436 183.847276 L 405.850436 183.847276 " clip-path="url(#p180da9caa9)" style="fill: none; stroke: #1f7e9c; stroke-width: 2.7; stroke-linecap: square"/>
    </g>
@@ -374,10 +371,7 @@
       <text style="font-size: 21.9px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #5c7c8d" x="533.945173" y="57.979062" transform="rotate(-0 533.945173 57.979062)">1.5</text>
      </g>
     </g>
-    <g id="text_28">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1f3449" x="483.525173" y="216.705" transform="rotate(-90 483.525173 216.705)">总损失的一阶导数</text>
     </g>
-   </g>
    <g id="line2d_47">
     <path d="M 540.945173 361.113623 L 551.475943 351.190397 L 563.511109 339.536763 L 577.802868 325.363197 L 597.360013 305.617507 L 626.695729 276.001424 L 640.987489 261.904214 L 653.022655 250.338716 L 663.553425 240.508525 L 673.331997 231.661248 L 683.110569 223.114081 L 692.136944 215.511762 L 701.163318 208.201214 L 710.189693 201.194359 L 718.463869 195.04556 L 726.738046 189.163394 L 735.012222 183.549957 L 743.286399 178.205383 L 751.560575 173.128018 L 759.834752 168.314613 L 768.108928 163.760513 L 776.383105 159.45985 L 784.657281 155.405733 L 792.931458 151.590426 L 801.205635 148.00552 L 810.232009 144.346985 L 819.258383 140.939931 L 828.284758 137.771943 L 837.311132 134.830452 L 847.089704 131.884854 L 856.868277 129.174508 L 866.646849 126.683928 L 877.177619 124.230305 L 878.682015 123.898108 L 878.682015 123.898108 " clip-path="url(#p8757b9497e)" style="fill: none; stroke: #1f7e9c; stroke-width: 2.7; stroke-linecap: square"/>
    </g>
@@ -668,4 +662,4 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #1f3449" x="1013.776752" y="26.385" transform="rotate(-0 1013.776752 26.385)">C  分数更新后再映射为概率</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="218.086557" y="155.075671" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="四例交叉熵之和" id="text_13" data-axis-label="matplotlib.axis_2">四例交叉熵之和</text><text x="126.086554" y="1541.507944" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="总损失的一阶导数" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="126.086554" dy="0">总损失的</tspan><tspan x="126.086554" dy="30.68">一阶导数</tspan></text></svg>

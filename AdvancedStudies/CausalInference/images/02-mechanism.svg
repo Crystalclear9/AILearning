@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1075.3333" viewBox="0 0 1440 1075.3333" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">交叉拟合让打分使用未参与拟合的样本</title><rect width="1440" height="1075.3333" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">交叉拟合让打分使用未参与拟合的样本</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="933.3333" viewBox="0 0 1440 1000" role="img" x="48" y="106" overflow="hidden"><defs><linearGradient id="book-wash-fff1e7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff1e7"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient><linearGradient id="book-wash-edf5f8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#edf5f8"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title>交叉拟合：每条得分只接收“没有用过自己”的那轮预测</title><rect width="1440" height="1000" fill="white"/><g font-family="Microsoft YaHei, sans-serif">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" role="img" aria-labelledby="plate-title"><defs><linearGradient id="book-wash-fff1e7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff1e7"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient><linearGradient id="book-wash-edf5f8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#edf5f8"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title id="plate-title">交叉拟合让打分使用未参与拟合的样本</title><rect width="1440" height="1000" fill="white"/><g font-family="Microsoft YaHei, sans-serif">
 <text x="55" y="65" font-size="38" fill="#1d3145" text-anchor="start">交叉拟合：每条得分只接收“没有用过自己”的那轮预测</text>
 <text x="60" y="125" font-size="29" fill="#1d3145" text-anchor="start">6000 个独立单位；5 折各 1200；每轮其余 4800 拟合全部辅助函数</text>
 <text x="400" y="190" font-size="28" fill="#1d3145" text-anchor="middle">折 1</text>
@@ -57,4 +57,4 @@
 <text x="1120" y="860" font-size="26" fill="#c66d3a" text-anchor="middle">残差修正 (3−2)÷0.25</text>
 <text x="1290" y="797" font-size="30" fill="#1d3145" text-anchor="start">= 5</text>
 <text x="60" y="930" font-size="28" fill="#1d3145" text-anchor="start">每条记录只计一次 → 平均 6000 条得分；训练集重叠仍会带来共享随机性。</text>
-</g></svg></svg>
+</g></svg>

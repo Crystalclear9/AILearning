@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1570" viewBox="0 0 960 1570" role="img" aria-labelledby="artwork-title"><title id="artwork-title">势函数塑形的中间项会在折扣和中抵消</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1035.807816" height="1523" viewBox="-75.807816 47 1035.807816 1523" role="img" aria-labelledby="artwork-title"><rect x="-75.807816" y="47" width="1035.807816" height="1523" fill="#ffffff" id="plate-canvas"/><title id="artwork-title">势函数塑形的中间项会在折扣和中抵消</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m0df19e1960" d="M 0 0  L 0 3.5  " style="stroke: #7e8ca3; stroke-width: 0.8"/>
       <path id="m075628ddd4" d="M 0 0  L -3.5 0  " style="stroke: #7e8ca3; stroke-width: 0.8"/>
       <path id="mf521eed040" d="M 0 4.330127  C 1.148363 4.330127 2.249847 3.873878 3.061862 3.061862  C 3.873878 2.249847 4.330127 1.148363 4.330127 0  C 4.330127 -1.148363 3.873878 -2.249847 3.061862 -3.061862  C 2.249847 -3.873878 1.148363 -4.330127 0 -4.330127  C -1.148363 -4.330127 -2.249847 -3.873878 -3.061862 -3.061862  C -3.873878 -2.249847 -4.330127 -1.148363 -4.330127 0  C -4.330127 1.148363 -3.873878 2.249847 -3.061862 3.061862  C -2.249847 3.873878 -1.148363 4.330127 0 4.330127  z " style="stroke: #bd6731"/>
@@ -10,7 +10,7 @@
   <clipPath id="pe0c4a2a8db">
    <rect x="578.763767" y="64.8" width="409.076233" height="289.44"/>
   </clipPath>
- </defs><rect width="960" height="1570" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">势函数塑形的中间项会在折扣和中抵消</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><rect x="35" y="86" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="111" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(26.128099 94.070248) scale(1.813017)"><g id="axes_1">
+ </defs><rect width="960" height="1570" fill="#ffffff"/><rect x="35" y="86" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="111" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(26.128099 94.070248) scale(1.813017)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 75.6 354.24  L 484.676233 354.24  L 484.676233 64.8  L 75.6 64.8  z " style="fill: #ffffff"/>
    </g>
@@ -119,10 +119,7 @@
       <text style="font-size: 20.23px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #47586b" x="68.6" y="128.605597" transform="rotate(-0 68.6 128.605597)">2</text>
      </g>
     </g>
-    <g id="text_8">
-     <text style="font-size: 24.51px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20344a" x="37.298594" y="209.52" transform="rotate(-90 37.298594 209.52)">已乘入时间折扣的势贡献</text>
     </g>
-   </g>
    <g id="line2d_8">
     <line clip-path="url(#p52b28c5929)" style="fill: none; stroke: #7e8ca3; stroke-linecap: square" stroke-width="1.23" x1="75.6" y1="209.52" x2="484.676233" y2="209.52"/>
    </g>
@@ -360,4 +357,4 @@
     <text style="font-size: 27.09px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #20344a" x="578.763767" y="46.8" transform="rotate(-0 578.763767 46.8)">终端势 = 1：总和 = -1.19</text>
    </g>
   </g>
- </g></svg>
+ </g><text x="98.192184" y="467.95357" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="已乘入时间折扣的势贡献" id="text_8" data-axis-label="matplotlib.axis_2"><tspan x="98.192184" dy="0">已乘入时间折</tspan><tspan x="98.192184" dy="30.68">扣的势贡献</tspan></text></svg>

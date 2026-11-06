@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="903" viewBox="0 0 960 903" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="834.530708" viewBox="0 68.469292 960 834.530708" role="img" aria-labelledby="title desc">
 <title id="title">从一次观察到七十种随机分配</title><desc id="desc">每组四个样本，固定八个结果。完整枚举得到七十种分配，绝对均值差达到四的只有两种。</desc>
 <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#536f86"/></marker></defs>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0" y="0" width="960" height="903" rx="0" fill="#fff" stroke="none" stroke-width="1.8"/>
-<text x="44" y="61" font-size="39" fill="#172a40" font-weight="700" text-anchor="start">从一次观察到七十种随机分配</text>
 <text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">精确随机化检验把结果固定，只改变分组</text>
 <rect x="44" y="142" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
 <text x="65" y="172" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">A</text>
@@ -43,7 +43,7 @@
 <line x1="151.0" y1="732" x2="847.0" y2="732" stroke="#465d72" stroke-width="2"/>
 <line x1="151.0" y1="732" x2="151.0" y2="576" stroke="#465d72" stroke-width="2"/>
 <line x1="151.0" y1="732" x2="151.0" y2="740" stroke="#465d72" stroke-width="2"/>
-<text x="151.0" y="768" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle"></text>
+<text x="151.0" y="768" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle"/>
 <line x1="178.99999999999997" y1="732" x2="178.99999999999997" y2="740" stroke="#465d72" stroke-width="2"/>
 <text x="178.99999999999997" y="768" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">−4</text>
 <line x1="339.0" y1="732" x2="339.0" y2="740" stroke="#465d72" stroke-width="2"/>
@@ -55,7 +55,7 @@
 <line x1="819.0" y1="732" x2="819.0" y2="740" stroke="#465d72" stroke-width="2"/>
 <text x="819.0" y="768" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">4</text>
 <line x1="847.0" y1="732" x2="847.0" y2="740" stroke="#465d72" stroke-width="2"/>
-<text x="847.0" y="768" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle"></text>
+<text x="847.0" y="768" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle"/>
 <text x="150" y="551" font-size="24" fill="#465d72" font-weight="400" text-anchor="start">分配数</text>
 <rect x="165.99999999999997" y="719" width="26" height="13" rx="3" fill="#a85127" stroke="none" stroke-width="1.8"/>
 <rect x="205.99999999999997" y="719" width="26" height="13" rx="3" fill="#136d84" stroke="none" stroke-width="1.8"/>

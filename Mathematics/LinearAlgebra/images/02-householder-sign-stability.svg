@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1694" viewBox="0 0 960 1694" role="img" aria-labelledby="diagram-title"><title id="diagram-title">Householder两种反射轴，以及异号与同号构造的浮点消元残留</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1565" viewBox="0 129 960 1565" role="img" aria-labelledby="diagram-title"><title id="diagram-title">Householder两种反射轴，以及异号与同号构造的浮点消元残留</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m217071a21b" d="M 0 0 L 0 3.5 " style="stroke: #527588; stroke-width: 0.8"/>
       <path id="m7d6b077571" d="M 0 0 L -3.5 0 " style="stroke: #527588; stroke-width: 0.8"/>
       <clipPath id="pad44c50d77">
@@ -8,7 +8,7 @@
   <clipPath id="p132c398fdd">
    <rect x="679.68" y="90.72" width="403.2" height="312.48"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1694" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">Householder两种反射轴，以及异号与同号构造的</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">浮点消元残留</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(37.240920 99.940863) scale(1.63687224)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1694" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(37.240920 99.940863) scale(1.63687224)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 115.2 381.36 L 518.4 381.36 L 518.4 112.56 L 115.2 112.56 z " style="fill: #ffffff"/>
    </g>
@@ -83,10 +83,7 @@
       <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527588" x="108.2" y="181.03375" transform="rotate(-0 108.2 181.03375)">1</text>
      </g>
     </g>
-    <g id="text_7">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #20354b" x="79.002812" y="246.96" transform="rotate(-90 79.002812 246.96)">第二坐标</text>
     </g>
-   </g>
    <g id="line2d_11">
     <path d="M 358.48637 484.026297 L 275.11363 130.853703 " clip-path="url(#pad44c50d77)" style="fill: none; stroke: #20759b; stroke-opacity: 0.7; stroke-width: 2.6; stroke-linecap: square"/>
    </g>
@@ -351,4 +348,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="228.808602" y="195.187202" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="第二坐标" id="text_7" data-axis-label="matplotlib.axis_2">第二坐标</text></svg>

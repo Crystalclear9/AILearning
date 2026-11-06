@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1792" viewBox="0 0 960 1792" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">独立与完全依赖检验的FWER及误报计数概率质量</title><desc id="artwork-desc">相同期望误报数，至少一次误报的概率却不同 两种未校正方案均 E[V]=1；FWER 分别约 0.6415 与 0.05。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1745" viewBox="0 47 960 1745" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">独立与完全依赖检验的FWER及误报计数概率质量</title><desc id="artwork-desc">相同期望误报数，至少一次误报的概率却不同 两种未校正方案均 E[V]=1；FWER 分别约 0.6415 与 0.05。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m94bc87bc1f" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="m4f083f5064" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
       <clipPath id="pbe48b3ca78">
@@ -8,7 +8,7 @@
   <clipPath id="pd22d0fdd03">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1792" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">独立与完全依赖检验的FWER及误报计数概率质量</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-3.892175 29.408818) scale(0.991615)"><g id="text_36">
+ </defs><rect width="960" height="1792" fill="#ffffff"/><g transform="translate(-3.892175 29.408818) scale(0.991615)"><g id="text_36">
    <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #47586b" x="51.84" y="81.648" transform="rotate(-0 51.84 81.648)">m 个真零假设，每项误报率 0.05；比较独立与完全相同的拒绝事件</text>
   </g>
   </g><rect x="35" y="143.5" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="168.5" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(-10.56879 -21.514812) scale(1.720186)"><g id="axes_1">
@@ -164,10 +164,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="108.2" y="182.95375" transform="rotate(-0 108.2 182.95375)">1.0</text>
      </g>
     </g>
-    <g id="text_13">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="62.459062" y="330.48" transform="rotate(-90 62.459062 330.48)">P(误报数 V≥1)</text>
     </g>
-   </g>
    <g id="line2d_23">
     <polyline clip-path="url(#pbe48b3ca78)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="115.2,470.448 125.538462,455.6736 135.876923,441.63792 146.215385,428.304024 156.553846,415.636823 166.892308,403.602982 177.230769,392.170833 187.569231,381.310291 197.907692,370.992776 208.246154,361.191138 218.584615,351.879581 228.923077,343.033602 239.261538,334.629922 249.6,326.646426 259.938462,319.062104 270.276923,311.856999 280.615385,305.012149 290.953846,298.509542 301.292308,292.332065 311.630769,286.463461 321.969231,280.888288 332.307692,275.591874 342.646154,270.56028 352.984615,265.780266 363.323077,261.239253 373.661538,256.92529 384,252.827026 394.338462,248.933674 404.676923,245.234991 415.015385,241.721241 425.353846,238.383179 435.692308,235.21202 446.030769,232.199419 456.369231,229.337448 466.707692,226.618576 477.046154,224.035647 487.384615,221.581865 497.723077,219.250771 508.061538,217.036233 518.4,214.932421"/>
    </g>
@@ -376,10 +373,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="672.68" y="197.765179" transform="rotate(-0 672.68 197.765179)">1.0</text>
      </g>
     </g>
-    <g id="text_31">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="626.939062" y="330.48" transform="rotate(-90 626.939062 330.48)">概率质量</text>
     </g>
-   </g>
    <g id="patch_7">
     <path d="M 698.007273 486 L 719.948374 486 L 719.948374 379.806227 L 698.007273 379.806227 z " clip-path="url(#pd22d0fdd03)" style="fill: #15688c"/>
    </g>
@@ -443,4 +437,4 @@
     </g>
    </g>
   </g>
-  </g></svg>
+  </g><text x="190.596637" y="173.448931" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="P(误报数 V≥1)" id="text_13" data-axis-label="matplotlib.axis_2">P(误报数 V≥1)</text><text x="190.596696" y="1021.842545" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="概率质量" id="text_31" data-axis-label="matplotlib.axis_4">概率质量</text></svg>

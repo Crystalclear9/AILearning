@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2550" viewBox="0 0 960 2550" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一双点噪声下，二阶均值偏移与高阶抵消的精确比较</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2428.68734" viewBox="0 121.31266 960 2428.68734" role="img" aria-labelledby="diagram-title"><rect x="0" y="121.31266" width="960" height="2428.68734" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">同一双点噪声下，二阶均值偏移与高阶抵消的精确比较</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m1520c3d3e5" d="M 0 0 L 0 3.5 " style="stroke: #608397; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-2212" d="M 3972 1772 L 788 1772 L 788 2250 L 3972 2250 L 3972 1772 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-31" d="M 1781 0 L 1781 4141 Q 1638 3997 1295 3819 Q 953 3641 663 3569 L 663 4169 Q 1047 4275 1484 4508 Q 1922 4741 2156 4947 L 2388 4947 L 2388 0 L 1781 0 z " transform="scale(0.015625)"/>
@@ -113,7 +113,7 @@
   <clipPath id="p76ad49243b">
    <rect x="576.458588" y="373.06726" width="441.380932" height="242.333197"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2550" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">同一双点噪声下，二阶均值偏移与高阶抵消的精确</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">比较</text></g><path d="M 44 143.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(59.78082 147.75236) scale(1.66354957)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2550" fill="#ffffff"/><g transform="translate(59.78082 147.75236) scale(1.66354957)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 63.032188 291.160698 L 504.413119 291.160698 L 504.413119 48.8275 L 63.032188 48.8275 z " style="fill: #ffffff"/>
    </g>
@@ -358,18 +358,7 @@
       </g>
      </g>
     </g>
-    <g id="text_15">
-     <!-- 单点概率质量 -->
-     <g style="fill: #223950" transform="translate(29.429375 220.994099) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-5355"/>
-      <use xlink:href="#MicrosoftYaHei-70b9" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6982" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8d28" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cf" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#pcbfa936fd8)">
      <use xlink:href="#m0b7e5d9614" x="113.960757" y="118.065556" style="fill: #207397; stroke: #207397"/>
@@ -650,15 +639,7 @@
       </g>
      </g>
     </g>
-    <g id="text_31">
-     <!-- 输出值 -->
-     <g style="fill: #223950" transform="translate(533.213432 195.494099) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-8f93"/>
-      <use xlink:href="#MicrosoftYaHei-51fa" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(200 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_2">
     <g clip-path="url(#pbace86b2f9)">
      <use xlink:href="#ma4ef2eba34" x="618.017182" y="95.460294" style="fill: #207397; stroke: #207397"/>
@@ -953,20 +934,7 @@
       </g>
      </g>
     </g>
-    <g id="text_46">
-     <!-- 对输出期望的贡献 -->
-     <g style="fill: #223950" transform="translate(29.429375 562.233859) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-5bf9"/>
-      <use xlink:href="#MicrosoftYaHei-8f93" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-51fa" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-671f" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-671b" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-8d21" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-732e" transform="translate(700 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_9">
     <path d="M 83.094957 593.370167 L 261.430687 593.370167 L 261.430687 455.68085 L 83.094957 455.68085 z " clip-path="url(#p77ce6bd142)" style="fill: #207397"/>
    </g>
@@ -1403,17 +1371,7 @@
       </g>
      </g>
     </g>
-    <g id="text_60">
-     <!-- 期望的尺度 -->
-     <g style="fill: #223950" transform="translate(528.082494 536.733859) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-671f"/>
-      <use xlink:href="#MicrosoftYaHei-671b" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5c3a" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(400 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_110">
     <path d="M 596.521358 494.233859 L 997.77675 384.082405 L 997.77675 384.082405 " clip-path="url(#p76ad49243b)" style="fill: none; stroke: #207397; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
@@ -1481,4 +1439,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="167.637989" y="155.979327" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.280343" fill="#25364a" text-anchor="start" aria-label="单点概率质量" id="text_15" data-axis-label="matplotlib.axis_2">单点概率质量</text><text x="167.637986" y="731.770647" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.280343" fill="#25364a" text-anchor="start" aria-label="输出值" id="text_31" data-axis-label="matplotlib.axis_4">输出值</text><text x="167.637989" y="1341.0477" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.280343" fill="#25364a" text-anchor="start" aria-label="对输出期望的贡献" id="text_46" data-axis-label="matplotlib.axis_6">对输出期望的贡献</text><text x="167.637986" y="1914.52627" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.280343" fill="#25364a" text-anchor="start" aria-label="期望的尺度" id="text_60" data-axis-label="matplotlib.axis_8">期望的尺度</text></svg>

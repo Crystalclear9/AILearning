@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1058" viewBox="0 0 960 1058" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="988.36" viewBox="0 69.64 960 988.36" role="img" aria-labelledby="title desc">
 <title id="title">降低温度，梯度集中到哪一个负例</title><desc id="desc">固定三个相似度。比较温度一和零点一的归一化概率，以及每个分数的带符号梯度。</desc>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0.000" y="0.000" width="960.000" height="1058.000" rx="0" fill="#ffffff" stroke="none" stroke-width="1.6"/>
-<text x="44.000" y="61.000" fill="#172a40" font-size="38" font-weight="700" text-anchor="start">降低温度，梯度集中到哪一个负例</text>
 <text x="46.000" y="106.000" fill="#465d72" font-size="26" font-weight="400" text-anchor="start">固定相似度 1、0.8、0，只有第一项是正例</text>
 <line x1="138.000" y1="147.000" x2="174.000" y2="147.000" stroke="#136d84" stroke-width="4" stroke-dasharray="none"/>
 <text x="187.000" y="155.000" fill="#136d84" font-size="24" font-weight="650" text-anchor="start">正例</text>

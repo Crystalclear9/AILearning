@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2566" viewBox="0 0 960 2566" role="img" aria-labelledby="diagram-title"><title id="diagram-title">恒定梯度下 Adam 的原始矩与偏差修正</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2491.196414" viewBox="0 74.803586 960 2491.196414" role="img" aria-labelledby="diagram-title"><rect x="0" y="74.803586" width="960" height="2491.196414" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">恒定梯度下 Adam 的原始矩与偏差修正</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mfbdb2a6ef6" d="M 0 0 L 0 3.5 " style="stroke: #608397; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
        <path id="MicrosoftYaHei-35" d="M 3294 1494 Q 3294 784 2823 350 Q 2353 -84 1559 -84 Q 878 -84 544 119 L 544 744 Q 1034 425 1544 425 Q 2050 425 2361 704 Q 2672 984 2672 1447 Q 2672 1909 2348 2167 Q 2025 2425 1434 2425 Q 978 2425 613 2384 L 791 4841 L 3053 4841 L 3053 4303 L 1306 4303 L 1206 2931 L 1647 2950 Q 2416 2950 2855 2567 Q 3294 2184 3294 1494 z " transform="scale(0.015625)"/>
@@ -98,7 +98,7 @@
   <clipPath id="p057a1aac79">
    <rect x="577.70476" y="373.06726" width="440.13476" height="242.333197"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="2566" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">恒定梯度下 Adam 的原始矩与偏差修正</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(34.54626 100.54626) scale(1.68465161)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="2566" fill="#ffffff"/><g transform="translate(34.54626 100.54626) scale(1.68465161)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 72.674531 291.160698 L 512.809291 291.160698 L 512.809291 48.8275 L 72.674531 48.8275 z " style="fill: #ffffff"/>
    </g>
@@ -300,15 +300,7 @@
       </g>
      </g>
     </g>
-    <g id="text_14">
-     <!-- 一阶矩 -->
-     <g style="fill: #223950" transform="translate(39.071719 195.494099) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-4e00"/>
-      <use xlink:href="#MicrosoftYaHei-9636" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-77e9" transform="translate(200 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_18">
     <path d="M 92.680657 280.145552 L 106.477985 258.115261 L 120.275313 238.288 L 134.07264 220.443464 L 147.869968 204.383383 L 161.667296 189.929309 L 175.464624 176.920642 L 189.261952 165.212843 L 203.05928 154.675823 L 216.856608 145.192505 L 230.653936 136.657519 L 244.451264 128.976032 L 258.248592 122.062693 L 272.045919 115.840688 L 285.843247 110.240884 L 299.640575 105.20106 L 313.437903 100.665219 L 327.235231 96.582961 L 341.032559 92.90893 L 354.829887 89.602301 L 368.627215 86.626336 L 382.424543 83.947967 L 396.22187 81.537435 L 410.019198 79.367956 L 423.816526 77.415425 L 437.613854 75.658147 L 451.411182 74.076597 L 465.20851 72.653201 L 479.005838 71.372146 L 492.803166 70.219196 " clip-path="url(#p891a367f2b)" style="fill: none; stroke: #207397; stroke-width: 2.5; stroke-linecap: square"/>
    </g>
@@ -580,20 +572,7 @@
       </g>
      </g>
     </g>
-    <g id="text_32">
-     <!-- 矩比值（ε=0） -->
-     <g style="fill: #223950" transform="translate(554.855385 227.829958) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-77e9"/>
-      <use xlink:href="#MicrosoftYaHei-6bd4" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-3b5" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-3d" transform="translate(447.607422 0)"/>
-      <use xlink:href="#MicrosoftYaHei-30" transform="translate(521.777344 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(580.419922 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p3ee34f39a7)">
      <use xlink:href="#m2f3bf451ce" x="597.710885" y="194.601093" style="fill: #207397; stroke: #207397"/>
@@ -880,18 +859,7 @@
       </g>
      </g>
     </g>
-    <g id="text_50">
-     <!-- 梯度与修正矩 -->
-     <g style="fill: #223950" transform="translate(29.429375 545.233859) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-68af"/>
-      <use xlink:href="#MicrosoftYaHei-5ea6" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e0e" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4fee" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6b63" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-77e9" transform="translate(500 0)"/>
-     </g>
     </g>
-   </g>
    <g id="PathCollection_2">
     <g clip-path="url(#p4d3645728c)">
      <use xlink:href="#m27107c3f82" x="230.653936" y="430.399874" style="fill: #cb703c; stroke: #cb703c"/>
@@ -1165,17 +1133,7 @@
       </g>
      </g>
     </g>
-    <g id="text_66">
-     <!-- 归一化权重 -->
-     <g style="fill: #223950" transform="translate(536.478666 536.733859) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-5f52"/>
-      <use xlink:href="#MicrosoftYaHei-4e00" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5316" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6743" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-91cd" transform="translate(400 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_12">
     <path d="M 597.710885 615.400458 L 627.34959 615.400458 L 627.34959 564.092733 L 597.710885 564.092733 z " clip-path="url(#p057a1aac79)" style="fill: #207397"/>
    </g>
@@ -1264,4 +1222,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="159.977526" y="109.803586" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.639077" fill="#25364a" text-anchor="start" aria-label="一阶矩" id="text_14" data-axis-label="matplotlib.axis_2">一阶矩</text><text x="159.977524" y="692.505556" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.639077" fill="#25364a" text-anchor="start" aria-label="矩比值（ε=0）" id="text_32" data-axis-label="matplotlib.axis_4">矩比值（ε=0）</text><text x="159.977526" y="1308.69942" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.639077" fill="#25364a" text-anchor="start" aria-label="梯度与修正矩" id="text_50" data-axis-label="matplotlib.axis_6">梯度与修正矩</text><text x="159.977524" y="1924.40138" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="28.639077" fill="#25364a" text-anchor="start" aria-label="归一化权重" id="text_66" data-axis-label="matplotlib.axis_8">归一化权重</text></svg>

@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="836.3546" viewBox="0 0 1440 836.3546" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">把联合 KL 拆成可见差异与组内差异</title><rect width="1440" height="836.3546" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">把联合 KL 拆成可见差异与组内差异</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="694.3546" viewBox="21 80.1111 1316 679.8889" role="img" x="48" y="106" overflow="hidden">
-<rect width="1400" height="760" fill="white"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1316" height="679.8889" viewBox="21 80.1111 1316 679.8889" role="img" aria-labelledby="plate-title">
+<title xmlns:xlink="http://www.w3.org/1999/xlink" id="plate-title">把联合 KL 拆成可见差异与组内差异</title><rect width="1400" height="760" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" fill="#143653">
 <text x="70.00" y="130.00" font-size="28" fill="#143653" text-anchor="start">A  细分类别中的概率质量</text>
 <text x="770.00" y="130.00" font-size="28" fill="#143653" text-anchor="start">B  只记录分组时，差异被隐藏</text>
@@ -64,4 +64,4 @@
 <text x="1210.00" y="322.00" font-size="24" fill="#cf7229" text-anchor="middle">0.5</text>
 <text x="95.00" y="733.00" font-size="26" fill="#1c74be" text-anchor="start">细分类别 KL ≈ 0.1840 nat</text>
 <text x="795.00" y="733.00" font-size="26" fill="#cf7229" text-anchor="start">分组 KL = 0；组内差异没有被记录</text>
-</g><desc> 合并类别后分布相同，原始 KL 为什么仍为正？</desc></svg></svg>
+</g><desc> 合并类别后分布相同，原始 KL 为什么仍为正？</desc></svg>

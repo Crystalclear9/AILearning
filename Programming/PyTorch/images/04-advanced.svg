@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1376" viewBox="0 0 960 1376" role="img" aria-labelledby="diagram-title"><title id="diagram-title">只恢复参数，随机轨迹仍可能改变</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1293.446811" viewBox="0 82.553189 960 1293.446811" role="img" aria-labelledby="diagram-title"><rect x="0" y="82.553189" width="960" height="1293.446811" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">只恢复参数，随机轨迹仍可能改变</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mf290b3dad9" d="M 0 0 L 0 3.5 " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-31" d="M 1781 0 L 1781 4141 Q 1638 3997 1295 3819 Q 953 3641 663 3569 L 663 4169 Q 1047 4275 1484 4508 Q 1922 4741 2156 4947 L 2388 4947 L 2388 0 L 1781 0 z " transform="scale(0.015625)"/>
        <path id="MicrosoftYaHei-32" d="M 2666 3572 Q 2666 3963 2419 4186 Q 2172 4409 1747 4409 Q 1447 4409 1140 4256 Q 834 4103 569 3819 L 569 4413 Q 806 4659 1107 4790 Q 1409 4922 1816 4922 Q 2472 4922 2872 4570 Q 3272 4219 3272 3619 Q 3272 3084 3026 2693 Q 2781 2303 2188 1894 Q 1581 1475 1376 1294 Q 1172 1113 1090 947 Q 1009 781 1009 544 L 3416 544 L 3416 0 L 372 0 L 372 241 Q 372 659 486 951 Q 600 1244 862 1520 Q 1125 1797 1681 2184 Q 2250 2584 2458 2886 Q 2666 3188 2666 3572 z " transform="scale(0.015625)"/>
@@ -73,7 +73,7 @@
   <clipPath id="p94e60eca3e">
    <rect x="562.503191" y="39.9875" width="495.897153" height="301.24"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1376" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">只恢复参数，随机轨迹仍可能改变</text></g><path d="M 44 96.00 H 916" stroke="#cedae4" stroke-width="1.5"/><g transform="translate(32.40268 99.85519) scale(1.50958839)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1376" fill="#ffffff"/><g transform="translate(32.40268 99.85519) scale(1.50958839)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 78.815469 341.2275 L 475.533191 341.2275 L 475.533191 39.9875 L 78.815469 39.9875 z " style="fill: #ffffff"/>
    </g>
@@ -280,20 +280,7 @@
       </g>
      </g>
     </g>
-    <g id="text_13">
-     <!-- 本步带扰动的目标 -->
-     <g transform="translate(31.589375 258.6075) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-672c"/>
-      <use xlink:href="#MicrosoftYaHei-6b65" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-5e26" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6270" transform="translate(300 0)"/>
-      <use xlink:href="#MicrosoftYaHei-52a8" transform="translate(400 0)"/>
-      <use xlink:href="#MicrosoftYaHei-7684" transform="translate(500 0)"/>
-      <use xlink:href="#MicrosoftYaHei-76ee" transform="translate(600 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6807" transform="translate(700 0)"/>
-     </g>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 96.848093 341.2275 L 134.737652 341.2275 L 134.737652 96.978851 L 96.848093 96.978851 z " clip-path="url(#p651b501216)" style="fill: #1d74a4; opacity: 0.9"/>
    </g>
@@ -566,16 +553,7 @@
       </g>
      </g>
     </g>
-    <g id="text_29">
-     <!-- 参数 w -->
-     <g transform="translate(524.659598 216.833984) rotate(-90) scale(0.17 -0.17)">
-      <use xlink:href="#MicrosoftYaHei-53c2"/>
-      <use xlink:href="#MicrosoftYaHei-6570" transform="translate(100 0)"/>
-      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
-      <use xlink:href="#MicrosoftYaHei-77" transform="translate(229.589844 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_38">
     <path d="M 585.043971 329.641346 L 735.315836 155.849038 L 885.5877 184.814423 L 1035.859565 141.366346 " clip-path="url(#p94e60eca3e)" style="fill: none; stroke: #1d74a4; stroke-width: 2.7; stroke-linecap: square"/>
     <g clip-path="url(#p94e60eca3e)">
@@ -674,4 +652,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="154.381597" y="115.219856" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="25.663003" fill="#25364a" text-anchor="start" aria-label="本步带扰动的目标" id="text_13" data-axis-label="matplotlib.axis_2">本步带扰动的目标</text><text x="154.381596" y="772.628896" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="25.663003" fill="#25364a" text-anchor="start" aria-label="参数 w" id="text_29" data-axis-label="matplotlib.axis_4">参数 w</text></svg>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1821" viewBox="0 0 960 1821" role="img" aria-labelledby="diagram-title"><title id="diagram-title">每四个查询头共享一组键值头，KV缓存随长度的容量变化</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1047.82903" height="1692" viewBox="-87.82903 129 1047.82903 1692" role="img" aria-labelledby="diagram-title"><rect x="-87.82903" y="129" width="1047.82903" height="1692" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">每四个查询头共享一组键值头，KV缓存随长度的容量变化</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m1d0b237d12" d="M 0 0 L 0 3.5 " style="stroke: #527383; stroke-width: 0.8"/>
       <path id="m8728f4acc4" d="M 0 0 L -3.5 0 " style="stroke: #527383; stroke-width: 0.8"/>
       <path id="C0_0_55010a1f4c" d="M 0 4.743416 C 1.257969 4.743416 2.464584 4.24362 3.354102 3.354102 C 4.24362 2.464584 4.743416 1.257969 4.743416 -0 C 4.743416 -1.257969 4.24362 -2.464584 3.354102 -3.354102 C 2.464584 -4.24362 1.257969 -4.743416 0 -4.743416 C -1.257969 -4.743416 -2.464584 -4.24362 -3.354102 -3.354102 C -4.24362 -2.464584 -4.743416 -1.257969 -4.743416 0 C -4.743416 1.257969 -4.24362 2.464584 -3.354102 3.354102 C -2.464584 4.24362 -1.257969 4.743416 0 4.743416 z "/>
@@ -9,7 +9,7 @@
   <clipPath id="p39f487ae41">
    <rect x="761.606809" y="158.4" width="482.553191" height="459.36"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1821" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">每四个查询头共享一组键值头，KV缓存随长度的</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">容量变化</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-67.343520 -97.296923) scale(1.56514471)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1821" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-67.343520 -97.296923) scale(1.56514471)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 131.732966 534.24 L 156.71219 534.24 L 156.71219 488.304 L 131.732966 488.304 z " clip-path="url(#p6c13474369)" style="fill: #e6eff2; stroke: #217292; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
@@ -236,10 +236,7 @@
       <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527383" x="754.606809" y="218.233125" transform="rotate(-0 754.606809 218.233125)">4</text>
      </g>
     </g>
-    <g id="text_23">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #1c2e40" x="731.739621" y="388.08" transform="rotate(-90 731.739621 388.08)">单请求 KV 容量（GiB）</text>
     </g>
-   </g>
    <g id="PathCollection_1">
     <g clip-path="url(#p39f487ae41)">
      <use xlink:href="#C0_0_55010a1f4c" x="1222.225764" y="515.68" style="fill: #d0773a; stroke: #d0773a"/>
@@ -278,4 +275,4 @@
     </g>
    </g>
   </g>
-  </g></svg>
+  </g><text x="49.837636" y="1289.423602" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="单请求 KV 容量（GiB）" id="text_23" data-axis-label="matplotlib.axis_2"><tspan x="49.837636" dy="0">单请求</tspan><tspan x="49.837636" dy="30.68">KV 容量（</tspan><tspan x="49.837636" dy="30.68">GiB）</tspan></text></svg>

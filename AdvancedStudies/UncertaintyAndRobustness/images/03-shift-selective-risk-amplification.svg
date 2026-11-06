@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="792.0261" viewBox="0 0 1440 792.0261" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">用三块质量复算分布变化的条件风险放大</title><rect width="1440" height="792.0261" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">用三块质量复算分布变化的条件风险放大</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="650.0261" viewBox="0 82.8895 1400 677.1105" role="img" x="48" y="106" overflow="hidden">
-<rect id="offline-white-background" x="0" y="82.889518" width="1400" height="677.110482" fill="#ffffff"/><title>很小的总体质量迁移，可能明显改变接受后的错误率</title><rect width="1400" height="760" fill="white"/>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="677.1105" viewBox="0 82.8895 1400 677.1105" role="img" aria-labelledby="plate-title">
+<rect id="offline-white-background" x="0" y="82.889518" width="1400" height="677.110482" fill="#ffffff"/><title id="plate-title">用三块质量复算分布变化的条件风险放大</title><rect width="1400" height="760" fill="white"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" fill="#143653">
 <text x="70.00" y="130.00" font-size="28" fill="#143653" text-anchor="start">A  覆盖固定 0.1 的三块概率质量</text>
 <text x="770.00" y="130.00" font-size="28" fill="#143653" text-anchor="start">B  相同 0.01 迁移量，在低覆盖时更危险</text>
@@ -45,4 +45,4 @@
 <circle cx="850.82" cy="508.46" r="6" fill="#cf7229"/>
 <circle cx="1054.90" cy="549.08" r="6" fill="#cf7229"/>
 <text x="100.00" y="733.00" font-size="24" fill="#cf7229" text-anchor="start">总变差 = 0.01；覆盖相同，风险 0.1 → 0.2</text>
-</g></svg></svg>
+</g></svg>

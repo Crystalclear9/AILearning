@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="961" viewBox="0 0 1440 961" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">图解：可迭代数据集会按工作进程分别丢尾</title><rect width="1440" height="961" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">图解：可迭代数据集会按工作进程分别丢尾</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="819" viewBox="0 0 1280 780" role="img" x="48" y="106" overflow="hidden"><defs><linearGradient id="book-wash-edf5fa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#edf5fa"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title>可迭代数据的尾批：每个 worker 分别组批、分别丢弃</title><rect width="1280" height="780" fill="white"/><g font-family="Microsoft YaHei, sans-serif">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780" role="img" aria-labelledby="plate-title"><defs><linearGradient id="book-wash-edf5fa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#edf5fa"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title id="plate-title">图解：可迭代数据集会按工作进程分别丢尾</title><rect width="1280" height="780" fill="white"/><g font-family="Microsoft YaHei, sans-serif">
 <text x="52" y="64" font-size="36" fill="#1a2a3b" text-anchor="start">可迭代数据的尾批：每个 worker 分别组批、分别丢弃</text>
 <text x="60" y="125" font-size="29" fill="#1a2a3b" text-anchor="start">同一份 6 条记录；batch_size = 4；drop_last = True</text>
 <text x="60" y="200" font-size="30" fill="#1c77a2" text-anchor="start">全局组批</text>
@@ -38,4 +38,4 @@
 <text x="60" y="610" font-size="30" fill="#ca7542" text-anchor="start">两个分片身份互不重叠，但最终没有任何完整批次。</text>
 <text x="60" y="680" font-size="28" fill="#1c77a2" text-anchor="start">全局预估：floor(6 ÷ 4) = 1 批</text>
 <text x="60" y="735" font-size="28" fill="#ca7542" text-anchor="start">逐 worker：floor(3 ÷ 4) + floor(3 ÷ 4) = 0 批</text>
-</g></svg></svg>
+</g></svg>

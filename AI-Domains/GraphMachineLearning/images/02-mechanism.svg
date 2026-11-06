@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="884.1217" viewBox="0 0 1440 884.1217" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">过挤压是大量远端信息汇过狭窄连接</title><rect width="1440" height="884.1217" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">过挤压是大量远端信息汇过狭窄连接</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="742.1217" viewBox="30 65 1380 762" role="img" aria-labelledby="title desc" x="48" y="106" overflow="hidden"><rect x="30" y="65" width="1380" height="762" fill="#ffffff"/><title id="title">叶子影响怎样沿平均树逐层衰减</title><desc id="desc">八叶二叉树，只有第一个叶子为1，其余为0，每个父节点取两个孩子均值。根为1/8；深度k任意叶子的导数为2的负k次。</desc><rect width="1440" height="820" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="762" viewBox="30 65 1380 762" role="img" aria-labelledby="title desc"><rect x="30" y="65" width="1380" height="762" fill="#ffffff"/><title id="title">过挤压是大量远端信息汇过狭窄连接</title><desc id="desc">八叶二叉树，只有第一个叶子为1，其余为0，每个父节点取两个孩子均值。根为1/8；深度k任意叶子的导数为2的负k次。</desc><rect width="1440" height="820" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#1c2e41">
 <text x="48" y="107" font-size="28" fill="#64748b" text-anchor="start" font-weight="400">固定算子：父节点只取两个孩子的平均；橙色追踪一个非零叶子。</text>
 <line x1="95.0" y1="200" x2="137.0" y2="330" stroke="#c66e2c" stroke-width="4"/>
 <line x1="189.28571428571428" y1="200" x2="137.0" y2="330" stroke="#dde2ea" stroke-width="2"/>
@@ -73,4 +73,4 @@
 <text x="1295" y="615" font-size="26" fill="#1c2e41" text-anchor="middle" font-weight="400">512</text>
 <line x1="48" y1="710" x2="1392" y2="710" stroke="#e0e5ed" stroke-width="2"/>
 <text x="48" y="760" font-size="30" fill="#1c2e41" text-anchor="start" font-weight="400">可达不等于影响强；但若任务只需要均值，这个压缩就是充分的。</text>
-<text x="48" y="805" font-size="27" fill="#64748b" text-anchor="start" font-weight="400">这是特定平均算子的精确导数，不是任意 GNN 的不可能性定理。</text></g></svg></svg>
+<text x="48" y="805" font-size="27" fill="#64748b" text-anchor="start" font-weight="400">这是特定平均算子的精确导数，不是任意 GNN 的不可能性定理。</text></g></svg>

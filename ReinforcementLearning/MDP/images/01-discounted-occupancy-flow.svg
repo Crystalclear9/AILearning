@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1833" viewBox="0 0 960 1833" role="img" aria-labelledby="diagram-title"><title id="diagram-title">两状态重启链的折扣访问流量及有限前缀质量的收敛</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1704" viewBox="0 129 960 1704" role="img" aria-labelledby="diagram-title"><title id="diagram-title">两状态重启链的折扣访问流量及有限前缀质量的收敛</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="me98aff890d" d="M 0 0 L 0 3.5 " style="stroke: #527385; stroke-width: 0.8"/>
       <path id="mf7831760f5" d="M 0 0 L -3.5 0 " style="stroke: #527385; stroke-width: 0.8"/>
       <clipPath id="p72fabb528e">
@@ -8,7 +8,7 @@
   <clipPath id="p56f52f0bec">
    <rect x="599.818618" y="84.24" width="506.101382" height="466.56"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1833" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">两状态重启链的折扣访问流量及有限前缀质量的</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">收敛</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-22.839494 104.477602) scale(1.45564085)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1833" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(-22.839494 104.477602) scale(1.45564085)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 149.618433 365.9256 C 159.745916 365.9256 169.459967 360.825281 176.621179 351.747928 C 183.782391 342.670575 187.806083 330.357315 187.806083 317.52 C 187.806083 304.682685 183.782391 292.369425 176.621179 283.292072 C 169.459967 274.214719 159.745916 269.1144 149.618433 269.1144 C 139.49095 269.1144 129.776899 274.214719 122.615687 283.292072 C 115.454475 292.369425 111.430783 304.682685 111.430783 317.52 C 111.430783 330.357315 115.454475 342.670575 122.615687 351.747928 C 129.776899 360.825281 139.49095 365.9256 149.618433 365.9256 z " clip-path="url(#p72fabb528e)" style="fill: #ffffff; stroke: #2082ac; stroke-width: 3; stroke-linejoin: miter"/>
    </g>
@@ -267,10 +267,7 @@
       <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #527385" x="592.818618" y="108.979303" transform="rotate(-0 592.818618 108.979303)">1.0</text>
      </g>
     </g>
-    <g id="text_23">
-     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="560.312836" y="317.52" transform="rotate(-90 560.312836 317.52)">归一化折扣质量</text>
     </g>
-   </g>
    <g id="line2d_13">
     <path d="M 599.818618 461.076923 L 621.823025 425.187692 L 643.827433 410.832 L 665.831841 405.089723 L 687.836249 402.792812 L 709.840657 401.874048 L 731.845065 401.506542 L 753.849473 401.35954 L 775.853881 401.300739 L 797.858289 401.277219 L 819.862697 401.267811 L 841.867105 401.264047 L 863.871513 401.262542 L 885.875921 401.26194 L 907.880329 401.261699 L 929.884737 401.261603 L 951.889144 401.261564 L 973.893552 401.261549 L 995.89796 401.261543 L 1017.902368 401.26154 L 1039.906776 401.261539 L 1061.911184 401.261539 L 1083.915592 401.261539 L 1105.92 401.261539 " clip-path="url(#p56f52f0bec)" style="fill: none; stroke: #2082ac; stroke-width: 3; stroke-linecap: square"/>
    </g>
@@ -338,4 +335,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="142.363705" y="1004.908191" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26.201535" fill="#25364a" text-anchor="start" aria-label="归一化折扣质量" id="text_23" data-axis-label="matplotlib.axis_2">归一化折扣质量</text></svg>

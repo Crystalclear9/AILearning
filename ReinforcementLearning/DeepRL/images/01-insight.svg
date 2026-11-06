@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="501" viewBox="0 0 960 501" role="img" aria-labelledby="artwork-title"><title id="artwork-title">Huber 的残差导数与模型参数梯度</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="403.899989"/></clipPath></defs><rect width="960" height="501" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">Huber 的残差导数与模型参数梯度</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 24.899989) scale(0.70216)"><g><rect id="offline-white-background" x="0" y="72.775385" width="1296" height="575.224615" fill="#ffffff"/><title>Huber 控制残差斜率，参数梯度还取决于模型尺度</title><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="454" viewBox="0 47 960 454" role="img" aria-labelledby="artwork-title"><title id="artwork-title">Huber 的残差导数与模型参数梯度</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="403.899989"/></clipPath></defs><rect width="960" height="501" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 24.899989) scale(0.70216)"><g><rect id="offline-white-background" x="0" y="72.775385" width="1296" height="575.224615" fill="#ffffff"/><title>Huber 控制残差斜率，参数梯度还取决于模型尺度</title><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -157,10 +157,7 @@
       <text style="font-size: 28.56px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #48768d" x="109.64" y="161.8725" transform="rotate(-0 109.64 161.8725)">3</text>
      </g>
     </g>
-    <g id="text_12">
-     <text style="font-size: 26.4px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #1c2e40" x="67.79875" y="314.28" transform="rotate(-90 67.79875 314.28)">损失对残差的导数</text>
     </g>
-   </g>
    <g id="patch_3">
     <path d="M 281.733965 492.48 L 425.293934 492.48 L 425.293934 136.08 L 281.733965 136.08 z " clip-path="url(#pf142cd9677)" style="fill: #e5eef1; stroke: #d9e1e8; stroke-linejoin: miter"/>
    </g>
@@ -557,4 +554,4 @@
    <rect x="770.412101" y="136.08" width="473.747899" height="356.4"/>
   </clipPath>
  </defs>
-</g></g></g></svg>
+</g></g></g><text x="109.899942" y="97.449922" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#25364a" text-anchor="start" aria-label="损失对残差的导数" id="text_12" data-axis-label="matplotlib.axis_2">损失对残差的导数</text></svg>

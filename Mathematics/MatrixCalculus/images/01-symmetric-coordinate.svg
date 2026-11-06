@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="867" viewBox="0 0 960 867" role="img" aria-labelledby="title desc">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="797.36" viewBox="0 69.64 960 797.36" role="img" aria-labelledby="title desc">
 <title id="title">改变一个参数，矩阵里动两个位置</title><desc id="desc">原梯度非对角项是二和四，对称投影后各为三，两种矩阵内积都给出坐标导数六。</desc>
 <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#536f86"/></marker></defs>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0" y="0" width="960" height="867" rx="0" fill="#fff" stroke="none" stroke-width="1.8"/>
-<text x="44" y="61" font-size="39" fill="#172a40" font-weight="700" text-anchor="start">改变一个参数，矩阵里动两个位置</text>
 <text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">对称条件把非对角位置绑定到同一个坐标 c</text>
 <rect x="44" y="147" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
 <text x="65" y="177" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">A</text>

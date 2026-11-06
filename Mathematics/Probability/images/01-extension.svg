@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1800" viewBox="0 0 960 1800" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">相同似然比的概率非线性映射与对数赔率固定平移</title><desc id="artwork-desc">同样证据：概率作非线性变化，对数赔率作平移 赔率乘 9，等价于 log-odds 加 ln 9≈2.1972；不能把概率直接乘 9。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1753" viewBox="0 47 960 1753" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">相同似然比的概率非线性映射与对数赔率固定平移</title><desc id="artwork-desc">同样证据：概率作非线性变化，对数赔率作平移 赔率乘 9，等价于 log-odds 加 ln 9≈2.1972；不能把概率直接乘 9。</desc><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="mfd992705bf" d="M 0 0 L 0 3.5 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="m0e573c3a11" d="M 0 0 L -3.5 0 " style="stroke: #45697b; stroke-width: 0.8"/>
       <path id="ma213eaca8d" d="M 0 3.5 C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 C 3.131218 1.81853 3.5 0.928211 3.5 0 C 3.5 -0.928211 3.131218 -1.81853 2.474874 -2.474874 C 1.81853 -3.131218 0.928211 -3.5 0 -3.5 C -0.928211 -3.5 -1.81853 -3.131218 -2.474874 -2.474874 C -3.131218 -1.81853 -3.5 -0.928211 -3.5 0 C -3.5 0.928211 -3.131218 1.81853 -2.474874 2.474874 C -1.81853 3.131218 -0.928211 3.5 0 3.5 z " style="stroke: #ba602b"/>
@@ -9,7 +9,7 @@
   <clipPath id="p5149bf1a8d">
    <rect x="679.68" y="174.96" width="403.2" height="311.04"/>
   </clipPath>
- </defs><rect width="960" height="1800" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">相同似然比的概率非线性映射与对数赔率固定平移</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-3.892175 29.408818) scale(0.991615)"><g id="text_32">
+ </defs><rect width="960" height="1800" fill="#ffffff"/><g transform="translate(-3.892175 29.408818) scale(0.991615)"><g id="text_32">
    <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #47586b" x="51.84" y="81.648" transform="rotate(-0 51.84 81.648)">固定似然比 LR=9；观察前后只更新同一对假设</text>
   </g>
   </g><rect x="35" y="143.5" width="44" height="36" rx="8" fill="#e8f5f8"/><text x="57" y="168.5" text-anchor="middle" font-size="25" font-family="Arial, sans-serif" font-weight="700" fill="#126d85">A</text><g transform="translate(-9.036938 -20.702802) scale(1.713535)"><g id="axes_1">
@@ -178,10 +178,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="108.2" y="189.052574" transform="rotate(-0 108.2 189.052574)">1.0</text>
      </g>
     </g>
-    <g id="text_14">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="62.459062" y="330.48" transform="rotate(-90 62.459062 330.48)">后验概率</text>
     </g>
-   </g>
    <g id="line2d_25">
     <polyline clip-path="url(#p840b6e2791)" style="fill: none; stroke: #15688c; stroke-width: 2.6; stroke-linecap: square" points="115.24032,485.725772 117.661457,470.025703 120.082595,455.700822 122.503732,442.578031 125.328392,428.594968 128.153052,415.858804 130.977712,404.209874 133.802373,393.514658 136.627033,383.660639 139.451693,374.55233 142.276353,366.108169 145.504536,357.181485 148.732719,348.941469 151.960902,341.311825 155.189085,334.227156 158.417268,327.631085 162.048974,320.733948 165.68068,314.333406 169.312386,308.377689 172.944092,302.821983 176.979321,297.070873 181.01455,291.719145 185.049779,286.726595 189.48853,281.608018 193.927282,276.841344 198.366034,272.391488 203.208308,267.862613 208.050583,263.639915 213.296381,259.3761 218.542178,255.403254 224.191498,251.417255 229.840819,247.704137 235.893662,243.997899 241.946505,240.544935 248.402871,237.112714 255.26276,233.720942 262.526172,230.386174 270.193107,227.122019 278.263565,223.939377 286.737545,220.846718 295.615049,217.850351 304.896075,214.954702 314.580624,212.162577 325.072219,209.372257 335.967337,206.703151 347.669501,204.065351 360.17871,201.476759 373.494965,198.951694 387.618266,196.501233 402.952135,194.072495 419.093051,191.74305 436.444535,189.464569 455.006587,187.25146 475.182732,185.07298 496.972967,182.948687 518.35968,181.062212 518.35968,181.062212"/>
    </g>
@@ -349,10 +346,7 @@
       <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7790" x="672.68" y="227.388036" transform="rotate(-0 672.68 227.388036)">4</text>
      </g>
     </g>
-    <g id="text_29">
-     <text style="font-size: 28.38px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="634.7025" y="330.48" transform="rotate(-90 634.7025 330.48)">后验 log-odds</text>
     </g>
-   </g>
    <g id="line2d_48">
     <polyline clip-path="url(#p5149bf1a8d)" style="fill: none; stroke-dasharray: 9.62,4.16; stroke-dashoffset: 0; stroke: #7c8aa1; stroke-width: 2.6" points="679.68,486 1082.88,249.017143 1082.88,249.017143"/>
    </g>
@@ -381,4 +375,4 @@
     <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #20354b" x="881.28" y="151.96" transform="rotate(-0 881.28 151.96)">对数赔率：恒加 ln 9</text>
    </g>
   </g>
-  </g></svg>
+  </g><text x="191.362294" y="173.097282" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="后验概率" id="text_14" data-axis-label="matplotlib.axis_2">后验概率</text><text x="191.362349" y="1009.792218" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#25364a" text-anchor="start" aria-label="后验 log-odds" id="text_29" data-axis-label="matplotlib.axis_4">后验 log-odds</text></svg>

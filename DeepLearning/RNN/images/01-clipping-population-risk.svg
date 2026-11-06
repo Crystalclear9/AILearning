@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1477" viewBox="0 0 960 1477" role="img" aria-labelledby="diagram-title"><title id="diagram-title">原始与裁剪梯度的概率质量及一步随机更新的期望风险变化</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1026.543621" height="1348" viewBox="-66.543621 129 1026.543621 1348" role="img" aria-labelledby="diagram-title"><rect x="-66.543621" y="129" width="1026.543621" height="1348" fill="#ffffff" id="plate-canvas"/><title id="diagram-title">原始与裁剪梯度的概率质量及一步随机更新的期望风险变化</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m4b463d7eb6" d="M 0 0  L 0 3.5  " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="m262e25108c" d="M 0 0  L -3.5 0  " style="stroke: #000000; stroke-width: 0.8"/>
       <path id="maa7c3a9816" d="M 0 5.477226  C 1.452577 5.477226 2.845856 4.900111 3.872983 3.872983  C 4.900111 2.845856 5.477226 1.452577 5.477226 0  C 5.477226 -1.452577 4.900111 -2.845856 3.872983 -3.872983  C 2.845856 -4.900111 1.452577 -5.477226 0 -5.477226  C -1.452577 -5.477226 -2.845856 -4.900111 -3.872983 -3.872983  C -4.900111 -2.845856 -5.477226 -1.452577 -5.477226 0  C -5.477226 1.452577 -4.900111 2.845856 -3.872983 3.872983  C -2.845856 4.900111 -1.452577 5.477226 0 5.477226  z " style="stroke: #2075a6"/>
@@ -10,7 +10,7 @@
   <clipPath id="pa930287fdc">
    <rect x="678.044062" y="21.6" width="414.72" height="280.8"/>
   </clipPath>
- </defs><rect x="0" y="0" width="960" height="1477" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#172a40">原始与裁剪梯度的概率质量及一步随机更新的期</text><text x="48" y="108" font-size="37" font-weight="700" fill="#172a40">望风险变化</text></g><path d="M44 141.000 H916" stroke="#cddae5" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(55.854023 179.243063) scale(1.62779421)"><g id="axes_1">
+ </defs><rect x="0" y="0" width="960" height="1477" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#e9f5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#136d84" text-anchor="middle">A</text></g><g transform="translate(55.854023 179.243063) scale(1.62779421)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 79.004063 302.4  L 516.764063 302.4  L 516.764063 21.6  L 79.004063 21.6  z " style="fill: #ffffff"/>
    </g>
@@ -137,10 +137,7 @@
       <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end" x="72.004063" y="42.165804" transform="rotate(-0 72.004063 42.165804)">1.0</text>
      </g>
     </g>
-    <g id="text_11">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="37.5875" y="162" transform="rotate(-90 37.5875 162)">概率质量</text>
     </g>
-   </g>
    <g id="LineCollection_1">
     <path d="M 114.024862 302.4  L 114.024862 61.714286  " clip-path="url(#p989b264242)" style="fill: none; stroke: #2075a6; stroke-width: 5"/>
     <path d="M 481.743263 302.4  L 481.743263 275.657143  " clip-path="url(#p989b264242)" style="fill: none; stroke: #2075a6; stroke-width: 5"/>
@@ -351,10 +348,7 @@
       <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: end" x="671.044062" y="62.780707" transform="rotate(-0 671.044062 62.780707)">0.04</text>
      </g>
     </g>
-    <g id="text_28">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="618.284375" y="162" transform="rotate(-90 618.284375 162)">一步后的期望风险变化</text>
     </g>
-   </g>
    <g id="PathCollection_3">
     <g clip-path="url(#pa930287fdc)">
      <use xlink:href="#C0_0_3558208503" x="772.298608" y="257.929573" style="fill: #2075a6; stroke: #2075a6"/>
@@ -393,4 +387,4 @@
     </g>
    </g>
   </g>
- </g></svg>
+ </g><text x="187.456379" y="191.403418" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="32.555884" fill="#25364a" text-anchor="start" aria-label="概率质量" id="text_11" data-axis-label="matplotlib.axis_2">概率质量</text><text x="107.456379" y="1102.587187" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="一步后的期望风险变化" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="107.456379" dy="0">一步后的期望</tspan><tspan x="107.456379" dy="30.68">风险变化</tspan></text></svg>

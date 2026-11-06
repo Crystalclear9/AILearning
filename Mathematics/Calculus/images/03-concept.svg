@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2092" viewBox="0 0 960 2092" role="img" aria-labelledby="artwork-title"><title id="artwork-title">圆的约束如何确定局部斜率</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="2045" viewBox="0 47 960 2045" role="img" aria-labelledby="artwork-title"><title id="artwork-title">圆的约束如何确定局部斜率</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m93dbb50a10" d="M 0 0 L 0 3.5 " style="stroke: #214359; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-2d" d="M 2328 1681 L 488 1681 L 488 2153 L 2328 2153 L 2328 1681 z " transform="scale(0.015625)"/>
         <path id="MicrosoftYaHei-31" d="M 1781 0 L 1781 4141 Q 1638 3997 1295 3819 Q 953 3641 663 3569 L 663 4169 Q 1047 4275 1484 4508 Q 1922 4741 2156 4947 L 2388 4947 L 2388 0 L 1781 0 z " transform="scale(0.015625)"/>
@@ -124,7 +124,7 @@
   <clipPath id="p8f6b886917">
    <rect x="502.56" y="115.2" width="299.52" height="299.52"/>
   </clipPath>
- </defs><rect width="960" height="2092" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">圆的约束如何确定局部斜率</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g transform="translate(-10 70.66) scale(1.242824)"><g id="text_26">
+ </defs><rect width="960" height="2092" fill="#ffffff"/><g transform="translate(-10 70.66) scale(1.242824)"><g id="text_26">
    <!-- 切线给出允许方向，有限一步仍会离开圆 -->
    <g style="fill: #223950" transform="translate(47.52 31.68) scale(0.23 -0.23)">
     <use xlink:href="#MicrosoftYaHei-Bold-5207"/>
@@ -510,19 +510,7 @@
       </g>
      </g>
     </g>
-    <g id="text_21">
-     <!-- y（同一比例） -->
-     <g style="fill: #223950" transform="translate(457.744375 313.930312) rotate(-90) scale(0.15 -0.15)">
-      <use xlink:href="#MicrosoftYaHei-79"/>
-      <use xlink:href="#MicrosoftYaHei-ff08" transform="translate(52.929688 0)"/>
-      <use xlink:href="#MicrosoftYaHei-540c" transform="translate(152.929688 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4e00" transform="translate(252.929688 0)"/>
-      <use xlink:href="#MicrosoftYaHei-6bd4" transform="translate(352.929688 0)"/>
-      <use xlink:href="#MicrosoftYaHei-4f8b" transform="translate(452.929688 0)"/>
-      <use xlink:href="#MicrosoftYaHei-ff09" transform="translate(552.929688 0)"/>
-     </g>
     </g>
-   </g>
    <g id="line2d_24">
     <polyline clip-path="url(#p8f6b886917)" style="fill: none; stroke: #156588; stroke-width: 2.5; stroke-linecap: square" points="502.56,147.524541 521.438303,161.642157 540.316607,176.04788 558.201315,189.967059 576.086023,204.156461 593.970732,218.622186 611.85544,233.370641 629.740148,248.408565 647.624857,263.743052 665.509565,279.381576 682.400679,294.437563 699.291792,309.778773 716.182906,325.412584 733.074019,341.346778 749.965133,357.589575 766.856246,374.149663 783.747359,391.036242 799.644878,407.236464 799.644878,407.236464"/>
    </g>
@@ -704,4 +692,4 @@
     <use xlink:href="#MicrosoftYaHei-3002" transform="translate(3225.585938 0)"/>
    </g>
   </g>
- </g></svg>
+ </g><text x="123.912762" y="1501.877092" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#25364a" aria-label="y（同一比例）" id="text_21" data-axis-label="matplotlib.axis_4"><tspan x="123.912762" dy="0">y（同一</tspan><tspan x="123.912762" dy="30.68">比例）</tspan></text></svg>
