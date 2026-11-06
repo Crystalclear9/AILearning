@@ -14,7 +14,7 @@
   - [2.2 同级行由窗口排序表达式决定](#db-3-detail-8)
   - [2.3 ROWS、RANGE 与 GROUPS 表达不同集合](#db-3-detail-9)
   - [2.4 默认 frame、CURRENT ROW 与排除规则](#db-3-detail-10)
-  - [图解：ROWS 按位置，RANGE 按同值范围](#visual-03-concept)
+  - [图解：ROWS 按行推进，RANGE 前缀纳入同级行](#visual-03-concept)
 - [3. 同时间记录的逐行反例](#db-3-detail-11)
   - [3.1 四行记录同时观察多种窗口](#db-3-detail-12)
   - [3.2 可运行 SQL 与独立参考](#db-3-detail-13)
@@ -185,15 +185,15 @@ frame 对不同函数并非统一生效。偏移函数、排名函数与 frame �
 
 <a id="visual-03-concept"></a>
 
-### 图解：ROWS 按位置，RANGE 按同值范围
+### 图解：ROWS 按行推进，RANGE 前缀纳入同级行
 
 **窗口帧按位置或同值范围取成员**
 
 ![窗口帧按位置或同值范围取成员](images/03-scientific-plate.webp)
 
-在第一条十所在的 a 行，ROWS 的当前行边界只纳入已经到达的位置 a；RANGE 的当前值边界会同时纳入排序值相同的 a、b，因此两种前缀和分别为十与二十。示例需用额外稳定键定义 ROWS 下的具体行顺序；窗口内排序也不自动保证最终查询输出顺序。可分别用 ROWS 的 ORDER BY value, id 与 RANGE 的 ORDER BY value 复现。若给 RANGE 也增加唯一 id，a 与 b 就不再是同级行。两种帧都从分区起点到 CURRENT ROW。下面的事件算例进一步加入空金额与排除当前组的情形。。
+在第一条十所在的 a 行，ROWS 的当前行边界只纳入已经到达的位置 a；RANGE 的当前值边界会同时纳入排序值相同的 a、b，因此两种前缀和分别为十与二十。示例需用额外稳定键定义 ROWS 下的具体行顺序；窗口内排序也不自动保证最终查询输出顺序。可分别用 ROWS 的 ORDER BY value, id 与 RANGE 的 ORDER BY value 复现。若给 RANGE 也增加唯一 id，a 与 b 就不再是同级行。两种帧都从分区起点到 CURRENT ROW。下面的事件算例进一步加入空金额与排除当前组的情形。
 
-![ROWS 按位置，RANGE 按同值范围](images/03-concept.svg)
+![ROWS 按行推进，RANGE 前缀纳入同级行](images/03-concept.svg)
 
 每个格内保留该事件的金额，`NULL` 表示 SQL 空值，蓝色只编码“该事件是否在窗口里”。三个下方账本都固定当前行为 E3：前两个窗口包含 E1、E2、E3，所以记录数为三、金额有效数为二、已知金额和为十二；排除当前时间组的窗口只含 E1、E2，三项变为二、二、十二。相同的 `SUM` 不能证明参与身份相同，`COUNT(*)` 与 `COUNT(amount)` 也不能互相替换。
 
