@@ -1,60 +1,60 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="548" viewBox="0 47 960 548" role="img" aria-labelledby="artwork-title"><title id="artwork-title">循环神经网络的折叠表示与时间展开表示</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="497.466667"/></clipPath></defs><rect width="960" height="595" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.606667)"><g><rect width="1500" height="820" fill="white"/>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#21374d">
-<text x="65" y="60" font-size="41.28px" fill="#21374d" text-anchor="start" font-weight="normal">A  折叠：重复同一更新</text>
-<rect x="85" y="235" width="255" height="170" fill="#eaf2f6" stroke="#16678a" stroke-width="3"/>
-<text x="212" y="300" font-size="38.7px" fill="#217599" text-anchor="middle" font-weight="normal">h ← 0.5h + x</text>
-<text x="212" y="355" font-size="38.7px" fill="#1d7f85" text-anchor="middle" font-weight="normal">o = 2h</text>
-<line x1="210" y1="520" x2="210" y2="410" stroke="#16678a" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#16678a" stroke-width="3.131868" points="215.655,421.706 210,410 204.345,421.706"/>
-<text x="210" y="560" font-size="34.83px" fill="#21374d" text-anchor="middle" font-weight="normal">输入 x</text>
-<line x1="340" y1="280" x2="420" y2="280" stroke="#16678a" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#16678a" stroke-width="3.131868" points="408.294,285.655 420,280 408.294,274.345"/>
-<polyline fill="none" stroke="#c5662a" stroke-width="3.131868" points="420,280 420,170 210,170 210,230"/>
-<text x="300" y="140" font-size="33.54px" fill="#aa5e2e" text-anchor="middle" font-weight="normal">V = 0.5</text>
-<line x1="210" y1="170" x2="210" y2="232" stroke="#c5662a" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#c5662a" stroke-width="3.131868" points="204.345,220.294 210,232 215.655,220.294"/>
-<text x="520" y="60" font-size="41.28px" fill="#21374d" text-anchor="start" font-weight="normal">B  展开：状态不同，参数相同</text>
-<circle cx="640" cy="320" r="57" fill="#eaf2f6" stroke="#16678a" stroke-width="3"/>
-<text x="640" y="330" font-size="36.89px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<text x="565" y="405" font-size="34.83px" fill="#21374d" text-anchor="middle" font-weight="normal">h1</text>
-<line x1="640" y1="510" x2="640" y2="382" stroke="#16678a" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#16678a" stroke-width="3.131868" points="645.655,393.706 640,382 634.345,393.706"/>
-<text x="640" y="555" font-size="36.12px" fill="#217599" text-anchor="middle" font-weight="normal">x1 = 1</text>
-<text x="654" y="465" font-size="32.25px" fill="#217599" text-anchor="start" font-weight="normal">U = 1</text>
-<line x1="640" y1="259" x2="640" y2="170" stroke="#16788d" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#16788d" stroke-width="3.131868" points="645.655,181.706 640,170 634.345,181.706"/>
-<text x="640" y="130" font-size="38.7px" fill="#1d7f85" text-anchor="middle" font-weight="normal">o1 = 2</text>
-<text x="654" y="220" font-size="32.25px" fill="#1d7f85" text-anchor="start" font-weight="normal">W = 2</text>
-<line x1="700" y1="320" x2="890" y2="320" stroke="#c5662a" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#c5662a" stroke-width="3.131868" points="878.294,325.655 890,320 878.294,314.345"/>
-<text x="798" y="293" font-size="32.25px" fill="#aa5e2e" text-anchor="middle" font-weight="normal">V = 0.5</text>
-<circle cx="955" cy="320" r="57" fill="#eaf2f6" stroke="#16678a" stroke-width="3"/>
-<text x="955" y="330" font-size="36.89px" fill="#217599" text-anchor="middle" font-weight="normal">2.5</text>
-<text x="880" y="405" font-size="34.83px" fill="#21374d" text-anchor="middle" font-weight="normal">h2</text>
-<line x1="955" y1="510" x2="955" y2="382" stroke="#16678a" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#16678a" stroke-width="3.131868" points="960.655,393.706 955,382 949.345,393.706"/>
-<text x="955" y="555" font-size="36.12px" fill="#217599" text-anchor="middle" font-weight="normal">x2 = 2</text>
-<text x="969" y="465" font-size="32.25px" fill="#217599" text-anchor="start" font-weight="normal">U = 1</text>
-<line x1="955" y1="259" x2="955" y2="170" stroke="#16788d" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#16788d" stroke-width="3.131868" points="960.655,181.706 955,170 949.345,181.706"/>
-<text x="955" y="130" font-size="38.7px" fill="#1d7f85" text-anchor="middle" font-weight="normal">o2 = 5</text>
-<text x="969" y="220" font-size="32.25px" fill="#1d7f85" text-anchor="start" font-weight="normal">W = 2</text>
-<line x1="1015" y1="320" x2="1205" y2="320" stroke="#c5662a" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#c5662a" stroke-width="3.131868" points="1193.294,325.655 1205,320 1193.294,314.345"/>
-<text x="1113" y="293" font-size="32.25px" fill="#aa5e2e" text-anchor="middle" font-weight="normal">V = 0.5</text>
-<circle cx="1270" cy="320" r="57" fill="#eaf2f6" stroke="#16678a" stroke-width="3"/>
-<text x="1270" y="330" font-size="36.89px" fill="#217599" text-anchor="middle" font-weight="normal">1.25</text>
-<text x="1195" y="405" font-size="34.83px" fill="#21374d" text-anchor="middle" font-weight="normal">h3</text>
-<line x1="1270" y1="510" x2="1270" y2="382" stroke="#16678a" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#16678a" stroke-width="3.131868" points="1275.655,393.706 1270,382 1264.345,393.706"/>
-<text x="1270" y="555" font-size="36.12px" fill="#217599" text-anchor="middle" font-weight="normal">x3 = 0</text>
-<text x="1284" y="465" font-size="32.25px" fill="#217599" text-anchor="start" font-weight="normal">U = 1</text>
-<line x1="1270" y1="259" x2="1270" y2="170" stroke="#16788d" stroke-width="3.131868"/>
-<polyline fill="none" stroke="#16788d" stroke-width="3.131868" points="1275.655,181.706 1270,170 1264.345,181.706"/>
-<text x="1270" y="130" font-size="38.7px" fill="#1d7f85" text-anchor="middle" font-weight="normal">o3 = 2.5</text>
-<text x="1284" y="220" font-size="32.25px" fill="#1d7f85" text-anchor="start" font-weight="normal">W = 2</text>
-<text x="640" y="650" font-size="34.83px" fill="#21374d" text-anchor="start" font-weight="normal">初态 h0 = 0；无偏置、无非线性</text>
-<text x="640" y="710" font-size="38.7px" fill="#21374d" text-anchor="start" font-weight="normal">h3 = 0.5² × 1 + 0.5 × 2 + 0 = 1.25</text>
-<text x="640" y="770" font-size="37.41px" fill="#aa5e2e" text-anchor="start" font-weight="normal">同一 V 的两次使用，都参与反向求导。</text>
-</g></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="584.48" viewBox="-18.24 28.76 996.48 584.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">循环神经网络的折叠表示与时间展开表示</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="497.466667"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="584.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="548" viewBox="0 47 960 548" overflow="hidden"><rect width="960" height="595" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.606667)"><g><rect width="1500" height="820" fill="#ffffff"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#253d4f">
+<text x="65" y="60" font-size="41.28px" fill="#253d4f" text-anchor="start" font-weight="normal">A  折叠：重复同一更新</text>
+<rect x="85" y="235" width="255" height="170" fill="#edf4f7" stroke="#1f6683" stroke-width="3"/>
+<text x="212" y="300" font-size="38.7px" fill="#2a7391" text-anchor="middle" font-weight="normal">h ← 0.5h + x</text>
+<text x="212" y="355" font-size="38.7px" fill="#25757f" text-anchor="middle" font-weight="normal">o = 2h</text>
+<line x1="210" y1="520" x2="210" y2="410" stroke="#1f6683" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#1f6683" stroke-width="3.131868" points="215.655,421.706 210,410 204.345,421.706"/>
+<text x="210" y="560" font-size="34.83px" fill="#253d4f" text-anchor="middle" font-weight="normal">输入 x</text>
+<line x1="340" y1="280" x2="420" y2="280" stroke="#1f6683" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#1f6683" stroke-width="3.131868" points="408.294,285.655 420,280 408.294,274.345"/>
+<polyline fill="none" stroke="#b76334" stroke-width="3.131868" points="420,280 420,170 210,170 210,230"/>
+<text x="300" y="140" font-size="33.54px" fill="#a05c36" text-anchor="middle" font-weight="normal">V = 0.5</text>
+<line x1="210" y1="170" x2="210" y2="232" stroke="#b76334" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#b76334" stroke-width="3.131868" points="204.345,220.294 210,232 215.655,220.294"/>
+<text x="520" y="60" font-size="41.28px" fill="#253d4f" text-anchor="start" font-weight="normal">B  展开：状态不同，参数相同</text>
+<circle cx="640" cy="320" r="57" fill="#edf4f7" stroke="#1f6683" stroke-width="3"/>
+<text x="640" y="330" font-size="36.89px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<text x="565" y="405" font-size="34.83px" fill="#253d4f" text-anchor="middle" font-weight="normal">h1</text>
+<line x1="640" y1="510" x2="640" y2="382" stroke="#1f6683" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#1f6683" stroke-width="3.131868" points="645.655,393.706 640,382 634.345,393.706"/>
+<text x="640" y="555" font-size="36.12px" fill="#2a7391" text-anchor="middle" font-weight="normal">x1 = 1</text>
+<text x="654" y="465" font-size="32.25px" fill="#2a7391" text-anchor="start" font-weight="normal">U = 1</text>
+<line x1="640" y1="259" x2="640" y2="170" stroke="#1f7186" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#1f7186" stroke-width="3.131868" points="645.655,181.706 640,170 634.345,181.706"/>
+<text x="640" y="130" font-size="38.7px" fill="#25757f" text-anchor="middle" font-weight="normal">o1 = 2</text>
+<text x="654" y="220" font-size="32.25px" fill="#25757f" text-anchor="start" font-weight="normal">W = 2</text>
+<line x1="700" y1="320" x2="890" y2="320" stroke="#b76334" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#b76334" stroke-width="3.131868" points="878.294,325.655 890,320 878.294,314.345"/>
+<text x="798" y="293" font-size="32.25px" fill="#a05c36" text-anchor="middle" font-weight="normal">V = 0.5</text>
+<circle cx="955" cy="320" r="57" fill="#edf4f7" stroke="#1f6683" stroke-width="3"/>
+<text x="955" y="330" font-size="36.89px" fill="#2a7391" text-anchor="middle" font-weight="normal">2.5</text>
+<text x="880" y="405" font-size="34.83px" fill="#253d4f" text-anchor="middle" font-weight="normal">h2</text>
+<line x1="955" y1="510" x2="955" y2="382" stroke="#1f6683" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#1f6683" stroke-width="3.131868" points="960.655,393.706 955,382 949.345,393.706"/>
+<text x="955" y="555" font-size="36.12px" fill="#2a7391" text-anchor="middle" font-weight="normal">x2 = 2</text>
+<text x="969" y="465" font-size="32.25px" fill="#2a7391" text-anchor="start" font-weight="normal">U = 1</text>
+<line x1="955" y1="259" x2="955" y2="170" stroke="#1f7186" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#1f7186" stroke-width="3.131868" points="960.655,181.706 955,170 949.345,181.706"/>
+<text x="955" y="130" font-size="38.7px" fill="#25757f" text-anchor="middle" font-weight="normal">o2 = 5</text>
+<text x="969" y="220" font-size="32.25px" fill="#25757f" text-anchor="start" font-weight="normal">W = 2</text>
+<line x1="1015" y1="320" x2="1205" y2="320" stroke="#b76334" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#b76334" stroke-width="3.131868" points="1193.294,325.655 1205,320 1193.294,314.345"/>
+<text x="1113" y="293" font-size="32.25px" fill="#a05c36" text-anchor="middle" font-weight="normal">V = 0.5</text>
+<circle cx="1270" cy="320" r="57" fill="#edf4f7" stroke="#1f6683" stroke-width="3"/>
+<text x="1270" y="330" font-size="36.89px" fill="#2a7391" text-anchor="middle" font-weight="normal">1.25</text>
+<text x="1195" y="405" font-size="34.83px" fill="#253d4f" text-anchor="middle" font-weight="normal">h3</text>
+<line x1="1270" y1="510" x2="1270" y2="382" stroke="#1f6683" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#1f6683" stroke-width="3.131868" points="1275.655,393.706 1270,382 1264.345,393.706"/>
+<text x="1270" y="555" font-size="36.12px" fill="#2a7391" text-anchor="middle" font-weight="normal">x3 = 0</text>
+<text x="1284" y="465" font-size="32.25px" fill="#2a7391" text-anchor="start" font-weight="normal">U = 1</text>
+<line x1="1270" y1="259" x2="1270" y2="170" stroke="#1f7186" stroke-width="3.131868"/>
+<polyline fill="none" stroke="#1f7186" stroke-width="3.131868" points="1275.655,181.706 1270,170 1264.345,181.706"/>
+<text x="1270" y="130" font-size="38.7px" fill="#25757f" text-anchor="middle" font-weight="normal">o3 = 2.5</text>
+<text x="1284" y="220" font-size="32.25px" fill="#25757f" text-anchor="start" font-weight="normal">W = 2</text>
+<text x="640" y="650" font-size="34.83px" fill="#253d4f" text-anchor="start" font-weight="normal">初态 h0 = 0；无偏置、无非线性</text>
+<text x="640" y="710" font-size="38.7px" fill="#253d4f" text-anchor="start" font-weight="normal">h3 = 0.5² × 1 + 0.5 × 2 + 0 = 1.25</text>
+<text x="640" y="770" font-size="37.41px" fill="#a05c36" text-anchor="start" font-weight="normal">同一 V 的两次使用，都参与反向求导。</text>
+</g></g></g></g></svg></svg>

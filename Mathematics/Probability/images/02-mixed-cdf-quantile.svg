@@ -1,58 +1,58 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="919.44" viewBox="0 68.56 960 919.44" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="955.92" viewBox="-18.24 50.32 996.48 955.92" role="img" aria-labelledby="title desc">
 <title id="title">零等待怎样在分布中留下跳跃</title><desc id="desc">等待时间有五分之一的概率恰为零。CDF 在零处跳到五分之一，分位函数把整个对应输入区间送到零。</desc>
-<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#536f86"/></marker></defs>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
-<rect x="0" y="0" width="960" height="988" rx="0" fill="#fff" stroke="none" stroke-width="1.8"/>
-<text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">两成恰好为零，其余八成在 0 到 1 之间均匀分布</text>
-<rect x="44" y="143" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="65" y="173" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">A</text>
-<text x="101" y="173" font-size="31" fill="#172a40" font-weight="700" text-anchor="start">分布函数在零处一下累积两成</text>
-<line x1="125" y1="438" x2="891" y2="438" stroke="#cedae4" stroke-width="2"/>
-<text x="111" y="446" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">0</text>
-<line x1="125" y1="395.4" x2="891" y2="395.4" stroke="#cedae4" stroke-width="2"/>
-<text x="96" y="381.4" font-size="26" fill="#465d72" font-weight="650" text-anchor="middle">1</text>
-<line x1="75" y1="389.4" x2="117" y2="389.4" stroke="#465d72" stroke-width="1.8"/>
-<text x="96" y="418.4" font-size="26" fill="#465d72" font-weight="650" text-anchor="middle">5</text>
-<line x1="125" y1="225" x2="891" y2="225" stroke="#cedae4" stroke-width="2"/>
-<text x="111" y="233" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">1</text>
-<line x1="125" y1="438" x2="895" y2="438" stroke="#465d72" stroke-width="2"/>
-<line x1="152" y1="438" x2="152" y2="220" stroke="#465d72" stroke-width="2"/>
-<path d="M125 438 H152 M152 395.4 L826 225 H891" fill="none" stroke="#136d84" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="152" y1="438" x2="152" y2="395.4" stroke="#a85127" stroke-width="2.5" stroke-dasharray="5 6"/>
-<circle cx="152" cy="438" r="7" fill="white" stroke="#136d84" stroke-width="3"/>
-<circle cx="152" cy="395.4" r="7" fill="#136d84" stroke="#136d84" stroke-width="3"/>
-<text x="177" y="341" font-size="26" fill="#a85127" font-weight="650" text-anchor="start">跳跃高度</text>
-<line x1="222" y1="352" x2="170" y2="385" stroke="#a85127" stroke-width="2"/>
-<text x="465" y="264" font-size="26" fill="#136d84" font-weight="650" text-anchor="start">斜率</text>
-<text x="554" y="247" font-size="26" fill="#136d84" font-weight="650" text-anchor="middle">4</text>
-<line x1="533" y1="255" x2="575" y2="255" stroke="#136d84" stroke-width="1.8"/>
-<text x="554" y="284" font-size="26" fill="#136d84" font-weight="650" text-anchor="middle">5</text>
-<text x="152" y="476" font-size="25" fill="#465d72" font-weight="400" text-anchor="middle">0</text>
-<text x="826" y="476" font-size="25" fill="#465d72" font-weight="400" text-anchor="middle">1</text>
-<text x="891" y="510" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">等待时间 x</text>
-<rect x="44" y="526" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="65" y="556" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">B</text>
-<text x="101" y="556" font-size="31" fill="#172a40" font-weight="700" text-anchor="start">逆向采样把一整段输入映到零</text>
-<rect x="152" y="606" width="134.8" height="226" rx="0" fill="#fff2e8" stroke="none" stroke-width="1.8"/>
-<line x1="152" y1="832" x2="892" y2="832" stroke="#cedae4" stroke-width="2"/>
-<text x="131" y="840" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">0</text>
-<line x1="152" y1="625" x2="892" y2="625" stroke="#cedae4" stroke-width="2"/>
-<text x="131" y="633" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">1</text>
-<line x1="152" y1="832" x2="152" y2="610" stroke="#465d72" stroke-width="2"/>
-<line x1="286.8" y1="832" x2="286.8" y2="611" stroke="#a85127" stroke-width="2" stroke-dasharray="6 6"/>
-<path d="M152 832 H286.8 L826 625" fill="none" stroke="#136d84" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="152" cy="832" r="6" fill="white" stroke="#136d84" stroke-width="3"/>
-<circle cx="286.8" cy="832" r="6" fill="#136d84" stroke="#136d84" stroke-width="3"/>
-<circle cx="826" cy="625" r="6" fill="white" stroke="#136d84" stroke-width="3"/>
-<text x="172" y="769" font-size="25" fill="#a85127" font-weight="700" text-anchor="start">都输出 0</text>
-<text x="588" y="767" font-size="25" fill="#136d84" font-weight="650" text-anchor="start">输出随 u 线性增加</text>
-<text x="152" y="872" font-size="25" fill="#465d72" font-weight="400" text-anchor="middle">0</text>
-<text x="826" y="872" font-size="25" fill="#465d72" font-weight="400" text-anchor="middle">1</text>
-<text x="286.8" y="872" font-size="26" fill="#465d72" font-weight="650" text-anchor="middle">1</text>
-<line x1="265.8" y1="880" x2="307.8" y2="880" stroke="#465d72" stroke-width="1.8"/>
-<text x="286.8" y="909" font-size="26" fill="#465d72" font-weight="650" text-anchor="middle">5</text>
-<text x="894" y="909" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">均匀随机数 u</text>
-<line x1="44" y1="940" x2="916" y2="940" stroke="#cedae4" stroke-width="2"/>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#537184"/></marker></defs>
+<rect id="edition-paper" x="-18.24" y="50.32" width="996.48" height="955.92" fill="#ffffff"/><svg id="edition-view" x="0" y="68.56" width="960" height="919.44" viewBox="0 68.56 960 919.44" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<rect x="0" y="0" width="960" height="988" rx="0" fill="#ffffff" stroke="none" stroke-width="1.8"/>
+<text x="46" y="106" font-size="26" fill="#476072" font-weight="400" text-anchor="start">两成恰好为零，其余八成在 0 到 1 之间均匀分布</text>
+<rect x="44" y="143" width="42" height="41" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="65" y="173" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">A</text>
+<text x="101" y="173" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">分布函数在零处一下累积两成</text>
+<line x1="125" y1="438" x2="891" y2="438" stroke="#d4e0e7" stroke-width="2"/>
+<text x="111" y="446" font-size="24" fill="#476072" font-weight="400" text-anchor="end">0</text>
+<line x1="125" y1="395.4" x2="891" y2="395.4" stroke="#d4e0e7" stroke-width="2"/>
+<text x="96" y="381.4" font-size="26" fill="#476072" font-weight="650" text-anchor="middle">1</text>
+<line x1="75" y1="389.4" x2="117" y2="389.4" stroke="#476072" stroke-width="1.8"/>
+<text x="96" y="418.4" font-size="26" fill="#476072" font-weight="650" text-anchor="middle">5</text>
+<line x1="125" y1="225" x2="891" y2="225" stroke="#d4e0e7" stroke-width="2"/>
+<text x="111" y="233" font-size="24" fill="#476072" font-weight="400" text-anchor="end">1</text>
+<line x1="125" y1="438" x2="895" y2="438" stroke="#476072" stroke-width="2"/>
+<line x1="152" y1="438" x2="152" y2="220" stroke="#476072" stroke-width="2"/>
+<path d="M125 438 H152 M152 395.4 L826 225 H891" fill="none" stroke="#1c687e" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="152" y1="438" x2="152" y2="395.4" stroke="#9e5230" stroke-width="2.5" stroke-dasharray="5 6"/>
+<circle cx="152" cy="438" r="7" fill="#ffffff" stroke="#1c687e" stroke-width="3"/>
+<circle cx="152" cy="395.4" r="7" fill="#1c687e" stroke="#1c687e" stroke-width="3"/>
+<text x="177" y="341" font-size="26" fill="#9e5230" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">跳跃高度</text>
+<line x1="222" y1="352" x2="170" y2="385" stroke="#9e5230" stroke-width="2"/>
+<text x="465" y="264" font-size="26" fill="#1c687e" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">斜率</text>
+<text x="554" y="247" font-size="26" fill="#1c687e" font-weight="650" text-anchor="middle">4</text>
+<line x1="533" y1="255" x2="575" y2="255" stroke="#1c687e" stroke-width="1.8"/>
+<text x="554" y="284" font-size="26" fill="#1c687e" font-weight="650" text-anchor="middle">5</text>
+<text x="152" y="476" font-size="25" fill="#476072" font-weight="400" text-anchor="middle">0</text>
+<text x="826" y="476" font-size="25" fill="#476072" font-weight="400" text-anchor="middle">1</text>
+<text x="891" y="510" font-size="24" fill="#476072" font-weight="400" text-anchor="end">等待时间 x</text>
+<rect x="44" y="526" width="42" height="41" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="65" y="556" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">B</text>
+<text x="101" y="556" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">逆向采样把一整段输入映到零</text>
+<rect x="152" y="606" width="134.8" height="226" rx="0" fill="#fbf4ef" stroke="none" stroke-width="1.8"/>
+<line x1="152" y1="832" x2="892" y2="832" stroke="#d4e0e7" stroke-width="2"/>
+<text x="131" y="840" font-size="24" fill="#476072" font-weight="400" text-anchor="end">0</text>
+<line x1="152" y1="625" x2="892" y2="625" stroke="#d4e0e7" stroke-width="2"/>
+<text x="131" y="633" font-size="24" fill="#476072" font-weight="400" text-anchor="end">1</text>
+<line x1="152" y1="832" x2="152" y2="610" stroke="#476072" stroke-width="2"/>
+<line x1="286.8" y1="832" x2="286.8" y2="611" stroke="#9e5230" stroke-width="2" stroke-dasharray="6 6"/>
+<path d="M152 832 H286.8 L826 625" fill="none" stroke="#1c687e" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="152" cy="832" r="6" fill="#ffffff" stroke="#1c687e" stroke-width="3"/>
+<circle cx="286.8" cy="832" r="6" fill="#1c687e" stroke="#1c687e" stroke-width="3"/>
+<circle cx="826" cy="625" r="6" fill="#ffffff" stroke="#1c687e" stroke-width="3"/>
+<text x="172" y="769" font-size="25" fill="#9e5230" font-weight="700" text-anchor="start">都输出 0</text>
+<text x="588" y="767" font-size="25" fill="#1c687e" font-weight="650" text-anchor="start">输出随 u 线性增加</text>
+<text x="152" y="872" font-size="25" fill="#476072" font-weight="400" text-anchor="middle">0</text>
+<text x="826" y="872" font-size="25" fill="#476072" font-weight="400" text-anchor="middle">1</text>
+<text x="286.8" y="872" font-size="26" fill="#476072" font-weight="650" text-anchor="middle">1</text>
+<line x1="265.8" y1="880" x2="307.8" y2="880" stroke="#476072" stroke-width="1.8"/>
+<text x="286.8" y="909" font-size="26" fill="#476072" font-weight="650" text-anchor="middle">5</text>
+<text x="894" y="909" font-size="24" fill="#476072" font-weight="400" text-anchor="end">均匀随机数 u</text>
+<line x1="44" y1="940" x2="916" y2="940" stroke="#d4e0e7" stroke-width="2"/>
 </g>
-</svg>
+</svg></svg>

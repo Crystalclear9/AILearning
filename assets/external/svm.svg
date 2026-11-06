@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="838" viewBox="0 47 960 838" role="img" aria-labelledby="artwork-title"><title id="artwork-title">三条候选分类直线及两类样本</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="787.881471"/></clipPath></defs><rect width="960" height="885" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.619891)"><g><title>SVM Separating Hyperplanes</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="874.48" viewBox="-18.24 28.76 996.48 874.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">三条候选分类直线及两类样本</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="787.881471"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="874.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="838" viewBox="0 47 960 838" overflow="hidden"><rect width="960" height="885" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.619891)"><g><title>SVM Separating Hyperplanes</title>
 <metadata xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ns2="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
  <rdf:RDF>
   <ns2:Work rdf:about="">
@@ -20,10 +20,10 @@
   </ns2:License>
  </rdf:RDF>
 </metadata>
-<rect x="0" y="0" width="1468" height="1271" fill="white"/>
+<rect x="0" y="0" width="1468" height="1271" fill="#ffffff"/>
 
-<path fill="#000" stroke="none" d="M102.94,10,88.469,49.344c3.4909-2.5055,7.477-3.9995,11.531-4.5v1128.8h1323.5c-0.494,4.0412-2.0111,7.9815-4.5312,11.406l39.344-14.469-39.3-14.4c2.5093,3.496,4.0017,7.4708,4.5,11.531h-1317.5v-1122.8c4.0474,0.49182,7.9764,1.9762,11.406,4.5z"/>
-<circle id="a" cx="468.172" cy="306.08" r="31.06" fill="#000" stroke="none"/>
+<path fill="#1d262f" stroke="none" d="M102.94,10,88.469,49.344c3.4909-2.5055,7.477-3.9995,11.531-4.5v1128.8h1323.5c-0.494,4.0412-2.0111,7.9815-4.5312,11.406l39.344-14.469-39.3-14.4c2.5093,3.496,4.0017,7.4708,4.5,11.531h-1317.5v-1122.8c4.0474,0.49182,7.9764,1.9762,11.406,4.5z"/>
+<circle id="a" cx="468.172" cy="306.08" r="31.06" fill="#1d262f" stroke="none"/>
 <use xlink:href="#a" x="-127.78" y="128.27"/>
 <use xlink:href="#a" x="-129.22" y="-88"/>
 <use xlink:href="#a" x="-26.81" y="-164.67"/>
@@ -31,7 +31,7 @@
 <use xlink:href="#a" x="165.08" y="-36.83"/>
 <use xlink:href="#a" x="153.24" y="154.01"/>
 <use xlink:href="#a" x="-26.80" y="193.57"/>
-<circle id="b" cx="747.11" cy="993.67" r="31.06" fill="none" stroke="#000" stroke-width="5"/>
+<circle id="b" cx="747.11" cy="993.67" r="31.06" fill="none" stroke="#1d262f" stroke-width="5"/>
 <use xlink:href="#b" x="181.34" y="-22"/>
 <use xlink:href="#b" x="247.68" y="-270"/>
 <use xlink:href="#b" x="283.01" y="18"/>
@@ -39,16 +39,16 @@
 <use xlink:href="#b" x="389.69" y="-342"/>
 <use xlink:href="#b" x="503.02" y="-202"/>
 <use xlink:href="#b" x="627.36" y="-136"/>
-<path fill="none" stroke="#000" d="m747,993.67-54,0"/>
-<path fill="none" stroke="#000" d="m633.25,269.25,59.752,0"/>
-<path fill="none" stroke="#000" d="m621.41,460.08,162.6,155.33"/>
-<line fill="none" stroke="#000" x1="830" y1="566.41" x2="994.68" y2="723.67"/>
-<line fill="none" stroke="#089212" stroke-width="4" x1="679.356" y1="1137.4" x2="347.047" y2="48.502"/>
-<line fill="none" stroke="#008aff" stroke-width="4" x1="694" y1="48.502" x2="693.42" y2="1137.4"/>
-<line fill="none" stroke="#f00" stroke-width="4" x1="283.3" y1="1137.4" x2="1324.5" y2="48.502"/>
-<text fill="#000000" font-family="sans-serif" font-size="48px" x="276.44455" y="80.910538">H<tspan font-size="31.2" dy="12">1</tspan></text>
-<text fill="#000000" font-family="sans-serif" font-size="48px" x="620.79797" y="80.910538">H<tspan font-size="31.2" dy="12">2</tspan></text>
-<text fill="#000000" font-family="sans-serif" font-size="48px" x="1198.583" y="80.910538">H<tspan font-size="31.2" dy="12">3</tspan></text>
-<text fill="#000000" font-family="sans-serif" font-size="64px" x="1356.6881" y="1248.8091">X<tspan font-size="41.6" dy="18">1</tspan></text>
-<text fill="#000000" font-family="sans-serif" font-size="64px" x="8.09375" y="91.510849">X<tspan font-size="41.6" dy="18">2</tspan></text>
-</g></g></g></svg>
+<path fill="none" stroke="#1d262f" d="m747,993.67-54,0"/>
+<path fill="none" stroke="#1d262f" d="m633.25,269.25,59.752,0"/>
+<path fill="none" stroke="#1d262f" d="m621.41,460.08,162.6,155.33"/>
+<line fill="none" stroke="#1d262f" x1="830" y1="566.41" x2="994.68" y2="723.67"/>
+<line fill="none" stroke="#188420" stroke-width="4" x1="679.356" y1="1137.4" x2="347.047" y2="48.502"/>
+<line fill="none" stroke="#278fd4" stroke-width="4" x1="694" y1="48.502" x2="693.42" y2="1137.4"/>
+<line fill="none" stroke="#d42727" stroke-width="4" x1="283.3" y1="1137.4" x2="1324.5" y2="48.502"/>
+<text fill="#1d262f" font-family="sans-serif" font-size="48px" x="276.44455" y="80.910538">H<tspan font-size="31.2" dy="12">1</tspan></text>
+<text fill="#1d262f" font-family="sans-serif" font-size="48px" x="620.79797" y="80.910538">H<tspan font-size="31.2" dy="12">2</tspan></text>
+<text fill="#1d262f" font-family="sans-serif" font-size="48px" x="1198.583" y="80.910538">H<tspan font-size="31.2" dy="12">3</tspan></text>
+<text fill="#1d262f" font-family="sans-serif" font-size="64px" x="1356.6881" y="1248.8091">X<tspan font-size="41.6" dy="18">1</tspan></text>
+<text fill="#1d262f" font-family="sans-serif" font-size="64px" x="8.09375" y="91.510849">X<tspan font-size="41.6" dy="18">2</tspan></text>
+</g></g></g></svg></svg>

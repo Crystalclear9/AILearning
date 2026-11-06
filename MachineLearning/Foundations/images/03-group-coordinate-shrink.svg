@@ -1,85 +1,85 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1050.36" viewBox="0 69.64 960 1050.36" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="1086.84" viewBox="-18.24 51.4 996.48 1086.84" role="img" aria-labelledby="title desc">
 <title id="title">成组收缩与逐坐标收缩走向不同</title><desc id="desc">从 (3,4) 出发，组收缩到 (1.8,2.4) 并保留方向；逐坐标软阈值到 (1,2)。随着惩罚增加，组分量同时归零，逐坐标分量分别归零。</desc>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<rect id="edition-paper" x="-18.24" y="51.4" width="996.48" height="1086.84" fill="#ffffff"/><svg id="edition-view" x="0" y="69.64" width="960" height="1050.36" viewBox="0 69.64 960 1050.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0.000" y="0.000" width="960.000" height="1120.000" rx="0" fill="#ffffff" stroke="none" stroke-width="1.6"/>
-<text x="46.000" y="106.000" fill="#465d72" font-size="26" font-weight="400" text-anchor="start">同一输入向量，在两种惩罚下观察更新方向</text>
-<rect x="44.000" y="145.000" width="44.000" height="41.000" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.6"/>
-<text x="66.000" y="174.000" fill="#136d84" font-size="26" font-weight="700" text-anchor="middle">A</text>
-<text x="103.000" y="174.000" fill="#172a40" font-size="31" font-weight="700" text-anchor="start">惩罚强度为 2 时的三个向量</text>
-<line x1="174.000" y1="557.000" x2="474.000" y2="557.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="161.000" y="565.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0</text>
-<line x1="174.000" y1="482.000" x2="474.000" y2="482.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="161.000" y="490.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">1</text>
-<line x1="174.000" y1="407.000" x2="474.000" y2="407.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="161.000" y="415.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">2</text>
-<line x1="174.000" y1="332.000" x2="474.000" y2="332.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="161.000" y="340.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">3</text>
-<line x1="174.000" y1="257.000" x2="474.000" y2="257.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="161.000" y="265.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">4</text>
-<line x1="174.000" y1="557.000" x2="474.000" y2="557.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<line x1="174.000" y1="557.000" x2="174.000" y2="257.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<line x1="174.000" y1="557.000" x2="174.000" y2="565.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="174.000" y="593.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">0</text>
-<line x1="249.000" y1="557.000" x2="249.000" y2="565.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="249.000" y="593.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">1</text>
-<line x1="324.000" y1="557.000" x2="324.000" y2="565.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="324.000" y="593.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">2</text>
-<line x1="399.000" y1="557.000" x2="399.000" y2="565.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="399.000" y="593.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">3</text>
-<line x1="474.000" y1="557.000" x2="474.000" y2="565.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="474.000" y="593.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">4</text>
-<line x1="174.000" y1="557.000" x2="399.000" y2="257.000" stroke="#465d72" stroke-width="3" stroke-dasharray="7 6"/>
-<line x1="174.000" y1="557.000" x2="249.000" y2="407.000" stroke="#a85127" stroke-width="4" stroke-dasharray="none"/>
-<line x1="174.000" y1="557.000" x2="309.000" y2="377.000" stroke="#136d84" stroke-width="4" stroke-dasharray="none"/>
-<circle cx="399.000" cy="257.000" r="9" fill="#172a40" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="309.000" cy="377.000" r="9" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="249.000" cy="407.000" r="9" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<text x="542.000" y="279.000" fill="#172a40" font-size="27" font-weight="650" text-anchor="start">原向量 (3, 4)</text>
-<text x="542.000" y="401.000" fill="#136d84" font-size="27" font-weight="650" text-anchor="start">组收缩 (1.8, 2.4)</text>
-<text x="542.000" y="474.000" fill="#a85127" font-size="27" font-weight="650" text-anchor="start">逐坐标 (1, 2)</text>
-<text x="87.000" y="232.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="start">第二坐标</text>
-<text x="520.000" y="594.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="start">第一坐标</text>
-<rect x="44.000" y="642.000" width="44.000" height="41.000" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.6"/>
-<text x="66.000" y="671.000" fill="#136d84" font-size="26" font-weight="700" text-anchor="middle">B</text>
-<text x="103.000" y="671.000" fill="#172a40" font-size="31" font-weight="700" text-anchor="start">增大惩罚时，检查每个归零点</text>
-<line x1="155.000" y1="716.000" x2="191.000" y2="716.000" stroke="#136d84" stroke-width="4" stroke-dasharray="none"/>
-<text x="204.000" y="724.000" fill="#136d84" font-size="24" font-weight="650" text-anchor="start">组收缩</text>
-<line x1="516.000" y1="716.000" x2="552.000" y2="716.000" stroke="#a85127" stroke-width="4" stroke-dasharray="8 6"/>
-<text x="565.000" y="724.000" fill="#a85127" font-size="24" font-weight="650" text-anchor="start">逐坐标</text>
-<line x1="151.000" y1="1004.000" x2="835.000" y2="1004.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="138.000" y="1012.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0</text>
-<line x1="151.000" y1="949.000" x2="835.000" y2="949.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="138.000" y="957.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">1</text>
-<line x1="151.000" y1="894.000" x2="835.000" y2="894.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="138.000" y="902.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">2</text>
-<line x1="151.000" y1="839.000" x2="835.000" y2="839.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="138.000" y="847.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">3</text>
-<line x1="151.000" y1="784.000" x2="835.000" y2="784.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="138.000" y="792.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">4</text>
-<line x1="151.000" y1="1004.000" x2="835.000" y2="1004.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<line x1="151.000" y1="1004.000" x2="151.000" y2="784.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<line x1="151.000" y1="1004.000" x2="151.000" y2="1012.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="151.000" y="1040.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">0</text>
-<line x1="265.000" y1="1004.000" x2="265.000" y2="1012.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="265.000" y="1040.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">1</text>
-<line x1="379.000" y1="1004.000" x2="379.000" y2="1012.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="379.000" y="1040.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">2</text>
-<line x1="493.000" y1="1004.000" x2="493.000" y2="1012.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="493.000" y="1040.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">3</text>
-<line x1="607.000" y1="1004.000" x2="607.000" y2="1012.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="607.000" y="1040.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">4</text>
-<line x1="721.000" y1="1004.000" x2="721.000" y2="1012.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="721.000" y="1040.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">5</text>
-<line x1="835.000" y1="1004.000" x2="835.000" y2="1012.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="835.000" y="1040.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">6</text>
-<polyline points="151.000,839.000 721.000,1004.000 835.000,1004.000" fill="none" stroke="#136d84" stroke-width="4" stroke-dasharray="none" stroke-linecap="round"/>
-<polyline points="151.000,839.000 493.000,1004.000 835.000,1004.000" fill="none" stroke="#a85127" stroke-width="4" stroke-dasharray="7 6" stroke-linecap="round"/>
-<circle cx="493.000" cy="1004.000" r="7" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<polyline points="151.000,784.000 721.000,1004.000 835.000,1004.000" fill="none" stroke="#136d84" stroke-width="4" stroke-dasharray="none" stroke-linecap="round"/>
-<polyline points="151.000,784.000 607.000,1004.000 835.000,1004.000" fill="none" stroke="#a85127" stroke-width="4" stroke-dasharray="7 6" stroke-linecap="round"/>
-<circle cx="607.000" cy="1004.000" r="7" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="721.000" cy="1004.000" r="7" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<text x="843.000" y="1083.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">惩罚强度 λ</text>
+<text x="46.000" y="106.000" fill="#476072" font-size="26" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">同一输入向量，在两种惩罚下观察更新方向</text>
+<rect x="44.000" y="145.000" width="44.000" height="41.000" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.6"/>
+<text x="66.000" y="174.000" fill="#1c687e" font-size="26" font-weight="700" text-anchor="middle">A</text>
+<text x="103.000" y="174.000" fill="#283341" font-size="31" font-weight="700" text-anchor="start">惩罚强度为 2 时的三个向量</text>
+<line x1="174.000" y1="557.000" x2="474.000" y2="557.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="161.000" y="565.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0</text>
+<line x1="174.000" y1="482.000" x2="474.000" y2="482.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="161.000" y="490.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">1</text>
+<line x1="174.000" y1="407.000" x2="474.000" y2="407.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="161.000" y="415.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">2</text>
+<line x1="174.000" y1="332.000" x2="474.000" y2="332.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="161.000" y="340.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">3</text>
+<line x1="174.000" y1="257.000" x2="474.000" y2="257.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="161.000" y="265.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">4</text>
+<line x1="174.000" y1="557.000" x2="474.000" y2="557.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<line x1="174.000" y1="557.000" x2="174.000" y2="257.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<line x1="174.000" y1="557.000" x2="174.000" y2="565.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="174.000" y="593.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">0</text>
+<line x1="249.000" y1="557.000" x2="249.000" y2="565.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="249.000" y="593.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">1</text>
+<line x1="324.000" y1="557.000" x2="324.000" y2="565.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="324.000" y="593.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">2</text>
+<line x1="399.000" y1="557.000" x2="399.000" y2="565.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="399.000" y="593.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">3</text>
+<line x1="474.000" y1="557.000" x2="474.000" y2="565.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="474.000" y="593.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">4</text>
+<line x1="174.000" y1="557.000" x2="399.000" y2="257.000" stroke="#476072" stroke-width="3" stroke-dasharray="7 6"/>
+<line x1="174.000" y1="557.000" x2="249.000" y2="407.000" stroke="#9e5230" stroke-width="4" stroke-dasharray="none"/>
+<line x1="174.000" y1="557.000" x2="309.000" y2="377.000" stroke="#1c687e" stroke-width="4" stroke-dasharray="none"/>
+<circle cx="399.000" cy="257.000" r="9" fill="#283341" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="309.000" cy="377.000" r="9" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="249.000" cy="407.000" r="9" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<text x="542.000" y="279.000" fill="#283341" font-size="27" font-weight="650" text-anchor="start">原向量 (3, 4)</text>
+<text x="542.000" y="401.000" fill="#1c687e" font-size="27" font-weight="650" text-anchor="start">组收缩 (1.8, 2.4)</text>
+<text x="542.000" y="474.000" fill="#9e5230" font-size="27" font-weight="650" text-anchor="start">逐坐标 (1, 2)</text>
+<text x="87.000" y="232.000" fill="#476072" font-size="24" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">第二坐标</text>
+<text x="520.000" y="594.000" fill="#476072" font-size="24" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">第一坐标</text>
+<rect x="44.000" y="642.000" width="44.000" height="41.000" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.6"/>
+<text x="66.000" y="671.000" fill="#1c687e" font-size="26" font-weight="700" text-anchor="middle">B</text>
+<text x="103.000" y="671.000" fill="#283341" font-size="31" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">增大惩罚时，检查每个归零点</text>
+<line x1="155.000" y1="716.000" x2="191.000" y2="716.000" stroke="#1c687e" stroke-width="4" stroke-dasharray="none"/>
+<text x="204.000" y="724.000" fill="#1c687e" font-size="24" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">组收缩</text>
+<line x1="516.000" y1="716.000" x2="552.000" y2="716.000" stroke="#9e5230" stroke-width="4" stroke-dasharray="8 6"/>
+<text x="565.000" y="724.000" fill="#9e5230" font-size="24" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">逐坐标</text>
+<line x1="151.000" y1="1004.000" x2="835.000" y2="1004.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="138.000" y="1012.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0</text>
+<line x1="151.000" y1="949.000" x2="835.000" y2="949.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="138.000" y="957.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">1</text>
+<line x1="151.000" y1="894.000" x2="835.000" y2="894.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="138.000" y="902.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">2</text>
+<line x1="151.000" y1="839.000" x2="835.000" y2="839.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="138.000" y="847.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">3</text>
+<line x1="151.000" y1="784.000" x2="835.000" y2="784.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="138.000" y="792.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">4</text>
+<line x1="151.000" y1="1004.000" x2="835.000" y2="1004.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<line x1="151.000" y1="1004.000" x2="151.000" y2="784.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<line x1="151.000" y1="1004.000" x2="151.000" y2="1012.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="151.000" y="1040.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">0</text>
+<line x1="265.000" y1="1004.000" x2="265.000" y2="1012.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="265.000" y="1040.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">1</text>
+<line x1="379.000" y1="1004.000" x2="379.000" y2="1012.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="379.000" y="1040.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">2</text>
+<line x1="493.000" y1="1004.000" x2="493.000" y2="1012.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="493.000" y="1040.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">3</text>
+<line x1="607.000" y1="1004.000" x2="607.000" y2="1012.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="607.000" y="1040.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">4</text>
+<line x1="721.000" y1="1004.000" x2="721.000" y2="1012.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="721.000" y="1040.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">5</text>
+<line x1="835.000" y1="1004.000" x2="835.000" y2="1012.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="835.000" y="1040.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">6</text>
+<polyline points="151.000,839.000 721.000,1004.000 835.000,1004.000" fill="none" stroke="#1c687e" stroke-width="4" stroke-dasharray="none" stroke-linecap="round"/>
+<polyline points="151.000,839.000 493.000,1004.000 835.000,1004.000" fill="none" stroke="#9e5230" stroke-width="4" stroke-dasharray="7 6" stroke-linecap="round"/>
+<circle cx="493.000" cy="1004.000" r="7" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<polyline points="151.000,784.000 721.000,1004.000 835.000,1004.000" fill="none" stroke="#1c687e" stroke-width="4" stroke-dasharray="none" stroke-linecap="round"/>
+<polyline points="151.000,784.000 607.000,1004.000 835.000,1004.000" fill="none" stroke="#9e5230" stroke-width="4" stroke-dasharray="7 6" stroke-linecap="round"/>
+<circle cx="607.000" cy="1004.000" r="7" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="721.000" cy="1004.000" r="7" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<text x="843.000" y="1083.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">惩罚强度 λ</text>
 </g>
-</svg>
+</svg></svg>

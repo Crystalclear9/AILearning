@@ -1,43 +1,43 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1330.8" height="830.4" viewBox="85.2 57.6 1330.8 830.4" role="img" aria-labelledby="plate-title"><title id="plate-title">用户1的三条订单经过金额谓词与其否定后的三值分流</title><rect width="1330.8" height="830.4" fill="white" x="85.2" y="57.6"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#1f3348">
-<text x="720" y="110" font-size="27" fill="#6b7f92" text-anchor="middle">仍用用户 1 的三笔订单：p 表示 amount_cents &gt; 1500</text>
-<rect x="115" y="160" width="290" height="74" fill="white" stroke="#2171b8" stroke-width="2" rx="8"/>
-<text x="260.0" y="207.0" font-size="27" fill="#2171b8" text-anchor="middle">103 · 2000</text>
-<line x1="260" y1="245" x2="260" y2="315" stroke="#2171b8" stroke-width="3"/>
-<polyline points="254.938,303.026 260.000,315.000 265.062,303.026" fill="none" stroke="#2171b8" stroke-width="3" opacity="1"/>
-<circle cx="260" cy="398" r="73" fill="white" stroke="#2171b8" stroke-width="3"/>
-<text x="260" y="410" font-size="28" fill="#2171b8" text-anchor="middle" font-weight="700">TRUE</text>
-<line x1="260" y1="489" x2="260" y2="570" stroke="#2171b8" stroke-width="3"/>
-<polyline points="254.938,558.026 260.000,570.000 265.062,558.026" fill="none" stroke="#2171b8" stroke-width="3" opacity="1"/>
-<text x="260" y="628" font-size="27" fill="#2171b8" text-anchor="middle" font-weight="700">WHERE p</text>
-<circle cx="260" cy="695" r="24" fill="#2171b8"/>
-<text x="260" y="760" font-size="29" fill="#2171b8" text-anchor="middle">保留 1 行</text>
-<rect x="575" y="160" width="290" height="74" fill="white" stroke="#1f3348" stroke-width="2" rx="8"/>
-<text x="720.0" y="207.0" font-size="27" fill="#1f3348" text-anchor="middle">101 · 1000</text>
-<line x1="720" y1="245" x2="720" y2="315" stroke="#1f3348" stroke-width="3"/>
-<polyline points="714.938,303.026 720.000,315.000 725.062,303.026" fill="none" stroke="#1f3348" stroke-width="3" opacity="1"/>
-<rect x="637" y="325" width="166" height="146" fill="white" stroke="#1f3348" stroke-width="2" rx="0"/>
-<text x="720" y="410" font-size="28" fill="#1f3348" text-anchor="middle" font-weight="700">FALSE</text>
-<line x1="720" y1="489" x2="720" y2="570" stroke="#1f3348" stroke-width="3"/>
-<polyline points="714.938,558.026 720.000,570.000 725.062,558.026" fill="none" stroke="#1f3348" stroke-width="3" opacity="1"/>
-<text x="720" y="628" font-size="27" fill="#1f3348" text-anchor="middle" font-weight="700">WHERE NOT p</text>
-<circle cx="720" cy="695" r="24" fill="#1f3348"/>
-<text x="720" y="760" font-size="29" fill="#1f3348" text-anchor="middle">保留 1 行</text>
-<rect x="1035" y="160" width="290" height="74" fill="white" stroke="#d37125" stroke-width="2" rx="8"/>
-<text x="1180.0" y="207.0" font-size="27" fill="#d37125" text-anchor="middle">102 · NULL</text>
-<line x1="1045" y1="226" x2="1315" y2="226" stroke="#d37125" stroke-width="2" stroke-dasharray="6 5"/>
-<line x1="1180" y1="245" x2="1180" y2="315" stroke="#d37125" stroke-width="3"/>
-<polyline points="1174.938,303.026 1180.000,315.000 1185.062,303.026" fill="none" stroke="#d37125" stroke-width="3" opacity="1"/>
-<polyline points="1180.000,320.000 1290.000,398.000 1180.000,476.000 1070.000,398.000 1180.000,320.000" fill="white" stroke="#d37125" stroke-width="3" opacity="1"/>
-<text x="1180" y="410" font-size="28" fill="#d37125" text-anchor="middle" font-weight="700">UNKNOWN</text>
-<line x1="1180" y1="489" x2="1180" y2="570" stroke="#d37125" stroke-width="3"/>
-<polyline points="1174.938,558.026 1180.000,570.000 1185.062,558.026" fill="none" stroke="#d37125" stroke-width="3" opacity="1"/>
-<text x="1180" y="628" font-size="27" fill="#d37125" text-anchor="middle" font-weight="700">WHERE amount_cents IS NULL</text>
-<circle cx="1180" cy="695" r="24" fill="#d37125"/>
-<text x="1180" y="760" font-size="29" fill="#d37125" text-anchor="middle">保留 1 行</text>
-<line x1="120" y1="805" x2="860" y2="805" stroke="#1f3348" stroke-width="2"/>
-<line x1="120" y1="795" x2="120" y2="815" stroke="#1f3348" stroke-width="2"/>
-<line x1="860" y1="795" x2="860" y2="815" stroke="#1f3348" stroke-width="2"/>
-<text x="490" y="855" font-size="28" fill="#1f3348" text-anchor="middle">前两种筛选合计只有 2 行</text>
-<text x="1180" y="855" font-size="28" fill="#d37125" text-anchor="middle">缺失需独立分支</text>
-</g><desc> NOT 不能把 UNKNOWN 变成 TRUE</desc></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1381.37" height="880.97" viewBox="59.9148 32.3148 1381.37 880.97" role="img" aria-labelledby="plate-title"><title id="plate-title">用户1的三条订单经过金额谓词与其否定后的三值分流</title><desc> NOT 不能把 UNKNOWN 变成 TRUE</desc><rect id="edition-paper" x="59.9148" y="32.3148" width="1381.37" height="880.97" fill="#ffffff"/><svg id="edition-view" x="85.2" y="57.6" width="1330.8" height="830.4" viewBox="85.2 57.6 1330.8 830.4" overflow="hidden"><rect width="1330.8" height="830.4" fill="#ffffff" x="85.2" y="57.6"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#23394a">
+<text x="720" y="110" font-size="27" fill="#688091" text-anchor="middle">仍用用户 1 的三笔订单：p 表示 amount_cents &gt; 1500</text>
+<rect x="115" y="160" width="290" height="74" fill="#ffffff" stroke="#2c77ab" stroke-width="2" rx="8"/>
+<text x="260.0" y="207.0" font-size="27" fill="#2c77ab" text-anchor="middle">103 · 2000</text>
+<line x1="260" y1="245" x2="260" y2="315" stroke="#2c77ab" stroke-width="3"/>
+<polyline points="254.938,303.026 260.000,315.000 265.062,303.026" fill="none" stroke="#2c77ab" stroke-width="3" opacity="1"/>
+<circle cx="260" cy="398" r="73" fill="#ffffff" stroke="#2c77ab" stroke-width="3"/>
+<text x="260" y="410" font-size="28" fill="#2c77ab" text-anchor="middle" font-weight="700">TRUE</text>
+<line x1="260" y1="489" x2="260" y2="570" stroke="#2c77ab" stroke-width="3"/>
+<polyline points="254.938,558.026 260.000,570.000 265.062,558.026" fill="none" stroke="#2c77ab" stroke-width="3" opacity="1"/>
+<text x="260" y="628" font-size="27" fill="#2c77ab" text-anchor="middle" font-weight="700">WHERE p</text>
+<circle cx="260" cy="695" r="24" fill="#2c77ab"/>
+<text x="260" y="760" font-size="29" fill="#2c77ab" text-anchor="middle">保留 1 行</text>
+<rect x="575" y="160" width="290" height="74" fill="#ffffff" stroke="#23394a" stroke-width="2" rx="8"/>
+<text x="720.0" y="207.0" font-size="27" fill="#23394a" text-anchor="middle">101 · 1000</text>
+<line x1="720" y1="245" x2="720" y2="315" stroke="#23394a" stroke-width="3"/>
+<polyline points="714.938,303.026 720.000,315.000 725.062,303.026" fill="none" stroke="#23394a" stroke-width="3" opacity="1"/>
+<rect x="637" y="325" width="166" height="146" fill="#ffffff" stroke="#23394a" stroke-width="2" rx="0"/>
+<text x="720" y="410" font-size="28" fill="#23394a" text-anchor="middle" font-weight="700">FALSE</text>
+<line x1="720" y1="489" x2="720" y2="570" stroke="#23394a" stroke-width="3"/>
+<polyline points="714.938,558.026 720.000,570.000 725.062,558.026" fill="none" stroke="#23394a" stroke-width="3" opacity="1"/>
+<text x="720" y="628" font-size="27" fill="#23394a" text-anchor="middle" font-weight="700">WHERE NOT p</text>
+<circle cx="720" cy="695" r="24" fill="#23394a"/>
+<text x="720" y="760" font-size="29" fill="#23394a" text-anchor="middle">保留 1 行</text>
+<rect x="1035" y="160" width="290" height="74" fill="#ffffff" stroke="#c36b31" stroke-width="2" rx="8"/>
+<text x="1180.0" y="207.0" font-size="27" fill="#c36b31" text-anchor="middle">102 · NULL</text>
+<line x1="1045" y1="226" x2="1315" y2="226" stroke="#c36b31" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="1180" y1="245" x2="1180" y2="315" stroke="#c36b31" stroke-width="3"/>
+<polyline points="1174.938,303.026 1180.000,315.000 1185.062,303.026" fill="none" stroke="#c36b31" stroke-width="3" opacity="1"/>
+<polyline points="1180.000,320.000 1290.000,398.000 1180.000,476.000 1070.000,398.000 1180.000,320.000" fill="#ffffff" stroke="#c36b31" stroke-width="3" opacity="1"/>
+<text x="1180" y="410" font-size="28" fill="#c36b31" text-anchor="middle" font-weight="700">UNKNOWN</text>
+<line x1="1180" y1="489" x2="1180" y2="570" stroke="#c36b31" stroke-width="3"/>
+<polyline points="1174.938,558.026 1180.000,570.000 1185.062,558.026" fill="none" stroke="#c36b31" stroke-width="3" opacity="1"/>
+<text x="1180" y="628" font-size="27" fill="#c36b31" text-anchor="middle" font-weight="700">WHERE amount_cents IS NULL</text>
+<circle cx="1180" cy="695" r="24" fill="#c36b31"/>
+<text x="1180" y="760" font-size="29" fill="#c36b31" text-anchor="middle">保留 1 行</text>
+<line x1="120" y1="805" x2="860" y2="805" stroke="#23394a" stroke-width="2"/>
+<line x1="120" y1="795" x2="120" y2="815" stroke="#23394a" stroke-width="2"/>
+<line x1="860" y1="795" x2="860" y2="815" stroke="#23394a" stroke-width="2"/>
+<text x="490" y="855" font-size="28" fill="#23394a" text-anchor="middle">前两种筛选合计只有 2 行</text>
+<text x="1180" y="855" font-size="28" fill="#c36b31" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">缺失需独立分支</text>
+</g></svg></svg>

@@ -1,124 +1,124 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="609" viewBox="0 47 960 609" role="img" aria-labelledby="artwork-title"><title id="artwork-title">分辨率改变单位置梯度</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="558.133333"/></clipPath></defs><rect width="960" height="656" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.606667)"><g><rect width="1500" height="920" fill="white"/>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#21374d">
-<text x="65" y="60" font-size="41.28px" fill="#21374d" text-anchor="start" font-weight="normal">A  同一个上游导数：每幅图的输出都是像素均值</text>
-<text x="90" y="125" font-size="36.12px" fill="#21374d" text-anchor="start" font-weight="normal">2 × 2 输入：逐位置导数</text>
-<rect x="90" y="160" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="124" y="182" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="111.385" y1="191" x2="136.615" y2="191" stroke="#16678a" stroke-width="2.214"/>
-<text x="124" y="215" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">4</text>
-<rect x="160" y="160" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="194" y="182" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="181.385" y1="191" x2="206.615" y2="191" stroke="#16678a" stroke-width="2.214"/>
-<text x="194" y="215" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">4</text>
-<rect x="90" y="230" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="124" y="252" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="111.385" y1="261" x2="136.615" y2="261" stroke="#16678a" stroke-width="2.214"/>
-<text x="124" y="285" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">4</text>
-<rect x="160" y="230" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="194" y="252" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="181.385" y1="261" x2="206.615" y2="261" stroke="#16678a" stroke-width="2.214"/>
-<text x="194" y="285" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">4</text>
-<text x="90" y="500" font-size="37.41px" fill="#1d7f85" text-anchor="start" font-weight="normal">4 个位置相加 = 1</text>
-<text x="525" y="125" font-size="36.12px" fill="#21374d" text-anchor="start" font-weight="normal">4 × 4 输入：逐位置导数</text>
-<rect x="525" y="160" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="559" y="182" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="539.77" y1="191" x2="578.23" y2="191" stroke="#16678a" stroke-width="2.214"/>
-<text x="559" y="215" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="595" y="160" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="629" y="182" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="609.77" y1="191" x2="648.23" y2="191" stroke="#16678a" stroke-width="2.214"/>
-<text x="629" y="215" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="665" y="160" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="699" y="182" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="679.77" y1="191" x2="718.23" y2="191" stroke="#16678a" stroke-width="2.214"/>
-<text x="699" y="215" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="735" y="160" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="769" y="182" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="749.77" y1="191" x2="788.23" y2="191" stroke="#16678a" stroke-width="2.214"/>
-<text x="769" y="215" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="525" y="230" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="559" y="252" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="539.77" y1="261" x2="578.23" y2="261" stroke="#16678a" stroke-width="2.214"/>
-<text x="559" y="285" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="595" y="230" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="629" y="252" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="609.77" y1="261" x2="648.23" y2="261" stroke="#16678a" stroke-width="2.214"/>
-<text x="629" y="285" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="665" y="230" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="699" y="252" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="679.77" y1="261" x2="718.23" y2="261" stroke="#16678a" stroke-width="2.214"/>
-<text x="699" y="285" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="735" y="230" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="769" y="252" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="749.77" y1="261" x2="788.23" y2="261" stroke="#16678a" stroke-width="2.214"/>
-<text x="769" y="285" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="525" y="300" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="559" y="322" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="539.77" y1="331" x2="578.23" y2="331" stroke="#16678a" stroke-width="2.214"/>
-<text x="559" y="355" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="595" y="300" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="629" y="322" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="609.77" y1="331" x2="648.23" y2="331" stroke="#16678a" stroke-width="2.214"/>
-<text x="629" y="355" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="665" y="300" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="699" y="322" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="679.77" y1="331" x2="718.23" y2="331" stroke="#16678a" stroke-width="2.214"/>
-<text x="699" y="355" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="735" y="300" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="769" y="322" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="749.77" y1="331" x2="788.23" y2="331" stroke="#16678a" stroke-width="2.214"/>
-<text x="769" y="355" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="525" y="370" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="559" y="392" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="539.77" y1="401" x2="578.23" y2="401" stroke="#16678a" stroke-width="2.214"/>
-<text x="559" y="425" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="595" y="370" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="629" y="392" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="609.77" y1="401" x2="648.23" y2="401" stroke="#16678a" stroke-width="2.214"/>
-<text x="629" y="425" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="665" y="370" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="699" y="392" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="679.77" y1="401" x2="718.23" y2="401" stroke="#16678a" stroke-width="2.214"/>
-<text x="699" y="425" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<rect x="735" y="370" width="67" height="67" fill="#eaf2f6" stroke="none" stroke-width="1"/>
-<text x="769" y="392" font-size="24.99px" fill="#217599" text-anchor="middle" font-weight="normal">1</text>
-<line x1="749.77" y1="401" x2="788.23" y2="401" stroke="#16678a" stroke-width="2.214"/>
-<text x="769" y="425" font-size="28.7147px" fill="#217599" text-anchor="middle" font-weight="normal">16</text>
-<text x="525" y="500" font-size="37.41px" fill="#1d7f85" text-anchor="start" font-weight="normal">16 个位置相加 = 1</text>
-<text x="1020" y="125" font-size="36.12px" fill="#21374d" text-anchor="start" font-weight="normal">共享标量 θ 写入所有位置</text>
-<text x="1060" y="240" font-size="42.57px" fill="#217599" text-anchor="start" font-weight="normal">xij = θ</text>
-<text x="1060" y="330" font-size="42.57px" fill="#21374d" text-anchor="start" font-weight="normal">均值 y = θ</text>
-<text x="1110" y="409" font-size="38.7px" fill="#1d7f85" text-anchor="middle" font-weight="normal">∂y</text>
-<line x1="1085.1" y1="418" x2="1134.9" y2="418" stroke="#16788d" stroke-width="2.214"/>
-<text x="1110" y="451" font-size="38.7px" fill="#1d7f85" text-anchor="middle" font-weight="normal">∂θ</text>
-<text x="1175" y="430" font-size="41.28px" fill="#1d7f85" text-anchor="start" font-weight="normal">= 1</text>
-<line x1="65" y1="555" x2="1435" y2="555" stroke="#d9e1e8" stroke-width="2"/>
-<line x1="120" y1="795.0" x2="1300" y2="795.0" stroke="#d9e1e8" stroke-width="1"/>
-<text x="106" y="803.0" font-size="27.37px" fill="#47586b" text-anchor="end" font-weight="normal">0</text>
-<line x1="120" y1="754.1346153846154" x2="1300" y2="754.1346153846154" stroke="#d9e1e8" stroke-width="1"/>
-<text x="106" y="762.1346153846154" font-size="27.37px" fill="#47586b" text-anchor="end" font-weight="normal">0.0625</text>
-<line x1="120" y1="713.2692307692307" x2="1300" y2="713.2692307692307" stroke="#d9e1e8" stroke-width="1"/>
-<text x="106" y="721.2692307692307" font-size="27.37px" fill="#47586b" text-anchor="end" font-weight="normal">0.125</text>
-<line x1="120" y1="631.5384615384615" x2="1300" y2="631.5384615384615" stroke="#d9e1e8" stroke-width="1"/>
-<text x="106" y="639.5384615384615" font-size="27.37px" fill="#47586b" text-anchor="end" font-weight="normal">0.25</text>
-<line x1="120.0" y1="795" x2="120.0" y2="803" stroke="#8d99ac" stroke-width="1.5"/>
-<text x="120.0" y="832" font-size="27.37px" fill="#47586b" text-anchor="middle" font-weight="normal">2</text>
-<line x1="288.57142857142856" y1="795" x2="288.57142857142856" y2="803" stroke="#8d99ac" stroke-width="1.5"/>
-<text x="288.57142857142856" y="832" font-size="27.37px" fill="#47586b" text-anchor="middle" font-weight="normal">4</text>
-<line x1="625.7142857142857" y1="795" x2="625.7142857142857" y2="803" stroke="#8d99ac" stroke-width="1.5"/>
-<text x="625.7142857142857" y="832" font-size="27.37px" fill="#47586b" text-anchor="middle" font-weight="normal">8</text>
-<line x1="962.8571428571429" y1="795" x2="962.8571428571429" y2="803" stroke="#8d99ac" stroke-width="1.5"/>
-<text x="962.8571428571429" y="832" font-size="27.37px" fill="#47586b" text-anchor="middle" font-weight="normal">12</text>
-<line x1="1300.0" y1="795" x2="1300.0" y2="803" stroke="#8d99ac" stroke-width="1.5"/>
-<text x="1300.0" y="832" font-size="31.4517px" fill="#47586b" text-anchor="middle" font-weight="normal">16</text>
-<line x1="120" y1="625" x2="120" y2="795" stroke="#8d99ac" stroke-width="1.6"/>
-<line x1="120" y1="795" x2="1300" y2="795" stroke="#8d99ac" stroke-width="1.6"/>
-<text x="710.0" y="874" font-size="34.83px" fill="#21374d" text-anchor="middle" font-weight="normal">正方形边长 H</text>
-<text x="140" y="591" font-size="34.83px" fill="#21374d" text-anchor="start" font-weight="normal">B  单位置导数</text>
-<polyline fill="none" stroke="#16678a" stroke-width="4" points="120,631.538 204.286,722.35 288.571,754.135 372.857,768.846 457.143,776.838 541.429,781.656 625.714,784.784 710,786.928 794.286,788.462 878.571,789.596 962.857,790.459 1047.143,791.131 1131.429,791.664 1215.714,792.094 1300,792.446"/>
-<circle cx="120.0" cy="631.5384615384615" r="8" fill="#16678a" stroke="none" stroke-width="1"/>
-<text x="140.0" y="619.5384615384615" font-size="30.16px" fill="#217599" text-anchor="start" font-weight="normal">0.25</text>
-<circle cx="288.57142857142856" cy="754.1346153846154" r="8" fill="#16678a" stroke="none" stroke-width="1"/>
-<text x="308.57142857142856" y="742.1346153846154" font-size="30.94px" fill="#217599" text-anchor="start" font-weight="normal">0.0625</text>
-</g></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="645.48" viewBox="-18.24 28.76 996.48 645.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">分辨率改变单位置梯度</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="558.133333"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="645.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="609" viewBox="0 47 960 609" overflow="hidden"><rect width="960" height="656" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.606667)"><g><rect width="1500" height="920" fill="#ffffff"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#253d4f">
+<text x="65" y="60" font-size="41.28px" fill="#253d4f" text-anchor="start" font-weight="normal">A  同一个上游导数：每幅图的输出都是像素均值</text>
+<text x="90" y="125" font-size="36.12px" fill="#253d4f" text-anchor="start" font-weight="normal">2 × 2 输入：逐位置导数</text>
+<rect x="90" y="160" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="124" y="182" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="111.385" y1="191" x2="136.615" y2="191" stroke="#1f6683" stroke-width="2.214"/>
+<text x="124" y="215" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">4</text>
+<rect x="160" y="160" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="194" y="182" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="181.385" y1="191" x2="206.615" y2="191" stroke="#1f6683" stroke-width="2.214"/>
+<text x="194" y="215" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">4</text>
+<rect x="90" y="230" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="124" y="252" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="111.385" y1="261" x2="136.615" y2="261" stroke="#1f6683" stroke-width="2.214"/>
+<text x="124" y="285" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">4</text>
+<rect x="160" y="230" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="194" y="252" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="181.385" y1="261" x2="206.615" y2="261" stroke="#1f6683" stroke-width="2.214"/>
+<text x="194" y="285" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">4</text>
+<text x="90" y="500" font-size="37.41px" fill="#25757f" text-anchor="start" font-weight="normal">4 个位置相加 = 1</text>
+<text x="525" y="125" font-size="36.12px" fill="#253d4f" text-anchor="start" font-weight="normal">4 × 4 输入：逐位置导数</text>
+<rect x="525" y="160" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="559" y="182" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="539.77" y1="191" x2="578.23" y2="191" stroke="#1f6683" stroke-width="2.214"/>
+<text x="559" y="215" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="595" y="160" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="629" y="182" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="609.77" y1="191" x2="648.23" y2="191" stroke="#1f6683" stroke-width="2.214"/>
+<text x="629" y="215" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="665" y="160" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="699" y="182" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="679.77" y1="191" x2="718.23" y2="191" stroke="#1f6683" stroke-width="2.214"/>
+<text x="699" y="215" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="735" y="160" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="769" y="182" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="749.77" y1="191" x2="788.23" y2="191" stroke="#1f6683" stroke-width="2.214"/>
+<text x="769" y="215" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="525" y="230" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="559" y="252" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="539.77" y1="261" x2="578.23" y2="261" stroke="#1f6683" stroke-width="2.214"/>
+<text x="559" y="285" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="595" y="230" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="629" y="252" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="609.77" y1="261" x2="648.23" y2="261" stroke="#1f6683" stroke-width="2.214"/>
+<text x="629" y="285" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="665" y="230" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="699" y="252" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="679.77" y1="261" x2="718.23" y2="261" stroke="#1f6683" stroke-width="2.214"/>
+<text x="699" y="285" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="735" y="230" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="769" y="252" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="749.77" y1="261" x2="788.23" y2="261" stroke="#1f6683" stroke-width="2.214"/>
+<text x="769" y="285" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="525" y="300" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="559" y="322" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="539.77" y1="331" x2="578.23" y2="331" stroke="#1f6683" stroke-width="2.214"/>
+<text x="559" y="355" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="595" y="300" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="629" y="322" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="609.77" y1="331" x2="648.23" y2="331" stroke="#1f6683" stroke-width="2.214"/>
+<text x="629" y="355" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="665" y="300" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="699" y="322" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="679.77" y1="331" x2="718.23" y2="331" stroke="#1f6683" stroke-width="2.214"/>
+<text x="699" y="355" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="735" y="300" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="769" y="322" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="749.77" y1="331" x2="788.23" y2="331" stroke="#1f6683" stroke-width="2.214"/>
+<text x="769" y="355" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="525" y="370" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="559" y="392" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="539.77" y1="401" x2="578.23" y2="401" stroke="#1f6683" stroke-width="2.214"/>
+<text x="559" y="425" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="595" y="370" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="629" y="392" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="609.77" y1="401" x2="648.23" y2="401" stroke="#1f6683" stroke-width="2.214"/>
+<text x="629" y="425" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="665" y="370" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="699" y="392" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="679.77" y1="401" x2="718.23" y2="401" stroke="#1f6683" stroke-width="2.214"/>
+<text x="699" y="425" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<rect x="735" y="370" width="67" height="67" fill="#edf4f7" stroke="none" stroke-width="1"/>
+<text x="769" y="392" font-size="24.99px" fill="#2a7391" text-anchor="middle" font-weight="normal">1</text>
+<line x1="749.77" y1="401" x2="788.23" y2="401" stroke="#1f6683" stroke-width="2.214"/>
+<text x="769" y="425" font-size="28.7147px" fill="#2a7391" text-anchor="middle" font-weight="normal">16</text>
+<text x="525" y="500" font-size="37.41px" fill="#25757f" text-anchor="start" font-weight="normal">16 个位置相加 = 1</text>
+<text x="1020" y="125" font-size="36.12px" fill="#253d4f" text-anchor="start" font-weight="normal" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">共享标量 θ 写入所有位置</text>
+<text x="1060" y="240" font-size="42.57px" fill="#2a7391" text-anchor="start" font-weight="normal">xij = θ</text>
+<text x="1060" y="330" font-size="42.57px" fill="#253d4f" text-anchor="start" font-weight="normal">均值 y = θ</text>
+<text x="1110" y="409" font-size="38.7px" fill="#25757f" text-anchor="middle" font-weight="normal">∂y</text>
+<line x1="1085.1" y1="418" x2="1134.9" y2="418" stroke="#1f7186" stroke-width="2.214"/>
+<text x="1110" y="451" font-size="38.7px" fill="#25757f" text-anchor="middle" font-weight="normal">∂θ</text>
+<text x="1175" y="430" font-size="41.28px" fill="#25757f" text-anchor="start" font-weight="normal">= 1</text>
+<line x1="65" y1="555" x2="1435" y2="555" stroke="#dde5eb" stroke-width="2"/>
+<line x1="120" y1="795.0" x2="1300" y2="795.0" stroke="#dde5eb" stroke-width="1"/>
+<text x="106" y="803.0" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0</text>
+<line x1="120" y1="754.1346153846154" x2="1300" y2="754.1346153846154" stroke="#dde5eb" stroke-width="1"/>
+<text x="106" y="762.1346153846154" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0.0625</text>
+<line x1="120" y1="713.2692307692307" x2="1300" y2="713.2692307692307" stroke="#dde5eb" stroke-width="1"/>
+<text x="106" y="721.2692307692307" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0.125</text>
+<line x1="120" y1="631.5384615384615" x2="1300" y2="631.5384615384615" stroke="#dde5eb" stroke-width="1"/>
+<text x="106" y="639.5384615384615" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0.25</text>
+<line x1="120.0" y1="795" x2="120.0" y2="803" stroke="#8798a9" stroke-width="1.5"/>
+<text x="120.0" y="832" font-size="27.37px" fill="#475b6c" text-anchor="middle" font-weight="normal">2</text>
+<line x1="288.57142857142856" y1="795" x2="288.57142857142856" y2="803" stroke="#8798a9" stroke-width="1.5"/>
+<text x="288.57142857142856" y="832" font-size="27.37px" fill="#475b6c" text-anchor="middle" font-weight="normal">4</text>
+<line x1="625.7142857142857" y1="795" x2="625.7142857142857" y2="803" stroke="#8798a9" stroke-width="1.5"/>
+<text x="625.7142857142857" y="832" font-size="27.37px" fill="#475b6c" text-anchor="middle" font-weight="normal">8</text>
+<line x1="962.8571428571429" y1="795" x2="962.8571428571429" y2="803" stroke="#8798a9" stroke-width="1.5"/>
+<text x="962.8571428571429" y="832" font-size="27.37px" fill="#475b6c" text-anchor="middle" font-weight="normal">12</text>
+<line x1="1300.0" y1="795" x2="1300.0" y2="803" stroke="#8798a9" stroke-width="1.5"/>
+<text x="1300.0" y="832" font-size="31.4517px" fill="#475b6c" text-anchor="middle" font-weight="normal">16</text>
+<line x1="120" y1="625" x2="120" y2="795" stroke="#8798a9" stroke-width="1.6"/>
+<line x1="120" y1="795" x2="1300" y2="795" stroke="#8798a9" stroke-width="1.6"/>
+<text x="710.0" y="874" font-size="34.83px" fill="#253d4f" text-anchor="middle" font-weight="normal">正方形边长 H</text>
+<text x="140" y="591" font-size="34.83px" fill="#253d4f" text-anchor="start" font-weight="normal">B  单位置导数</text>
+<polyline fill="none" stroke="#1f6683" stroke-width="4" points="120,631.538 204.286,722.35 288.571,754.135 372.857,768.846 457.143,776.838 541.429,781.656 625.714,784.784 710,786.928 794.286,788.462 878.571,789.596 962.857,790.459 1047.143,791.131 1131.429,791.664 1215.714,792.094 1300,792.446"/>
+<circle cx="120.0" cy="631.5384615384615" r="8" fill="#1f6683" stroke="none" stroke-width="1"/>
+<text x="140.0" y="619.5384615384615" font-size="30.16px" fill="#2a7391" text-anchor="start" font-weight="normal">0.25</text>
+<circle cx="288.57142857142856" cy="754.1346153846154" r="8" fill="#1f6683" stroke="none" stroke-width="1"/>
+<text x="308.57142857142856" y="742.1346153846154" font-size="30.94px" fill="#2a7391" text-anchor="start" font-weight="normal">0.0625</text>
+</g></g></g></g></svg></svg>

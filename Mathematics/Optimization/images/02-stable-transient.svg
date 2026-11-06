@@ -1,72 +1,72 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="863.36" viewBox="0 69.64 960 863.36" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="899.84" viewBox="-18.24 51.4 996.48 899.84" role="img" aria-labelledby="title desc">
 <title id="title">渐近稳定，也可能先放大七倍</title><desc id="desc">严格稳定带为 0≤β&lt;1、0&lt;η&lt;2(1+β)，给定点位于内部。重球在第九步达到最大幅度约 7.012，普通梯度下降单调衰减。</desc>
-<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#536f86"/></marker></defs>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
-<rect x="0" y="0" width="960" height="933" rx="0" fill="#fff" stroke="none" stroke-width="1.8"/>
-<text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">比较同一个二次目标，两种方法的最大根模长都为 0.9</text>
-<rect x="44" y="143" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="65" y="173" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">A</text>
-<text x="101" y="173" font-size="31" fill="#172a40" font-weight="700" text-anchor="start">参数点紧贴稳定上界的内侧</text>
-<line x1="145" y1="472" x2="860" y2="472" stroke="#cedae4" stroke-width="2"/>
-<text x="130" y="480" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">0</text>
-<line x1="145" y1="413" x2="860" y2="413" stroke="#cedae4" stroke-width="2"/>
-<text x="130" y="421" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">1</text>
-<line x1="145" y1="354" x2="860" y2="354" stroke="#cedae4" stroke-width="2"/>
-<text x="130" y="362" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">2</text>
-<line x1="145" y1="295" x2="860" y2="295" stroke="#cedae4" stroke-width="2"/>
-<text x="130" y="303" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">3</text>
-<line x1="145" y1="236" x2="860" y2="236" stroke="#cedae4" stroke-width="2"/>
-<text x="130" y="244" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">4</text>
-<line x1="145" y1="472" x2="860" y2="472" stroke="#465d72" stroke-width="2"/>
-<line x1="145" y1="472" x2="145" y2="236" stroke="#465d72" stroke-width="2"/>
-<line x1="145" y1="472" x2="145" y2="480" stroke="#465d72" stroke-width="2"/>
-<text x="145" y="508" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">0</text>
-<line x1="502.5" y1="472" x2="502.5" y2="480" stroke="#465d72" stroke-width="2"/>
-<text x="502.5" y="508" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">0.5</text>
-<line x1="860" y1="472" x2="860" y2="480" stroke="#465d72" stroke-width="2"/>
-<text x="860" y="508" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">1</text>
-<path d="M145.000 472.000 L145.000 354.000 L860.000 236.000 L860.000 472.000 L145.000 472.000" fill="#e9f5f7" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="145" y1="354" x2="860" y2="236" stroke="#136d84" stroke-width="3" stroke-dasharray="7 6"/>
-<line x1="860" y1="472" x2="860" y2="236" stroke="#136d84" stroke-width="2" stroke-dasharray="6 6"/>
-<line x1="145" y1="472" x2="860" y2="472" stroke="#136d84" stroke-width="2" stroke-dasharray="6 6"/>
-<circle cx="724.1500000000001" cy="259.01" r="7" fill="#a85127" stroke="#fff" stroke-width="3"/>
-<text x="698.1500000000001" y="246.01" font-size="24" fill="#a85127" font-weight="700" text-anchor="end">η = 3.61</text>
-<text x="188" y="408" font-size="25" fill="#136d84" font-weight="700" text-anchor="start">严格稳定</text>
-<text x="790" y="399" font-size="24" fill="#465d72" font-weight="650" text-anchor="end">上界 3.62</text>
-<text x="888" y="508" font-size="24" fill="#465d72" font-weight="400" text-anchor="start">β</text>
-<text x="77" y="223" font-size="24" fill="#465d72" font-weight="400" text-anchor="start">η</text>
-<rect x="44" y="553" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="65" y="583" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">B</text>
-<text x="101" y="583" font-size="31" fill="#172a40" font-weight="700" text-anchor="start">相同渐近速度，有限步振幅不同</text>
-<line x1="145" y1="846" x2="865" y2="846" stroke="#cedae4" stroke-width="2"/>
-<text x="130" y="854" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">0</text>
-<line x1="145" y1="790" x2="865" y2="790" stroke="#cedae4" stroke-width="2"/>
-<text x="130" y="798" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">2</text>
-<line x1="145" y1="734" x2="865" y2="734" stroke="#cedae4" stroke-width="2"/>
-<text x="130" y="742" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">4</text>
-<line x1="145" y1="678" x2="865" y2="678" stroke="#cedae4" stroke-width="2"/>
-<text x="130" y="686" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">6</text>
-<line x1="145" y1="622" x2="865" y2="622" stroke="#cedae4" stroke-width="2"/>
-<text x="130" y="630" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">8</text>
-<line x1="145" y1="846" x2="865" y2="846" stroke="#465d72" stroke-width="2"/>
-<line x1="145" y1="846" x2="145" y2="622" stroke="#465d72" stroke-width="2"/>
-<line x1="145" y1="846" x2="145" y2="854" stroke="#465d72" stroke-width="2"/>
-<text x="145" y="882" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">0</text>
-<line x1="307" y1="846" x2="307" y2="854" stroke="#465d72" stroke-width="2"/>
-<text x="307" y="882" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">9</text>
-<line x1="505" y1="846" x2="505" y2="854" stroke="#465d72" stroke-width="2"/>
-<text x="505" y="882" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">20</text>
-<line x1="685" y1="846" x2="685" y2="854" stroke="#465d72" stroke-width="2"/>
-<text x="685" y="882" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">30</text>
-<line x1="865" y1="846" x2="865" y2="854" stroke="#465d72" stroke-width="2"/>
-<text x="865" y="882" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">40</text>
-<path d="M145.000 818.000 L163.000 820.800 L181.000 823.320 L199.000 825.588 L217.000 827.629 L235.000 829.466 L253.000 831.120 L271.000 832.608 L289.000 833.947 L307.000 835.152 L325.000 836.237 L343.000 837.213 L361.000 838.092 L379.000 838.883 L397.000 839.594 L415.000 840.235 L433.000 840.812 L451.000 841.330 L469.000 841.797 L487.000 842.218 L505.000 842.596 L523.000 842.936 L541.000 843.243 L559.000 843.518 L577.000 843.767 L595.000 843.990 L613.000 844.191 L631.000 844.372 L649.000 844.535 L667.000 844.681 L685.000 844.813 L703.000 844.932 L721.000 845.039 L739.000 845.135 L757.000 845.221 L775.000 845.299 L793.000 845.369 L811.000 845.432 L829.000 845.489 L847.000 845.540 L865.000 845.586" fill="none" stroke="#136d84" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M145.000 818.000 L163.000 772.920 L181.000 737.136 L199.000 709.240 L217.000 688.011 L235.000 672.396 L253.000 661.484 L271.000 654.490 L289.000 650.740 L307.000 649.655 L325.000 650.740 L343.000 653.571 L361.000 657.789 L379.000 663.087 L397.000 669.208 L415.000 675.934 L433.000 683.082 L451.000 690.502 L469.000 698.067 L487.000 705.674 L505.000 713.238 L523.000 720.693 L541.000 727.985 L559.000 735.071 L577.000 741.921 L595.000 748.509 L613.000 754.821 L631.000 760.846 L649.000 766.577 L667.000 772.013 L685.000 777.157 L703.000 782.011 L721.000 786.584 L739.000 790.881 L757.000 794.913 L775.000 798.690 L793.000 802.223 L811.000 805.522 L829.000 808.599 L847.000 811.465 L865.000 814.132" fill="none" stroke="#a85127" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="307" cy="649.6552961748" r="7" fill="#a85127" stroke="#fff" stroke-width="3"/>
-<text x="329" y="644.6552961748" font-size="25" fill="#a85127" font-weight="700" text-anchor="start">第 9 步：7.012</text>
-<text x="647" y="728" font-size="24" fill="#a85127" font-weight="700" text-anchor="start">重球幅度</text>
-<text x="385" y="819" font-size="24" fill="#136d84" font-weight="700" text-anchor="start">普通梯度下降</text>
-<text x="889" y="914" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">更新步数</text>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#537184"/></marker></defs>
+<rect id="edition-paper" x="-18.24" y="51.4" width="996.48" height="899.84" fill="#ffffff"/><svg id="edition-view" x="0" y="69.64" width="960" height="863.36" viewBox="0 69.64 960 863.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<rect x="0" y="0" width="960" height="933" rx="0" fill="#ffffff" stroke="none" stroke-width="1.8"/>
+<text x="46" y="106" font-size="26" fill="#476072" font-weight="400" text-anchor="start">比较同一个二次目标，两种方法的最大根模长都为 0.9</text>
+<rect x="44" y="143" width="42" height="41" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="65" y="173" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">A</text>
+<text x="101" y="173" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">参数点紧贴稳定上界的内侧</text>
+<line x1="145" y1="472" x2="860" y2="472" stroke="#d4e0e7" stroke-width="2"/>
+<text x="130" y="480" font-size="24" fill="#476072" font-weight="400" text-anchor="end">0</text>
+<line x1="145" y1="413" x2="860" y2="413" stroke="#d4e0e7" stroke-width="2"/>
+<text x="130" y="421" font-size="24" fill="#476072" font-weight="400" text-anchor="end">1</text>
+<line x1="145" y1="354" x2="860" y2="354" stroke="#d4e0e7" stroke-width="2"/>
+<text x="130" y="362" font-size="24" fill="#476072" font-weight="400" text-anchor="end">2</text>
+<line x1="145" y1="295" x2="860" y2="295" stroke="#d4e0e7" stroke-width="2"/>
+<text x="130" y="303" font-size="24" fill="#476072" font-weight="400" text-anchor="end">3</text>
+<line x1="145" y1="236" x2="860" y2="236" stroke="#d4e0e7" stroke-width="2"/>
+<text x="130" y="244" font-size="24" fill="#476072" font-weight="400" text-anchor="end">4</text>
+<line x1="145" y1="472" x2="860" y2="472" stroke="#476072" stroke-width="2"/>
+<line x1="145" y1="472" x2="145" y2="236" stroke="#476072" stroke-width="2"/>
+<line x1="145" y1="472" x2="145" y2="480" stroke="#476072" stroke-width="2"/>
+<text x="145" y="508" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">0</text>
+<line x1="502.5" y1="472" x2="502.5" y2="480" stroke="#476072" stroke-width="2"/>
+<text x="502.5" y="508" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">0.5</text>
+<line x1="860" y1="472" x2="860" y2="480" stroke="#476072" stroke-width="2"/>
+<text x="860" y="508" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">1</text>
+<path d="M145.000 472.000 L145.000 354.000 L860.000 236.000 L860.000 472.000 L145.000 472.000" fill="#ecf5f7" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="145" y1="354" x2="860" y2="236" stroke="#1c687e" stroke-width="3" stroke-dasharray="7 6"/>
+<line x1="860" y1="472" x2="860" y2="236" stroke="#1c687e" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="145" y1="472" x2="860" y2="472" stroke="#1c687e" stroke-width="2" stroke-dasharray="6 6"/>
+<circle cx="724.1500000000001" cy="259.01" r="7" fill="#9e5230" stroke="#ffffff" stroke-width="3"/>
+<text x="698.1500000000001" y="246.01" font-size="24" fill="#9e5230" font-weight="700" text-anchor="end">η = 3.61</text>
+<text x="188" y="408" font-size="25" fill="#1c687e" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">严格稳定</text>
+<text x="790" y="399" font-size="24" fill="#476072" font-weight="650" text-anchor="end">上界 3.62</text>
+<text x="888" y="508" font-size="24" fill="#476072" font-weight="400" text-anchor="start">β</text>
+<text x="77" y="223" font-size="24" fill="#476072" font-weight="400" text-anchor="start">η</text>
+<rect x="44" y="553" width="42" height="41" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="65" y="583" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">B</text>
+<text x="101" y="583" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">相同渐近速度，有限步振幅不同</text>
+<line x1="145" y1="846" x2="865" y2="846" stroke="#d4e0e7" stroke-width="2"/>
+<text x="130" y="854" font-size="24" fill="#476072" font-weight="400" text-anchor="end">0</text>
+<line x1="145" y1="790" x2="865" y2="790" stroke="#d4e0e7" stroke-width="2"/>
+<text x="130" y="798" font-size="24" fill="#476072" font-weight="400" text-anchor="end">2</text>
+<line x1="145" y1="734" x2="865" y2="734" stroke="#d4e0e7" stroke-width="2"/>
+<text x="130" y="742" font-size="24" fill="#476072" font-weight="400" text-anchor="end">4</text>
+<line x1="145" y1="678" x2="865" y2="678" stroke="#d4e0e7" stroke-width="2"/>
+<text x="130" y="686" font-size="24" fill="#476072" font-weight="400" text-anchor="end">6</text>
+<line x1="145" y1="622" x2="865" y2="622" stroke="#d4e0e7" stroke-width="2"/>
+<text x="130" y="630" font-size="24" fill="#476072" font-weight="400" text-anchor="end">8</text>
+<line x1="145" y1="846" x2="865" y2="846" stroke="#476072" stroke-width="2"/>
+<line x1="145" y1="846" x2="145" y2="622" stroke="#476072" stroke-width="2"/>
+<line x1="145" y1="846" x2="145" y2="854" stroke="#476072" stroke-width="2"/>
+<text x="145" y="882" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">0</text>
+<line x1="307" y1="846" x2="307" y2="854" stroke="#476072" stroke-width="2"/>
+<text x="307" y="882" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">9</text>
+<line x1="505" y1="846" x2="505" y2="854" stroke="#476072" stroke-width="2"/>
+<text x="505" y="882" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">20</text>
+<line x1="685" y1="846" x2="685" y2="854" stroke="#476072" stroke-width="2"/>
+<text x="685" y="882" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">30</text>
+<line x1="865" y1="846" x2="865" y2="854" stroke="#476072" stroke-width="2"/>
+<text x="865" y="882" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">40</text>
+<path d="M145.000 818.000 L163.000 820.800 L181.000 823.320 L199.000 825.588 L217.000 827.629 L235.000 829.466 L253.000 831.120 L271.000 832.608 L289.000 833.947 L307.000 835.152 L325.000 836.237 L343.000 837.213 L361.000 838.092 L379.000 838.883 L397.000 839.594 L415.000 840.235 L433.000 840.812 L451.000 841.330 L469.000 841.797 L487.000 842.218 L505.000 842.596 L523.000 842.936 L541.000 843.243 L559.000 843.518 L577.000 843.767 L595.000 843.990 L613.000 844.191 L631.000 844.372 L649.000 844.535 L667.000 844.681 L685.000 844.813 L703.000 844.932 L721.000 845.039 L739.000 845.135 L757.000 845.221 L775.000 845.299 L793.000 845.369 L811.000 845.432 L829.000 845.489 L847.000 845.540 L865.000 845.586" fill="none" stroke="#1c687e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M145.000 818.000 L163.000 772.920 L181.000 737.136 L199.000 709.240 L217.000 688.011 L235.000 672.396 L253.000 661.484 L271.000 654.490 L289.000 650.740 L307.000 649.655 L325.000 650.740 L343.000 653.571 L361.000 657.789 L379.000 663.087 L397.000 669.208 L415.000 675.934 L433.000 683.082 L451.000 690.502 L469.000 698.067 L487.000 705.674 L505.000 713.238 L523.000 720.693 L541.000 727.985 L559.000 735.071 L577.000 741.921 L595.000 748.509 L613.000 754.821 L631.000 760.846 L649.000 766.577 L667.000 772.013 L685.000 777.157 L703.000 782.011 L721.000 786.584 L739.000 790.881 L757.000 794.913 L775.000 798.690 L793.000 802.223 L811.000 805.522 L829.000 808.599 L847.000 811.465 L865.000 814.132" fill="none" stroke="#9e5230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="307" cy="649.6552961748" r="7" fill="#9e5230" stroke="#ffffff" stroke-width="3"/>
+<text x="329" y="644.6552961748" font-size="25" fill="#9e5230" font-weight="700" text-anchor="start">第 9 步：7.012</text>
+<text x="647" y="728" font-size="24" fill="#9e5230" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">重球幅度</text>
+<text x="385" y="819" font-size="24" fill="#1c687e" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">普通梯度下降</text>
+<text x="889" y="914" font-size="24" fill="#476072" font-weight="400" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">更新步数</text>
 </g>
-</svg>
+</svg></svg>

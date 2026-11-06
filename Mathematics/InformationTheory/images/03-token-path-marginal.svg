@@ -1,55 +1,55 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="734.36" viewBox="0 69.64 960 734.36" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="770.84" viewBox="-18.24 51.4 996.48 770.84" role="img" aria-labelledby="title desc">
 <title id="title">先给路径算概率，再给字符串合并</title><desc id="desc">三条终止路径的概率为 0.4、0.3、0.3。前两条都解码成 ab，因此字符串 ab 的概率为 0.7。</desc>
-<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#536f86"/></marker></defs>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
-<rect x="0" y="0" width="960" height="804" rx="0" fill="#fff" stroke="none" stroke-width="1.8"/>
-<text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">同一个字符串可以由不同的 token 序列产生</text>
-<rect x="44" y="144" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="65" y="174" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">A</text>
-<text x="101" y="174" font-size="31" fill="#172a40" font-weight="700" text-anchor="start">模型先生成三条已终止的路径</text>
-<rect x="54" y="248" width="108" height="58" rx="11" fill="#f7fafc" stroke="#cedae4" stroke-width="1.8"/>
-<text x="108" y="286" font-size="26" fill="#172a40" font-weight="650" text-anchor="middle">起始</text>
-<rect x="275" y="197" width="108" height="58" rx="11" fill="#e9f5f7" stroke="#cedae4" stroke-width="1.8"/>
-<text x="329" y="235" font-size="26" fill="#172a40" font-weight="650" text-anchor="middle">AB</text>
-<rect x="275" y="321" width="108" height="58" rx="11" fill="#f7fafc" stroke="#cedae4" stroke-width="1.8"/>
-<text x="329" y="359" font-size="26" fill="#172a40" font-weight="650" text-anchor="middle">A</text>
-<rect x="514" y="308" width="108" height="58" rx="11" fill="#e9f5f7" stroke="#cedae4" stroke-width="1.8"/>
-<text x="568" y="346" font-size="26" fill="#172a40" font-weight="650" text-anchor="middle">B</text>
-<rect x="770" y="197" width="108" height="58" rx="11" fill="#f7fafc" stroke="#cedae4" stroke-width="1.8"/>
-<text x="824" y="235" font-size="26" fill="#172a40" font-weight="650" text-anchor="middle">EOS</text>
-<rect x="770" y="308" width="108" height="58" rx="11" fill="#f7fafc" stroke="#cedae4" stroke-width="1.8"/>
-<text x="824" y="346" font-size="26" fill="#172a40" font-weight="650" text-anchor="middle">EOS</text>
-<rect x="770" y="412" width="108" height="58" rx="11" fill="#f7fafc" stroke="#cedae4" stroke-width="1.8"/>
-<text x="824" y="450" font-size="26" fill="#172a40" font-weight="650" text-anchor="middle">EOS</text>
-<line x1="166" y1="270" x2="271" y2="230" stroke="#465d72" stroke-width="3" marker-end="url(#arrow)"/>
-<text x="212" y="224" font-size="24" fill="#136d84" font-weight="700" text-anchor="middle">0.4</text>
-<line x1="166" y1="289" x2="270" y2="341" stroke="#465d72" stroke-width="3" marker-end="url(#arrow)"/>
-<text x="206" y="332" font-size="24" fill="#136d84" font-weight="700" text-anchor="middle">0.6</text>
-<line x1="387" y1="226" x2="764" y2="226" stroke="#465d72" stroke-width="3" marker-end="url(#arrow)"/>
-<text x="569" y="209" font-size="24" fill="#136d84" font-weight="700" text-anchor="middle">1</text>
-<line x1="388" y1="349" x2="509" y2="339" stroke="#465d72" stroke-width="3" marker-end="url(#arrow)"/>
-<text x="452" y="325" font-size="24" fill="#136d84" font-weight="700" text-anchor="middle">0.5</text>
-<line x1="626" y1="337" x2="764" y2="337" stroke="#465d72" stroke-width="3" marker-end="url(#arrow)"/>
-<text x="692" y="318" font-size="24" fill="#136d84" font-weight="700" text-anchor="middle">1</text>
-<line x1="375" y1="375" x2="768" y2="435" stroke="#465d72" stroke-width="3" marker-end="url(#arrow)"/>
-<text x="547" y="393" font-size="24" fill="#136d84" font-weight="700" text-anchor="middle">0.5</text>
-<rect x="44" y="496" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="65" y="526" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">B</text>
-<text x="101" y="526" font-size="31" fill="#172a40" font-weight="700" text-anchor="start">只按解码结果合并概率</text>
-<rect x="44" y="548" width="408" height="47" rx="8" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="62" y="577" font-size="25" fill="#172a40" font-weight="650" text-anchor="start">AB → EOS</text>
-<text x="432" y="577" font-size="25" fill="#136d84" font-weight="700" text-anchor="end">0.4</text>
-<rect x="44" y="605" width="408" height="47" rx="8" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="62" y="634" font-size="25" fill="#172a40" font-weight="650" text-anchor="start">A → B → EOS</text>
-<text x="432" y="634" font-size="25" fill="#136d84" font-weight="700" text-anchor="end">0.3</text>
-<rect x="44" y="681" width="408" height="47" rx="8" fill="#fff2e8" stroke="none" stroke-width="1.8"/>
-<text x="62" y="710" font-size="25" fill="#172a40" font-weight="650" text-anchor="start">A → EOS</text>
-<text x="432" y="710" font-size="25" fill="#a85127" font-weight="700" text-anchor="end">0.3</text>
-<path d="M476 567 H497 V623 H476 M497 595 H573" fill="none" stroke="#465d72" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="498" y1="701" x2="573" y2="701" stroke="#465d72" stroke-width="3" marker-end="url(#arrow)"/>
-<text x="595" y="604" font-size="31" fill="#136d84" font-weight="700" text-anchor="start">ab   0.4 + 0.3 = 0.7</text>
-<text x="595" y="710" font-size="31" fill="#a85127" font-weight="700" text-anchor="start">a      0.3</text>
-<line x1="44" y1="762" x2="916" y2="762" stroke="#cedae4" stroke-width="2"/>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#537184"/></marker></defs>
+<rect id="edition-paper" x="-18.24" y="51.4" width="996.48" height="770.84" fill="#ffffff"/><svg id="edition-view" x="0" y="69.64" width="960" height="734.36" viewBox="0 69.64 960 734.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<rect x="0" y="0" width="960" height="804" rx="0" fill="#ffffff" stroke="none" stroke-width="1.8"/>
+<text x="46" y="106" font-size="26" fill="#476072" font-weight="400" text-anchor="start">同一个字符串可以由不同的 token 序列产生</text>
+<rect x="44" y="144" width="42" height="41" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="65" y="174" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">A</text>
+<text x="101" y="174" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">模型先生成三条已终止的路径</text>
+<rect x="54" y="248" width="108" height="58" rx="11" fill="#ffffff" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="108" y="286" font-size="26" fill="#283341" font-weight="650" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">起始</text>
+<rect x="275" y="197" width="108" height="58" rx="11" fill="#ecf5f7" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="329" y="235" font-size="26" fill="#283341" font-weight="650" text-anchor="middle">AB</text>
+<rect x="275" y="321" width="108" height="58" rx="11" fill="#ffffff" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="329" y="359" font-size="26" fill="#283341" font-weight="650" text-anchor="middle">A</text>
+<rect x="514" y="308" width="108" height="58" rx="11" fill="#ecf5f7" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="568" y="346" font-size="26" fill="#283341" font-weight="650" text-anchor="middle">B</text>
+<rect x="770" y="197" width="108" height="58" rx="11" fill="#ffffff" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="824" y="235" font-size="26" fill="#283341" font-weight="650" text-anchor="middle">EOS</text>
+<rect x="770" y="308" width="108" height="58" rx="11" fill="#ffffff" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="824" y="346" font-size="26" fill="#283341" font-weight="650" text-anchor="middle">EOS</text>
+<rect x="770" y="412" width="108" height="58" rx="11" fill="#ffffff" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="824" y="450" font-size="26" fill="#283341" font-weight="650" text-anchor="middle">EOS</text>
+<line x1="166" y1="270" x2="271" y2="230" stroke="#476072" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="212" y="224" font-size="24" fill="#1c687e" font-weight="700" text-anchor="middle">0.4</text>
+<line x1="166" y1="289" x2="270" y2="341" stroke="#476072" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="206" y="332" font-size="24" fill="#1c687e" font-weight="700" text-anchor="middle">0.6</text>
+<line x1="387" y1="226" x2="764" y2="226" stroke="#476072" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="569" y="209" font-size="24" fill="#1c687e" font-weight="700" text-anchor="middle">1</text>
+<line x1="388" y1="349" x2="509" y2="339" stroke="#476072" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="452" y="325" font-size="24" fill="#1c687e" font-weight="700" text-anchor="middle">0.5</text>
+<line x1="626" y1="337" x2="764" y2="337" stroke="#476072" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="692" y="318" font-size="24" fill="#1c687e" font-weight="700" text-anchor="middle">1</text>
+<line x1="375" y1="375" x2="768" y2="435" stroke="#476072" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="547" y="393" font-size="24" fill="#1c687e" font-weight="700" text-anchor="middle">0.5</text>
+<rect x="44" y="496" width="42" height="41" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="65" y="526" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">B</text>
+<text x="101" y="526" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">只按解码结果合并概率</text>
+<rect x="44" y="548" width="408" height="47" rx="8" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="62" y="577" font-size="25" fill="#283341" font-weight="650" text-anchor="start">AB → EOS</text>
+<text x="432" y="577" font-size="25" fill="#1c687e" font-weight="700" text-anchor="end">0.4</text>
+<rect x="44" y="605" width="408" height="47" rx="8" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="62" y="634" font-size="25" fill="#283341" font-weight="650" text-anchor="start">A → B → EOS</text>
+<text x="432" y="634" font-size="25" fill="#1c687e" font-weight="700" text-anchor="end">0.3</text>
+<rect x="44" y="681" width="408" height="47" rx="8" fill="#fbf4ef" stroke="none" stroke-width="1.8"/>
+<text x="62" y="710" font-size="25" fill="#283341" font-weight="650" text-anchor="start">A → EOS</text>
+<text x="432" y="710" font-size="25" fill="#9e5230" font-weight="700" text-anchor="end">0.3</text>
+<path d="M476 567 H497 V623 H476 M497 595 H573" fill="none" stroke="#476072" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="498" y1="701" x2="573" y2="701" stroke="#476072" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="595" y="604" font-size="31" fill="#1c687e" font-weight="700" text-anchor="start">ab   0.4 + 0.3 = 0.7</text>
+<text x="595" y="710" font-size="31" fill="#9e5230" font-weight="700" text-anchor="start">a      0.3</text>
+<line x1="44" y1="762" x2="916" y2="762" stroke="#d4e0e7" stroke-width="2"/>
 </g>
-</svg>
+</svg></svg>

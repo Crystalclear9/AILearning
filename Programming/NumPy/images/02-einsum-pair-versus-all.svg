@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="715" viewBox="0 47 960 715" role="img" aria-labelledby="artwork-title"><title id="artwork-title">收缩符号决定配对范围</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="665"/></clipPath></defs><rect width="960" height="762" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.972222)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="751.48" viewBox="-18.24 28.76 996.48 751.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">收缩符号决定配对范围</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="665"/></clipPath><linearGradient id="edition-wash-1" x1="0%" y1="0%" x2="82%" y2="100%"><stop offset="0%" stop-color="#ecf4f7"/><stop offset="100%" stop-color="#deebf1"/></linearGradient><linearGradient id="edition-wash-2" x1="0%" y1="0%" x2="82%" y2="100%"><stop offset="0%" stop-color="#f8eee7"/><stop offset="100%" stop-color="#f3e2d5"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="751.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="715" viewBox="0 47 960 715" overflow="hidden"><rect width="960" height="762" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.972222)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -23,7 +23,7 @@
   <g id="axes_1">
    <g id="table_1">
     <g id="patch_2">
-     <path d="M 31.868115 160.844764 L 247.879761 160.844764 L 247.879761 118.565847 L 31.868115 118.565847 z " style="fill: #d8e8f0; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 31.868115 160.844764 L 247.879761 160.844764 L 247.879761 118.565847 L 31.868115 118.565847 z " style="fill: url(#edition-wash-1); stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_1">
      <!-- 特征 j=0 -->
@@ -45,7 +45,7 @@
      </g>
     </g>
     <g id="patch_3">
-     <path d="M 247.879761 160.844764 L 463.891406 160.844764 L 463.891406 118.565847 L 247.879761 118.565847 z " style="fill: #d8e8f0; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 247.879761 160.844764 L 463.891406 160.844764 L 463.891406 118.565847 L 247.879761 118.565847 z " style="fill: url(#edition-wash-1); stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_2">
      <!-- 特征 j=1 -->
@@ -62,7 +62,7 @@
      </g>
     </g>
     <g id="patch_4">
-     <path d="M 3.00024 203.12368 L 31.868115 203.12368 L 31.868115 160.844764 L 3.00024 160.844764 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 3.00024 203.12368 L 31.868115 203.12368 L 31.868115 160.844764 L 3.00024 160.844764 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_3">
      <!-- X₀ -->
@@ -76,7 +76,7 @@
      </g>
     </g>
     <g id="patch_5">
-     <path d="M 31.868115 203.12368 L 247.879761 203.12368 L 247.879761 160.844764 L 31.868115 160.844764 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 31.868115 203.12368 L 247.879761 203.12368 L 247.879761 160.844764 L 31.868115 160.844764 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_4">
      <!-- 1 -->
@@ -85,7 +85,7 @@
      </g>
     </g>
     <g id="patch_6">
-     <path d="M 247.879761 203.12368 L 463.891406 203.12368 L 463.891406 160.844764 L 247.879761 160.844764 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 247.879761 203.12368 L 463.891406 203.12368 L 463.891406 160.844764 L 247.879761 160.844764 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_5">
      <!-- 2 -->
@@ -97,7 +97,7 @@
      </g>
     </g>
     <g id="patch_7">
-     <path d="M 3.00024 245.402596 L 31.868115 245.402596 L 31.868115 203.12368 L 3.00024 203.12368 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 3.00024 245.402596 L 31.868115 245.402596 L 31.868115 203.12368 L 3.00024 203.12368 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_6">
      <!-- X₁ -->
@@ -110,7 +110,7 @@
      </g>
     </g>
     <g id="patch_8">
-     <path d="M 31.868115 245.402596 L 247.879761 245.402596 L 247.879761 203.12368 L 31.868115 203.12368 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 31.868115 245.402596 L 247.879761 245.402596 L 247.879761 203.12368 L 31.868115 203.12368 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_7">
      <!-- 3 -->
@@ -122,7 +122,7 @@
      </g>
     </g>
     <g id="patch_9">
-     <path d="M 247.879761 245.402596 L 463.891406 245.402596 L 463.891406 203.12368 L 247.879761 203.12368 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 247.879761 245.402596 L 463.891406 245.402596 L 463.891406 203.12368 L 247.879761 203.12368 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_8">
      <!-- 4 -->
@@ -165,7 +165,7 @@
   <g id="axes_2">
    <g id="table_2">
     <g id="patch_10">
-     <path d="M 500.976469 160.844764 L 716.988114 160.844764 L 716.988114 118.565847 L 500.976469 118.565847 z " style="fill: #d8e8f0; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 500.976469 160.844764 L 716.988114 160.844764 L 716.988114 118.565847 L 500.976469 118.565847 z " style="fill: url(#edition-wash-1); stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_10">
      <!-- 特征 j=0 -->
@@ -179,7 +179,7 @@
      </g>
     </g>
     <g id="patch_11">
-     <path d="M 716.988114 160.844764 L 932.99976 160.844764 L 932.99976 118.565847 L 716.988114 118.565847 z " style="fill: #d8e8f0; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 716.988114 160.844764 L 932.99976 160.844764 L 932.99976 118.565847 L 716.988114 118.565847 z " style="fill: url(#edition-wash-1); stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_11">
      <!-- 特征 j=1 -->
@@ -193,7 +193,7 @@
      </g>
     </g>
     <g id="patch_12">
-     <path d="M 473.251406 203.12368 L 500.976469 203.12368 L 500.976469 160.844764 L 473.251406 160.844764 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 473.251406 203.12368 L 500.976469 203.12368 L 500.976469 160.844764 L 473.251406 160.844764 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_12">
      <!-- Y₀ -->
@@ -206,7 +206,7 @@
      </g>
     </g>
     <g id="patch_13">
-     <path d="M 500.976469 203.12368 L 716.988114 203.12368 L 716.988114 160.844764 L 500.976469 160.844764 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 500.976469 203.12368 L 716.988114 203.12368 L 716.988114 160.844764 L 500.976469 160.844764 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_13">
      <!-- 1 -->
@@ -215,7 +215,7 @@
      </g>
     </g>
     <g id="patch_14">
-     <path d="M 716.988114 203.12368 L 932.99976 203.12368 L 932.99976 160.844764 L 716.988114 160.844764 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 716.988114 203.12368 L 932.99976 203.12368 L 932.99976 160.844764 L 716.988114 160.844764 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_14">
      <!-- 0 -->
@@ -224,7 +224,7 @@
      </g>
     </g>
     <g id="patch_15">
-     <path d="M 473.251406 245.402596 L 500.976469 245.402596 L 500.976469 203.12368 L 473.251406 203.12368 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 473.251406 245.402596 L 500.976469 245.402596 L 500.976469 203.12368 L 473.251406 203.12368 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_15">
      <!-- Y₁ -->
@@ -234,7 +234,7 @@
      </g>
     </g>
     <g id="patch_16">
-     <path d="M 500.976469 245.402596 L 716.988114 245.402596 L 716.988114 203.12368 L 500.976469 203.12368 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 500.976469 245.402596 L 716.988114 245.402596 L 716.988114 203.12368 L 500.976469 203.12368 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_16">
      <!-- 0 -->
@@ -243,7 +243,7 @@
      </g>
     </g>
     <g id="patch_17">
-     <path d="M 716.988114 245.402596 L 932.99976 245.402596 L 932.99976 203.12368 L 716.988114 203.12368 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 716.988114 245.402596 L 932.99976 245.402596 L 932.99976 203.12368 L 716.988114 203.12368 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_17">
      <!-- 1 -->
@@ -277,7 +277,7 @@
   <g id="axes_3">
    <g id="table_3">
     <g id="patch_18">
-     <path d="M 31.868115 503.663195 L 247.879761 503.663195 L 247.879761 461.384279 L 31.868115 461.384279 z " style="fill: #d8e8f0; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 31.868115 503.663195 L 247.879761 503.663195 L 247.879761 461.384279 L 31.868115 461.384279 z " style="fill: url(#edition-wash-1); stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_19">
      <!-- Y₀ -->
@@ -287,7 +287,7 @@
      </g>
     </g>
     <g id="patch_19">
-     <path d="M 247.879761 503.663195 L 463.891406 503.663195 L 463.891406 461.384279 L 247.879761 461.384279 z " style="fill: #d8e8f0; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 247.879761 503.663195 L 463.891406 503.663195 L 463.891406 461.384279 L 247.879761 461.384279 z " style="fill: url(#edition-wash-1); stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_20">
      <!-- Y₁ -->
@@ -297,7 +297,7 @@
      </g>
     </g>
     <g id="patch_20">
-     <path d="M 3.00024 545.942111 L 31.868115 545.942111 L 31.868115 503.663195 L 3.00024 503.663195 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 3.00024 545.942111 L 31.868115 545.942111 L 31.868115 503.663195 L 3.00024 503.663195 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_21">
      <!-- X₀ -->
@@ -307,7 +307,7 @@
      </g>
     </g>
     <g id="patch_21">
-     <path d="M 31.868115 545.942111 L 247.879761 545.942111 L 247.879761 503.663195 L 31.868115 503.663195 z " style="fill: #f4dfcd; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 31.868115 545.942111 L 247.879761 545.942111 L 247.879761 503.663195 L 31.868115 503.663195 z " style="fill: url(#edition-wash-2); stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_22">
      <!-- 1 -->
@@ -316,7 +316,7 @@
      </g>
     </g>
     <g id="patch_22">
-     <path d="M 247.879761 545.942111 L 463.891406 545.942111 L 463.891406 503.663195 L 247.879761 503.663195 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 247.879761 545.942111 L 463.891406 545.942111 L 463.891406 503.663195 L 247.879761 503.663195 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_23">
      <!-- 2 -->
@@ -325,7 +325,7 @@
      </g>
     </g>
     <g id="patch_23">
-     <path d="M 3.00024 588.221028 L 31.868115 588.221028 L 31.868115 545.942111 L 3.00024 545.942111 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 3.00024 588.221028 L 31.868115 588.221028 L 31.868115 545.942111 L 3.00024 545.942111 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_24">
      <!-- X₁ -->
@@ -335,7 +335,7 @@
      </g>
     </g>
     <g id="patch_24">
-     <path d="M 31.868115 588.221028 L 247.879761 588.221028 L 247.879761 545.942111 L 31.868115 545.942111 z " style="fill: #eaf3f7; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 31.868115 588.221028 L 247.879761 588.221028 L 247.879761 545.942111 L 31.868115 545.942111 z " style="fill: #edf4f7; stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_25">
      <!-- 3 -->
@@ -344,7 +344,7 @@
      </g>
     </g>
     <g id="patch_25">
-     <path d="M 247.879761 588.221028 L 463.891406 588.221028 L 463.891406 545.942111 L 247.879761 545.942111 z " style="fill: #f4dfcd; stroke: #cdd7e0; stroke-linejoin: miter"/>
+     <path d="M 247.879761 588.221028 L 463.891406 588.221028 L 463.891406 545.942111 L 247.879761 545.942111 z " style="fill: url(#edition-wash-2); stroke: #d3dde4; stroke-linejoin: miter"/>
     </g>
     <g id="text_26">
      <!-- 4 -->
@@ -388,7 +388,7 @@
   <g id="axes_4">
    <g id="text_28">
     <!-- X₀ · Y₀ = 1×1 + 2×0 = 1 -->
-    <g style="fill: #1d74a4" transform="translate(522.577633 446.7041) scale(0.18 -0.18)">
+    <g style="fill: #27759a" transform="translate(522.577633 446.7041) scale(0.18 -0.18)">
      <defs>
       <path id="MicrosoftYaHei-b7" d="M 372 2113 Q 372 2278 490 2395 Q 609 2513 775 2513 Q 941 2513 1061 2397 Q 1181 2281 1181 2113 Q 1181 1950 1064 1831 Q 947 1713 772 1713 Q 600 1713 486 1831 Q 372 1950 372 2113 z " transform="scale(0.015625)"/>
       <path id="MicrosoftYaHei-d7" d="M 3856 869 L 3519 531 L 2372 1678 L 1231 531 L 894 869 L 2044 2009 L 894 3156 L 1231 3491 L 2372 2344 L 3522 3491 L 3856 3153 L 2709 2009 L 3856 869 z " transform="scale(0.015625)"/>
@@ -421,7 +421,7 @@
    </g>
    <g id="text_29">
     <!-- X₁ · Y₁ = 3×0 + 4×1 = 4 -->
-    <g style="fill: #aa5f2e" transform="translate(522.577633 524.802653) scale(0.18 -0.18)">
+    <g style="fill: #a05d36" transform="translate(522.577633 524.802653) scale(0.18 -0.18)">
      <use xlink:href="#MicrosoftYaHei-58"/>
      <use xlink:href="#DejaVuSans-2081" transform="translate(64.501953 0)"/>
      <use xlink:href="#MicrosoftYaHei-20" transform="translate(104.589844 0)"/>
@@ -449,7 +449,7 @@
    </g>
    <g id="text_30">
     <!-- 结果 [1, 4]：左图橙色对角线 -->
-    <g style="fill: #16455e" transform="translate(522.577633 621.64486) scale(0.18 -0.18)">
+    <g style="fill: #1c485d" transform="translate(522.577633 621.64486) scale(0.18 -0.18)">
      <defs>
       <path id="MicrosoftYaHei-7ed3" d="M 2625 1709 L 5925 1709 L 5925 -828 L 5438 -828 L 5438 -441 L 3113 -441 L 3113 -828 L 2625 -828 L 2625 1709 z M 2500 2897 L 4025 2897 L 4025 3872 L 2294 3872 L 2294 4322 L 4025 4322 L 4025 5322 L 4525 5322 L 4525 4322 L 6275 4322 L 6275 3872 L 4525 3872 L 4525 2897 L 6056 2897 L 6056 2447 L 2500 2447 L 2500 2897 z M 894 1566 Q 1725 1684 2269 1778 Q 2231 1534 2213 1303 Q 1519 1203 319 1009 L 219 1472 Q 619 1888 1172 2791 Q 647 2756 219 2722 L 100 3147 Q 675 3916 1294 5366 L 1769 5178 Q 1094 3853 663 3184 Q 1025 3194 1419 3206 Q 1631 3569 1863 3997 L 2325 3766 Q 1613 2578 894 1566 z M 5438 1272 L 3113 1272 L 3113 -3 L 5438 -3 L 5438 1272 z M 75 91 Q 1231 316 2331 584 Q 2313 334 2313 109 Q 1300 -103 213 -391 L 75 91 z " transform="scale(0.015625)"/>
       <path id="MicrosoftYaHei-679c" d="M 6338 -53 Q 6100 -309 5944 -522 Q 4425 -41 3438 1181 L 3438 -841 L 2963 -841 L 2963 1188 Q 2084 172 450 -603 Q 300 -416 75 -203 Q 1550 363 2472 1259 L 213 1259 L 213 1709 L 2963 1709 L 2963 2384 L 1306 2384 L 1306 2141 L 831 2141 L 831 5016 L 5569 5016 L 5569 2141 L 5094 2141 L 5094 2384 L 3438 2384 L 3438 1709 L 6200 1709 L 6200 1259 L 3856 1259 Q 4769 294 6338 -53 z M 3438 2809 L 5094 2809 L 5094 3497 L 3438 3497 L 3438 2809 z M 5094 4591 L 3438 4591 L 3438 3903 L 5094 3903 L 5094 4591 z M 1306 2809 L 2963 2809 L 2963 3497 L 1306 3497 L 1306 2809 z M 1306 3903 L 2963 3903 L 2963 4591 L 1306 4591 L 1306 3903 z " transform="scale(0.015625)"/>
@@ -508,4 +508,4 @@
    </g>
   </g>
  </g>
-</g></g></g></svg>
+</g></g></g></svg></svg>

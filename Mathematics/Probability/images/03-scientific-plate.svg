@@ -1,62 +1,62 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="389" viewBox="0 85 960 389" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">固定 x = 0.75 时，切片和条件密度的 y 区间均从 0.75 到 1，高度由 2 变为 4</title><desc id="artwork-desc">支持为 0&lt;x&lt;y&lt;1；固定 x=0.75 后，y 从 0.75 到 1，宽 0.25；密度高度由 2 变为 4。</desc><defs><clipPath id="artwork-view"><rect x="25" y="114" width="910" height="338.090278"/></clipPath></defs><rect width="960" height="474" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 114) scale(0.631944)"><g><title id="title">联合支持、固定坐标的切片与条件密度</title><desc id="description">支持为 0&lt;x&lt;y&lt;1；固定 x=0.75 后，y 从 0.75 到 1，宽 0.25；密度高度由 2 变为 4。</desc>
-<rect width="1440" height="535" fill="#fff"/>
-<defs><linearGradient id="bluefill" x2="0" y2="1"><stop stop-color="#b4ddf5"/><stop offset="1" stop-color="#e7f4f9"/></linearGradient><linearGradient id="orangefill" x2="0" y2="1"><stop stop-color="#f2bba3"/><stop offset="1" stop-color="#ffebe3"/></linearGradient><linearGradient id="simplexfill" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#dcf3e7"/><stop offset=".55" stop-color="#d9e9fa"/><stop offset="1" stop-color="#e8ddf9"/></linearGradient><marker id="axis" orient="auto" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="10" refX="10" refY="5"><path d="M0 0 11 5 0 10Z" fill="#182737"/></marker><marker id="bluearrow" orient="auto" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="14" refX="13" refY="7"><path d="M0 0 15 7 0 14Z" fill="#1e7abd"/></marker></defs>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#182737">
-<text x="247" y="69" font-size="41.934066px" text-anchor="middle" fill="#182737" font-weight="700">联合支持</text>
-<text x="711" y="69" font-size="41.934066px" text-anchor="middle" fill="#182737" font-weight="700">固定 x = 0.75</text>
-<text x="1175" y="69" font-size="41.934066px" text-anchor="middle" fill="#182737" font-weight="700">条件密度</text>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="425.48" viewBox="-18.24 66.76 996.48 425.48" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">固定 x = 0.75 时，切片和条件密度的 y 区间均从 0.75 到 1，高度由 2 变为 4</title><desc id="artwork-desc">支持为 0&lt;x&lt;y&lt;1；固定 x=0.75 后，y 从 0.75 到 1，宽 0.25；密度高度由 2 变为 4。</desc><defs><clipPath id="artwork-view"><rect x="25" y="114" width="910" height="338.090278"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="66.76" width="996.48" height="425.48" fill="#ffffff"/><svg id="edition-view" x="0" y="85" width="960" height="389" viewBox="0 85 960 389" overflow="hidden"><rect width="960" height="474" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 114) scale(0.631944)"><g><title id="title">联合支持、固定坐标的切片与条件密度</title><desc id="description">支持为 0&lt;x&lt;y&lt;1；固定 x=0.75 后，y 从 0.75 到 1，宽 0.25；密度高度由 2 变为 4。</desc>
+<rect width="1440" height="535" fill="#ffffff"/>
+<defs><linearGradient id="bluefill" x2="0" y2="1"><stop stop-color="#c4e1ef"/><stop offset="1" stop-color="#ebf5f9"/></linearGradient><linearGradient id="orangefill" x2="0" y2="1"><stop stop-color="#ecc6b6"/><stop offset="1" stop-color="#faf0ec"/></linearGradient><linearGradient id="simplexfill" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#e1f3ea"/><stop offset=".55" stop-color="#e1edf7"/><stop offset="1" stop-color="#ece3f8"/></linearGradient><marker id="axis" orient="auto" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="10" refX="10" refY="5"><path d="M0 0 11 5 0 10Z" fill="#252f3c"/></marker><marker id="bluearrow" orient="auto" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="14" refX="13" refY="7"><path d="M0 0 15 7 0 14Z" fill="#297eaf"/></marker></defs>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#252f3c">
+<text x="247" y="69" font-size="41.934066px" text-anchor="middle" fill="#252f3c" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">联合支持</text>
+<text x="711" y="69" font-size="41.934066px" text-anchor="middle" fill="#252f3c" font-weight="700">固定 x = 0.75</text>
+<text x="1175" y="69" font-size="41.934066px" text-anchor="middle" fill="#252f3c" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">条件密度</text>
 <polygon points="86.000,430.000 86.000,110.000 406.000,110.000" fill="url(#bluefill)" stroke="none" stroke-width="1"/>
-<line x1="86.000" y1="110.000" x2="406.000" y2="110.000" stroke="#d9e1e8" stroke-width="2"/>
-<line x1="406.000" y1="430.000" x2="406.000" y2="110.000" stroke="#d9e1e8" stroke-width="2"/>
-<line x1="86.000" y1="430.000" x2="406.000" y2="110.000" stroke="#1176af" stroke-width="3" stroke-dasharray="9 7"/>
-<line x1="326.000" y1="430.000" x2="326.000" y2="190.000" stroke="#ad5127" stroke-width="2.46" stroke-dasharray="5 6"/>
-<line x1="326.000" y1="190.000" x2="326.000" y2="110.000" stroke="#ad5127" stroke-width="7"/>
-<circle cx="326.000" cy="190.000" r="6" fill="#ad5127" stroke="white" stroke-width="2"/>
-<circle cx="326.000" cy="110.000" r="6" fill="#ad5127" stroke="white" stroke-width="2"/>
-<text x="246" y="308.4" font-size="29.67px" text-anchor="middle" fill="#1d75b5">y = x</text>
-<line x1="86.000" y1="430.000" x2="432.000" y2="430.000" stroke="#182737" stroke-width="2" marker-end="url(#axis)"/>
-<line x1="86.000" y1="430.000" x2="86.000" y2="89.000" stroke="#182737" stroke-width="2" marker-end="url(#axis)"/>
-<text x="86" y="465" font-size="24.99px" text-anchor="middle" fill="#182737">0</text>
-<text x="326" y="465" font-size="24.99px" text-anchor="middle" fill="#b75734">0.75</text>
-<text x="406" y="465" font-size="24.99px" text-anchor="middle" fill="#182737">1</text>
-<text x="58" y="118" font-size="24.99px" text-anchor="middle" fill="#182737">1</text>
-<text x="443" y="439" font-size="29.67px" text-anchor="middle" fill="#182737">x</text>
-<text x="86" y="76" font-size="29.67px" text-anchor="middle" fill="#182737">y</text>
-<text x="246" y="512" font-size="29.67px" text-anchor="middle" fill="#b75734">截线从 y = 0.75 到 y = 1</text>
+<line x1="86.000" y1="110.000" x2="406.000" y2="110.000" stroke="#dde5eb" stroke-width="2"/>
+<line x1="406.000" y1="430.000" x2="406.000" y2="110.000" stroke="#dde5eb" stroke-width="2"/>
+<line x1="86.000" y1="430.000" x2="406.000" y2="110.000" stroke="#1e77a2" stroke-width="3" stroke-dasharray="9 7"/>
+<line x1="326.000" y1="430.000" x2="326.000" y2="190.000" stroke="#a25330" stroke-width="2.46" stroke-dasharray="5 6"/>
+<line x1="326.000" y1="190.000" x2="326.000" y2="110.000" stroke="#a25330" stroke-width="7"/>
+<circle cx="326.000" cy="190.000" r="6" fill="#a25330" stroke="#ffffff" stroke-width="2"/>
+<circle cx="326.000" cy="110.000" r="6" fill="#a25330" stroke="#ffffff" stroke-width="2"/>
+<text x="246" y="308.4" font-size="29.67px" text-anchor="middle" fill="#2879a8">y = x</text>
+<line x1="86.000" y1="430.000" x2="432.000" y2="430.000" stroke="#252f3c" stroke-width="2" marker-end="url(#axis)"/>
+<line x1="86.000" y1="430.000" x2="86.000" y2="89.000" stroke="#252f3c" stroke-width="2" marker-end="url(#axis)"/>
+<text x="86" y="465" font-size="24.99px" text-anchor="middle" fill="#252f3c">0</text>
+<text x="326" y="465" font-size="24.99px" text-anchor="middle" fill="#ac5a3c">0.75</text>
+<text x="406" y="465" font-size="24.99px" text-anchor="middle" fill="#252f3c">1</text>
+<text x="58" y="118" font-size="24.99px" text-anchor="middle" fill="#252f3c">1</text>
+<text x="443" y="439" font-size="29.67px" text-anchor="middle" fill="#252f3c">x</text>
+<text x="86" y="76" font-size="29.67px" text-anchor="middle" fill="#252f3c">y</text>
+<text x="246" y="512" font-size="29.67px" text-anchor="middle" fill="#ac5a3c">截线从 y = 0.75 到 y = 1</text>
 <polygon points="789.000,430.000 789.000,292.000 869.000,292.000 869.000,430.000" fill="url(#orangefill)" stroke="none" stroke-width="1"/>
-<line x1="549.000" y1="292.000" x2="869.000" y2="292.000" stroke="#d9e1e8" stroke-width="2" stroke-dasharray="7 6"/>
-<text x="525" y="300" font-size="26.18px" text-anchor="middle" fill="#182737">2</text>
-<line x1="549.000" y1="154.000" x2="869.000" y2="154.000" stroke="#d9e1e8" stroke-width="2" stroke-dasharray="7 6"/>
-<text x="525" y="162" font-size="26.18px" text-anchor="middle" fill="#182737">4</text>
-<polyline points="549.000,430.000 789.000,430.000 789.000,292.000 869.000,292.000 869.000,430.000 885.000,430.000" fill="none" stroke="#ad5127" stroke-width="4" stroke-linejoin="round"/>
-<line x1="549.000" y1="430.000" x2="894.000" y2="430.000" stroke="#182737" stroke-width="2" marker-end="url(#axis)"/>
-<line x1="549.000" y1="430.000" x2="549.000" y2="125.000" stroke="#182737" stroke-width="2" marker-end="url(#axis)"/>
-<line x1="549.000" y1="430.000" x2="549.000" y2="437.000" stroke="#182737" stroke-width="2.46"/>
-<text x="549" y="465" font-size="24.99px" text-anchor="middle" fill="#182737">0</text>
-<line x1="789.000" y1="430.000" x2="789.000" y2="437.000" stroke="#182737" stroke-width="2.46"/>
-<text x="789" y="465" font-size="24.99px" text-anchor="middle" fill="#b75734">0.75</text>
-<line x1="869.000" y1="430.000" x2="869.000" y2="437.000" stroke="#182737" stroke-width="2.46"/>
-<text x="869" y="465" font-size="24.99px" text-anchor="middle" fill="#182737">1</text>
-<text x="911" y="438" font-size="29.67px" text-anchor="middle" fill="#182737">y</text>
-<text x="549" y="113" font-size="28.38px" text-anchor="middle" fill="#182737">密度</text>
-<text x="709" y="512" font-size="29.67px" text-anchor="middle" fill="#b75734">切片面积 0.25 × 2 = 0.5</text>
+<line x1="549.000" y1="292.000" x2="869.000" y2="292.000" stroke="#dde5eb" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="525" y="300" font-size="26.18px" text-anchor="middle" fill="#252f3c">2</text>
+<line x1="549.000" y1="154.000" x2="869.000" y2="154.000" stroke="#dde5eb" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="525" y="162" font-size="26.18px" text-anchor="middle" fill="#252f3c">4</text>
+<polyline points="549.000,430.000 789.000,430.000 789.000,292.000 869.000,292.000 869.000,430.000 885.000,430.000" fill="none" stroke="#a25330" stroke-width="4" stroke-linejoin="round"/>
+<line x1="549.000" y1="430.000" x2="894.000" y2="430.000" stroke="#252f3c" stroke-width="2" marker-end="url(#axis)"/>
+<line x1="549.000" y1="430.000" x2="549.000" y2="125.000" stroke="#252f3c" stroke-width="2" marker-end="url(#axis)"/>
+<line x1="549.000" y1="430.000" x2="549.000" y2="437.000" stroke="#252f3c" stroke-width="2.46"/>
+<text x="549" y="465" font-size="24.99px" text-anchor="middle" fill="#252f3c">0</text>
+<line x1="789.000" y1="430.000" x2="789.000" y2="437.000" stroke="#252f3c" stroke-width="2.46"/>
+<text x="789" y="465" font-size="24.99px" text-anchor="middle" fill="#ac5a3c">0.75</text>
+<line x1="869.000" y1="430.000" x2="869.000" y2="437.000" stroke="#252f3c" stroke-width="2.46"/>
+<text x="869" y="465" font-size="24.99px" text-anchor="middle" fill="#252f3c">1</text>
+<text x="911" y="438" font-size="29.67px" text-anchor="middle" fill="#252f3c">y</text>
+<text x="549" y="113" font-size="28.38px" text-anchor="middle" fill="#252f3c" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">密度</text>
+<text x="709" y="512" font-size="29.67px" text-anchor="middle" fill="#ac5a3c">切片面积 0.25 × 2 = 0.5</text>
 <polygon points="1253.000,430.000 1253.000,154.000 1333.000,154.000 1333.000,430.000" fill="url(#orangefill)" stroke="none" stroke-width="1"/>
-<line x1="1013.000" y1="292.000" x2="1333.000" y2="292.000" stroke="#d9e1e8" stroke-width="2" stroke-dasharray="7 6"/>
-<text x="989" y="300" font-size="26.18px" text-anchor="middle" fill="#182737">2</text>
-<line x1="1013.000" y1="154.000" x2="1333.000" y2="154.000" stroke="#d9e1e8" stroke-width="2" stroke-dasharray="7 6"/>
-<text x="989" y="162" font-size="26.18px" text-anchor="middle" fill="#182737">4</text>
-<polyline points="1013.000,430.000 1253.000,430.000 1253.000,154.000 1333.000,154.000 1333.000,430.000 1349.000,430.000" fill="none" stroke="#ad5127" stroke-width="4" stroke-linejoin="round"/>
-<line x1="1013.000" y1="430.000" x2="1358.000" y2="430.000" stroke="#182737" stroke-width="2" marker-end="url(#axis)"/>
-<line x1="1013.000" y1="430.000" x2="1013.000" y2="125.000" stroke="#182737" stroke-width="2" marker-end="url(#axis)"/>
-<line x1="1013.000" y1="430.000" x2="1013.000" y2="437.000" stroke="#182737" stroke-width="2.46"/>
-<text x="1013" y="465" font-size="24.99px" text-anchor="middle" fill="#182737">0</text>
-<line x1="1253.000" y1="430.000" x2="1253.000" y2="437.000" stroke="#182737" stroke-width="2.46"/>
-<text x="1253" y="465" font-size="24.99px" text-anchor="middle" fill="#b75734">0.75</text>
-<line x1="1333.000" y1="430.000" x2="1333.000" y2="437.000" stroke="#182737" stroke-width="2.46"/>
-<text x="1333" y="465" font-size="24.99px" text-anchor="middle" fill="#182737">1</text>
-<text x="1375" y="438" font-size="29.67px" text-anchor="middle" fill="#182737">y</text>
-<text x="1013" y="113" font-size="28.38px" text-anchor="middle" fill="#182737">密度</text>
-<text x="1173" y="512" font-size="29.67px" text-anchor="middle" fill="#b75734">归一化后面积 0.25 × 4 = 1</text>
+<line x1="1013.000" y1="292.000" x2="1333.000" y2="292.000" stroke="#dde5eb" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="989" y="300" font-size="26.18px" text-anchor="middle" fill="#252f3c">2</text>
+<line x1="1013.000" y1="154.000" x2="1333.000" y2="154.000" stroke="#dde5eb" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="989" y="162" font-size="26.18px" text-anchor="middle" fill="#252f3c">4</text>
+<polyline points="1013.000,430.000 1253.000,430.000 1253.000,154.000 1333.000,154.000 1333.000,430.000 1349.000,430.000" fill="none" stroke="#a25330" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1013.000" y1="430.000" x2="1358.000" y2="430.000" stroke="#252f3c" stroke-width="2" marker-end="url(#axis)"/>
+<line x1="1013.000" y1="430.000" x2="1013.000" y2="125.000" stroke="#252f3c" stroke-width="2" marker-end="url(#axis)"/>
+<line x1="1013.000" y1="430.000" x2="1013.000" y2="437.000" stroke="#252f3c" stroke-width="2.46"/>
+<text x="1013" y="465" font-size="24.99px" text-anchor="middle" fill="#252f3c">0</text>
+<line x1="1253.000" y1="430.000" x2="1253.000" y2="437.000" stroke="#252f3c" stroke-width="2.46"/>
+<text x="1253" y="465" font-size="24.99px" text-anchor="middle" fill="#ac5a3c">0.75</text>
+<line x1="1333.000" y1="430.000" x2="1333.000" y2="437.000" stroke="#252f3c" stroke-width="2.46"/>
+<text x="1333" y="465" font-size="24.99px" text-anchor="middle" fill="#252f3c">1</text>
+<text x="1375" y="438" font-size="29.67px" text-anchor="middle" fill="#252f3c">y</text>
+<text x="1013" y="113" font-size="28.38px" text-anchor="middle" fill="#252f3c" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">密度</text>
+<text x="1173" y="512" font-size="29.67px" text-anchor="middle" fill="#ac5a3c">归一化后面积 0.25 × 4 = 1</text>
 </g>
-</g></g></g></svg>
+</g></g></g></svg></svg>

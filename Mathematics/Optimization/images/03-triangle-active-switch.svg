@@ -1,93 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="755" viewBox="0 0 1320 755" role="img" aria-labelledby="title description">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1370.16" height="805.16" viewBox="-25.08 -25.08 1370.16 805.16" role="img" aria-labelledby="title description">
   <title id="title">三角形上的投影、参数路径与乘子</title>
   <desc id="description">图 A 是平面坐标，图 B 和 C 的横轴才是参数 a。两处分段切换位于 a=1 和 a=3。</desc>
   <defs>
     <marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#172235" />
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#242e3a"/>
     </marker>
     <marker id="arrow-teal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#18798a" />
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#217283"/>
     </marker>
     <marker id="arrow-coral" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#b95140" />
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#af5546"/>
     </marker>
     <marker id="arrow-violet" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#65608e" />
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#675e8c"/>
     </marker>
     <linearGradient id="wash-cyan" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#83cdd2" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#83cdd2" stop-opacity="0.48" />
+      <stop offset="0%" stop-color="#95cdd4" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#95cdd4" stop-opacity="0.48"/>
     </linearGradient>
     <linearGradient id="wash-red" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#f2a49b" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#f2a49b" stop-opacity="0.48" />
+      <stop offset="0%" stop-color="#eab6b0" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#eab6b0" stop-opacity="0.48"/>
     </linearGradient>
     <linearGradient id="wash-violet" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#b4aacd" stop-opacity="0.18" />
-      <stop offset="100%" stop-color="#b4aacd" stop-opacity="0.48" />
+      <stop offset="0%" stop-color="#beb4d3" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#beb4d3" stop-opacity="0.48"/>
     </linearGradient>
     <clipPath id="plot-1">
-      <rect x="115" y="120" width="376" height="376" />
+      <rect x="115" y="120" width="376" height="376"/>
     </clipPath>
     <clipPath id="plot-2">
-      <rect x="725" y="125" width="457" height="256" />
+      <rect x="725" y="125" width="457" height="256"/>
     </clipPath>
     <clipPath id="plot-3">
-      <rect x="717" y="536" width="472" height="164" />
+      <rect x="717" y="536" width="472" height="164"/>
     </clipPath>
   </defs>
-  <rect width="1320" height="755" fill="#ffffff" />
+  <rect id="edition-paper" x="-25.08" y="-25.08" width="1370.16" height="805.16" fill="#ffffff"/><svg id="edition-view" x="0" y="0" width="1320" height="755" viewBox="0 0 1320 755" overflow="hidden"><rect width="1320" height="755" fill="#ffffff"/>
   <g font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">
-    <text x="305" y="45" font-size="32" fill="#172235" text-anchor="middle" font-weight="400">A  最优点沿三角形边界移动</text>
-    <text x="965" y="45" font-size="32" fill="#172235" text-anchor="middle" font-weight="400">B  两个最优坐标</text>
-    <polygon points="167.58621,443.41379 425.51724,443.41379 167.58621,185.48276" fill="url(#wash-cyan)" stroke="#18798a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-    <line x1="113" y1="443.41379" x2="508" y2="443.41379" stroke="#172235" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)" />
-    <line x1="167.58621" y1="500" x2="167.58621" y2="104" stroke="#172235" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)" />
-    <text x="516" y="450.41379" font-size="28" fill="#172235" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">x</text>
-    <text x="167.58621" y="91" font-size="27" fill="#172235" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">y</text>
-    <line x1="425.51724" y1="443.41379" x2="425.51724" y2="450.41379" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
-    <text x="425.51724" y="473.41379" font-size="25" fill="#4c5b6a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
-    <line x1="160.58621" y1="185.48276" x2="167.58621" y2="185.48276" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
-    <text x="154.58621" y="192.48276" font-size="25" fill="#4c5b6a" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
-    <line x1="384.24828" y1="402.14483" x2="211.43448" y2="229.33103" stroke="#b95140" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow-coral)" />
-    <circle cx="425.51724" cy="443.41379" r="7" fill="#b95140" stroke="white" stroke-width="2.4" />
-    <circle cx="167.58621" cy="185.48276" r="7" fill="#b95140" stroke="white" stroke-width="2.4" />
-    <text x="432" y="512" font-size="26" fill="#4c5b6a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">a ≤ 1</text>
-    <line x1="421" y1="495" x2="434.51724" y2="451.41379" stroke="#4c5b6a" stroke-width="1.35" stroke-linecap="round" />
-    <text x="240" y="146" font-size="27" fill="#172235" text-anchor="start" font-weight="400">a ≥ 3</text>
-    <line x1="247" y1="157" x2="173.58621" y2="185.48276" stroke="#172235" stroke-width="1.35" stroke-linecap="round" />
-    <line x1="723" y1="369.59016" x2="1199" y2="369.59016" stroke="#172235" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)" />
-    <line x1="741.68966" y1="385" x2="741.68966" y2="109" stroke="#172235" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)" />
-    <text x="1207" y="376.59016" font-size="28" fill="#172235" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">a</text>
-    <text x="741.68966" y="96" font-size="27" fill="#172235" text-anchor="middle" font-weight="400">最优坐标</text>
-    <line x1="846.28736" y1="369.59016" x2="846.28736" y2="376.59016" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
-    <text x="846.28736" y="399.59016" font-size="25" fill="#4c5b6a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
-    <line x1="1055.48276" y1="369.59016" x2="1055.48276" y2="376.59016" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
-    <text x="1055.48276" y="399.59016" font-size="25" fill="#4c5b6a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">3</text>
-    <line x1="734.68966" y1="161.39344" x2="741.68966" y2="161.39344" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
-    <text x="728.68966" y="168.39344" font-size="25" fill="#4c5b6a" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
-    <polyline points="726.00000,161.39344 846.28736,161.39344 1055.48276,369.59016 1181.00000,369.59016" fill="none" stroke="#18798a" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#plot-2)" />
-    <polyline points="726.00000,369.59016 846.28736,369.59016 1055.48276,161.39344 1181.00000,161.39344" fill="none" stroke="#b95140" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#plot-2)" />
-    <text x="1113.01149" y="145.39344" font-size="29" fill="#b95140" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">y*</text>
-    <text x="1113.01149" y="353.59016" font-size="29" fill="#18798a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">x*</text>
-    <text x="968" y="472" font-size="31" fill="#172235" text-anchor="middle" font-weight="400">C  约束乘子随参数变化</text>
-    <line x1="715" y1="697.05988" x2="1206" y2="697.05988" stroke="#172235" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)" />
-    <line x1="734.2069" y1="704" x2="734.2069" y2="520" stroke="#172235" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)" />
-    <text x="1214" y="704.05988" font-size="28" fill="#172235" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">a</text>
-    <text x="734.2069" y="507" font-size="27" fill="#172235" text-anchor="middle" font-weight="400">乘子</text>
-    <line x1="842.25287" y1="697.05988" x2="842.25287" y2="704.05988" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
-    <text x="842.25287" y="727.05988" font-size="25" fill="#4c5b6a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
-    <line x1="1058.34483" y1="697.05988" x2="1058.34483" y2="704.05988" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
-    <text x="1058.34483" y="727.05988" font-size="25" fill="#4c5b6a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">3</text>
-    <line x1="727.2069" y1="551.5509" x2="734.2069" y2="551.5509" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
-    <text x="721.2069" y="558.5509" font-size="25" fill="#4c5b6a" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">3</text>
-    <polyline points="718.00000,648.55689 842.25287,648.55689 1058.34483,600.05389 1188.00000,541.85030" fill="none" stroke="#65608e" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#plot-3)" />
-    <polyline points="718.00000,641.28144 842.25287,697.05988 1188.00000,697.05988" fill="none" stroke="#b95140" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" clip-path="url(#plot-3)" />
-    <polyline points="718.00000,697.05988 1058.34483,697.05988 1188.00000,638.85629" fill="none" stroke="#18798a" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4" clip-path="url(#plot-3)" />
-    <line x1="842.25287" y1="697.05988" x2="842.25287" y2="537" stroke="#d5e0e4" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 5" />
-    <line x1="1058.34483" y1="697.05988" x2="1058.34483" y2="537" stroke="#d5e0e4" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 5" />
-    <text x="1171.7931" y="534.67066" font-size="24" fill="#65608e" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">λ</text>
-    <text x="804.43678" y="665.08383" font-size="24" fill="#b95140" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">μᵧ</text>
-    <text x="1168.55172" y="634.58683" font-size="24" fill="#18798a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">μₓ</text>
+    <text x="305" y="45" font-size="32" fill="#242e3a" text-anchor="middle" font-weight="400">A  最优点沿三角形边界移动</text>
+    <text x="965" y="45" font-size="32" fill="#242e3a" text-anchor="middle" font-weight="400">B  两个最优坐标</text>
+    <polygon points="167.58621,443.41379 425.51724,443.41379 167.58621,185.48276" fill="url(#wash-cyan)" stroke="#217283" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="113" y1="443.41379" x2="508" y2="443.41379" stroke="#242e3a" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+    <line x1="167.58621" y1="500" x2="167.58621" y2="104" stroke="#242e3a" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+    <text x="516" y="450.41379" font-size="28" fill="#242e3a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">x</text>
+    <text x="167.58621" y="91" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">y</text>
+    <line x1="425.51724" y1="443.41379" x2="425.51724" y2="450.41379" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="425.51724" y="473.41379" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
+    <line x1="160.58621" y1="185.48276" x2="167.58621" y2="185.48276" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="154.58621" y="192.48276" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
+    <line x1="384.24828" y1="402.14483" x2="211.43448" y2="229.33103" stroke="#af5546" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow-coral)"/>
+    <circle cx="425.51724" cy="443.41379" r="7" fill="#af5546" stroke="#ffffff" stroke-width="2.4"/>
+    <circle cx="167.58621" cy="185.48276" r="7" fill="#af5546" stroke="#ffffff" stroke-width="2.4"/>
+    <text x="432" y="512" font-size="26" fill="#4b5e6b" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">a ≤ 1</text>
+    <line x1="421" y1="495" x2="434.51724" y2="451.41379" stroke="#4b5e6b" stroke-width="1.35" stroke-linecap="round"/>
+    <text x="240" y="146" font-size="27" fill="#242e3a" text-anchor="start" font-weight="400">a ≥ 3</text>
+    <line x1="247" y1="157" x2="173.58621" y2="185.48276" stroke="#242e3a" stroke-width="1.35" stroke-linecap="round"/>
+    <line x1="723" y1="369.59016" x2="1199" y2="369.59016" stroke="#242e3a" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+    <line x1="741.68966" y1="385" x2="741.68966" y2="109" stroke="#242e3a" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+    <text x="1207" y="376.59016" font-size="28" fill="#242e3a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">a</text>
+    <text x="741.68966" y="96" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">最优坐标</text>
+    <line x1="846.28736" y1="369.59016" x2="846.28736" y2="376.59016" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="846.28736" y="399.59016" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
+    <line x1="1055.48276" y1="369.59016" x2="1055.48276" y2="376.59016" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="1055.48276" y="399.59016" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">3</text>
+    <line x1="734.68966" y1="161.39344" x2="741.68966" y2="161.39344" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="728.68966" y="168.39344" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
+    <polyline points="726.00000,161.39344 846.28736,161.39344 1055.48276,369.59016 1181.00000,369.59016" fill="none" stroke="#217283" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#plot-2)"/>
+    <polyline points="726.00000,369.59016 846.28736,369.59016 1055.48276,161.39344 1181.00000,161.39344" fill="none" stroke="#af5546" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#plot-2)"/>
+    <text x="1113.01149" y="145.39344" font-size="29" fill="#af5546" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">y*</text>
+    <text x="1113.01149" y="353.59016" font-size="29" fill="#217283" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">x*</text>
+    <text x="968" y="472" font-size="31" fill="#242e3a" text-anchor="middle" font-weight="400">C  约束乘子随参数变化</text>
+    <line x1="715" y1="697.05988" x2="1206" y2="697.05988" stroke="#242e3a" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+    <line x1="734.2069" y1="704" x2="734.2069" y2="520" stroke="#242e3a" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+    <text x="1214" y="704.05988" font-size="28" fill="#242e3a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">a</text>
+    <text x="734.2069" y="507" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">乘子</text>
+    <line x1="842.25287" y1="697.05988" x2="842.25287" y2="704.05988" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="842.25287" y="727.05988" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
+    <line x1="1058.34483" y1="697.05988" x2="1058.34483" y2="704.05988" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="1058.34483" y="727.05988" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">3</text>
+    <line x1="727.2069" y1="551.5509" x2="734.2069" y2="551.5509" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="721.2069" y="558.5509" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">3</text>
+    <polyline points="718.00000,648.55689 842.25287,648.55689 1058.34483,600.05389 1188.00000,541.85030" fill="none" stroke="#675e8c" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#plot-3)"/>
+    <polyline points="718.00000,641.28144 842.25287,697.05988 1188.00000,697.05988" fill="none" stroke="#af5546" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5" clip-path="url(#plot-3)"/>
+    <polyline points="718.00000,697.05988 1058.34483,697.05988 1188.00000,638.85629" fill="none" stroke="#217283" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4" clip-path="url(#plot-3)"/>
+    <line x1="842.25287" y1="697.05988" x2="842.25287" y2="537" stroke="#dae4e8" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 5"/>
+    <line x1="1058.34483" y1="697.05988" x2="1058.34483" y2="537" stroke="#dae4e8" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="4 5"/>
+    <text x="1171.7931" y="534.67066" font-size="24" fill="#675e8c" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">λ</text>
+    <text x="804.43678" y="665.08383" font-size="24" fill="#af5546" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">μᵧ</text>
+    <text x="1168.55172" y="634.58683" font-size="24" fill="#217283" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">μₓ</text>
   </g>
-</svg>
+</svg></svg>

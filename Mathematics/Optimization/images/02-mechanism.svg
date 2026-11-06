@@ -1,50 +1,50 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="840.36" viewBox="0 69.64 960 840.36" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="876.84" viewBox="-18.24 51.4 996.48 876.84" role="img" aria-labelledby="title desc">
 <title id="title">同一步衰减，两个坐标缩多少</title><desc id="desc">起点为 (1,1)。耦合正则到 (0.99,0.999)，解耦衰减到 (0.99,0.99)。横轴与纵轴按同一尺度放大。</desc>
-<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#536f86"/></marker></defs>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
-<rect x="0" y="0" width="960" height="910" rx="0" fill="#fff" stroke="none" stroke-width="1.8"/>
-<text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">冻结预条件器，放大查看起点附近的实际位移</text>
-<rect x="44" y="141" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="65" y="171" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">A</text>
-<text x="101" y="171" font-size="31" fill="#172a40" font-weight="700" text-anchor="start">预条件器只改变耦合正则的位移</text>
-<rect x="44" y="201" width="420" height="105" rx="10" fill="#fff2e8" stroke="#cedae4" stroke-width="1.8"/>
-<text x="66" y="243" font-size="25" fill="#a85127" font-weight="700" text-anchor="start">耦合正则</text>
-<text x="66" y="281" font-size="24" fill="#172a40" font-weight="400" text-anchor="start">两个坐标的收缩量 (0.01, 0.001)</text>
-<rect x="496" y="201" width="420" height="105" rx="10" fill="#e9f5f7" stroke="#cedae4" stroke-width="1.8"/>
-<text x="518" y="243" font-size="25" fill="#136d84" font-weight="700" text-anchor="start">解耦衰减</text>
-<text x="518" y="281" font-size="24" fill="#172a40" font-weight="400" text-anchor="start">两个坐标的收缩量 (0.01, 0.01)</text>
-<rect x="44" y="354" width="42" height="41" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="65" y="384" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">B</text>
-<text x="101" y="384" font-size="31" fill="#172a40" font-weight="700" text-anchor="start">解耦的终点留在原来的方向上</text>
-<line x1="229.0" y1="816.0" x2="633.6000000000004" y2="816.0" stroke="#cedae4" stroke-width="2"/>
-<text x="214.0" y="824.0" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">0.985</text>
-<line x1="229.0" y1="696.9999999999999" x2="633.6000000000004" y2="696.9999999999999" stroke="#cedae4" stroke-width="2"/>
-<text x="214.0" y="704.9999999999999" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">0.990</text>
-<line x1="229.0" y1="458.99999999999966" x2="633.6000000000004" y2="458.99999999999966" stroke="#cedae4" stroke-width="2"/>
-<text x="214.0" y="466.99999999999966" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">1.000</text>
-<line x1="229.0" y1="411.39999999999964" x2="633.6000000000004" y2="411.39999999999964" stroke="#cedae4" stroke-width="2"/>
-<text x="214.0" y="419.39999999999964" font-size="24" fill="#465d72" font-weight="400" text-anchor="end"/>
-<line x1="229.0" y1="816.0" x2="633.6000000000004" y2="816.0" stroke="#465d72" stroke-width="2"/>
-<line x1="229.0" y1="816.0" x2="229.0" y2="411.39999999999964" stroke="#465d72" stroke-width="2"/>
-<line x1="229.0" y1="816.0" x2="229.0" y2="824.0" stroke="#465d72" stroke-width="2"/>
-<text x="229.0" y="852.0" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">0.985</text>
-<line x1="348.0000000000001" y1="816.0" x2="348.0000000000001" y2="824.0" stroke="#465d72" stroke-width="2"/>
-<text x="348.0000000000001" y="852.0" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">0.990</text>
-<line x1="586.0000000000003" y1="816.0" x2="586.0000000000003" y2="824.0" stroke="#465d72" stroke-width="2"/>
-<text x="586.0000000000003" y="852.0" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle">1.000</text>
-<line x1="633.6000000000004" y1="816.0" x2="633.6000000000004" y2="824.0" stroke="#465d72" stroke-width="2"/>
-<text x="633.6000000000004" y="852.0" font-size="24" fill="#465d72" font-weight="400" text-anchor="middle"/>
-<line x1="229.0" y1="816.0" x2="633.6000000000004" y2="411.39999999999964" stroke="#465d72" stroke-width="2" stroke-dasharray="6 6"/>
-<line x1="586.0000000000003" y1="458.99999999999966" x2="348.0000000000001" y2="482.7999999999997" stroke="#a85127" stroke-width="4" marker-end="url(#arrow)"/>
-<circle cx="348.0000000000001" cy="482.7999999999997" r="7" fill="#a85127" stroke="#fff" stroke-width="3"/>
-<text x="332.0000000000001" y="511.7999999999997" font-size="25" fill="#a85127" font-weight="700" text-anchor="end">耦合终点</text>
-<line x1="586.0000000000003" y1="458.99999999999966" x2="348.0000000000001" y2="696.9999999999999" stroke="#136d84" stroke-width="4" marker-end="url(#arrow)"/>
-<circle cx="348.0000000000001" cy="696.9999999999999" r="7" fill="#136d84" stroke="#fff" stroke-width="3"/>
-<text x="332.0000000000001" y="725.9999999999999" font-size="25" fill="#136d84" font-weight="700" text-anchor="end">解耦终点</text>
-<circle cx="586.0000000000003" cy="458.99999999999966" r="7" fill="#172a40" stroke="#fff" stroke-width="3"/>
-<text x="605.0000000000003" y="466.99999999999966" font-size="24" fill="#172a40" font-weight="650" text-anchor="start">起点 (1, 1)</text>
-<text x="200" y="474" font-size="24" fill="#465d72" font-weight="400" text-anchor="end">第二坐标</text>
-<text x="709" y="853" font-size="24" fill="#465d72" font-weight="400" text-anchor="start">第一坐标</text>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#537184"/></marker></defs>
+<rect id="edition-paper" x="-18.24" y="51.4" width="996.48" height="876.84" fill="#ffffff"/><svg id="edition-view" x="0" y="69.64" width="960" height="840.36" viewBox="0 69.64 960 840.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<rect x="0" y="0" width="960" height="910" rx="0" fill="#ffffff" stroke="none" stroke-width="1.8"/>
+<text x="46" y="106" font-size="26" fill="#476072" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">冻结预条件器，放大查看起点附近的实际位移</text>
+<rect x="44" y="141" width="42" height="41" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="65" y="171" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">A</text>
+<text x="101" y="171" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">预条件器只改变耦合正则的位移</text>
+<rect x="44" y="201" width="420" height="105" rx="10" fill="#fbf4ef" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="66" y="243" font-size="25" fill="#9e5230" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">耦合正则</text>
+<text x="66" y="281" font-size="24" fill="#283341" font-weight="400" text-anchor="start">两个坐标的收缩量 (0.01, 0.001)</text>
+<rect x="496" y="201" width="420" height="105" rx="10" fill="#ecf5f7" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="518" y="243" font-size="25" fill="#1c687e" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">解耦衰减</text>
+<text x="518" y="281" font-size="24" fill="#283341" font-weight="400" text-anchor="start">两个坐标的收缩量 (0.01, 0.01)</text>
+<rect x="44" y="354" width="42" height="41" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="65" y="384" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">B</text>
+<text x="101" y="384" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">解耦的终点留在原来的方向上</text>
+<line x1="229.0" y1="816.0" x2="633.6000000000004" y2="816.0" stroke="#d4e0e7" stroke-width="2"/>
+<text x="214.0" y="824.0" font-size="24" fill="#476072" font-weight="400" text-anchor="end">0.985</text>
+<line x1="229.0" y1="696.9999999999999" x2="633.6000000000004" y2="696.9999999999999" stroke="#d4e0e7" stroke-width="2"/>
+<text x="214.0" y="704.9999999999999" font-size="24" fill="#476072" font-weight="400" text-anchor="end">0.990</text>
+<line x1="229.0" y1="458.99999999999966" x2="633.6000000000004" y2="458.99999999999966" stroke="#d4e0e7" stroke-width="2"/>
+<text x="214.0" y="466.99999999999966" font-size="24" fill="#476072" font-weight="400" text-anchor="end">1.000</text>
+<line x1="229.0" y1="411.39999999999964" x2="633.6000000000004" y2="411.39999999999964" stroke="#d4e0e7" stroke-width="2"/>
+<text x="214.0" y="419.39999999999964" font-size="24" fill="#476072" font-weight="400" text-anchor="end"/>
+<line x1="229.0" y1="816.0" x2="633.6000000000004" y2="816.0" stroke="#476072" stroke-width="2"/>
+<line x1="229.0" y1="816.0" x2="229.0" y2="411.39999999999964" stroke="#476072" stroke-width="2"/>
+<line x1="229.0" y1="816.0" x2="229.0" y2="824.0" stroke="#476072" stroke-width="2"/>
+<text x="229.0" y="852.0" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">0.985</text>
+<line x1="348.0000000000001" y1="816.0" x2="348.0000000000001" y2="824.0" stroke="#476072" stroke-width="2"/>
+<text x="348.0000000000001" y="852.0" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">0.990</text>
+<line x1="586.0000000000003" y1="816.0" x2="586.0000000000003" y2="824.0" stroke="#476072" stroke-width="2"/>
+<text x="586.0000000000003" y="852.0" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">1.000</text>
+<line x1="633.6000000000004" y1="816.0" x2="633.6000000000004" y2="824.0" stroke="#476072" stroke-width="2"/>
+<text x="633.6000000000004" y="852.0" font-size="24" fill="#476072" font-weight="400" text-anchor="middle"/>
+<line x1="229.0" y1="816.0" x2="633.6000000000004" y2="411.39999999999964" stroke="#476072" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="586.0000000000003" y1="458.99999999999966" x2="348.0000000000001" y2="482.7999999999997" stroke="#9e5230" stroke-width="4" marker-end="url(#arrow)"/>
+<circle cx="348.0000000000001" cy="482.7999999999997" r="7" fill="#9e5230" stroke="#ffffff" stroke-width="3"/>
+<text x="332.0000000000001" y="511.7999999999997" font-size="25" fill="#9e5230" font-weight="700" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">耦合终点</text>
+<line x1="586.0000000000003" y1="458.99999999999966" x2="348.0000000000001" y2="696.9999999999999" stroke="#1c687e" stroke-width="4" marker-end="url(#arrow)"/>
+<circle cx="348.0000000000001" cy="696.9999999999999" r="7" fill="#1c687e" stroke="#ffffff" stroke-width="3"/>
+<text x="332.0000000000001" y="725.9999999999999" font-size="25" fill="#1c687e" font-weight="700" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">解耦终点</text>
+<circle cx="586.0000000000003" cy="458.99999999999966" r="7" fill="#283341" stroke="#ffffff" stroke-width="3"/>
+<text x="605.0000000000003" y="466.99999999999966" font-size="24" fill="#283341" font-weight="650" text-anchor="start">起点 (1, 1)</text>
+<text x="200" y="474" font-size="24" fill="#476072" font-weight="400" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">第二坐标</text>
+<text x="709" y="853" font-size="24" fill="#476072" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">第一坐标</text>
 </g>
-</svg>
+</svg></svg>

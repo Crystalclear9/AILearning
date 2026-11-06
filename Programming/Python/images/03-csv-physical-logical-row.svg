@@ -1,40 +1,40 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="818.345405" viewBox="0 70.654595 960 818.345405" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="854.825" viewBox="-18.24 52.4146 996.48 854.825" role="img" aria-labelledby="title desc">
 <title id="title">引号里的换行仍属于同一个字段</title><desc id="desc">三行原始文本组成一行表头和一条数据。第二行开启引号，第三行关闭。字段 note 中保留 hello 与 world 之间的换行。</desc>
-<defs><marker id="arrow" viewBox="0 0 9 9" refX="8" refY="4.5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M 0 0 L 9 4.5 L 0 9 Z" fill="#55728a"/></marker></defs>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<defs><marker id="arrow" viewBox="0 0 9 9" refX="8" refY="4.5" markerWidth="4.5" markerHeight="4.5" orient="auto"><path d="M 0 0 L 9 4.5 L 0 9 Z" fill="#557488"/></marker></defs>
+<rect id="edition-paper" x="-18.24" y="52.4146" width="996.48" height="854.825" fill="#ffffff"/><svg id="edition-view" x="0" y="70.6546" width="960" height="818.345" viewBox="0 70.654595 960 818.345405" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0" y="0" width="960" height="889" rx="0" fill="#ffffff" stroke="none" stroke-width="1.8"/>
-<text x="46" y="106" font-size="26" fill="#465d72" font-weight="400" text-anchor="start">三条物理行，解析为表头和一条数据记录</text>
-<rect x="44" y="144" width="42" height="41" rx="9" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="65" y="174" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">A</text>
-<text x="103" y="174" font-size="31" fill="#172a40" font-weight="700" text-anchor="start">按物理行读取，跟踪引号是否闭合</text>
-<rect x="44" y="207" width="872" height="65" rx="9" fill="#f7fafc" stroke="#cedae4" stroke-width="1.8"/>
-<text x="68" y="249" font-size="26" fill="#465d72" font-weight="650" text-anchor="start">第 1 行</text>
-<text x="240" y="250" font-size="30" fill="#172a40" font-weight="700" text-anchor="start">id,note</text>
-<text x="545" y="249" font-size="26" fill="#136d84" font-weight="650" text-anchor="start">完整表头</text>
-<rect x="44" y="287" width="872" height="65" rx="9" fill="#fff2e8" stroke="#cedae4" stroke-width="1.8"/>
-<text x="68" y="329" font-size="26" fill="#465d72" font-weight="650" text-anchor="start">第 2 行</text>
-<text x="240" y="330" font-size="30" fill="#172a40" font-weight="700" text-anchor="start">1,"hello</text>
-<text x="545" y="329" font-size="26" fill="#a85127" font-weight="650" text-anchor="start">引号开启，记录未完</text>
-<rect x="44" y="367" width="872" height="65" rx="9" fill="#f7fafc" stroke="#cedae4" stroke-width="1.8"/>
-<text x="68" y="409" font-size="26" fill="#465d72" font-weight="650" text-anchor="start">第 3 行</text>
-<text x="240" y="410" font-size="30" fill="#172a40" font-weight="700" text-anchor="start">world"</text>
-<text x="545" y="409" font-size="26" fill="#136d84" font-weight="650" text-anchor="start">引号关闭，数据完整</text>
-<rect x="44" y="498" width="42" height="41" rx="9" fill="#e9f5f7" stroke="none" stroke-width="1.8"/>
-<text x="65" y="528" font-size="25" fill="#136d84" font-weight="700" text-anchor="middle">B</text>
-<text x="103" y="528" font-size="31" fill="#172a40" font-weight="700" text-anchor="start">只交付一条数据，字段内换行保留</text>
-<rect x="44" y="563" width="197" height="58" rx="8" fill="#e9f5f7" stroke="#cedae4" stroke-width="1.8"/>
-<text x="66" y="603" font-size="28" fill="#136d84" font-weight="700" text-anchor="start">id</text>
-<rect x="44" y="630" width="197" height="132" rx="8" fill="#f7fafc" stroke="#cedae4" stroke-width="1.8"/>
-<text x="66" y="675" font-size="29" fill="#172a40" font-weight="700" text-anchor="start">1</text>
-<rect x="251" y="563" width="665" height="58" rx="8" fill="#e9f5f7" stroke="#cedae4" stroke-width="1.8"/>
-<text x="273" y="603" font-size="28" fill="#136d84" font-weight="700" text-anchor="start">note</text>
-<rect x="251" y="630" width="665" height="132" rx="8" fill="#f7fafc" stroke="#cedae4" stroke-width="1.8"/>
-<text x="273" y="675" font-size="29" fill="#172a40" font-weight="700" text-anchor="start">hello</text>
-<text x="273" y="729" font-size="29" fill="#172a40" font-weight="700" text-anchor="start">world</text>
-<line x1="286" y1="686" x2="286" y2="700" stroke="#55728a" stroke-width="2.5" stroke-dasharray="none" marker-end="url(#arrow)"/>
-<text x="452" y="703" font-size="26" fill="#a85127" font-weight="700" text-anchor="start">字段内部换行</text>
-<line x1="431" y1="696" x2="359" y2="696" stroke="#55728a" stroke-width="2.5" stroke-dasharray="none" marker-end="url(#arrow)"/>
-<text x="44" y="827" font-size="25" fill="#465d72" font-weight="400" text-anchor="start">表头提供字段名，数据记录提供一组值。</text>
+<text x="46" y="106" font-size="26" fill="#476072" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">三条物理行，解析为表头和一条数据记录</text>
+<rect x="44" y="144" width="42" height="41" rx="9" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="65" y="174" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">A</text>
+<text x="103" y="174" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">按物理行读取，跟踪引号是否闭合</text>
+<rect x="44" y="207" width="872" height="65" rx="9" fill="#ffffff" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="68" y="249" font-size="26" fill="#476072" font-weight="650" text-anchor="start">第 1 行</text>
+<text x="240" y="250" font-size="30" fill="#283341" font-weight="700" text-anchor="start">id,note</text>
+<text x="545" y="249" font-size="26" fill="#1c687e" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">完整表头</text>
+<rect x="44" y="287" width="872" height="65" rx="9" fill="#fbf4ef" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="68" y="329" font-size="26" fill="#476072" font-weight="650" text-anchor="start">第 2 行</text>
+<text x="240" y="330" font-size="30" fill="#283341" font-weight="700" text-anchor="start">1,"hello</text>
+<text x="545" y="329" font-size="26" fill="#9e5230" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">引号开启，记录未完</text>
+<rect x="44" y="367" width="872" height="65" rx="9" fill="#ffffff" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="68" y="409" font-size="26" fill="#476072" font-weight="650" text-anchor="start">第 3 行</text>
+<text x="240" y="410" font-size="30" fill="#283341" font-weight="700" text-anchor="start">world"</text>
+<text x="545" y="409" font-size="26" fill="#1c687e" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">引号关闭，数据完整</text>
+<rect x="44" y="498" width="42" height="41" rx="9" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
+<text x="65" y="528" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">B</text>
+<text x="103" y="528" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">只交付一条数据，字段内换行保留</text>
+<rect x="44" y="563" width="197" height="58" rx="8" fill="#ecf5f7" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="66" y="603" font-size="28" fill="#1c687e" font-weight="700" text-anchor="start">id</text>
+<rect x="44" y="630" width="197" height="132" rx="8" fill="#ffffff" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="66" y="675" font-size="29" fill="#283341" font-weight="700" text-anchor="start">1</text>
+<rect x="251" y="563" width="665" height="58" rx="8" fill="#ecf5f7" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="273" y="603" font-size="28" fill="#1c687e" font-weight="700" text-anchor="start">note</text>
+<rect x="251" y="630" width="665" height="132" rx="8" fill="#ffffff" stroke="#d4e0e7" stroke-width="1.8"/>
+<text x="273" y="675" font-size="29" fill="#283341" font-weight="700" text-anchor="start">hello</text>
+<text x="273" y="729" font-size="29" fill="#283341" font-weight="700" text-anchor="start">world</text>
+<line x1="286" y1="686" x2="286" y2="700" stroke="#557488" stroke-width="2.5" stroke-dasharray="none" marker-end="url(#arrow)"/>
+<text x="452" y="703" font-size="26" fill="#9e5230" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">字段内部换行</text>
+<line x1="431" y1="696" x2="359" y2="696" stroke="#557488" stroke-width="2.5" stroke-dasharray="none" marker-end="url(#arrow)"/>
+<text x="44" y="827" font-size="25" fill="#476072" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">表头提供字段名，数据记录提供一组值。</text>
 </g>
-</svg>
+</svg></svg>

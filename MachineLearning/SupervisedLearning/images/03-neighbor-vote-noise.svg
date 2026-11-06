@@ -1,98 +1,98 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1150.36" viewBox="0 69.64 960 1150.36" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="1186.84" viewBox="-18.24 51.4 996.48 1186.84" role="img" aria-labelledby="title desc">
 <title id="title">多数票稳定后，新标签仍然会出错</title><desc id="desc">五个邻居时，预测为正的概率为 0.05792，独立新标签的错误率为 0.234752。邻居数增大，错误率趋近 0.2。</desc>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<rect id="edition-paper" x="-18.24" y="51.4" width="996.48" height="1186.84" fill="#ffffff"/><svg id="edition-view" x="0" y="69.64" width="960" height="1150.36" viewBox="0 69.64 960 1150.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0.000" y="0.000" width="960.000" height="1220.000" rx="0" fill="#ffffff" stroke="none" stroke-width="1.6"/>
-<text x="46.000" y="106.000" fill="#465d72" font-size="26" font-weight="400" text-anchor="start">每个标签独立，正例概率 0.2，输入不提供额外信息</text>
-<rect x="44.000" y="145.000" width="44.000" height="41.000" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.6"/>
-<text x="66.000" y="174.000" fill="#136d84" font-size="26" font-weight="700" text-anchor="middle">A</text>
-<text x="103.000" y="174.000" fill="#172a40" font-size="31" font-weight="700" text-anchor="start">五个邻居中，三张正票才会预测为正</text>
-<text x="138.000" y="254.000" fill="#465d72" font-size="25" font-weight="650" text-anchor="end">0 票</text>
-<rect x="171.000" y="234.000" width="455.475" height="22.000" rx="3" fill="#136d84" stroke="none" stroke-width="1.6"/>
-<text x="641.475" y="255.000" fill="#136d84" font-size="25" font-weight="650" text-anchor="start">0.32768</text>
-<text x="138.000" y="304.000" fill="#465d72" font-size="25" font-weight="650" text-anchor="end">1 票</text>
-<rect x="171.000" y="284.000" width="569.344" height="22.000" rx="3" fill="#136d84" stroke="none" stroke-width="1.6"/>
-<text x="755.344" y="305.000" fill="#136d84" font-size="25" font-weight="650" text-anchor="start">0.40960</text>
-<text x="138.000" y="354.000" fill="#465d72" font-size="25" font-weight="650" text-anchor="end">2 票</text>
-<rect x="171.000" y="334.000" width="284.672" height="22.000" rx="3" fill="#136d84" stroke="none" stroke-width="1.6"/>
-<text x="470.672" y="355.000" fill="#136d84" font-size="25" font-weight="650" text-anchor="start">0.20480</text>
-<text x="138.000" y="404.000" fill="#465d72" font-size="25" font-weight="650" text-anchor="end">3 票</text>
-<rect x="171.000" y="384.000" width="71.168" height="22.000" rx="3" fill="#a85127" stroke="none" stroke-width="1.6"/>
-<text x="257.168" y="405.000" fill="#a85127" font-size="25" font-weight="650" text-anchor="start">0.05120</text>
-<text x="138.000" y="454.000" fill="#465d72" font-size="25" font-weight="650" text-anchor="end">4 票</text>
-<rect x="171.000" y="434.000" width="8.896" height="22.000" rx="3" fill="#a85127" stroke="none" stroke-width="1.6"/>
-<text x="194.896" y="455.000" fill="#a85127" font-size="25" font-weight="650" text-anchor="start">0.00640</text>
-<text x="138.000" y="504.000" fill="#465d72" font-size="25" font-weight="650" text-anchor="end">5 票</text>
-<rect x="171.000" y="484.000" width="0.445" height="22.000" rx="3" fill="#a85127" stroke="none" stroke-width="1.6"/>
-<text x="186.445" y="505.000" fill="#a85127" font-size="25" font-weight="650" text-anchor="start">0.00032</text>
-<text x="873.000" y="541.000" fill="#a85127" font-size="26" font-weight="700" text-anchor="end">三票及以上合计 0.05792</text>
-<rect x="44.000" y="594.000" width="44.000" height="41.000" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.6"/>
-<text x="66.000" y="623.000" fill="#136d84" font-size="26" font-weight="700" text-anchor="middle">B</text>
-<text x="103.000" y="623.000" fill="#172a40" font-size="31" font-weight="700" text-anchor="start">把投正概率换算为新标签错误率</text>
-<line x1="123.000" y1="670.000" x2="159.000" y2="670.000" stroke="#136d84" stroke-width="4" stroke-dasharray="none"/>
-<text x="172.000" y="678.000" fill="#136d84" font-size="24" font-weight="650" text-anchor="start">新标签错误率</text>
-<line x1="465.000" y1="670.000" x2="501.000" y2="670.000" stroke="#a85127" stroke-width="4" stroke-dasharray="none"/>
-<text x="514.000" y="678.000" fill="#a85127" font-size="24" font-weight="650" text-anchor="start">投票预测为正的概率</text>
-<line x1="145.000" y1="1049.000" x2="856.000" y2="1049.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="132.000" y="1057.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0</text>
-<line x1="145.000" y1="961.000" x2="856.000" y2="961.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="132.000" y="969.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0.1</text>
-<line x1="145.000" y1="873.000" x2="856.000" y2="873.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="132.000" y="881.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0.2</text>
-<line x1="145.000" y1="785.000" x2="856.000" y2="785.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="132.000" y="793.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0.3</text>
-<line x1="145.000" y1="741.000" x2="856.000" y2="741.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="132.000" y="749.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end"/>
-<line x1="145.000" y1="1049.000" x2="856.000" y2="1049.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<line x1="145.000" y1="1049.000" x2="145.000" y2="741.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<line x1="145.000" y1="1049.000" x2="145.000" y2="1057.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="145.000" y="1085.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">1</text>
-<line x1="239.800" y1="1049.000" x2="239.800" y2="1057.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="239.800" y="1085.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">5</text>
-<line x1="382.000" y1="1049.000" x2="382.000" y2="1057.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="382.000" y="1085.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">11</text>
-<line x1="619.000" y1="1049.000" x2="619.000" y2="1057.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="619.000" y="1085.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">21</text>
-<line x1="856.000" y1="1049.000" x2="856.000" y2="1057.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="856.000" y="1085.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">31</text>
-<line x1="145.000" y1="873.000" x2="856.000" y2="873.000" stroke="#465d72" stroke-width="2.5" stroke-dasharray="6 6"/>
-<polyline points="145.000,767.400 192.400,818.088 239.800,842.418 287.200,855.394 334.600,862.661 382.000,866.847 429.400,869.302 476.800,870.761 524.200,871.637 571.600,872.166 619.000,872.488 666.400,872.685 713.800,872.805 761.200,872.879 808.600,872.925 856.000,872.953" fill="none" stroke="#136d84" stroke-width="4" stroke-dasharray="none" stroke-linecap="round"/>
-<circle cx="145.000" cy="767.400" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="192.400" cy="818.088" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="239.800" cy="842.418" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="287.200" cy="855.394" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="334.600" cy="862.661" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="382.000" cy="866.847" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="429.400" cy="869.302" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="476.800" cy="870.761" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="524.200" cy="871.637" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="571.600" cy="872.166" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="619.000" cy="872.488" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="666.400" cy="872.685" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="713.800" cy="872.805" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="761.200" cy="872.879" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="808.600" cy="872.925" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="856.000" cy="872.953" r="4.5" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<polyline points="145.000,873.000 192.400,957.480 239.800,998.030 287.200,1019.657 334.600,1031.768 382.000,1038.744 429.400,1042.837 476.800,1045.269 524.200,1046.728 571.600,1047.610 619.000,1048.147 666.400,1048.474 713.800,1048.675 761.200,1048.799 808.600,1048.875 856.000,1048.922" fill="none" stroke="#a85127" stroke-width="4" stroke-dasharray="none" stroke-linecap="round"/>
-<circle cx="145.000" cy="873.000" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="192.400" cy="957.480" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="239.800" cy="998.030" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="287.200" cy="1019.657" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="334.600" cy="1031.768" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="382.000" cy="1038.744" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="429.400" cy="1042.837" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="476.800" cy="1045.269" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="524.200" cy="1046.728" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="571.600" cy="1047.610" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="619.000" cy="1048.147" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="666.400" cy="1048.474" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="713.800" cy="1048.675" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="761.200" cy="1048.799" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="808.600" cy="1048.875" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="856.000" cy="1048.922" r="4.5" fill="#a85127" stroke="#ffffff" stroke-width="2.2"/>
-<text x="862.000" y="815.000" fill="#136d84" font-size="24" font-weight="650" text-anchor="end">Bayes 错误下限 0.2</text>
-<line x1="732.000" y1="825.000" x2="732.000" y2="872.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="866.000" y="1119.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">邻居数 k（奇数）</text>
-<text x="48.000" y="1170.000" fill="#172a40" font-size="25" font-weight="650" text-anchor="start">五个邻居时，新标签错误率为 0.234752。</text>
+<text x="46.000" y="106.000" fill="#476072" font-size="26" font-weight="400" text-anchor="start">每个标签独立，正例概率 0.2，输入不提供额外信息</text>
+<rect x="44.000" y="145.000" width="44.000" height="41.000" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.6"/>
+<text x="66.000" y="174.000" fill="#1c687e" font-size="26" font-weight="700" text-anchor="middle">A</text>
+<text x="103.000" y="174.000" fill="#283341" font-size="31" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">五个邻居中，三张正票才会预测为正</text>
+<text x="138.000" y="254.000" fill="#476072" font-size="25" font-weight="650" text-anchor="end">0 票</text>
+<rect x="171.000" y="234.000" width="455.475" height="22.000" rx="3" fill="#1c687e" stroke="none" stroke-width="1.6"/>
+<text x="641.475" y="255.000" fill="#1c687e" font-size="25" font-weight="650" text-anchor="start">0.32768</text>
+<text x="138.000" y="304.000" fill="#476072" font-size="25" font-weight="650" text-anchor="end">1 票</text>
+<rect x="171.000" y="284.000" width="569.344" height="22.000" rx="3" fill="#1c687e" stroke="none" stroke-width="1.6"/>
+<text x="755.344" y="305.000" fill="#1c687e" font-size="25" font-weight="650" text-anchor="start">0.40960</text>
+<text x="138.000" y="354.000" fill="#476072" font-size="25" font-weight="650" text-anchor="end">2 票</text>
+<rect x="171.000" y="334.000" width="284.672" height="22.000" rx="3" fill="#1c687e" stroke="none" stroke-width="1.6"/>
+<text x="470.672" y="355.000" fill="#1c687e" font-size="25" font-weight="650" text-anchor="start">0.20480</text>
+<text x="138.000" y="404.000" fill="#476072" font-size="25" font-weight="650" text-anchor="end">3 票</text>
+<rect x="171.000" y="384.000" width="71.168" height="22.000" rx="3" fill="#9e5230" stroke="none" stroke-width="1.6"/>
+<text x="257.168" y="405.000" fill="#9e5230" font-size="25" font-weight="650" text-anchor="start">0.05120</text>
+<text x="138.000" y="454.000" fill="#476072" font-size="25" font-weight="650" text-anchor="end">4 票</text>
+<rect x="171.000" y="434.000" width="8.896" height="22.000" rx="3" fill="#9e5230" stroke="none" stroke-width="1.6"/>
+<text x="194.896" y="455.000" fill="#9e5230" font-size="25" font-weight="650" text-anchor="start">0.00640</text>
+<text x="138.000" y="504.000" fill="#476072" font-size="25" font-weight="650" text-anchor="end">5 票</text>
+<rect x="171.000" y="484.000" width="0.445" height="22.000" rx="3" fill="#9e5230" stroke="none" stroke-width="1.6"/>
+<text x="186.445" y="505.000" fill="#9e5230" font-size="25" font-weight="650" text-anchor="start">0.00032</text>
+<text x="873.000" y="541.000" fill="#9e5230" font-size="26" font-weight="700" text-anchor="end">三票及以上合计 0.05792</text>
+<rect x="44.000" y="594.000" width="44.000" height="41.000" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.6"/>
+<text x="66.000" y="623.000" fill="#1c687e" font-size="26" font-weight="700" text-anchor="middle">B</text>
+<text x="103.000" y="623.000" fill="#283341" font-size="31" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">把投正概率换算为新标签错误率</text>
+<line x1="123.000" y1="670.000" x2="159.000" y2="670.000" stroke="#1c687e" stroke-width="4" stroke-dasharray="none"/>
+<text x="172.000" y="678.000" fill="#1c687e" font-size="24" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">新标签错误率</text>
+<line x1="465.000" y1="670.000" x2="501.000" y2="670.000" stroke="#9e5230" stroke-width="4" stroke-dasharray="none"/>
+<text x="514.000" y="678.000" fill="#9e5230" font-size="24" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">投票预测为正的概率</text>
+<line x1="145.000" y1="1049.000" x2="856.000" y2="1049.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="132.000" y="1057.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0</text>
+<line x1="145.000" y1="961.000" x2="856.000" y2="961.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="132.000" y="969.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0.1</text>
+<line x1="145.000" y1="873.000" x2="856.000" y2="873.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="132.000" y="881.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0.2</text>
+<line x1="145.000" y1="785.000" x2="856.000" y2="785.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="132.000" y="793.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0.3</text>
+<line x1="145.000" y1="741.000" x2="856.000" y2="741.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="132.000" y="749.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end"/>
+<line x1="145.000" y1="1049.000" x2="856.000" y2="1049.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<line x1="145.000" y1="1049.000" x2="145.000" y2="741.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<line x1="145.000" y1="1049.000" x2="145.000" y2="1057.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="145.000" y="1085.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">1</text>
+<line x1="239.800" y1="1049.000" x2="239.800" y2="1057.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="239.800" y="1085.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">5</text>
+<line x1="382.000" y1="1049.000" x2="382.000" y2="1057.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="382.000" y="1085.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">11</text>
+<line x1="619.000" y1="1049.000" x2="619.000" y2="1057.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="619.000" y="1085.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">21</text>
+<line x1="856.000" y1="1049.000" x2="856.000" y2="1057.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="856.000" y="1085.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">31</text>
+<line x1="145.000" y1="873.000" x2="856.000" y2="873.000" stroke="#476072" stroke-width="2.5" stroke-dasharray="6 6"/>
+<polyline points="145.000,767.400 192.400,818.088 239.800,842.418 287.200,855.394 334.600,862.661 382.000,866.847 429.400,869.302 476.800,870.761 524.200,871.637 571.600,872.166 619.000,872.488 666.400,872.685 713.800,872.805 761.200,872.879 808.600,872.925 856.000,872.953" fill="none" stroke="#1c687e" stroke-width="4" stroke-dasharray="none" stroke-linecap="round"/>
+<circle cx="145.000" cy="767.400" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="192.400" cy="818.088" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="239.800" cy="842.418" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="287.200" cy="855.394" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="334.600" cy="862.661" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="382.000" cy="866.847" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="429.400" cy="869.302" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="476.800" cy="870.761" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="524.200" cy="871.637" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="571.600" cy="872.166" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="619.000" cy="872.488" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="666.400" cy="872.685" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="713.800" cy="872.805" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="761.200" cy="872.879" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="808.600" cy="872.925" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="856.000" cy="872.953" r="4.5" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<polyline points="145.000,873.000 192.400,957.480 239.800,998.030 287.200,1019.657 334.600,1031.768 382.000,1038.744 429.400,1042.837 476.800,1045.269 524.200,1046.728 571.600,1047.610 619.000,1048.147 666.400,1048.474 713.800,1048.675 761.200,1048.799 808.600,1048.875 856.000,1048.922" fill="none" stroke="#9e5230" stroke-width="4" stroke-dasharray="none" stroke-linecap="round"/>
+<circle cx="145.000" cy="873.000" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="192.400" cy="957.480" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="239.800" cy="998.030" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="287.200" cy="1019.657" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="334.600" cy="1031.768" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="382.000" cy="1038.744" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="429.400" cy="1042.837" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="476.800" cy="1045.269" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="524.200" cy="1046.728" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="571.600" cy="1047.610" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="619.000" cy="1048.147" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="666.400" cy="1048.474" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="713.800" cy="1048.675" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="761.200" cy="1048.799" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="808.600" cy="1048.875" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="856.000" cy="1048.922" r="4.5" fill="#9e5230" stroke="#ffffff" stroke-width="2.2"/>
+<text x="862.000" y="815.000" fill="#1c687e" font-size="24" font-weight="650" text-anchor="end">Bayes 错误下限 0.2</text>
+<line x1="732.000" y1="825.000" x2="732.000" y2="872.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="866.000" y="1119.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">邻居数 k（奇数）</text>
+<text x="48.000" y="1170.000" fill="#283341" font-size="25" font-weight="650" text-anchor="start">五个邻居时，新标签错误率为 0.234752。</text>
 </g>
-</svg>
+</svg></svg>

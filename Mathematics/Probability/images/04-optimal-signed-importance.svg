@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="1545" viewBox="0 85 960 1545" role="img" aria-labelledby="artwork-title"><title id="artwork-title">两个状态的同号与异号积分贡献，在相同最优抽样概率下分别产生零和正的方差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1581.48" viewBox="-18.24 66.76 996.48 1581.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">两个状态的同号与异号积分贡献，在相同最优抽样概率下分别产生零和正的方差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="MicrosoftYaHei-Bold-540c" d="M 381 5078 L 6019 5078 L 6019 291 Q 6019 -253 5776 -523 Q 5534 -794 5107 -801 Q 4681 -809 4075 -809 Q 3981 -309 3881 59 Q 4272 19 4597 19 Q 4847 19 4950 45 Q 5053 72 5117 165 Q 5181 259 5181 416 L 5181 4297 L 1219 4297 L 1219 -797 L 381 -797 L 381 5078 z M 4875 3078 L 1525 3078 L 1525 3791 L 4875 3791 L 4875 3078 z M 1738 2591 L 4638 2591 L 4638 403 L 2550 403 L 2550 3 L 1738 3 L 1738 2591 z M 3825 1103 L 3825 1891 L 2550 1891 L 2550 1103 L 3825 1103 z " transform="scale(0.015625)"/>
       <path id="MicrosoftYaHei-Bold-53f7" d="M 5538 5103 L 5538 3022 L 894 3022 L 894 5103 L 5538 5103 z M 4638 3766 L 4638 4359 L 1794 4359 L 1794 3766 L 4638 3766 z M 100 2666 L 6306 2666 L 6306 1903 L 2003 1903 L 1944 1509 L 5563 1509 L 5438 153 Q 5391 -325 5086 -548 Q 4781 -772 4298 -778 Q 3816 -784 2513 -784 Q 2425 -372 2281 103 Q 3191 31 3697 31 Q 4100 31 4265 73 Q 4431 116 4497 220 Q 4563 325 4594 759 L 925 759 L 1109 1903 L 100 1903 L 100 2666 z " transform="scale(0.015625)"/>
       <path id="MicrosoftYaHei-Bold-8d21" d="M 6213 3191 L 200 3191 L 200 3903 L 2788 3903 L 2788 4409 L 800 4409 L 800 5097 L 5588 5097 L 5588 4409 L 3663 4409 L 3663 3903 L 6213 3903 L 6213 3191 z M 819 528 L 819 2816 L 5619 2816 L 5619 628 L 4744 628 L 4744 2066 L 1694 2066 L 1694 528 L 819 528 z M 2850 1878 L 3763 1878 Q 3731 1341 3594 934 Q 5013 422 6219 -66 L 5731 -866 Q 4513 -278 3231 247 Q 2531 -609 556 -878 Q 375 -478 131 -22 Q 1756 159 2269 541 Q 2831 916 2850 1878 z " transform="scale(0.015625)"/>
@@ -113,9 +113,9 @@
   <clipPath id="pf6d045576f">
    <rect x="475.2" y="110.88" width="354.24" height="231.84"/>
   </clipPath>
- </defs><rect width="960" height="1630" fill="#ffffff"/><g transform="translate(-10 111.02) scale(1.242824)"><g id="text_15">
+ </defs><rect id="edition-paper" x="-18.24" y="66.76" width="996.48" height="1581.48" fill="#ffffff"/><svg id="edition-view" x="0" y="85" width="960" height="1545" viewBox="0 85 960 1545" overflow="hidden"><rect width="960" height="1630" fill="#ffffff"/><g transform="translate(-10 111.02) scale(1.242824)"><g id="text_15">
    <!-- 最优重要性分布也未必让估计零方差 -->
-   <g style="fill: #223950" transform="translate(47.52 30.24) scale(0.23 -0.23)">
+   <g style="fill: #263f51" transform="translate(47.52 30.24) scale(0.23 -0.23)">
     <use xlink:href="#MicrosoftYaHei-Bold-6700"/>
     <use xlink:href="#MicrosoftYaHei-Bold-4f18" transform="translate(100 0)"/>
     <use xlink:href="#MicrosoftYaHei-Bold-91cd" transform="translate(200 0)"/>
@@ -136,7 +136,7 @@
   </g>
   <g id="text_16">
    <!-- 两个状态的积分贡献为 $a_i=p_i f_i$；共同最优提议 $q^*=(0.75,0.25)$ -->
-   <g style="fill: #223950" transform="translate(47.52 61.488) scale(0.15 -0.15)">
+   <g style="fill: #263f51" transform="translate(47.52 61.488) scale(0.15 -0.15)">
     <use xlink:href="#MicrosoftYaHei-4e24" transform="translate(0 0.765625)"/>
     <use xlink:href="#MicrosoftYaHei-4e2a" transform="translate(100 0.765625)"/>
     <use xlink:href="#MicrosoftYaHei-72b6" transform="translate(200 0.765625)"/>
@@ -181,14 +181,14 @@
   </g>
   </g><g transform="translate(-54.308659 -28.630989) scale(2.4)"><g id="axes_1">
    <g id="patch_2">
-    <path d="M 75.8592 270.8496 L 164.4192 270.8496 L 164.4192 215.208 L 75.8592 215.208 z " clip-path="url(#pf7c69a5d39)" style="fill: #edf3f6; stroke: #156588; stroke-width: 1.803956; stroke-linejoin: miter"/>
+    <path d="M 75.8592 270.8496 L 164.4192 270.8496 L 164.4192 215.208 L 75.8592 215.208 z " clip-path="url(#pf7c69a5d39)" style="fill: #eff5f7; stroke: #1e6581; stroke-width: 1.803956; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
-    <path d="M 238.8096 270.8496 L 327.3696 270.8496 L 327.3696 215.208 L 238.8096 215.208 z " clip-path="url(#pf7c69a5d39)" style="fill: #edf3f6; stroke: #156588; stroke-width: 1.803956; stroke-linejoin: miter"/>
+    <path d="M 238.8096 270.8496 L 327.3696 270.8496 L 327.3696 215.208 L 238.8096 215.208 z " clip-path="url(#pf7c69a5d39)" style="fill: #eff5f7; stroke: #1e6581; stroke-width: 1.803956; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
     <!-- 同号贡献 -->
-    <g style="fill: #207397" transform="translate(47.52 124.7904) scale(0.2 -0.2)">
+    <g style="fill: #29718f" transform="translate(47.52 124.7904) scale(0.2 -0.2)">
      <use xlink:href="#MicrosoftYaHei-Bold-540c"/>
      <use xlink:href="#MicrosoftYaHei-Bold-53f7" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-Bold-8d21" transform="translate(200 0)"/>
@@ -197,7 +197,7 @@
    </g>
    <g id="text_2">
     <!-- 贡献 a = (3, 1) -->
-    <g style="fill: #223950" transform="translate(47.52 171.1584) scale(0.18 -0.18)">
+    <g style="fill: #263f51" transform="translate(47.52 171.1584) scale(0.18 -0.18)">
      <use xlink:href="#MicrosoftYaHei-8d21"/>
      <use xlink:href="#MicrosoftYaHei-732e" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
@@ -215,14 +215,14 @@
    </g>
    <g id="text_3">
     <!-- +4 -->
-    <g style="fill: #207397" transform="translate(101.102375 250.188956) scale(0.26 -0.26)">
+    <g style="fill: #29718f" transform="translate(101.102375 250.188956) scale(0.26 -0.26)">
      <use xlink:href="#MicrosoftYaHei-2b"/>
      <use xlink:href="#MicrosoftYaHei-34" transform="translate(74.169922 0)"/>
     </g>
    </g>
    <g id="text_4">
     <!-- 概率 0.75 -->
-    <g style="fill: #223950" transform="translate(84.0005 310.2624) scale(0.16 -0.16)">
+    <g style="fill: #263f51" transform="translate(84.0005 310.2624) scale(0.16 -0.16)">
      <use xlink:href="#MicrosoftYaHei-6982"/>
      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
@@ -234,14 +234,14 @@
    </g>
    <g id="text_5">
     <!-- +4 -->
-    <g style="fill: #207397" transform="translate(264.052775 250.188956) scale(0.26 -0.26)">
+    <g style="fill: #29718f" transform="translate(264.052775 250.188956) scale(0.26 -0.26)">
      <use xlink:href="#MicrosoftYaHei-2b"/>
      <use xlink:href="#MicrosoftYaHei-34" transform="translate(74.169922 0)"/>
     </g>
    </g>
    <g id="text_6">
     <!-- 概率 0.25 -->
-    <g style="fill: #223950" transform="translate(246.9509 310.2624) scale(0.16 -0.16)">
+    <g style="fill: #263f51" transform="translate(246.9509 310.2624) scale(0.16 -0.16)">
      <use xlink:href="#MicrosoftYaHei-6982"/>
      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
@@ -253,7 +253,7 @@
    </g>
    <g id="text_7">
     <!-- 均值 = 4      单样本方差 = 0 -->
-    <g style="fill: #207397" transform="translate(47.52 351.9936) scale(0.18 -0.18)">
+    <g style="fill: #29718f" transform="translate(47.52 351.9936) scale(0.18 -0.18)">
      <use xlink:href="#MicrosoftYaHei-5747"/>
      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
@@ -278,16 +278,16 @@
     </g>
    </g>
   </g>
-  </g><line x1="34" x2="927" y1="866.195824" y2="866.195824" stroke="#d4dfe8" stroke-width="1.4"/><g transform="translate(-1080.740659 633.304835) scale(2.4)"><g id="axes_2">
+  </g><line x1="34" x2="927" y1="866.195824" y2="866.195824" stroke="#d9e4eb" stroke-width="1.4"/><g transform="translate(-1080.740659 633.304835) scale(2.4)"><g id="axes_2">
    <g id="patch_4">
-    <path d="M 503.5392 270.8496 L 592.0992 270.8496 L 592.0992 215.208 L 503.5392 215.208 z " clip-path="url(#pf6d045576f)" style="fill: #edf3f6; stroke: #b85f2b; stroke-width: 1.803956; stroke-linejoin: miter"/>
+    <path d="M 503.5392 270.8496 L 592.0992 270.8496 L 592.0992 215.208 L 503.5392 215.208 z " clip-path="url(#pf6d045576f)" style="fill: #eff5f7; stroke: #ac5e34; stroke-width: 1.803956; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
-    <path d="M 666.4896 270.8496 L 755.0496 270.8496 L 755.0496 215.208 L 666.4896 215.208 z " clip-path="url(#pf6d045576f)" style="fill: #edf3f6; stroke: #b85f2b; stroke-width: 1.803956; stroke-linejoin: miter"/>
+    <path d="M 666.4896 270.8496 L 755.0496 270.8496 L 755.0496 215.208 L 666.4896 215.208 z " clip-path="url(#pf6d045576f)" style="fill: #eff5f7; stroke: #ac5e34; stroke-width: 1.803956; stroke-linejoin: miter"/>
    </g>
    <g id="text_8">
     <!-- 异号贡献 -->
-    <g style="fill: #a85c31" transform="translate(475.2 124.7904) scale(0.2 -0.2)">
+    <g style="fill: #9f5b38" transform="translate(475.2 124.7904) scale(0.2 -0.2)">
      <use xlink:href="#MicrosoftYaHei-Bold-5f02"/>
      <use xlink:href="#MicrosoftYaHei-Bold-53f7" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-Bold-8d21" transform="translate(200 0)"/>
@@ -296,7 +296,7 @@
    </g>
    <g id="text_9">
     <!-- 贡献 a = (3, -1) -->
-    <g style="fill: #223950" transform="translate(475.2 171.1584) scale(0.18 -0.18)">
+    <g style="fill: #263f51" transform="translate(475.2 171.1584) scale(0.18 -0.18)">
      <use xlink:href="#MicrosoftYaHei-8d21"/>
      <use xlink:href="#MicrosoftYaHei-732e" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
@@ -315,14 +315,14 @@
    </g>
    <g id="text_10">
     <!-- +4 -->
-    <g style="fill: #a85c31" transform="translate(528.782375 250.188956) scale(0.26 -0.26)">
+    <g style="fill: #9f5b38" transform="translate(528.782375 250.188956) scale(0.26 -0.26)">
      <use xlink:href="#MicrosoftYaHei-2b"/>
      <use xlink:href="#MicrosoftYaHei-34" transform="translate(74.169922 0)"/>
     </g>
    </g>
    <g id="text_11">
     <!-- 概率 0.75 -->
-    <g style="fill: #223950" transform="translate(511.6805 310.2624) scale(0.16 -0.16)">
+    <g style="fill: #263f51" transform="translate(511.6805 310.2624) scale(0.16 -0.16)">
      <use xlink:href="#MicrosoftYaHei-6982"/>
      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
@@ -334,14 +334,14 @@
    </g>
    <g id="text_12">
     <!-- -4 -->
-    <g style="fill: #a85c31" transform="translate(695.750587 250.188956) scale(0.26 -0.26)">
+    <g style="fill: #9f5b38" transform="translate(695.750587 250.188956) scale(0.26 -0.26)">
      <use xlink:href="#MicrosoftYaHei-2d"/>
      <use xlink:href="#MicrosoftYaHei-34" transform="translate(43.261719 0)"/>
     </g>
    </g>
    <g id="text_13">
     <!-- 概率 0.25 -->
-    <g style="fill: #223950" transform="translate(674.6309 310.2624) scale(0.16 -0.16)">
+    <g style="fill: #263f51" transform="translate(674.6309 310.2624) scale(0.16 -0.16)">
      <use xlink:href="#MicrosoftYaHei-6982"/>
      <use xlink:href="#MicrosoftYaHei-7387" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
@@ -353,7 +353,7 @@
    </g>
    <g id="text_14">
     <!-- 均值 = 2      单样本方差 = 12 -->
-    <g style="fill: #a85c31" transform="translate(475.2 351.9936) scale(0.18 -0.18)">
+    <g style="fill: #9f5b38" transform="translate(475.2 351.9936) scale(0.18 -0.18)">
      <use xlink:href="#MicrosoftYaHei-5747"/>
      <use xlink:href="#MicrosoftYaHei-503c" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
@@ -381,7 +381,7 @@
   </g>
   </g><g transform="translate(-10 1029.831648) scale(1.242824)"><g id="text_17">
    <!-- 最小方差 $=\left(\sum_i |a_i|\right)^2-\left(\sum_i a_i\right)^2$；异号时为 $16-4=12$。 -->
-   <g style="fill: #223950" transform="translate(47.52 433.44) scale(0.2 -0.2)">
+   <g style="fill: #263f51" transform="translate(47.52 433.44) scale(0.2 -0.2)">
     <use xlink:href="#MicrosoftYaHei-6700" transform="translate(0 0.376563)"/>
     <use xlink:href="#MicrosoftYaHei-5c0f" transform="translate(100 0.376563)"/>
     <use xlink:href="#MicrosoftYaHei-65b9" transform="translate(200 0.376563)"/>
@@ -423,7 +423,7 @@
   </g>
   <g id="text_18">
    <!-- 提议分布控制抽样频率，不能把正负贡献改成同一个常数。 -->
-   <g style="fill: #223950" transform="translate(47.52 471.24) scale(0.17 -0.17)">
+   <g style="fill: #263f51" transform="translate(47.52 471.24) scale(0.17 -0.17)">
     <use xlink:href="#MicrosoftYaHei-63d0"/>
     <use xlink:href="#MicrosoftYaHei-8bae" transform="translate(100 0)"/>
     <use xlink:href="#MicrosoftYaHei-5206" transform="translate(200 0)"/>
@@ -452,4 +452,4 @@
     <use xlink:href="#MicrosoftYaHei-3002" transform="translate(2500 0)"/>
    </g>
   </g>
- </g></svg>
+ </g></svg></svg>

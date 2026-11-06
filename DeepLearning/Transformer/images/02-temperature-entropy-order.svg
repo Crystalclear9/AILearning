@@ -1,64 +1,64 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="633" viewBox="0 47 960 633" role="img" aria-labelledby="artwork-title"><title id="artwork-title">温度改变采样而保留最大项</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="582.4"/></clipPath></defs><rect width="960" height="680" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.606667)"><g><rect width="1500" height="960" fill="white"/>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#21374d">
-<text x="65" y="55" font-size="41.28px" fill="#21374d" text-anchor="start" font-weight="normal">A  固定 logits = log(0.6, 0.3, 0.1)</text>
-<text x="85" y="115" font-size="36.12px" fill="#21374d" text-anchor="start" font-weight="normal">T = 0.5；H ≈ 0.5943 nat</text>
-<rect x="125" y="192.17391304347825" width="65" height="187.82608695652175" fill="#217599" stroke="none" stroke-width="1"/>
-<text x="157" y="175.17391304347825" font-size="29.75px" fill="#217599" text-anchor="middle" font-weight="normal">0.7826</text>
-<text x="157" y="420" font-size="33.54px" fill="#21374d" text-anchor="middle" font-weight="normal">A</text>
-<rect x="235" y="333.04347826086956" width="65" height="46.95652173913044" fill="#cb753f" stroke="none" stroke-width="1"/>
-<text x="267" y="316.04347826086956" font-size="29.75px" fill="#aa5e2e" text-anchor="middle" font-weight="normal">0.1957</text>
-<text x="267" y="420" font-size="33.54px" fill="#21374d" text-anchor="middle" font-weight="normal">B</text>
-<rect x="345" y="374.7826086956522" width="65" height="5.217391304347814" fill="#22959c" stroke="none" stroke-width="1"/>
-<text x="377" y="357.7826086956522" font-size="29.75px" fill="#1d7f85" text-anchor="middle" font-weight="normal">0.0217</text>
-<text x="377" y="420" font-size="33.54px" fill="#21374d" text-anchor="middle" font-weight="normal">C</text>
-<text x="560" y="115" font-size="36.12px" fill="#21374d" text-anchor="start" font-weight="normal">T = 1；H ≈ 0.8979 nat</text>
-<rect x="600" y="235.99999999999997" width="65" height="144.00000000000003" fill="#217599" stroke="none" stroke-width="1"/>
-<text x="632" y="218.99999999999997" font-size="29.75px" fill="#217599" text-anchor="middle" font-weight="normal">0.6000</text>
-<text x="632" y="420" font-size="33.54px" fill="#21374d" text-anchor="middle" font-weight="normal">A</text>
-<rect x="710" y="308.0" width="65" height="72.0" fill="#cb753f" stroke="none" stroke-width="1"/>
-<text x="742" y="291.0" font-size="29.75px" fill="#aa5e2e" text-anchor="middle" font-weight="normal">0.3000</text>
-<text x="742" y="420" font-size="33.54px" fill="#21374d" text-anchor="middle" font-weight="normal">B</text>
-<rect x="820" y="356.0" width="65" height="24.0" fill="#22959c" stroke="none" stroke-width="1"/>
-<text x="852" y="339.0" font-size="29.75px" fill="#1d7f85" text-anchor="middle" font-weight="normal">0.1000</text>
-<text x="852" y="420" font-size="33.54px" fill="#21374d" text-anchor="middle" font-weight="normal">C</text>
-<text x="1035" y="115" font-size="36.12px" fill="#21374d" text-anchor="start" font-weight="normal">T = 2；H ≈ 1.0380 nat</text>
-<rect x="1075" y="266.5438700025189" width="65" height="113.45612999748113" fill="#217599" stroke="none" stroke-width="1"/>
-<text x="1107" y="249.54387000251887" font-size="29.75px" fill="#217599" text-anchor="middle" font-weight="normal">0.4727</text>
-<text x="1107" y="420" font-size="33.54px" fill="#21374d" text-anchor="middle" font-weight="normal">A</text>
-<rect x="1185" y="299.77440111159865" width="65" height="80.22559888840135" fill="#cb753f" stroke="none" stroke-width="1"/>
-<text x="1217" y="282.77440111159865" font-size="29.75px" fill="#aa5e2e" text-anchor="middle" font-weight="normal">0.3343</text>
-<text x="1217" y="420" font-size="33.54px" fill="#21374d" text-anchor="middle" font-weight="normal">B</text>
-<rect x="1295" y="333.68172888588253" width="65" height="46.318271114117465" fill="#22959c" stroke="none" stroke-width="1"/>
-<text x="1327" y="316.68172888588253" font-size="29.75px" fill="#1d7f85" text-anchor="middle" font-weight="normal">0.1930</text>
-<text x="1327" y="420" font-size="33.54px" fill="#21374d" text-anchor="middle" font-weight="normal">C</text>
-<text x="65" y="490" font-size="39.99px" fill="#21374d" text-anchor="start" font-weight="normal">B  最大项始终为 A；概率差距逐渐缩小</text>
-<line x1="135" y1="815.0" x2="1325" y2="815.0" stroke="#d9e1e8" stroke-width="1"/>
-<text x="121" y="823.0" font-size="27.37px" fill="#47586b" text-anchor="end" font-weight="normal">0</text>
-<line x1="135" y1="751.0869565217391" x2="1325" y2="751.0869565217391" stroke="#d9e1e8" stroke-width="1"/>
-<text x="121" y="759.0869565217391" font-size="27.37px" fill="#47586b" text-anchor="end" font-weight="normal">0.3</text>
-<line x1="135" y1="687.1739130434783" x2="1325" y2="687.1739130434783" stroke="#d9e1e8" stroke-width="1"/>
-<text x="121" y="695.1739130434783" font-size="27.37px" fill="#47586b" text-anchor="end" font-weight="normal">0.6</text>
-<line x1="135" y1="623.2608695652174" x2="1325" y2="623.2608695652174" stroke="#d9e1e8" stroke-width="1"/>
-<text x="121" y="631.2608695652174" font-size="27.37px" fill="#47586b" text-anchor="end" font-weight="normal">0.9</text>
-<line x1="135" y1="580.6521739130435" x2="1325" y2="580.6521739130435" stroke="#d9e1e8" stroke-width="1"/>
-<text x="121" y="588.6521739130435" font-size="27.37px" fill="#47586b" text-anchor="end" font-weight="normal">1.1</text>
-<line x1="262.5" y1="815" x2="262.5" y2="823" stroke="#8d99ac" stroke-width="1.5"/>
-<text x="262.5" y="852" font-size="27.37px" fill="#47586b" text-anchor="middle" font-weight="normal">0.5</text>
-<line x1="475.00000000000006" y1="815" x2="475.00000000000006" y2="823" stroke="#8d99ac" stroke-width="1.5"/>
-<text x="475.00000000000006" y="852" font-size="27.37px" fill="#47586b" text-anchor="middle" font-weight="normal">1</text>
-<line x1="900.0" y1="815" x2="900.0" y2="823" stroke="#8d99ac" stroke-width="1.5"/>
-<text x="900.0" y="852" font-size="27.37px" fill="#47586b" text-anchor="middle" font-weight="normal">2</text>
-<line x1="1325.0" y1="815" x2="1325.0" y2="823" stroke="#8d99ac" stroke-width="1.5"/>
-<text x="1325.0" y="852" font-size="27.37px" fill="#47586b" text-anchor="middle" font-weight="normal">3</text>
-<line x1="135" y1="570" x2="135" y2="815" stroke="#8d99ac" stroke-width="1.6"/>
-<line x1="135" y1="815" x2="1325" y2="815" stroke="#8d99ac" stroke-width="1.6"/>
-<text x="730.0" y="894" font-size="34.83px" fill="#21374d" text-anchor="middle" font-weight="normal">正温度 T</text>
-<text x="135" y="543" font-size="34.83px" fill="#21374d" text-anchor="start" font-weight="normal">单步分布熵 / nat</text>
-<polyline fill="none" stroke="#16678a" stroke-width="4" points="135,785.808 142.933,778.496 150.867,771.098 158.8,763.751 166.733,756.544 174.667,749.535 182.6,742.757 190.533,736.229 198.467,729.959 206.4,723.948 214.333,718.195 222.267,712.694 230.2,707.438 238.133,702.419 246.067,697.629 254,693.06 261.933,688.701 269.867,684.545 277.8,680.582 285.733,676.804 293.667,673.203 301.6,669.77 309.533,666.496 317.467,663.376 325.4,660.4 333.333,657.561 341.267,654.854 349.2,652.271 357.133,649.805 365.067,647.452 373,645.205 380.933,643.058 388.867,641.007 396.8,639.047 404.733,637.173 412.667,635.38 420.6,633.665 428.533,632.023 436.467,630.451 444.4,628.945 452.333,627.502 460.267,626.119 468.2,624.793 476.133,623.52 484.067,622.298 492,621.126 499.933,619.999 507.867,618.917 515.8,617.877 523.733,616.877 531.667,615.914 539.6,614.988 547.533,614.097 555.467,613.238 563.4,612.411 571.333,611.614 579.267,610.846 587.2,610.104 595.133,609.39 603.067,608.699 611,608.033 618.933,607.39 626.867,606.768 634.8,606.168 642.733,605.587 650.667,605.026 658.6,604.483 666.533,603.957 674.467,603.448 682.4,602.956 690.333,602.479 698.267,602.017 706.2,601.569 714.133,601.135 722.067,600.714 730,600.306 737.933,599.91 745.867,599.526 753.8,599.153 761.733,598.791 769.667,598.439 777.6,598.098 785.533,597.766 793.467,597.443 801.4,597.129 809.333,596.825 817.267,596.528 825.2,596.239 833.133,595.959 841.067,595.685 849,595.42 856.933,595.161 864.867,594.908 872.8,594.663 880.733,594.423 888.667,594.19 896.6,593.963 904.533,593.741 912.467,593.525 920.4,593.314 928.333,593.108 936.267,592.908 944.2,592.712 952.133,592.521 960.067,592.334 968,592.152 975.933,591.975 983.867,591.801 991.8,591.631 999.733,591.465 1007.667,591.303 1015.6,591.145 1023.533,590.99 1031.467,590.839 1039.4,590.691 1047.333,590.546 1055.267,590.405 1063.2,590.266 1071.133,590.131 1079.067,589.998 1087,589.868 1094.933,589.741 1102.867,589.617 1110.8,589.495 1118.733,589.376 1126.667,589.259 1134.6,589.144 1142.533,589.032 1150.467,588.922 1158.4,588.815 1166.333,588.709 1174.267,588.606 1182.2,588.504 1190.133,588.405 1198.067,588.307 1206,588.212 1213.933,588.118 1221.867,588.026 1229.8,587.936 1237.733,587.847 1245.667,587.761 1253.6,587.675 1261.533,587.592 1269.467,587.509 1277.4,587.429 1285.333,587.35 1293.267,587.272 1301.2,587.195 1309.133,587.121 1317.067,587.047 1325,586.974"/>
-<circle cx="262.5" cy="688.3975178029707" r="8" fill="#c5662a" stroke="none" stroke-width="1"/>
-<circle cx="475.00000000000006" cy="623.6985194870339" r="8" fill="#c5662a" stroke="none" stroke-width="1"/>
-<circle cx="900.0" cy="593.8669788453552" r="8" fill="#c5662a" stroke="none" stroke-width="1"/>
-<line x1="135" y1="580.9478167620114" x2="1325" y2="580.9478167620114" stroke="#8d99ac" stroke-width="2" stroke-dasharray="8 6"/>
-<text x="1150" y="565.9478167620114" font-size="33.54px" fill="#47586b" text-anchor="start" font-weight="normal">极限 ln 3</text>
-</g></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="669.48" viewBox="-18.24 28.76 996.48 669.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">温度改变采样而保留最大项</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="582.4"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="669.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="633" viewBox="0 47 960 633" overflow="hidden"><rect width="960" height="680" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.606667)"><g><rect width="1500" height="960" fill="#ffffff"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#253d4f">
+<text x="65" y="55" font-size="41.28px" fill="#253d4f" text-anchor="start" font-weight="normal">A  固定 logits = log(0.6, 0.3, 0.1)</text>
+<text x="85" y="115" font-size="36.12px" fill="#253d4f" text-anchor="start" font-weight="normal">T = 0.5；H ≈ 0.5943 nat</text>
+<rect x="125" y="192.17391304347825" width="65" height="187.82608695652175" fill="#2a7391" stroke="none" stroke-width="1"/>
+<text x="157" y="175.17391304347825" font-size="29.75px" fill="#2a7391" text-anchor="middle" font-weight="normal">0.7826</text>
+<text x="157" y="420" font-size="33.54px" fill="#253d4f" text-anchor="middle" font-weight="normal">A</text>
+<rect x="235" y="333.04347826086956" width="65" height="46.95652173913044" fill="#c07144" stroke="none" stroke-width="1"/>
+<text x="267" y="316.04347826086956" font-size="29.75px" fill="#a05c36" text-anchor="middle" font-weight="normal">0.1957</text>
+<text x="267" y="420" font-size="33.54px" fill="#253d4f" text-anchor="middle" font-weight="normal">B</text>
+<rect x="345" y="374.7826086956522" width="65" height="5.217391304347814" fill="#2b8793" stroke="none" stroke-width="1"/>
+<text x="377" y="357.7826086956522" font-size="29.75px" fill="#25757f" text-anchor="middle" font-weight="normal">0.0217</text>
+<text x="377" y="420" font-size="33.54px" fill="#253d4f" text-anchor="middle" font-weight="normal">C</text>
+<text x="560" y="115" font-size="36.12px" fill="#253d4f" text-anchor="start" font-weight="normal">T = 1；H ≈ 0.8979 nat</text>
+<rect x="600" y="235.99999999999997" width="65" height="144.00000000000003" fill="#2a7391" stroke="none" stroke-width="1"/>
+<text x="632" y="218.99999999999997" font-size="29.75px" fill="#2a7391" text-anchor="middle" font-weight="normal">0.6000</text>
+<text x="632" y="420" font-size="33.54px" fill="#253d4f" text-anchor="middle" font-weight="normal">A</text>
+<rect x="710" y="308.0" width="65" height="72.0" fill="#c07144" stroke="none" stroke-width="1"/>
+<text x="742" y="291.0" font-size="29.75px" fill="#a05c36" text-anchor="middle" font-weight="normal">0.3000</text>
+<text x="742" y="420" font-size="33.54px" fill="#253d4f" text-anchor="middle" font-weight="normal">B</text>
+<rect x="820" y="356.0" width="65" height="24.0" fill="#2b8793" stroke="none" stroke-width="1"/>
+<text x="852" y="339.0" font-size="29.75px" fill="#25757f" text-anchor="middle" font-weight="normal">0.1000</text>
+<text x="852" y="420" font-size="33.54px" fill="#253d4f" text-anchor="middle" font-weight="normal">C</text>
+<text x="1035" y="115" font-size="36.12px" fill="#253d4f" text-anchor="start" font-weight="normal">T = 2；H ≈ 1.0380 nat</text>
+<rect x="1075" y="266.5438700025189" width="65" height="113.45612999748113" fill="#2a7391" stroke="none" stroke-width="1"/>
+<text x="1107" y="249.54387000251887" font-size="29.75px" fill="#2a7391" text-anchor="middle" font-weight="normal">0.4727</text>
+<text x="1107" y="420" font-size="33.54px" fill="#253d4f" text-anchor="middle" font-weight="normal">A</text>
+<rect x="1185" y="299.77440111159865" width="65" height="80.22559888840135" fill="#c07144" stroke="none" stroke-width="1"/>
+<text x="1217" y="282.77440111159865" font-size="29.75px" fill="#a05c36" text-anchor="middle" font-weight="normal">0.3343</text>
+<text x="1217" y="420" font-size="33.54px" fill="#253d4f" text-anchor="middle" font-weight="normal">B</text>
+<rect x="1295" y="333.68172888588253" width="65" height="46.318271114117465" fill="#2b8793" stroke="none" stroke-width="1"/>
+<text x="1327" y="316.68172888588253" font-size="29.75px" fill="#25757f" text-anchor="middle" font-weight="normal">0.1930</text>
+<text x="1327" y="420" font-size="33.54px" fill="#253d4f" text-anchor="middle" font-weight="normal">C</text>
+<text x="65" y="490" font-size="39.99px" fill="#253d4f" text-anchor="start" font-weight="normal">B  最大项始终为 A；概率差距逐渐缩小</text>
+<line x1="135" y1="815.0" x2="1325" y2="815.0" stroke="#dde5eb" stroke-width="1"/>
+<text x="121" y="823.0" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0</text>
+<line x1="135" y1="751.0869565217391" x2="1325" y2="751.0869565217391" stroke="#dde5eb" stroke-width="1"/>
+<text x="121" y="759.0869565217391" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0.3</text>
+<line x1="135" y1="687.1739130434783" x2="1325" y2="687.1739130434783" stroke="#dde5eb" stroke-width="1"/>
+<text x="121" y="695.1739130434783" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0.6</text>
+<line x1="135" y1="623.2608695652174" x2="1325" y2="623.2608695652174" stroke="#dde5eb" stroke-width="1"/>
+<text x="121" y="631.2608695652174" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0.9</text>
+<line x1="135" y1="580.6521739130435" x2="1325" y2="580.6521739130435" stroke="#dde5eb" stroke-width="1"/>
+<text x="121" y="588.6521739130435" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">1.1</text>
+<line x1="262.5" y1="815" x2="262.5" y2="823" stroke="#8798a9" stroke-width="1.5"/>
+<text x="262.5" y="852" font-size="27.37px" fill="#475b6c" text-anchor="middle" font-weight="normal">0.5</text>
+<line x1="475.00000000000006" y1="815" x2="475.00000000000006" y2="823" stroke="#8798a9" stroke-width="1.5"/>
+<text x="475.00000000000006" y="852" font-size="27.37px" fill="#475b6c" text-anchor="middle" font-weight="normal">1</text>
+<line x1="900.0" y1="815" x2="900.0" y2="823" stroke="#8798a9" stroke-width="1.5"/>
+<text x="900.0" y="852" font-size="27.37px" fill="#475b6c" text-anchor="middle" font-weight="normal">2</text>
+<line x1="1325.0" y1="815" x2="1325.0" y2="823" stroke="#8798a9" stroke-width="1.5"/>
+<text x="1325.0" y="852" font-size="27.37px" fill="#475b6c" text-anchor="middle" font-weight="normal">3</text>
+<line x1="135" y1="570" x2="135" y2="815" stroke="#8798a9" stroke-width="1.6"/>
+<line x1="135" y1="815" x2="1325" y2="815" stroke="#8798a9" stroke-width="1.6"/>
+<text x="730.0" y="894" font-size="34.83px" fill="#253d4f" text-anchor="middle" font-weight="normal">正温度 T</text>
+<text x="135" y="543" font-size="34.83px" fill="#253d4f" text-anchor="start" font-weight="normal">单步分布熵 / nat</text>
+<polyline fill="none" stroke="#1f6683" stroke-width="4" points="135,785.808 142.933,778.496 150.867,771.098 158.8,763.751 166.733,756.544 174.667,749.535 182.6,742.757 190.533,736.229 198.467,729.959 206.4,723.948 214.333,718.195 222.267,712.694 230.2,707.438 238.133,702.419 246.067,697.629 254,693.06 261.933,688.701 269.867,684.545 277.8,680.582 285.733,676.804 293.667,673.203 301.6,669.77 309.533,666.496 317.467,663.376 325.4,660.4 333.333,657.561 341.267,654.854 349.2,652.271 357.133,649.805 365.067,647.452 373,645.205 380.933,643.058 388.867,641.007 396.8,639.047 404.733,637.173 412.667,635.38 420.6,633.665 428.533,632.023 436.467,630.451 444.4,628.945 452.333,627.502 460.267,626.119 468.2,624.793 476.133,623.52 484.067,622.298 492,621.126 499.933,619.999 507.867,618.917 515.8,617.877 523.733,616.877 531.667,615.914 539.6,614.988 547.533,614.097 555.467,613.238 563.4,612.411 571.333,611.614 579.267,610.846 587.2,610.104 595.133,609.39 603.067,608.699 611,608.033 618.933,607.39 626.867,606.768 634.8,606.168 642.733,605.587 650.667,605.026 658.6,604.483 666.533,603.957 674.467,603.448 682.4,602.956 690.333,602.479 698.267,602.017 706.2,601.569 714.133,601.135 722.067,600.714 730,600.306 737.933,599.91 745.867,599.526 753.8,599.153 761.733,598.791 769.667,598.439 777.6,598.098 785.533,597.766 793.467,597.443 801.4,597.129 809.333,596.825 817.267,596.528 825.2,596.239 833.133,595.959 841.067,595.685 849,595.42 856.933,595.161 864.867,594.908 872.8,594.663 880.733,594.423 888.667,594.19 896.6,593.963 904.533,593.741 912.467,593.525 920.4,593.314 928.333,593.108 936.267,592.908 944.2,592.712 952.133,592.521 960.067,592.334 968,592.152 975.933,591.975 983.867,591.801 991.8,591.631 999.733,591.465 1007.667,591.303 1015.6,591.145 1023.533,590.99 1031.467,590.839 1039.4,590.691 1047.333,590.546 1055.267,590.405 1063.2,590.266 1071.133,590.131 1079.067,589.998 1087,589.868 1094.933,589.741 1102.867,589.617 1110.8,589.495 1118.733,589.376 1126.667,589.259 1134.6,589.144 1142.533,589.032 1150.467,588.922 1158.4,588.815 1166.333,588.709 1174.267,588.606 1182.2,588.504 1190.133,588.405 1198.067,588.307 1206,588.212 1213.933,588.118 1221.867,588.026 1229.8,587.936 1237.733,587.847 1245.667,587.761 1253.6,587.675 1261.533,587.592 1269.467,587.509 1277.4,587.429 1285.333,587.35 1293.267,587.272 1301.2,587.195 1309.133,587.121 1317.067,587.047 1325,586.974"/>
+<circle cx="262.5" cy="688.3975178029707" r="8" fill="#b76334" stroke="none" stroke-width="1"/>
+<circle cx="475.00000000000006" cy="623.6985194870339" r="8" fill="#b76334" stroke="none" stroke-width="1"/>
+<circle cx="900.0" cy="593.8669788453552" r="8" fill="#b76334" stroke="none" stroke-width="1"/>
+<line x1="135" y1="580.9478167620114" x2="1325" y2="580.9478167620114" stroke="#8798a9" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1150" y="565.9478167620114" font-size="33.54px" fill="#475b6c" text-anchor="start" font-weight="normal">极限 ln 3</text>
+</g></g></g></g></svg></svg>

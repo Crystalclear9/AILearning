@@ -1,69 +1,69 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1105.36" viewBox="0 69.64 960 1105.36" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="1141.84" viewBox="-18.24 51.4 996.48 1141.84" role="img" aria-labelledby="title desc">
 <title id="title">多做评价，不能替代独立训练</title><desc id="desc">同样三十二回合，八个训练种子每个四回合的均值方差为 0.10625，三十二个种子各一回合的方差约为 0.06031。</desc>
-<g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<rect id="edition-paper" x="-18.24" y="51.4" width="996.48" height="1141.84" fill="#ffffff"/><svg id="edition-view" x="0" y="69.64" width="960" height="1105.36" viewBox="0 69.64 960 1105.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0.000" y="0.000" width="960.000" height="1175.000" rx="0" fill="#ffffff" stroke="none" stroke-width="1.6"/>
-<text x="46.000" y="106.000" fill="#465d72" font-size="26" font-weight="400" text-anchor="start">训练重复与同一策略的评价回合，减少的是不同噪声</text>
-<rect x="44.000" y="148.000" width="44.000" height="41.000" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.6"/>
-<text x="66.000" y="177.000" fill="#136d84" font-size="26" font-weight="700" text-anchor="middle">A</text>
-<text x="103.000" y="177.000" fill="#172a40" font-size="31" font-weight="700" text-anchor="start">把均值方差拆成两个来源</text>
-<line x1="100.000" y1="217.000" x2="136.000" y2="217.000" stroke="#136d84" stroke-width="4" stroke-dasharray="none"/>
-<text x="149.000" y="225.000" fill="#136d84" font-size="24" font-weight="650" text-anchor="start">训练种子间方差</text>
-<line x1="508.000" y1="217.000" x2="544.000" y2="217.000" stroke="#a85127" stroke-width="4" stroke-dasharray="none"/>
-<text x="557.000" y="225.000" fill="#a85127" font-size="24" font-weight="650" text-anchor="start">同种子内评价噪声</text>
-<text x="59.000" y="282.000" fill="#465d72" font-size="24" font-weight="650" text-anchor="start">训练 × 评价</text>
-<rect x="44.000" y="308.000" width="872.000" height="58.000" rx="7" fill="#f7fafc" stroke="none" stroke-width="1.6"/>
-<text x="62.000" y="349.000" fill="#172a40" font-size="27" font-weight="700" text-anchor="start">8 × 1</text>
-<rect x="212.000" y="321.000" width="145.775" height="27.000" rx="0" fill="#136d84" stroke="none" stroke-width="1.6"/>
-<rect x="357.775" y="321.000" width="428.400" height="27.000" rx="0" fill="#a85127" stroke="none" stroke-width="1.6"/>
-<text x="803.175" y="344.000" fill="#172a40" font-size="25" font-weight="650" text-anchor="start">0.24125</text>
+<text x="46.000" y="106.000" fill="#476072" font-size="26" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">训练重复与同一策略的评价回合，减少的是不同噪声</text>
+<rect x="44.000" y="148.000" width="44.000" height="41.000" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.6"/>
+<text x="66.000" y="177.000" fill="#1c687e" font-size="26" font-weight="700" text-anchor="middle">A</text>
+<text x="103.000" y="177.000" fill="#283341" font-size="31" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">把均值方差拆成两个来源</text>
+<line x1="100.000" y1="217.000" x2="136.000" y2="217.000" stroke="#1c687e" stroke-width="4" stroke-dasharray="none"/>
+<text x="149.000" y="225.000" fill="#1c687e" font-size="24" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">训练种子间方差</text>
+<line x1="508.000" y1="217.000" x2="544.000" y2="217.000" stroke="#9e5230" stroke-width="4" stroke-dasharray="none"/>
+<text x="557.000" y="225.000" fill="#9e5230" font-size="24" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">同种子内评价噪声</text>
+<text x="59.000" y="282.000" fill="#476072" font-size="24" font-weight="650" text-anchor="start">训练 × 评价</text>
+<rect x="44.000" y="308.000" width="872.000" height="58.000" rx="7" fill="#ffffff" stroke="none" stroke-width="1.6"/>
+<text x="62.000" y="349.000" fill="#283341" font-size="27" font-weight="700" text-anchor="start">8 × 1</text>
+<rect x="212.000" y="321.000" width="145.775" height="27.000" rx="0" fill="#1c687e" stroke="none" stroke-width="1.6"/>
+<rect x="357.775" y="321.000" width="428.400" height="27.000" rx="0" fill="#9e5230" stroke="none" stroke-width="1.6"/>
+<text x="803.175" y="344.000" fill="#283341" font-size="25" font-weight="650" text-anchor="start">0.24125</text>
 <rect x="44.000" y="383.000" width="872.000" height="58.000" rx="7" fill="#ffffff" stroke="none" stroke-width="1.6"/>
-<text x="62.000" y="424.000" fill="#172a40" font-size="27" font-weight="700" text-anchor="start">8 × 4</text>
-<rect x="212.000" y="396.000" width="145.775" height="27.000" rx="0" fill="#136d84" stroke="none" stroke-width="1.6"/>
-<rect x="357.775" y="396.000" width="107.100" height="27.000" rx="0" fill="#a85127" stroke="none" stroke-width="1.6"/>
-<text x="481.875" y="419.000" fill="#172a40" font-size="25" font-weight="650" text-anchor="start">0.10625</text>
-<rect x="44.000" y="458.000" width="872.000" height="58.000" rx="7" fill="#f7fafc" stroke="none" stroke-width="1.6"/>
-<text x="62.000" y="499.000" fill="#172a40" font-size="27" font-weight="700" text-anchor="start">8 × 16</text>
-<rect x="212.000" y="471.000" width="145.775" height="27.000" rx="0" fill="#136d84" stroke="none" stroke-width="1.6"/>
-<rect x="357.775" y="471.000" width="26.775" height="27.000" rx="0" fill="#a85127" stroke="none" stroke-width="1.6"/>
-<text x="401.550" y="494.000" fill="#172a40" font-size="25" font-weight="650" text-anchor="start">0.07250</text>
+<text x="62.000" y="424.000" fill="#283341" font-size="27" font-weight="700" text-anchor="start">8 × 4</text>
+<rect x="212.000" y="396.000" width="145.775" height="27.000" rx="0" fill="#1c687e" stroke="none" stroke-width="1.6"/>
+<rect x="357.775" y="396.000" width="107.100" height="27.000" rx="0" fill="#9e5230" stroke="none" stroke-width="1.6"/>
+<text x="481.875" y="419.000" fill="#283341" font-size="25" font-weight="650" text-anchor="start">0.10625</text>
+<rect x="44.000" y="458.000" width="872.000" height="58.000" rx="7" fill="#ffffff" stroke="none" stroke-width="1.6"/>
+<text x="62.000" y="499.000" fill="#283341" font-size="27" font-weight="700" text-anchor="start">8 × 16</text>
+<rect x="212.000" y="471.000" width="145.775" height="27.000" rx="0" fill="#1c687e" stroke="none" stroke-width="1.6"/>
+<rect x="357.775" y="471.000" width="26.775" height="27.000" rx="0" fill="#9e5230" stroke="none" stroke-width="1.6"/>
+<text x="401.550" y="494.000" fill="#283341" font-size="25" font-weight="650" text-anchor="start">0.07250</text>
 <rect x="44.000" y="533.000" width="872.000" height="58.000" rx="7" fill="#ffffff" stroke="none" stroke-width="1.6"/>
-<text x="62.000" y="574.000" fill="#172a40" font-size="27" font-weight="700" text-anchor="start">32 × 1</text>
-<rect x="212.000" y="546.000" width="36.444" height="27.000" rx="0" fill="#136d84" stroke="none" stroke-width="1.6"/>
-<rect x="248.444" y="546.000" width="107.100" height="27.000" rx="0" fill="#a85127" stroke="none" stroke-width="1.6"/>
-<text x="372.544" y="569.000" fill="#172a40" font-size="25" font-weight="650" text-anchor="start">0.06031</text>
-<text x="46.000" y="639.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="start">相同的 32 个评价回合，8 × 4 与 32 × 1 的训练重复数不同。</text>
-<rect x="44.000" y="697.000" width="44.000" height="41.000" rx="10" fill="#e9f5f7" stroke="none" stroke-width="1.6"/>
-<text x="66.000" y="726.000" fill="#136d84" font-size="26" font-weight="700" text-anchor="middle">B</text>
-<text x="103.000" y="726.000" fill="#172a40" font-size="31" font-weight="700" text-anchor="start">固定八个种子，评价再多仍有下限</text>
-<line x1="142.000" y1="1040.000" x2="858.940" y2="1040.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="129.000" y="1048.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0.05</text>
-<line x1="142.000" y1="989.500" x2="858.940" y2="989.500" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="129.000" y="997.500" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0.10</text>
-<line x1="142.000" y1="939.000" x2="858.940" y2="939.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="129.000" y="947.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0.15</text>
-<line x1="142.000" y1="888.500" x2="858.940" y2="888.500" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="129.000" y="896.500" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0.20</text>
-<line x1="142.000" y1="838.000" x2="858.940" y2="838.000" stroke="#cedae4" stroke-width="2" stroke-dasharray="none"/>
-<text x="129.000" y="846.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">0.25</text>
-<line x1="142.000" y1="1040.000" x2="858.940" y2="1040.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<line x1="142.000" y1="1040.000" x2="142.000" y2="838.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<line x1="142.000" y1="1040.000" x2="142.000" y2="1048.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="142.000" y="1076.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">1</text>
-<line x1="312.700" y1="1040.000" x2="312.700" y2="1048.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="312.700" y="1076.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">16</text>
-<line x1="494.780" y1="1040.000" x2="494.780" y2="1048.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="494.780" y="1076.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">32</text>
-<line x1="676.860" y1="1040.000" x2="676.860" y2="1048.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="676.860" y="1076.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">48</text>
-<line x1="858.940" y1="1040.000" x2="858.940" y2="1048.000" stroke="#465d72" stroke-width="2" stroke-dasharray="none"/>
-<text x="858.940" y="1076.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="middle">64</text>
-<line x1="142.000" y1="1028.638" x2="858.940" y2="1028.638" stroke="#a85127" stroke-width="3" stroke-dasharray="8 6"/>
-<polyline points="142.000,846.838 153.380,937.737 164.760,968.038 176.140,983.188 187.520,992.278 198.900,998.337 210.280,1002.666 221.660,1005.913 233.040,1008.438 244.420,1010.457 255.800,1012.110 267.180,1013.487 278.560,1014.653 289.940,1015.652 301.320,1016.518 312.700,1017.275 324.080,1017.943 335.460,1018.538 346.840,1019.069 358.220,1019.548 369.600,1019.980 380.980,1020.374 392.360,1020.733 403.740,1021.062 415.120,1021.365 426.500,1021.645 437.880,1021.904 449.260,1022.145 460.640,1022.369 472.020,1022.577 483.400,1022.773 494.780,1022.956 506.160,1023.128 517.540,1023.290 528.920,1023.443 540.300,1023.587 551.680,1023.724 563.060,1023.853 574.440,1023.976 585.820,1024.092 597.200,1024.203 608.580,1024.309 619.960,1024.410 631.340,1024.506 642.720,1024.598 654.100,1024.685 665.480,1024.769 676.860,1024.850 688.240,1024.927 699.620,1025.002 711.000,1025.073 722.380,1025.141 733.760,1025.207 745.140,1025.271 756.520,1025.332 767.900,1025.391 779.280,1025.448 790.660,1025.503 802.040,1025.556 813.420,1025.608 824.800,1025.657 836.180,1025.705 847.560,1025.752 858.940,1025.797" fill="none" stroke="#136d84" stroke-width="4" stroke-dasharray="none" stroke-linecap="round"/>
-<circle cx="142.000" cy="846.838" r="7" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="176.140" cy="983.188" r="7" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<circle cx="312.700" cy="1017.275" r="7" fill="#136d84" stroke="#ffffff" stroke-width="2.2"/>
-<text x="831.000" y="1007.638" fill="#a85127" font-size="24" font-weight="700" text-anchor="end">方差下限 0.06125</text>
-<text x="864.000" y="1113.000" fill="#465d72" font-size="24" font-weight="400" text-anchor="end">每个种子的评价回合数</text>
+<text x="62.000" y="574.000" fill="#283341" font-size="27" font-weight="700" text-anchor="start">32 × 1</text>
+<rect x="212.000" y="546.000" width="36.444" height="27.000" rx="0" fill="#1c687e" stroke="none" stroke-width="1.6"/>
+<rect x="248.444" y="546.000" width="107.100" height="27.000" rx="0" fill="#9e5230" stroke="none" stroke-width="1.6"/>
+<text x="372.544" y="569.000" fill="#283341" font-size="25" font-weight="650" text-anchor="start">0.06031</text>
+<text x="46.000" y="639.000" fill="#476072" font-size="24" font-weight="400" text-anchor="start">相同的 32 个评价回合，8 × 4 与 32 × 1 的训练重复数不同。</text>
+<rect x="44.000" y="697.000" width="44.000" height="41.000" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.6"/>
+<text x="66.000" y="726.000" fill="#1c687e" font-size="26" font-weight="700" text-anchor="middle">B</text>
+<text x="103.000" y="726.000" fill="#283341" font-size="31" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">固定八个种子，评价再多仍有下限</text>
+<line x1="142.000" y1="1040.000" x2="858.940" y2="1040.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="129.000" y="1048.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0.05</text>
+<line x1="142.000" y1="989.500" x2="858.940" y2="989.500" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="129.000" y="997.500" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0.10</text>
+<line x1="142.000" y1="939.000" x2="858.940" y2="939.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="129.000" y="947.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0.15</text>
+<line x1="142.000" y1="888.500" x2="858.940" y2="888.500" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="129.000" y="896.500" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0.20</text>
+<line x1="142.000" y1="838.000" x2="858.940" y2="838.000" stroke="#d4e0e7" stroke-width="2" stroke-dasharray="none"/>
+<text x="129.000" y="846.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end">0.25</text>
+<line x1="142.000" y1="1040.000" x2="858.940" y2="1040.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<line x1="142.000" y1="1040.000" x2="142.000" y2="838.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<line x1="142.000" y1="1040.000" x2="142.000" y2="1048.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="142.000" y="1076.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">1</text>
+<line x1="312.700" y1="1040.000" x2="312.700" y2="1048.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="312.700" y="1076.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">16</text>
+<line x1="494.780" y1="1040.000" x2="494.780" y2="1048.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="494.780" y="1076.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">32</text>
+<line x1="676.860" y1="1040.000" x2="676.860" y2="1048.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="676.860" y="1076.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">48</text>
+<line x1="858.940" y1="1040.000" x2="858.940" y2="1048.000" stroke="#476072" stroke-width="2" stroke-dasharray="none"/>
+<text x="858.940" y="1076.000" fill="#476072" font-size="24" font-weight="400" text-anchor="middle">64</text>
+<line x1="142.000" y1="1028.638" x2="858.940" y2="1028.638" stroke="#9e5230" stroke-width="3" stroke-dasharray="8 6"/>
+<polyline points="142.000,846.838 153.380,937.737 164.760,968.038 176.140,983.188 187.520,992.278 198.900,998.337 210.280,1002.666 221.660,1005.913 233.040,1008.438 244.420,1010.457 255.800,1012.110 267.180,1013.487 278.560,1014.653 289.940,1015.652 301.320,1016.518 312.700,1017.275 324.080,1017.943 335.460,1018.538 346.840,1019.069 358.220,1019.548 369.600,1019.980 380.980,1020.374 392.360,1020.733 403.740,1021.062 415.120,1021.365 426.500,1021.645 437.880,1021.904 449.260,1022.145 460.640,1022.369 472.020,1022.577 483.400,1022.773 494.780,1022.956 506.160,1023.128 517.540,1023.290 528.920,1023.443 540.300,1023.587 551.680,1023.724 563.060,1023.853 574.440,1023.976 585.820,1024.092 597.200,1024.203 608.580,1024.309 619.960,1024.410 631.340,1024.506 642.720,1024.598 654.100,1024.685 665.480,1024.769 676.860,1024.850 688.240,1024.927 699.620,1025.002 711.000,1025.073 722.380,1025.141 733.760,1025.207 745.140,1025.271 756.520,1025.332 767.900,1025.391 779.280,1025.448 790.660,1025.503 802.040,1025.556 813.420,1025.608 824.800,1025.657 836.180,1025.705 847.560,1025.752 858.940,1025.797" fill="none" stroke="#1c687e" stroke-width="4" stroke-dasharray="none" stroke-linecap="round"/>
+<circle cx="142.000" cy="846.838" r="7" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="176.140" cy="983.188" r="7" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="312.700" cy="1017.275" r="7" fill="#1c687e" stroke="#ffffff" stroke-width="2.2"/>
+<text x="831.000" y="1007.638" fill="#9e5230" font-size="24" font-weight="700" text-anchor="end">方差下限 0.06125</text>
+<text x="864.000" y="1113.000" fill="#476072" font-size="24" font-weight="400" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">每个种子的评价回合数</text>
 </g>
-</svg>
+</svg></svg>

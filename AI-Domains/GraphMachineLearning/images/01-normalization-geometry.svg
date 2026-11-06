@@ -1,47 +1,47 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="470" viewBox="0 47 960 470" role="img" aria-labelledby="artwork-title"><title id="artwork-title">同一自环链图上行归一化与对称度归一化的不同几何</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="419.896142"/></clipPath></defs><rect width="960" height="517" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(7.448071 31.445104) scale(0.675074)"><g><defs><linearGradient id="book-wash-fff1e5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff1e5"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="66" width="1348" height="622" fill="#ffffff"/><title>对称度归一化不等于逐行平均</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#206ca9"/></marker></defs><rect width="1400" height="740" fill="white"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
-<line x1="44" y1="85" x2="1356" y2="85" stroke="#d9e1e8" stroke-width="2"/>
-<text x="355" y="135" font-size="37.41px" fill="#1d3145" text-anchor="middle" font-weight="normal">加自环链图：度为 2、3、2</text>
-<circle cx="130" cy="340" r="45" fill="#f4f7fa" stroke="#14699a" stroke-width="2"/>
-<text x="130" y="350" font-size="38.08px" fill="#1d3145" text-anchor="middle" font-weight="normal">1</text>
-<path d="M105,300 C40,210 220,210 155,300" fill="none" stroke="#14699a" stroke-width="3" marker-end="url(#arrow)"/>
-<g fill="#14699a" text-anchor="middle" font-size="24"><text x="130.0" y="172.0" font-size="28.56px">1</text><line x1="107.0" y1="180.0" x2="153.0" y2="180.0" stroke="#14699a" stroke-width="1.845"/><text x="130.0" y="207.0" font-size="28.56px">2</text></g>
-<text x="130" y="435" font-size="34.83px" fill="#1d3145" text-anchor="middle" font-weight="normal">d=2</text>
-<circle cx="355" cy="340" r="45" fill="#f4f7fa" stroke="#14699a" stroke-width="2"/>
-<text x="355" y="350" font-size="38.08px" fill="#1d3145" text-anchor="middle" font-weight="normal">2</text>
-<path d="M330,300 C265,210 445,210 380,300" fill="none" stroke="#14699a" stroke-width="3" marker-end="url(#arrow)"/>
-<g fill="#14699a" text-anchor="middle" font-size="24"><text x="355.0" y="172.0" font-size="28.56px">1</text><line x1="332.0" y1="180.0" x2="378.0" y2="180.0" stroke="#14699a" stroke-width="1.845"/><text x="355.0" y="207.0" font-size="28.56px">3</text></g>
-<text x="355" y="435" font-size="34.83px" fill="#1d3145" text-anchor="middle" font-weight="normal">d=3</text>
-<circle cx="580" cy="340" r="45" fill="#f4f7fa" stroke="#14699a" stroke-width="2"/>
-<text x="580" y="350" font-size="38.08px" fill="#1d3145" text-anchor="middle" font-weight="normal">3</text>
-<path d="M555,300 C490,210 670,210 605,300" fill="none" stroke="#14699a" stroke-width="3" marker-end="url(#arrow)"/>
-<g fill="#14699a" text-anchor="middle" font-size="24"><text x="580.0" y="172.0" font-size="28.56px">1</text><line x1="557.0" y1="180.0" x2="603.0" y2="180.0" stroke="#14699a" stroke-width="1.845"/><text x="580.0" y="207.0" font-size="28.56px">2</text></g>
-<text x="580" y="435" font-size="34.83px" fill="#1d3145" text-anchor="middle" font-weight="normal">d=2</text>
-<line x1="178" y1="325" x2="307" y2="325" stroke="#14699a" stroke-width="3" marker-end="url(#arrow)"/>
-<line x1="307" y1="355" x2="178" y2="355" stroke="#14699a" stroke-width="3" marker-end="url(#arrow)"/>
-<g fill="#14699a" text-anchor="middle" font-size="24"><text x="242.5" y="282.0" font-size="28.56px">1</text><line x1="219.5" y1="290.0" x2="265.5" y2="290.0" stroke="#14699a" stroke-width="1.845"/><text x="242.5" y="317.0" font-size="30.96px">√6</text></g>
-<line x1="403" y1="325" x2="532" y2="325" stroke="#14699a" stroke-width="3" marker-end="url(#arrow)"/>
-<line x1="532" y1="355" x2="403" y2="355" stroke="#14699a" stroke-width="3" marker-end="url(#arrow)"/>
-<g fill="#14699a" text-anchor="middle" font-size="24"><text x="467.5" y="282.0" font-size="28.56px">1</text><line x1="444.5" y1="290.0" x2="490.5" y2="290.0" stroke="#14699a" stroke-width="1.845"/><text x="467.5" y="317.0" font-size="30.96px">√6</text></g>
-<text x="355" y="535" font-size="34.83px" fill="#1d3145" text-anchor="middle" font-weight="normal">图上标的是 S 的权重</text>
-<text x="355" y="600" font-size="39.254945px" fill="#206ca9" text-anchor="middle" font-weight="normal">S√d = √d</text>
-<line x1="710" y1="115" x2="710" y2="670" stroke="#d9e1e8" stroke-width="2"/>
-<text x="1050" y="140" font-size="36.12px" fill="#1d3145" text-anchor="middle" font-weight="normal">输入全为 1，输出却不同</text>
-<text x="910" y="230" font-size="38.7px" fill="#206ca9" text-anchor="middle" font-weight="normal">P·1</text>
-<text x="1200" y="230" font-size="38.7px" fill="#aa5d25" text-anchor="middle" font-weight="normal">S·1</text>
-<text x="750" y="310" font-size="32.25px" fill="#1d3145" text-anchor="start" font-weight="normal">节点1</text>
-<rect x="845" y="275" width="130" height="65" rx="7" fill="#e4eef6" stroke="#d9e1e8"/>
-<text x="910" y="320" font-size="33.32px" fill="#206ca9" text-anchor="middle" font-weight="normal">1.000</text>
-<rect x="1130" y="275" width="140" height="65" rx="7" fill="url(#book-wash-fff1e5)" stroke="#d9e1e8"/>
-<text x="1200" y="320" font-size="33.32px" fill="#aa5d25" text-anchor="middle" font-weight="normal">0.908</text>
-<text x="750" y="415" font-size="32.25px" fill="#1d3145" text-anchor="start" font-weight="normal">节点2</text>
-<rect x="845" y="380" width="130" height="65" rx="7" fill="#e4eef6" stroke="#d9e1e8"/>
-<text x="910" y="425" font-size="33.32px" fill="#206ca9" text-anchor="middle" font-weight="normal">1.000</text>
-<rect x="1130" y="380" width="140" height="65" rx="7" fill="url(#book-wash-fff1e5)" stroke="#d9e1e8"/>
-<text x="1200" y="425" font-size="33.32px" fill="#aa5d25" text-anchor="middle" font-weight="normal">1.150</text>
-<text x="750" y="520" font-size="32.25px" fill="#1d3145" text-anchor="start" font-weight="normal">节点3</text>
-<rect x="845" y="485" width="130" height="65" rx="7" fill="#e4eef6" stroke="#d9e1e8"/>
-<text x="910" y="530" font-size="33.32px" fill="#206ca9" text-anchor="middle" font-weight="normal">1.000</text>
-<rect x="1130" y="485" width="140" height="65" rx="7" fill="url(#book-wash-fff1e5)" stroke="#d9e1e8"/>
-<text x="1200" y="530" font-size="33.32px" fill="#aa5d25" text-anchor="middle" font-weight="normal">0.908</text>
-<text x="1050" y="640" font-size="33.54px" fill="#1d3145" text-anchor="middle" font-weight="normal">P 保持常数；S 保持平方根度方向</text></g></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="506.48" viewBox="-18.24 28.76 996.48 506.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">同一自环链图上行归一化与对称度归一化的不同几何</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="419.896142"/></clipPath><linearGradient id="edition-wash-1" x1="0%" y1="0%" x2="82%" y2="100%"><stop offset="0%" stop-color="#f2f7fa"/><stop offset="100%" stop-color="#e8f1f6"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="506.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="470" viewBox="0 47 960 470" overflow="hidden"><rect width="960" height="517" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(7.448071 31.445104) scale(0.675074)"><g><defs><linearGradient id="book-wash-fff1e5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#faf2ed"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect x="26" y="66" width="1348" height="622" fill="#ffffff"/><title>对称度归一化不等于逐行平均</title><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2a719e"/></marker></defs><rect width="1400" height="740" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<line x1="44" y1="85" x2="1356" y2="85" stroke="#dde5eb" stroke-width="2"/>
+<text x="355" y="135" font-size="37.41px" fill="#213747" text-anchor="middle" font-weight="normal">加自环链图：度为 2、3、2</text>
+<circle cx="130" cy="340" r="45" fill="#f5f8fa" stroke="#1e6b91" stroke-width="2"/>
+<text x="130" y="350" font-size="38.08px" fill="#213747" text-anchor="middle" font-weight="normal">1</text>
+<path d="M105,300 C40,210 220,210 155,300" fill="none" stroke="#1e6b91" stroke-width="3" marker-end="url(#arrow)"/>
+<g fill="#1e6b91" text-anchor="middle" font-size="24"><text x="130.0" y="172.0" font-size="28.56px">1</text><line x1="107.0" y1="180.0" x2="153.0" y2="180.0" stroke="#1e6b91" stroke-width="1.845"/><text x="130.0" y="207.0" font-size="28.56px">2</text></g>
+<text x="130" y="435" font-size="34.83px" fill="#213747" text-anchor="middle" font-weight="normal">d=2</text>
+<circle cx="355" cy="340" r="45" fill="#f5f8fa" stroke="#1e6b91" stroke-width="2"/>
+<text x="355" y="350" font-size="38.08px" fill="#213747" text-anchor="middle" font-weight="normal">2</text>
+<path d="M330,300 C265,210 445,210 380,300" fill="none" stroke="#1e6b91" stroke-width="3" marker-end="url(#arrow)"/>
+<g fill="#1e6b91" text-anchor="middle" font-size="24"><text x="355.0" y="172.0" font-size="28.56px">1</text><line x1="332.0" y1="180.0" x2="378.0" y2="180.0" stroke="#1e6b91" stroke-width="1.845"/><text x="355.0" y="207.0" font-size="28.56px">3</text></g>
+<text x="355" y="435" font-size="34.83px" fill="#213747" text-anchor="middle" font-weight="normal">d=3</text>
+<circle cx="580" cy="340" r="45" fill="#f5f8fa" stroke="#1e6b91" stroke-width="2"/>
+<text x="580" y="350" font-size="38.08px" fill="#213747" text-anchor="middle" font-weight="normal">3</text>
+<path d="M555,300 C490,210 670,210 605,300" fill="none" stroke="#1e6b91" stroke-width="3" marker-end="url(#arrow)"/>
+<g fill="#1e6b91" text-anchor="middle" font-size="24"><text x="580.0" y="172.0" font-size="28.56px">1</text><line x1="557.0" y1="180.0" x2="603.0" y2="180.0" stroke="#1e6b91" stroke-width="1.845"/><text x="580.0" y="207.0" font-size="28.56px">2</text></g>
+<text x="580" y="435" font-size="34.83px" fill="#213747" text-anchor="middle" font-weight="normal">d=2</text>
+<line x1="178" y1="325" x2="307" y2="325" stroke="#1e6b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="307" y1="355" x2="178" y2="355" stroke="#1e6b91" stroke-width="3" marker-end="url(#arrow)"/>
+<g fill="#1e6b91" text-anchor="middle" font-size="24"><text x="242.5" y="282.0" font-size="28.56px">1</text><line x1="219.5" y1="290.0" x2="265.5" y2="290.0" stroke="#1e6b91" stroke-width="1.845"/><text x="242.5" y="317.0" font-size="30.96px">√6</text></g>
+<line x1="403" y1="325" x2="532" y2="325" stroke="#1e6b91" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="532" y1="355" x2="403" y2="355" stroke="#1e6b91" stroke-width="3" marker-end="url(#arrow)"/>
+<g fill="#1e6b91" text-anchor="middle" font-size="24"><text x="467.5" y="282.0" font-size="28.56px">1</text><line x1="444.5" y1="290.0" x2="490.5" y2="290.0" stroke="#1e6b91" stroke-width="1.845"/><text x="467.5" y="317.0" font-size="30.96px">√6</text></g>
+<text x="355" y="535" font-size="34.83px" fill="#213747" text-anchor="middle" font-weight="normal">图上标的是 S 的权重</text>
+<text x="355" y="600" font-size="39.254945px" fill="#2a719e" text-anchor="middle" font-weight="normal">S√d = √d</text>
+<line x1="710" y1="115" x2="710" y2="670" stroke="#dde5eb" stroke-width="2"/>
+<text x="1050" y="140" font-size="36.12px" fill="#213747" text-anchor="middle" font-weight="normal">输入全为 1，输出却不同</text>
+<text x="910" y="230" font-size="38.7px" fill="#2a719e" text-anchor="middle" font-weight="normal">P·1</text>
+<text x="1200" y="230" font-size="38.7px" fill="#a05a2e" text-anchor="middle" font-weight="normal">S·1</text>
+<text x="750" y="310" font-size="32.25px" fill="#213747" text-anchor="start" font-weight="normal">节点1</text>
+<rect x="845" y="275" width="130" height="65" rx="7" fill="url(#edition-wash-1)" stroke="#dde5eb"/>
+<text x="910" y="320" font-size="33.32px" fill="#2a719e" text-anchor="middle" font-weight="normal">1.000</text>
+<rect x="1130" y="275" width="140" height="65" rx="7" fill="url(#book-wash-fff1e5)" stroke="#dde5eb"/>
+<text x="1200" y="320" font-size="33.32px" fill="#a05a2e" text-anchor="middle" font-weight="normal">0.908</text>
+<text x="750" y="415" font-size="32.25px" fill="#213747" text-anchor="start" font-weight="normal">节点2</text>
+<rect x="845" y="380" width="130" height="65" rx="7" fill="url(#edition-wash-1)" stroke="#dde5eb"/>
+<text x="910" y="425" font-size="33.32px" fill="#2a719e" text-anchor="middle" font-weight="normal">1.000</text>
+<rect x="1130" y="380" width="140" height="65" rx="7" fill="url(#book-wash-fff1e5)" stroke="#dde5eb"/>
+<text x="1200" y="425" font-size="33.32px" fill="#a05a2e" text-anchor="middle" font-weight="normal">1.150</text>
+<text x="750" y="520" font-size="32.25px" fill="#213747" text-anchor="start" font-weight="normal">节点3</text>
+<rect x="845" y="485" width="130" height="65" rx="7" fill="url(#edition-wash-1)" stroke="#dde5eb"/>
+<text x="910" y="530" font-size="33.32px" fill="#2a719e" text-anchor="middle" font-weight="normal">1.000</text>
+<rect x="1130" y="485" width="140" height="65" rx="7" fill="url(#book-wash-fff1e5)" stroke="#dde5eb"/>
+<text x="1200" y="530" font-size="33.32px" fill="#a05a2e" text-anchor="middle" font-weight="normal">0.908</text>
+<text x="1050" y="640" font-size="33.54px" fill="#213747" text-anchor="middle" font-weight="normal">P 保持常数；S 保持平方根度方向</text></g></g></g></g></svg></svg>
