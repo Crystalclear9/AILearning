@@ -31,7 +31,7 @@
   - [6.1 中心参与分数不代表能任意改变排名](#graph-3-detail-21)
   - [6.2 怎样得到动态匹配](#graph-3-detail-22)
   - [6.3 注意力梯度并不等于权重本身](#graph-3-detail-23)
-  - [图解：原始加性 GAT 的邻居排序可能不随查询改变](#visual-mechanism-graphmachinelearning-03)
+  - [图解：原始加性 GAT：分数能变化，固定候选的排序不变](#visual-mechanism-graphmachinelearning-03)
 - [7. 置换等变、表达上界与 1-WL](#graph-3-detail-24)
   - [7.1 从颜色细化理解局部区分](#graph-3-detail-25)
   - [7.2 六环与两个三角形的反例](#graph-3-detail-26)

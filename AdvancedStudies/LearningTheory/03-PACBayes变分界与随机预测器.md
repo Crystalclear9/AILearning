@@ -34,6 +34,7 @@
   - [5.3 平均参数不等于平均函数](#parameter-average)
   - [5.4 从平均风险到某个抽中模型需要额外一步](#individual-model)
   - [图解：随机 Gibbs 预测与多数投票风险不同](#visual-extension-learningtheory-03)
+    - [继续推导：分歧如何进入投票风险界](#继续推导分歧如何进入投票风险界)
 - [6. 从公式到可审计实验：积分误差与证书边界](#sec-6)
   - [6.1 后验经验风险不是确定网络的训练损失](#monte-carlo-risk)
   - [6.2 训练使用的随机样本与最终积分检验要分开](#monte-carlo-selection)
@@ -41,7 +42,6 @@
   - [6.4 连续后验报告应当包含哪些数字](#gaussian-report)
   - [6.5 非平凡证书为何需要多个环节共同配合](#nonvacuous-bound)
   - [6.6 一份可复现证书的执行顺序](#full-recipe)
-  - [6.7 二元 KL 证书的精确重复抽样核验](#binary-kl-exact-check)
 - [7. 分层练习、完整解析与更紧界的入口](#sec-7)
   - [7.1 对象与支持：先判断公式能不能用](#exercises-objects)
   - [7.2 推导层：复原每一项的来源](#exercises-proof)
@@ -49,8 +49,9 @@
   - [7.4 研究层：把失败机制写成可检验对象](#exercises-research)
   - [7.5 进阶推导：一个不含自由逆温度的二元 KL 界](#binary-kl-bound)
   - [图解推导：把二元KL预算反演成可读的风险上界](#visual-binary-kl-inversion)
-  - [7.6 本章掌握标准与后续研究入口](#completion-standard)
-  - [7.7 进阶推导：二元 KL 的联合凸性究竟用在哪里](#binary-kl-joint-convexity)
+  - [7.6 进阶推导：二元 KL 的联合凸性究竟用在哪里](#binary-kl-joint-convexity)
+  - [7.7 二元 KL 证书的精确重复抽样核验](#binary-kl-exact-check)
+  - [7.8 本章掌握标准与后续研究入口](#completion-standard)
 - [8. 参考资料与阅读方式](#sec-8)
 
 <a id="sec-1"></a>
@@ -580,41 +581,6 @@ print({"mean_gibbs_risk": float(records[:, 0].mean()),
 
 这份顺序不是要求所有研究都采用同一种训练算法，而是帮助检查每一步的数学角色。一个后验可以由非常复杂的方法产生，只要分析对象清楚；一段看似简单的代码也可能因为先验复用或逆温度选择而不满足定理。复杂度来自选择与概率结构，不由代码行数决定。
 
-<a id="binary-kl-exact-check"></a>
-
-### 6.7 二元 KL 证书的精确重复抽样核验
-
-[第 7.5 节的二元 KL 定理](#binary-kl-bound)可以在两个常数分类器上精确检查。建议先读该节的一般推导，再运行本节代码。标签独立以零点二概率为一，训练错误计数只有有限种可能；逐计数生成数据依赖 Gibbs 后验，精确求后验的两种风险，再二分反演证书并按二项概率汇总失败事件。这里没有用蒙特卡洛估计后验风险，也没有把 Gibbs 风险替换为获胜成员风险。这个数值核验帮助发现散度方向或端点错误，完整的一般保证由第 7.5 节的指数矩论证与[第 7.7 节的联合凸性证明](#binary-kl-joint-convexity)给出。
-
-```python
-import numpy as np
-from scipy.special import logsumexp,xlogy
-from scipy.stats import binom
-n,delta=40,.05
-prior=np.array([.5,.5]);true=np.array([.2,.8])
-def binary_kl(a,b):
-    return float(xlogy(a,a/b)+xlogy(1-a,(1-a)/(1-b)))
-failure=0.;records=[]
-for k in range(n+1):
-    empirical=np.array([k/n,1-k/n])
-    logs=np.log(prior)-30*empirical
-    q=np.exp(logs-logsumexp(logs))
-    measured=float(q@empirical);risk=float(q@true)
-    cost=(np.sum(q*np.log(q/prior))+np.log((n+1)/delta))/n
-    lo,hi=measured,1-1e-15
-    for _ in range(80):
-        middle=(lo+hi)/2
-        if binary_kl(measured,middle)>cost:hi=middle
-        else:lo=middle
-    upper=(lo+hi)/2
-    if risk>upper+1e-12:failure+=binom.pmf(k,n,.2)
-    if k==8:records=[measured,risk,upper]
-assert failure<=delta+1e-12
-assert np.isclose(-np.expm1(-.2),1-np.exp(-.2))
-print('exact probability of invalid Gibbs certificate',failure)
-print('count-eight empirical / true Gibbs / upper',records)
-```
-
 <a id="sec-7"></a>
 
 ## 7. 分层练习、完整解析与更紧界的入口
@@ -764,19 +730,9 @@ $$
 
 **C 把“更紧”落实到尺度。** 零经验风险下，精确上界 $`1-e^{-c}=c-\frac{c^2}{2}+O(c^3)`$，因此它与 $`c`$ 的比趋于一。平方根上界与它的比则渐近为 $`\frac1{\sqrt{2c}}`$，预算越小，相对松弛可越大。图中这一比较是在同一个有效 KL 事件上的确定性变换；它没有用更有利的后验或另一次样本。这也解释为什么数值二分值得做：反演的计算精度与统计事件的置信水平是两种误差，应分别记录。
 
-<a id="completion-standard"></a>
-
-### 7.6 本章掌握标准与后续研究入口
-
-应当能够不看结论，从固定模型指数矩、先验混合、Markov 事件和换测度逐步重建基本界，说明为何后验依赖数据合法、先验和逆温度却需额外处理。给出一个候选后验时，应先检查支持与 KL，再计算对应随机模型的经验风险，而非先把中心网络损失填入公式。
-
-进阶掌握包括推导 Gibbs 变分恒等式，比较有限点质量与连续点质量的差别，给平均预测、投票和抽中成员分别建立合法转换，并把积分计算误差纳入总预算。能够构造先验重用、逆温度选择和参数平均的反例，比只记住一个上界更能防止实际误用。
-
-继续研究时，可以关注更紧二元 KL 常数、数据依赖先验、时间一致界和神经网络后验几何。每换一个工具，先写出风险对象、概率空间、量词、支持与计算要求。这样即使最终证书没有达到理想紧度，仍能准确说明得到什么、未得到什么，以及下一步该改善哪个环节。
-
 <a id="binary-kl-joint-convexity"></a>
 
-### 7.7 进阶推导：二元 KL 的联合凸性究竟用在哪里
+### 7.6 进阶推导：二元 KL 的联合凸性究竟用在哪里
 
 前面二元 KL 界有一个关键步骤：将单模型二元 KL 的后验平均，变成平均风险之间的二元 KL。这个步骤不能仅凭“KL 是凸的”含混带过，因为这里同时平均了两个输入。下面给出可以独立核对的证明，先假设相关概率严格位于零到一，端点再用连续极限处理。
 
@@ -795,6 +751,51 @@ $$
 若某些概率为零，相关 KL 可能无穷，需按照零乘对数比的极限约定与绝对连续性处理；若平均质量为零，相应非负项也几乎处处为零，可以单独移除。不能把零分母随意加一个常数后仍声称保持同一严格不等式，因为这会改变所研究的散度。
 
 这也提供一条读证明的方法：把每次 Jensen、对数和或换测度使用前后的对象写在两侧，核对到底平均了什么、哪个量固定、哪个量随机。许多看似高级的错误，并非最后一个公式抄错，而是在某个平均操作中悄悄把随机预测、平均预测与参数平均互换。
+
+<a id="binary-kl-exact-check"></a>
+
+### 7.7 二元 KL 证书的精确重复抽样核验
+
+[第 7.5 节的二元 KL 定理](#binary-kl-bound)可以在两个常数分类器上精确检查。这里用完整枚举检验前面推导的证书。标签独立以零点二概率为一，训练错误计数只有有限种可能；逐计数生成数据依赖 Gibbs 后验，精确求后验的两种风险，再二分反演证书并按二项概率汇总失败事件。这里没有用蒙特卡洛估计后验风险，也没有把 Gibbs 风险替换为获胜成员风险。这个数值核验帮助发现散度方向或端点错误，完整的一般保证由第 7.5 节的指数矩论证与[第 7.6 节的联合凸性证明](#binary-kl-joint-convexity)给出。
+
+```python
+import numpy as np
+from scipy.special import logsumexp,xlogy
+from scipy.stats import binom
+n,delta=40,.05
+prior=np.array([.5,.5]);true=np.array([.2,.8])
+def binary_kl(a,b):
+    return float(xlogy(a,a/b)+xlogy(1-a,(1-a)/(1-b)))
+failure=0.;records=[]
+for k in range(n+1):
+    empirical=np.array([k/n,1-k/n])
+    logs=np.log(prior)-30*empirical
+    q=np.exp(logs-logsumexp(logs))
+    measured=float(q@empirical);risk=float(q@true)
+    cost=(np.sum(q*np.log(q/prior))+np.log((n+1)/delta))/n
+    lo,hi=measured,1-1e-15
+    for _ in range(80):
+        middle=(lo+hi)/2
+        if binary_kl(measured,middle)>cost:hi=middle
+        else:lo=middle
+    upper=(lo+hi)/2
+    if risk>upper+1e-12:failure+=binom.pmf(k,n,.2)
+    if k==8:records=[measured,risk,upper]
+assert failure<=delta+1e-12
+assert np.isclose(-np.expm1(-.2),1-np.exp(-.2))
+print('exact probability of invalid Gibbs certificate',failure)
+print('count-eight empirical / true Gibbs / upper',records)
+```
+
+<a id="completion-standard"></a>
+
+### 7.8 本章掌握标准与后续研究入口
+
+应当能够不看结论，从固定模型指数矩、先验混合、Markov 事件和换测度逐步重建基本界，说明为何后验依赖数据合法、先验和逆温度却需额外处理。给出一个候选后验时，应先检查支持与 KL，再计算对应随机模型的经验风险，而非先把中心网络损失填入公式。
+
+进阶掌握包括推导 Gibbs 变分恒等式，比较有限点质量与连续点质量的差别，给平均预测、投票和抽中成员分别建立合法转换，并把积分计算误差纳入总预算。能够构造先验重用、逆温度选择和参数平均的反例，比只记住一个上界更能防止实际误用。
+
+继续研究时，可以关注更紧二元 KL 常数、数据依赖先验、时间一致界和神经网络后验几何。每换一个工具，先写出风险对象、概率空间、量词、支持与计算要求。这样即使最终证书没有达到理想紧度，仍能准确说明得到什么、未得到什么，以及下一步该改善哪个环节。
 
 <a id="sec-8"></a>
 

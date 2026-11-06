@@ -29,7 +29,7 @@
   - [6.3 图解：历史键怎样影响梯度并离开队列](#queue-gradient-fifo)
 - [7. 可运行实验二：正样本索引与队列梯度](#infonce-20)
 - [8. 可运行实验三：同类碰撞随负样本数增加](#infonce-21)
-  - [图解：负样本越多，同类碰撞的机会越大](#visual-extension-selfsupervisedlearning-01)
+  - [机制说明：负样本越多，同类碰撞的机会越大](#visual-extension-selfsupervisedlearning-01)
 - [9. 完整人工表示学习实验](#infonce-22)
   - [9.1 数据与视图假设](#infonce-23)
   - [9.2 可运行实验四：训练与冻结评价](#infonce-24)

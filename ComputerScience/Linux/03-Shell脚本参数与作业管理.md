@@ -16,7 +16,7 @@
   - [2.1 非零状态是一个值，不总是异常](#linux-3-detail-6)
   - [2.2 set -e 受语法上下文影响](#linux-3-detail-7)
   - [2.3 pipefail 把哪个失败带回父级](#linux-3-detail-8)
-    - [同时捕获汇总状态与成员状态](#linux-3-pipeline-status)
+    - [同时捕获汇总状态与成员状态，避免被下一条命令覆盖](#linux-3-pipeline-status)
   - [2.4 nounset、错误陷阱和跟踪的边界](#linux-3-detail-9)
 - [3. 清理、取消和等待应组成一个协议](#linux-3-detail-10)
   - [3.1 后台启动只是开始，不是监督完成](#linux-3-detail-11)
