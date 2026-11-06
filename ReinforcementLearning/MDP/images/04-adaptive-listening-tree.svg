@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="932.5882" viewBox="0 0 1440 932.5882" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">四步监听策略树，一致报告提前猜测，冲突再听，叶端记录正确联合质量</title><rect width="1440" height="932.5882" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">四步监听策略树，一致报告提前猜测，冲突再听，叶端记录正确联合质量</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="790.5882" viewBox="0 0 1224 720" version="1.1" x="48" y="106" overflow="hidden">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="932.5882" viewBox="0 0 1440 932.5882" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">四步监听策略树：分支概率与正确概率</title><rect width="1440" height="932.5882" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">四步监听策略树：分支概率与正确概率</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="790.5882" viewBox="0 0 1224 720" version="1.1" x="48" y="106" overflow="hidden">
  <rect id="offline-white-background" x="0" y="0" width="1224" height="720" fill="#ffffff"/><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -29,7 +29,7 @@
     <g id="patch_3">
      <path d="M 170.417817 262.832005 L 194.955317 262.832005 L 194.955317 244.144505 L 170.417817 244.144505 z " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="182.686567" y="257.894505" transform="rotate(-0 182.686567 257.894505)">0.5</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="182.686567" y="257.894505" transform="rotate(-0 182.686567 257.894505)">0.5</text>
    </g>
    <g id="patch_4">
     <path d="M 81.276991 339.167221 Q 182.68674 411.705618 284.09649 484.244015 " style="fill: none; stroke: #9ca8b9; stroke-width: 2; stroke-linecap: round"/>
@@ -38,7 +38,7 @@
     <g id="patch_5">
      <path d="M 170.417817 410.234203 L 194.955317 410.234203 L 194.955317 391.546703 L 170.417817 391.546703 z " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="182.686567" y="405.296703" transform="rotate(-0 182.686567 405.296703)">0.5</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="182.686567" y="405.296703" transform="rotate(-0 182.686567 405.296703)">0.5</text>
    </g>
    <g id="patch_6">
     <path d="M 287.667249 190.133782 Q 418.808001 158.558471 549.948754 126.983161 " style="fill: none; stroke: #9ca8b9; stroke-width: 2; stroke-linecap: round"/>
@@ -47,7 +47,7 @@
     <g id="patch_7">
      <path d="M 401.848955 157.086951 L 435.768955 157.086951 L 435.768955 138.399451 L 401.848955 138.399451 z " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="418.808955" y="152.149451" transform="rotate(-0 418.808955 152.149451)">0.58</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="418.808955" y="152.149451" transform="rotate(-0 418.808955 152.149451)">0.58</text>
    </g>
    <g id="patch_8">
     <path d="M 287.667249 191.070614 Q 418.808001 222.645924 549.948754 254.221235 " style="fill: none; stroke: #9ca8b9; stroke-width: 2; stroke-linecap: round"/>
@@ -56,7 +56,7 @@
     <g id="patch_9">
      <path d="M 401.848955 221.174863 L 435.768955 221.174863 L 435.768955 202.487363 L 401.848955 202.487363 z " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="418.808955" y="216.237363" transform="rotate(-0 418.808955 216.237363)">0.42</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="418.808955" y="216.237363" transform="rotate(-0 418.808955 216.237363)">0.42</text>
    </g>
    <g id="patch_10">
     <path d="M 287.667249 484.938177 Q 418.808001 453.362867 549.948754 421.787557 " style="fill: none; stroke: #9ca8b9; stroke-width: 2; stroke-linecap: round"/>
@@ -65,7 +65,7 @@
     <g id="patch_11">
      <path d="M 401.848955 451.891346 L 435.768955 451.891346 L 435.768955 433.203846 L 401.848955 433.203846 z " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="418.808955" y="446.953846" transform="rotate(-0 418.808955 446.953846)">0.42</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="418.808955" y="446.953846" transform="rotate(-0 418.808955 446.953846)">0.42</text>
    </g>
    <g id="patch_12">
     <path d="M 287.667249 485.875009 Q 418.808001 517.45032 549.948754 549.02563 " style="fill: none; stroke: #9ca8b9; stroke-width: 2; stroke-linecap: round"/>
@@ -74,7 +74,7 @@
     <g id="patch_13">
      <path d="M 401.848955 515.979258 L 435.768955 515.979258 L 435.768955 497.291758 L 401.848955 497.291758 z " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="418.808955" y="511.041758" transform="rotate(-0 418.808955 511.041758)">0.58</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="418.808955" y="511.041758" transform="rotate(-0 418.808955 511.041758)">0.58</text>
    </g>
    <g id="patch_14">
     <path d="M 553.859395 254.310194 Q 667.812044 232.259089 781.764694 210.207985 " style="fill: none; stroke: #9ca8b9; stroke-width: 2; stroke-linecap: round"/>
@@ -83,7 +83,7 @@
     <g id="patch_15">
      <path d="M 655.541996 230.788049 L 680.079496 230.788049 L 680.079496 212.100549 L 655.541996 212.100549 z " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="667.810746" y="225.850549" transform="rotate(-0 667.810746 225.850549)">0.5</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="667.810746" y="225.850549" transform="rotate(-0 667.810746 225.850549)">0.5</text>
    </g>
    <g id="patch_16">
     <path d="M 553.85232 255.122735 Q 667.811984 280.325549 781.771649 305.528363 " style="fill: none; stroke: #9ca8b9; stroke-width: 2; stroke-linecap: round"/>
@@ -92,7 +92,7 @@
     <g id="patch_17">
      <path d="M 655.541996 278.853984 L 680.079496 278.853984 L 680.079496 260.166484 L 655.541996 260.166484 z " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="667.810746" y="273.916484" transform="rotate(-0 667.810746 273.916484)">0.5</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="667.810746" y="273.916484" transform="rotate(-0 667.810746 273.916484)">0.5</text>
    </g>
    <g id="patch_18">
     <path d="M 553.85232 420.886057 Q 667.811984 395.683243 781.771649 370.480429 " style="fill: none; stroke: #9ca8b9; stroke-width: 2; stroke-linecap: round"/>
@@ -101,7 +101,7 @@
     <g id="patch_19">
      <path d="M 655.541996 394.212225 L 680.079496 394.212225 L 680.079496 375.524725 L 655.541996 375.524725 z " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="667.810746" y="389.274725" transform="rotate(-0 667.810746 389.274725)">0.5</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="667.810746" y="389.274725" transform="rotate(-0 667.810746 389.274725)">0.5</text>
    </g>
    <g id="patch_20">
     <path d="M 553.859395 421.698597 Q 667.812044 443.749702 781.764694 465.800807 " style="fill: none; stroke: #9ca8b9; stroke-width: 2; stroke-linecap: round"/>
@@ -110,7 +110,7 @@
     <g id="patch_21">
      <path d="M 655.541996 442.278159 L 680.079496 442.278159 L 680.079496 423.590659 L 655.541996 423.590659 z " style="fill: #ffffff"/>
     </g>
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="667.810746" y="437.340659" transform="rotate(-0 667.810746 437.340659)">0.5</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="667.810746" y="437.340659" transform="rotate(-0 667.810746 437.340659)">0.5</text>
    </g>
    <g id="text_11">
     <g id="patch_22">
@@ -182,74 +182,74 @@
     <path d="M 582.233524 126.514286 Q 797.894017 126.514286 1013.55451 126.514286 " style="fill: none; stroke: #d2713b; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_22">
-    <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #d2713b" x="813.777313" y="108.56967" transform="rotate(-0 813.777313 108.56967)">猜 0，质量 0.29</text>
+    <text style="font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #d2713b" x="813.777313" y="108.56967" transform="rotate(-0 813.777313 108.56967)">猜 0，路径 0.29</text>
    </g>
    <g id="patch_34">
     <path d="M 582.233524 549.494505 Q 797.894017 549.494505 1013.55451 549.494505 " style="fill: none; stroke: #d2713b; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_23">
-    <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #d2713b" x="813.777313" y="531.54989" transform="rotate(-0 813.777313 531.54989)">猜 1，质量 0.29</text>
+    <text style="font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #d2713b" x="813.777313" y="531.54989" transform="rotate(-0 813.777313 531.54989)">猜 1，路径 0.29</text>
    </g>
    <g id="patch_35">
     <path d="M 824.36518 209.828571 Q 918.960722 209.828571 1013.556263 209.828571 " style="fill: none; stroke: #2082ac; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_24">
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="946.864478" y="197.010989" transform="rotate(-0 946.864478 197.010989)">猜 0</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="946.864478" y="197.010989" transform="rotate(-0 946.864478 197.010989)">猜 0</text>
    </g>
    <g id="patch_36">
     <path d="M 824.36518 305.96044 Q 918.960722 305.96044 1013.556263 305.96044 " style="fill: none; stroke: #2082ac; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_25">
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="946.864478" y="293.142857" transform="rotate(-0 946.864478 293.142857)">猜 1</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="946.864478" y="293.142857" transform="rotate(-0 946.864478 293.142857)">猜 1</text>
    </g>
    <g id="patch_37">
     <path d="M 824.36518 370.048352 Q 918.960722 370.048352 1013.556263 370.048352 " style="fill: none; stroke: #2082ac; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_26">
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="946.864478" y="357.230769" transform="rotate(-0 946.864478 357.230769)">猜 0</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="946.864478" y="357.230769" transform="rotate(-0 946.864478 357.230769)">猜 0</text>
    </g>
    <g id="patch_38">
     <path d="M 824.36518 466.18022 Q 918.960722 466.18022 1013.556263 466.18022 " style="fill: none; stroke: #2082ac; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="text_27">
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="946.864478" y="453.362637" transform="rotate(-0 946.864478 453.362637)">猜 1</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="946.864478" y="453.362637" transform="rotate(-0 946.864478 453.362637)">猜 1</text>
    </g>
    <g id="text_28">
-    <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #d2713b" x="1135.762388" y="131.471317" transform="rotate(-0 1135.762388 131.471317)">0.245</text>
+    <text style="font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #d2713b" x="1135.762388" y="131.471317" transform="rotate(-0 1135.762388 131.471317)">0.245</text>
    </g>
    <g id="text_29">
-    <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #d2713b" x="1135.762388" y="554.451537" transform="rotate(-0 1135.762388 554.451537)">0.245</text>
+    <text style="font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #d2713b" x="1135.762388" y="554.451537" transform="rotate(-0 1135.762388 554.451537)">0.245</text>
    </g>
    <g id="text_30">
-    <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="1135.762388" y="214.785603" transform="rotate(-0 1135.762388 214.785603)">0.0735</text>
+    <text style="font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="1135.762388" y="214.785603" transform="rotate(-0 1135.762388 214.785603)">0.0735</text>
    </g>
    <g id="text_31">
-    <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="1135.762388" y="310.917471" transform="rotate(-0 1135.762388 310.917471)">0.0735</text>
+    <text style="font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="1135.762388" y="310.917471" transform="rotate(-0 1135.762388 310.917471)">0.0735</text>
    </g>
    <g id="text_32">
-    <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="1135.762388" y="375.005383" transform="rotate(-0 1135.762388 375.005383)">0.0735</text>
+    <text style="font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="1135.762388" y="375.005383" transform="rotate(-0 1135.762388 375.005383)">0.0735</text>
    </g>
    <g id="text_33">
-    <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="1135.762388" y="471.137251" transform="rotate(-0 1135.762388 471.137251)">0.0735</text>
+    <text style="font-size: 25px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2082ac" x="1135.762388" y="471.137251" transform="rotate(-0 1135.762388 471.137251)">0.0735</text>
    </g>
    <g id="text_34">
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="1135.762388" y="68.835165" transform="rotate(-0 1135.762388 68.835165)">正确质量</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #22384e" x="1135.762388" y="68.835165" transform="rotate(-0 1135.762388 68.835165)">正确联合概率</text>
    </g>
    <g id="text_35">
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(65.196031 636.784979)">t=0</text>
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(62.651343 660.715667)">监听</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(65.196031 636.784979)">t=0</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(62.651343 660.715667)">监听</text>
    </g>
    <g id="text_36">
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(271.266479 636.784979)">t=1</text>
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(260.221791 660.715667)">再监听</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(271.266479 636.784979)">t=1</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(260.221791 660.715667)">再监听</text>
    </g>
    <g id="text_37">
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(537.440807 636.784979)">t=2</text>
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(475.396119 660.715667)">一致即猜；冲突再听</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(537.440807 636.784979)">t=2</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(475.396119 660.715667)">同报即猜，异报再听</text>
    </g>
    <g id="text_38">
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(769.270061 636.784979)">t=3</text>
-    <text style="font-size: 17px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(732.725373 660.715667)">冲突分支猜测</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(769.270061 636.784979)">t=3</text>
+    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; fill: #22384e" transform="translate(732.725373 660.715667)">异报分支猜测</text>
    </g>
   </g>
  </g>
