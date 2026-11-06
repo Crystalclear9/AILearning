@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1028.8363" viewBox="0 0 1440 1028.8363" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">四次观测如何将Beta先验逐点相乘并归一化为后验</title><rect width="1440" height="1028.8363" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">四次观测如何将Beta先验逐点相乘并归一化为后验</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="886.8363" viewBox="0 0 1171.2262 772.8317" version="1.1" x="48" y="106" overflow="hidden">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="3690.285" viewBox="0 0 1440 3690.285" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">四次观测如何将Beta先验逐点相乘并归一化为后验</title><rect width="1440" height="3690.285" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">四次观测如何将Beta先验逐点相乘并归一化为后验</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg width="1344" height="3548.285" viewBox="0 0 1344 3548.285" version="1.1" x="48" y="106" overflow="hidden">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -18,10 +18,7 @@
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g id="figure_1">
-  <g id="patch_1">
-   <path d="M 0 772.831719 L 1171.226172 772.831719 L 1171.226172 0 L 0 0 z " style="fill: #ffffff"/>
-  </g>
-  <g id="axes_1">
+  <g transform="translate(15.845 16.354) scale(2.27393)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 90.397031 316.824024 L 547.37979 316.824024 L 547.37979 46.385 L 90.397031 46.385 z " style="fill: #ffffff"/>
    </g>
@@ -243,7 +240,9 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #1f3449" x="90.397031" y="26.385" transform="rotate(-0 90.397031 26.385)">A  先验：成功率本身有分布</text>
    </g>
   </g>
-  <g id="axes_2">
+  </g>
+<path d="M42 890.32 H1302" stroke="#d7e1ee" stroke-width="1.5"/>
+<g transform="translate(-1355.599 904.675) scale(2.27393)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 693.614273 316.824024 L 1150.597031 316.824024 L 1150.597031 46.385 L 693.614273 46.385 z " style="fill: #ffffff"/>
    </g>
@@ -463,7 +462,9 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #1f3449" x="693.614273" y="26.385" transform="rotate(-0 693.614273 26.385)">B  固定观测序列：1、1、1、0</text>
    </g>
   </g>
-  <g id="axes_3">
+  </g>
+<path d="M42 1778.64 H1302" stroke="#d7e1ee" stroke-width="1.5"/>
+<g transform="translate(28.354 894.621) scale(2.27393)"><g id="axes_3">
    <g id="patch_9">
     <path d="M 90.397031 711.665 L 547.37979 711.665 L 547.37979 441.225976 L 90.397031 441.225976 z " style="fill: #ffffff"/>
    </g>
@@ -692,7 +693,9 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #1f3449" x="90.397031" y="421.225976" transform="rotate(-0 90.397031 421.225976)">C  逐点相乘，再积分求面积</text>
    </g>
   </g>
-  <g id="axes_4">
+  </g>
+<path d="M42 2666.96 H1302" stroke="#d7e1ee" stroke-width="1.5"/>
+<g transform="translate(-1369.245 1782.942) scale(2.27393)"><g id="axes_4">
    <g id="patch_12">
     <path d="M 693.614273 711.665 L 1150.597031 711.665 L 1150.597031 441.225976 L 693.614273 441.225976 z " style="fill: #ffffff"/>
    </g>
@@ -926,6 +929,7 @@
    </g>
   </g>
  </g>
+</g>
  <defs>
   <clipPath id="p302eb39b9e">
    <rect x="90.397031" y="46.385" width="456.982759" height="270.439024"/>
