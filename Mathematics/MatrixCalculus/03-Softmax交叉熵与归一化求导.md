@@ -99,7 +99,7 @@ $$
 
 共同分母把各类别耦合，单独提高一个分数会改变其他类别概率。分数本身无需相加为一，概率总和才受约束。图不按某组数值精确绘制，敏感度需要雅可比计算。
 
-对角项为 $`p_i(1-p_i)`$，非对角项为 $`-p_ip_k`$。这同时解释本类增强和跨类抑制。矩阵形式是 $`J=\operatorname{diag}(p)-pp^T`$，其中 $`J_{ik}`$ 表示第几个输出对第几个输入求导。这里雅可比对称是一种特殊结构，不能据此把所有网络层的雅可比方向任意颠倒。
+对角项为 $`p_i(1-p_i)`$，非对角项为 $`-p_ip_k`$。这同时解释本类增强和跨类抑制。矩阵形式是 $`J=\mathrm{diag}(p)-pp^T`$，其中 $`J_{ik}`$ 表示第几个输出对第几个输入求导。这里雅可比对称是一种特殊结构，不能据此把所有网络层的雅可比方向任意颠倒。
 
 因为 $`\sum_i p_i=1`$，沿任意输入方向变化时输出各分量变化之和必须为零，因而 $`\mathbf1^TJ=0`$。另一方面，$`p(z+c\mathbf1)=p(z)`$，所以 $`J\mathbf1=0`$。前一个关系来自输出约束，后一个来自输入冗余；在这个函数里它们由同一个对称矩阵同时体现，但逻辑来源值得分清。
 
@@ -136,7 +136,7 @@ $$
 
 ![Softmax 梯度为什么耦合类别](images/03-concept.svg)
 
-三幅图按实际求导顺序展开同一个模型。基准概率为 $`p=(\frac12,\frac13,\frac16)^{\mathsf T}`$，logits 可取 $`\log p`$；沿 $`v=(1,0,-1)^{\mathsf T}`$ 改变，令 $`p(t)=\operatorname{softmax}(\log p+tv)`$。左图的三根柱是得分变化率，不是概率。虚线先计算共同分母带来的概率加权均值 $`p^{\mathsf T}v=\frac13`$。
+三幅图按实际求导顺序展开同一个模型。基准概率为 $`p=(\frac12,\frac13,\frac16)^{\mathsf T}`$，logits 可取 $`\log p`$；沿 $`v=(1,0,-1)^{\mathsf T}`$ 改变，令 $`p(t)=\mathrm{softmax}(\log p+tv)`$。左图的三根柱是得分变化率，不是概率。虚线先计算共同分母带来的概率加权均值 $`p^{\mathsf T}v=\frac13`$。
 
 中图先减去这个共同变化，再乘各自基准概率：
 
@@ -201,12 +201,12 @@ $$
 
 若类别权重为 $`w_i\geq0`$，损失 $`-\sum_iw_iq_i\log p_i`$，应先定义 $`r_i=w_iq_i`$，然后使用 $`(\sum_i r_i)p-r`$。对于一热标签，该式简化为 $`w_y(p-e_y)`$。对于软标签，一般不能用一个真实类别权重乘整行梯度，因为监督质量分布在多个类别上。
 
-引入温度 $`T>0`$，令 $`p_T=\operatorname{softmax}(\frac{z}{T})`$，目标质量固定时有
+引入温度 $`T>0`$，令 $`p_T=\mathrm{softmax}(\frac{z}{T})`$，目标质量固定时有
 
 $$
 \begin{aligned}
 \nabla_zL &=\frac{ap_T-q}{T},\\[6pt]
-\nabla_z^2L &=\frac{a}{T^2}\left(\operatorname{diag}(p_T)-p_Tp_T^T\right).
+\nabla_z^2L &=\frac{a}{T^2}\left(\mathrm{diag}(p_T)-p_Tp_T^T\right).
 \end{aligned}
 $$
 
@@ -308,8 +308,8 @@ $$
 若输出 $`y=\gamma\odot\hat x+\beta`$，上游为 $`g`$，先令 $`u=g\odot\gamma`$。输入梯度为
 
 $$
-\nabla_xL=\frac{1}{r}\left[u-\operatorname{mean}(u)\mathbf1
--\hat x\operatorname{mean}(u\odot\hat x)\right].
+\nabla_xL=\frac{1}{r}\left[u-\mathrm{mean}(u)\mathbf1
+-\hat x\mathrm{mean}(u\odot\hat x)\right].
 $$
 
 这里所有均值都在同一个归一化组内计算。仿射参数梯度为上游与归一化值的逐元素积，以及上游本身，再沿参数共享的其他轴求和。输入统计量的归约轴和参数共享轴可能不同，不能看到一个 sum 就沿相同维度处理全部梯度。
@@ -322,7 +322,7 @@ $$
 
 沿尺度方向的导数只是受到抑制，并非严格为零。很多简化推导默默令稳定项为零，再把得到的正交结论用于真实代码，导致结构检查误判。应该检查精确恒等式，或者报告忽略稳定项的近似条件。
 
-仿射参数逐元素不同还会改变完整输入到输出雅可比的对称性：$`J_y=\operatorname{diag}(\gamma)J_N`$，一般不对称。反向必须是 $`J_N^T\operatorname{diag}(\gamma)g`$，不能因为基础归一化雅可比对称就把缩放放在错误一侧。
+仿射参数逐元素不同还会改变完整输入到输出雅可比的对称性：$`J_y=\mathrm{diag}(\gamma)J_N`$，一般不对称。反向必须是 $`J_N^T\mathrm{diag}(\gamma)g`$，不能因为基础归一化雅可比对称就把缩放放在错误一侧。
 
 <a id="m3-10"></a>
 ### 4.3 LayerNorm 和 BatchNorm 的耦合范围

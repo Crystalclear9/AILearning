@@ -361,9 +361,9 @@ $$
 
 $$
 \begin{aligned}
-\operatorname{Var}(\widehat g_{\rm raw})
+\mathrm{Var}(\widehat g_{\rm raw})
 &=0.32(0.4)^2+0.04(0.8)^2-(0.16)^2=0.0512,\\
-\operatorname{Var}(\widehat g_{\rm LOO})
+\mathrm{Var}(\widehat g_{\rm LOO})
 &=0.32(0.5)^2-(0.16)^2=0.0544.
 \end{aligned}
 $$

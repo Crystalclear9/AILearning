@@ -294,8 +294,8 @@ print('diagnostic oracle / minimum bundle cost:', oracle_output, minimum_cost)
 先复算 q1。渲染成本沿用程序定义：
 
 $$
-c(d)=\operatorname{len}(d.\mathrm{id})
-+\operatorname{len}(d.\mathrm{text})+3.
+c(d)=\mathrm{len}(d.\mathrm{id})
++\mathrm{len}(d.\mathrm{text})+3.
 $$
 
 因此 `member` 成本为三十七，`member-copy` 为四十二，`blue-new` 为三十八。复制块正文完全相同，`pack` 在装入 `member` 后跳过 `member-copy`；随后装入 `blue-new`，总计七十五，八十预算还剩五。去重比较的是完整正文相等，不是证明了两个语义近似块等价。即便内容相同，ID 较长也会增加当前表示的成本，这正是需要用最终渲染口径核算的原因。
@@ -648,9 +648,9 @@ $$
 若 $`\epsilon>0`$，再定义被删部分的回答混合分布 $`p_R`$，原分布恰好为 $`p=(1-\epsilon)p_S+\epsilon p_R`$。对离散回答空间，总变差距离满足
 
 $$
-\operatorname{TV}(p,p_S)
+\mathrm{TV}(p,p_S)
 =\frac12\sum_y\vert p(y)-p_S(y)\vert
-=\epsilon\operatorname{TV}(p_R,p_S)
+=\epsilon\mathrm{TV}(p_R,p_S)
 \leq\epsilon.
 $$
 

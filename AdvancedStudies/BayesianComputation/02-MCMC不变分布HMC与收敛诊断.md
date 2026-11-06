@@ -124,7 +124,7 @@
 图将长度八的平稳 AR(1) 状态的协方差完整画出。边缘方差为一、相关系数为 $`\rho=0.8`$，所以第 $`(i,j)`$ 格的值为 $`0.8^{|i-j|}`$。颜色越深，协方差越大；它不是状态取值或经验频数。橙框标出滞后二的两条斜带：上方六格加下方六格，每格为 $`0.8^2=0.64`$，所以它们对未归一化协方差总和贡献 $`12\times0.64=7.68`$。右上图把整张矩阵按斜带汇总：滞后零出现八次，正滞后 $`k`$ 在两个方向共出现 $`2(8-k)`$ 次。因此右上图每根条的长度是“出现次数乘每格数值”，而不是自相关本身。所有条合计 $`38.7108864`$；最后除以六十四，才是八次平均的方差：
 
 $$
-\operatorname{Var}(\bar X)
+\mathrm{Var}(\bar X)
 =\frac1{8^2}\left[8+2\sum_{k=1}^{7}(8-k)0.8^k\right]
 =0.6048576.
 $$
@@ -315,7 +315,7 @@ print('wrong mean/variance/acceptance',wrong.mean(),wrong.var(),wrong_accept)
 
 完整事件 $`0.5\le X\le1`$ 与 $`-\log2\le Y\le0`$ 完全相同，两侧积分都为 $`e^{-0.5}-e^{-1}\approx0.238651`$。边界单点在本连续分布中质量为零。密度针对各自坐标的单位定义，换元保持的是对应集合的质量；对数参数化后的 MCMC 目标必须包含相应 log-Jacobian。
 
-取 $`X\sim\operatorname{Exp}(1)`$，以 $`Y=\log X`$ 表示同一随机变量。左图的 $`X\in[0.5,1]`$ 与右图的 $`Y\in[\log0.5,0]`$ 是同一事件，因此两片阴影必须拥有相同面积：
+取 $`X\sim\mathrm{Exp}(1)`$，以 $`Y=\log X`$ 表示同一随机变量。左图的 $`X\in[0.5,1]`$ 与右图的 $`Y\in[\log0.5,0]`$ 是同一事件，因此两片阴影必须拥有相同面积：
 
 $$
 P(0.5\le X\le1)=e^{-0.5}-e^{-1}\approx0.238651.
@@ -449,7 +449,7 @@ $$
 q'=q\cos(\omega T)+\frac p\omega\sin(\omega T).
 $$
 
-这来自 $`\ddot q=-\omega^2q`$ 及初始速度 $`\dot q(0)=p`$。处于平稳分布时，$`\operatorname{Corr}(q,q')=\cos(\omega T)`$，而中心化平方量满足 $`E[q'^2-\omega^{-2}\mid q]=\cos^2(\omega T)(q^2-\omega^{-2})`$。所以 $`T`$ 接近半周期时，位置均值可能获得强负相关，平方统计量却仍有强正相关；只看一个均值的 ESS 会漏掉另一项几乎不变的事实。
+这来自 $`\ddot q=-\omega^2q`$ 及初始速度 $`\dot q(0)=p`$。处于平稳分布时，$`\mathrm{Corr}(q,q')=\cos(\omega T)`$，而中心化平方量满足 $`E[q'^2-\omega^{-2}\mid q]=\cos^2(\omega T)(q^2-\omega^{-2})`$。所以 $`T`$ 接近半周期时，位置均值可能获得强负相关，平方统计量却仍有强正相关；只看一个均值的 ESS 会漏掉另一项几乎不变的事实。
 
 取 $`T=\frac{\pi}{\omega}`$，位置精确变为 $`-q`$，刷新动量也无法改变绝对位置，轨迹只在两个点之间往返；取完整周期则 $`q'=q`$。这两种精确提议都能保持目标分布，却不能从任意初值有效探索它。相反，四分之一周期 $`T=\frac{\pi}{(2\omega)}`$ 给 $`q'=\frac{p}{\omega}`$，在这个特殊已知高斯模型中恰好产生独立目标样本。这不是通用采样器的免费调参办法：多维频率通常不同、真实目标非二次且未知，有限步 leapfrog 还会产生相位和能量误差。它只是把积分时长、函数相关性和遍历性之间的区别用一个完整解展示出来。
 
@@ -544,7 +544,7 @@ print('proposal absolute Jacobian determinant',abs(np.linalg.det(jac)))
 设已经处于平稳分布，$`X_t=f(q_t)`$ 具有有限非零方差 $`\sigma_f^2`$，滞后相关为 $`\rho_k`$。将样本均值方差展开成全部协方差对，得到精确有限长度公式
 
 $$
-\operatorname{Var}(\overline X_N)=\frac{\sigma_f^2}{N}
+\mathrm{Var}(\overline X_N)=\frac{\sigma_f^2}{N}
 \left[1+2\sum_{k=1}^{N-1}\left(1-\frac{k}{N}\right)\rho_k\right].
 $$
 
@@ -573,11 +573,11 @@ $$
 $$
 \begin{aligned}
 E[X^2Y^2] &=3r^2+(1-r^2)=1+2r^2,\\[6pt]
-\operatorname{Cov}(X^2,Y^2) &=2r^2.
+\mathrm{Cov}(X^2,Y^2) &=2r^2.
 \end{aligned}
 $$
 
-因为 $`\operatorname{Var}(X^2)=2`$，平方统计量的自相关为 $`\rho_k^{\mathrm{sq}}=\phi^{2k}`$，积分相关时间为
+因为 $`\mathrm{Var}(X^2)=2`$，平方统计量的自相关为 $`\rho_k^{\mathrm{sq}}=\phi^{2k}`$，积分相关时间为
 
 $$
 \tau_{\mathrm{sq}}=\frac{1+\phi^2}{1-\phi^2}.
@@ -588,7 +588,7 @@ $$
 还应区分有限链与渐近近似。对这里方差一的平稳 AR(1)，有限 $`N`$ 的均值方差精确为
 
 $$
-\operatorname{Var}(\bar X_N)=\frac1N\left[
+\mathrm{Var}(\bar X_N)=\frac1N\left[
 \frac{1+\phi}{1-\phi}-
 \frac{2\phi(1-\phi^N)}{N(1-\phi)^2}\right].
 $$
@@ -640,7 +640,7 @@ $$
 折叠变换把偏离合并中位数的距离当成新统计量：
 
 $$
-\zeta_{mn}=\left|x_{mn}-\operatorname{median}\{x_{mn}\}\right|.
+\zeta_{mn}=\left|x_{mn}-\mathrm{median}\{x_{mn}\}\right|.
 $$
 
 在上述对称总体例子中，中位数为零，两组折叠值的期望分别为 $`\sqrt{\frac2\pi}`$ 与 $`0.1\sqrt{\frac2\pi}`$。原来的尺度差异现在变成中心位置差异，多链比较便能发现。它不是把所有样本取绝对值后替代科学参数，而是额外检查探索范围。
@@ -779,8 +779,8 @@ $$
 若要估计新事件概率，给定参数样本后可以计算 $`p_i=P(Y_{new}\in A\mid q_i)`$，也可以每次再抽一个新结果并记指示 $`I_i`$。两种平均在正确条件下估计同一后验预测概率，但后一种额外引入结果抽样。条件于整条参数链，若这些预测抽样独立，条件均值为 $`p_i`$，则全方差公式给出
 
 $$
-\operatorname{Var}\left(\frac1N\sum_iI_i\right)
-=\operatorname{Var}\left(\frac1N\sum_ip_i\right)
+\mathrm{Var}\left(\frac1N\sum_iI_i\right)
+=\mathrm{Var}\left(\frac1N\sum_ip_i\right)
 +\frac1{N^2}\sum_iE[p_i(1-p_i)].
 $$
 

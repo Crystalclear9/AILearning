@@ -219,7 +219,7 @@ A、B、D 是 C 的直接入邻居。先沿各边构造同维消息，再逐分�
 
 ### 4.1 从度数得到传播权重
 
-对无向非负图，令 $`\widetilde A=A+I`$、$`\widetilde D=\operatorname{diag}(\widetilde d_1,\ldots,\widetilde d_n)`$，定义
+对无向非负图，令 $`\widetilde A=A+I`$、$`\widetilde D=\mathrm{diag}(\widetilde d_1,\ldots,\widetilde d_n)`$，定义
 
 $$
 \begin{aligned}

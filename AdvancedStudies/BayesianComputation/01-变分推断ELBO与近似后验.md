@@ -230,7 +230,7 @@ $$
 \begin{aligned}
 \mathcal L(q_jq_{-j})
 &=\int q_j(z_j)[h_j(z_j)-\log q_j(z_j)]\,dz_j+C_{-j}\\
-&=\log Z_j+C_{-j}-\operatorname{KL}(q_j\Vert q_j^*).
+&=\log Z_j+C_{-j}-\mathrm{KL}(q_j\Vert q_j^*).
 \end{aligned}
 $$
 
@@ -282,7 +282,7 @@ $$
 它的特征值为 $`2.2,0.4,0.4`$，全部为正，故是合法精度矩阵。令近似为 $`q=N(m,I)`$：精度对角为一，所以各因子方差已处于各自的最优值。本例只剩均值待优化，超出平均场最小 KL 的部分为
 
 $$
-G(m)=\operatorname{KL}(q\Vert p)-\operatorname{KL}(N(0,I)\Vert p)
+G(m)=\mathrm{KL}(q\Vert p)-\mathrm{KL}(N(0,I)\Vert p)
 =\frac12m^{\mathsf T}\Lambda m.
 $$
 
@@ -324,7 +324,7 @@ $$
 
 ### 4.1 精度矩阵与平均场方差
 
-设目标后验为 $`N(\mu,\Lambda^{-1})`$，精度矩阵正定，近似为独立高斯 $`N(m,\operatorname{diag}(v))`$。展开反向 KL，均值项为 $`(m-\mu)^T\Lambda(m-\mu)`$，方差迹项为 $`\sum_j\Lambda_{jj}v_j`$，熵项包含负的对数方差和。分别求导可得最优均值等于真实均值，最优方差为每个精度对角的倒数。
+设目标后验为 $`N(\mu,\Lambda^{-1})`$，精度矩阵正定，近似为独立高斯 $`N(m,\mathrm{diag}(v))`$。展开反向 KL，均值项为 $`(m-\mu)^T\Lambda(m-\mu)`$，方差迹项为 $`\sum_j\Lambda_{jj}v_j`$，熵项包含负的对数方差和。分别求导可得最优均值等于真实均值，最优方差为每个精度对角的倒数。
 
 真实边缘方差却是精度矩阵逆的对角，不等于一般情况下的对角倒数。后者对应其他变量给定时的条件方差尺度，因此忽略相关往往使边缘过窄。对于正向 KL，关于 q 的交叉熵最优在各边缘均值方差匹配处，给出另一套独立高斯。这两种近似即使均值相同，也具有不同不确定性。
 
@@ -347,9 +347,9 @@ $$
 左图将目标的单位 Mahalanobis 椭圆与近似的半径 $`0.6`$ 圆放在同一参数平面，箭头指出上述两个方向。两者是各自标准化半径相同的轮廓，并非相同密度高度；在这个二维高斯例子中，轮廓内部的概率都为 $`1-e^{-\frac12}`$。右图则连续转动同一个单位投影向量 $`u(\theta)=(\cos\theta,\sin\theta)^T`$：
 
 $$
-\operatorname{Var}_p(u(\theta)^TZ)=1+0.8\sin(2\theta),
+\mathrm{Var}_p(u(\theta)^TZ)=1+0.8\sin(2\theta),
 \qquad
-\operatorname{Var}_q(u(\theta)^TZ)=0.36.
+\mathrm{Var}_q(u(\theta)^TZ)=0.36.
 $$
 
 这使每个方向的同一线性查询都能直接比较目标方差与近似方差。沿长轴，目标标准差约 $`1.3416`$，近似标准差为 $`0.6`$。若把中心 95% 正态区间用于这个函数，其半宽分别约 $`2.6296`$ 与 $`1.176`$。平均值准确并不能弥补函数分布的宽度失真；继续优化同一个对角族也无法恢复被约束为零的相关项。
@@ -378,7 +378,7 @@ $$
 
 ![相关高斯的真实边缘、固定条件和平均场因子对照](images/01-mechanism.svg)
 
-**底部用全方差公式说明三条曲线为什么宽度不同。** 真实相关高斯满足 $`E[Z_2\mid Z_1]=0.8Z_1`$、条件方差 $`0.36`$。边缘方差因此为 $`E[\operatorname{Var}(Z_2\mid Z_1)]+\operatorname{Var}(E[Z_2\mid Z_1])=0.36+0.64=1`$。固定条件只保留第一项；把所有条件按 Z1 的真实分布混合，还要计入条件中心本身的波动。
+**底部用全方差公式说明三条曲线为什么宽度不同。** 真实相关高斯满足 $`E[Z_2\mid Z_1]=0.8Z_1`$、条件方差 $`0.36`$。边缘方差因此为 $`E[\mathrm{Var}(Z_2\mid Z_1)]+\mathrm{Var}(E[Z_2\mid Z_1])=0.36+0.64=1`$。固定条件只保留第一项；把所有条件按 Z1 的真实分布混合，还要计入条件中心本身的波动。
 
 平均场最优因子 q2 的方差在此高斯反向 KL 问题中恰为 $`0.36`$，均值却为零，并不是“固定 Z1 为一”的那条条件分布。更不能把平均对数密度的坐标更新当作直接混合条件密度；两者次序与对象都不同。反向 KL、平均场与坐标更新的原始推导见 [Blei 等 VI 综述第 2—3 节](https://arxiv.org/pdf/1601.00670)。
 
@@ -399,9 +399,9 @@ $$
 在最优零均值处得到图中的蓝线。真实边缘还包含条件均值随 $`Z_1`$ 变化的那部分方差；由全方差公式，
 
 $$
-\operatorname{Var}(Z_2)
-=\mathbb E[\operatorname{Var}(Z_2\mid Z_1)]
-+\operatorname{Var}(\mathbb E[Z_2\mid Z_1])
+\mathrm{Var}(Z_2)
+=\mathbb E[\mathrm{Var}(Z_2\mid Z_1)]
++\mathrm{Var}(\mathbb E[Z_2\mid Z_1])
 =0.36+0.64=1.
 $$
 
@@ -494,7 +494,7 @@ $$
 仍有期望 $`2m`$。利用标准正态的奇数矩为零、$`E[\epsilon^2]=1,E[\epsilon^4]=3,E[\epsilon^6]=15`$，可逐项展开得到
 
 $$
-\operatorname{Var}(g_b)
+\mathrm{Var}(g_b)
 =(m^2-b)^2+6(m^2-b)+8m^2+15.
 $$
 
@@ -502,9 +502,9 @@ $$
 
 $$
 \begin{aligned}
-\operatorname{Var}(g_{\rm score})&=m^4+14m^2+15,\\
-\operatorname{Var}(g_{b^*})&=8m^2+6,\\
-\operatorname{Var}(g_{\rm path})&=4.
+\mathrm{Var}(g_{\rm score})&=m^4+14m^2+15,\\
+\mathrm{Var}(g_{b^*})&=8m^2+6,\\
+\mathrm{Var}(g_{\rm path})&=4.
 \end{aligned}
 $$
 
