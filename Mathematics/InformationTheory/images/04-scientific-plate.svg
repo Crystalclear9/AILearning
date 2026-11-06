@@ -1,53 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="630" viewBox="0 0 1440 630" role="img" aria-labelledby="caption">
-<title id="caption">联合信息不等于边缘信息相加</title><defs>
-<marker id="blue" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#286391"/></marker>
-<marker id="teal" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#167d71"/></marker>
-<marker id="red" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#bb5141"/></marker>
-<marker id="violet" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#7352a1"/></marker>
-<marker id="ink" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#172e46"/></marker>
-<marker id="muted" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#536a82"/></marker>
-</defs><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
-<rect x="0" y="0" width="1440" height="630" fill="white" rx="0" stroke-width="1.5"/>
-<rect x="45" y="35" width="5" height="36" fill="#526bab" rx="2" stroke-width="1.5"/>
-<text x="69" y="64" fill="#172e46" font-size="34" font-weight="700" text-anchor="start">联合信息不等于边缘信息相加</text>
-<line x1="45" y1="88" x2="1395" y2="88" stroke="#cbd9e6" stroke-width="1.5" stroke-linecap="round"/>
-<rect x="48" y="124" width="574" height="452" fill="#fafdff" stroke="#cbd9e6" rx="13" stroke-width="1.5"/>
-<text x="335" y="161" fill="#172e46" font-size="25" font-weight="700" text-anchor="middle">单独知道任意一个输入</text>
-<rect x="663" y="124" width="723" height="452" fill="#fafdff" stroke="#cbd9e6" rx="13" stroke-width="1.5"/>
-<text x="1024.5" y="161" fill="#172e46" font-size="25" font-weight="700" text-anchor="middle">同时知道两个输入</text>
-<text x="158" y="237" fill="#172e46" font-size="23" font-weight="400" text-anchor="middle">X1 = 0</text>
-<rect x="228" y="212" width="130" height="36" fill="#e8f3fc" stroke="#286391" rx="0" stroke-width="1.5"/>
-<text x="293" y="238" fill="#286391" font-size="23" font-weight="700" text-anchor="middle">½</text>
-<rect x="358" y="212" width="130" height="36" fill="#fbede8" stroke="#bb5141" rx="0" stroke-width="1.5"/>
-<text x="423" y="238" fill="#bb5141" font-size="23" font-weight="700" text-anchor="middle">½</text>
-<text x="158" y="294" fill="#172e46" font-size="23" font-weight="400" text-anchor="middle">X1 = 1</text>
-<rect x="228" y="269" width="130" height="36" fill="#e8f3fc" stroke="#286391" rx="0" stroke-width="1.5"/>
-<text x="293" y="295" fill="#286391" font-size="23" font-weight="700" text-anchor="middle">½</text>
-<rect x="358" y="269" width="130" height="36" fill="#fbede8" stroke="#bb5141" rx="0" stroke-width="1.5"/>
-<text x="423" y="295" fill="#bb5141" font-size="23" font-weight="700" text-anchor="middle">½</text>
-<text x="158" y="396" fill="#172e46" font-size="23" font-weight="400" text-anchor="middle">X2 = 0</text>
-<rect x="228" y="371" width="130" height="36" fill="#e8f3fc" stroke="#286391" rx="0" stroke-width="1.5"/>
-<text x="293" y="397" fill="#286391" font-size="23" font-weight="700" text-anchor="middle">½</text>
-<rect x="358" y="371" width="130" height="36" fill="#fbede8" stroke="#bb5141" rx="0" stroke-width="1.5"/>
-<text x="423" y="397" fill="#bb5141" font-size="23" font-weight="700" text-anchor="middle">½</text>
-<text x="158" y="453" fill="#172e46" font-size="23" font-weight="400" text-anchor="middle">X2 = 1</text>
-<rect x="228" y="428" width="130" height="36" fill="#e8f3fc" stroke="#286391" rx="0" stroke-width="1.5"/>
-<text x="293" y="454" fill="#286391" font-size="23" font-weight="700" text-anchor="middle">½</text>
-<rect x="358" y="428" width="130" height="36" fill="#fbede8" stroke="#bb5141" rx="0" stroke-width="1.5"/>
-<text x="423" y="454" fill="#bb5141" font-size="23" font-weight="700" text-anchor="middle">½</text>
-<text x="293" y="534" fill="#286391" font-size="22" font-weight="700" text-anchor="middle">Y = 0</text>
-<text x="423" y="534" fill="#bb5141" font-size="22" font-weight="700" text-anchor="middle">Y = 1</text>
-<text x="972" y="222" fill="#172e46" font-size="24" font-weight="400" text-anchor="middle">X2 = 0</text>
-<text x="869" y="308.5" fill="#172e46" font-size="24" font-weight="400" text-anchor="end">X1 = 0</text>
-<rect x="897" y="242" width="150" height="119" fill="#e8f3fc" stroke="#cbd9e6" rx="0" stroke-width="1.5"/>
-<text x="972" y="311.5" fill="#286391" font-size="28" font-weight="700" text-anchor="middle">Y = 0</text>
-<rect x="897" y="361" width="150" height="119" fill="#fbede8" stroke="#cbd9e6" rx="0" stroke-width="1.5"/>
-<text x="972" y="430.5" fill="#bb5141" font-size="28" font-weight="700" text-anchor="middle">Y = 1</text>
-<text x="1122" y="222" fill="#172e46" font-size="24" font-weight="400" text-anchor="middle">X2 = 1</text>
-<text x="869" y="427.5" fill="#172e46" font-size="24" font-weight="400" text-anchor="end">X1 = 1</text>
-<rect x="1047" y="242" width="150" height="119" fill="#fbede8" stroke="#cbd9e6" rx="0" stroke-width="1.5"/>
-<text x="1122" y="311.5" fill="#bb5141" font-size="28" font-weight="700" text-anchor="middle">Y = 1</text>
-<rect x="1047" y="361" width="150" height="119" fill="#e8f3fc" stroke="#cbd9e6" rx="0" stroke-width="1.5"/>
-<text x="1122" y="430.5" fill="#286391" font-size="28" font-weight="700" text-anchor="middle">Y = 0</text>
-<text x="1046" y="532" fill="#536a82" font-size="20" font-weight="400" text-anchor="middle">四格等概率，每格概率为 ¼</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="602" viewBox="0 0 1320 602" role="img" aria-labelledby="title description">
+  <title id="title">一个输入与两个输入分别告诉我们什么</title>
+  <desc id="description">独立且公平的 X1 和 X2 经异或产生 Y。只知道一个输入时结果仍公平，同时知道两个输入时可直接确定。</desc>
+  <defs>
+    <marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#172235" />
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#18798a" />
+    </marker>
+    <marker id="arrow-coral" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#b95140" />
+    </marker>
+    <marker id="arrow-violet" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#65608e" />
+    </marker>
+    <linearGradient id="wash-cyan" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#83cdd2" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#83cdd2" stop-opacity="0.48" />
+    </linearGradient>
+    <linearGradient id="wash-red" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f2a49b" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#f2a49b" stop-opacity="0.48" />
+    </linearGradient>
+    <linearGradient id="wash-violet" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#b4aacd" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#b4aacd" stop-opacity="0.48" />
+    </linearGradient>
+  </defs>
+  <rect width="1320" height="602" fill="#ffffff" />
+  <g font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">
+    <text x="316" y="57" font-size="37" fill="#172235" text-anchor="middle" font-weight="400">只知道一个输入</text>
+    <text x="964" y="57" font-size="37" fill="#172235" text-anchor="middle" font-weight="400">同时知道两个输入</text>
+    <polygon points="83.00000,209.00000 177.00000,137.00000 553.00000,137.00000 459.00000,209.00000" fill="url(#wash-cyan)" stroke="#18798a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="318" y="183" font-size="33" fill="#18798a" text-anchor="middle" font-weight="400">仍有两种可能</text>
+    <line x1="324" y1="231" x2="192" y2="374" stroke="#172235" stroke-width="1.8" stroke-linecap="round" marker-end="url(#arrow-ink)" />
+    <line x1="324" y1="231" x2="446" y2="374" stroke="#172235" stroke-width="1.8" stroke-linecap="round" marker-end="url(#arrow-ink)" />
+    <circle cx="170" cy="398" r="8" fill="#18798a" stroke="white" stroke-width="2.4" />
+    <text x="170" y="450" font-size="32" fill="#18798a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 0</text>
+    <text x="170" y="500" font-size="34" fill="#18798a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">½</text>
+    <circle cx="470" cy="398" r="8" fill="#b95140" stroke="white" stroke-width="2.4" />
+    <text x="470" y="450" font-size="32" fill="#b95140" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 1</text>
+    <text x="470" y="500" font-size="34" fill="#b95140" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">½</text>
+    <text x="890" y="195" font-size="31" fill="#172235" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">X₂ = 0</text>
+    <text x="775" y="282.8" font-size="31" fill="#172235" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">X₁ = 0</text>
+    <text x="1060" y="195" font-size="31" fill="#172235" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">X₂ = 1</text>
+    <text x="775" y="387.8" font-size="31" fill="#172235" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">X₁ = 1</text>
+    <rect x="805" y="224" width="165" height="100" rx="2" fill="url(#wash-cyan)" />
+    <text x="890" y="289.1" font-size="34" fill="#18798a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 0</text>
+    <rect x="975" y="224" width="165" height="100" rx="2" fill="url(#wash-red)" />
+    <text x="1060" y="289.1" font-size="34" fill="#b95140" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 1</text>
+    <rect x="805" y="329" width="165" height="100" rx="2" fill="url(#wash-red)" />
+    <text x="890" y="394.1" font-size="34" fill="#b95140" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 1</text>
+    <rect x="975" y="329" width="165" height="100" rx="2" fill="url(#wash-cyan)" />
+    <text x="1060" y="394.1" font-size="34" fill="#18798a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 0</text>
+    <text x="970" y="499" font-size="30" fill="#172235" text-anchor="middle" font-weight="400">由这一格确定输出</text>
+    <text x="970" y="552" font-size="27" fill="#4c5b6a" text-anchor="middle" font-weight="400">四格概率相同</text>
+  </g>
+</svg>

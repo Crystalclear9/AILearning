@@ -1,50 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="605" viewBox="0 0 1440 605" role="img" aria-labelledby="caption">
-<title id="caption">事件发生与数据可用是两道门</title><defs>
-<marker id="blue" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#286391"/></marker>
-<marker id="teal" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#167d71"/></marker>
-<marker id="red" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#bb5141"/></marker>
-<marker id="violet" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#7352a1"/></marker>
-<marker id="ink" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#172e46"/></marker>
-<marker id="muted" orient="auto" markerWidth="9" markerHeight="9" refX="8" refY="4.5" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4.5 L0 9 Z" fill="#536a82"/></marker>
-</defs><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
-<rect x="0" y="0" width="1440" height="605" fill="white" rx="0" stroke-width="1.5"/>
-<rect x="45" y="35" width="5" height="36" fill="#526bab" rx="2" stroke-width="1.5"/>
-<text x="69" y="64" fill="#172e46" font-size="34" font-weight="700" text-anchor="start">事件发生与数据可用是两道门</text>
-<line x1="45" y1="88" x2="1395" y2="88" stroke="#cbd9e6" stroke-width="1.5" stroke-linecap="round"/>
-<rect x="290" y="155" width="550" height="313" fill="#e6f4ef" rx="6" stroke-width="1.5"/>
-<rect x="840" y="155" width="506" height="313" fill="#fbede8" rx="6" stroke-width="1.5"/>
-<line x1="400" y1="184" x2="400" y2="477" stroke="#cbd9e6" stroke-width="1.6" stroke-dasharray="4 4" stroke-linecap="round"/>
-<text x="400" y="509" fill="#536a82" font-size="21" font-weight="400" text-anchor="middle">4</text>
-<line x1="620" y1="184" x2="620" y2="477" stroke="#cbd9e6" stroke-width="1.6" stroke-dasharray="4 4" stroke-linecap="round"/>
-<text x="620" y="509" fill="#536a82" font-size="21" font-weight="400" text-anchor="middle">5</text>
-<line x1="730" y1="184" x2="730" y2="477" stroke="#cbd9e6" stroke-width="1.6" stroke-dasharray="4 4" stroke-linecap="round"/>
-<text x="730" y="509" fill="#536a82" font-size="21" font-weight="400" text-anchor="middle">5.5</text>
-<line x1="840" y1="184" x2="840" y2="477" stroke="#cbd9e6" stroke-width="1.6" stroke-dasharray="4 4" stroke-linecap="round"/>
-<text x="840" y="509" fill="#536a82" font-size="21" font-weight="400" text-anchor="middle">6</text>
-<line x1="1060" y1="184" x2="1060" y2="477" stroke="#cbd9e6" stroke-width="1.6" stroke-dasharray="4 4" stroke-linecap="round"/>
-<text x="1060" y="509" fill="#536a82" font-size="21" font-weight="400" text-anchor="middle">7</text>
-<line x1="1280" y1="184" x2="1280" y2="477" stroke="#cbd9e6" stroke-width="1.6" stroke-dasharray="4 4" stroke-linecap="round"/>
-<text x="1280" y="509" fill="#536a82" font-size="21" font-weight="400" text-anchor="middle">8</text>
-<line x1="840" y1="145" x2="840" y2="480" stroke="#7352a1" stroke-width="2.9" stroke-dasharray="6 5" stroke-linecap="round"/>
-<text x="840" y="132" fill="#7352a1" font-size="23" font-weight="700" text-anchor="middle">决策时刻 6</text>
-<line x1="290" y1="251" x2="1379" y2="251" stroke="#172e46" stroke-width="2" marker-end="url(#ink)" stroke-linecap="round"/>
-<text x="237" y="259" fill="#172e46" font-size="25" font-weight="700" text-anchor="end">事件时间</text>
-<line x1="290" y1="406" x2="1379" y2="406" stroke="#172e46" stroke-width="2" marker-end="url(#ink)" stroke-linecap="round"/>
-<text x="237" y="414" fill="#172e46" font-size="25" font-weight="700" text-anchor="end">可用时间</text>
-<line x1="400" y1="251" x2="1060" y2="406" stroke="#bb5141" stroke-width="2.9" marker-end="url(#red)" stroke-linecap="round"/>
-<circle cx="400" cy="251" r="7" fill="#bb5141" stroke="white" stroke-width="1.5"/>
-<circle cx="1060" cy="406" r="7" fill="#bb5141" stroke="white" stroke-width="1.5"/>
-<text x="400" y="230" fill="#bb5141" font-size="24" font-weight="700" text-anchor="middle">A</text>
-<text x="1060" y="436" fill="#bb5141" font-size="22" font-weight="700" text-anchor="middle">A</text>
-<line x1="620" y1="251" x2="730" y2="406" stroke="#167d71" stroke-width="2.9" marker-end="url(#teal)" stroke-linecap="round"/>
-<circle cx="620" cy="251" r="7" fill="#167d71" stroke="white" stroke-width="1.5"/>
-<circle cx="730" cy="406" r="7" fill="#167d71" stroke="white" stroke-width="1.5"/>
-<text x="620" y="230" fill="#167d71" font-size="24" font-weight="700" text-anchor="middle">B</text>
-<text x="730" y="436" fill="#167d71" font-size="22" font-weight="700" text-anchor="middle">B</text>
-<line x1="1280" y1="251" x2="1280" y2="406" stroke="#7352a1" stroke-width="2.9" marker-end="url(#violet)" stroke-linecap="round"/>
-<circle cx="1280" cy="251" r="7" fill="#7352a1" stroke="white" stroke-width="1.5"/>
-<circle cx="1280" cy="406" r="7" fill="#7352a1" stroke="white" stroke-width="1.5"/>
-<text x="1280" y="230" fill="#7352a1" font-size="24" font-weight="700" text-anchor="middle">C</text>
-<text x="1280" y="436" fill="#7352a1" font-size="22" font-weight="700" text-anchor="middle">C</text>
-<text x="728" y="564" fill="#536a82" font-size="20" font-weight="400" text-anchor="middle">两排共用一条等距时间刻度，B 是唯一两端都在决策线左侧的记录</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="665" viewBox="0 0 1320 665" role="img" aria-labelledby="title description">
+  <title id="title">事件发生与数据可用是两道门</title>
+  <desc id="description">横轴为事件时间，纵轴为可用时间。只有 B 的两个时间都严格早于 6。</desc>
+  <defs>
+    <marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#172235" />
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#18798a" />
+    </marker>
+    <marker id="arrow-coral" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#b95140" />
+    </marker>
+    <marker id="arrow-violet" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#65608e" />
+    </marker>
+    <linearGradient id="wash-cyan" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#83cdd2" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#83cdd2" stop-opacity="0.48" />
+    </linearGradient>
+    <linearGradient id="wash-red" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f2a49b" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#f2a49b" stop-opacity="0.48" />
+    </linearGradient>
+    <linearGradient id="wash-violet" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#b4aacd" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#b4aacd" stop-opacity="0.48" />
+    </linearGradient>
+    <clipPath id="plot-1">
+      <rect x="169" y="107" width="478" height="478" />
+    </clipPath>
+  </defs>
+  <rect width="1320" height="665" fill="#ffffff" />
+  <g font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">
+    <polygon points="170.00000,584.00000 408.00000,584.00000 408.00000,346.00000 170.00000,346.00000" fill="url(#wash-cyan)" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <line x1="167" y1="584" x2="664" y2="584" stroke="#172235" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)" />
+    <line x1="170" y1="589" x2="170" y2="91" stroke="#172235" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)" />
+    <text x="672" y="591" font-size="28" fill="#172235" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif" />
+    <text x="170" y="78" font-size="27" fill="#172235" text-anchor="middle" font-weight="400">可用时间</text>
+    <line x1="221.33333" y1="584" x2="221.33333" y2="591" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
+    <text x="221.33333" y="614" font-size="25" fill="#4c5b6a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">4</text>
+    <line x1="314.66667" y1="584" x2="314.66667" y2="591" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
+    <text x="314.66667" y="614" font-size="25" fill="#4c5b6a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">5</text>
+    <line x1="408" y1="584" x2="408" y2="591" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
+    <text x="408" y="614" font-size="25" fill="#4c5b6a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">6</text>
+    <line x1="501.33333" y1="584" x2="501.33333" y2="591" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
+    <text x="501.33333" y="614" font-size="25" fill="#4c5b6a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">7</text>
+    <line x1="594.66667" y1="584" x2="594.66667" y2="591" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
+    <text x="594.66667" y="614" font-size="25" fill="#4c5b6a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">8</text>
+    <line x1="163" y1="532.66667" x2="170" y2="532.66667" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
+    <text x="157" y="539.66667" font-size="25" fill="#4c5b6a" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">4</text>
+    <line x1="163" y1="392.66667" x2="170" y2="392.66667" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
+    <text x="157" y="399.66667" font-size="25" fill="#4c5b6a" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">5.5</text>
+    <line x1="163" y1="346" x2="170" y2="346" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
+    <text x="157" y="353" font-size="25" fill="#4c5b6a" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">6</text>
+    <line x1="163" y1="252.66667" x2="170" y2="252.66667" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
+    <text x="157" y="259.66667" font-size="25" fill="#4c5b6a" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">7</text>
+    <line x1="163" y1="159.33333" x2="170" y2="159.33333" stroke="#172235" stroke-width="1.5" stroke-linecap="round" />
+    <text x="157" y="166.33333" font-size="25" fill="#4c5b6a" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">8</text>
+    <text x="687" y="592" font-size="29" fill="#172235" text-anchor="start" font-weight="400">事件时间</text>
+    <line x1="408" y1="584" x2="408" y2="108" stroke="#65608e" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 5" />
+    <line x1="170" y1="346" x2="646" y2="346" stroke="#65608e" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 5" />
+    <text x="290.4" y="481.33333" font-size="27" fill="#18798a" text-anchor="middle" font-weight="400">两个时间都早于 6</text>
+    <circle cx="221.33333" cy="252.66667" r="8" fill="#b95140" stroke="white" stroke-width="2.4" />
+    <text x="237.33333" y="240.66667" font-size="28" fill="#b95140" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">A</text>
+    <circle cx="314.66667" cy="392.66667" r="8" fill="#18798a" stroke="white" stroke-width="2.4" />
+    <text x="330.66667" y="380.66667" font-size="28" fill="#18798a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">B</text>
+    <circle cx="594.66667" cy="159.33333" r="8" fill="#65608e" stroke="white" stroke-width="2.4" />
+    <text x="610.66667" y="147.33333" font-size="28" fill="#65608e" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">C</text>
+    <text x="824" y="163" font-size="35" fill="#172235" text-anchor="start" font-weight="400">在时刻 6 决策</text>
+    <circle cx="839" cy="243" r="7" fill="#b95140" stroke="white" stroke-width="2.4" />
+    <text x="862" y="252" font-size="29" fill="#b95140" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">A</text>
+    <text x="906" y="252" font-size="28" fill="#172235" text-anchor="start" font-weight="400">已经发生，尚不可用</text>
+    <circle cx="839" cy="336" r="7" fill="#18798a" stroke="white" stroke-width="2.4" />
+    <text x="862" y="345" font-size="29" fill="#18798a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">B</text>
+    <text x="906" y="345" font-size="28" fill="#172235" text-anchor="start" font-weight="400">已经发生，也已可用</text>
+    <circle cx="839" cy="429" r="7" fill="#65608e" stroke="white" stroke-width="2.4" />
+    <text x="862" y="438" font-size="29" fill="#65608e" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">C</text>
+    <text x="906" y="438" font-size="28" fill="#172235" text-anchor="start" font-weight="400">事件还没有发生</text>
+  </g>
+</svg>
