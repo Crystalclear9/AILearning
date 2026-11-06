@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="1150" viewBox="0 0 1440 1150" role="img" aria-labelledby="book-plate-title"><title id="book-plate-title">相消为何放大浮点影响</title><rect width="1440" height="1150" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="36" width="5" height="37" rx="2.5" fill="#526bab"/><text x="71" y="66" font-size="38" font-weight="700" fill="#142b45">相消为何放大浮点影响</text><path d="M48 89 H1392" stroke="#d7e1ee" stroke-width="1.4"/></g><svg role="img" width="1344" height="1008" viewBox="0 0 864 648" version="1.1" x="48" y="106" overflow="hidden">
-<title>明确标记精确实数、可表示格点和舍入落点，追踪大数相消与非对称差分节点</title>
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="780" viewBox="0 0 960 780" role="img" aria-labelledby="artwork-title"><title id="artwork-title">相消为何放大浮点影响</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="682.5"/></clipPath></defs><rect width="960" height="780" fill="#ffffff"/><text x="25" y="41" font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="32" font-weight="700" fill="#182c43">相消为何放大浮点影响</text><line x1="25" x2="935" y1="59" y2="59" stroke="#cbd9e5" stroke-width="1.4"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(1.053241)"><g><title>明确标记精确实数、可表示格点和舍入落点，追踪大数相消与非对称差分节点</title>
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -25,32 +24,32 @@
   <g id="axes_1">
    <g id="PathCollection_1">
     <defs>
-     <path id="ma6c844549e" d="M 0 3.708099 C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022 C 3.317391 1.926654 3.708099 0.983399 3.708099 0 C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022 C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099 C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022 C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0 C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022 C -1.926654 3.317391 -0.983399 3.708099 0 3.708099 z " style="stroke: #207397"/>
+     <path id="ma6c844549e" d="M 0 3.708099 C 0.983399 3.708099 1.926654 3.317391 2.622022 2.622022 C 3.317391 1.926654 3.708099 0.983399 3.708099 0 C 3.708099 -0.983399 3.317391 -1.926654 2.622022 -2.622022 C 1.926654 -3.317391 0.983399 -3.708099 0 -3.708099 C -0.983399 -3.708099 -1.926654 -3.317391 -2.622022 -2.622022 C -3.317391 -1.926654 -3.708099 -0.983399 -3.708099 0 C -3.708099 0.983399 -3.317391 1.926654 -2.622022 2.622022 C -1.926654 3.317391 -0.983399 3.708099 0 3.708099 z " style="stroke: #156588"/>
     </defs>
     <g clip-path="url(#pbd100ab361)">
-     <use xlink:href="#ma6c844549e" x="171.936" y="181.44" style="fill: #207397; stroke: #207397"/>
+     <use xlink:href="#ma6c844549e" x="171.936" y="181.44" style="fill: #156588; stroke: #156588"/>
     </g>
    </g>
    <g id="PathCollection_2">
     <g clip-path="url(#pbd100ab361)">
-     <use xlink:href="#ma6c844549e" x="451.872" y="181.44" style="fill: #207397; stroke: #207397"/>
+     <use xlink:href="#ma6c844549e" x="451.872" y="181.44" style="fill: #156588; stroke: #156588"/>
     </g>
    </g>
    <g id="PathCollection_3">
     <g clip-path="url(#pbd100ab361)">
-     <use xlink:href="#ma6c844549e" x="731.808" y="181.44" style="fill: #207397; stroke: #207397"/>
+     <use xlink:href="#ma6c844549e" x="731.808" y="181.44" style="fill: #156588; stroke: #156588"/>
     </g>
    </g>
    <g id="PathCollection_4">
     <defs>
-     <path id="m66a044214a" d="M 0 4.1833 C 1.109424 4.1833 2.173559 3.742521 2.95804 2.95804 C 3.742521 2.173559 4.1833 1.109424 4.1833 0 C 4.1833 -1.109424 3.742521 -2.173559 2.95804 -2.95804 C 2.173559 -3.742521 1.109424 -4.1833 0 -4.1833 C -1.109424 -4.1833 -2.173559 -3.742521 -2.95804 -2.95804 C -3.742521 -2.173559 -4.1833 -1.109424 -4.1833 0 C -4.1833 1.109424 -3.742521 2.173559 -2.95804 2.95804 C -2.173559 3.742521 -1.109424 4.1833 0 4.1833 z " style="stroke: #c76f3d; stroke-width: 2"/>
+     <path id="m66a044214a" d="M 0 4.1833 C 1.109424 4.1833 2.173559 3.742521 2.95804 2.95804 C 3.742521 2.173559 4.1833 1.109424 4.1833 0 C 4.1833 -1.109424 3.742521 -2.173559 2.95804 -2.95804 C 2.173559 -3.742521 1.109424 -4.1833 0 -4.1833 C -1.109424 -4.1833 -2.173559 -3.742521 -2.95804 -2.95804 C -3.742521 -2.173559 -4.1833 -1.109424 -4.1833 0 C -4.1833 1.109424 -3.742521 2.173559 -2.95804 2.95804 C -2.173559 3.742521 -1.109424 4.1833 0 4.1833 z " style="stroke: #be622c; stroke-width: 2"/>
     </defs>
     <g clip-path="url(#pbd100ab361)">
-     <use xlink:href="#m66a044214a" x="311.904" y="181.44" style="fill: #ffffff; stroke: #c76f3d; stroke-width: 2"/>
+     <use xlink:href="#m66a044214a" x="311.904" y="181.44" style="fill: #ffffff; stroke: #be622c; stroke-width: 2"/>
     </g>
    </g>
    <g id="line2d_1">
-    <path d="M 78.624 181.44 L 778.464 181.44 " clip-path="url(#pbd100ab361)" style="fill: none; stroke: #a6b0bf; stroke-width: 1.3; stroke-linecap: square"/>
+    <line clip-path="url(#pbd100ab361)" style="fill: none; stroke: #b3c2d0; stroke-width: 1.3; stroke-linecap: square" x1="78.624" y1="181.44" x2="778.464" y2="181.44"/>
    </g>
    <g id="text_1">
     <!-- A  大数相加：$a=10^{16}$，相邻格距为 2 -->
@@ -137,12 +136,12 @@
     </g>
    </g>
    <g id="patch_2">
-    <path d="M 309.900674 150.0768 Q 241.918294 150.0768 176.171983 150.0768 " style="fill: none; stroke: #c76f3d; stroke-width: 2; stroke-linecap: round"/>
-    <path d="M 182.171983 153.0768 L 176.171983 150.0768 L 182.171983 147.0768 " style="fill: none; stroke: #c76f3d; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 309.900674 150.0768 Q 241.918294 150.0768 176.171983 150.0768 " style="fill: none; stroke: #be622c; stroke-width: 2; stroke-linecap: round"/>
+    <polyline style="fill: none; stroke: #be622c; stroke-width: 2; stroke-linecap: round" points="182.171983,153.0768 176.171983,150.0768 182.171983,147.0768"/>
    </g>
    <g id="text_5">
     <!-- 精确 a + 1 -->
-    <g style="fill: #c76f3d" transform="translate(279.145625 135.8208) scale(0.17 -0.17)">
+    <g style="fill: #af6032" transform="translate(279.145625 135.8208) scale(0.17 -0.17)">
      <defs>
       <path id="MicrosoftYaHei-7cbe" d="M 3225 -822 L 2775 -822 L 2775 2347 L 5919 2347 L 5919 -91 Q 5919 -772 5219 -772 L 4200 -772 Q 4169 -572 4106 -291 Q 4688 -328 5063 -328 Q 5469 -328 5469 9 L 5469 297 L 3225 297 L 3225 -822 z M 2488 3122 L 4106 3122 L 4106 3553 L 2750 3553 L 2750 3947 L 4106 3947 L 4106 4366 L 2588 4366 L 2588 4759 L 4106 4759 L 4106 5322 L 4556 5322 L 4556 4759 L 6200 4759 L 6200 4366 L 4556 4366 L 4556 3947 L 6013 3947 L 6013 3553 L 4556 3553 L 4556 3122 L 6288 3122 L 6288 2728 L 2488 2728 L 2488 3122 z M 56 578 Q 663 1497 1044 2628 L 138 2628 L 138 3028 L 1094 3028 L 1094 5303 L 1506 5303 L 1506 3028 L 2313 3028 L 2313 2628 L 1506 2628 L 1506 1853 L 1738 2041 Q 2263 1534 2581 1166 L 2256 866 Q 1863 1347 1506 1722 L 1506 -847 L 1094 -847 L 1094 1784 Q 731 841 250 72 Q 150 353 56 578 z M 5469 1947 L 3225 1947 L 3225 1509 L 5469 1509 L 5469 1947 z M 3225 684 L 5469 684 L 5469 1122 L 3225 1122 L 3225 684 z M 1625 3559 Q 1900 4166 2081 4834 L 2481 4691 Q 2250 3997 1994 3397 L 1625 3559 z M 150 4709 L 519 4841 Q 744 4209 944 3572 L 550 3409 Q 338 4172 150 4709 z " transform="scale(0.015625)"/>
       <path id="MicrosoftYaHei-786e" d="M 2075 3453 Q 2956 4334 3456 5359 L 3931 5272 Q 3781 4991 3619 4722 L 5438 4722 L 5438 4328 L 4909 3666 L 6063 3666 L 6063 -53 Q 6063 -728 5475 -728 Q 5144 -728 4906 -716 Q 4869 -497 4813 -259 Q 5156 -291 5331 -291 Q 5619 -291 5619 16 L 5619 734 L 4588 734 L 4588 -659 L 4144 -659 L 4144 734 L 3113 734 Q 2944 -263 2444 -884 Q 2288 -703 2081 -509 Q 2756 291 2756 1841 L 2756 3506 Q 2597 3316 2431 3134 Q 2281 3278 2075 3453 z M 31 1691 Q 741 2834 1066 4291 L 231 4291 L 231 4716 L 2469 4716 L 2469 4291 L 1509 4291 Q 1356 3613 1128 2991 L 2200 2991 L 2200 128 L 1150 128 L 1150 -347 L 738 -347 L 738 2059 Q 559 1691 350 1347 Q 225 1497 31 1691 z M 1788 541 L 1788 2578 L 1150 2578 L 1150 541 L 1788 541 z M 4875 4322 L 3366 4322 Q 3138 3981 2884 3666 L 4384 3666 L 4875 4322 z M 4588 1134 L 5619 1134 L 5619 1991 L 4588 1991 L 4588 1134 z M 5619 3241 L 4588 3241 L 4588 2391 L 5619 2391 L 5619 3241 z M 3166 1134 L 4144 1134 L 4144 1991 L 3200 1991 Q 3200 1841 3166 1134 z M 3200 2391 L 4144 2391 L 4144 3241 L 3200 3241 L 3200 2391 z " transform="scale(0.015625)"/>
@@ -160,7 +159,7 @@
    </g>
    <g id="text_6">
     <!-- 先加再减：(a + 1) − a → 0 -->
-    <g style="fill: #c76f3d" transform="translate(55.296 269.8272) scale(0.17 -0.17)">
+    <g style="fill: #af6032" transform="translate(55.296 269.8272) scale(0.17 -0.17)">
      <defs>
       <path id="MicrosoftYaHei-5148" d="M 225 2453 L 2956 2453 L 2956 3784 L 1459 3784 Q 1153 3166 800 2709 Q 569 2891 394 2997 Q 1094 3903 1481 5166 L 1969 5028 Q 1828 4613 1672 4247 L 2956 4247 L 2956 5309 L 3469 5309 L 3469 4247 L 5788 4247 L 5788 3784 L 3469 3784 L 3469 2453 L 6219 2453 L 6219 1991 L 4206 1991 L 4206 222 Q 4169 -259 4638 -216 L 5275 -216 Q 5706 -216 5750 109 Q 5794 428 5819 1022 Q 6056 922 6344 834 Q 6313 372 6231 -122 Q 6169 -434 5956 -559 Q 5769 -678 5281 -678 L 4538 -678 Q 3663 -716 3700 141 L 3700 1991 L 2478 1991 Q 2428 909 2044 328 Q 1581 -397 369 -847 Q 244 -647 50 -397 Q 1163 -16 1581 584 Q 1925 1047 1978 1991 L 225 1991 L 225 2453 z " transform="scale(0.015625)"/>
       <path id="MicrosoftYaHei-52a0" d="M 3663 4484 L 6038 4484 L 6038 -666 L 5544 -666 L 5544 -34 L 4156 -34 L 4156 -666 L 3663 -666 L 3663 4484 z M 231 4178 L 1103 4178 Q 1109 4681 1106 5297 L 1600 5297 Q 1600 4675 1594 4178 L 3050 4178 Q 3019 1778 2969 409 Q 2944 -716 2119 -672 Q 1875 -672 1400 -653 Q 1356 -391 1300 -109 Q 1738 -166 2013 -166 Q 2431 -178 2469 428 Q 2538 1909 2550 3703 L 1588 3703 Q 1581 3225 1569 2891 Q 1544 447 394 -872 Q 238 -678 25 -453 Q 1063 684 1081 2941 Q 1094 3269 1100 3703 L 231 3703 L 231 4178 z M 5544 4022 L 4156 4022 L 4156 416 L 5544 416 L 5544 4022 z " transform="scale(0.015625)"/>
@@ -224,39 +223,39 @@
   <g id="axes_2">
    <g id="PathCollection_5">
     <g clip-path="url(#p5fbd96cfcf)">
-     <use xlink:href="#ma6c844549e" x="156.384" y="398.3904" style="fill: #207397; stroke: #207397"/>
+     <use xlink:href="#ma6c844549e" x="156.384" y="398.3904" style="fill: #156588; stroke: #156588"/>
     </g>
    </g>
    <g id="PathCollection_6">
     <g clip-path="url(#p5fbd96cfcf)">
-     <use xlink:href="#ma6c844549e" x="296.352" y="398.3904" style="fill: #207397; stroke: #207397"/>
+     <use xlink:href="#ma6c844549e" x="296.352" y="398.3904" style="fill: #156588; stroke: #156588"/>
     </g>
    </g>
    <g id="PathCollection_7">
     <g clip-path="url(#p5fbd96cfcf)">
-     <use xlink:href="#ma6c844549e" x="436.32" y="398.3904" style="fill: #207397; stroke: #207397"/>
+     <use xlink:href="#ma6c844549e" x="436.32" y="398.3904" style="fill: #156588; stroke: #156588"/>
     </g>
    </g>
    <g id="PathCollection_8">
     <g clip-path="url(#p5fbd96cfcf)">
-     <use xlink:href="#ma6c844549e" x="716.256" y="398.3904" style="fill: #207397; stroke: #207397"/>
+     <use xlink:href="#ma6c844549e" x="716.256" y="398.3904" style="fill: #156588; stroke: #156588"/>
     </g>
    </g>
    <g id="PathCollection_9">
     <defs>
-     <path id="m7d528d90e8" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z " style="stroke: #c76f3d; stroke-width: 2"/>
+     <path id="m7d528d90e8" d="M 0 4.609772 C 1.222526 4.609772 2.395145 4.124058 3.259601 3.259601 C 4.124058 2.395145 4.609772 1.222526 4.609772 0 C 4.609772 -1.222526 4.124058 -2.395145 3.259601 -3.259601 C 2.395145 -4.124058 1.222526 -4.609772 0 -4.609772 C -1.222526 -4.609772 -2.395145 -4.124058 -3.259601 -3.259601 C -4.124058 -2.395145 -4.609772 -1.222526 -4.609772 0 C -4.609772 1.222526 -4.124058 2.395145 -3.259601 3.259601 C -2.395145 4.124058 -1.222526 4.609772 0 4.609772 z " style="stroke: #be622c; stroke-width: 2"/>
     </defs>
     <g clip-path="url(#p5fbd96cfcf)">
-     <use xlink:href="#m7d528d90e8" x="310.248033" y="398.3904" style="fill: #ffffff; stroke: #c76f3d; stroke-width: 2"/>
+     <use xlink:href="#m7d528d90e8" x="310.248033" y="398.3904" style="fill: #ffffff; stroke: #be622c; stroke-width: 2"/>
     </g>
    </g>
    <g id="PathCollection_10">
     <g clip-path="url(#p5fbd96cfcf)">
-     <use xlink:href="#m7d528d90e8" x="562.391967" y="398.3904" style="fill: #ffffff; stroke: #c76f3d; stroke-width: 2"/>
+     <use xlink:href="#m7d528d90e8" x="562.391967" y="398.3904" style="fill: #ffffff; stroke: #be622c; stroke-width: 2"/>
     </g>
    </g>
    <g id="line2d_2">
-    <path d="M 78.624 398.3904 L 794.016 398.3904 " clip-path="url(#p5fbd96cfcf)" style="fill: none; stroke: #a6b0bf; stroke-width: 1.2; stroke-linecap: square"/>
+    <line clip-path="url(#p5fbd96cfcf)" style="fill: none; stroke: #b3c2d0; stroke-width: 1.2; stroke-linecap: square" x1="78.624" y1="398.3904" x2="794.016" y2="398.3904"/>
    </g>
    <g id="text_8">
     <!-- B  指数边界：$u=2^{-53}$；左侧格距 $u$，右侧格距 $2u$ -->
@@ -350,7 +349,7 @@
    </g>
    <g id="text_13">
     <!-- 1 − h -->
-    <g style="fill: #c76f3d" transform="translate(288.693893 362.6208) scale(0.17 -0.17)">
+    <g style="fill: #af6032" transform="translate(288.693893 362.6208) scale(0.17 -0.17)">
      <defs>
       <path id="MicrosoftYaHei-68" d="M 3466 0 L 2856 0 L 2856 1988 Q 2856 3031 2081 3031 Q 1684 3031 1421 2726 Q 1159 2422 1159 1959 L 1159 0 L 547 0 L 547 5116 L 1159 5116 L 1159 2888 L 1172 2888 Q 1569 3538 2300 3538 Q 3466 3538 3466 2128 L 3466 0 z " transform="scale(0.015625)"/>
      </defs>
@@ -362,12 +361,12 @@
     </g>
    </g>
    <g id="patch_3">
-    <path d="M 309.170887 378.305311 Q 303.298954 387.505665 298.509714 395.009617 " style="fill: none; stroke: #c76f3d; stroke-width: 1.8; stroke-linecap: round"/>
-    <path d="M 304.266525 391.565909 L 298.509714 395.009617 L 299.208834 388.337943 " style="fill: none; stroke: #c76f3d; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 309.170887 378.305311 Q 303.298954 387.505665 298.509714 395.009617 " style="fill: none; stroke: #be622c; stroke-width: 1.8; stroke-linecap: round"/>
+    <polyline style="fill: none; stroke: #be622c; stroke-width: 1.8; stroke-linecap: round" points="304.266525,391.565909 298.509714,395.009617 299.208834,388.337943"/>
    </g>
    <g id="text_14">
     <!-- 1 + h -->
-    <g style="fill: #c76f3d" transform="translate(540.837826 362.6208) scale(0.17 -0.17)">
+    <g style="fill: #af6032" transform="translate(540.837826 362.6208) scale(0.17 -0.17)">
      <use xlink:href="#MicrosoftYaHei-31"/>
      <use xlink:href="#MicrosoftYaHei-20" transform="translate(58.642578 0)"/>
      <use xlink:href="#MicrosoftYaHei-2b" transform="translate(88.232422 0)"/>
@@ -376,8 +375,8 @@
     </g>
    </g>
    <g id="patch_4">
-    <path d="M 560.418245 376.958464 Q 499.355682 387.504052 440.276224 397.707155 " style="fill: none; stroke: #c76f3d; stroke-width: 1.8; stroke-linecap: round"/>
-    <path d="M 446.699246 399.6423 L 440.276224 397.707155 L 445.678154 393.729824 " style="fill: none; stroke: #c76f3d; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 560.418245 376.958464 Q 499.355682 387.504052 440.276224 397.707155 " style="fill: none; stroke: #be622c; stroke-width: 1.8; stroke-linecap: round"/>
+    <polyline style="fill: none; stroke: #be622c; stroke-width: 1.8; stroke-linecap: round" points="446.699246,399.6423 440.276224,397.707155 445.678154,393.729824"/>
    </g>
   </g>
   <g id="axes_3">
@@ -434,7 +433,7 @@
    </g>
    <g id="text_16">
     <!-- 名义跨度：$2h$；实际跨度：$u$。返回 $\frac{u}{2h}\approx0.5551115$。 -->
-    <g style="fill: #c76f3d" transform="translate(55.296 600.5664) scale(0.21 -0.21)">
+    <g style="fill: #af6032" transform="translate(55.296 600.5664) scale(0.21 -0.21)">
      <defs>
       <path id="MicrosoftYaHei-540d" d="M 2406 5328 L 2894 5128 Q 2688 4853 2475 4603 L 5669 4603 L 5669 4159 Q 4506 2828 2600 1978 L 5656 1978 L 5656 -866 L 5156 -866 L 5156 -459 L 1863 -459 L 1863 -866 L 1363 -866 L 1363 1478 Q 875 1297 350 1122 Q 213 1359 63 1584 Q 1463 1966 2588 2516 Q 2200 2909 1750 3322 L 2125 3647 Q 2650 3178 3088 2778 Q 4188 3384 5000 4172 L 2094 4172 Q 1388 3403 481 2753 Q 306 2984 156 3159 Q 1394 3966 2406 5328 z M 5156 1528 L 1863 1528 L 1863 -22 L 5156 -22 L 5156 1528 z " transform="scale(0.015625)"/>
       <path id="MicrosoftYaHei-4e49" d="M 4869 4891 L 5406 4791 Q 4991 2394 3603 966 Q 4563 209 6325 -197 Q 6056 -516 5888 -741 Q 4113 -163 3203 594 Q 2275 -166 444 -816 Q 306 -584 100 -328 Q 1938 216 2825 950 Q 1553 2241 956 4703 L 1444 4891 Q 1981 2575 3213 1316 Q 4588 2750 4869 4891 z M 2500 5128 L 2956 5347 Q 3431 4547 3750 3859 L 3263 3597 Q 2881 4441 2500 5128 z " transform="scale(0.015625)"/>
@@ -617,4 +616,4 @@
    <rect x="47.52" y="317.52" width="777.6" height="155.52"/>
   </clipPath>
  </defs>
-</svg></svg>
+</g></g></g></svg>
