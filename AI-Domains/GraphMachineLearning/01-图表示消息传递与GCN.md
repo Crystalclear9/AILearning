@@ -164,7 +164,7 @@
 $$
 \begin{aligned}
 m_{ij}^{(\ell)} &=\phi_\ell(h_i^{(\ell)},h_j^{(\ell)},z_{ij}),\\[6pt]
-m_i^{(\ell)} &=\mathop{\mathrm{AGG}}_{j\in\mathcal N(i)}m_{ij}^{(\ell)},\\[6pt]
+m_i^{(\ell)} &=\underset{j\in\mathcal N(i)}{\mathrm{AGG}}\,m_{ij}^{(\ell)},\\[6pt]
 h_i^{(\ell+1)} &=\psi_\ell(h_i^{(\ell)},m_i^{(\ell)}).
 \end{aligned}
 $$
