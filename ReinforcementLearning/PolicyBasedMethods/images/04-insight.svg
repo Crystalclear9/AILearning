@@ -204,7 +204,7 @@
      <path d="M 279.635074 317.738198 L 291.635074 317.738198 L 303.635074 317.738198 " style="fill: none; stroke: #15779c; stroke-width: 1.5; stroke-linecap: square"/>
     </g>
     <g id="text_17">
-     <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #174057" x="313.235074" y="321.938198" transform="rotate(-0 313.235074 321.938198)">真正旧概率：固定 0.5</text>
+     <text style="font-size: 14.4px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #174057" x="313.235074" y="321.938198" transform="rotate(-0 313.235074 321.938198)">真正旧概率：固定 0.5</text>
     </g>
     <g id="line2d_18">
      <path d="M 279.635074 336.769448 L 291.635074 336.769448 L 303.635074 336.769448 " style="fill: none; stroke: #cf6f36; stroke-width: 1.5; stroke-linecap: square"/>
@@ -331,13 +331,13 @@
     <path d="M 578.133364 354.752572 L 1004.99976 354.752572 " style="fill: none; stroke: #96a6bd; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_29">
-    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #174057" x="587.984127" y="60.531844" transform="rotate(-0 587.984127 60.531844)">r=1.6，进入平台</text>
+    <text style="font-size: 14.34px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #174057" x="587.984127" y="60.531844" transform="rotate(-0 587.984127 60.531844)">r=1.6，进入平台</text>
    </g>
    <g id="text_30">
-    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #174057" x="587.984127" y="168.701229" transform="rotate(-0 587.984127 168.701229)">r=1，但梯度 0.2</text>
+    <text style="font-size: 14.34px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #174057" x="587.984127" y="168.701229" transform="rotate(-0 587.984127 168.701229)">r=1，但梯度 0.2</text>
    </g>
    <g id="text_31">
-    <text style="font-size: 12px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #174057" x="587.984127" y="276.870615" transform="rotate(-0 587.984127 276.870615)">r=1，导数相消</text>
+    <text style="font-size: 14.4px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #174057" x="587.984127" y="276.870615" transform="rotate(-0 587.984127 276.870615)">r=1，导数相消</text>
    </g>
    <g id="text_32">
     <text style="font-size: 15px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #174057" x="791.566562" y="15.590865" transform="rotate(-0 791.566562 15.590865)">前向值相同也不能证明梯度正确</text>
