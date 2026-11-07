@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1255" viewBox="0 0 1200 1255" role="img" aria-labelledby="fig-title fig-desc">
 <title id="fig-title">曲率与稳定步长</title>
-<desc id="fig-desc">每一行对照同一组参数。左列 A 至 C 把前两步放回目标函数，右列 D 至 F 画出第零至第八步的参数序列。</desc>
+<desc id="fig-desc">每一行对照同一组参数。面板按行排列。左列 A、C、E 给出前两次更新的落点，右列 B、D、F 给出第 0 至第 8 步的参数序列。</desc>
 <rect x="0" y="0" width="1200" height="1255" fill="#ffffff" opacity="1"/>
 <defs>
 <linearGradient id="t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#ecf6f6"/></linearGradient>
@@ -12,7 +12,7 @@
 <text x="683" y="56" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">参数怎样随迭代变化</text>
 <path d="M55 84 L1145 84" fill="none" stroke="#dbe8eb" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="94" y="130" fill="#166d75" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">A  同侧收敛</text>
-<text x="683" y="130" fill="#166d75" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">D  倍率 0.7</text>
+<text x="683" y="130" fill="#166d75" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">B  倍率 0.7</text>
 <text x="94" y="169" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" text-anchor="start" font-weight="400">a = 2，η = 0.15</text>
 <path d="M94 396 L528 396" fill="none" stroke="#dbe8eb" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M90 396 L94 396" fill="none" stroke="#526976" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
@@ -86,8 +86,8 @@
 <circle cx="1055" cy="367.279" r="5.7" fill="#166d75" stroke="#ffffff" stroke-width="1.5"/>
 <circle cx="1106.667" cy="370.785" r="5.7" fill="#166d75" stroke="#ffffff" stroke-width="1.5"/>
 <path d="M55 475 L1145 475" fill="none" stroke="#dbe8eb" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="94" y="521" fill="#6e618e" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">B  交替收敛</text>
-<text x="683" y="521" fill="#6e618e" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">E  倍率 −0.5</text>
+<text x="94" y="521" fill="#6e618e" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">C  交替收敛</text>
+<text x="683" y="521" fill="#6e618e" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">D  倍率 −0.5</text>
 <text x="94" y="560" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" text-anchor="start" font-weight="400">a = 10，η = 0.15</text>
 <path d="M94 787 L528 787" fill="none" stroke="#dbe8eb" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M90 787 L94 787" fill="none" stroke="#526976" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
@@ -164,7 +164,7 @@
 <circle cx="1055" cy="723.781" r="5.7" fill="#6e618e" stroke="#ffffff" stroke-width="1.5"/>
 <circle cx="1106.667" cy="722.609" r="5.7" fill="#6e618e" stroke="#ffffff" stroke-width="1.5"/>
 <path d="M55 866 L1145 866" fill="none" stroke="#dbe8eb" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="94" y="912" fill="#a74d3a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">C  交替发散</text>
+<text x="94" y="912" fill="#a74d3a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">E  交替发散</text>
 <text x="683" y="912" fill="#a74d3a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" text-anchor="start" font-weight="600">F  倍率 −1.5</text>
 <text x="94" y="951" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" text-anchor="start" font-weight="400">a = 10，η = 0.25</text>
 <path d="M94 1178 L528 1178" fill="none" stroke="#dbe8eb" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>

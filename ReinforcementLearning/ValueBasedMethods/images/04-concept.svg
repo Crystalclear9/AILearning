@@ -71,7 +71,7 @@
 <path d="M737 190 L746 190" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="732" y="196" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="end" font-weight="400">0.25</text>
 <text x="1071" y="546" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" text-anchor="start" font-weight="400">均值差</text>
-<text x="742" y="154" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" text-anchor="middle" font-weight="400">C · 单点概率</text>
+<text x="742" y="154" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" text-anchor="middle" font-weight="400">B · 重采样均值的单点概率</text>
 <path d="M765.25 540 L765.25 488.148" fill="none" stroke="#6e618e" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="765.25" cy="488.148" r="5" fill="#6e618e" stroke="#ffffff" stroke-width="1.5"/>
 <path d="M791.083 540 L791.083 384.444" fill="none" stroke="#6e618e" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
@@ -92,9 +92,11 @@
 <circle cx="971.917" cy="384.444" r="5" fill="#6e618e" stroke="#ffffff" stroke-width="1.5"/>
 <path d="M1036.5 540 L1036.5 488.148" fill="none" stroke="#6e618e" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round"/>
 <circle cx="1036.5" cy="488.148" r="5" fill="#6e618e" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="881.5" y1="540" x2="881.5" y2="547" stroke="#a74d3a" stroke-width="1.5"/>
+<text x="881.5" y="595" fill="#a74d3a" font-family="Cambria Math, Microsoft YaHei, serif" font-size="20" text-anchor="middle">0.02</text>
 <path d="M881.5 540 L881.5 176" fill="none" stroke="#a74d3a" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 4"/>
 <path d="M75 598 L1125 598" fill="none" stroke="#dbe8eb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="75" y="649" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">B · 阶段 4 减阶段 6：三个种子分别差 0.10、0、−0.04；均值差 0.02。</text>
-<text x="75" y="708" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">右图枚举 27 个等可能结果。0.02 来自三种差值各抽一次的六种排列。</text>
+<text x="75" y="649" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">阶段 4 减阶段 6，三个种子的差依次为 0.10、0、−0.04，平均差为 0.02。</text>
+<text x="75" y="708" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">图 B 枚举 27 个等可能结果。0.02 来自三种差值各抽一次的六种排列。</text>
 <text x="75" y="756" fill="#6e618e" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">单点概率按相同均值归并，留在离散支持上。</text>
 </svg>
