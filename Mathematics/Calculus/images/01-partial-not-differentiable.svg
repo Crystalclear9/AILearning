@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="502.48" viewBox="-18.24 28.76 996.48 502.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">坐标方向均平坦但斜向余项与距离之比不消失</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="415.509434"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="502.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="466" viewBox="0 47 960 466" overflow="hidden"><rect width="960" height="513" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(-53.408805 57.113208) scale(0.894261)"><g><title>真实函数曲面的两条坐标截线、对角截线及不消失的归一化余项</title>
  <metadata xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <rdf:RDF>
@@ -714,7 +713,32 @@
     </g>
     <g id="text_19">
 
-     <g style="fill: #243b4d" transform="translate(607.92 333.86) rotate(-90)">
+     </g>
+   </g>
+   <g id="line2d_75">
+    <polyline clip-path="url(#peb97a158ea)" style="fill: none; stroke: #ae5f34; stroke-width: 2.6; stroke-linecap: square" points="689.311385,174.048 1073.248615,174.048 1073.248615,174.048"/>
+   </g>
+   <g id="line2d_76">
+    <line clip-path="url(#peb97a158ea)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #778b9f" stroke-width="1.23" x1="679.68" y1="382.368" x2="1082.88" y2="382.368"/>
+   </g>
+   <g id="patch_7">
+    <line x1="679.68" y1="403.2" x2="679.68" y2="90.72" stroke="#202a37" stroke-width="1.36216216"/><polyline points="676.00216216,98.89297297 679.68,90.72 683.35783784,98.89297297" fill="none" stroke="#202a37" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
+   <g id="patch_8">
+    <line x1="679.68" y1="403.2" x2="1082.88" y2="403.2" stroke="#202a37" stroke-width="1.36216216"/></g>
+   <g id="text_20">
+    <text style="font-size: 29.633407px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #243b4d" x="881.28" y="67.72" transform="rotate(-0 881.28 67.72)">距离趋零，相对余项仍为二分之一</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p539fe644f7">
+   <rect x="131.76" y="90.72" width="312.48" height="312.48"/>
+  </clipPath>
+  <clipPath id="peb97a158ea">
+   <rect x="679.68" y="90.72" width="403.2" height="312.48"/>
+  </clipPath>
+ </defs>
+</g></g></g></svg><g transform="translate(556.812000 79.622000) scale(0.8969697)"><g style="fill: #243b4d">
       <text>
        <tspan x="0" y="-0.967188" style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #243b4d">相</tspan>
        <tspan x="22" y="-0.967188" style="font-size: 22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #243b4d">对</tspan>
@@ -741,29 +765,4 @@
       </text>
       <rect x="94.509766" y="-6.1" width="76.488672" height="1.375"/>
      </g>
-    </g>
-   </g>
-   <g id="line2d_75">
-    <polyline clip-path="url(#peb97a158ea)" style="fill: none; stroke: #ae5f34; stroke-width: 2.6; stroke-linecap: square" points="689.311385,174.048 1073.248615,174.048 1073.248615,174.048"/>
-   </g>
-   <g id="line2d_76">
-    <line clip-path="url(#peb97a158ea)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #778b9f" stroke-width="1.23" x1="679.68" y1="382.368" x2="1082.88" y2="382.368"/>
-   </g>
-   <g id="patch_7">
-    <line x1="679.68" y1="403.2" x2="679.68" y2="90.72" stroke="#202a37" stroke-width="1.36216216"/><polyline points="676.00216216,98.89297297 679.68,90.72 683.35783784,98.89297297" fill="none" stroke="#202a37" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
-   <g id="patch_8">
-    <line x1="679.68" y1="403.2" x2="1082.88" y2="403.2" stroke="#202a37" stroke-width="1.36216216"/></g>
-   <g id="text_20">
-    <text style="font-size: 29.633407px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #243b4d" x="881.28" y="67.72" transform="rotate(-0 881.28 67.72)">距离趋零，相对余项仍为二分之一</text>
-   </g>
-  </g>
- </g>
- <defs>
-  <clipPath id="p539fe644f7">
-   <rect x="131.76" y="90.72" width="312.48" height="312.48"/>
-  </clipPath>
-  <clipPath id="peb97a158ea">
-   <rect x="679.68" y="90.72" width="403.2" height="312.48"/>
-  </clipPath>
- </defs>
-</g></g></g></svg></svg>
+    </g></svg>

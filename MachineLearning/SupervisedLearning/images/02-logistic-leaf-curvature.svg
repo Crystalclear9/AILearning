@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="2920.07" viewBox="-18.24 98.169 996.48 2920.07" role="img" aria-labelledby="diagram-title"><title id="diagram-title">同一逻辑损失叶内的真实目标、二阶近似与概率更新</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m3b72f6bc6e" d="M 0 0 L 0 3.5 " style="stroke: #5b7c8b; stroke-width: 0.8"/>
       <path id="m41d6c1f5a7" d="M 0 0 L -3.5 0 " style="stroke: #5b7c8b; stroke-width: 0.8"/>
@@ -568,19 +567,7 @@
     </g>
     <g id="text_46">
      <!-- 叶概率 $\sigma(\gamma)$ -->
-     <g style="fill: #233a4b" transform="translate(970.449408 270.275) rotate(-90)">
-      <text>
-       <tspan x="0" y="-0.53125" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233a4b">叶</tspan>
-       <tspan x="22" y="-0.53125" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233a4b">概</tspan>
-       <tspan x="44" y="-0.53125" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233a4b">率</tspan>
-       <tspan x="66" y="-0.53125" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233a4b"> </tspan>
-       <tspan x="72.509766" y="-0.53125" style="font-style: italic; font-size: 22px; font-family: 'STIXGeneral'; fill: #233a4b">σ</tspan>
-       <tspan x="90.791763" y="-0.53125" style="font-style: italic; font-size: 22px; font-family: 'STIXGeneral'; fill: #233a4b">γ</tspan>
-       <tspan x="83.465759" y="-0.53125" style="font-size: 22px; font-family: 'STIXGeneral'; fill: #233a4b">(</tspan>
-       <tspan x="99.811768" y="-0.53125" style="font-size: 22px; font-family: 'STIXGeneral'; fill: #233a4b">)</tspan>
-      </text>
      </g>
-    </g>
    </g>
    <g id="line2d_74">
     <path d="M 1013.776752 357.918213 L 1024.307522 346.547851 L 1035.59049 334.039043 L 1049.130051 318.679159 L 1067.1828 297.825339 L 1100.279506 259.534619 L 1113.819068 244.240766 L 1125.102036 231.805746 L 1135.632806 220.518008 L 1145.411378 210.355356 L 1154.437753 201.276894 L 1163.464127 192.51179 L 1171.738304 184.768089 L 1180.01248 177.314273 L 1188.286657 170.158743 L 1196.560833 163.307261 L 1204.83501 156.763096 L 1213.109186 150.527194 L 1220.631165 145.124744 L 1228.153144 139.973851 L 1235.675122 135.071088 L 1243.197101 130.411998 L 1250.71908 125.991227 L 1258.993256 121.396321 L 1267.267433 117.073352 L 1275.541609 113.012563 L 1283.815786 109.203637 L 1292.089962 105.635858 L 1300.364139 102.298259 L 1309.390513 98.906725 L 1318.416888 95.76151 L 1327.443262 92.848334 L 1337.221834 89.937983 L 1347.000407 87.266143 L 1351.513594 86.108769 L 1351.513594 86.108769 " clip-path="url(#pea29635b4d)" style="fill: none; stroke: #287993; stroke-width: 2.7; stroke-linecap: square"/>
@@ -624,4 +611,16 @@
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #233a4b" x="1013.776752" y="26.385" transform="rotate(-0 1013.776752 26.385)">C  分数更新后再映射为概率</text>
    </g>
   </g>
- </g><text x="218.086557" y="155.075671" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="四例交叉熵之和" id="text_13" data-axis-label="matplotlib.axis_2">四例交叉熵之和</text><text x="126.086554" y="1541.507944" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="26" fill="#283c4c" aria-label="总损失的一阶导数" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="126.086554" dy="0">总损失的</tspan><tspan x="126.086554" dy="30.68">一阶导数</tspan></text></svg></svg>
+ </g><text x="218.086557" y="155.075671" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="四例交叉熵之和" id="text_13" data-axis-label="matplotlib.axis_2">四例交叉熵之和</text><text x="126.086554" y="1541.507944" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="26" fill="#283c4c" aria-label="总损失的一阶导数" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="126.086554" dy="0">总损失的</tspan><tspan x="126.086554" dy="30.68">一阶导数</tspan></text></svg><g transform="translate(224.652000 2164.827000) scale(2.0098039)"><g style="fill: #233a4b">
+      <text>
+       <tspan x="0" y="-0.53125" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233a4b">叶</tspan>
+       <tspan x="22" y="-0.53125" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233a4b">概</tspan>
+       <tspan x="44" y="-0.53125" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233a4b">率</tspan>
+       <tspan x="66" y="-0.53125" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233a4b"> </tspan>
+       <tspan x="72.509766" y="-0.53125" style="font-style: italic; font-size: 22px; font-family: 'STIXGeneral'; fill: #233a4b">σ</tspan>
+       <tspan x="90.791763" y="-0.53125" style="font-style: italic; font-size: 22px; font-family: 'STIXGeneral'; fill: #233a4b">γ</tspan>
+       <tspan x="83.465759" y="-0.53125" style="font-size: 22px; font-family: 'STIXGeneral'; fill: #233a4b">(</tspan>
+       <tspan x="99.811768" y="-0.53125" style="font-size: 22px; font-family: 'STIXGeneral'; fill: #233a4b">)</tspan>
+      </text>
+     </g>
+    </g></svg>

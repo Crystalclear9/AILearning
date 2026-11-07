@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1665.48" viewBox="-18.24 110.76 996.48 1665.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">高斯策略得分估计与路径导数对同一随机样本的不同计算</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="ma365f937be" d="M 0 0  L 0 3.5  " style="stroke: #798ca1; stroke-width: 0.8"/>
       <path id="m649244404c" d="M 0 0  L -3.5 0  " style="stroke: #798ca1; stroke-width: 0.8"/>
@@ -122,18 +121,7 @@
     </g>
     <g id="text_12">
      <!-- 奖励 $R(a)$ -->
-     <g style="fill: #243a4c" transform="translate(37.298594 257.705) rotate(-90)">
-      <text>
-       <tspan x="0" y="-0.15625" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">奖</tspan>
-       <tspan x="19" y="-0.15625" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">励</tspan>
-       <tspan x="38" y="-0.15625" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c"> </tspan>
-       <tspan x="43.62207" y="-0.15625" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">R</tspan>
-       <tspan x="64.236328" y="-0.15625" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">a</tspan>
-       <tspan x="56.82373" y="-0.15625" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">(</tspan>
-       <tspan x="75.879395" y="-0.15625" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">)</tspan>
-      </text>
      </g>
-    </g>
    </g>
    <g id="line2d_11">
     <path d="M 75.6 338.845091  L 83.657501 325.56223  L 91.715001 312.700213  L 99.772502 300.259038  L 107.830002 288.238707  L 115.887503 276.639218  L 123.945003 265.460573  L 132.002504 254.702771  L 139.052817 245.634917  L 146.10313 236.889271  L 153.153443 228.465833  L 160.203756 220.364603  L 167.254069 212.585581  L 174.304382 205.128768  L 181.354695 197.994162  L 188.405008 191.181764  L 195.455321 184.691574  L 202.505634 178.523592  L 209.555947 172.677818  L 216.60626 167.154252  L 223.656573 161.952894  L 229.699699 157.751039  L 235.742824 153.785908  L 241.785949 150.057501  L 247.829075 146.565818  L 253.8722 143.31086  L 259.915326 140.292626  L 265.958451 137.511116  L 272.001577 134.96633  L 278.044702 132.658268  L 284.087827 130.586931  L 290.130953 128.752318  L 296.174078 127.15443  L 302.217204 125.793265  L 308.260329 124.668825  L 314.303455 123.781109  L 320.34658 123.130117  L 326.389706 122.71585  L 332.432831 122.538307  L 338.475956 122.597488  L 344.519082 122.893393  L 350.562207 123.426023  L 356.605333 124.195376  L 362.648458 125.201455  L 368.691584 126.444257  L 374.734709 127.923783  L 380.777834 129.640034  L 386.82096 131.593009  L 392.864085 133.782709  L 398.907211 136.209132  L 404.950336 138.87228  L 410.993462 141.772152  L 417.036587 144.908748  L 423.079712 148.282069  L 429.122838 151.892114  L 435.165963 155.738883  L 441.209089 159.822376  L 447.252214 164.142594  L 453.29534 168.699536  L 460.345653 174.315161  L 467.395966 180.252994  L 474.446279 186.513036  L 477.467841 189.294545  L 477.467841 189.294545  " clip-path="url(#p1cfe0a8d68)" style="fill: none; stroke: #bb7249; stroke-width: 3; stroke-linecap: square"/>
@@ -305,27 +293,7 @@
     </g>
     <g id="text_28">
      <!-- 固定动作的 $\log p_\mu(0.9)$ -->
-     <g style="fill: #243a4c" transform="translate(546.504034 315.465) rotate(-90)">
-      <text>
-       <tspan x="0" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">固</tspan>
-       <tspan x="19" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">定</tspan>
-       <tspan x="38" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">动</tspan>
-       <tspan x="57" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">作</tspan>
-       <tspan x="76" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">的</tspan>
-       <tspan x="95" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c"> </tspan>
-       <tspan x="100.62207" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">l</tspan>
-       <tspan x="105.900879" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">o</tspan>
-       <tspan x="117.525391" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">g</tspan>
-       <tspan x="153.712659" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">(</tspan>
-       <tspan x="161.125257" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">0</tspan>
-       <tspan x="173.213636" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">.</tspan>
-       <tspan x="179.253187" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">9</tspan>
-       <tspan x="191.341566" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">)</tspan>
-       <tspan x="132.670716" y="-0.125" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">p</tspan>
-       <tspan x="144.731263" y="2.992188" style="font-style: oblique; font-size: 13.3px; font-family: 'DejaVu Sans'; fill: #243a4c">μ</tspan>
-      </text>
      </g>
-    </g>
    </g>
    <g id="line2d_25">
     <path d="M 585.972159 356.136425  L 594.029659 343.287456  L 602.08716 330.8245  L 610.14466 318.747559  L 618.202161 307.056631  L 626.259661 295.751717  L 634.317162 284.832817  L 642.374663 274.29993  L 650.432163 264.153058  L 658.489664 254.392199  L 666.547164 245.017355  L 673.597477 237.131018  L 680.64779 229.540222  L 687.698103 222.244969  L 694.748416 215.245257  L 701.798729 208.541088  L 708.849042 202.13246  L 715.899355 196.019374  L 722.949668 190.20183  L 729.999981 184.679828  L 737.050294 179.453367  L 744.100607 174.522449  L 751.15092 169.887072  L 758.201233 165.547237  L 765.251546 161.502945  L 772.301859 157.754194  L 778.344985 154.776206  L 784.38811 152.01535  L 790.431236 149.471628  L 796.474361 147.145038  L 802.517487 145.035582  L 808.560612 143.143258  L 814.603738 141.468066  L 820.646863 140.010008  L 826.689988 138.769082  L 832.733114 137.74529  L 838.776239 136.93863  L 844.819365 136.349102  L 850.86249 135.976708  L 856.905616 135.821446  L 862.948741 135.883317  L 868.991866 136.162321  L 875.034992 136.658458  L 881.078117 137.371728  L 887.121243 138.30213  L 893.164368 139.449665  L 899.207494 140.814333  L 905.250619 142.396134  L 911.293744 144.195068  L 917.33687 146.211134  L 923.379995 148.444333  L 929.423121 150.894665  L 935.466246 153.56213  L 941.509372 156.446727  L 947.552497 159.548458  L 953.595623 162.867321  L 960.645936 167.013759  L 967.696249 171.45574  L 974.746562 176.193262  L 981.796875 181.226327  L 987.84 185.775609  L 987.84 185.775609  " clip-path="url(#p2227d43575)" style="fill: none; stroke: #2c7a96; stroke-width: 3; stroke-linecap: square"/>
@@ -365,4 +333,35 @@
     </g>
    </g>
   </g>
- </g></svg></svg>
+ </g></svg><g transform="translate(165.486000 285.144000) scale(1.8181818)"><g style="fill: #243a4c">
+      <text>
+       <tspan x="0" y="-0.15625" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">奖</tspan>
+       <tspan x="19" y="-0.15625" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">励</tspan>
+       <tspan x="38" y="-0.15625" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c"> </tspan>
+       <tspan x="43.62207" y="-0.15625" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">R</tspan>
+       <tspan x="64.236328" y="-0.15625" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">a</tspan>
+       <tspan x="56.82373" y="-0.15625" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">(</tspan>
+       <tspan x="75.879395" y="-0.15625" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">)</tspan>
+      </text>
+     </g>
+    </g><g transform="translate(164.448000 1089.594000) scale(1.7830688)"><g style="fill: #243a4c">
+      <text>
+       <tspan x="0" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">固</tspan>
+       <tspan x="19" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">定</tspan>
+       <tspan x="38" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">动</tspan>
+       <tspan x="57" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">作</tspan>
+       <tspan x="76" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">的</tspan>
+       <tspan x="95" y="-0.125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c"> </tspan>
+       <tspan x="100.62207" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">l</tspan>
+       <tspan x="105.900879" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">o</tspan>
+       <tspan x="117.525391" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">g</tspan>
+       <tspan x="153.712659" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">(</tspan>
+       <tspan x="161.125257" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">0</tspan>
+       <tspan x="173.213636" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">.</tspan>
+       <tspan x="179.253187" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">9</tspan>
+       <tspan x="191.341566" y="-0.125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">)</tspan>
+       <tspan x="132.670716" y="-0.125" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">p</tspan>
+       <tspan x="144.731263" y="2.992188" style="font-style: oblique; font-size: 13.3px; font-family: 'DejaVu Sans'; fill: #243a4c">μ</tspan>
+      </text>
+     </g>
+    </g></svg>

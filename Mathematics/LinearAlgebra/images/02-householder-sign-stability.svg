@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1601.48" viewBox="-18.24 110.76 996.48 1601.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">Householder两种反射轴，以及异号与同号构造的浮点消元残留</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m217071a21b" d="M 0 0 L 0 3.5 " style="stroke: #527586; stroke-width: 0.8"/>
       <path id="m7d6b077571" d="M 0 0 L -3.5 0 " style="stroke: #527586; stroke-width: 0.8"/>
@@ -277,27 +276,7 @@
     </g>
     <g id="text_19">
 
-     <g style="fill: #243b4d" transform="translate(603.52 342.88) rotate(-90)">
-      <text>
-       <tspan x="0" y="-0.967188" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">消</tspan>
-       <tspan x="22" y="-0.967188" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">元</tspan>
-       <tspan x="44" y="-0.967188" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">相</tspan>
-       <tspan x="66" y="-0.967188" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">对</tspan>
-       <tspan x="88" y="-0.967188" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">残</tspan>
-       <tspan x="110" y="-0.967188" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">留</tspan>
-       <tspan x="132" y="-0.967188" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d"> </tspan>
-       <tspan x="138.509766" y="-14.23125" style="font-size: 15.4px; font-family: 'DejaVu Sans'; fill: #243b4d">|</tspan>
-       <tspan x="143.698242" y="-14.23125" style="font-size: 15.4px; font-family: 'DejaVu Sans'; fill: #243b4d">(</tspan>
-       <tspan x="170.400098" y="-14.23125" style="font-size: 15.4px; font-family: 'DejaVu Sans'; fill: #243b4d">)</tspan>
-       <tspan x="183.835244" y="-14.23125" style="font-size: 15.4px; font-family: 'DejaVu Sans'; fill: #243b4d">|</tspan>
-       <tspan x="149.706348" y="-14.23125" style="font-style: oblique; font-size: 15.4px; font-family: 'DejaVu Sans'; fill: #243b4d">H</tspan>
-       <tspan x="159.509766" y="4.904687" style="font-style: oblique; font-size: 15.4px; font-family: 'DejaVu Sans'; fill: #243b4d">ε</tspan>
-       <tspan x="161.286426" y="-14.23125" style="font-style: oblique; font-size: 15.4px; font-family: 'DejaVu Sans'; fill: #243b4d">x</tspan>
-       <tspan x="176.555586" y="-11.704688" style="font-size: 10.78px; font-family: 'DejaVu Sans'; fill: #243b4d">2</tspan>
-      </text>
-      <rect x="138.509766" y="-6.1" width="50.513955" height="1.375"/>
      </g>
-    </g>
    </g>
    <g id="line2d_25">
     <path d="M 698.007273 403.2 L 796.516364 403.2 L 798.807273 365.050134 L 803.389091 366.694765 L 805.68 403.2 L 819.425455 403.2 L 821.716364 368.322457 L 824.007273 364.193938 L 828.589091 365.83857 L 830.88 403.2 L 833.170909 403.2 L 835.461818 363.354683 L 837.752727 403.2 L 840.043636 403.2 L 842.334545 365.82163 L 849.207273 368.288578 L 851.498182 364.160059 L 853.789091 403.2 L 858.370909 403.2 L 860.661818 362.498488 L 862.952727 368.271638 L 865.243636 403.2 L 867.534545 364.965435 L 869.825455 403.2 L 872.116364 403.2 L 874.407273 362.481548 L 878.989091 364.12618 L 881.28 403.2 L 883.570909 403.2 L 885.861818 366.593127 L 888.152727 367.415443 L 890.443636 403.2 L 892.734545 369.060075 L 895.025455 364.931556 L 897.316364 365.753872 L 899.607273 403.2 L 901.898182 367.398503 L 904.189091 403.2 L 906.48 403.2 L 908.770909 364.914616 L 911.061818 403.2 L 913.352727 361.608414 L 915.643636 403.2 L 927.098182 403.2 L 929.389091 362.41379 L 931.68 403.2 L 933.970909 403.2 L 936.261818 364.880737 L 938.552727 365.703053 L 940.843636 361.574534 L 943.134545 403.2 L 945.425455 363.219166 L 947.716364 403.2 L 954.589091 403.2 L 956.88 367.330745 L 959.170909 403.2 L 961.461818 403.2 L 963.752727 364.846858 L 966.043636 403.2 L 968.334545 403.2 L 970.625455 367.313805 L 972.916364 403.2 L 986.661818 403.2 L 988.952727 363.990663 L 991.243636 403.2 L 993.534545 403.2 L 995.825455 366.45761 L 998.116364 362.329092 L 1000.407273 368.102242 L 1002.698182 363.973723 L 1004.989091 403.2 L 1007.28 365.618355 L 1011.861818 367.262986 L 1014.152727 363.134468 L 1016.443636 403.2 L 1023.316364 403.2 L 1025.607273 362.295212 L 1027.898182 363.117528 L 1030.189091 403.2 L 1034.770909 403.2 L 1037.061818 361.455957 L 1039.352727 403.2 L 1041.643636 368.051423 L 1043.934545 403.2 L 1046.225455 364.74522 L 1048.516364 365.567536 L 1050.807273 361.439017 L 1053.098182 362.261333 L 1055.389091 403.2 L 1062.261818 403.2 L 1064.552727 366.372912 L 1064.552727 366.372912 " clip-path="url(#p132c398fdd)" style="fill: none; stroke: #297492; stroke-width: 2.6; stroke-linecap: square"/>
@@ -333,4 +312,4 @@
     </g>
    </g>
   </g>
- </g><text x="228.808602" y="195.187202" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="第二坐标" id="text_7" data-axis-label="matplotlib.axis_2">第二坐标</text></svg></svg>
+ </g><text x="228.808602" y="195.187202" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="第二坐标" id="text_7" data-axis-label="matplotlib.axis_2">第二坐标</text></svg><g transform="translate(229.842000 995.136000) scale(1.038000)"><text x="0" y="29" font-size="29" fill="#243b4d" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif">消元相对残留</text></g></svg>

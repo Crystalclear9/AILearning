@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1712.48" viewBox="-18.24 110.76 996.48 1712.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">Landweber不同迭代次数的谱滤波因子，以及持续下降的残差和先降后升的参数误差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m94dc6e18ad" d="M 0 0 L 0 3.5 " style="stroke: #527586; stroke-width: 0.8"/>
       <path id="m9190440d1b" d="M 0 0 L 0 2 " style="stroke: #527586; stroke-width: 0.6"/>
@@ -222,23 +221,7 @@
     </g>
     <g id="text_8">
 
-     <g style="fill: #243b4d" transform="translate(62.459062 340.46) rotate(-90)">
-      <text>
-       <tspan x="0" y="-0.6875" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">信</tspan>
-       <tspan x="22" y="-0.6875" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">号</tspan>
-       <tspan x="44" y="-0.6875" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">通</tspan>
-       <tspan x="66" y="-0.6875" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">过</tspan>
-       <tspan x="88" y="-0.6875" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">比</tspan>
-       <tspan x="110" y="-0.6875" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">例</tspan>
-       <tspan x="132" y="-0.6875" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d"> </tspan>
-       <tspan x="138.509766" y="-0.6875" style="font-style: oblique; font-size: 22px; font-family: 'DejaVu Sans'; fill: #243b4d">f</tspan>
-       <tspan x="164.357617" y="-0.6875" style="font-style: oblique; font-size: 22px; font-family: 'DejaVu Sans'; fill: #243b4d">σ</tspan>
-       <tspan x="146.254883" y="2.921875" style="font-style: oblique; font-size: 15.4px; font-family: 'DejaVu Sans'; fill: #243b4d">k</tspan>
-       <tspan x="155.774609" y="-0.6875" style="font-size: 22px; font-family: 'DejaVu Sans'; fill: #243b4d">(</tspan>
-       <tspan x="178.300977" y="-0.6875" style="font-size: 22px; font-family: 'DejaVu Sans'; fill: #243b4d">)</tspan>
-      </text>
      </g>
-    </g>
    </g>
    <g id="line2d_30">
     <path d="M 133.527273 394.313083 L 164.174886 393.981016 L 186.241168 393.523387 L 203.403831 392.9446 L 216.888781 392.279527 L 229.147826 391.446699 L 238.955062 390.571208 L 247.536394 389.609449 L 256.117726 388.420347 L 263.473153 387.180656 L 270.82858 385.695836 L 276.958103 384.237655 L 283.087625 382.545374 L 289.217148 380.583098 L 294.120766 378.791641 L 299.024384 376.778047 L 303.928002 374.51666 L 308.831621 371.979387 L 313.735239 369.135617 L 317.412952 366.781801 L 321.090666 364.222064 L 324.768379 361.440718 L 328.446093 358.421356 L 332.123807 355.146919 L 335.80152 351.599804 L 339.479234 347.761998 L 343.156947 343.615257 L 346.834661 339.14134 L 350.512375 334.322289 L 354.190088 329.140782 L 357.867802 323.580558 L 361.545515 317.626919 L 365.223229 311.26732 L 368.900943 304.492059 L 372.578656 297.295049 L 376.25637 289.6747 L 379.934083 281.634879 L 384.837701 270.28158 L 389.74132 258.24788 L 394.644938 245.608406 L 400.77446 229.124409 L 410.581697 201.8956 L 417.937124 181.663543 L 422.840742 168.748465 L 426.518455 159.563897 L 430.196169 150.941651 L 433.873883 142.993194 L 436.325692 138.117558 L 438.777501 133.609363 L 441.22931 129.487804 L 443.681119 125.766308 L 446.132928 122.451831 L 448.584737 119.544317 L 451.036546 117.0364 L 453.488355 114.913373 L 455.940164 113.153498 L 458.391973 111.728669 L 460.843782 110.605433 L 463.295591 109.746366 L 465.7474 109.11171 L 468.199209 108.661194 L 471.876923 108.246355 L 476.780541 108.004272 L 484.135968 107.925122 L 500.072727 107.920734 L 500.072727 107.920734 " clip-path="url(#p7b2e932ab0)" style="fill: none; stroke: #778b9f; stroke-width: 2.6; stroke-linecap: square"/>
@@ -443,4 +426,4 @@
     </g>
    </g>
   </g>
- </g><text x="183.960346" y="1024.925152" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="欧氏范数" id="text_21" data-axis-label="matplotlib.axis_4">欧氏范数</text></svg></svg>
+ </g><text x="183.960346" y="1024.925152" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="欧氏范数" id="text_21" data-axis-label="matplotlib.axis_4">欧氏范数</text></svg><g transform="translate(186.246000 251.928000) scale(1.038000)"><text x="0" y="29" font-size="29" fill="#243b4d" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif">信号通过比例</text></g></svg>

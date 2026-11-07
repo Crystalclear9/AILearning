@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1076.5" height="1697.41" viewBox="-96.7993 109.295 1076.5 1697.41" role="img" aria-labelledby="diagram-title"><title id="diagram-title">顺序统计阈值经过总体CDF后形成随机覆盖及其Beta分布</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="ma943298a2e" d="M 0 0  L 0 3.5  " style="stroke: #798ca1; stroke-width: 0.8"/>
       <path id="mf362c471a3" d="M 0 0  L -3.5 0  " style="stroke: #798ca1; stroke-width: 0.8"/>
@@ -105,24 +104,7 @@
     </g>
     <g id="text_10">
      <!-- 冻结后的真实覆盖 $F(q)$ -->
-     <g style="fill: #243a4c" transform="translate(35.845625 315.915) rotate(-90)">
-      <text>
-       <tspan x="0" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">冻</tspan>
-       <tspan x="19" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">结</tspan>
-       <tspan x="38" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">后</tspan>
-       <tspan x="57" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">的</tspan>
-       <tspan x="76" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">真</tspan>
-       <tspan x="95" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">实</tspan>
-       <tspan x="114" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">覆</tspan>
-       <tspan x="133" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">盖</tspan>
-       <tspan x="152" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c"> </tspan>
-       <tspan x="157.62207" y="-0.078125" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">F</tspan>
-       <tspan x="175.963379" y="-0.078125" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">q</tspan>
-       <tspan x="168.550781" y="-0.078125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">(</tspan>
-       <tspan x="188.023926" y="-0.078125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">)</tspan>
-      </text>
      </g>
-    </g>
    </g>
    <g id="line2d_9">
     <path d="M 75.6 367.2  L 80.389877 352.430521  L 85.179753 338.422123  L 89.96963 325.135587  L 94.759507 312.533714  L 99.549383 300.581225  L 104.33926 289.244655  L 109.129137 278.492266  L 113.919014 268.293955  L 118.70889 258.621169  L 123.498767 249.446829  L 128.288644 240.745248  L 133.07852 232.492065  L 137.868397 224.664175  L 142.658274 217.23966  L 147.44815 210.197736  L 152.238027 203.518687  L 157.027904 197.183813  L 161.817781 191.17538  L 166.607657 185.476565  L 172.195847 179.198032  L 177.784036 173.295314  L 183.372226 167.745916  L 188.960415 162.528689  L 194.548605 157.62375  L 200.136794 153.012407  L 205.724984 148.677086  L 211.313173 144.601265  L 217.699675 140.241056  L 224.086178 136.177823  L 230.47268 132.39134  L 236.859182 128.862755  L 243.245684 125.574505  L 250.430499 122.142159  L 257.615314 118.971673  L 264.80013 116.043067  L 271.984945 113.337889  L 279.968072 110.573493  L 287.9512 108.042413  L 296.732641 105.504255  L 305.514081 103.20072  L 315.093835 100.929929  L 324.673588 98.88714  L 335.051654 96.904915  L 346.228033 95.009616  L 358.202725 93.222491  L 370.177417 91.656775  L 383.748734 90.115466  L 398.118364 88.716694  L 413.286307 87.462296  L 430.050876 86.299712  L 448.41207 85.250631  L 469.168202 84.294672  L 473.958079 84.10349  L 473.958079 84.10349  " clip-path="url(#p7354d4e44a)" style="fill: none; stroke: #243a4c; stroke-width: 2.5; stroke-linecap: square"/>
@@ -408,4 +390,21 @@
     <text style="font-size: 21px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243a4c" x="589.481921" y="49.12" transform="rotate(-0 589.481921 49.12)">重复抽校准集：覆盖本身会变</text>
    </g>
   </g>
- </g><text x="96.905493" y="1364.89839" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="26" fill="#283c4c" aria-label="更换校准集后的概率密度" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="96.905493" dy="0">更换校准集后</tspan><tspan x="96.905493" dy="30.68">的概率密度</tspan></text></svg></svg>
+ </g><text x="96.905493" y="1364.89839" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="26" fill="#283c4c" aria-label="更换校准集后的概率密度" id="text_28" data-axis-label="matplotlib.axis_4"><tspan x="96.905493" dy="0">更换校准集后</tspan><tspan x="96.905493" dy="30.68">的概率密度</tspan></text></svg><g transform="translate(167.840283 285.347604) scale(1.8023256)"><g style="fill: #243a4c">
+      <text>
+       <tspan x="0" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">冻</tspan>
+       <tspan x="19" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">结</tspan>
+       <tspan x="38" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">后</tspan>
+       <tspan x="57" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">的</tspan>
+       <tspan x="76" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">真</tspan>
+       <tspan x="95" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">实</tspan>
+       <tspan x="114" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">覆</tspan>
+       <tspan x="133" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c">盖</tspan>
+       <tspan x="152" y="-0.078125" style="font-size: 19px; font-family: 'Microsoft YaHei'; fill: #243a4c"> </tspan>
+       <tspan x="157.62207" y="-0.078125" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">F</tspan>
+       <tspan x="175.963379" y="-0.078125" style="font-style: oblique; font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">q</tspan>
+       <tspan x="168.550781" y="-0.078125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">(</tspan>
+       <tspan x="188.023926" y="-0.078125" style="font-size: 19px; font-family: 'DejaVu Sans'; fill: #243a4c">)</tspan>
+      </text>
+     </g>
+    </g></svg>
