@@ -173,11 +173,9 @@
     <polyline clip-path="url(#p10cafb13f9)" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #1f627d; stroke-width: 3" points="267.85895,-1 269.953235,3.188571 274.667521,12.617143 279.381807,22.045714 284.096092,31.474286 288.810378,40.902857 293.524664,50.331429 298.23895,59.76 302.953235,69.188571 307.667521,78.617143 312.381807,88.045714 317.096092,97.474286 321.810378,106.902857 326.524664,116.331429 331.23895,125.76 335.953235,135.188571 340.667521,144.617143 345.381807,154.045714 350.096092,163.474286 354.810378,172.902857 359.524664,182.331429 364.23895,191.76 368.953235,201.188571 373.667521,210.617143 378.381807,220.045714 383.096092,229.474286 387.810378,238.902857 392.524664,248.331429 397.23895,257.76 401.953235,267.188571 406.667521,276.617143 411.381807,286.045714 416.096092,295.474286 420.810378,304.902857 425.524664,314.331429 430.23895,323.76 434.953235,333.188571 439.667521,342.617143 444.381807,352.045714 449.096092,361.474286 453.810378,370.902857 458.524664,380.331429 463.23895,389.76"/>
    </g>
    <g id="patch_3">
-    <line style="fill: none; stroke: #6d8b96; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="232.23895" y1="574.56" x2="232.23895" y2="158.76"/>
-   </g>
+    <line x1="232.23895" y1="574.56" x2="232.23895" y2="158.76" stroke="#202a37" stroke-width="0.81942568"/></g>
    <g id="patch_4">
-    <line style="fill: none; stroke: #6d8b96; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="232.23895" y1="574.56" x2="474.78895" y2="574.56"/>
-   </g>
+    <line x1="232.23895" y1="574.56" x2="474.78895" y2="574.56" stroke="#202a37" stroke-width="0.81942568"/></g>
    <g id="patch_5">
     <path d="M 348.632481 387.972936 Q 376.613922 332.010056 402.595362 280.047175 " style="fill: none; stroke: #1f627d; stroke-width: 4; stroke-linecap: round"/>
     <polyline style="fill: none; stroke: #1f627d; stroke-width: 4; stroke-linecap: round" points="394.008861,286.487051 402.595362,280.047175 402.595362,290.780302"/>
@@ -252,8 +250,7 @@
    <g id="matplotlib.axis_4">
     <g id="ytick_9">
      <g id="line2d_19">
-      <line clip-path="url(#p156039c12d)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="770.412101" y1="471.66" x2="1244.16" y2="471.66"/>
-     </g>
+      <line x1="770.412101" y1="471.66" x2="1244.16" y2="471.66" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p156039c12d)"/></g>
      <g id="line2d_20">
       <g>
        <use xlink:href="#m69caf6e16e" x="770.412101" y="471.66" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
@@ -265,8 +262,7 @@
     </g>
     <g id="ytick_10">
      <g id="line2d_21">
-      <line clip-path="url(#p156039c12d)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="770.412101" y1="261.66" x2="1244.16" y2="261.66"/>
-     </g>
+      <line x1="770.412101" y1="261.66" x2="1244.16" y2="261.66" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p156039c12d)"/></g>
      <g id="line2d_22">
       <g>
        <use xlink:href="#m69caf6e16e" x="770.412101" y="261.66" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
@@ -284,11 +280,9 @@
     <path d="M 770.412101 345.66 L 1108.941661 345.66 L 1108.941661 177.66 L 770.412101 177.66 z " clip-path="url(#p156039c12d)" style="fill: #bc6330"/>
    </g>
    <g id="patch_10">
-    <line style="fill: none; stroke: #6d8b96; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="770.412101" y1="574.56" x2="770.412101" y2="158.76"/>
-   </g>
+    <line x1="770.412101" y1="574.56" x2="770.412101" y2="158.76" stroke="#202a37" stroke-width="1.60049966"/></g>
    <g id="patch_11">
-    <line style="fill: none; stroke: #6d8b96; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="770.412101" y1="574.56" x2="1244.16" y2="574.56"/>
-   </g>
+    <line x1="770.412101" y1="574.56" x2="1244.16" y2="574.56" stroke="#202a37" stroke-width="1.60049966"/></g>
   </g>
   <g id="text_24">
    <!-- $F=\operatorname{diag}(4,1)$，$g=(2,1)$；$\frac{\Delta^T F\Delta}{2}\leq0.01$。收益 0.2 对 0.1715。 -->

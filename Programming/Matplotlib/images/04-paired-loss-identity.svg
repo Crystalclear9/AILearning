@@ -10,7 +10,7 @@
   <clipPath id="pd8169143f9">
    <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
   </clipPath>
- </defs><rect id="edition-paper" x="-18.24" y="65.76" width="996.48" height="1396.48" fill="#ffffff"/><svg id="edition-view" x="0" y="84" width="960" height="1360" viewBox="0 84 960 1360" overflow="hidden"><rect x="0" y="0" width="960" height="1444" fill="#ffffff"/><g transform="translate(42.08115 92.65091) scale(1.89930517)"><g id="axes_1">
+ <linearGradient id="inkwash-series-1" x1="0%" x2="22%" y1="0%" y2="100%"><stop offset="0%" stop-color="#2a77a6" stop-opacity=".31"/><stop offset="100%" stop-color="#2a77a6" stop-opacity=".74"/></linearGradient><linearGradient id="inkwash-series-2" x1="0%" x2="22%" y1="0%" y2="100%"><stop offset="0%" stop-color="#b76633" stop-opacity=".31"/><stop offset="100%" stop-color="#b76633" stop-opacity=".74"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="65.76" width="996.48" height="1396.48" fill="#ffffff"/><svg id="edition-view" x="0" y="84" width="960" height="1360" viewBox="0 84 960 1360" overflow="hidden"><rect x="0" y="0" width="960" height="1444" fill="#ffffff"/><g transform="translate(42.08115 92.65091) scale(1.89930517)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -118,11 +118,9 @@
     </g>
    </g>
    <g id="patch_3">
-    <path d="M 71.28 284.256 L 71.28 40.608 " style="fill: none; stroke: #a2b4c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="71.28" y1="284.256" x2="71.28" y2="40.608" stroke="#202a37" stroke-width="1.24942421"/></g>
    <g id="patch_4">
-    <path d="M 71.28 284.256 L 441.109565 284.256 " style="fill: none; stroke: #a2b4c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="71.28" y1="284.256" x2="441.109565" y2="284.256" stroke="#202a37" stroke-width="1.24942421"/></g>
    <g id="text_11">
     <text style="font-size: 19.2px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #263e50" x="256.194783" y="34.608" transform="rotate(-0 256.194783 34.608)">同一批记录的两种排列</text>
    </g>
@@ -150,29 +148,21 @@
     <path d="M 552.058435 284.256 L 921.888 284.256 L 921.888 40.608 L 552.058435 40.608 z " style="fill: #ffffff"/>
    </g>
    <g id="patch_6">
-    <path d="M 568.86887 284.256 L 601.405195 284.256 L 601.405195 273.181091 L 568.86887 273.181091 z " clip-path="url(#pd8169143f9)" style="fill: #2a77a6"/>
-   </g>
+    <rect x="568.86887" y="273.181091" width="32.536325" height="11.074909" fill="url(#inkwash-series-1)" stroke="#2a77a6" stroke-width="1.02452785" clip-path="url(#pd8169143f9)"/></g>
    <g id="patch_7">
-    <path d="M 659.247551 284.256 L 691.783877 284.256 L 691.783877 107.057455 L 659.247551 107.057455 z " clip-path="url(#pd8169143f9)" style="fill: #2a77a6"/>
-   </g>
+    <rect x="659.247551" y="107.057455" width="32.536326" height="177.198545" fill="url(#inkwash-series-1)" stroke="#2a77a6" stroke-width="1.02452785" clip-path="url(#pd8169143f9)"/></g>
    <g id="patch_8">
-    <path d="M 749.626233 284.256 L 782.162558 284.256 L 782.162558 107.057455 L 749.626233 107.057455 z " clip-path="url(#pd8169143f9)" style="fill: #2a77a6"/>
-   </g>
+    <rect x="749.626233" y="107.057455" width="32.536325" height="177.198545" fill="url(#inkwash-series-1)" stroke="#2a77a6" stroke-width="1.02452785" clip-path="url(#pd8169143f9)"/></g>
    <g id="patch_9">
-    <path d="M 840.004914 284.256 L 872.54124 284.256 L 872.54124 273.181091 L 840.004914 273.181091 z " clip-path="url(#pd8169143f9)" style="fill: #2a77a6"/>
-   </g>
+    <rect x="840.004914" y="273.181091" width="32.536326" height="11.074909" fill="url(#inkwash-series-1)" stroke="#2a77a6" stroke-width="1.02452785" clip-path="url(#pd8169143f9)"/></g>
    <g id="patch_10">
-    <path d="M 601.405195 284.256 L 633.94152 284.256 L 633.94152 107.057455 L 601.405195 107.057455 z " clip-path="url(#pd8169143f9)" style="fill: #b76633"/>
-   </g>
+    <rect x="601.405195" y="107.057455" width="32.536325" height="177.198545" fill="url(#inkwash-series-2)" stroke="#b76633" stroke-width="1.02452785" clip-path="url(#pd8169143f9)"/></g>
    <g id="patch_11">
-    <path d="M 691.783877 284.256 L 724.320202 284.256 L 724.320202 273.181091 L 691.783877 273.181091 z " clip-path="url(#pd8169143f9)" style="fill: #b76633"/>
-   </g>
+    <rect x="691.783877" y="273.181091" width="32.536325" height="11.074909" fill="url(#inkwash-series-2)" stroke="#b76633" stroke-width="1.02452785" clip-path="url(#pd8169143f9)"/></g>
    <g id="patch_12">
-    <path d="M 782.162558 284.256 L 814.698884 284.256 L 814.698884 273.181091 L 782.162558 273.181091 z " clip-path="url(#pd8169143f9)" style="fill: #b76633"/>
-   </g>
+    <rect x="782.162558" y="273.181091" width="32.536326" height="11.074909" fill="url(#inkwash-series-2)" stroke="#b76633" stroke-width="1.02452785" clip-path="url(#pd8169143f9)"/></g>
    <g id="patch_13">
-    <path d="M 872.54124 284.256 L 905.077565 284.256 L 905.077565 107.057455 L 872.54124 107.057455 z " clip-path="url(#pd8169143f9)" style="fill: #b76633"/>
-   </g>
+    <rect x="872.54124" y="107.057455" width="32.536325" height="177.198545" fill="url(#inkwash-series-2)" stroke="#b76633" stroke-width="1.02452785" clip-path="url(#pd8169143f9)"/></g>
    <g id="matplotlib.axis_3">
     <g id="xtick_7">
      <g id="line2d_13">
@@ -271,11 +261,9 @@
     </g>
     </g>
    <g id="patch_14">
-    <path d="M 552.058435 284.256 L 552.058435 40.608 " style="fill: none; stroke: #a2b4c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="552.058435" y1="284.256" x2="552.058435" y2="40.608" stroke="#202a37" stroke-width="1.24942421"/></g>
    <g id="patch_15">
-    <path d="M 552.058435 284.256 L 921.888 284.256 " style="fill: none; stroke: #a2b4c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="552.058435" y1="284.256" x2="921.888" y2="284.256" stroke="#202a37" stroke-width="1.24942421"/></g>
    <g id="text_25">
     <text style="font-size: 19.2px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #263e50" x="736.973217" y="34.608" transform="rotate(-0 736.973217 34.608)">总体均值相同，记录级错误不同</text>
    </g>

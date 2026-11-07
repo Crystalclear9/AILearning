@@ -252,11 +252,9 @@
     <path d="M 138.156766 332.274194 L 542.953802 98.564516 " clip-path="url(#p795d058eab)" style="fill: none; stroke: #728e9c; stroke-width: 2; stroke-linecap: square"/>
    </g>
    <g id="patch_3">
-    <path d="M 111.926252 367.83871 L 111.926252 63 " style="fill: none; stroke: #a7b6c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="111.926252" y1="367.83871" x2="111.926252" y2="63" stroke="#202a37" stroke-width="1.54479076"/></g>
    <g id="patch_4">
-    <path d="M 111.926252 367.83871 L 569.184316 367.83871 " style="fill: none; stroke: #a7b6c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="111.926252" y1="367.83871" x2="569.184316" y2="367.83871" stroke="#202a37" stroke-width="1.54479076"/></g>
    <g id="text_15">
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #223747" x="340.555284" y="57" transform="rotate(-0 340.555284 57)">A  投影与重构残差</text>
    </g>
@@ -430,11 +428,9 @@
     <path d="M 714.249432 215.419355 L 1187.28 215.419355 " clip-path="url(#p38e2c53e04)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #728e9c; stroke-width: 1.5"/>
    </g>
    <g id="patch_6">
-    <path d="M 714.249432 367.83871 L 714.249432 63 " style="fill: none; stroke: #a7b6c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="714.249432" y1="367.83871" x2="714.249432" y2="63" stroke="#202a37" stroke-width="1.59807624"/></g>
    <g id="patch_7">
-    <path d="M 714.249432 367.83871 L 1187.28 367.83871 " style="fill: none; stroke: #a7b6c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="714.249432" y1="367.83871" x2="1187.28" y2="367.83871" stroke="#202a37" stroke-width="1.59807624"/></g>
    <g id="text_26">
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #223747" x="950.764716" y="57" transform="rotate(-0 950.764716 57)">B  高方差并未区分类别</text>
    </g>
@@ -563,11 +559,9 @@
     <path d="M 125.541389 788.516129 L 131.275093 788.409171 L 137.008797 788.088484 L 142.742501 787.554631 L 148.476205 786.808549 L 154.209909 785.851546 L 159.943613 784.685302 L 165.677316 783.311861 L 171.41102 781.733635 L 177.144724 779.953391 L 182.878428 777.974253 L 188.612132 775.799692 L 195.779262 772.812523 L 202.946391 769.534179 L 210.113521 765.973647 L 217.280651 762.140686 L 224.447781 758.045801 L 231.614911 753.700217 L 238.78204 749.115844 L 247.382596 743.317132 L 255.983152 737.215575 L 264.583708 730.835255 L 273.184264 724.201351 L 283.218245 716.176275 L 294.685653 706.681159 L 307.586487 695.666338 L 323.354172 681.863214 L 379.257785 632.56173 L 390.725193 622.882876 L 400.759174 614.663041 L 410.793156 606.722058 L 419.393712 600.169821 L 427.994268 593.879677 L 436.594823 587.87645 L 445.195379 582.183832 L 452.362509 577.693503 L 459.529639 573.446807 L 466.696769 569.455384 L 473.863898 565.730175 L 481.031028 562.28139 L 488.198158 559.118482 L 495.365288 556.250121 L 501.098992 554.172816 L 506.832696 552.292712 L 512.566399 550.613109 L 518.300103 549.136952 L 524.033807 547.866831 L 529.767511 546.804974 L 535.501215 545.953245 L 541.234919 545.313137 L 546.968622 544.885773 L 552.702326 544.671904 L 555.569178 544.645161 L 555.569178 544.645161 " clip-path="url(#p7a3a1ff5a2)" style="fill: none; stroke: #c27446; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="patch_9">
-    <path d="M 104.04 819 L 104.04 514.16129 " style="fill: none; stroke: #a7b6c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="104.04" y1="819" x2="104.04" y2="514.16129" stroke="#202a37" stroke-width="1.59807624"/></g>
    <g id="patch_10">
-    <path d="M 104.04 819 L 577.070568 819 " style="fill: none; stroke: #a7b6c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="104.04" y1="819" x2="577.070568" y2="819" stroke="#202a37" stroke-width="1.59807624"/></g>
    <g id="text_39">
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #223747" x="340.555284" y="508.16129" transform="rotate(-0 340.555284 508.16129)">C  PCA 优化哪一项</text>
    </g>
@@ -828,8 +822,7 @@
     </g>
    </g>
    <g id="patch_12">
-    <path d="M 714.249432 819 L 1187.28 819 " style="fill: none; stroke: #a7b6c6; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="714.249432" y1="819" x2="1187.28" y2="819" stroke="#202a37" stroke-width="1.59807624"/></g>
    <g id="text_50">
     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #223747" x="950.764716" y="508.16129" transform="rotate(-0 950.764716 508.16129)">D  保留下来的可区分性</text>
    </g>

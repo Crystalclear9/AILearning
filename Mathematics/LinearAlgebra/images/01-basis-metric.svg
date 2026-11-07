@@ -312,11 +312,9 @@
     <path d="M 305.645607 226.704005 L 411.101337 121.248275 " clip-path="url(#pcb024b35b8)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #bf6b3f; stroke-opacity: 0.8; stroke-width: 1.5"/>
    </g>
    <g id="patch_3">
-    <path d="M 63.097428 279.43187 L 63.097428 47.429264 " style="fill: none; stroke: #1d262f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="63.097428" y1="279.43187" x2="63.097428" y2="47.429264" stroke="#202a37" stroke-width="1.3894505"/></g>
    <g id="patch_4">
-    <path d="M 63.097428 279.43187 L 474.374775 279.43187 " style="fill: none; stroke: #1d262f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="63.097428" y1="279.43187" x2="474.374775" y2="279.43187" stroke="#202a37" stroke-width="1.3894505"/></g>
    <g id="patch_5">
     <path d="M 96.732682 226.704005 Q 147.462006 226.704005 195.284441 226.704005 " style="fill: none; stroke: #2a7498; stroke-width: 2.6; stroke-linecap: round"/>
     <path d="M 189.284441 223.704005 L 195.284441 226.704005 L 189.284441 229.704005 " style="fill: none; stroke: #2a7498; stroke-width: 2.6; stroke-linecap: round"/>
@@ -613,11 +611,9 @@
     <path d="M 741.761086 301.480894 L 741.761086 25.38024 " clip-path="url(#p784b4bc6ed)" style="fill: none; stroke: #afbecb; stroke-linecap: square"/>
    </g>
    <g id="patch_9">
-    <path d="M 569.198178 301.480894 L 569.198178 25.38024 " style="fill: none; stroke: #1d262f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="569.198178" y1="301.480894" x2="569.198178" y2="25.38024" stroke="#202a37" stroke-width="1.1659656"/></g>
    <g id="patch_10">
-    <path d="M 569.198178 301.480894 L 914.323995 301.480894 " style="fill: none; stroke: #1d262f; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
-   </g>
+    <line x1="569.198178" y1="301.480894" x2="914.323995" y2="301.480894" stroke="#202a37" stroke-width="1.1659656"/></g>
    <g id="text_34">
     <!-- 同一长度：$\|Sz\|_2^2=z^{\mathsf{T}}Gz$ -->
     <g transform="translate(640.961086 19.38024) scale(0.18 -0.18)">

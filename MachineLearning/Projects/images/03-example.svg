@@ -78,11 +78,9 @@
     <line clip-path="url(#p31be141c4d)" style="fill: none; stroke: #8799aa; stroke-width: 2" x1="70.324545" y1="136.460125" x2="402.165455" y2="136.460125"/>
    </g>
    <g id="patch_3">
-    <line style="fill: none; stroke: #b4c5d2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="53.7325" y1="210.764125" x2="53.7325" y2="37.388125"/>
-   </g>
+    <line x1="53.7325" y1="210.764125" x2="53.7325" y2="37.388125" stroke="#202a37" stroke-width="1.23319257"/></g>
    <g id="patch_4">
-    <line style="fill: none; stroke: #b4c5d2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="53.7325" y1="210.764125" x2="418.7575" y2="210.764125"/>
-   </g>
+    <line x1="53.7325" y1="210.764125" x2="418.7575" y2="210.764125" stroke="#202a37" stroke-width="1.23319257"/></g>
    <g id="text_4">
     <text style="font-size: 19px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="53.7325" y="22.388125" transform="rotate(-0 53.7325 22.388125)">A  原尺度：算术中点五</text>
    </g>
@@ -139,11 +137,9 @@
     <line clip-path="url(#p46ed62ab26)" style="fill: none; stroke: #8799aa; stroke-width: 2" x1="581.359545" y1="136.460125" x2="913.200455" y2="136.460125"/>
    </g>
    <g id="patch_6">
-    <line style="fill: none; stroke: #b4c5d2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="564.7675" y1="210.764125" x2="564.7675" y2="37.388125"/>
-   </g>
+    <line x1="564.7675" y1="210.764125" x2="564.7675" y2="37.388125" stroke="#202a37" stroke-width="1.23319257"/></g>
    <g id="patch_7">
-    <line style="fill: none; stroke: #b4c5d2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="564.7675" y1="210.764125" x2="929.7925" y2="210.764125"/>
-   </g>
+    <line x1="564.7675" y1="210.764125" x2="929.7925" y2="210.764125" stroke="#202a37" stroke-width="1.23319257"/></g>
    <g id="text_8">
     <text style="font-size: 19px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="564.7675" y="22.388125" transform="rotate(-0 564.7675 22.388125)">B  对数尺度：中点还原为三</text>
    </g>
@@ -200,8 +196,7 @@
    <g id="matplotlib.axis_6">
     <g id="ytick_1">
      <g id="line2d_11">
-      <line clip-path="url(#p22dd51d97e)" style="fill: none; stroke: #e5eaed; stroke-opacity: 0.13; stroke-width: 0.576; stroke-linecap: square" x1="53.7325" y1="506.291398" x2="418.7575" y2="506.291398"/>
-     </g>
+      <line x1="53.7325" y1="506.291398" x2="418.7575" y2="506.291398" stroke="#d6e2e5" stroke-width="0.70291976" stroke-opacity="0.13" clip-path="url(#p22dd51d97e)"/></g>
      <g id="line2d_12">
       <defs>
        <path id="mfffd85c85c" d="M 0 0 L -3.5 0 " style="stroke: #52707f; stroke-width: 0.8"/>
@@ -216,8 +211,7 @@
     </g>
     <g id="ytick_2">
      <g id="line2d_13">
-      <line clip-path="url(#p22dd51d97e)" style="fill: none; stroke: #e5eaed; stroke-opacity: 0.13; stroke-width: 0.576; stroke-linecap: square" x1="53.7325" y1="457.036852" x2="418.7575" y2="457.036852"/>
-     </g>
+      <line x1="53.7325" y1="457.036852" x2="418.7575" y2="457.036852" stroke="#d6e2e5" stroke-width="0.70291976" stroke-opacity="0.13" clip-path="url(#p22dd51d97e)"/></g>
      <g id="line2d_14">
       <g>
        <use xlink:href="#mfffd85c85c" x="53.7325" y="457.036852" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
@@ -229,8 +223,7 @@
     </g>
     <g id="ytick_3">
      <g id="line2d_15">
-      <line clip-path="url(#p22dd51d97e)" style="fill: none; stroke: #e5eaed; stroke-opacity: 0.13; stroke-width: 0.576; stroke-linecap: square" x1="53.7325" y1="407.782307" x2="418.7575" y2="407.782307"/>
-     </g>
+      <line x1="53.7325" y1="407.782307" x2="418.7575" y2="407.782307" stroke="#d6e2e5" stroke-width="0.70291976" stroke-opacity="0.13" clip-path="url(#p22dd51d97e)"/></g>
      <g id="line2d_16">
       <g>
        <use xlink:href="#mfffd85c85c" x="53.7325" y="407.782307" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
@@ -242,8 +235,7 @@
     </g>
     <g id="ytick_4">
      <g id="line2d_17">
-      <line clip-path="url(#p22dd51d97e)" style="fill: none; stroke: #e5eaed; stroke-opacity: 0.13; stroke-width: 0.576; stroke-linecap: square" x1="53.7325" y1="358.527761" x2="418.7575" y2="358.527761"/>
-     </g>
+      <line x1="53.7325" y1="358.527761" x2="418.7575" y2="358.527761" stroke="#d6e2e5" stroke-width="0.70291976" stroke-opacity="0.13" clip-path="url(#p22dd51d97e)"/></g>
      <g id="line2d_18">
       <g>
        <use xlink:href="#mfffd85c85c" x="53.7325" y="358.527761" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
@@ -264,11 +256,9 @@
     <polyline clip-path="url(#p22dd51d97e)" style="fill: none; stroke: #264759; stroke-width: 3; stroke-linecap: square" points="70.324545,348.676852 77.639676,355.472607 84.954806,361.961996 92.269936,368.145019 99.585066,374.021676 106.900197,379.591967 113.550315,384.390013 120.200434,388.934864 126.850552,393.22652 133.50067,397.26498 140.150789,401.050246 146.800907,404.582317 153.451026,407.861193 160.101144,410.886874 166.751263,413.659359 173.401381,416.17865 180.051499,418.444746 186.701618,420.457646 193.351736,422.217352 200.001855,423.723862 205.986961,424.86324 211.972068,425.79753 217.957174,426.526731 223.942281,427.050845 229.927388,427.369871 235.912494,427.483809 241.897601,427.392658 247.882707,427.09642 253.867814,426.595094 259.85292,425.88868 265.838027,424.977178 271.823134,423.860587 277.80824,422.538909 284.458359,420.829843 291.108477,418.867581 297.758595,416.652125 304.408714,414.183473 311.058832,411.461626 317.708951,408.486585 324.359069,405.258348 331.009187,401.776916 337.659306,398.042289 344.309424,394.054467 350.959543,389.81345 357.609661,385.319238 364.25978,380.571831 370.909898,375.571229 378.225028,369.778127 385.540158,363.678658 392.855289,357.272824 400.170419,350.560623 402.165455,348.676852 402.165455,348.676852"/>
    </g>
    <g id="patch_9">
-    <line style="fill: none; stroke: #b4c5d2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="53.7325" y1="514.172125" x2="53.7325" y2="340.796125"/>
-   </g>
+    <line x1="53.7325" y1="514.172125" x2="53.7325" y2="340.796125" stroke="#202a37" stroke-width="1.23319257"/><polyline points="50.40288007,348.19528041 53.7325,340.796125 57.06211993,348.19528041" fill="none" stroke="#202a37" stroke-width="1.15920101" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_10">
-    <line style="fill: none; stroke: #b4c5d2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="53.7325" y1="514.172125" x2="418.7575" y2="514.172125"/>
-   </g>
+    <line x1="53.7325" y1="514.172125" x2="418.7575" y2="514.172125" stroke="#202a37" stroke-width="1.23319257"/></g>
    <g id="text_19">
     <text style="font-size: 19px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="53.7325" y="325.796125" transform="rotate(-0 53.7325 325.796125)">C  原尺度：加权平方再相加</text>
    </g>
@@ -356,8 +346,7 @@
    <g id="matplotlib.axis_8">
     <g id="ytick_5">
      <g id="line2d_29">
-      <line clip-path="url(#pee5b62f66e)" style="fill: none; stroke: #e5eaed; stroke-opacity: 0.13; stroke-width: 0.576; stroke-linecap: square" x1="564.7675" y1="506.291398" x2="929.7925" y2="506.291398"/>
-     </g>
+      <line x1="564.7675" y1="506.291398" x2="929.7925" y2="506.291398" stroke="#d6e2e5" stroke-width="0.70291976" stroke-opacity="0.13" clip-path="url(#pee5b62f66e)"/></g>
      <g id="line2d_30">
       <g>
        <use xlink:href="#mfffd85c85c" x="564.7675" y="506.291398" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
@@ -369,8 +358,7 @@
     </g>
     <g id="ytick_6">
      <g id="line2d_31">
-      <line clip-path="url(#pee5b62f66e)" style="fill: none; stroke: #e5eaed; stroke-opacity: 0.13; stroke-width: 0.576; stroke-linecap: square" x1="564.7675" y1="440.996779" x2="929.7925" y2="440.996779"/>
-     </g>
+      <line x1="564.7675" y1="440.996779" x2="929.7925" y2="440.996779" stroke="#d6e2e5" stroke-width="0.70291976" stroke-opacity="0.13" clip-path="url(#pee5b62f66e)"/></g>
      <g id="line2d_32">
       <g>
        <use xlink:href="#mfffd85c85c" x="564.7675" y="440.996779" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
@@ -382,8 +370,7 @@
     </g>
     <g id="ytick_7">
      <g id="line2d_33">
-      <line clip-path="url(#pee5b62f66e)" style="fill: none; stroke: #e5eaed; stroke-opacity: 0.13; stroke-width: 0.576; stroke-linecap: square" x1="564.7675" y1="375.702159" x2="929.7925" y2="375.702159"/>
-     </g>
+      <line x1="564.7675" y1="375.702159" x2="929.7925" y2="375.702159" stroke="#d6e2e5" stroke-width="0.70291976" stroke-opacity="0.13" clip-path="url(#pee5b62f66e)"/></g>
      <g id="line2d_34">
       <g>
        <use xlink:href="#mfffd85c85c" x="564.7675" y="375.702159" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
@@ -404,11 +391,9 @@
     <polyline clip-path="url(#pee5b62f66e)" style="fill: none; stroke: #264759; stroke-width: 3; stroke-linecap: square" points="581.359545,348.676852 583.354581,355.27218 586.014628,363.197616 588.674676,370.256108 591.334723,376.561585 593.99477,382.208585 596.654818,387.276285 599.314865,391.831554 601.974913,395.931286 604.63496,399.624228 607.295007,402.952407 609.955055,405.952264 612.615102,408.655567 615.275149,411.090142 618.600209,413.792491 621.925268,416.154691 625.250327,418.212668 628.575386,419.997563 631.900445,421.536507 635.225505,422.853251 639.215576,424.169266 643.205647,425.226764 647.195718,426.053023 651.185789,426.671783 655.840872,427.158962 660.495955,427.420523 665.816049,427.474797 671.136144,427.298431 677.121251,426.858084 683.106357,426.193287 689.756476,425.225463 697.071606,423.919763 705.051748,422.248724 713.696902,420.192295 723.007068,417.737486 732.982245,414.877748 744.287447,411.401707 756.922672,407.279585 771.552932,402.263064 788.84324,396.082893 809.458607,388.46509 836.724093,378.132752 883.274922,360.2085 913.200455,348.676852 913.200455,348.676852"/>
    </g>
    <g id="patch_12">
-    <line style="fill: none; stroke: #b4c5d2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="564.7675" y1="514.172125" x2="564.7675" y2="340.796125"/>
-   </g>
+    <line x1="564.7675" y1="514.172125" x2="564.7675" y2="340.796125" stroke="#202a37" stroke-width="1.23319257"/><polyline points="561.43788007,348.19528041 564.7675,340.796125 568.09711993,348.19528041" fill="none" stroke="#202a37" stroke-width="1.15920101" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_13">
-    <line style="fill: none; stroke: #b4c5d2; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="564.7675" y1="514.172125" x2="929.7925" y2="514.172125"/>
-   </g>
+    <line x1="564.7675" y1="514.172125" x2="929.7925" y2="514.172125" stroke="#202a37" stroke-width="1.23319257"/></g>
    <g id="text_32">
     <text style="font-size: 19px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="564.7675" y="325.796125" transform="rotate(-0 564.7675 325.796125)">D  对数尺度：同一概率权重</text>
    </g>

@@ -105,8 +105,7 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_8">
-      <line clip-path="url(#p9448735c59)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="110.592" y1="302.855256" x2="884.736" y2="302.855256"/>
-     </g>
+      <line x1="110.592" y1="302.855256" x2="884.736" y2="302.855256" stroke="#d6e2e5" stroke-width="0.9405" stroke-opacity="0.68" clip-path="url(#p9448735c59)"/></g>
      <g id="line2d_9">
       <defs>
        <path id="m7a4cb61592" d="M 0 0  L -3.5 0  " style="stroke: #537181; stroke-width: 0.8"/>
@@ -121,8 +120,7 @@
     </g>
     <g id="ytick_2">
      <g id="line2d_10">
-      <line clip-path="url(#p9448735c59)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="110.592" y1="259.872432" x2="884.736" y2="259.872432"/>
-     </g>
+      <line x1="110.592" y1="259.872432" x2="884.736" y2="259.872432" stroke="#d6e2e5" stroke-width="0.9405" stroke-opacity="0.68" clip-path="url(#p9448735c59)"/></g>
      <g id="line2d_11">
       <g>
        <use xlink:href="#m7a4cb61592" x="110.592" y="259.872432" style="fill: #537181; stroke: #537181; stroke-width: 0.8"/>
@@ -134,8 +132,7 @@
     </g>
     <g id="ytick_3">
      <g id="line2d_12">
-      <line clip-path="url(#p9448735c59)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="110.592" y1="216.889609" x2="884.736" y2="216.889609"/>
-     </g>
+      <line x1="110.592" y1="216.889609" x2="884.736" y2="216.889609" stroke="#d6e2e5" stroke-width="0.9405" stroke-opacity="0.68" clip-path="url(#p9448735c59)"/></g>
      <g id="line2d_13">
       <g>
        <use xlink:href="#m7a4cb61592" x="110.592" y="216.889609" style="fill: #537181; stroke: #537181; stroke-width: 0.8"/>
@@ -147,8 +144,7 @@
     </g>
     <g id="ytick_4">
      <g id="line2d_14">
-      <line clip-path="url(#p9448735c59)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="110.592" y1="173.906785" x2="884.736" y2="173.906785"/>
-     </g>
+      <line x1="110.592" y1="173.906785" x2="884.736" y2="173.906785" stroke="#d6e2e5" stroke-width="0.9405" stroke-opacity="0.68" clip-path="url(#p9448735c59)"/></g>
      <g id="line2d_15">
       <g>
        <use xlink:href="#m7a4cb61592" x="110.592" y="173.906785" style="fill: #537181; stroke: #537181; stroke-width: 0.8"/>
@@ -160,8 +156,7 @@
     </g>
     <g id="ytick_5">
      <g id="line2d_16">
-      <line clip-path="url(#p9448735c59)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="110.592" y1="130.923961" x2="884.736" y2="130.923961"/>
-     </g>
+      <line x1="110.592" y1="130.923961" x2="884.736" y2="130.923961" stroke="#d6e2e5" stroke-width="0.9405" stroke-opacity="0.68" clip-path="url(#p9448735c59)"/></g>
      <g id="line2d_17">
       <g>
        <use xlink:href="#m7a4cb61592" x="110.592" y="130.923961" style="fill: #537181; stroke: #537181; stroke-width: 0.8"/>
@@ -179,11 +174,9 @@
     <polyline clip-path="url(#p9448735c59)" style="fill: none; stroke-dasharray: 11.84,5.12; stroke-dashoffset: 0; stroke: #b96635; stroke-width: 3.2" points="125.479385,302.76929 137.294769,302.683325 149.110154,302.597359 160.925538,302.511393 172.740923,302.425428 184.556308,302.339462 196.371692,302.253496 208.187077,302.167531 220.002462,302.081565 231.817846,301.995599 243.633231,301.909634 255.448615,301.823668 267.264,301.737703 279.079385,301.651737 290.894769,301.565771 302.710154,301.479806 314.525538,301.39384 326.340923,301.307874 338.156308,301.221909 349.971692,301.135943 361.787077,301.049977 373.602462,300.964012 385.417846,300.878046 397.233231,300.79208 409.048615,300.706115 420.864,300.620149 432.679385,300.534183 444.494769,300.448218 456.310154,300.362252 468.125538,300.276287 479.940923,300.190321 491.756308,300.104355 503.571692,300.01839 515.387077,299.932424 527.202462,299.846458 539.017846,299.760493 550.833231,299.674527 562.648615,299.588561 574.464,299.502596 586.279385,299.41663 598.094769,299.330664 609.910154,299.244699 621.725538,299.158733 633.540923,299.072767 645.356308,298.986802 657.171692,298.900836 668.987077,298.814871 680.802462,298.728905 692.617846,298.642939 704.433231,298.556974 716.248615,298.471008 728.064,298.385042 739.879385,298.299077 751.694769,298.213111 763.510154,298.127145 775.325538,298.04118 787.140923,297.955214 798.956308,297.869248 810.771692,297.783283 822.587077,297.697317 834.402462,297.611351 846.217846,297.525386 858.033231,297.43942 869.848615,297.353455"/>
    </g>
    <g id="patch_3">
-    <line style="fill: none; stroke: #7c8ea0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="110.592" y1="324.216" x2="110.592" y2="102.6"/>
-   </g>
+    <line x1="110.592" y1="324.216" x2="110.592" y2="102.6" stroke="#202a37" stroke-width="1.65"/><polyline points="106.137,112.5 110.592,102.6 115.047,112.5" fill="none" stroke="#202a37" stroke-width="1.551" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_4">
-    <line style="fill: none; stroke: #7c8ea0; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="110.592" y1="324.216" x2="884.736" y2="324.216"/>
-   </g>
+    <line x1="110.592" y1="324.216" x2="884.736" y2="324.216" stroke="#202a37" stroke-width="1.65"/></g>
    <g id="legend_1">
     <g id="line2d_20">
      <polyline style="fill: none; stroke: #206b87; stroke-width: 3.2; stroke-linecap: square" points="126.792,126.88875 144.792,126.88875 162.792,126.88875"/>

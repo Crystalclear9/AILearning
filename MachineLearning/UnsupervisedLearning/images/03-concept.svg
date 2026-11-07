@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1712.54" viewBox="-18.24 22.7021 996.48 1712.54" role="img" aria-labelledby="artwork-title"><title id="artwork-title">异常分数的边界：点密度、典型半径与告警精确率</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="1619.583333"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="22.7021" width="996.48" height="1712.54" fill="#ffffff"/><svg id="edition-view" x="0" y="40.9421" width="960" height="1676.06" viewBox="0 40.942099 960 1676.057901" overflow="hidden"><rect x="0" y="40.942099" width="960" height="1676.057901" fill="#ffffff" id="plate-canvas"/><rect width="960" height="1717" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1712.54" viewBox="-18.24 22.7021 996.48 1712.54" role="img" aria-labelledby="artwork-title"><title id="artwork-title">异常分数的边界：点密度、典型半径与告警精确率</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="1619.583333"/></clipPath><linearGradient id="inkwash-series-1" x1="0%" x2="22%" y1="0%" y2="100%"><stop offset="0%" stop-color="#728e9c" stop-opacity=".31"/><stop offset="100%" stop-color="#728e9c" stop-opacity=".74"/></linearGradient><linearGradient id="inkwash-series-2" x1="0%" x2="22%" y1="0%" y2="100%"><stop offset="0%" stop-color="#bc6534" stop-opacity=".31"/><stop offset="100%" stop-color="#bc6534" stop-opacity=".74"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="22.7021" width="996.48" height="1712.54" fill="#ffffff"/><svg id="edition-view" x="0" y="40.9421" width="960" height="1676.06" viewBox="0 40.942099 960 1676.057901" overflow="hidden"><rect x="0" y="40.942099" width="960" height="1676.057901" fill="#ffffff" id="plate-canvas"/><rect width="960" height="1717" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
@@ -144,11 +144,9 @@
     <line clip-path="url(#p7d9f091b11)" style="fill: none; stroke-dasharray: 1.5,2.475; stroke-dashoffset: 0; stroke: #728e9c; stroke-width: 1.845" x1="321.461703" y1="443.52" x2="321.461703" y2="92.16"/>
    </g>
    <g id="patch_3">
-    <line style="fill: none; stroke: #b5c6d3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="95.04" y1="443.52" x2="95.04" y2="92.16"/>
-   </g>
+    <line x1="95.04" y1="443.52" x2="95.04" y2="92.16" stroke="#202a37" stroke-width="1.52987637"/></g>
    <g id="patch_4">
-    <line style="fill: none; stroke: #b5c6d3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="95.04" y1="443.52" x2="547.883407" y2="443.52"/>
-   </g>
+    <line x1="95.04" y1="443.52" x2="547.883407" y2="443.52" stroke="#202a37" stroke-width="1.52987637"/></g>
    <g id="text_13">
     <text style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #223747" x="321.461703" y="86.16" transform="rotate(-0 321.461703 86.16)">A  十维高斯的两种密度</text>
    </g>
@@ -229,8 +227,7 @@
    <g id="matplotlib.axis_4">
     <g id="ytick_7">
      <g id="line2d_21">
-      <line clip-path="url(#p1a4a60bcc4)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="688.402088" y1="443.52" x2="1141.245495" y2="443.52"/>
-     </g>
+      <line x1="688.402088" y1="443.52" x2="1141.245495" y2="443.52" stroke="#d6e2e5" stroke-width="0.87202953" stroke-opacity="0.68" clip-path="url(#p1a4a60bcc4)"/></g>
      <g id="line2d_22">
       <g>
        <use xlink:href="#mcfbfeceeb9" x="688.402088" y="443.52" style="fill: #648799; stroke: #648799; stroke-width: 0.8"/>
@@ -242,8 +239,7 @@
     </g>
     <g id="ytick_8">
      <g id="line2d_23">
-      <line clip-path="url(#p1a4a60bcc4)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="688.402088" y1="379.636364" x2="1141.245495" y2="379.636364"/>
-     </g>
+      <line x1="688.402088" y1="379.636364" x2="1141.245495" y2="379.636364" stroke="#d6e2e5" stroke-width="0.87202953" stroke-opacity="0.68" clip-path="url(#p1a4a60bcc4)"/></g>
      <g id="line2d_24">
       <g>
        <use xlink:href="#mcfbfeceeb9" x="688.402088" y="379.636364" style="fill: #648799; stroke: #648799; stroke-width: 0.8"/>
@@ -255,8 +251,7 @@
     </g>
     <g id="ytick_9">
      <g id="line2d_25">
-      <line clip-path="url(#p1a4a60bcc4)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="688.402088" y1="315.752727" x2="1141.245495" y2="315.752727"/>
-     </g>
+      <line x1="688.402088" y1="315.752727" x2="1141.245495" y2="315.752727" stroke="#d6e2e5" stroke-width="0.87202953" stroke-opacity="0.68" clip-path="url(#p1a4a60bcc4)"/></g>
      <g id="line2d_26">
       <g>
        <use xlink:href="#mcfbfeceeb9" x="688.402088" y="315.752727" style="fill: #648799; stroke: #648799; stroke-width: 0.8"/>
@@ -268,8 +263,7 @@
     </g>
     <g id="ytick_10">
      <g id="line2d_27">
-      <line clip-path="url(#p1a4a60bcc4)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="688.402088" y1="251.869091" x2="1141.245495" y2="251.869091"/>
-     </g>
+      <line x1="688.402088" y1="251.869091" x2="1141.245495" y2="251.869091" stroke="#d6e2e5" stroke-width="0.87202953" stroke-opacity="0.68" clip-path="url(#p1a4a60bcc4)"/></g>
      <g id="line2d_28">
       <g>
        <use xlink:href="#mcfbfeceeb9" x="688.402088" y="251.869091" style="fill: #648799; stroke: #648799; stroke-width: 0.8"/>
@@ -281,8 +275,7 @@
     </g>
     <g id="ytick_11">
      <g id="line2d_29">
-      <line clip-path="url(#p1a4a60bcc4)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="688.402088" y1="187.985455" x2="1141.245495" y2="187.985455"/>
-     </g>
+      <line x1="688.402088" y1="187.985455" x2="1141.245495" y2="187.985455" stroke="#d6e2e5" stroke-width="0.87202953" stroke-opacity="0.68" clip-path="url(#p1a4a60bcc4)"/></g>
      <g id="line2d_30">
       <g>
        <use xlink:href="#mcfbfeceeb9" x="688.402088" y="187.985455" style="fill: #648799; stroke: #648799; stroke-width: 0.8"/>
@@ -294,8 +287,7 @@
     </g>
     <g id="ytick_12">
      <g id="line2d_31">
-      <line clip-path="url(#p1a4a60bcc4)" style="fill: none; stroke: #e5eaed; stroke-width: 0.576; stroke-linecap: square" x1="688.402088" y1="124.101818" x2="1141.245495" y2="124.101818"/>
-     </g>
+      <line x1="688.402088" y1="124.101818" x2="1141.245495" y2="124.101818" stroke="#d6e2e5" stroke-width="0.87202953" stroke-opacity="0.68" clip-path="url(#p1a4a60bcc4)"/></g>
      <g id="line2d_32">
       <g>
        <use xlink:href="#mcfbfeceeb9" x="688.402088" y="124.101818" style="fill: #648799; stroke: #648799; stroke-width: 0.8"/>
@@ -310,23 +302,17 @@
     <path d="M 708.985879 443.52 L 766.531962 443.52 L 766.531962 443.410046 L 708.985879 443.410046 z " clip-path="url(#p1a4a60bcc4)" style="fill: #728e9c"/>
    </g>
    <g id="patch_7">
-    <path d="M 797.518314 443.52 L 855.064397 443.52 L 855.064397 409.993292 L 797.518314 409.993292 z " clip-path="url(#p1a4a60bcc4)" style="fill: #728e9c"/>
-   </g>
+    <rect x="797.518314" y="409.993292" width="57.546083" height="33.526708" fill="url(#inkwash-series-1)" stroke="#728e9c" stroke-width="1.25449863" clip-path="url(#p1a4a60bcc4)"/></g>
    <g id="patch_8">
-    <path d="M 886.05075 443.52 L 943.596833 443.52 L 943.596833 178.247412 L 886.05075 178.247412 z " clip-path="url(#p1a4a60bcc4)" style="fill: #bc6534"/>
-   </g>
+    <rect x="886.05075" y="178.247412" width="57.546083" height="265.272588" fill="url(#inkwash-series-2)" stroke="#bc6534" stroke-width="1.25449863" clip-path="url(#p1a4a60bcc4)"/></g>
    <g id="patch_9">
-    <path d="M 974.583185 443.52 L 1032.129268 443.52 L 1032.129268 167.241687 L 974.583185 167.241687 z " clip-path="url(#p1a4a60bcc4)" style="fill: #bc6534"/>
-   </g>
+    <rect x="974.583185" y="167.241687" width="57.546083" height="276.278313" fill="url(#inkwash-series-2)" stroke="#bc6534" stroke-width="1.25449863" clip-path="url(#p1a4a60bcc4)"/></g>
    <g id="patch_10">
-    <path d="M 1063.11562 443.52 L 1120.661703 443.52 L 1120.661703 379.8712 L 1063.11562 379.8712 z " clip-path="url(#p1a4a60bcc4)" style="fill: #728e9c"/>
-   </g>
+    <rect x="1063.11562" y="379.8712" width="57.546083" height="63.6488" fill="url(#inkwash-series-1)" stroke="#728e9c" stroke-width="1.25449863" clip-path="url(#p1a4a60bcc4)"/></g>
    <g id="patch_11">
-    <line style="fill: none; stroke: #b5c6d3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="688.402088" y1="443.52" x2="688.402088" y2="92.16"/>
-   </g>
+    <line x1="688.402088" y1="443.52" x2="688.402088" y2="92.16" stroke="#202a37" stroke-width="1.52987637"/></g>
    <g id="patch_12">
-    <line style="fill: none; stroke: #b5c6d3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="688.402088" y1="443.52" x2="1141.245495" y2="443.52"/>
-   </g>
+    <line x1="688.402088" y1="443.52" x2="1141.245495" y2="443.52" stroke="#202a37" stroke-width="1.52987637"/></g>
    <g id="text_29">
     <text style="font-size: 22.754919px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #223747" x="737.758921" y="435.74401" transform="rotate(-0 737.758921 435.74401)">0.017%</text>
    </g>
@@ -454,8 +440,7 @@
     </g>
    </g>
    <g id="patch_16">
-    <line style="fill: none; stroke: #b5c6d3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" x1="1281.764176" y1="443.52" x2="1693.44" y2="443.52"/>
-   </g>
+    <line x1="1281.764176" y1="443.52" x2="1693.44" y2="443.52" stroke="#202a37" stroke-width="1.3907967"/></g>
    <g id="text_45">
     <text style="font-size: 23px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #223747" x="1628.257995" y="194.319439" transform="rotate(-0 1628.257995 194.319439)">990</text>
    </g>
