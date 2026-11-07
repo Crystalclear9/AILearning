@@ -1,59 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1370.16" height="652.16" viewBox="-25.08 -25.08 1370.16 652.16" role="img" aria-labelledby="title description">
-  <title id="title">一个输入与两个输入分别告诉我们什么</title>
-  <desc id="description">独立且公平的 X1 和 X2 经异或产生 Y。只知道一个输入时结果仍公平，同时知道两个输入时可直接确定。</desc>
-  <defs>
-    <marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#242e3a"/>
-    </marker>
-    <marker id="arrow-teal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#217283"/>
-    </marker>
-    <marker id="arrow-coral" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#af5546"/>
-    </marker>
-    <marker id="arrow-violet" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#675e8c"/>
-    </marker>
-    <linearGradient id="wash-cyan" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#95cdd4" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#95cdd4" stop-opacity="0.48"/>
-    </linearGradient>
-    <linearGradient id="wash-red" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#eab6b0" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#eab6b0" stop-opacity="0.48"/>
-    </linearGradient>
-    <linearGradient id="wash-violet" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#beb4d3" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#beb4d3" stop-opacity="0.48"/>
-    </linearGradient>
-  </defs>
-  <rect id="edition-paper" x="-25.08" y="-25.08" width="1370.16" height="652.16" fill="#ffffff"/><svg id="edition-view" x="0" y="0" width="1320" height="602" viewBox="0 0 1320 602" overflow="hidden"><rect width="1320" height="602" fill="#ffffff"/>
-  <g font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">
-    <text x="316" y="57" font-size="37" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">只知道一个输入</text>
-    <text x="964" y="57" font-size="37" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">同时知道两个输入</text>
-    <polygon points="83.00000,209.00000 177.00000,137.00000 553.00000,137.00000 459.00000,209.00000" fill="url(#wash-cyan)" stroke="#217283" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="318" y="183" font-size="33" fill="#217283" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">仍有两种可能</text>
-    <line x1="324" y1="231" x2="192" y2="374" stroke="#242e3a" stroke-width="1.8" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-    <line x1="324" y1="231" x2="446" y2="374" stroke="#242e3a" stroke-width="1.8" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-    <circle cx="170" cy="398" r="8" fill="#217283" stroke="#ffffff" stroke-width="2.4"/>
-    <text x="170" y="450" font-size="32" fill="#217283" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 0</text>
-    <text x="170" y="500" font-size="34" fill="#217283" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">½</text>
-    <circle cx="470" cy="398" r="8" fill="#af5546" stroke="#ffffff" stroke-width="2.4"/>
-    <text x="470" y="450" font-size="32" fill="#af5546" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 1</text>
-    <text x="470" y="500" font-size="34" fill="#af5546" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">½</text>
-    <text x="890" y="195" font-size="31" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">X₂ = 0</text>
-    <text x="775" y="282.8" font-size="31" fill="#242e3a" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">X₁ = 0</text>
-    <text x="1060" y="195" font-size="31" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">X₂ = 1</text>
-    <text x="775" y="387.8" font-size="31" fill="#242e3a" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">X₁ = 1</text>
-    <rect x="805" y="224" width="165" height="100" rx="2" fill="url(#wash-cyan)"/>
-    <text x="890" y="289.1" font-size="34" fill="#217283" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 0</text>
-    <rect x="975" y="224" width="165" height="100" rx="2" fill="url(#wash-red)"/>
-    <text x="1060" y="289.1" font-size="34" fill="#9b4b3e" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 1</text>
-    <rect x="805" y="329" width="165" height="100" rx="2" fill="url(#wash-red)"/>
-    <text x="890" y="394.1" font-size="34" fill="#9b4b3e" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 1</text>
-    <rect x="975" y="329" width="165" height="100" rx="2" fill="url(#wash-cyan)"/>
-    <text x="1060" y="394.1" font-size="34" fill="#217283" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">Y = 0</text>
-    <text x="970" y="499" font-size="30" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">由这一格确定输出</text>
-    <text x="970" y="552" font-size="27" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">四格概率相同</text>
-  </g>
-</svg></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="664" viewBox="0 0 1200 664" role="img" aria-labelledby="fig-title fig-desc">
+<title id="fig-title">已知一个输入与已知两个输入的区别</title>
+<desc id="fig-desc">独立公平的输入使四个组合等概率。知道一个输入时，输出仍各半；知道两个输入时，输出完全确定。</desc>
+<rect x="0" y="0" width="1200" height="664" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#ecf6f6"/></linearGradient>
+<linearGradient id="r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8e6f2"/></linearGradient>
+<linearGradient id="n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1f5f6"/></linearGradient>
+</defs>
+<text x="73" y="58" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="31" text-anchor="start" font-weight="600">异或需要两个输入一起解释</text>
+<text x="74" y="123" fill="#166d75" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="26" text-anchor="start" font-weight="400">只知道 X₁ = 0</text>
+<path d="M74 238 L86 188 L225 188 L213 238 Z" fill="url(#t)" stroke="#166d75" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="149.5" y="221.4" fill="#166d75" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" font-weight="400">X₂ = 0</text>
+<path d="M235 213 L327 213" fill="none" stroke="#166d75" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M327 213 L316 218 L316 208 Z" fill="#166d75" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="276" y="192" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" text-anchor="middle" font-weight="400">1</text>
+<path d="M256 198 L296 198" fill="none" stroke="#526976" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="276" y="223" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" text-anchor="middle" font-weight="400">2</text>
+<path d="M337 238 L349 188 L483 188 L471 238 Z" fill="url(#t)" stroke="#166d75" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="410" y="221.4" fill="#166d75" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" font-weight="400">Y = 0</text>
+<path d="M74 359 L86 309 L225 309 L213 359 Z" fill="url(#v)" stroke="#6e618e" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="149.5" y="342.4" fill="#6e618e" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" font-weight="400">X₂ = 1</text>
+<path d="M235 334 L327 334" fill="none" stroke="#6e618e" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M327 334 L316 339 L316 329 Z" fill="#6e618e" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="276" y="313" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" text-anchor="middle" font-weight="400">1</text>
+<path d="M256 319 L296 319" fill="none" stroke="#526976" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="276" y="344" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" text-anchor="middle" font-weight="400">2</text>
+<path d="M337 359 L349 309 L483 309 L471 359 Z" fill="url(#v)" stroke="#6e618e" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="410" y="342.4" fill="#6e618e" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" text-anchor="middle" font-weight="400">Y = 1</text>
+<text x="73" y="419" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">输出仍各半，条件熵 1 bit。</text>
+<text x="648" y="123" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="26" text-anchor="start" font-weight="400">同时知道 X₁ 和 X₂</text>
+<text x="838" y="167" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" text-anchor="middle" font-weight="400">X₂</text>
+<rect x="745" y="219" width="117" height="77" fill="#ecf6f6" opacity="1"/>
+<text x="803.5" y="265.5" fill="#166d75" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="middle" font-weight="400">Y = 0</text>
+<rect x="866" y="219" width="117" height="77" fill="#e8e6f2" opacity="1"/>
+<text x="924.5" y="265.5" fill="#6e618e" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="middle" font-weight="400">Y = 1</text>
+<text x="729" y="265.5" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" text-anchor="end" font-weight="400">X₁ = 0</text>
+<rect x="745" y="300" width="117" height="77" fill="#e8e6f2" opacity="1"/>
+<text x="803.5" y="346.5" fill="#6e618e" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="middle" font-weight="400">Y = 1</text>
+<rect x="866" y="300" width="117" height="77" fill="#ecf6f6" opacity="1"/>
+<text x="924.5" y="346.5" fill="#166d75" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="middle" font-weight="400">Y = 0</text>
+<text x="729" y="346.5" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" text-anchor="end" font-weight="400">X₁ = 1</text>
+<text x="803.5" y="205" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" text-anchor="middle" font-weight="400">0</text>
+<text x="924.5" y="205" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" text-anchor="middle" font-weight="400">1</text>
+<text x="648" y="419" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">落定一格，条件熵 0 bit。</text>
+<path d="M75 472 L1125 472" fill="none" stroke="#dbe8eb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="73" y="520" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="23" text-anchor="start" font-weight="400">输入独立且公平：四个组合原本各占四分之一。</text>
+<text x="73" y="583" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="24" text-anchor="start" font-weight="400">单个变量的互信息都为零；联合输入提供 1 bit。</text>
+</svg>
