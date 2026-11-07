@@ -1,19 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="2387.07" viewBox="-18.24 25.1743 996.48 2387.07" role="img" aria-labelledby="artwork-title"><title id="artwork-title">早停的谱滤波、训练预测轨迹、岭回归对照与参数换算</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="2296.798698"/></clipPath><linearGradient id="inkwash-series-1" x1="0%" x2="22%" y1="0%" y2="100%"><stop offset="0%" stop-color="#8799aa" stop-opacity=".31"/><stop offset="100%" stop-color="#8799aa" stop-opacity=".74"/></linearGradient><linearGradient id="inkwash-series-2" x1="0%" x2="22%" y1="0%" y2="100%"><stop offset="0%" stop-color="#397f8b" stop-opacity=".31"/><stop offset="100%" stop-color="#397f8b" stop-opacity=".74"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="25.1743" width="996.48" height="2387.07" fill="#ffffff"/><svg id="edition-view" x="0" y="43.4143" width="960" height="2350.59" viewBox="0 43.414313 960 2350.585687" overflow="hidden"><rect x="0" y="43.414313" width="960" height="2350.585687" fill="#ffffff" id="plate-canvas"/><rect width="960" height="2394" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T10:44:51.174021</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="2387.07" viewBox="-18.24 25.1743 996.48 2387.07" role="img" aria-labelledby="artwork-title"><title id="artwork-title">早停的谱滤波、训练预测轨迹、岭回归对照与参数换算</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="2296.798698"/></clipPath><linearGradient id="inkwash-series-1" x1="0%" x2="22%" y1="0%" y2="100%"><stop offset="0%" stop-color="#8799aa" stop-opacity=".31"/><stop offset="100%" stop-color="#8799aa" stop-opacity=".74"/></linearGradient><linearGradient id="inkwash-series-2" x1="0%" x2="22%" y1="0%" y2="100%"><stop offset="0%" stop-color="#397f8b" stop-opacity=".31"/><stop offset="100%" stop-color="#397f8b" stop-opacity=".74"/></linearGradient><linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="25.1743" width="996.48" height="2387.07" fill="#ffffff"/><svg id="plot-content" x="0" y="43.4143" width="960" height="2350.59" viewBox="0 43.414313 960 2350.585687" overflow="hidden"><rect x="0" y="43.414313" width="960" height="2350.585687" fill="#ffffff" id="plot-canvas"/><rect width="960" height="2394" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.677083)"><g><defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g id="figure_1">
@@ -25,144 +10,144 @@
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="md93b0a928d" d="M 0 0 L 0 3.5 " style="stroke: #52707f; stroke-width: 0.8"/>
+       <path id="md93b0a928d" d="M 0 0 L 0 3.5 " style="stroke: #526976; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#md93b0a928d" x="134.5125" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="134.5125" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="134.5125" y="283.778125" transform="rotate(-0 134.5125 283.778125)">0</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="134.5125" y="283.778125" transform="rotate(-0 134.5125 283.778125)">0</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#md93b0a928d" x="207.315933" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="207.315933" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="207.315933" y="283.778125" transform="rotate(-0 207.315933 283.778125)">20</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="207.315933" y="283.778125" transform="rotate(-0 207.315933 283.778125)">20</text>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#md93b0a928d" x="280.119367" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="280.119367" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="280.119367" y="283.778125" transform="rotate(-0 280.119367 283.778125)">40</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="280.119367" y="283.778125" transform="rotate(-0 280.119367 283.778125)">40</text>
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#md93b0a928d" x="352.9228" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="352.9228" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="352.9228" y="283.778125" transform="rotate(-0 352.9228 283.778125)">60</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="352.9228" y="283.778125" transform="rotate(-0 352.9228 283.778125)">60</text>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#md93b0a928d" x="425.726234" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="425.726234" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="425.726234" y="283.778125" transform="rotate(-0 425.726234 283.778125)">80</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="425.726234" y="283.778125" transform="rotate(-0 425.726234 283.778125)">80</text>
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_6">
       <g>
-       <use xlink:href="#md93b0a928d" x="498.529667" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="498.529667" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="498.529667" y="283.778125" transform="rotate(-0 498.529667 283.778125)">100</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="498.529667" y="283.778125" transform="rotate(-0 498.529667 283.778125)">100</text>
      </g>
     </g>
     <g id="text_7">
-     <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #274154" x="316.521084" y="304.545625" transform="rotate(-0 316.521084 304.545625)">梯度更新次数 t</text>
+     <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="316.521084" y="304.545625" transform="rotate(-0 316.521084 304.545625)">梯度更新次数 t</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_7">
-      <line x1="134.5125" y1="263.988125" x2="498.529667" y2="263.988125" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
+      <line x1="134.5125" y1="263.988125" x2="498.529667" y2="263.988125" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
      <g id="line2d_8">
       <defs>
-       <path id="m61980f445b" d="M 0 0 L -3.5 0 " style="stroke: #52707f; stroke-width: 0.8"/>
+       <path id="m61980f445b" d="M 0 0 L -3.5 0 " style="stroke: #526976; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m61980f445b" x="134.5125" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="134.5125" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_8">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="127.5125" y="270.383125" transform="rotate(-0 127.5125 270.383125)">0.0</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="127.5125" y="270.383125" transform="rotate(-0 127.5125 270.383125)">0.0</text>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_9">
-      <line x1="134.5125" y1="222.025162" x2="498.529667" y2="222.025162" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
+      <line x1="134.5125" y1="222.025162" x2="498.529667" y2="222.025162" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
      <g id="line2d_10">
       <g>
-       <use xlink:href="#m61980f445b" x="134.5125" y="222.025162" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="134.5125" y="222.025162" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_9">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="127.5125" y="228.420162" transform="rotate(-0 127.5125 228.420162)">0.2</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="127.5125" y="228.420162" transform="rotate(-0 127.5125 228.420162)">0.2</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_11">
-      <line x1="134.5125" y1="180.062199" x2="498.529667" y2="180.062199" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
+      <line x1="134.5125" y1="180.062199" x2="498.529667" y2="180.062199" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
      <g id="line2d_12">
       <g>
-       <use xlink:href="#m61980f445b" x="134.5125" y="180.062199" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="134.5125" y="180.062199" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_10">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="127.5125" y="186.457199" transform="rotate(-0 127.5125 186.457199)">0.4</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="127.5125" y="186.457199" transform="rotate(-0 127.5125 186.457199)">0.4</text>
      </g>
     </g>
     <g id="ytick_4">
      <g id="line2d_13">
-      <line x1="134.5125" y1="138.099236" x2="498.529667" y2="138.099236" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
+      <line x1="134.5125" y1="138.099236" x2="498.529667" y2="138.099236" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
      <g id="line2d_14">
       <g>
-       <use xlink:href="#m61980f445b" x="134.5125" y="138.099236" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="134.5125" y="138.099236" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_11">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="127.5125" y="144.494236" transform="rotate(-0 127.5125 144.494236)">0.6</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="127.5125" y="144.494236" transform="rotate(-0 127.5125 144.494236)">0.6</text>
      </g>
     </g>
     <g id="ytick_5">
      <g id="line2d_15">
-      <line x1="134.5125" y1="96.136273" x2="498.529667" y2="96.136273" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
+      <line x1="134.5125" y1="96.136273" x2="498.529667" y2="96.136273" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
      <g id="line2d_16">
       <g>
-       <use xlink:href="#m61980f445b" x="134.5125" y="96.136273" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="134.5125" y="96.136273" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_12">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="127.5125" y="102.531273" transform="rotate(-0 127.5125 102.531273)">0.8</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="127.5125" y="102.531273" transform="rotate(-0 127.5125 102.531273)">0.8</text>
      </g>
     </g>
     <g id="ytick_6">
      <g id="line2d_17">
-      <line x1="134.5125" y1="54.17331" x2="498.529667" y2="54.17331" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
+      <line x1="134.5125" y1="54.17331" x2="498.529667" y2="54.17331" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pf305384c01)"/></g>
      <g id="line2d_18">
       <g>
-       <use xlink:href="#m61980f445b" x="134.5125" y="54.17331" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="134.5125" y="54.17331" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_13">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="127.5125" y="60.56831" transform="rotate(-0 127.5125 60.56831)">1.0</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="127.5125" y="60.56831" transform="rotate(-0 127.5125 60.56831)">1.0</text>
      </g>
     </g>
     </g>
@@ -176,11 +161,11 @@
     <line clip-path="url(#pf305384c01)" style="fill: none; stroke-dasharray: 2,3.3; stroke-dashoffset: 0; stroke: #8799aa; stroke-width: 2.46" x1="170.914217" y1="263.988125" x2="170.914217" y2="37.388125"/>
    </g>
    <g id="patch_3">
-    <line x1="134.5125" y1="263.988125" x2="134.5125" y2="37.388125" stroke="#202a37" stroke-width="1.22978773"/><polyline points="131.19207314,44.76685136 134.5125,37.388125 137.83292686,44.76685136" fill="none" stroke="#202a37" stroke-width="1.15600046" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="134.5125" y1="263.988125" x2="134.5125" y2="37.388125" stroke="#233b4a" stroke-width="1.22978773"/><polyline points="131.19207314,44.76685136 134.5125,37.388125 137.83292686,44.76685136" fill="none" stroke="#233b4a" stroke-width="1.15600046" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_4">
-    <line x1="134.5125" y1="263.988125" x2="498.529667" y2="263.988125" stroke="#202a37" stroke-width="1.22978773"/></g>
+    <line x1="134.5125" y1="263.988125" x2="498.529667" y2="263.988125" stroke="#233b4a" stroke-width="1.22978773"/></g>
    <g id="text_15">
-    <text style="font-size: 19px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="134.5125" y="22.388125" transform="rotate(-0 134.5125 22.388125)">A  两个方向的学习速度</text>
+    <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="134.5125" y="22.388125" transform="rotate(-0 134.5125 22.388125)">A  两个方向的学习速度</text>
    </g>
    <g id="PathCollection_1">
     <defs>
@@ -198,13 +183,13 @@
      <polyline style="fill: none; stroke: #1f6d8a; stroke-width: 3; stroke-linecap: square" points="391.329667,215.243125 407.329667,215.243125 423.329667,215.243125"/>
     </g>
     <g id="text_16">
-     <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="436.129667" y="220.843125" transform="rotate(-0 436.129667 220.843125)">强方向</text>
+     <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="436.129667" y="220.843125" transform="rotate(-0 436.129667 220.843125)">强方向</text>
     </g>
     <g id="line2d_23">
      <polyline style="fill: none; stroke: #c06734; stroke-width: 3; stroke-linecap: square" points="391.329667,240.010625 407.329667,240.010625 423.329667,240.010625"/>
     </g>
     <g id="text_17">
-     <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="436.129667" y="245.610625" transform="rotate(-0 436.129667 245.610625)">弱方向</text>
+     <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="436.129667" y="245.610625" transform="rotate(-0 436.129667 245.610625)">弱方向</text>
     </g>
    </g>
   </g>
@@ -242,158 +227,158 @@
     <g id="xtick_7">
      <g id="line2d_24">
       <g>
-       <use xlink:href="#md93b0a928d" x="643.334463" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="643.334463" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_18">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="643.334463" y="283.778125" transform="rotate(-0 643.334463 283.778125)">0.0</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="643.334463" y="283.778125" transform="rotate(-0 643.334463 283.778125)">0.0</text>
      </g>
     </g>
     <g id="xtick_8">
      <g id="line2d_25">
       <g>
-       <use xlink:href="#md93b0a928d" x="705.032288" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="705.032288" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_19">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="705.032288" y="283.778125" transform="rotate(-0 705.032288 283.778125)">0.2</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="705.032288" y="283.778125" transform="rotate(-0 705.032288 283.778125)">0.2</text>
      </g>
     </g>
     <g id="xtick_9">
      <g id="line2d_26">
       <g>
-       <use xlink:href="#md93b0a928d" x="766.730113" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="766.730113" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_20">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="766.730113" y="283.778125" transform="rotate(-0 766.730113 283.778125)">0.4</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="766.730113" y="283.778125" transform="rotate(-0 766.730113 283.778125)">0.4</text>
      </g>
     </g>
     <g id="xtick_10">
      <g id="line2d_27">
       <g>
-       <use xlink:href="#md93b0a928d" x="828.427938" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="828.427938" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_21">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="828.427938" y="283.778125" transform="rotate(-0 828.427938 283.778125)">0.6</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="828.427938" y="283.778125" transform="rotate(-0 828.427938 283.778125)">0.6</text>
      </g>
     </g>
     <g id="xtick_11">
      <g id="line2d_28">
       <g>
-       <use xlink:href="#md93b0a928d" x="890.125763" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="890.125763" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_22">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="890.125763" y="283.778125" transform="rotate(-0 890.125763 283.778125)">0.8</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="890.125763" y="283.778125" transform="rotate(-0 890.125763 283.778125)">0.8</text>
      </g>
     </g>
     <g id="xtick_12">
      <g id="line2d_29">
       <g>
-       <use xlink:href="#md93b0a928d" x="951.823588" y="263.988125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="951.823588" y="263.988125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_23">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="951.823588" y="283.778125" transform="rotate(-0 951.823588 283.778125)">1.0</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="951.823588" y="283.778125" transform="rotate(-0 951.823588 283.778125)">1.0</text>
      </g>
     </g>
     <g id="text_24">
-     <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #274154" x="800.663916" y="304.545625" transform="rotate(-0 800.663916 304.545625)">强方向预测</text>
+     <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="800.663916" y="304.545625" transform="rotate(-0 800.663916 304.545625)">强方向预测</text>
     </g>
    </g>
    <g id="matplotlib.axis_4">
     <g id="ytick_7">
      <g id="line2d_30">
-      <line x1="618.655333" y1="248.625413" x2="982.6725" y2="248.625413" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
+      <line x1="618.655333" y1="248.625413" x2="982.6725" y2="248.625413" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
      <g id="line2d_31">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="248.625413" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="248.625413" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_25">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="255.020413" transform="rotate(-0 611.655333 255.020413)">0.0</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="255.020413" transform="rotate(-0 611.655333 255.020413)">0.0</text>
      </g>
     </g>
     <g id="ytick_8">
      <g id="line2d_32">
-      <line x1="618.655333" y1="210.218633" x2="982.6725" y2="210.218633" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
+      <line x1="618.655333" y1="210.218633" x2="982.6725" y2="210.218633" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
      <g id="line2d_33">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="210.218633" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="210.218633" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_26">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="216.613633" transform="rotate(-0 611.655333 216.613633)">0.2</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="216.613633" transform="rotate(-0 611.655333 216.613633)">0.2</text>
      </g>
     </g>
     <g id="ytick_9">
      <g id="line2d_34">
-      <line x1="618.655333" y1="171.811854" x2="982.6725" y2="171.811854" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
+      <line x1="618.655333" y1="171.811854" x2="982.6725" y2="171.811854" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
      <g id="line2d_35">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="171.811854" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="171.811854" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_27">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="178.206854" transform="rotate(-0 611.655333 178.206854)">0.4</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="178.206854" transform="rotate(-0 611.655333 178.206854)">0.4</text>
      </g>
     </g>
     <g id="ytick_10">
      <g id="line2d_36">
-      <line x1="618.655333" y1="133.405074" x2="982.6725" y2="133.405074" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
+      <line x1="618.655333" y1="133.405074" x2="982.6725" y2="133.405074" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
      <g id="line2d_37">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="133.405074" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="133.405074" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_28">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="139.800074" transform="rotate(-0 611.655333 139.800074)">0.6</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="139.800074" transform="rotate(-0 611.655333 139.800074)">0.6</text>
      </g>
     </g>
     <g id="ytick_11">
      <g id="line2d_38">
-      <line x1="618.655333" y1="94.998294" x2="982.6725" y2="94.998294" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
+      <line x1="618.655333" y1="94.998294" x2="982.6725" y2="94.998294" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
      <g id="line2d_39">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="94.998294" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="94.998294" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_29">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="101.393294" transform="rotate(-0 611.655333 101.393294)">0.8</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="101.393294" transform="rotate(-0 611.655333 101.393294)">0.8</text>
      </g>
     </g>
     <g id="ytick_12">
      <g id="line2d_40">
-      <line x1="618.655333" y1="56.591515" x2="982.6725" y2="56.591515" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
+      <line x1="618.655333" y1="56.591515" x2="982.6725" y2="56.591515" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p5899cf1eff)"/></g>
      <g id="line2d_41">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="56.591515" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="56.591515" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_30">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="62.986515" transform="rotate(-0 611.655333 62.986515)">1.0</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="62.986515" transform="rotate(-0 611.655333 62.986515)">1.0</text>
      </g>
     </g>
     </g>
    <g id="line2d_42">
-    <polyline clip-path="url(#p5899cf1eff)" style="fill: none; stroke: #264759; stroke-width: 2.46; stroke-linecap: square" points="643.334463,248.625413 797.579025,244.784735 874.701306,241.020871 913.262447,237.332284 932.543017,233.717468 942.183302,230.174949 947.003445,226.703281 949.413516,223.301045 950.618552,219.966855 951.22107,216.699348 951.522329,213.497191 951.672958,210.359078 951.748273,207.283726 951.78593,204.269882 951.804759,201.316315 951.814173,198.421819 951.81888,195.585213 951.821234,192.805339 951.822411,190.081062 951.822999,187.411271 951.823293,184.794876 951.82344,182.230809 951.823514,179.718023 951.823551,177.255493 951.823569,174.842213 951.823578,172.477199 951.823583,170.159486 951.823585,167.888126 951.823586,165.662194 951.823587,163.48078 951.823587,161.342995 951.823587,159.247966 951.823587,157.194837 951.823587,155.18277 951.823587,153.210945 951.823588,151.278556 951.823588,149.384816 951.823588,147.52895 951.823588,145.710201 951.823588,143.927827 951.823588,142.181101 951.823588,140.469309 951.823588,138.791753 951.823588,137.147749 951.823588,135.536624 951.823588,133.957722 951.823588,132.410398 951.823588,130.89402 951.823588,129.40797 951.823588,127.951641 951.823588,126.524438 951.823588,125.12578 951.823588,123.755094 951.823588,122.411823 951.823588,121.095417 951.823588,119.805339 951.823588,118.541062 951.823588,117.302071 951.823588,116.08786 951.823588,114.897933 951.823588,113.731805 951.823588,112.588999 951.823588,111.469049 951.823588,110.371499 951.823588,109.295899 951.823588,108.241811 951.823588,107.208805 951.823588,106.19646 951.823588,105.204361 951.823588,104.232104 951.823588,103.279292 951.823588,102.345536 951.823588,101.430456 951.823588,100.533677 951.823588,99.654834 951.823588,98.793567 951.823588,97.949526 951.823588,97.122366 951.823588,96.311749 951.823588,95.517344 951.823588,94.738828 951.823588,93.975882 951.823588,93.228194 951.823588,92.495461 951.823588,91.777382 951.823588,91.073664 951.823588,90.384021 951.823588,89.708171 951.823588,89.045838 951.823588,88.396752 951.823588,87.760647 951.823588,87.137264 951.823588,86.526349 951.823588,85.927653 951.823588,85.34093 951.823588,84.765942 951.823588,84.202453 951.823588,83.650234 951.823588,83.10906 951.823588,82.578709 951.823588,82.058965"/>
+    <polyline clip-path="url(#p5899cf1eff)" style="fill: none; stroke: #233b4a; stroke-width: 2.46; stroke-linecap: square" points="643.334463,248.625413 797.579025,244.784735 874.701306,241.020871 913.262447,237.332284 932.543017,233.717468 942.183302,230.174949 947.003445,226.703281 949.413516,223.301045 950.618552,219.966855 951.22107,216.699348 951.522329,213.497191 951.672958,210.359078 951.748273,207.283726 951.78593,204.269882 951.804759,201.316315 951.814173,198.421819 951.81888,195.585213 951.821234,192.805339 951.822411,190.081062 951.822999,187.411271 951.823293,184.794876 951.82344,182.230809 951.823514,179.718023 951.823551,177.255493 951.823569,174.842213 951.823578,172.477199 951.823583,170.159486 951.823585,167.888126 951.823586,165.662194 951.823587,163.48078 951.823587,161.342995 951.823587,159.247966 951.823587,157.194837 951.823587,155.18277 951.823587,153.210945 951.823588,151.278556 951.823588,149.384816 951.823588,147.52895 951.823588,145.710201 951.823588,143.927827 951.823588,142.181101 951.823588,140.469309 951.823588,138.791753 951.823588,137.147749 951.823588,135.536624 951.823588,133.957722 951.823588,132.410398 951.823588,130.89402 951.823588,129.40797 951.823588,127.951641 951.823588,126.524438 951.823588,125.12578 951.823588,123.755094 951.823588,122.411823 951.823588,121.095417 951.823588,119.805339 951.823588,118.541062 951.823588,117.302071 951.823588,116.08786 951.823588,114.897933 951.823588,113.731805 951.823588,112.588999 951.823588,111.469049 951.823588,110.371499 951.823588,109.295899 951.823588,108.241811 951.823588,107.208805 951.823588,106.19646 951.823588,105.204361 951.823588,104.232104 951.823588,103.279292 951.823588,102.345536 951.823588,101.430456 951.823588,100.533677 951.823588,99.654834 951.823588,98.793567 951.823588,97.949526 951.823588,97.122366 951.823588,96.311749 951.823588,95.517344 951.823588,94.738828 951.823588,93.975882 951.823588,93.228194 951.823588,92.495461 951.823588,91.777382 951.823588,91.073664 951.823588,90.384021 951.823588,89.708171 951.823588,89.045838 951.823588,88.396752 951.823588,87.760647 951.823588,87.137264 951.823588,86.526349 951.823588,85.927653 951.823588,85.34093 951.823588,84.765942 951.823588,84.202453 951.823588,83.650234 951.823588,83.10906 951.823588,82.578709 951.823588,82.058965"/>
    </g>
    <g id="patch_6">
-    <line x1="618.655333" y1="263.988125" x2="618.655333" y2="37.388125" stroke="#202a37" stroke-width="1.22978773"/><polyline points="615.33490614,44.76685136 618.655333,37.388125 621.97575986,44.76685136" fill="none" stroke="#202a37" stroke-width="1.15600046" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="618.655333" y1="263.988125" x2="618.655333" y2="37.388125" stroke="#233b4a" stroke-width="1.22978773"/><polyline points="615.33490614,44.76685136 618.655333,37.388125 621.97575986,44.76685136" fill="none" stroke="#233b4a" stroke-width="1.15600046" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_7">
-    <line x1="618.655333" y1="263.988125" x2="982.6725" y2="263.988125" stroke="#202a37" stroke-width="1.22978773"/></g>
+    <line x1="618.655333" y1="263.988125" x2="982.6725" y2="263.988125" stroke="#233b4a" stroke-width="1.22978773"/></g>
    <g id="patch_8">
     <path d="M 792.453964 157.774662 Q 871.045183 185.305601 948.581236 212.46691 " style="fill: none; stroke: #1f6d8a; stroke-linecap: round" stroke-width="1.23"/>
     <polyline style="fill: none; stroke: #1f6d8a; stroke-linecap: round" stroke-width="1.23" points="943.599062,207.330965 948.581236,212.46691 941.483175,213.371082"/>
    </g>
    <g id="text_32">
-    <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #287791" transform="translate(686.52294 133.282964)">第 10 步</text>
+    <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; fill: #287791" transform="translate(686.52294 133.282964)">第 10 步</text>
     <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #287791" transform="translate(686.52294 152.608464)">(0.999, 0.183)</text>
    </g>
    <g id="text_33">
-    <text style="font-size: 19px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="618.655333" y="22.388125" transform="rotate(-0 618.655333 22.388125)">B  把滤波比例还原为预测</text>
+    <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="618.655333" y="22.388125" transform="rotate(-0 618.655333 22.388125)">B  把滤波比例还原为预测</text>
    </g>
    <g id="legend_2">
     <g id="PathCollection_5">
@@ -402,7 +387,7 @@
      </g>
     </g>
     <g id="text_34">
-     <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="670.455333" y="61.179375" transform="rotate(-0 670.455333 61.179375)">观测标签 (1, 1)</text>
+     <text style="font-size: 15.280642px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="670.455333" y="61.179375" transform="rotate(-0 670.455333 61.179375)">观测标签 (1, 1)</text>
     </g>
     <g id="PathCollection_6">
      <g>
@@ -410,7 +395,7 @@
      </g>
     </g>
     <g id="text_35">
-     <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="670.455333" y="82.850937" transform="rotate(-0 670.455333 82.850937)">设定真均值 (1, 0)</text>
+     <text style="font-size: 15.280642px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="670.455333" y="82.850937" transform="rotate(-0 670.455333 82.850937)">设定真均值 (1, 0)</text>
     </g>
    </g>
    <g id="PathCollection_7">
@@ -450,109 +435,109 @@
     <g id="xtick_13">
      <g id="line2d_43">
       <g>
-       <use xlink:href="#md93b0a928d" x="134.5125" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="134.5125" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_36">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="134.5125" y="628.210125" transform="rotate(-0 134.5125 628.210125)">0.0</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="134.5125" y="628.210125" transform="rotate(-0 134.5125 628.210125)">0.0</text>
      </g>
     </g>
     <g id="xtick_14">
      <g id="line2d_44">
       <g>
-       <use xlink:href="#md93b0a928d" x="197.274081" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="197.274081" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_37">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="197.274081" y="628.210125" transform="rotate(-0 197.274081 628.210125)">0.2</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="197.274081" y="628.210125" transform="rotate(-0 197.274081 628.210125)">0.2</text>
      </g>
     </g>
     <g id="xtick_15">
      <g id="line2d_45">
       <g>
-       <use xlink:href="#md93b0a928d" x="260.035661" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="260.035661" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_38">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="260.035661" y="628.210125" transform="rotate(-0 260.035661 628.210125)">0.4</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="260.035661" y="628.210125" transform="rotate(-0 260.035661 628.210125)">0.4</text>
      </g>
     </g>
     <g id="xtick_16">
      <g id="line2d_46">
       <g>
-       <use xlink:href="#md93b0a928d" x="322.797242" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="322.797242" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_39">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="322.797242" y="628.210125" transform="rotate(-0 322.797242 628.210125)">0.6</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="322.797242" y="628.210125" transform="rotate(-0 322.797242 628.210125)">0.6</text>
      </g>
     </g>
     <g id="xtick_17">
      <g id="line2d_47">
       <g>
-       <use xlink:href="#md93b0a928d" x="385.558822" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="385.558822" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_40">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="385.558822" y="628.210125" transform="rotate(-0 385.558822 628.210125)">0.8</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="385.558822" y="628.210125" transform="rotate(-0 385.558822 628.210125)">0.8</text>
      </g>
     </g>
     <g id="xtick_18">
      <g id="line2d_48">
       <g>
-       <use xlink:href="#md93b0a928d" x="448.320403" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="448.320403" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_41">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #4a7388" x="448.320403" y="628.210125" transform="rotate(-0 448.320403 628.210125)">1.0</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #526976" x="448.320403" y="628.210125" transform="rotate(-0 448.320403 628.210125)">1.0</text>
      </g>
     </g>
     <g id="text_42">
-     <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #274154" x="316.521084" y="648.977625" transform="rotate(-0 316.521084 648.977625)">预测中保留的比例</text>
+     <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="316.521084" y="648.977625" transform="rotate(-0 316.521084 648.977625)">预测中保留的比例</text>
     </g>
    </g>
    <g id="matplotlib.axis_6">
     <g id="ytick_13">
      <g id="line2d_49">
-      <line x1="134.5125" y1="414.651375" x2="498.529667" y2="414.651375" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p492c77c8f1)"/></g>
+      <line x1="134.5125" y1="414.651375" x2="498.529667" y2="414.651375" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p492c77c8f1)"/></g>
      <g id="line2d_50">
       <g>
-       <use xlink:href="#m61980f445b" x="134.5125" y="414.651375" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="134.5125" y="414.651375" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_43">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="127.5125" y="421.046375" transform="rotate(-0 127.5125 421.046375)">早停 t = 10</text>
+      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: end; fill: #526976" x="127.5125" y="421.046375" transform="rotate(-0 127.5125 421.046375)">早停 t = 10</text>
      </g>
     </g>
     <g id="ytick_14">
      <g id="line2d_51">
-      <line x1="134.5125" y1="495.120125" x2="498.529667" y2="495.120125" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p492c77c8f1)"/></g>
+      <line x1="134.5125" y1="495.120125" x2="498.529667" y2="495.120125" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p492c77c8f1)"/></g>
      <g id="line2d_52">
       <g>
-       <use xlink:href="#m61980f445b" x="134.5125" y="495.120125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="134.5125" y="495.120125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_44">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="127.5125" y="501.515125" transform="rotate(-0 127.5125 501.515125)">岭 λ = 0.000978</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="127.5125" y="501.515125" transform="rotate(-0 127.5125 501.515125)">岭 λ = 0.000978</text>
      </g>
     </g>
     <g id="ytick_15">
      <g id="line2d_53">
-      <line x1="134.5125" y1="575.588875" x2="498.529667" y2="575.588875" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p492c77c8f1)"/></g>
+      <line x1="134.5125" y1="575.588875" x2="498.529667" y2="575.588875" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#p492c77c8f1)"/></g>
      <g id="line2d_54">
       <g>
-       <use xlink:href="#m61980f445b" x="134.5125" y="575.588875" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="134.5125" y="575.588875" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_45">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="127.5125" y="581.983875" transform="rotate(-0 127.5125 581.983875)">岭 λ = 0.178666</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="127.5125" y="581.983875" transform="rotate(-0 127.5125 581.983875)">岭 λ = 0.178666</text>
      </g>
     </g>
    </g>
    <g id="patch_16">
-    <line x1="134.5125" y1="608.420125" x2="134.5125" y2="381.820125" stroke="#202a37" stroke-width="1.22978773"/></g>
+    <line x1="134.5125" y1="608.420125" x2="134.5125" y2="381.820125" stroke="#233b4a" stroke-width="1.22978773"/></g>
    <g id="patch_17">
-    <line x1="134.5125" y1="608.420125" x2="498.529667" y2="608.420125" stroke="#202a37" stroke-width="1.22978773"/></g>
+    <line x1="134.5125" y1="608.420125" x2="498.529667" y2="608.420125" stroke="#233b4a" stroke-width="1.22978773"/></g>
    <g id="text_46">
     <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #287791" x="452.407261" y="407.241219" transform="rotate(-0 452.407261 407.241219)">0.999</text>
    </g>
@@ -572,20 +557,20 @@
     <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #a25e34" x="196.309809" y="590.709969" transform="rotate(-0 196.309809 590.709969)">0.183</text>
    </g>
    <g id="text_52">
-    <text style="font-size: 19px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="134.5125" y="366.820125" transform="rotate(-0 134.5125 366.820125)">C  匹配一方向，另一个就不同</text>
+    <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="134.5125" y="366.820125" transform="rotate(-0 134.5125 366.820125)">C  匹配一方向，另一个就不同</text>
    </g>
    <g id="legend_3">
     <g id="patch_18">
      <path d="M 207.721084 676.398125 L 239.721084 676.398125 L 239.721084 665.198125 L 207.721084 665.198125 z " style="fill: #1f6d8a"/>
     </g>
     <g id="text_53">
-     <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="252.521084" y="676.398125" transform="rotate(-0 252.521084 676.398125)">强方向</text>
+     <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="252.521084" y="676.398125" transform="rotate(-0 252.521084 676.398125)">强方向</text>
     </g>
     <g id="patch_19">
      <path d="M 332.521084 676.398125 L 364.521084 676.398125 L 364.521084 665.198125 L 332.521084 665.198125 z " style="fill: #c06734"/>
     </g>
     <g id="text_54">
-     <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="377.321084" y="676.398125" transform="rotate(-0 377.321084 676.398125)">弱方向</text>
+     <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="377.321084" y="676.398125" transform="rotate(-0 377.321084 676.398125)">弱方向</text>
     </g>
    </g>
   </g>
@@ -615,153 +600,153 @@
     <g id="xtick_19">
      <g id="line2d_55">
       <g>
-       <use xlink:href="#md93b0a928d" x="658.02396" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="658.02396" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_55">
-      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif; fill: #4a7388" transform="translate(650.02396 628.210125)">强</text>
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #4a7388" transform="translate(632.64146 647.535625)">第10步</text>
+      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; fill: #526976" transform="translate(650.02396 628.210125)">强</text>
+      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; fill: #526976" transform="translate(632.64146 647.535625)">第10步</text>
      </g>
     </g>
     <g id="xtick_20">
      <g id="line2d_56">
       <g>
-       <use xlink:href="#md93b0a928d" x="729.343938" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="729.343938" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_56">
-      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif; fill: #4a7388" transform="translate(721.343938 628.210125)">弱</text>
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #4a7388" transform="translate(703.961438 647.535625)">第10步</text>
+      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; fill: #526976" transform="translate(721.343938 628.210125)">弱</text>
+      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; fill: #526976" transform="translate(703.961438 647.535625)">第10步</text>
      </g>
     </g>
     <g id="xtick_21">
      <g id="line2d_57">
       <g>
-       <use xlink:href="#md93b0a928d" x="871.983894" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="871.983894" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_57">
-      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif; fill: #4a7388" transform="translate(863.983894 628.210125)">强</text>
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #4a7388" transform="translate(863.261394 647.535625)">LS</text>
+      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; fill: #526976" transform="translate(863.983894 628.210125)">强</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #526976" transform="translate(863.261394 647.535625)">LS</text>
      </g>
     </g>
     <g id="xtick_22">
      <g id="line2d_58">
       <g>
-       <use xlink:href="#md93b0a928d" x="943.303872" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#md93b0a928d" x="943.303872" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_58">
-      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif; fill: #4a7388" transform="translate(935.303872 628.210125)">弱</text>
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #4a7388" transform="translate(934.581372 647.535625)">LS</text>
+      <text style="font-size: 16px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; fill: #526976" transform="translate(935.303872 628.210125)">弱</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #526976" transform="translate(934.581372 647.535625)">LS</text>
      </g>
     </g>
    </g>
    <g id="matplotlib.axis_8">
     <g id="ytick_16">
      <g id="line2d_59">
-      <line x1="618.655333" y1="608.420125" x2="982.6725" y2="608.420125" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
+      <line x1="618.655333" y1="608.420125" x2="982.6725" y2="608.420125" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
      <g id="line2d_60">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="608.420125" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="608.420125" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_59">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="614.815125" transform="rotate(-0 611.655333 614.815125)">0</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="614.815125" transform="rotate(-0 611.655333 614.815125)">0</text>
      </g>
     </g>
     <g id="ytick_17">
      <g id="line2d_61">
-      <line x1="618.655333" y1="568.665739" x2="982.6725" y2="568.665739" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
+      <line x1="618.655333" y1="568.665739" x2="982.6725" y2="568.665739" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
      <g id="line2d_62">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="568.665739" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="568.665739" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_60">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="575.060739" transform="rotate(-0 611.655333 575.060739)">1</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="575.060739" transform="rotate(-0 611.655333 575.060739)">1</text>
      </g>
     </g>
     <g id="ytick_18">
      <g id="line2d_63">
-      <line x1="618.655333" y1="528.911353" x2="982.6725" y2="528.911353" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
+      <line x1="618.655333" y1="528.911353" x2="982.6725" y2="528.911353" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
      <g id="line2d_64">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="528.911353" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="528.911353" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_61">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="535.306353" transform="rotate(-0 611.655333 535.306353)">2</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="535.306353" transform="rotate(-0 611.655333 535.306353)">2</text>
      </g>
     </g>
     <g id="ytick_19">
      <g id="line2d_65">
-      <line x1="618.655333" y1="489.156967" x2="982.6725" y2="489.156967" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
+      <line x1="618.655333" y1="489.156967" x2="982.6725" y2="489.156967" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
      <g id="line2d_66">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="489.156967" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="489.156967" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_62">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="495.551967" transform="rotate(-0 611.655333 495.551967)">3</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="495.551967" transform="rotate(-0 611.655333 495.551967)">3</text>
      </g>
     </g>
     <g id="ytick_20">
      <g id="line2d_67">
-      <line x1="618.655333" y1="449.402581" x2="982.6725" y2="449.402581" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
+      <line x1="618.655333" y1="449.402581" x2="982.6725" y2="449.402581" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
      <g id="line2d_68">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="449.402581" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="449.402581" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_63">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="455.797581" transform="rotate(-0 611.655333 455.797581)">4</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="455.797581" transform="rotate(-0 611.655333 455.797581)">4</text>
      </g>
     </g>
     <g id="ytick_21">
      <g id="line2d_69">
-      <line x1="618.655333" y1="409.648195" x2="982.6725" y2="409.648195" stroke="#d6e2e5" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
+      <line x1="618.655333" y1="409.648195" x2="982.6725" y2="409.648195" stroke="#dbe8eb" stroke-width="0.700979" stroke-opacity="0.13" clip-path="url(#pdfd3e46332)"/></g>
      <g id="line2d_70">
       <g>
-       <use xlink:href="#m61980f445b" x="618.655333" y="409.648195" style="fill: #52707f; stroke: #52707f; stroke-width: 0.8"/>
+       <use xlink:href="#m61980f445b" x="618.655333" y="409.648195" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_64">
-      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7388" x="611.655333" y="416.043195" transform="rotate(-0 611.655333 416.043195)">5</text>
+      <text style="font-size: 16px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #526976" x="611.655333" y="416.043195" transform="rotate(-0 611.655333 416.043195)">5</text>
      </g>
     </g>
     </g>
    <g id="patch_29">
-    <line x1="618.655333" y1="608.420125" x2="618.655333" y2="381.820125" stroke="#202a37" stroke-width="1.22978773"/><polyline points="615.33490614,389.19885136 618.655333,381.820125 621.97575986,389.19885136" fill="none" stroke="#202a37" stroke-width="1.15600046" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="618.655333" y1="608.420125" x2="618.655333" y2="381.820125" stroke="#233b4a" stroke-width="1.22978773"/><polyline points="615.33490614,389.19885136 618.655333,381.820125 621.97575986,389.19885136" fill="none" stroke="#233b4a" stroke-width="1.15600046" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_30">
-    <line x1="618.655333" y1="608.420125" x2="982.6725" y2="608.420125" stroke="#202a37" stroke-width="1.22978773"/></g>
+    <line x1="618.655333" y1="608.420125" x2="982.6725" y2="608.420125" stroke="#233b4a" stroke-width="1.22978773"/></g>
    <g id="text_66">
-    <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #274154" x="646.612764" y="564.729123" transform="rotate(-0 646.612764 564.729123)">0.999</text>
+    <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="646.612764" y="564.729123" transform="rotate(-0 646.612764 564.729123)">0.999</text>
    </g>
    <g id="text_67">
-    <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #274154" x="717.932742" y="568.083895" transform="rotate(-0 717.932742 568.083895)">0.915</text>
+    <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="717.932742" y="568.083895" transform="rotate(-0 717.932742 568.083895)">0.915</text>
    </g>
    <g id="text_68">
-    <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #274154" x="860.572698" y="564.6903" transform="rotate(-0 860.572698 564.6903)">1.000</text>
+    <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="860.572698" y="564.6903" transform="rotate(-0 860.572698 564.6903)">1.000</text>
    </g>
    <g id="text_69">
-    <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #274154" x="931.892676" y="405.672757" transform="rotate(-0 931.892676 405.672757)">5</text>
+    <text style="font-size: 15.280642px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="931.892676" y="405.672757" transform="rotate(-0 931.892676 405.672757)">5</text>
    </g>
    <g id="text_70">
-    <text style="font-size: 19px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="618.655333" y="366.820125" transform="rotate(-0 618.655333 366.820125)">D  系数要乘奇异值才是预测</text>
+    <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="618.655333" y="366.820125" transform="rotate(-0 618.655333 366.820125)">D  系数要乘奇异值才是预测</text>
    </g>
    <g id="legend_4">
     <g id="patch_31">
      <path d="M 631.255333 405.611375 L 659.255333 405.611375 L 659.255333 395.811375 L 631.255333 395.811375 z " style="fill: #8799aa"/>
     </g>
     <g id="text_71">
-     <text style="font-size: 16.86px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="670.455333" y="405.611375" transform="rotate(-0 670.455333 405.611375)">参数系数</text>
+     <text style="font-size: 16.86px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="670.455333" y="405.611375" transform="rotate(-0 670.455333 405.611375)">参数系数</text>
     </g>
     <g id="patch_32">
      <path d="M 631.255333 427.282938 L 659.255333 427.282938 L 659.255333 417.482937 L 631.255333 417.482937 z " style="fill: #397f8b"/>
     </g>
     <g id="text_72">
-     <text style="font-size: 16.97px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #274154" x="670.455333" y="427.282938" transform="rotate(-0 670.455333 427.282938)">训练预测</text>
+     <text style="font-size: 16.97px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="670.455333" y="427.282938" transform="rotate(-0 670.455333 427.282938)">训练预测</text>
     </g>
    </g>
   </g>
@@ -781,4 +766,4 @@
    <rect x="618.655333" y="381.820125" width="364.017167" height="226.6"/>
   </clipPath>
  </defs>
-</g></g></g><text x="199.543861" y="77.747647" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="27.747511" fill="#283c4c" text-anchor="start" aria-label="预测中保留的比例" id="text_14" data-axis-label="matplotlib.axis_2">预测中保留的比例</text><text x="212.039346" y="640.222161" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="27.747511" fill="#283c4c" text-anchor="start" aria-label="弱方向预测" id="text_31" data-axis-label="matplotlib.axis_4">弱方向预测</text><text x="199.034613" y="1800.283595" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="27.747511" fill="#283c4c" text-anchor="start" aria-label="坐标值" id="text_65" data-axis-label="matplotlib.axis_8">坐标值</text></svg></svg>
+</g></g></g></svg><text id="text_14" x="827.830" y="140.750" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="19.93" fill="#233b4a" text-anchor="end">预测中保留的比例</text><text id="text_31" x="840.330" y="703.220" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="19.93" fill="#233b4a" text-anchor="end">弱方向预测</text><text id="text_65" x="827.320" y="1879.290" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="19.93" fill="#233b4a" text-anchor="end">坐标值</text></svg>

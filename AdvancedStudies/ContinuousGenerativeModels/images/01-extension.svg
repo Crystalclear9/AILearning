@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1697.48" viewBox="-18.24 63.76 996.48 1697.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">概率流的散度控制体积与密度</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="plot-title" height="635" viewBox="0 0 1200 635"><title id="plot-title">概率流的散度控制体积与密度</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m9ce1fb0558" d="M 0 0  L 0 3.5  " style="stroke: #527485; stroke-width: 0.8"/>
       <path id="m3821d878a5" d="M 0 0  L -3.5 0  " style="stroke: #527485; stroke-width: 0.8"/>
       <path id="m1c08a8acb6" d="M 0 3  C 0.795609 3 1.55874 2.683901 2.12132 2.12132  C 2.683901 1.55874 3 0.795609 3 0  C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132  C 1.55874 -2.683901 0.795609 -3 0 -3  C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132  C -2.683901 -1.55874 -3 -0.795609 -3 0  C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132  C -1.55874 2.683901 -0.795609 3 0 3  z " style="stroke: #c07240"/>
@@ -9,7 +8,7 @@
   <clipPath id="p1d84fe7be0">
    <rect x="770.412101" y="158.4" width="473.747899" height="424.8"/>
   </clipPath>
- </defs><rect id="edition-paper" x="-18.24" y="63.76" width="996.48" height="1697.48" fill="#ffffff"/><svg id="edition-view" x="0" y="82" width="960" height="1661" viewBox="0 82 960 1661" overflow="hidden"><rect x="0" y="0" width="960" height="1743" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">A</text></g><g transform="translate(2.391992 -61.648096) scale(1.51700043)"><g id="axes_1">
+ <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="635" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" fill="#233b4a" text-anchor="start">概率流的散度控制体积与密度</text><g transform="translate(34.341578 51.407642) scale(0.59983566)"><g transform="matrix(1.517 0 0 1.517 2.391992 -61.648094)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 116.64 535.581878  L 590.387899 535.581878  L 590.387899 206.018122  L 116.64 206.018122  z " style="fill: #ffffff"/>
    </g>
@@ -71,7 +70,7 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_6">
-      <line x1="116.64" y1="525.283011" x2="590.387899" y2="525.283011" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
+      <line x1="116.64" y1="525.283011" x2="590.387899" y2="525.283011" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
      <g id="line2d_7">
       <g>
        <use xlink:href="#m3821d878a5" x="116.64" y="525.283011" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -83,7 +82,7 @@
     </g>
     <g id="ytick_2">
      <g id="line2d_8">
-      <line x1="116.64" y1="473.788674" x2="590.387899" y2="473.788674" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
+      <line x1="116.64" y1="473.788674" x2="590.387899" y2="473.788674" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
      <g id="line2d_9">
       <g>
        <use xlink:href="#m3821d878a5" x="116.64" y="473.788674" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -95,7 +94,7 @@
     </g>
     <g id="ytick_3">
      <g id="line2d_10">
-      <line x1="116.64" y1="422.294337" x2="590.387899" y2="422.294337" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
+      <line x1="116.64" y1="422.294337" x2="590.387899" y2="422.294337" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
      <g id="line2d_11">
       <g>
        <use xlink:href="#m3821d878a5" x="116.64" y="422.294337" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -107,7 +106,7 @@
     </g>
     <g id="ytick_4">
      <g id="line2d_12">
-      <line x1="116.64" y1="370.8" x2="590.387899" y2="370.8" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
+      <line x1="116.64" y1="370.8" x2="590.387899" y2="370.8" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
      <g id="line2d_13">
       <g>
        <use xlink:href="#m3821d878a5" x="116.64" y="370.8" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -119,7 +118,7 @@
     </g>
     <g id="ytick_5">
      <g id="line2d_14">
-      <line x1="116.64" y1="319.305663" x2="590.387899" y2="319.305663" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
+      <line x1="116.64" y1="319.305663" x2="590.387899" y2="319.305663" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
      <g id="line2d_15">
       <g>
        <use xlink:href="#m3821d878a5" x="116.64" y="319.305663" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -131,7 +130,7 @@
     </g>
     <g id="ytick_6">
      <g id="line2d_16">
-      <line x1="116.64" y1="267.811326" x2="590.387899" y2="267.811326" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
+      <line x1="116.64" y1="267.811326" x2="590.387899" y2="267.811326" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
      <g id="line2d_17">
       <g>
        <use xlink:href="#m3821d878a5" x="116.64" y="267.811326" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -143,7 +142,7 @@
     </g>
     <g id="ytick_7">
      <g id="line2d_18">
-      <line x1="116.64" y1="216.316989" x2="590.387899" y2="216.316989" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
+      <line x1="116.64" y1="216.316989" x2="590.387899" y2="216.316989" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p00d79629e2)"/></g>
      <g id="line2d_19">
       <g>
        <use xlink:href="#m3821d878a5" x="116.64" y="216.316989" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -171,25 +170,25 @@
     </g>
    </g>
    <g id="patch_5">
-    <line x1="116.64" y1="535.581878" x2="116.64" y2="206.018122" stroke="#202a37" stroke-width="1.60049966"/><polyline points="112.31865092,215.62111995 116.64,206.018122 120.96134908,215.62111995" fill="none" stroke="#202a37" stroke-width="1.50446968" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="116.64" y1="535.581878" x2="116.64" y2="206.018122" stroke="#233b4a" stroke-width="1.60049966"/><polyline points="112.31865092,215.62111995 116.64,206.018122 120.96134908,215.62111995" fill="none" stroke="#233b4a" stroke-width="1.50446968" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_6">
-    <line x1="116.64" y1="535.581878" x2="590.387899" y2="535.581878" stroke="#202a37" stroke-width="1.60049966"/></g>
+    <line x1="116.64" y1="535.581878" x2="590.387899" y2="535.581878" stroke="#233b4a" stroke-width="1.60049966"/></g>
    <g id="legend_1">
     <g id="patch_7">
      <path d="M 256.641606 169.200971  L 298.641606 169.200971  L 298.641606 154.500971  L 256.641606 154.500971  L 256.641606 169.200971  z " style="fill: none; stroke: #2b76a2; stroke-width: 3; stroke-linejoin: miter"/>
     </g>
     <g id="text_15">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #273f51" x="315.441606" y="169.200971" transform="rotate(-0 315.441606 169.200971)">初始单位圆</text>
+     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #273f51" x="315.441606" y="169.200971" transform="rotate(-0 315.441606 169.200971)">初始单位圆</text>
     </g>
     <g id="patch_8">
      <path d="M 256.641606 202.384252  L 298.641606 202.384252  L 298.641606 187.684252  L 256.641606 187.684252  L 256.641606 202.384252  z " style="fill: none; stroke: #c07240; stroke-width: 3; stroke-linejoin: miter"/>
     </g>
     <g id="text_16">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #273f51" x="315.441606" y="202.384252" transform="rotate(-0 315.441606 202.384252)">t = log 2 的像</text>
+     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #273f51" x="315.441606" y="202.384252" transform="rotate(-0 315.441606 202.384252)">t = log 2 的像</text>
     </g>
    </g>
   </g>
-  </g><path d="M44 883.706 H916" stroke="#d3e0e8" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="895.71" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="921.71" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">B</text></g><g transform="translate(-989.380567 715.770193) scale(1.51700043)"><g id="axes_2">
+  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A</text><g transform="translate(583.408669 -428.478882) scale(0.59983566)"><g transform="matrix(1.517 0 0 1.517 -989.380554 715.770203)"><g id="axes_2">
    <g id="patch_9">
     <path d="M 770.412101 583.2  L 1244.16 583.2  L 1244.16 158.4  L 770.412101 158.4  z " style="fill: #ffffff"/>
    </g>
@@ -235,13 +234,13 @@
      </g>
     </g>
     <g id="text_21">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #273f51" x="1007.28605" y="634.592969" transform="rotate(-0 1007.28605 634.592969)">时间 t</text>
+     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #273f51" x="1007.28605" y="634.592969" transform="rotate(-0 1007.28605 634.592969)">时间 t</text>
     </g>
    </g>
    <g id="matplotlib.axis_4">
     <g id="ytick_8">
      <g id="line2d_25">
-      <line x1="770.412101" y1="533.401384" x2="1244.16" y2="533.401384" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p1d84fe7be0)"/></g>
+      <line x1="770.412101" y1="533.401384" x2="1244.16" y2="533.401384" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p1d84fe7be0)"/></g>
      <g id="line2d_26">
       <g>
        <use xlink:href="#m3821d878a5" x="770.412101" y="533.401384" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -253,7 +252,7 @@
     </g>
     <g id="ytick_9">
      <g id="line2d_27">
-      <line x1="770.412101" y1="445.475705" x2="1244.16" y2="445.475705" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p1d84fe7be0)"/></g>
+      <line x1="770.412101" y1="445.475705" x2="1244.16" y2="445.475705" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p1d84fe7be0)"/></g>
      <g id="line2d_28">
       <g>
        <use xlink:href="#m3821d878a5" x="770.412101" y="445.475705" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -265,7 +264,7 @@
     </g>
     <g id="ytick_10">
      <g id="line2d_29">
-      <line x1="770.412101" y1="357.550026" x2="1244.16" y2="357.550026" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p1d84fe7be0)"/></g>
+      <line x1="770.412101" y1="357.550026" x2="1244.16" y2="357.550026" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p1d84fe7be0)"/></g>
      <g id="line2d_30">
       <g>
        <use xlink:href="#m3821d878a5" x="770.412101" y="357.550026" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -277,7 +276,7 @@
     </g>
     <g id="ytick_11">
      <g id="line2d_31">
-      <line x1="770.412101" y1="269.624347" x2="1244.16" y2="269.624347" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p1d84fe7be0)"/></g>
+      <line x1="770.412101" y1="269.624347" x2="1244.16" y2="269.624347" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p1d84fe7be0)"/></g>
      <g id="line2d_32">
       <g>
        <use xlink:href="#m3821d878a5" x="770.412101" y="269.624347" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -289,7 +288,7 @@
     </g>
     <g id="ytick_12">
      <g id="line2d_33">
-      <line x1="770.412101" y1="181.698669" x2="1244.16" y2="181.698669" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p1d84fe7be0)"/></g>
+      <line x1="770.412101" y1="181.698669" x2="1244.16" y2="181.698669" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p1d84fe7be0)"/></g>
      <g id="line2d_34">
       <g>
        <use xlink:href="#m3821d878a5" x="770.412101" y="181.698669" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -307,22 +306,22 @@
     <path d="M 791.946096 563.890909  L 1222.626005 563.890909  L 1222.626005 563.890909  " clip-path="url(#p1d84fe7be0)" style="fill: none; stroke: #c07240; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="patch_10">
-    <line x1="770.412101" y1="583.2" x2="770.412101" y2="158.4" stroke="#202a37" stroke-width="1.60049966"/><polyline points="766.09075192,168.00299795 770.412101,158.4 774.73345008,168.00299795" fill="none" stroke="#202a37" stroke-width="1.50446968" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="770.412101" y1="583.2" x2="770.412101" y2="158.4" stroke="#233b4a" stroke-width="1.60049966"/><polyline points="766.09075192,168.00299795 770.412101,158.4 774.73345008,168.00299795" fill="none" stroke="#233b4a" stroke-width="1.50446968" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_11">
-    <line x1="770.412101" y1="583.2" x2="1244.16" y2="583.2" stroke="#202a37" stroke-width="1.60049966"/></g>
+    <line x1="770.412101" y1="583.2" x2="1244.16" y2="583.2" stroke="#233b4a" stroke-width="1.60049966"/></g>
    <g id="legend_2">
     <g id="line2d_37">
      <path d="M 789.312101 186.736875  L 810.312101 186.736875  L 831.312101 186.736875  " style="fill: none; stroke: #2b76a2; stroke-width: 3; stroke-linecap: square"/>
     </g>
     <g id="text_28">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #273f51" x="848.112101" y="194.086875" transform="rotate(-0 848.112101 194.086875)">固定位置 (1,0)</text>
+     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #273f51" x="848.112101" y="194.086875" transform="rotate(-0 848.112101 194.086875)">固定位置 (1,0)</text>
     </g>
     <g id="line2d_38">
      <path d="M 789.312101 220.021875  L 810.312101 220.021875  L 831.312101 220.021875  " style="fill: none; stroke: #c07240; stroke-width: 3; stroke-linecap: square"/>
     </g>
     <g id="text_29">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #273f51" x="848.112101" y="227.371875" transform="rotate(-0 848.112101 227.371875)">沿轨迹 (exp(t),0)</text>
+     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #273f51" x="848.112101" y="227.371875" transform="rotate(-0 848.112101 227.371875)">沿轨迹 (exp(t),0)</text>
     </g>
    </g>
   </g>
-  </g><text x="182.334921" y="933.063061" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="该位置的概率密度" id="text_27" data-axis-label="matplotlib.axis_4">该位置的概率密度</text></svg></svg>
+  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B · 该位置的概率密度</text></svg>

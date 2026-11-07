@@ -1,19 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="639.48" viewBox="-18.24 28.76 996.48 639.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">t-SNE 三个点对分别贡献坐标位移再相加得到同一步联合更新</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="552.5"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="639.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="603" viewBox="0 47 960 603" overflow="hidden"><rect width="960" height="650" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.902778)"><g><rect id="offline-white-background" x="0" y="0" width="1008" height="612" fill="#ffffff"/><metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-30T16:33:17.709307</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="639.48" viewBox="-18.24 28.76 996.48 639.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">t-SNE 三个点对分别贡献坐标位移再相加得到同一步联合更新</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="552.5"/></clipPath><linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="639.48" fill="#ffffff"/><svg id="plot-content" x="0" y="47" width="960" height="603" viewBox="0 47 960 603" overflow="hidden"><rect width="960" height="650" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.902778)"><g><rect id="offline-white-background" x="0" y="0" width="1008" height="612" fill="#ffffff"/><defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g id="figure_1">
@@ -32,16 +17,16 @@
    </g>
    <g id="matplotlib.axis_2"/>
    <g id="line2d_1">
-    <line clip-path="url(#p06afce071c)" style="fill: none; stroke: #798ca1; stroke-linecap: square" stroke-width="1.23" x1="171.36" y1="94.709508" x2="917.28" y2="94.709508"/>
+    <line clip-path="url(#p06afce071c)" style="fill: none; stroke: #637789; stroke-linecap: square" stroke-width="1.23" x1="171.36" y1="94.709508" x2="917.28" y2="94.709508"/>
    </g>
    <g id="PathCollection_1">
     <defs>
-     <path id="mbfefc42555" d="M 0 4.472136  C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278  C 4.000923 2.323632 4.472136 1.186024 4.472136 0  C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278  C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136  C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278  C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0  C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278  C -2.323632 4.000923 -1.186024 4.472136 0 4.472136  z " style="stroke: #798ca1"/>
+     <path id="mbfefc42555" d="M 0 4.472136  C 1.186024 4.472136 2.323632 4.000923 3.162278 3.162278  C 4.000923 2.323632 4.472136 1.186024 4.472136 0  C 4.472136 -1.186024 4.000923 -2.323632 3.162278 -3.162278  C 2.323632 -4.000923 1.186024 -4.472136 0 -4.472136  C -1.186024 -4.472136 -2.323632 -4.000923 -3.162278 -3.162278  C -4.000923 -2.323632 -4.472136 -1.186024 -4.472136 0  C -4.472136 1.186024 -4.000923 2.323632 -3.162278 3.162278  C -2.323632 4.000923 -1.186024 4.472136 0 4.472136  z " style="stroke: #637789"/>
     </defs>
     <g clip-path="url(#p06afce071c)">
-     <use xlink:href="#mbfefc42555" x="258.545455" y="94.709508" style="fill: #ffffff; stroke: #798ca1"/>
-     <use xlink:href="#mbfefc42555" x="452.290909" y="94.709508" style="fill: #ffffff; stroke: #798ca1"/>
-     <use xlink:href="#mbfefc42555" x="839.781818" y="94.709508" style="fill: #ffffff; stroke: #798ca1"/>
+     <use xlink:href="#mbfefc42555" x="258.545455" y="94.709508" style="fill: #ffffff; stroke: #637789"/>
+     <use xlink:href="#mbfefc42555" x="452.290909" y="94.709508" style="fill: #ffffff; stroke: #637789"/>
+     <use xlink:href="#mbfefc42555" x="839.781818" y="94.709508" style="fill: #ffffff; stroke: #637789"/>
     </g>
    </g>
    <g id="patch_3">
@@ -59,10 +44,10 @@
     <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #9c5d3a" x="452.290909" y="74.894754" transform="rotate(-0 452.290909 74.894754)">+0.1125</text>
    </g>
    <g id="text_3">
-    <text style="font-size: 27.09px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #243a4c" x="141.5232" y="100.492711" transform="rotate(-0 141.5232 100.492711)">点 1—2</text>
+    <text style="font-size: 27.09px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: end; fill: #233b4a" x="141.5232" y="100.492711" transform="rotate(-0 141.5232 100.492711)">点 1—2</text>
    </g>
    <g id="text_4">
-    <text style="font-size: 23.22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #9c5d3a" x="924.7392" y="99.666539" transform="rotate(-0 924.7392 99.666539)">分开</text>
+    <text style="font-size: 23.22px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #9c5d3a" x="924.7392" y="99.666539" transform="rotate(-0 924.7392 99.666539)">分开</text>
    </g>
   </g>
   <g id="axes_2">
@@ -77,13 +62,13 @@
    </g>
    <g id="matplotlib.axis_4"/>
    <g id="line2d_2">
-    <line clip-path="url(#p1d595ba768)" style="fill: none; stroke: #798ca1; stroke-linecap: square" stroke-width="1.23" x1="171.36" y1="229.449836" x2="917.28" y2="229.449836"/>
+    <line clip-path="url(#p1d595ba768)" style="fill: none; stroke: #637789; stroke-linecap: square" stroke-width="1.23" x1="171.36" y1="229.449836" x2="917.28" y2="229.449836"/>
    </g>
    <g id="PathCollection_2">
     <g clip-path="url(#p1d595ba768)">
-     <use xlink:href="#mbfefc42555" x="258.545455" y="229.449836" style="fill: #ffffff; stroke: #798ca1"/>
-     <use xlink:href="#mbfefc42555" x="452.290909" y="229.449836" style="fill: #ffffff; stroke: #798ca1"/>
-     <use xlink:href="#mbfefc42555" x="839.781818" y="229.449836" style="fill: #ffffff; stroke: #798ca1"/>
+     <use xlink:href="#mbfefc42555" x="258.545455" y="229.449836" style="fill: #ffffff; stroke: #637789"/>
+     <use xlink:href="#mbfefc42555" x="452.290909" y="229.449836" style="fill: #ffffff; stroke: #637789"/>
+     <use xlink:href="#mbfefc42555" x="839.781818" y="229.449836" style="fill: #ffffff; stroke: #637789"/>
     </g>
    </g>
    <g id="patch_6">
@@ -101,10 +86,10 @@
     <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #29758f" x="839.781818" y="209.635082" transform="rotate(-0 839.781818 209.635082)">-0.0225</text>
    </g>
    <g id="text_7">
-    <text style="font-size: 27.09px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #243a4c" x="141.5232" y="235.233039" transform="rotate(-0 141.5232 235.233039)">点 1—3</text>
+    <text style="font-size: 27.09px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: end; fill: #233b4a" x="141.5232" y="235.233039" transform="rotate(-0 141.5232 235.233039)">点 1—3</text>
    </g>
    <g id="text_8">
-    <text style="font-size: 23.22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #29758f" x="924.7392" y="234.406867" transform="rotate(-0 924.7392 234.406867)">靠近</text>
+    <text style="font-size: 23.22px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #29758f" x="924.7392" y="234.406867" transform="rotate(-0 924.7392 234.406867)">靠近</text>
    </g>
   </g>
   <g id="axes_3">
@@ -119,13 +104,13 @@
    </g>
    <g id="matplotlib.axis_6"/>
    <g id="line2d_3">
-    <line clip-path="url(#p8e0dfd81ba)" style="fill: none; stroke: #798ca1; stroke-linecap: square" stroke-width="1.23" x1="171.36" y1="364.190164" x2="917.28" y2="364.190164"/>
+    <line clip-path="url(#p8e0dfd81ba)" style="fill: none; stroke: #637789; stroke-linecap: square" stroke-width="1.23" x1="171.36" y1="364.190164" x2="917.28" y2="364.190164"/>
    </g>
    <g id="PathCollection_3">
     <g clip-path="url(#p8e0dfd81ba)">
-     <use xlink:href="#mbfefc42555" x="258.545455" y="364.190164" style="fill: #ffffff; stroke: #798ca1"/>
-     <use xlink:href="#mbfefc42555" x="452.290909" y="364.190164" style="fill: #ffffff; stroke: #798ca1"/>
-     <use xlink:href="#mbfefc42555" x="839.781818" y="364.190164" style="fill: #ffffff; stroke: #798ca1"/>
+     <use xlink:href="#mbfefc42555" x="258.545455" y="364.190164" style="fill: #ffffff; stroke: #637789"/>
+     <use xlink:href="#mbfefc42555" x="452.290909" y="364.190164" style="fill: #ffffff; stroke: #637789"/>
+     <use xlink:href="#mbfefc42555" x="839.781818" y="364.190164" style="fill: #ffffff; stroke: #637789"/>
     </g>
    </g>
    <g id="patch_9">
@@ -143,10 +128,10 @@
     <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #29758f" x="839.781818" y="344.37541" transform="rotate(-0 839.781818 344.37541)">-0.0600</text>
    </g>
    <g id="text_11">
-    <text style="font-size: 27.09px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #243a4c" x="141.5232" y="369.973367" transform="rotate(-0 141.5232 369.973367)">点 2—3</text>
+    <text style="font-size: 27.09px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: end; fill: #233b4a" x="141.5232" y="369.973367" transform="rotate(-0 141.5232 369.973367)">点 2—3</text>
    </g>
    <g id="text_12">
-    <text style="font-size: 23.22px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: start; fill: #29758f" x="924.7392" y="369.147195" transform="rotate(-0 924.7392 369.147195)">靠近</text>
+    <text style="font-size: 23.22px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #29758f" x="924.7392" y="369.147195" transform="rotate(-0 924.7392 369.147195)">靠近</text>
    </g>
   </g>
   <g id="axes_4">
@@ -157,10 +142,10 @@
     <g id="xtick_13">
      <g id="line2d_4">
       <defs>
-       <path id="mb4cad19be8" d="M 0 0  L 0 3.5  " style="stroke: #798ca1; stroke-width: 0.8"/>
+       <path id="mb4cad19be8" d="M 0 0  L 0 3.5  " style="stroke: #637789; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#mb4cad19be8" x="258.545455" y="538.56" style="fill: #798ca1; stroke: #798ca1; stroke-width: 0.8"/>
+       <use xlink:href="#mb4cad19be8" x="258.545455" y="538.56" style="fill: #637789; stroke: #637789; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_13">
@@ -170,7 +155,7 @@
     <g id="xtick_14">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#mb4cad19be8" x="452.290909" y="538.56" style="fill: #798ca1; stroke: #798ca1; stroke-width: 0.8"/>
+       <use xlink:href="#mb4cad19be8" x="452.290909" y="538.56" style="fill: #637789; stroke: #637789; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_14">
@@ -180,7 +165,7 @@
     <g id="xtick_15">
      <g id="line2d_6">
       <g>
-       <use xlink:href="#mb4cad19be8" x="646.036364" y="538.56" style="fill: #798ca1; stroke: #798ca1; stroke-width: 0.8"/>
+       <use xlink:href="#mb4cad19be8" x="646.036364" y="538.56" style="fill: #637789; stroke: #637789; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_15">
@@ -190,7 +175,7 @@
     <g id="xtick_16">
      <g id="line2d_7">
       <g>
-       <use xlink:href="#mb4cad19be8" x="839.781818" y="538.56" style="fill: #798ca1; stroke: #798ca1; stroke-width: 0.8"/>
+       <use xlink:href="#mb4cad19be8" x="839.781818" y="538.56" style="fill: #637789; stroke: #637789; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_16">
@@ -198,82 +183,82 @@
      </g>
     </g>
     <g id="text_17">
-     <text style="font-size: 24.51px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #243a4c" x="544.32" y="582.563594" transform="rotate(-0 544.32 582.563594)">同一低维坐标轴；所有箭头均为步长 0.5 的实际位移</text>
+     <text style="font-size: 24.51px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="544.32" y="582.563594" transform="rotate(-0 544.32 582.563594)">同一低维坐标轴；所有箭头均为步长 0.5 的实际位移</text>
     </g>
    </g>
    <g id="matplotlib.axis_8"/>
    <g id="line2d_8">
-    <line clip-path="url(#p1639a90df9)" style="fill: none; stroke: #798ca1; stroke-linecap: square" stroke-width="1.23" x1="171.36" y1="486.736797" x2="917.28" y2="486.736797"/>
+    <line clip-path="url(#p1639a90df9)" style="fill: none; stroke: #637789; stroke-linecap: square" stroke-width="1.23" x1="171.36" y1="486.736797" x2="917.28" y2="486.736797"/>
    </g>
    <g id="patch_12">
-    <line x1="171.36" y1="538.56" x2="917.28" y2="538.56" stroke="#202a37" stroke-width="1.65"/></g>
+    <line x1="171.36" y1="538.56" x2="917.28" y2="538.56" stroke="#233b4a" stroke-width="1.65"/></g>
    <g id="PathCollection_4">
     <defs>
-     <path id="mdcf7fdd478" d="M 0 5  C 1.326016 5 2.597899 4.473168 3.535534 3.535534  C 4.473168 2.597899 5 1.326016 5 0  C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534  C 2.597899 -4.473168 1.326016 -5 0 -5  C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534  C -4.473168 -2.597899 -5 -1.326016 -5 0  C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534  C -2.597899 4.473168 -1.326016 5 0 5  z " style="stroke: #243a4c"/>
+     <path id="mdcf7fdd478" d="M 0 5  C 1.326016 5 2.597899 4.473168 3.535534 3.535534  C 4.473168 2.597899 5 1.326016 5 0  C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534  C 2.597899 -4.473168 1.326016 -5 0 -5  C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534  C -4.473168 -2.597899 -5 -1.326016 -5 0  C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534  C -2.597899 4.473168 -1.326016 5 0 5  z " style="stroke: #233b4a"/>
     </defs>
     <g clip-path="url(#p1639a90df9)">
-     <use xlink:href="#mdcf7fdd478" x="258.545455" y="486.736797" style="fill: #ffffff; stroke: #243a4c"/>
+     <use xlink:href="#mdcf7fdd478" x="258.545455" y="486.736797" style="fill: #ffffff; stroke: #233b4a"/>
     </g>
    </g>
    <g id="patch_13">
-    <path d="M 256.548874 486.736797  Q 249.829462 486.736797 245.346119 486.736797  " style="fill: none; stroke: #243a4c; stroke-width: 2.104615; stroke-linecap: round"/>
-    <polyline style="fill: none; stroke: #243a4c; stroke-width: 2.104615; stroke-linecap: round" points="252.946119,490.536797 245.346119,486.736797 252.946119,482.936797"/>
+    <path d="M 256.548874 486.736797  Q 249.829462 486.736797 245.346119 486.736797  " style="fill: none; stroke: #233b4a; stroke-width: 2.104615; stroke-linecap: round"/>
+    <polyline style="fill: none; stroke: #233b4a; stroke-width: 2.104615; stroke-linecap: round" points="252.946119,490.536797 245.346119,486.736797 252.946119,482.936797"/>
    </g>
    <g id="text_18">
-    <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #243a4c" x="241.108364" y="514.17261" transform="rotate(-0 241.108364 514.17261)">-0.0900</text>
+    <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="241.108364" y="514.17261" transform="rotate(-0 241.108364 514.17261)">-0.0900</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 22.61px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #243a4c" x="258.545455" y="473.323733" transform="rotate(-0 258.545455 473.323733)">1</text>
+    <text style="font-size: 22.61px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="258.545455" y="473.323733" transform="rotate(-0 258.545455 473.323733)">1</text>
    </g>
    <g id="PathCollection_5">
     <g clip-path="url(#p1639a90df9)">
-     <use xlink:href="#mdcf7fdd478" x="452.290909" y="486.736797" style="fill: #ffffff; stroke: #243a4c"/>
+     <use xlink:href="#mdcf7fdd478" x="452.290909" y="486.736797" style="fill: #ffffff; stroke: #233b4a"/>
     </g>
    </g>
    <g id="patch_14">
-    <path d="M 454.294053 486.736797  Q 469.003957 486.736797 481.477794 486.736797  " style="fill: none; stroke: #243a4c; stroke-width: 2.104615; stroke-linecap: round"/>
-    <polyline style="fill: none; stroke: #243a4c; stroke-width: 2.104615; stroke-linecap: round" points="473.877794,482.936797 481.477794,486.736797 473.877794,490.536797"/>
+    <path d="M 454.294053 486.736797  Q 469.003957 486.736797 481.477794 486.736797  " style="fill: none; stroke: #233b4a; stroke-width: 2.104615; stroke-linecap: round"/>
+    <polyline style="fill: none; stroke: #233b4a; stroke-width: 2.104615; stroke-linecap: round" points="473.877794,482.936797 481.477794,486.736797 473.877794,490.536797"/>
    </g>
    <g id="text_20">
-    <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #243a4c" x="485.712" y="514.17261" transform="rotate(-0 485.712 514.17261)">1.1725</text>
+    <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="485.712" y="514.17261" transform="rotate(-0 485.712 514.17261)">1.1725</text>
    </g>
    <g id="text_21">
-    <text style="font-size: 22.61px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #243a4c" x="452.290909" y="473.323733" transform="rotate(-0 452.290909 473.323733)">2</text>
+    <text style="font-size: 22.61px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="452.290909" y="473.323733" transform="rotate(-0 452.290909 473.323733)">2</text>
    </g>
    <g id="PathCollection_6">
     <g clip-path="url(#p1639a90df9)">
-     <use xlink:href="#mdcf7fdd478" x="839.781818" y="486.736797" style="fill: #ffffff; stroke: #243a4c"/>
+     <use xlink:href="#mdcf7fdd478" x="839.781818" y="486.736797" style="fill: #ffffff; stroke: #233b4a"/>
     </g>
    </g>
    <g id="patch_15">
-    <path d="M 837.779916 486.736797  Q 831.787344 486.736797 828.030841 486.736797  " style="fill: none; stroke: #243a4c; stroke-width: 2.104615; stroke-linecap: round"/>
-    <polyline style="fill: none; stroke: #243a4c; stroke-width: 2.104615; stroke-linecap: round" points="835.630841,490.536797 828.030841,486.736797 835.630841,482.936797"/>
+    <path d="M 837.779916 486.736797  Q 831.787344 486.736797 828.030841 486.736797  " style="fill: none; stroke: #233b4a; stroke-width: 2.104615; stroke-linecap: round"/>
+    <polyline style="fill: none; stroke: #233b4a; stroke-width: 2.104615; stroke-linecap: round" points="835.630841,490.536797 828.030841,486.736797 835.630841,482.936797"/>
    </g>
    <g id="text_22">
-    <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #243a4c" x="823.797818" y="514.17261" transform="rotate(-0 823.797818 514.17261)">2.9175</text>
+    <text style="font-size: 23.8px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="823.797818" y="514.17261" transform="rotate(-0 823.797818 514.17261)">2.9175</text>
    </g>
    <g id="text_23">
-    <text style="font-size: 22.61px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #243a4c" x="839.781818" y="473.323733" transform="rotate(-0 839.781818 473.323733)">3</text>
+    <text style="font-size: 22.61px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="839.781818" y="473.323733" transform="rotate(-0 839.781818 473.323733)">3</text>
    </g>
    <g id="text_24">
-    <text style="font-size: 27.09px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #243a4c" x="141.5232" y="504.713695" transform="rotate(-0 141.5232 504.713695)">位移相加</text>
+    <text style="font-size: 27.09px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: end; fill: #233b4a" x="141.5232" y="504.713695" transform="rotate(-0 141.5232 504.713695)">位移相加</text>
    </g>
    <g id="PathCollection_7">
     <defs>
-     <path id="mb8b48897cd" d="M 0 5  C 1.326016 5 2.597899 4.473168 3.535534 3.535534  C 4.473168 2.597899 5 1.326016 5 0  C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534  C 2.597899 -4.473168 1.326016 -5 0 -5  C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534  C -4.473168 -2.597899 -5 -1.326016 -5 0  C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534  C -2.597899 4.473168 -1.326016 5 0 5  z " style="stroke: #243a4c"/>
+     <path id="mb8b48897cd" d="M 0 5  C 1.326016 5 2.597899 4.473168 3.535534 3.535534  C 4.473168 2.597899 5 1.326016 5 0  C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534  C 2.597899 -4.473168 1.326016 -5 0 -5  C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534  C -4.473168 -2.597899 -5 -1.326016 -5 0  C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534  C -2.597899 4.473168 -1.326016 5 0 5  z " style="stroke: #233b4a"/>
     </defs>
     <g clip-path="url(#p1639a90df9)">
-     <use xlink:href="#mb8b48897cd" x="241.108364" y="486.736797" style="fill: #243a4c; stroke: #243a4c"/>
+     <use xlink:href="#mb8b48897cd" x="241.108364" y="486.736797" style="fill: #233b4a; stroke: #233b4a"/>
     </g>
    </g>
    <g id="PathCollection_8">
     <g clip-path="url(#p1639a90df9)">
-     <use xlink:href="#mb8b48897cd" x="485.712" y="486.736797" style="fill: #243a4c; stroke: #243a4c"/>
+     <use xlink:href="#mb8b48897cd" x="485.712" y="486.736797" style="fill: #233b4a; stroke: #233b4a"/>
     </g>
    </g>
    <g id="PathCollection_9">
     <g clip-path="url(#p1639a90df9)">
-     <use xlink:href="#mb8b48897cd" x="823.797818" y="486.736797" style="fill: #243a4c; stroke: #243a4c"/>
+     <use xlink:href="#mb8b48897cd" x="823.797818" y="486.736797" style="fill: #233b4a; stroke: #233b4a"/>
     </g>
    </g>
   </g>

@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1438.48" viewBox="-18.24 110.76 996.48 1438.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">旧误差与新残差的协方差如何改变第二步预测方差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- <path id="m6b9bed1830" d="M 0 0 L 0 3.5 " style="stroke: #1d262f; stroke-width: 0.8"/>
-      <path id="m4244bb4315" d="M 0 0 L -3.5 0 " style="stroke: #1d262f; stroke-width: 0.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="plot-title" height="565" viewBox="0 0 1200 565"><title id="plot-title">旧误差与新残差的协方差如何改变第二步预测方差</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m6b9bed1830" d="M 0 0 L 0 3.5 " style="stroke: #233b4a; stroke-width: 0.8"/>
+      <path id="m4244bb4315" d="M 0 0 L -3.5 0 " style="stroke: #233b4a; stroke-width: 0.8"/>
       <path id="C0_0_671f8a5770" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 -0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z "/>
     <clipPath id="p4c3aa0ba57">
    <rect x="69.252031" y="10.8" width="428.336166" height="302.128739"/>
@@ -9,7 +8,7 @@
   <clipPath id="p8649712156">
    <rect x="584.463354" y="10.8" width="428.336166" height="302.128739"/>
   </clipPath>
- </defs><rect id="edition-paper" x="-18.24" y="110.76" width="996.48" height="1438.48" fill="#ffffff"/><svg id="edition-view" x="0" y="129" width="960" height="1402" viewBox="0 129 960 1402" overflow="hidden"><rect x="0" y="0" width="960" height="1531" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">A</text></g><g transform="translate(73.996034 196.637093) scale(1.65496939)"><g id="axes_1">
+ <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="565" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" fill="#233b4a" text-anchor="start">旧误差与新残差的协方差如何改变第二步预测方差</text><g transform="translate(12.301917 10.986979) scale(0.62474020)"><g transform="matrix(1.654969 0 0 1.654969 73.996033 196.6371)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 69.252031 312.928739 L 497.588198 312.928739 L 497.588198 10.8 L 69.252031 10.8 z " style="fill: #ffffff"/>
    </g>
@@ -19,7 +18,7 @@
       </g>
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m6b9bed1830" x="88.721857" y="312.928739" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m6b9bed1830" x="88.721857" y="312.928739" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
@@ -31,7 +30,7 @@
       </g>
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m6b9bed1830" x="153.621276" y="312.928739" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m6b9bed1830" x="153.621276" y="312.928739" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
@@ -43,7 +42,7 @@
       </g>
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m6b9bed1830" x="218.520695" y="312.928739" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m6b9bed1830" x="218.520695" y="312.928739" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
@@ -55,7 +54,7 @@
       </g>
      <g id="line2d_8">
       <g>
-       <use xlink:href="#m6b9bed1830" x="283.420114" y="312.928739" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m6b9bed1830" x="283.420114" y="312.928739" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
@@ -67,7 +66,7 @@
       </g>
      <g id="line2d_10">
       <g>
-       <use xlink:href="#m6b9bed1830" x="348.319534" y="312.928739" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m6b9bed1830" x="348.319534" y="312.928739" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
@@ -79,7 +78,7 @@
       </g>
      <g id="line2d_12">
       <g>
-       <use xlink:href="#m6b9bed1830" x="413.218953" y="312.928739" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m6b9bed1830" x="413.218953" y="312.928739" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
@@ -91,7 +90,7 @@
       </g>
      <g id="line2d_14">
       <g>
-       <use xlink:href="#m6b9bed1830" x="478.118372" y="312.928739" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m6b9bed1830" x="478.118372" y="312.928739" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_7">
@@ -119,10 +118,10 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_15">
-      <line x1="69.252031" y1="312.070418" x2="497.588198" y2="312.070418" stroke="#d6e2e5" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#p4c3aa0ba57)"/></g>
+      <line x1="69.252031" y1="312.070418" x2="497.588198" y2="312.070418" stroke="#dbe8eb" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#p4c3aa0ba57)"/></g>
      <g id="line2d_16">
       <g>
-       <use xlink:href="#m4244bb4315" x="69.252031" y="312.070418" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="69.252031" y="312.070418" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_9">
@@ -131,10 +130,10 @@
     </g>
     <g id="ytick_2">
      <g id="line2d_17">
-      <line x1="69.252031" y1="240.543728" x2="497.588198" y2="240.543728" stroke="#d6e2e5" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#p4c3aa0ba57)"/></g>
+      <line x1="69.252031" y1="240.543728" x2="497.588198" y2="240.543728" stroke="#dbe8eb" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#p4c3aa0ba57)"/></g>
      <g id="line2d_18">
       <g>
-       <use xlink:href="#m4244bb4315" x="69.252031" y="240.543728" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="69.252031" y="240.543728" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_10">
@@ -143,10 +142,10 @@
     </g>
     <g id="ytick_3">
      <g id="line2d_19">
-      <line x1="69.252031" y1="169.017038" x2="497.588198" y2="169.017038" stroke="#d6e2e5" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#p4c3aa0ba57)"/></g>
+      <line x1="69.252031" y1="169.017038" x2="497.588198" y2="169.017038" stroke="#dbe8eb" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#p4c3aa0ba57)"/></g>
      <g id="line2d_20">
       <g>
-       <use xlink:href="#m4244bb4315" x="69.252031" y="169.017038" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="69.252031" y="169.017038" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_11">
@@ -155,10 +154,10 @@
     </g>
     <g id="ytick_4">
      <g id="line2d_21">
-      <line x1="69.252031" y1="97.490348" x2="497.588198" y2="97.490348" stroke="#d6e2e5" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#p4c3aa0ba57)"/></g>
+      <line x1="69.252031" y1="97.490348" x2="497.588198" y2="97.490348" stroke="#dbe8eb" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#p4c3aa0ba57)"/></g>
      <g id="line2d_22">
       <g>
-       <use xlink:href="#m4244bb4315" x="69.252031" y="97.490348" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="69.252031" y="97.490348" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_12">
@@ -167,10 +166,10 @@
     </g>
     <g id="ytick_5">
      <g id="line2d_23">
-      <line x1="69.252031" y1="25.963658" x2="497.588198" y2="25.963658" stroke="#d6e2e5" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#p4c3aa0ba57)"/></g>
+      <line x1="69.252031" y1="25.963658" x2="497.588198" y2="25.963658" stroke="#dbe8eb" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#p4c3aa0ba57)"/></g>
      <g id="line2d_24">
       <g>
-       <use xlink:href="#m4244bb4315" x="69.252031" y="25.963658" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="69.252031" y="25.963658" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_13">
@@ -196,9 +195,9 @@
     <path d="M 88.721857 299.195614 L 478.118372 24.533124 L 478.118372 24.533124 " clip-path="url(#p4c3aa0ba57)" style="fill: none; stroke: #2c759f; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="patch_3">
-    <line x1="69.252031" y1="312.928739" x2="69.252031" y2="10.8" stroke="#202a37" stroke-width="1.44708165"/><polyline points="65.34491056,19.48248987 69.252031,10.8 73.15915144,19.48248987" fill="none" stroke="#202a37" stroke-width="1.36025675" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="69.252031" y1="312.928739" x2="69.252031" y2="10.8" stroke="#233b4a" stroke-width="1.44708165"/><polyline points="65.34491056,19.48248987 69.252031,10.8 73.15915144,19.48248987" fill="none" stroke="#233b4a" stroke-width="1.36025675" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_4">
-    <line x1="69.252031" y1="312.928739" x2="497.588198" y2="312.928739" stroke="#202a37" stroke-width="1.44708165"/><polyline points="488.90570813,309.02161856 497.588198,312.928739 488.90570813,316.83585944" fill="none" stroke="#202a37" stroke-width="1.36025675" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="69.252031" y1="312.928739" x2="497.588198" y2="312.928739" stroke="#233b4a" stroke-width="1.44708165"/><polyline points="488.90570813,309.02161856 497.588198,312.928739 488.90570813,316.83585944" fill="none" stroke="#233b4a" stroke-width="1.36025675" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="PathCollection_1">
     <g clip-path="url(#p4c3aa0ba57)">
      <use xlink:href="#C0_0_671f8a5770" x="121.171567" y="276.307073" style="fill: #2c759f; stroke: #2c759f"/>
@@ -208,7 +207,7 @@
     </g>
    </g>
   </g>
-  </g><path d="M44 855.409 H916" stroke="#d3e0e8" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="867.41" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="893.41" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">B</text></g><g transform="translate(-778.662936 911.045740) scale(1.65496939)"><g id="axes_2">
+  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A</text><g transform="translate(568.486417 -435.333668) scale(0.62474020)"><g transform="matrix(1.654969 0 0 1.654969 -778.662964 911.045715)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 584.463354 312.928739 L 1012.79952 312.928739 L 1012.79952 10.8 L 584.463354 10.8 z " style="fill: #ffffff"/>
    </g>
@@ -225,31 +224,31 @@
     <g id="xtick_8">
      <g id="line2d_26">
       <g>
-       <use xlink:href="#m6b9bed1830" x="659.561253" y="312.928739" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m6b9bed1830" x="659.561253" y="312.928739" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_15">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="659.561253" y="334.317489" transform="rotate(-0 659.561253 334.317489)">旧误差项</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="659.561253" y="334.317489" transform="rotate(-0 659.561253 334.317489)">旧误差项</text>
      </g>
     </g>
     <g id="xtick_9">
      <g id="line2d_27">
       <g>
-       <use xlink:href="#m6b9bed1830" x="798.631437" y="312.928739" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m6b9bed1830" x="798.631437" y="312.928739" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_16">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="798.631437" y="334.317489" transform="rotate(-0 798.631437 334.317489)">新误差项</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="798.631437" y="334.317489" transform="rotate(-0 798.631437 334.317489)">新误差项</text>
      </g>
     </g>
     <g id="xtick_10">
      <g id="line2d_28">
       <g>
-       <use xlink:href="#m6b9bed1830" x="937.701621" y="312.928739" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m6b9bed1830" x="937.701621" y="312.928739" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_17">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="937.701621" y="334.317489" transform="rotate(-0 937.701621 334.317489)">交叉项</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="937.701621" y="334.317489" transform="rotate(-0 937.701621 334.317489)">交叉项</text>
      </g>
     </g>
    </g>
@@ -257,7 +256,7 @@
     <g id="ytick_6">
      <g id="line2d_29">
       <g>
-       <use xlink:href="#m4244bb4315" x="584.463354" y="288.431814" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="584.463354" y="288.431814" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_18">
@@ -267,7 +266,7 @@
     <g id="ytick_7">
      <g id="line2d_30">
       <g>
-       <use xlink:href="#m4244bb4315" x="584.463354" y="247.603606" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="584.463354" y="247.603606" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_19">
@@ -277,7 +276,7 @@
     <g id="ytick_8">
      <g id="line2d_31">
       <g>
-       <use xlink:href="#m4244bb4315" x="584.463354" y="206.775398" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="584.463354" y="206.775398" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_20">
@@ -287,7 +286,7 @@
     <g id="ytick_9">
      <g id="line2d_32">
       <g>
-       <use xlink:href="#m4244bb4315" x="584.463354" y="165.94719" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="584.463354" y="165.94719" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_21">
@@ -297,7 +296,7 @@
     <g id="ytick_10">
      <g id="line2d_33">
       <g>
-       <use xlink:href="#m4244bb4315" x="584.463354" y="125.118982" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="584.463354" y="125.118982" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_22">
@@ -307,7 +306,7 @@
     <g id="ytick_11">
      <g id="line2d_34">
       <g>
-       <use xlink:href="#m4244bb4315" x="584.463354" y="84.290774" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="584.463354" y="84.290774" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_23">
@@ -317,7 +316,7 @@
     <g id="ytick_12">
      <g id="line2d_35">
       <g>
-       <use xlink:href="#m4244bb4315" x="584.463354" y="43.462566" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m4244bb4315" x="584.463354" y="43.462566" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_24">
@@ -329,11 +328,11 @@
     <path d="M 584.463354 165.94719 L 1012.79952 165.94719 " clip-path="url(#p8649712156)" style="fill: none; stroke: #7f91a3; stroke-linecap: square"/>
    </g>
    <g id="patch_9">
-    <line x1="584.463354" y1="312.928739" x2="584.463354" y2="10.8" stroke="#202a37" stroke-width="1.44708164"/></g>
+    <line x1="584.463354" y1="312.928739" x2="584.463354" y2="10.8" stroke="#233b4a" stroke-width="1.44708164"/></g>
    <g id="patch_10">
-    <line x1="584.463354" y1="312.928739" x2="1012.79952" y2="312.928739" stroke="#202a37" stroke-width="1.44708164"/></g>
+    <line x1="584.463354" y1="312.928739" x2="1012.79952" y2="312.928739" stroke="#233b4a" stroke-width="1.44708164"/></g>
    <g id="text_26">
     <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243b4c" x="798.631437" y="41.012874" transform="rotate(-0 798.631437 41.012874)">0.64 + 0.41 - 0.80 = 0.25</text>
    </g>
   </g>
- </g><text x="191.606024" y="905.919409" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="第二步方差的组成" id="text_25" data-axis-label="matplotlib.axis_4">第二步方差的组成</text></svg></svg>
+ </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B · 第二步方差的组成</text></svg>

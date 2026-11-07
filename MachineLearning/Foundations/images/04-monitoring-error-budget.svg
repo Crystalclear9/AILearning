@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1082.22" height="2791.62" viewBox="-102.413 -19.8095 1082.22 2791.62" role="img" aria-labelledby="diagram-title"><title id="diagram-title">逐次误报如何累积、预算如何分配，以及累计均值区间的宽度代价</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="me2c57ebda9" d="M 0 0 L 0 3.5 " style="stroke: #658291; stroke-width: 0.8"/>
       <path id="MicrosoftYaHei-30" d="M 284 2325 Q 284 3606 709 4264 Q 1134 4922 1941 4922 Q 3478 4922 3478 2441 Q 3478 1216 3045 567 Q 2613 -81 1831 -81 Q 1094 -81 689 534 Q 284 1150 284 2325 z M 909 2353 Q 909 425 1888 425 Q 2850 425 2850 2384 Q 2850 4413 1906 4413 Q 909 4413 909 2353 z " transform="scale(0.015625)"/>
@@ -106,7 +105,7 @@
   <clipPath id="p17337995d1">
    <rect x="874.816362" y="32.3895" width="319.415513" height="269.896"/>
   </clipPath>
- </defs><rect id="edition-paper" x="-102.413" y="-19.8095" width="1082.22" height="2791.62" fill="#ffffff"/><svg id="edition-view" x="-82.6032" y="0" width="1042.6" height="2752" viewBox="-82.60322 0 1042.60322 2752" overflow="hidden"><rect x="-82.60322" y="0" width="1042.60322" height="2752" fill="#ffffff" id="plate-canvas"/><rect x="0" y="0" width="960" height="2752" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#283341" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">逐次误报如何累积、预算如何分配，以及累计均值</text><text x="48" y="108" font-size="37" font-weight="700" fill="#283341" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">区间的宽度代价</text><rect x="48" y="155" width="47" height="37" rx="8" fill="#ecf5f7"/><text x="71.5" y="182" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">A</text><rect x="48" y="1022.14" width="47" height="37" rx="8" fill="#ecf5f7"/><text x="71.5" y="1049.14" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">B</text><rect x="48" y="1889.27" width="47" height="37" rx="8" fill="#ecf5f7"/><text x="71.5" y="1916.27" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">C</text></g><path d="M 44 143.00 H 916" stroke="#d4e0e7" stroke-width="1.5"/><g transform="translate(53.56382 193.72378) scale(2.22804035)"><g id="axes_1">
+ <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect id="edition-paper" x="-102.413" y="-19.8095" width="1082.22" height="2791.62" fill="#ffffff"/><svg id="plot-content" x="-82.6032" y="0" width="1042.6" height="2752" viewBox="-82.60322 0 1042.60322 2752" overflow="hidden"><rect x="-82.60322" y="0" width="1042.60322" height="2752" fill="#ffffff" id="plot-canvas"/><rect x="0" y="0" width="960" height="2752" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><text x="48" y="61" font-size="37" font-weight="700" fill="#283341" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif">逐次误报如何累积、预算如何分配，以及累计均值</text><text x="48" y="108" font-size="37" font-weight="700" fill="#283341" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif">区间的宽度代价</text><rect x="48" y="155" width="47" height="37" rx="8" fill="#ecf5f7"/><text x="71.5" y="182" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">A</text><rect x="48" y="1022.14" width="47" height="37" rx="8" fill="#ecf5f7"/><text x="71.5" y="1049.14" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">B</text><rect x="48" y="1889.27" width="47" height="37" rx="8" fill="#ecf5f7"/><text x="71.5" y="1916.27" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">C</text></g><path d="M 44 143.00 H 916" stroke="#d4e0e7" stroke-width="1.5"/><g transform="translate(53.56382 193.72378) scale(2.22804035)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 58.421875 302.2855 L 377.837388 302.2855 L 377.837388 32.3895 L 58.421875 32.3895 z " style="fill: #ffffff"/>
    </g>
@@ -209,7 +208,7 @@
     </g>
     <g id="text_7">
      <!-- 独立检验次数 M -->
-     <g style="fill: #253c4e" transform="translate(167.21885 339.148312) scale(0.14 -0.14)">
+     <g style="fill: #233b4a" transform="translate(167.21885 339.148312) scale(0.14 -0.14)">
       <use xlink:href="#MicrosoftYaHei-72ec"/>
       <use xlink:href="#MicrosoftYaHei-7acb" transform="translate(100 0)"/>
       <use xlink:href="#MicrosoftYaHei-68c0" transform="translate(200 0)"/>
@@ -224,7 +223,7 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_13">
-      <line x1="58.421875" y1="302.2855" x2="377.837388" y2="302.2855" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
+      <line x1="58.421875" y1="302.2855" x2="377.837388" y2="302.2855" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
      <g id="line2d_14">
       <g>
        <use xlink:href="#m78efdfd6b0" x="58.421875" y="302.2855" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -241,7 +240,7 @@
     </g>
     <g id="ytick_2">
      <g id="line2d_15">
-      <line x1="58.421875" y1="250.876738" x2="377.837388" y2="250.876738" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
+      <line x1="58.421875" y1="250.876738" x2="377.837388" y2="250.876738" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
      <g id="line2d_16">
       <g>
        <use xlink:href="#m78efdfd6b0" x="58.421875" y="250.876738" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -258,7 +257,7 @@
     </g>
     <g id="ytick_3">
      <g id="line2d_17">
-      <line x1="58.421875" y1="199.467976" x2="377.837388" y2="199.467976" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
+      <line x1="58.421875" y1="199.467976" x2="377.837388" y2="199.467976" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
      <g id="line2d_18">
       <g>
        <use xlink:href="#m78efdfd6b0" x="58.421875" y="199.467976" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -275,7 +274,7 @@
     </g>
     <g id="ytick_4">
      <g id="line2d_19">
-      <line x1="58.421875" y1="148.059214" x2="377.837388" y2="148.059214" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
+      <line x1="58.421875" y1="148.059214" x2="377.837388" y2="148.059214" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
      <g id="line2d_20">
       <g>
        <use xlink:href="#m78efdfd6b0" x="58.421875" y="148.059214" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -292,7 +291,7 @@
     </g>
     <g id="ytick_5">
      <g id="line2d_21">
-      <line x1="58.421875" y1="96.650452" x2="377.837388" y2="96.650452" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
+      <line x1="58.421875" y1="96.650452" x2="377.837388" y2="96.650452" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
      <g id="line2d_22">
       <g>
        <use xlink:href="#m78efdfd6b0" x="58.421875" y="96.650452" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -309,7 +308,7 @@
     </g>
     <g id="ytick_6">
      <g id="line2d_23">
-      <line x1="58.421875" y1="45.24169" x2="377.837388" y2="45.24169" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
+      <line x1="58.421875" y1="45.24169" x2="377.837388" y2="45.24169" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#pe205febd80)"/></g>
      <g id="line2d_24">
       <g>
        <use xlink:href="#m78efdfd6b0" x="58.421875" y="45.24169" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -345,9 +344,9 @@
     <path d="M 58.421875 289.43331 L 377.837388 289.43331 " clip-path="url(#pe205febd80)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #90a0b2; stroke-width: 1.5"/>
    </g>
    <g id="patch_3">
-    <line x1="58.421875" y1="302.2855" x2="58.421875" y2="32.3895" stroke="#202a37" stroke-width="1.07910646"/><polyline points="55.50828755,38.86413878 58.421875,32.3895 61.33546245,38.86413878" fill="none" stroke="#202a37" stroke-width="1.01436008" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="58.421875" y1="302.2855" x2="58.421875" y2="32.3895" stroke="#233b4a" stroke-width="1.07910646"/><polyline points="55.50828755,38.86413878 58.421875,32.3895 61.33546245,38.86413878" fill="none" stroke="#233b4a" stroke-width="1.01436008" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_4">
-    <line x1="58.421875" y1="302.2855" x2="377.837388" y2="302.2855" stroke="#202a37" stroke-width="1.07910646"/><polyline points="371.36274922,299.37191255 377.837388,302.2855 371.36274922,305.19908745" fill="none" stroke="#202a37" stroke-width="1.01436008" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="58.421875" y1="302.2855" x2="377.837388" y2="302.2855" stroke="#233b4a" stroke-width="1.07910646"/><polyline points="371.36274922,299.37191255 377.837388,302.2855 371.36274922,305.19908745" fill="none" stroke="#233b4a" stroke-width="1.01436008" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="text_15">
     <!-- 0.401 -->
     <g style="fill: #bd6b3e" transform="translate(104.338738 191.143314) scale(0.14 -0.14)">
@@ -370,7 +369,7 @@
    </g>
    <g id="text_17">
     <!-- 每次有效，长期仍可能频繁误报 -->
-    <g style="fill: #253c4e" transform="translate(100.529631 26.3895) scale(0.168 -0.168)">
+    <g style="fill: #233b4a" transform="translate(100.529631 26.3895) scale(0.168 -0.168)">
      <use xlink:href="#MicrosoftYaHei-6bcf"/>
      <use xlink:href="#MicrosoftYaHei-6b21" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-6709" transform="translate(200 0)"/>
@@ -393,7 +392,7 @@
     </g>
     <g id="text_18">
      <!-- 每次都用 5% -->
-     <g style="fill: #253c4e" transform="translate(284.42895 160.357188) scale(0.14 -0.14)">
+     <g style="fill: #233b4a" transform="translate(284.42895 160.357188) scale(0.14 -0.14)">
       <use xlink:href="#MicrosoftYaHei-6bcf"/>
       <use xlink:href="#MicrosoftYaHei-6b21" transform="translate(100 0)"/>
       <use xlink:href="#MicrosoftYaHei-90fd" transform="translate(200 0)"/>
@@ -408,7 +407,7 @@
     </g>
     <g id="text_19">
      <!-- 按预算分配 -->
-     <g style="fill: #253c4e" transform="translate(284.42895 182.02875) scale(0.14 -0.14)">
+     <g style="fill: #233b4a" transform="translate(284.42895 182.02875) scale(0.14 -0.14)">
       <use xlink:href="#MicrosoftYaHei-6309"/>
       <use xlink:href="#MicrosoftYaHei-9884" transform="translate(100 0)"/>
       <use xlink:href="#MicrosoftYaHei-7b97" transform="translate(200 0)"/>
@@ -533,7 +532,7 @@
     </g>
     <g id="text_26">
      <!-- 总错误概率预算 -->
-     <g style="fill: #253c4e" transform="translate(577.326875 339.148312) scale(0.14 -0.14)">
+     <g style="fill: #233b4a" transform="translate(577.326875 339.148312) scale(0.14 -0.14)">
       <use xlink:href="#MicrosoftYaHei-603b"/>
       <use xlink:href="#MicrosoftYaHei-9519" transform="translate(100 0)"/>
       <use xlink:href="#MicrosoftYaHei-8bef" transform="translate(200 0)"/>
@@ -564,49 +563,49 @@
     <path d="M 722.561036 218.524672 L 773.749419 218.524672 L 773.749419 144.070603 L 722.561036 144.070603 z " clip-path="url(#p78f23264d5)" style="fill: #c9d3de; stroke: #ffffff; stroke-linejoin: miter"/>
    </g>
    <g id="patch_12">
-    <line x1="466.619119" y1="302.2855" x2="466.619119" y2="32.3895" stroke="#202a37" stroke-width="1.07910646"/></g>
+    <line x1="466.619119" y1="302.2855" x2="466.619119" y2="32.3895" stroke="#233b4a" stroke-width="1.07910646"/></g>
    <g id="patch_13">
-    <line x1="466.619119" y1="302.2855" x2="786.034631" y2="302.2855" stroke="#202a37" stroke-width="1.07910646"/><polyline points="779.55999224,299.37191256 786.034631,302.2855 779.55999224,305.19908744" fill="none" stroke="#202a37" stroke-width="1.01436007" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="466.619119" y1="302.2855" x2="786.034631" y2="302.2855" stroke="#233b4a" stroke-width="1.07910646"/><polyline points="779.55999224,299.37191256 786.034631,302.2855 779.55999224,305.19908744" fill="none" stroke="#233b4a" stroke-width="1.01436007" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="text_27">
     <!-- 1 -->
-    <g style="fill: #253c4e" transform="translate(539.883256 121.734383) scale(0.12 -0.12)">
+    <g style="fill: #233b4a" transform="translate(539.883256 121.734383) scale(0.12 -0.12)">
      <use xlink:href="#MicrosoftYaHei-31"/>
     </g>
    </g>
    <g id="text_28">
     <!-- 2 -->
-    <g style="fill: #253c4e" transform="translate(642.260023 121.734383) scale(0.12 -0.12)">
+    <g style="fill: #233b4a" transform="translate(642.260023 121.734383) scale(0.12 -0.12)">
      <use xlink:href="#MicrosoftYaHei-32"/>
     </g>
    </g>
    <g id="text_29">
     <!-- 3 -->
-    <g style="fill: #253c4e" transform="translate(680.651311 121.734383) scale(0.12 -0.12)">
+    <g style="fill: #233b4a" transform="translate(680.651311 121.734383) scale(0.12 -0.12)">
      <use xlink:href="#MicrosoftYaHei-33"/>
     </g>
    </g>
    <g id="text_30">
     <!-- 4 -->
-    <g style="fill: #253c4e" transform="translate(701.126664 121.734383) scale(0.12 -0.12)">
+    <g style="fill: #233b4a" transform="translate(701.126664 121.734383) scale(0.12 -0.12)">
      <use xlink:href="#MicrosoftYaHei-34"/>
     </g>
    </g>
    <g id="text_31">
     <!-- 5 -->
-    <g style="fill: #253c4e" transform="translate(713.92376 121.734383) scale(0.12 -0.12)">
+    <g style="fill: #233b4a" transform="translate(713.92376 121.734383) scale(0.12 -0.12)">
      <use xlink:href="#MicrosoftYaHei-35"/>
     </g>
    </g>
    <g id="text_32">
     <!-- 余下 -->
-    <g style="fill: #253c4e" transform="translate(736.155228 121.734383) scale(0.12 -0.12)">
+    <g style="fill: #233b4a" transform="translate(736.155228 121.734383) scale(0.12 -0.12)">
      <use xlink:href="#MicrosoftYaHei-4f59"/>
      <use xlink:href="#MicrosoftYaHei-4e0b" transform="translate(100 0)"/>
     </g>
    </g>
    <g id="text_33">
     <!-- $\sum_{m=1}^{\infty}\frac{0.05}{m(m+1)}=0.05$ -->
-    <g style="fill: #253c4e" transform="translate(541.074269 266.919817) scale(0.18 -0.18)">
+    <g style="fill: #233b4a" transform="translate(541.074269 266.919817) scale(0.18 -0.18)">
      <use xlink:href="#DejaVuSans-221e" transform="translate(70 120.91875) scale(0.7)"/>
      <use xlink:href="#DejaVuSansDisplay-2211" transform="translate(54 0.465625)"/>
      <use xlink:href="#DejaVuSans-Oblique-6d" transform="translate(0 -96.475) scale(0.7)"/>
@@ -632,7 +631,7 @@
    </g>
    <g id="text_34">
     <!-- 先分配，再查看 -->
-    <g style="fill: #253c4e" transform="translate(567.526875 26.3895) scale(0.168 -0.168)">
+    <g style="fill: #233b4a" transform="translate(567.526875 26.3895) scale(0.168 -0.168)">
      <use xlink:href="#MicrosoftYaHei-5148"/>
      <use xlink:href="#MicrosoftYaHei-5206" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-914d" transform="translate(200 0)"/>
@@ -827,7 +826,7 @@
     </g>
     <g id="text_38">
      <!-- 累计样本数 n = 100m -->
-     <g style="fill: #253c4e" transform="translate(964.9299 339.148312) scale(0.14 -0.14)">
+     <g style="fill: #233b4a" transform="translate(964.9299 339.148312) scale(0.14 -0.14)">
       <use xlink:href="#MicrosoftYaHei-7d2f"/>
       <use xlink:href="#MicrosoftYaHei-8ba1" transform="translate(100 0)"/>
       <use xlink:href="#MicrosoftYaHei-6837" transform="translate(200 0)"/>
@@ -848,7 +847,7 @@
    <g id="matplotlib.axis_6">
     <g id="ytick_7">
      <g id="line2d_66">
-      <line x1="874.816362" y1="278.302493" x2="1194.231875" y2="278.302493" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
+      <line x1="874.816362" y1="278.302493" x2="1194.231875" y2="278.302493" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
      <g id="line2d_67">
       <g>
        <use xlink:href="#m78efdfd6b0" x="874.816362" y="278.302493" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -866,7 +865,7 @@
     </g>
     <g id="ytick_8">
      <g id="line2d_68">
-      <line x1="874.816362" y1="241.801371" x2="1194.231875" y2="241.801371" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
+      <line x1="874.816362" y1="241.801371" x2="1194.231875" y2="241.801371" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
      <g id="line2d_69">
       <g>
        <use xlink:href="#m78efdfd6b0" x="874.816362" y="241.801371" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -884,7 +883,7 @@
     </g>
     <g id="ytick_9">
      <g id="line2d_70">
-      <line x1="874.816362" y1="205.300249" x2="1194.231875" y2="205.300249" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
+      <line x1="874.816362" y1="205.300249" x2="1194.231875" y2="205.300249" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
      <g id="line2d_71">
       <g>
        <use xlink:href="#m78efdfd6b0" x="874.816362" y="205.300249" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -902,7 +901,7 @@
     </g>
     <g id="ytick_10">
      <g id="line2d_72">
-      <line x1="874.816362" y1="168.799127" x2="1194.231875" y2="168.799127" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
+      <line x1="874.816362" y1="168.799127" x2="1194.231875" y2="168.799127" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
      <g id="line2d_73">
       <g>
        <use xlink:href="#m78efdfd6b0" x="874.816362" y="168.799127" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -920,7 +919,7 @@
     </g>
     <g id="ytick_11">
      <g id="line2d_74">
-      <line x1="874.816362" y1="132.298005" x2="1194.231875" y2="132.298005" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
+      <line x1="874.816362" y1="132.298005" x2="1194.231875" y2="132.298005" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
      <g id="line2d_75">
       <g>
        <use xlink:href="#m78efdfd6b0" x="874.816362" y="132.298005" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -938,7 +937,7 @@
     </g>
     <g id="ytick_12">
      <g id="line2d_76">
-      <line x1="874.816362" y1="95.796883" x2="1194.231875" y2="95.796883" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
+      <line x1="874.816362" y1="95.796883" x2="1194.231875" y2="95.796883" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
      <g id="line2d_77">
       <g>
        <use xlink:href="#m78efdfd6b0" x="874.816362" y="95.796883" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -956,7 +955,7 @@
     </g>
     <g id="ytick_13">
      <g id="line2d_78">
-      <line x1="874.816362" y1="59.295762" x2="1194.231875" y2="59.295762" stroke="#d6e2e5" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
+      <line x1="874.816362" y1="59.295762" x2="1194.231875" y2="59.295762" stroke="#dbe8eb" stroke-width="0.61509068" stroke-opacity="0.16" clip-path="url(#p17337995d1)"/></g>
      <g id="line2d_79">
       <g>
        <use xlink:href="#m78efdfd6b0" x="874.816362" y="59.295762" style="fill: #658291; stroke: #658291; stroke-width: 0.8"/>
@@ -980,12 +979,12 @@
     <path d="M 889.335249 66.94247 L 933.041454 139.539318 L 958.607945 171.700916 L 976.747659 190.873042 L 990.817914 203.956741 L 1002.314149 213.614726 L 1012.034078 221.120908 L 1020.453863 227.171466 L 1027.88064 232.183233 L 1034.524119 236.423038 L 1040.533876 240.070668 L 1046.020354 243.252265 L 1051.067425 246.059302 L 1055.740283 248.559937 L 1060.090609 250.806142 L 1064.160068 252.838328 L 1067.982737 254.688457 L 1071.586845 256.382182 L 1074.996039 257.940368 L 1078.230323 259.380178 L 1081.306774 260.715878 L 1084.24008 261.959441 L 1087.042974 263.120993 L 1089.726559 264.20917 L 1092.300579 265.231386 L 1094.77363 266.194045 L 1097.153336 267.102715 L 1099.446488 267.962261 L 1101.659161 268.776955 L 1103.796814 269.550568 L 1105.864367 270.286439 L 1107.866273 270.98754 L 1109.806571 271.656527 L 1111.688942 272.295779 L 1113.516743 272.907434 L 1115.29305 273.493424 L 1117.020685 274.055493 L 1118.702244 274.595227 L 1120.340121 275.114067 L 1121.936528 275.613326 L 1123.493514 276.094207 L 1125.012978 276.55781 L 1126.496687 277.005144 L 1127.946285 277.437141 L 1129.363305 277.854657 L 1130.749179 278.258482 L 1132.105247 278.649351 L 1133.432764 279.02794 L 1134.732907 279.39488 L 1136.006783 279.750755 L 1137.255433 280.096112 L 1138.479835 280.431458 L 1139.680913 280.757268 L 1140.859541 281.073985 L 1142.01654 281.382025 L 1143.152692 281.681776 L 1144.268734 281.973604 L 1145.365366 282.257852 L 1146.443251 282.534842 L 1147.503019 282.804878 L 1148.545269 283.068247 L 1149.570572 283.325218 L 1150.579469 283.576045 L 1151.572478 283.820971 L 1152.55009 284.060223 L 1153.512776 284.294017 L 1154.460985 284.522556 L 1155.395146 284.746036 L 1156.31567 284.964639 L 1157.222948 285.178541 L 1158.117356 285.387908 L 1158.999255 285.592898 L 1159.868989 285.793662 L 1160.726889 285.990342 L 1161.573274 286.183075 L 1162.408448 286.371991 L 1163.232705 286.557216 L 1164.046325 286.738866 L 1164.849581 286.917057 L 1165.642733 287.091896 L 1166.426031 287.263487 L 1167.199719 287.43193 L 1167.964028 287.597319 L 1168.719183 287.759746 L 1169.465402 287.919299 L 1170.202892 288.07606 L 1170.931857 288.23011 L 1171.65249 288.381528 L 1172.36498 288.530386 L 1173.06951 288.676756 L 1173.766254 288.820707 L 1174.455384 288.962304 L 1175.137063 289.101611 L 1175.811451 289.238689 L 1176.478703 289.373598 L 1177.138968 289.506392 L 1177.792391 289.637128 L 1178.439112 289.765858 L 1179.079267 289.892632 L 1179.712988 290.0175 " clip-path="url(#p17337995d1)" style="fill: none; stroke: #bd6b3e; stroke-width: 2.6; stroke-linecap: square"/>
    </g>
    <g id="patch_15">
-    <line x1="874.816362" y1="302.2855" x2="874.816362" y2="32.3895" stroke="#202a37" stroke-width="1.07910646"/><polyline points="871.90277455,38.86413878 874.816362,32.3895 877.72994945,38.86413878" fill="none" stroke="#202a37" stroke-width="1.01436008" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="874.816362" y1="302.2855" x2="874.816362" y2="32.3895" stroke="#233b4a" stroke-width="1.07910646"/><polyline points="871.90277455,38.86413878 874.816362,32.3895 877.72994945,38.86413878" fill="none" stroke="#233b4a" stroke-width="1.01436008" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_16">
-    <line x1="874.816362" y1="302.2855" x2="1194.231875" y2="302.2855" stroke="#202a37" stroke-width="1.07910646"/></g>
+    <line x1="874.816362" y1="302.2855" x2="1194.231875" y2="302.2855" stroke="#233b4a" stroke-width="1.07910646"/></g>
    <g id="text_47">
     <!-- 覆盖更多查看时点，需要更宽区间 -->
-    <g style="fill: #253c4e" transform="translate(908.524119 26.3895) scale(0.168 -0.168)">
+    <g style="fill: #233b4a" transform="translate(908.524119 26.3895) scale(0.168 -0.168)">
      <use xlink:href="#MicrosoftYaHei-8986"/>
      <use xlink:href="#MicrosoftYaHei-76d6" transform="translate(100 0)"/>
      <use xlink:href="#MicrosoftYaHei-66f4" transform="translate(200 0)"/>
@@ -1009,7 +1008,7 @@
     </g>
     <g id="text_48">
      <!-- 全查看预算的半径 -->
-     <g style="fill: #253c4e" transform="translate(1069.631875 56.18075) scale(0.14 -0.14)">
+     <g style="fill: #233b4a" transform="translate(1069.631875 56.18075) scale(0.14 -0.14)">
       <use xlink:href="#MicrosoftYaHei-5168"/>
       <use xlink:href="#MicrosoftYaHei-67e5" transform="translate(100 0)"/>
       <use xlink:href="#MicrosoftYaHei-770b" transform="translate(200 0)"/>
@@ -1025,7 +1024,7 @@
     </g>
     <g id="text_49">
      <!-- 单次 95% 半径 -->
-     <g style="fill: #253c4e" transform="translate(1069.631875 77.852312) scale(0.14 -0.14)">
+     <g style="fill: #233b4a" transform="translate(1069.631875 77.852312) scale(0.14 -0.14)">
       <use xlink:href="#MicrosoftYaHei-5355"/>
       <use xlink:href="#MicrosoftYaHei-6b21" transform="translate(100 0)"/>
       <use xlink:href="#MicrosoftYaHei-20" transform="translate(200 0)"/>
@@ -1039,4 +1038,4 @@
     </g>
    </g>
   </g>
- </g><text x="118.730115" y="545.498482" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="26" fill="#283c4c" aria-label="至少一次误报的概率" id="text_14" data-axis-label="matplotlib.axis_2"><tspan x="118.730115" dy="0">至少一</tspan><tspan x="118.730115" dy="30.68">次误报</tspan><tspan x="118.730115" dy="30.68">的概率</tspan></text><text x="94.730113" y="2294.853062" text-anchor="end" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="26" fill="#283c4c" aria-label="Hoeffding 区间半径" id="text_46" data-axis-label="matplotlib.axis_6"><tspan x="94.730113" dy="0">Hoeffding 区</tspan><tspan x="94.730113" dy="30.68">间半径</tspan></text></svg></svg>
+ </g></svg><text id="text_14" x="183.730" y="215.890" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="20.00" fill="#233b4a" text-anchor="start">至少一次误报的概率</text><text id="text_46" x="183.730" y="1950.160" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="20.00" fill="#233b4a" text-anchor="start">Hoeffding 区间半径</text></svg>

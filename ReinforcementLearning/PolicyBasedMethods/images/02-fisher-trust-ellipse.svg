@@ -1,18 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="551.48" viewBox="-18.24 28.76 996.48 551.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">相同二次KL预算下自然梯度方向与欧氏方向的比较</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="464.304118"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="551.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="515" viewBox="0 47 960 515" overflow="hidden"><rect width="960" height="562" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 9.470785) scale(0.70216)"><g><rect id="offline-white-background" x="0" y="94.749340" width="1296" height="661.250660" fill="#ffffff"/><title>信赖域：同一局部 KL 预算，切点决定最优方向</title><metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-30T11:47:22.270728</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="551.48" viewBox="-18.24 28.76 996.48 551.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">相同二次KL预算下自然梯度方向与欧氏方向的比较</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="464.304118"/></clipPath><linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="551.48" fill="#ffffff"/><svg id="plot-content" x="0" y="47" width="960" height="515" viewBox="0 47 960 515" overflow="hidden"><rect width="960" height="562" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 9.470785) scale(0.70216)"><g><rect id="offline-white-background" x="0" y="94.749340" width="1296" height="661.250660" fill="#ffffff"/><title>信赖域：同一局部 KL 预算，切点决定最优方向</title><defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g id="figure_1">
@@ -43,10 +29,10 @@
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m10227b60aa" d="M 0 0 L 0 3.5 " style="stroke: #527382; stroke-width: 0.8"/>
+       <path id="m10227b60aa" d="M 0 0 L 0 3.5 " style="stroke: #526976; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m10227b60aa" x="232.23895" y="574.56" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m10227b60aa" x="232.23895" y="574.56" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
@@ -56,7 +42,7 @@
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m10227b60aa" x="347.73895" y="574.56" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m10227b60aa" x="347.73895" y="574.56" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
@@ -66,7 +52,7 @@
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m10227b60aa" x="463.23895" y="574.56" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m10227b60aa" x="463.23895" y="574.56" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
@@ -74,17 +60,17 @@
      </g>
     </g>
     <g id="text_4">
-     <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #2a3644" x="353.51395" y="629.89625" transform="translate(0.00000 16.66667) rotate(-0 353.51395 629.89625)">Δ1</text>
+     <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="353.51395" y="629.89625" transform="translate(0.00000 16.66667) rotate(-0 353.51395 629.89625)">Δ1</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_4">
       <defs>
-       <path id="m69caf6e16e" d="M 0 0 L -3.5 0 " style="stroke: #527382; stroke-width: 0.8"/>
+       <path id="m69caf6e16e" d="M 0 0 L -3.5 0 " style="stroke: #526976; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m69caf6e16e" x="232.23895" y="563.01" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m69caf6e16e" x="232.23895" y="563.01" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
@@ -94,7 +80,7 @@
     <g id="ytick_2">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#m69caf6e16e" x="232.23895" y="505.26" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m69caf6e16e" x="232.23895" y="505.26" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
@@ -104,7 +90,7 @@
     <g id="ytick_3">
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m69caf6e16e" x="232.23895" y="447.51" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m69caf6e16e" x="232.23895" y="447.51" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_7">
@@ -114,7 +100,7 @@
     <g id="ytick_4">
      <g id="line2d_7">
       <g>
-       <use xlink:href="#m69caf6e16e" x="232.23895" y="389.76" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m69caf6e16e" x="232.23895" y="389.76" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_8">
@@ -124,7 +110,7 @@
     <g id="ytick_5">
      <g id="line2d_8">
       <g>
-       <use xlink:href="#m69caf6e16e" x="232.23895" y="332.01" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m69caf6e16e" x="232.23895" y="332.01" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_9">
@@ -134,7 +120,7 @@
     <g id="ytick_6">
      <g id="line2d_9">
       <g>
-       <use xlink:href="#m69caf6e16e" x="232.23895" y="274.26" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m69caf6e16e" x="232.23895" y="274.26" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_10">
@@ -144,7 +130,7 @@
     <g id="ytick_7">
      <g id="line2d_10">
       <g>
-       <use xlink:href="#m69caf6e16e" x="232.23895" y="216.51" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m69caf6e16e" x="232.23895" y="216.51" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_11">
@@ -154,7 +140,7 @@
     <g id="ytick_8">
      <g id="line2d_11">
       <g>
-       <use xlink:href="#m69caf6e16e" x="232.23895" y="158.76" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m69caf6e16e" x="232.23895" y="158.76" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_12">
@@ -162,7 +148,7 @@
      </g>
     </g>
     <g id="text_13">
-     <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #2a3644" x="149.47145" y="366.66" transform="rotate(-90 149.47145 366.66)">Δ2</text>
+     <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #233b4a" x="149.47145" y="366.66" transform="rotate(-90 149.47145 366.66)">Δ2</text>
     </g>
    </g>
    <g id="line2d_12">
@@ -172,9 +158,9 @@
     <polyline clip-path="url(#p10cafb13f9)" style="fill: none; stroke-dasharray: 11.1,4.8; stroke-dashoffset: 0; stroke: #1f627d; stroke-width: 3" points="267.85895,-1 269.953235,3.188571 274.667521,12.617143 279.381807,22.045714 284.096092,31.474286 288.810378,40.902857 293.524664,50.331429 298.23895,59.76 302.953235,69.188571 307.667521,78.617143 312.381807,88.045714 317.096092,97.474286 321.810378,106.902857 326.524664,116.331429 331.23895,125.76 335.953235,135.188571 340.667521,144.617143 345.381807,154.045714 350.096092,163.474286 354.810378,172.902857 359.524664,182.331429 364.23895,191.76 368.953235,201.188571 373.667521,210.617143 378.381807,220.045714 383.096092,229.474286 387.810378,238.902857 392.524664,248.331429 397.23895,257.76 401.953235,267.188571 406.667521,276.617143 411.381807,286.045714 416.096092,295.474286 420.810378,304.902857 425.524664,314.331429 430.23895,323.76 434.953235,333.188571 439.667521,342.617143 444.381807,352.045714 449.096092,361.474286 453.810378,370.902857 458.524664,380.331429 463.23895,389.76"/>
    </g>
    <g id="patch_3">
-    <line x1="232.23895" y1="574.56" x2="232.23895" y2="158.76" stroke="#202a37" stroke-width="0.81942568"/></g>
+    <line x1="232.23895" y1="574.56" x2="232.23895" y2="158.76" stroke="#233b4a" stroke-width="0.81942568"/></g>
    <g id="patch_4">
-    <line x1="232.23895" y1="574.56" x2="474.78895" y2="574.56" stroke="#202a37" stroke-width="0.81942568"/></g>
+    <line x1="232.23895" y1="574.56" x2="474.78895" y2="574.56" stroke="#233b4a" stroke-width="0.81942568"/></g>
    <g id="patch_5">
     <path d="M 348.632481 387.972936 Q 376.613922 332.010056 402.595362 280.047175 " style="fill: none; stroke: #1f627d; stroke-width: 4; stroke-linecap: round"/>
     <polyline style="fill: none; stroke: #1f627d; stroke-width: 4; stroke-linecap: round" points="394.008861,286.487051 402.595362,280.047175 402.595362,290.780302"/>
@@ -184,7 +170,7 @@
     <polyline style="fill: none; stroke: #bc6330; stroke-width: 4; stroke-linecap: round" points="410.44904,353.038392 421.182166,353.038392 414.74229,361.624893"/>
    </g>
    <g id="text_14">
-    <text style="font-size: 33.54px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #2a3644" x="353.51395" y="138.76" transform="rotate(-0 353.51395 138.76)">等收益线在椭圆边界相切</text>
+    <text style="font-size: 33.54px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="353.51395" y="138.76" transform="rotate(-0 353.51395 138.76)">等收益线在椭圆边界相切</text>
    </g>
   </g>
   <g id="axes_2">
@@ -195,7 +181,7 @@
     <g id="xtick_4">
      <g id="line2d_14">
       <g>
-       <use xlink:href="#m10227b60aa" x="770.412101" y="574.56" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m10227b60aa" x="770.412101" y="574.56" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_15">
@@ -205,7 +191,7 @@
     <g id="xtick_5">
      <g id="line2d_15">
       <g>
-       <use xlink:href="#m10227b60aa" x="869.10958" y="574.56" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m10227b60aa" x="869.10958" y="574.56" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_16">
@@ -215,7 +201,7 @@
     <g id="xtick_6">
      <g id="line2d_16">
       <g>
-       <use xlink:href="#m10227b60aa" x="967.807059" y="574.56" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m10227b60aa" x="967.807059" y="574.56" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_17">
@@ -225,7 +211,7 @@
     <g id="xtick_7">
      <g id="line2d_17">
       <g>
-       <use xlink:href="#m10227b60aa" x="1066.504538" y="574.56" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m10227b60aa" x="1066.504538" y="574.56" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_18">
@@ -235,7 +221,7 @@
     <g id="xtick_8">
      <g id="line2d_18">
       <g>
-       <use xlink:href="#m10227b60aa" x="1165.202017" y="574.56" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m10227b60aa" x="1165.202017" y="574.56" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_19">
@@ -243,32 +229,32 @@
      </g>
     </g>
     <g id="text_20">
-     <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: middle; fill: #2a3644" x="1007.28605" y="630.785" transform="translate(0.00000 14.28571) rotate(-0 1007.28605 630.785)">线性收益 gTΔ</text>
+     <text style="font-size: 30.96px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="1007.28605" y="630.785" transform="translate(0.00000 14.28571) rotate(-0 1007.28605 630.785)">线性收益 gTΔ</text>
     </g>
    </g>
    <g id="matplotlib.axis_4">
     <g id="ytick_9">
      <g id="line2d_19">
-      <line x1="770.412101" y1="471.66" x2="1244.16" y2="471.66" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p156039c12d)"/></g>
+      <line x1="770.412101" y1="471.66" x2="1244.16" y2="471.66" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p156039c12d)"/></g>
      <g id="line2d_20">
       <g>
-       <use xlink:href="#m69caf6e16e" x="770.412101" y="471.66" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m69caf6e16e" x="770.412101" y="471.66" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_21">
-      <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7689" x="763.412101" y="481.2525" transform="rotate(-0 763.412101 481.2525)">F 度量</text>
+      <text style="font-size: 30.96px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: end; fill: #4a7689" x="763.412101" y="481.2525" transform="rotate(-0 763.412101 481.2525)">F 度量</text>
      </g>
     </g>
     <g id="ytick_10">
      <g id="line2d_21">
-      <line x1="770.412101" y1="261.66" x2="1244.16" y2="261.66" stroke="#d6e2e5" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p156039c12d)"/></g>
+      <line x1="770.412101" y1="261.66" x2="1244.16" y2="261.66" stroke="#dbe8eb" stroke-width="0.91228481" stroke-opacity="0.68" clip-path="url(#p156039c12d)"/></g>
      <g id="line2d_22">
       <g>
-       <use xlink:href="#m69caf6e16e" x="770.412101" y="261.66" style="fill: #527382; stroke: #527382; stroke-width: 0.8"/>
+       <use xlink:href="#m69caf6e16e" x="770.412101" y="261.66" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_22">
-      <text style="font-size: 30.96px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; text-anchor: end; fill: #4a7689" x="763.412101" y="271.2525" transform="rotate(-0 763.412101 271.2525)">欧氏梯度方向</text>
+      <text style="font-size: 30.96px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: end; fill: #4a7689" x="763.412101" y="271.2525" transform="rotate(-0 763.412101 271.2525)">欧氏梯度方向</text>
      </g>
     </g>
    </g>
@@ -279,61 +265,61 @@
     <path d="M 770.412101 345.66 L 1108.941661 345.66 L 1108.941661 177.66 L 770.412101 177.66 z " clip-path="url(#p156039c12d)" style="fill: #bc6330"/>
    </g>
    <g id="patch_10">
-    <line x1="770.412101" y1="574.56" x2="770.412101" y2="158.76" stroke="#202a37" stroke-width="1.60049966"/></g>
+    <line x1="770.412101" y1="574.56" x2="770.412101" y2="158.76" stroke="#233b4a" stroke-width="1.60049966"/></g>
    <g id="patch_11">
-    <line x1="770.412101" y1="574.56" x2="1244.16" y2="574.56" stroke="#202a37" stroke-width="1.60049966"/></g>
+    <line x1="770.412101" y1="574.56" x2="1244.16" y2="574.56" stroke="#233b4a" stroke-width="1.60049966"/></g>
   </g>
   <g id="text_24">
    <!-- $F=\operatorname{diag}(4,1)$，$g=(2,1)$；$\frac{\Delta^T F\Delta}{2}\leq0.01$。收益 0.2 对 0.1715。 -->
-   <g style="fill: #2a3644" transform="translate(71.28 729.54)">
+   <g style="fill: #233b4a" transform="translate(71.28 729.54)">
     <text>
-     <tspan x="0" y="-0.478125" style="font-style: oblique; font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">F</tspan>
-     <tspan x="180.679688" y="-0.478125" style="font-style: oblique; font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">g</tspan>
-     <tspan x="18.480469" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">=</tspan>
-     <tspan x="43.265625" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">d</tspan>
-     <tspan x="58.5" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">i</tspan>
-     <tspan x="65.167969" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">a</tspan>
-     <tspan x="79.875" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">g</tspan>
-     <tspan x="95.109375" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">(</tspan>
-     <tspan x="104.472656" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">4</tspan>
-     <tspan x="119.742188" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">,</tspan>
-     <tspan x="132.046875" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">1</tspan>
-     <tspan x="147.316406" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">)</tspan>
-     <tspan x="200.589844" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">=</tspan>
-     <tspan x="225.375" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">(</tspan>
-     <tspan x="234.738281" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">2</tspan>
-     <tspan x="250.007812" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">,</tspan>
-     <tspan x="262.3125" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">1</tspan>
-     <tspan x="277.582031" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">)</tspan>
-     <tspan x="359.073164" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">≤</tspan>
-     <tspan x="383.85832" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">0</tspan>
-     <tspan x="399.127852" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">.</tspan>
-     <tspan x="406.756758" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">0</tspan>
-     <tspan x="422.026289" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #2a3644">1</tspan>
-     <tspan x="156.679688" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">，</tspan>
-     <tspan x="286.945312" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">；</tspan>
-     <tspan x="437.29582" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">。</tspan>
-     <tspan x="461.29582" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">收</tspan>
-     <tspan x="485.29582" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">益</tspan>
-     <tspan x="509.29582" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644"> </tspan>
-     <tspan x="516.397383" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">0</tspan>
-     <tspan x="530.471602" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">.</tspan>
-     <tspan x="536.248945" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">2</tspan>
-     <tspan x="550.323164" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644"> </tspan>
-     <tspan x="557.424727" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">对</tspan>
-     <tspan x="581.424727" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644"> </tspan>
-     <tspan x="588.526289" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">0</tspan>
-     <tspan x="602.600508" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">.</tspan>
-     <tspan x="608.377852" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">1</tspan>
-     <tspan x="621.32707" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">7</tspan>
-     <tspan x="635.401289" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">1</tspan>
-     <tspan x="648.350508" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">5</tspan>
-     <tspan x="662.424727" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #2a3644">。</tspan>
-     <tspan x="310.945312" y="-10.99375" style="font-size: 16.8px; font-family: 'DejaVu Sans'; fill: #2a3644">Δ</tspan>
-     <tspan x="325.945312" y="8.975" style="font-size: 16.8px; font-family: 'DejaVu Sans'; fill: #2a3644">2</tspan>
-     <tspan x="339.904805" y="-10.99375" style="font-size: 16.8px; font-family: 'DejaVu Sans'; fill: #2a3644">Δ</tspan>
-     <tspan x="322.598672" y="-17.425" style="font-style: oblique; font-size: 11.76px; font-family: 'DejaVu Sans'; fill: #2a3644">T</tspan>
-     <tspan x="330.241523" y="-10.99375" style="font-style: oblique; font-size: 16.8px; font-family: 'DejaVu Sans'; fill: #2a3644">F</tspan>
+     <tspan x="0" y="-0.478125" style="font-style: oblique; font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">F</tspan>
+     <tspan x="180.679688" y="-0.478125" style="font-style: oblique; font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">g</tspan>
+     <tspan x="18.480469" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">=</tspan>
+     <tspan x="43.265625" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">d</tspan>
+     <tspan x="58.5" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">i</tspan>
+     <tspan x="65.167969" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">a</tspan>
+     <tspan x="79.875" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">g</tspan>
+     <tspan x="95.109375" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">(</tspan>
+     <tspan x="104.472656" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">4</tspan>
+     <tspan x="119.742188" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">,</tspan>
+     <tspan x="132.046875" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">1</tspan>
+     <tspan x="147.316406" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">)</tspan>
+     <tspan x="200.589844" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">=</tspan>
+     <tspan x="225.375" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">(</tspan>
+     <tspan x="234.738281" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">2</tspan>
+     <tspan x="250.007812" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">,</tspan>
+     <tspan x="262.3125" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">1</tspan>
+     <tspan x="277.582031" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">)</tspan>
+     <tspan x="359.073164" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">≤</tspan>
+     <tspan x="383.85832" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">0</tspan>
+     <tspan x="399.127852" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">.</tspan>
+     <tspan x="406.756758" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">0</tspan>
+     <tspan x="422.026289" y="-0.478125" style="font-size: 24px; font-family: 'DejaVu Sans'; fill: #233b4a">1</tspan>
+     <tspan x="156.679688" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">，</tspan>
+     <tspan x="286.945312" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">；</tspan>
+     <tspan x="437.29582" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">。</tspan>
+     <tspan x="461.29582" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">收</tspan>
+     <tspan x="485.29582" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">益</tspan>
+     <tspan x="509.29582" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a"> </tspan>
+     <tspan x="516.397383" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">0</tspan>
+     <tspan x="530.471602" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">.</tspan>
+     <tspan x="536.248945" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">2</tspan>
+     <tspan x="550.323164" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a"> </tspan>
+     <tspan x="557.424727" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">对</tspan>
+     <tspan x="581.424727" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a"> </tspan>
+     <tspan x="588.526289" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">0</tspan>
+     <tspan x="602.600508" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">.</tspan>
+     <tspan x="608.377852" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">1</tspan>
+     <tspan x="621.32707" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">7</tspan>
+     <tspan x="635.401289" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">1</tspan>
+     <tspan x="648.350508" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">5</tspan>
+     <tspan x="662.424727" y="-0.478125" style="font-size: 24px; font-family: Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif; fill: #233b4a">。</tspan>
+     <tspan x="310.945312" y="-10.99375" style="font-size: 16.8px; font-family: 'DejaVu Sans'; fill: #233b4a">Δ</tspan>
+     <tspan x="325.945312" y="8.975" style="font-size: 16.8px; font-family: 'DejaVu Sans'; fill: #233b4a">2</tspan>
+     <tspan x="339.904805" y="-10.99375" style="font-size: 16.8px; font-family: 'DejaVu Sans'; fill: #233b4a">Δ</tspan>
+     <tspan x="322.598672" y="-17.425" style="font-style: oblique; font-size: 11.76px; font-family: 'DejaVu Sans'; fill: #233b4a">T</tspan>
+     <tspan x="330.241523" y="-10.99375" style="font-style: oblique; font-size: 16.8px; font-family: 'DejaVu Sans'; fill: #233b4a">F</tspan>
     </text>
     <rect x="310.945312" y="-5.99375" width="40.45207" height="1.5"/>
    </g>

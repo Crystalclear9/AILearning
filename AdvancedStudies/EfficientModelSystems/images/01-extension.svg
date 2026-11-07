@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1860.29" viewBox="-18.24 45.9466 996.48 1860.29" role="img" aria-labelledby="diagram-title"><title id="diagram-title">局部裁剪与聚合后全局裁剪不交换</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="plot-title" height="724" viewBox="0 0 1200 724"><title id="plot-title">局部裁剪与聚合后全局裁剪不交换</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="m511661b335" d="M 0 0  L 0 3.5  " style="stroke: #527485; stroke-width: 0.8"/>
       <path id="m0d28fb4e5f" d="M 0 0  L -3.5 0  " style="stroke: #527485; stroke-width: 0.8"/>
       <path id="m77bb24c1cd" d="M 0 3  C 0.795609 3 1.55874 2.683901 2.12132 2.12132  C 2.683901 1.55874 3 0.795609 3 0  C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132  C 1.55874 -2.683901 0.795609 -3 0 -3  C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132  C -2.683901 -1.55874 -3 -0.795609 -3 0  C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132  C -1.55874 2.683901 -0.795609 3 0 3  z " style="stroke: #2b76a2"/>
@@ -10,7 +9,7 @@
   <clipPath id="p6cb129df7e">
    <rect x="794.88605" y="158.4" width="424.8" height="424.8"/>
   </clipPath>
- </defs><rect id="edition-paper" x="-18.24" y="45.9466" width="996.48" height="1860.29" fill="#ffffff"/><svg id="edition-view" x="0" y="64.1866" width="960" height="1823.81" viewBox="0 64.186581 960 1823.813419" overflow="hidden"><rect x="0" y="64.186581" width="960" height="1823.813419" fill="#ffffff" id="plate-canvas"/><rect x="0" y="0" width="960" height="1888" fill="#ffffff"/><g transform="translate(-35.953124 -92.744202) scale(1.60941151)"><g id="axes_1">
+ <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="724" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" fill="#233b4a" text-anchor="start">局部裁剪与聚合后全局裁剪不交换</text><g transform="translate(10.915226 74.245763) scale(0.63439645)"><g transform="matrix(1.609408 0 0 1.609408 -35.952158 -92.743892)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 141.11395 583.2  L 565.91395 583.2  L 565.91395 158.4  L 141.11395 158.4  z " style="fill: #ffffff"/>
    </g>
@@ -76,13 +75,13 @@
      </g>
     </g>
     <g id="text_7">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #273f51" x="353.51395" y="634.592969" transform="rotate(-0 353.51395 634.592969)">梯度坐标 1</text>
+     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #273f51" x="353.51395" y="634.592969" transform="rotate(-0 353.51395 634.592969)">梯度坐标 1</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_7">
-      <line x1="141.11395" y1="567.752727" x2="565.91395" y2="567.752727" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
+      <line x1="141.11395" y1="567.752727" x2="565.91395" y2="567.752727" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
      <g id="line2d_8">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="141.11395" y="567.752727" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -94,7 +93,7 @@
     </g>
     <g id="ytick_2">
      <g id="line2d_9">
-      <line x1="141.11395" y1="490.516364" x2="565.91395" y2="490.516364" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
+      <line x1="141.11395" y1="490.516364" x2="565.91395" y2="490.516364" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
      <g id="line2d_10">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="141.11395" y="490.516364" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -106,7 +105,7 @@
     </g>
     <g id="ytick_3">
      <g id="line2d_11">
-      <line x1="141.11395" y1="413.28" x2="565.91395" y2="413.28" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
+      <line x1="141.11395" y1="413.28" x2="565.91395" y2="413.28" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
      <g id="line2d_12">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="141.11395" y="413.28" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -118,7 +117,7 @@
     </g>
     <g id="ytick_4">
      <g id="line2d_13">
-      <line x1="141.11395" y1="336.043636" x2="565.91395" y2="336.043636" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
+      <line x1="141.11395" y1="336.043636" x2="565.91395" y2="336.043636" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
      <g id="line2d_14">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="141.11395" y="336.043636" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -130,7 +129,7 @@
     </g>
     <g id="ytick_5">
      <g id="line2d_15">
-      <line x1="141.11395" y1="258.807273" x2="565.91395" y2="258.807273" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
+      <line x1="141.11395" y1="258.807273" x2="565.91395" y2="258.807273" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
      <g id="line2d_16">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="141.11395" y="258.807273" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -142,7 +141,7 @@
     </g>
     <g id="ytick_6">
      <g id="line2d_17">
-      <line x1="141.11395" y1="181.570909" x2="565.91395" y2="181.570909" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
+      <line x1="141.11395" y1="181.570909" x2="565.91395" y2="181.570909" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p88779ca0d0)"/></g>
      <g id="line2d_18">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="141.11395" y="181.570909" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -166,14 +165,14 @@
     <path d="M 156.561222 583.2  L 156.561222 158.4  " clip-path="url(#p88779ca0d0)" style="fill: none; stroke: #dde4eb; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="patch_4">
-    <line x1="141.11395" y1="583.2" x2="141.11395" y2="158.4" stroke="#202a37" stroke-width="1.43513514"/><polyline points="137.23908514,167.01081081 141.11395,158.4 144.98881486,167.01081081" fill="none" stroke="#202a37" stroke-width="1.34902703" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="141.11395" y1="583.2" x2="141.11395" y2="158.4" stroke="#233b4a" stroke-width="1.43513514"/><polyline points="137.23908514,167.01081081 141.11395,158.4 144.98881486,167.01081081" fill="none" stroke="#233b4a" stroke-width="1.34902703" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_5">
-    <line x1="141.11395" y1="583.2" x2="565.91395" y2="583.2" stroke="#202a37" stroke-width="1.43513514"/></g>
+    <line x1="141.11395" y1="583.2" x2="565.91395" y2="583.2" stroke="#233b4a" stroke-width="1.43513514"/></g>
    <g id="text_15">
-    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #273f51" x="353.51395" y="152.4" transform="rotate(-0 353.51395 152.4)">全局原梯度 (3,4)，范数 5</text>
+    <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #273f51" x="353.51395" y="152.4" transform="rotate(-0 353.51395 152.4)">全局原梯度 (3,4)，范数 5</text>
    </g>
   </g>
-  </g><path d="M44 986.928 H916" stroke="#d3e0e8" stroke-width="1.5"/><g transform="translate(-1088.141468 802.045651) scale(1.60941151)"><g id="axes_2">
+  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A · 梯度坐标 2</text><g transform="translate(564.691927 -493.405840) scale(0.63439645)"><g transform="matrix(1.609408 0 0 1.609408 -1088.138541 802.044287)"><g id="axes_2">
    <g id="patch_6">
     <path d="M 794.88605 583.2  L 1219.68605 583.2  L 1219.68605 158.4  L 794.88605 158.4  z " style="fill: #ffffff"/>
    </g>
@@ -219,13 +218,13 @@
      </g>
     </g>
     <g id="text_20">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #273f51" x="1007.28605" y="634.592969" transform="rotate(-0 1007.28605 634.592969)">梯度坐标 1</text>
+     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #273f51" x="1007.28605" y="634.592969" transform="rotate(-0 1007.28605 634.592969)">梯度坐标 1</text>
     </g>
    </g>
    <g id="matplotlib.axis_4">
     <g id="ytick_7">
      <g id="line2d_26">
-      <line x1="794.88605" y1="583.2" x2="1219.68605" y2="583.2" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
+      <line x1="794.88605" y1="583.2" x2="1219.68605" y2="583.2" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
      <g id="line2d_27">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="794.88605" y="583.2" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -237,7 +236,7 @@
     </g>
     <g id="ytick_8">
      <g id="line2d_28">
-      <line x1="794.88605" y1="533.223529" x2="1219.68605" y2="533.223529" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
+      <line x1="794.88605" y1="533.223529" x2="1219.68605" y2="533.223529" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
      <g id="line2d_29">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="794.88605" y="533.223529" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -249,7 +248,7 @@
     </g>
     <g id="ytick_9">
      <g id="line2d_30">
-      <line x1="794.88605" y1="483.247059" x2="1219.68605" y2="483.247059" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
+      <line x1="794.88605" y1="483.247059" x2="1219.68605" y2="483.247059" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
      <g id="line2d_31">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="794.88605" y="483.247059" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -261,7 +260,7 @@
     </g>
     <g id="ytick_10">
      <g id="line2d_32">
-      <line x1="794.88605" y1="433.270588" x2="1219.68605" y2="433.270588" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
+      <line x1="794.88605" y1="433.270588" x2="1219.68605" y2="433.270588" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
      <g id="line2d_33">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="794.88605" y="433.270588" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -273,7 +272,7 @@
     </g>
     <g id="ytick_11">
      <g id="line2d_34">
-      <line x1="794.88605" y1="383.294118" x2="1219.68605" y2="383.294118" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
+      <line x1="794.88605" y1="383.294118" x2="1219.68605" y2="383.294118" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
      <g id="line2d_35">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="794.88605" y="383.294118" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -285,7 +284,7 @@
     </g>
     <g id="ytick_12">
      <g id="line2d_36">
-      <line x1="794.88605" y1="333.317647" x2="1219.68605" y2="333.317647" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
+      <line x1="794.88605" y1="333.317647" x2="1219.68605" y2="333.317647" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
      <g id="line2d_37">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="794.88605" y="333.317647" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -297,7 +296,7 @@
     </g>
     <g id="ytick_13">
      <g id="line2d_38">
-      <line x1="794.88605" y1="283.341176" x2="1219.68605" y2="283.341176" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
+      <line x1="794.88605" y1="283.341176" x2="1219.68605" y2="283.341176" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
      <g id="line2d_39">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="794.88605" y="283.341176" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -309,7 +308,7 @@
     </g>
     <g id="ytick_14">
      <g id="line2d_40">
-      <line x1="794.88605" y1="233.364706" x2="1219.68605" y2="233.364706" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
+      <line x1="794.88605" y1="233.364706" x2="1219.68605" y2="233.364706" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
      <g id="line2d_41">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="794.88605" y="233.364706" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -321,7 +320,7 @@
     </g>
     <g id="ytick_15">
      <g id="line2d_42">
-      <line x1="794.88605" y1="183.388235" x2="1219.68605" y2="183.388235" stroke="#d6e2e5" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
+      <line x1="794.88605" y1="183.388235" x2="1219.68605" y2="183.388235" stroke="#dbe8eb" stroke-width="0.81802703" stroke-opacity="0.68" clip-path="url(#p6cb129df7e)"/></g>
      <g id="line2d_43">
       <g>
        <use xlink:href="#m0d28fb4e5f" x="794.88605" y="183.388235" style="fill: #527485; stroke: #527485; stroke-width: 0.8"/>
@@ -358,11 +357,11 @@
     <path d="M 844.862521 583.2  L 844.862521 158.4  " clip-path="url(#p6cb129df7e)" style="fill: none; stroke: #dde4eb; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="patch_9">
-    <line x1="794.88605" y1="583.2" x2="794.88605" y2="158.4" stroke="#202a37" stroke-width="1.43513514"/><polyline points="791.01118514,167.01081081 794.88605,158.4 798.76091486,167.01081081" fill="none" stroke="#202a37" stroke-width="1.34902703" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="794.88605" y1="583.2" x2="794.88605" y2="158.4" stroke="#233b4a" stroke-width="1.43513514"/><polyline points="791.01118514,167.01081081 794.88605,158.4 798.76091486,167.01081081" fill="none" stroke="#233b4a" stroke-width="1.34902703" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_10">
-    <line x1="794.88605" y1="583.2" x2="1219.68605" y2="583.2" stroke="#202a37" stroke-width="1.43513514"/></g>
+    <line x1="794.88605" y1="583.2" x2="1219.68605" y2="583.2" stroke="#233b4a" stroke-width="1.43513514"/></g>
    <g id="text_31">
-    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #273f51" x="1007.28605" y="152.4" transform="rotate(-0 1007.28605 152.4)">局部放大：同一个阈值圆</text>
+    <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #273f51" x="1007.28605" y="152.4" transform="rotate(-0 1007.28605 152.4)">局部放大：同一个阈值圆</text>
    </g>
    <g id="legend_1">
     <g id="PathCollection_3">
@@ -371,7 +370,7 @@
      </g>
     </g>
     <g id="text_32">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #273f51" x="872.58605" y="194.086875" transform="rotate(-0 872.58605 194.086875)">全局裁剪</text>
+     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #273f51" x="872.58605" y="194.086875" transform="rotate(-0 872.58605 194.086875)">全局裁剪</text>
     </g>
     <g id="PathCollection_4">
      <g>
@@ -379,8 +378,8 @@
      </g>
     </g>
     <g id="text_33">
-     <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #273f51" x="872.58605" y="226.594219" transform="rotate(-0 872.58605 226.594219)">逐片裁剪</text>
+     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #273f51" x="872.58605" y="226.594219" transform="rotate(-0 872.58605 226.594219)">逐片裁剪</text>
     </g>
    </g>
   </g>
-  </g><text x="194.157291" y="103.186581" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="梯度坐标 2" id="text_14" data-axis-label="matplotlib.axis_2">梯度坐标 2</text><text x="194.15729" y="967.976434" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="梯度坐标 2" id="text_30" data-axis-label="matplotlib.axis_4">梯度坐标 2</text></svg></svg>
+  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B · 梯度坐标 2</text></svg>

@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="2913.48" viewBox="-18.24 63.76 996.48 2913.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">LayerNorm在三个正交扰动方向上的不同局部增益</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- <path id="mbf7198a894" d="M 0 0 L 0 3.5 " style="stroke: #1d262f; stroke-width: 0.8"/>
-      <path id="m9265daac4d" d="M 0 0 L -3.5 0 " style="stroke: #1d262f; stroke-width: 0.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="plot-title" height="1325" viewBox="0 0 1200 1325"><title id="plot-title">LayerNorm在三个正交扰动方向上的不同局部增益</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="mbf7198a894" d="M 0 0 L 0 3.5 " style="stroke: #233b4a; stroke-width: 0.8"/>
+      <path id="m9265daac4d" d="M 0 0 L -3.5 0 " style="stroke: #233b4a; stroke-width: 0.8"/>
       <clipPath id="p966c574d99">
    <rect x="51.0325" y="35.985" width="289.28734" height="274.151083"/>
   </clipPath>
@@ -11,7 +10,7 @@
   <clipPath id="pce7815a383">
    <rect x="723.51218" y="35.985" width="289.28734" height="274.151083"/>
   </clipPath>
- </defs><rect id="edition-paper" x="-18.24" y="63.76" width="996.48" height="2913.48" fill="#ffffff"/><svg id="edition-view" x="0" y="82" width="960" height="2877" viewBox="0 82 960 2877" overflow="hidden"><rect x="0" y="0" width="960" height="2959" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="106" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="132" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">A</text></g><g transform="translate(33.634307 145.247254) scale(2.52369245)"><g id="axes_1">
+ <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="1325" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" fill="#233b4a" text-anchor="start">LayerNorm在三个正交扰动方向上的不同局部增益</text><g transform="translate(24.578283 48.576094) scale(0.61447811)"><g transform="matrix(2.523693 0 0 2.523693 33.634308 145.247253)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 51.0325 310.136082 L 340.31984 310.136082 L 340.31984 35.985 L 51.0325 35.985 z " style="fill: #ffffff"/>
    </g>
@@ -37,31 +36,31 @@
     <g id="xtick_1">
      <g id="line2d_1">
       <g>
-       <use xlink:href="#mbf7198a894" x="98.273025" y="310.136082" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#mbf7198a894" x="98.273025" y="310.136082" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="98.273025" y="331.524832" transform="rotate(-0 98.273025 331.524832)">坐标1</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="98.273025" y="331.524832" transform="rotate(-0 98.273025 331.524832)">坐标1</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#mbf7198a894" x="195.67617" y="310.136082" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#mbf7198a894" x="195.67617" y="310.136082" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="195.67617" y="331.524832" transform="rotate(-0 195.67617 331.524832)">坐标2</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="195.67617" y="331.524832" transform="rotate(-0 195.67617 331.524832)">坐标2</text>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#mbf7198a894" x="293.079315" y="310.136082" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#mbf7198a894" x="293.079315" y="310.136082" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="293.079315" y="331.524832" transform="rotate(-0 293.079315 331.524832)">坐标3</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="293.079315" y="331.524832" transform="rotate(-0 293.079315 331.524832)">坐标3</text>
      </g>
     </g>
    </g>
@@ -69,7 +68,7 @@
     <g id="ytick_1">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m9265daac4d" x="51.0325" y="245.205563" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m9265daac4d" x="51.0325" y="245.205563" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
@@ -79,7 +78,7 @@
     <g id="ytick_2">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#m9265daac4d" x="51.0325" y="173.060541" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m9265daac4d" x="51.0325" y="173.060541" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
@@ -89,7 +88,7 @@
     <g id="ytick_3">
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m9265daac4d" x="51.0325" y="100.91552" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m9265daac4d" x="51.0325" y="100.91552" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
@@ -101,31 +100,31 @@
     <path d="M 51.0325 173.060541 L 340.31984 173.060541 " clip-path="url(#p966c574d99)" style="fill: none; stroke: #ced6de; stroke-linecap: square"/>
    </g>
    <g id="patch_9">
-    <line x1="51.0325" y1="310.136082" x2="51.0325" y2="35.985" stroke="#202a37" stroke-width="0.97732209"/></g>
+    <line x1="51.0325" y1="310.136082" x2="51.0325" y2="35.985" stroke="#233b4a" stroke-width="0.97732209"/></g>
    <g id="patch_10">
-    <line x1="51.0325" y1="310.136082" x2="340.31984" y2="310.136082" stroke="#202a37" stroke-width="0.97732209"/></g>
+    <line x1="51.0325" y1="310.136082" x2="340.31984" y2="310.136082" stroke="#233b4a" stroke-width="0.97732209"/></g>
    <g id="text_7">
-    <text style="font-size: 21px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #7f91a3" x="195.67617" y="66.141619" transform="rotate(-0 195.67617 66.141619)">增益 0</text>
+    <text style="font-size: 21px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #7f91a3" x="195.67617" y="66.141619" transform="rotate(-0 195.67617 66.141619)">增益 0</text>
    </g>
    <g id="text_8">
-    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243b4c" x="195.67617" y="29.985" transform="rotate(-0 195.67617 29.985)">共同平移</text>
+    <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #243b4c" x="195.67617" y="29.985" transform="rotate(-0 195.67617 29.985)">共同平移</text>
    </g>
    <g id="legend_1">
     <g id="patch_11">
      <path d="M 66.3325 264.29452 L 100.3325 264.29452 L 100.3325 252.39452 L 66.3325 252.39452 z " style="fill: #7f91a3; opacity: 0.35"/>
     </g>
     <g id="text_9">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243b4c" x="113.9325" y="264.29452" transform="rotate(-0 113.9325 264.29452)">输入扰动</text>
+     <text style="font-size: 17px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #243b4c" x="113.9325" y="264.29452" transform="rotate(-0 113.9325 264.29452)">输入扰动</text>
     </g>
     <g id="patch_12">
      <path d="M 66.3325 290.609989 L 100.3325 290.609989 L 100.3325 278.709989 L 66.3325 278.709989 z " style="fill: #7f91a3"/>
     </g>
     <g id="text_10">
-     <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #243b4c" x="113.9325" y="290.609989" transform="rotate(-0 113.9325 290.609989)">输出响应</text>
+     <text style="font-size: 17px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #243b4c" x="113.9325" y="290.609989" transform="rotate(-0 113.9325 290.609989)">输出响应</text>
     </g>
    </g>
   </g>
-  </g><path d="M44 1046.729 H916" stroke="#d3e0e8" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="1058.73" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="1084.73" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">B</text></g><g transform="translate(-814.931640 1097.975801) scale(2.52369245)"><g id="axes_2">
+  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A</text><g transform="translate(588.578283 -536.855640) scale(0.61447811)"><g transform="matrix(2.523693 0 0 2.523693 -814.931641 1097.97583)"><g id="axes_2">
    <g id="patch_13">
     <path d="M 387.27234 310.136082 L 676.55968 310.136082 L 676.55968 35.985 L 387.27234 35.985 z " style="fill: #ffffff"/>
    </g>
@@ -151,31 +150,31 @@
     <g id="xtick_4">
      <g id="line2d_8">
       <g>
-       <use xlink:href="#mbf7198a894" x="434.512865" y="310.136082" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#mbf7198a894" x="434.512865" y="310.136082" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_11">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="434.512865" y="331.524832" transform="rotate(-0 434.512865 331.524832)">坐标1</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="434.512865" y="331.524832" transform="rotate(-0 434.512865 331.524832)">坐标1</text>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_9">
       <g>
-       <use xlink:href="#mbf7198a894" x="531.91601" y="310.136082" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#mbf7198a894" x="531.91601" y="310.136082" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_12">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="531.91601" y="331.524832" transform="rotate(-0 531.91601 331.524832)">坐标2</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="531.91601" y="331.524832" transform="rotate(-0 531.91601 331.524832)">坐标2</text>
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_10">
       <g>
-       <use xlink:href="#mbf7198a894" x="629.319155" y="310.136082" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#mbf7198a894" x="629.319155" y="310.136082" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_13">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="629.319155" y="331.524832" transform="rotate(-0 629.319155 331.524832)">坐标3</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="629.319155" y="331.524832" transform="rotate(-0 629.319155 331.524832)">坐标3</text>
      </g>
     </g>
    </g>
@@ -183,7 +182,7 @@
     <g id="ytick_4">
      <g id="line2d_11">
       <g>
-       <use xlink:href="#m9265daac4d" x="387.27234" y="245.205563" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m9265daac4d" x="387.27234" y="245.205563" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_14">
@@ -193,7 +192,7 @@
     <g id="ytick_5">
      <g id="line2d_12">
       <g>
-       <use xlink:href="#m9265daac4d" x="387.27234" y="173.060541" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m9265daac4d" x="387.27234" y="173.060541" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_15">
@@ -203,7 +202,7 @@
     <g id="ytick_6">
      <g id="line2d_13">
       <g>
-       <use xlink:href="#m9265daac4d" x="387.27234" y="100.91552" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m9265daac4d" x="387.27234" y="100.91552" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_16">
@@ -215,9 +214,9 @@
     <path d="M 387.27234 173.060541 L 676.55968 173.060541 " clip-path="url(#pedb255dee3)" style="fill: none; stroke: #ced6de; stroke-linecap: square"/>
    </g>
    <g id="patch_20">
-    <line x1="387.27234" y1="310.136082" x2="387.27234" y2="35.985" stroke="#202a37" stroke-width="0.97732209"/></g>
+    <line x1="387.27234" y1="310.136082" x2="387.27234" y2="35.985" stroke="#233b4a" stroke-width="0.97732209"/></g>
    <g id="patch_21">
-    <line x1="387.27234" y1="310.136082" x2="676.55968" y2="310.136082" stroke="#202a37" stroke-width="0.97732209"/></g>
+    <line x1="387.27234" y1="310.136082" x2="676.55968" y2="310.136082" stroke="#233b4a" stroke-width="0.97732209"/></g>
    <g id="text_17">
     <!-- 增益 $\frac{1}{3}$ -->
     <g style="fill: #bc6d37" transform="translate(501.78101 66.141619)">
@@ -232,10 +231,10 @@
     </g>
    </g>
    <g id="text_18">
-    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243b4c" x="531.91601" y="29.985" transform="rotate(-0 531.91601 29.985)">径向缩放</text>
+    <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #243b4c" x="531.91601" y="29.985" transform="rotate(-0 531.91601 29.985)">径向缩放</text>
    </g>
   </g>
-  </g><path d="M44 1999.457 H916" stroke="#d3e0e8" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="2011.46" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="2037.46" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">C</text></g><g transform="translate(-1663.497586 2050.704349) scale(2.52369245)"><g id="axes_3">
+  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B</text><line x1="65" x2="1135" y1="683.312" y2="683.312" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(306.578283 -506.975337) scale(0.61447811)"><g transform="matrix(2.523693 0 0 2.523693 -1663.497559 2050.704346)"><g id="axes_3">
    <g id="patch_22">
     <path d="M 723.51218 310.136082 L 1012.79952 310.136082 L 1012.79952 35.985 L 723.51218 35.985 z " style="fill: #ffffff"/>
    </g>
@@ -261,31 +260,31 @@
     <g id="xtick_7">
      <g id="line2d_15">
       <g>
-       <use xlink:href="#mbf7198a894" x="770.752705" y="310.136082" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#mbf7198a894" x="770.752705" y="310.136082" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_19">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="770.752705" y="331.524832" transform="rotate(-0 770.752705 331.524832)">坐标1</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="770.752705" y="331.524832" transform="rotate(-0 770.752705 331.524832)">坐标1</text>
      </g>
     </g>
     <g id="xtick_8">
      <g id="line2d_16">
       <g>
-       <use xlink:href="#mbf7198a894" x="868.15585" y="310.136082" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#mbf7198a894" x="868.15585" y="310.136082" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_20">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="868.15585" y="331.524832" transform="rotate(-0 868.15585 331.524832)">坐标2</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="868.15585" y="331.524832" transform="rotate(-0 868.15585 331.524832)">坐标2</text>
      </g>
     </g>
     <g id="xtick_9">
      <g id="line2d_17">
       <g>
-       <use xlink:href="#mbf7198a894" x="965.558995" y="310.136082" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#mbf7198a894" x="965.558995" y="310.136082" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_21">
-      <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle" x="965.558995" y="331.524832" transform="rotate(-0 965.558995 331.524832)">坐标3</text>
+      <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle" x="965.558995" y="331.524832" transform="rotate(-0 965.558995 331.524832)">坐标3</text>
      </g>
     </g>
    </g>
@@ -293,7 +292,7 @@
     <g id="ytick_7">
      <g id="line2d_18">
       <g>
-       <use xlink:href="#m9265daac4d" x="723.51218" y="245.205563" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m9265daac4d" x="723.51218" y="245.205563" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_22">
@@ -303,7 +302,7 @@
     <g id="ytick_8">
      <g id="line2d_19">
       <g>
-       <use xlink:href="#m9265daac4d" x="723.51218" y="173.060541" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m9265daac4d" x="723.51218" y="173.060541" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_23">
@@ -313,7 +312,7 @@
     <g id="ytick_9">
      <g id="line2d_20">
       <g>
-       <use xlink:href="#m9265daac4d" x="723.51218" y="100.91552" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m9265daac4d" x="723.51218" y="100.91552" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_24">
@@ -325,14 +324,14 @@
     <path d="M 723.51218 173.060541 L 1012.79952 173.060541 " clip-path="url(#pce7815a383)" style="fill: none; stroke: #ced6de; stroke-linecap: square"/>
    </g>
    <g id="patch_29">
-    <line x1="723.51218" y1="310.136082" x2="723.51218" y2="35.985" stroke="#202a37" stroke-width="0.97732209"/></g>
+    <line x1="723.51218" y1="310.136082" x2="723.51218" y2="35.985" stroke="#233b4a" stroke-width="0.97732209"/></g>
    <g id="patch_30">
-    <line x1="723.51218" y1="310.136082" x2="1012.79952" y2="310.136082" stroke="#202a37" stroke-width="0.97732209"/></g>
+    <line x1="723.51218" y1="310.136082" x2="1012.79952" y2="310.136082" stroke="#233b4a" stroke-width="0.97732209"/></g>
    <g id="text_25">
-    <text style="font-size: 21px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2c759f" x="868.15585" y="66.141619" transform="rotate(-0 868.15585 66.141619)">增益 1</text>
+    <text style="font-size: 21px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #2c759f" x="868.15585" y="66.141619" transform="rotate(-0 868.15585 66.141619)">增益 1</text>
    </g>
    <g id="text_26">
-    <text style="font-size: 24px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #243b4c" x="868.15585" y="29.985" transform="rotate(-0 868.15585 29.985)">切向变化</text>
+    <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #243b4c" x="868.15585" y="29.985" transform="rotate(-0 868.15585 29.985)">切向变化</text>
    </g>
   </g>
- </g></svg></svg>
+ </g></g><text x="344.000" y="731.312" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">C</text></svg>

@@ -1,14 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1765.48" viewBox="-18.24 110.76 996.48 1765.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">方差不同且样本量不平衡时真实均值差与置换分布的尺度失配，以及学生化后的渐近对齐</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- <path id="m1feaa8ac16" d="M 0 0 L 0 3.5 " style="stroke: #527586; stroke-width: 0.8"/>
-      <path id="mf67d896ac1" d="M 0 0 L -3.5 0 " style="stroke: #527586; stroke-width: 0.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="plot-title" height="723" viewBox="0 0 1200 723"><title id="plot-title">方差不同且样本量不平衡时真实均值差与置换分布的尺度失配，以及学生化后的渐近对齐</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="m1feaa8ac16" d="M 0 0 L 0 3.5 " style="stroke: #526976; stroke-width: 0.8"/>
+      <path id="mf67d896ac1" d="M 0 0 L -3.5 0 " style="stroke: #526976; stroke-width: 0.8"/>
       <clipPath id="p4b3e3aeb50">
    <rect x="115.2" y="90.72" width="403.2" height="312.48"/>
   </clipPath>
   <clipPath id="p9581007cac">
    <rect x="679.68" y="90.72" width="403.2" height="312.48"/>
   </clipPath>
- </defs><rect id="edition-paper" x="-18.24" y="110.76" width="996.48" height="1765.48" fill="#ffffff"/><svg id="edition-view" x="0" y="129" width="960" height="1729" viewBox="0 129 960 1729" overflow="hidden"><rect x="0" y="0" width="960" height="1858" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">A</text></g><g transform="translate(-16.473527 132.384494) scale(1.74388824)"><g id="axes_1">
+ <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="723" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" fill="#233b4a" text-anchor="start">方差不同且样本量不平衡时真实均值差与置换分布的尺度失配，以及学生化后</text><text x="68.000" y="93.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" fill="#233b4a" text-anchor="start">的渐近对齐</text><g transform="translate(-15.456294 48.928399) scale(0.65900620)"><g transform="matrix(1.743888 0 0 1.743888 -16.473528 132.384491)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 115.2 403.2 L 518.4 403.2 L 518.4 90.72 L 115.2 90.72 z " style="fill: #ffffff"/>
    </g>
@@ -18,11 +17,11 @@
       </g>
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m1feaa8ac16" x="170.181818" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#m1feaa8ac16" x="170.181818" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="170.181818" y="426.1875" transform="rotate(-0 170.181818 426.1875)">-8</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="170.181818" y="426.1875" transform="rotate(-0 170.181818 426.1875)">-8</text>
      </g>
     </g>
     <g id="xtick_2">
@@ -30,11 +29,11 @@
       </g>
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m1feaa8ac16" x="316.8" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#m1feaa8ac16" x="316.8" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="316.8" y="426.1875" transform="rotate(-0 316.8 426.1875)">0</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="316.8" y="426.1875" transform="rotate(-0 316.8 426.1875)">0</text>
      </g>
     </g>
     <g id="xtick_3">
@@ -42,26 +41,26 @@
       </g>
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m1feaa8ac16" x="463.418182" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#m1feaa8ac16" x="463.418182" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="463.418182" y="426.1875" transform="rotate(-0 463.418182 426.1875)">8</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="463.418182" y="426.1875" transform="rotate(-0 463.418182 426.1875)">8</text>
      </g>
     </g>
     <g id="text_4">
 
-     <g style="fill: #243b4d" transform="translate(227.04 460.745625)">
+     <g style="fill: #233b4a" transform="translate(227.04 460.745625)">
       <text>
-       <tspan x="0" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">原</tspan>
-       <tspan x="22" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">始</tspan>
-       <tspan x="44" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">均</tspan>
-       <tspan x="66" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">值</tspan>
-       <tspan x="88" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">差</tspan>
-       <tspan x="110" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d">乘</tspan>
-       <tspan x="132" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #243b4d"> </tspan>
-       <tspan x="138.509766" y="-0.83625" style="font-size: 22px; font-family: 'DejaVu Sans'; fill: #243b4d">√</tspan>
-       <tspan x="155.27832" y="-1.296875" style="font-style: oblique; font-size: 22px; font-family: 'DejaVu Sans'; fill: #243b4d">m</tspan>
+       <tspan x="0" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233b4a">原</tspan>
+       <tspan x="22" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233b4a">始</tspan>
+       <tspan x="44" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233b4a">均</tspan>
+       <tspan x="66" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233b4a">值</tspan>
+       <tspan x="88" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233b4a">差</tspan>
+       <tspan x="110" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233b4a">乘</tspan>
+       <tspan x="132" y="-0.83625" style="font-size: 22px; font-family: 'Microsoft YaHei'; fill: #233b4a"> </tspan>
+       <tspan x="138.509766" y="-0.83625" style="font-size: 22px; font-family: 'DejaVu Sans'; fill: #233b4a">√</tspan>
+       <tspan x="155.27832" y="-1.296875" style="font-style: oblique; font-size: 22px; font-family: 'DejaVu Sans'; fill: #233b4a">m</tspan>
       </text>
       <rect x="152.52832" y="-18.25" width="26.930664" height="1.375"/>
      </g>
@@ -70,38 +69,38 @@
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_7">
-      <line x1="115.2" y1="403.2" x2="518.4" y2="403.2" stroke="#d6e2e5" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p4b3e3aeb50)"/></g>
+      <line x1="115.2" y1="403.2" x2="518.4" y2="403.2" stroke="#dbe8eb" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p4b3e3aeb50)"/></g>
      <g id="line2d_8">
       <g>
-       <use xlink:href="#mf67d896ac1" x="115.2" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mf67d896ac1" x="115.2" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527586" x="108.2" y="411.19375" transform="rotate(-0 108.2 411.19375)">0.0</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #526976" x="108.2" y="411.19375" transform="rotate(-0 108.2 411.19375)">0.0</text>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_9">
-      <line x1="115.2" y1="308.509091" x2="518.4" y2="308.509091" stroke="#d6e2e5" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p4b3e3aeb50)"/></g>
+      <line x1="115.2" y1="308.509091" x2="518.4" y2="308.509091" stroke="#dbe8eb" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p4b3e3aeb50)"/></g>
      <g id="line2d_10">
       <g>
-       <use xlink:href="#mf67d896ac1" x="115.2" y="308.509091" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mf67d896ac1" x="115.2" y="308.509091" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527586" x="108.2" y="316.502841" transform="rotate(-0 108.2 316.502841)">0.1</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #526976" x="108.2" y="316.502841" transform="rotate(-0 108.2 316.502841)">0.1</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_11">
-      <line x1="115.2" y1="213.818182" x2="518.4" y2="213.818182" stroke="#d6e2e5" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p4b3e3aeb50)"/></g>
+      <line x1="115.2" y1="213.818182" x2="518.4" y2="213.818182" stroke="#dbe8eb" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p4b3e3aeb50)"/></g>
      <g id="line2d_12">
       <g>
-       <use xlink:href="#mf67d896ac1" x="115.2" y="213.818182" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mf67d896ac1" x="115.2" y="213.818182" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_7">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527586" x="108.2" y="221.811932" transform="rotate(-0 108.2 221.811932)">0.2</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #526976" x="108.2" y="221.811932" transform="rotate(-0 108.2 221.811932)">0.2</text>
      </g>
     </g>
     </g>
@@ -122,28 +121,28 @@
     <path d="M 252.042867 403.2 L 252.042867 90.72 " clip-path="url(#p4b3e3aeb50)" style="fill: none; stroke-dasharray: 6.66,2.88; stroke-dashoffset: 0; stroke: #ba6b41; stroke-width: 1.8"/>
    </g>
    <g id="patch_3">
-    <line x1="115.2" y1="403.2" x2="115.2" y2="90.72" stroke="#202a37" stroke-width="1.36216216"/><polyline points="111.52216216,98.89297297 115.2,90.72 118.87783784,98.89297297" fill="none" stroke="#202a37" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="115.2" y1="403.2" x2="115.2" y2="90.72" stroke="#233b4a" stroke-width="1.36216216"/><polyline points="111.52216216,98.89297297 115.2,90.72 118.87783784,98.89297297" fill="none" stroke="#233b4a" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_4">
-    <line x1="115.2" y1="403.2" x2="518.4" y2="403.2" stroke="#202a37" stroke-width="1.36216216"/><polyline points="510.22702703,399.52216216 518.4,403.2 510.22702703,406.87783784" fill="none" stroke="#202a37" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="115.2" y1="403.2" x2="518.4" y2="403.2" stroke="#233b4a" stroke-width="1.36216216"/><polyline points="510.22702703,399.52216216 518.4,403.2 510.22702703,406.87783784" fill="none" stroke="#233b4a" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="text_9">
-    <text style="font-size: 24px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #243b4d" x="316.8" y="67.72" transform="rotate(-0 316.8 67.72)">置换尺度小于真实尺度</text>
+    <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="316.8" y="67.72" transform="rotate(-0 316.8 67.72)">置换尺度小于真实尺度</text>
    </g>
    <g id="legend_1">
     <g id="line2d_17">
      <path d="M 133.2 117.7075 L 153.2 117.7075 L 173.2 117.7075 " style="fill: none; stroke: #297492; stroke-width: 2.6; stroke-linecap: square"/>
     </g>
     <g id="text_10">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #243b4d" x="189.2" y="124.7075" transform="rotate(-0 189.2 124.7075)">真实抽样：方差 9.25</text>
+     <text style="font-size: 20px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="189.2" y="124.7075" transform="rotate(-0 189.2 124.7075)">真实抽样：方差 9.25</text>
     </g>
     <g id="line2d_18">
      <path d="M 133.2 148.666875 L 153.2 148.666875 L 173.2 148.666875 " style="fill: none; stroke: #ba6b41; stroke-width: 2.6; stroke-linecap: square"/>
     </g>
     <g id="text_11">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #243b4d" x="189.2" y="155.666875" transform="rotate(-0 189.2 155.666875)">置换极限：方差 3.25</text>
+     <text style="font-size: 20px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="189.2" y="155.666875" transform="rotate(-0 189.2 155.666875)">置换极限：方差 3.25</text>
     </g>
    </g>
   </g>
-  </g><path d="M44 996.192 H916" stroke="#d3e0e8" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="1008.19" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="1034.19" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">B</text></g><g transform="translate(-1000.863562 985.882282) scale(1.74388824)"><g id="axes_2">
+  </g></g><text x="62.000" y="156.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A · 概率密度</text><g transform="translate(544.994958 -513.533395) scale(0.65900620)"><g transform="matrix(1.743888 0 0 1.743888 -1000.863586 985.882263)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 679.68 403.2 L 1082.88 403.2 L 1082.88 90.72 L 679.68 90.72 z " style="fill: #ffffff"/>
    </g>
@@ -153,11 +152,11 @@
       </g>
      <g id="line2d_20">
       <g>
-       <use xlink:href="#m1feaa8ac16" x="679.68" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#m1feaa8ac16" x="679.68" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_12">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="679.68" y="426.1875" transform="rotate(-0 679.68 426.1875)">−4</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="679.68" y="426.1875" transform="rotate(-0 679.68 426.1875)">−4</text>
      </g>
     </g>
     <g id="xtick_5">
@@ -165,11 +164,11 @@
       </g>
      <g id="line2d_22">
       <g>
-       <use xlink:href="#m1feaa8ac16" x="782.496" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#m1feaa8ac16" x="782.496" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_13">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="782.496" y="426.1875" transform="rotate(-0 782.496 426.1875)">−1.96</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="782.496" y="426.1875" transform="rotate(-0 782.496 426.1875)">−1.96</text>
      </g>
     </g>
     <g id="xtick_6">
@@ -177,11 +176,11 @@
       </g>
      <g id="line2d_24">
       <g>
-       <use xlink:href="#m1feaa8ac16" x="881.28" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#m1feaa8ac16" x="881.28" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_14">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="881.28" y="426.1875" transform="rotate(-0 881.28 426.1875)">0</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="881.28" y="426.1875" transform="rotate(-0 881.28 426.1875)">0</text>
      </g>
     </g>
     <g id="xtick_7">
@@ -189,11 +188,11 @@
       </g>
      <g id="line2d_26">
       <g>
-       <use xlink:href="#m1feaa8ac16" x="980.064" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#m1feaa8ac16" x="980.064" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_15">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="980.064" y="426.1875" transform="rotate(-0 980.064 426.1875)">1.96</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="980.064" y="426.1875" transform="rotate(-0 980.064 426.1875)">1.96</text>
      </g>
     </g>
     <g id="xtick_8">
@@ -201,52 +200,52 @@
       </g>
      <g id="line2d_28">
       <g>
-       <use xlink:href="#m1feaa8ac16" x="1082.88" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#m1feaa8ac16" x="1082.88" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_16">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="1082.88" y="426.1875" transform="rotate(-0 1082.88 426.1875)">4</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="1082.88" y="426.1875" transform="rotate(-0 1082.88 426.1875)">4</text>
      </g>
     </g>
     <g id="text_17">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #243b4d" x="881.28" y="460.745625" transform="rotate(-0 881.28 460.745625)">用各自标准误学生化后的统计量</text>
+     <text style="font-size: 22px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="881.28" y="460.745625" transform="rotate(-0 881.28 460.745625)">用各自标准误学生化后的统计量</text>
     </g>
    </g>
    <g id="matplotlib.axis_4">
     <g id="ytick_4">
      <g id="line2d_29">
-      <line x1="679.68" y1="403.2" x2="1082.88" y2="403.2" stroke="#d6e2e5" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p9581007cac)"/></g>
+      <line x1="679.68" y1="403.2" x2="1082.88" y2="403.2" stroke="#dbe8eb" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p9581007cac)"/></g>
      <g id="line2d_30">
       <g>
-       <use xlink:href="#mf67d896ac1" x="679.68" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mf67d896ac1" x="679.68" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_18">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527586" x="672.68" y="411.19375" transform="rotate(-0 672.68 411.19375)">0.0</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #526976" x="672.68" y="411.19375" transform="rotate(-0 672.68 411.19375)">0.0</text>
      </g>
     </g>
     <g id="ytick_5">
      <g id="line2d_31">
-      <line x1="679.68" y1="297.274576" x2="1082.88" y2="297.274576" stroke="#d6e2e5" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p9581007cac)"/></g>
+      <line x1="679.68" y1="297.274576" x2="1082.88" y2="297.274576" stroke="#dbe8eb" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p9581007cac)"/></g>
      <g id="line2d_32">
       <g>
-       <use xlink:href="#mf67d896ac1" x="679.68" y="297.274576" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mf67d896ac1" x="679.68" y="297.274576" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_19">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527586" x="672.68" y="305.268326" transform="rotate(-0 672.68 305.268326)">0.2</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #526976" x="672.68" y="305.268326" transform="rotate(-0 672.68 305.268326)">0.2</text>
      </g>
     </g>
     <g id="ytick_6">
      <g id="line2d_33">
-      <line x1="679.68" y1="191.349153" x2="1082.88" y2="191.349153" stroke="#d6e2e5" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p9581007cac)"/></g>
+      <line x1="679.68" y1="191.349153" x2="1082.88" y2="191.349153" stroke="#dbe8eb" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p9581007cac)"/></g>
      <g id="line2d_34">
       <g>
-       <use xlink:href="#mf67d896ac1" x="679.68" y="191.349153" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mf67d896ac1" x="679.68" y="191.349153" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_20">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527586" x="672.68" y="199.342903" transform="rotate(-0 672.68 199.342903)">0.4</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #526976" x="672.68" y="199.342903" transform="rotate(-0 672.68 199.342903)">0.4</text>
      </g>
     </g>
     </g>
@@ -267,25 +266,25 @@
     <path d="M 782.497815 403.2 L 782.497815 90.72 " clip-path="url(#p9581007cac)" style="fill: none; stroke-dasharray: 1.8,2.97; stroke-dashoffset: 0; stroke: #778b9f; stroke-width: 1.8"/>
    </g>
    <g id="patch_6">
-    <line x1="679.68" y1="403.2" x2="679.68" y2="90.72" stroke="#202a37" stroke-width="1.36216216"/><polyline points="676.00216216,98.89297297 679.68,90.72 683.35783784,98.89297297" fill="none" stroke="#202a37" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="679.68" y1="403.2" x2="679.68" y2="90.72" stroke="#233b4a" stroke-width="1.36216216"/><polyline points="676.00216216,98.89297297 679.68,90.72 683.35783784,98.89297297" fill="none" stroke="#233b4a" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_7">
-    <line x1="679.68" y1="403.2" x2="1082.88" y2="403.2" stroke="#202a37" stroke-width="1.36216216"/><polyline points="1074.70702703,399.52216216 1082.88,403.2 1074.70702703,406.87783784" fill="none" stroke="#202a37" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="679.68" y1="403.2" x2="1082.88" y2="403.2" stroke="#233b4a" stroke-width="1.36216216"/><polyline points="1074.70702703,399.52216216 1082.88,403.2 1074.70702703,406.87783784" fill="none" stroke="#233b4a" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="text_22">
-    <text style="font-size: 24px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #243b4d" x="881.28" y="67.72" transform="rotate(-0 881.28 67.72)">逐轮学生化后的共同极限</text>
+    <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="881.28" y="67.72" transform="rotate(-0 881.28 67.72)">逐轮学生化后的共同极限</text>
    </g>
    <g id="legend_2">
     <g id="line2d_39">
      <path d="M 697.68 117.7075 L 717.68 117.7075 L 737.68 117.7075 " style="fill: none; stroke: #297492; stroke-width: 4; stroke-linecap: square"/>
     </g>
     <g id="text_23">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #243b4d" x="753.68" y="124.7075" transform="rotate(-0 753.68 124.7075)">真实统计量极限</text>
+     <text style="font-size: 20px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="753.68" y="124.7075" transform="rotate(-0 753.68 124.7075)">真实统计量极限</text>
     </g>
     <g id="line2d_40">
      <path d="M 697.68 148.666875 L 717.68 148.666875 L 737.68 148.666875 " style="fill: none; stroke-dasharray: 9.25,4; stroke-dashoffset: 0; stroke: #ba6b41; stroke-width: 2.5"/>
     </g>
     <g id="text_24">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #243b4d" x="753.68" y="155.666875" transform="rotate(-0 753.68 155.666875)">逐轮学生化置换极限</text>
+     <text style="font-size: 20px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="753.68" y="155.666875" transform="rotate(-0 753.68 155.666875)">逐轮学生化置换极限</text>
     </g>
    </g>
   </g>
- </g><text x="187.422398" y="267.590035" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="概率密度" id="text_8" data-axis-label="matplotlib.axis_2">概率密度</text><text x="187.422397" y="1055.087823" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="33" fill="#283c4c" text-anchor="start" aria-label="概率密度" id="text_21" data-axis-label="matplotlib.axis_4">概率密度</text></svg></svg>
+ </g></g><text x="626.000" y="156.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B · 概率密度</text></svg>

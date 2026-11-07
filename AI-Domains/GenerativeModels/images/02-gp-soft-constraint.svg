@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plate-caption" aria-describedby="plate-alt" viewBox="0 0 1360 861" width="1360" height="861"><title id="plate-caption">梯度惩罚的软约束最优点与 Wasserstein 真值对照</title><desc id="plate-alt">真实点0，生成点2，线性critic f(x)=wx。有限惩罚lambda最优w=-1-1/lambda，Lipschitz常数超过1。lambda10时原始分差2.2，减惩罚后2.1，均非真实W1距离2。</desc><defs><clipPath id="plate-view-0"><rect x="4.492" y="74.879324" width="1175.02" height="631.8393"/></clipPath><clipPath id="plate-view-1"><rect x="4.492" y="706.71863" width="1175.02" height="55.402048"/></clipPath><g id="plate-scene"><defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect id="edition-paper" x="4.492" y="38.492" width="1175.02" height="760.016" fill="#ffffff"/><svg id="edition-view" x="26" y="60" width="1132" height="717" viewBox="26 60 1132 717" overflow="hidden"><rect x="26" y="60" width="1132" height="717" fill="#ffffff"/><rect width="1200" height="800" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plate-caption" aria-describedby="plate-alt" viewBox="0 0 1360 861" width="1360" height="861"><title id="plate-caption">梯度惩罚的软约束最优点与 Wasserstein 真值对照</title><desc id="plate-alt">真实点0，生成点2，线性critic f(x)=wx。有限惩罚lambda最优w=-1-1/lambda，Lipschitz常数超过1。lambda10时原始分差2.2，减惩罚后2.1，均非真实W1距离2。</desc><defs><clipPath id="plate-view-0"><rect x="4.492" y="74.879324" width="1175.02" height="631.8393"/></clipPath><clipPath id="plate-view-1"><rect x="4.492" y="706.71863" width="1175.02" height="55.402048"/></clipPath><g id="plate-scene"><defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect id="edition-paper" x="4.492" y="38.492" width="1175.02" height="760.016" fill="#ffffff"/><svg id="scientific-layout" x="26" y="60" width="1132" height="717" viewBox="26 60 1132 717" overflow="hidden"><rect x="26" y="60" width="1132" height="717" fill="#ffffff"/><rect width="1200" height="800" fill="#ffffff"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#233a4b">
 <text x="44" y="100" font-size="26" fill="#618297" text-anchor="start" font-weight="400">真实分布在 0，生成分布在 2；线性 critic 为 f(x) = wx，真实 W1 = 2</text>
 <text x="44" y="163" font-size="28" fill="#233a4b" text-anchor="start" font-weight="700">① λ = 10：最优点越过约束边界</text>
@@ -27,14 +26,14 @@
 <circle cx="412.6666666666666" cy="331.3333333333333" r="7" fill="#2e77a6"/>
 <text x="80" y="221" font-size="25" fill="#b96f41" text-anchor="start" font-weight="400">软约束最优 w = −1.1</text>
 <line x1="289" y1="232" x2="334.9999999999999" y2="307.0" stroke="#b96f41" stroke-width="2"/>
-<text x="416" y="451" font-size="25" fill="#2e77a6" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">硬约束</text>
-<text x="416" y="490" font-size="25" fill="#2e77a6" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">可行部分</text>
+<text x="416" y="451" font-size="25" fill="#2e77a6" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif">硬约束</text>
+<text x="416" y="490" font-size="25" fill="#2e77a6" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif">可行部分</text>
 <text x="337" y="679" font-size="25" fill="#233a4b" text-anchor="middle" font-weight="400">权重 w</text>
-<text x="650" y="163" font-size="28" fill="#233a4b" text-anchor="start" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">② 三种数值不可混用</text>
+<text x="650" y="163" font-size="28" fill="#233a4b" text-anchor="start" font-weight="700" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif">② 三种数值不可混用</text>
 <text x="663" y="227" font-size="26" fill="#618297" text-anchor="start" font-weight="400">λ</text>
 <text x="778" y="227" font-size="26" fill="#618297" text-anchor="middle" font-weight="400">|w*|</text>
-<text x="920" y="227" font-size="25" fill="#618297" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">原始分差</text>
-<text x="1086" y="227" font-size="25" fill="#618297" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">减惩罚后</text>
+<text x="920" y="227" font-size="25" fill="#618297" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif">原始分差</text>
+<text x="1086" y="227" font-size="25" fill="#618297" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif">减惩罚后</text>
 <text x="675" y="310" font-size="28" fill="#233a4b" text-anchor="middle" font-weight="400">1</text>
 <text x="778" y="310" font-size="28" fill="#233a4b" text-anchor="middle" font-weight="400">2</text>
 <text x="920" y="310" font-size="28" fill="#233a4b" text-anchor="middle" font-weight="400">4</text>
@@ -53,5 +52,5 @@
 <text x="665" y="640" font-size="26" fill="#2e77a6" text-anchor="start" font-weight="700">所有行的真实 W1 距离都为 2</text>
 <rect x="44" y="718" width="1112" height="57" rx="12" fill="url(#book-wash-eef4f9)" stroke="none"/>
 <text x="65" y="755" font-size="26" fill="#233a4b" text-anchor="start" font-weight="400">有限 λ 允许用少量惩罚换取更大的 critic 分差；增加采样点不能消除这种偏差。</text>
-</g><text font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" x="100" y="260" fill="#618297" font-size="24">目标 J</text>
+</g><text font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" x="100" y="260" fill="#618297" font-size="24">目标 J</text>
 </svg></g></defs><g id="paper-and-content"><rect x="0" y="0" width="1360" height="861" fill="white"/><g transform="translate(19.928446 -32.085613) scale(1.1167136)"><use xmlns:ns0="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-0)" ns0:href="#plate-scene"/></g><g transform="translate(19.928446 -42.417859) scale(1.1167136)"><use xmlns:ns1="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-1)" ns1:href="#plate-scene"/></g></g></svg>

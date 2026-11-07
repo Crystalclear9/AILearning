@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plate-caption" aria-describedby="plate-alt" viewBox="0 0 1360 2140" width="1360" height="2140"><title id="plate-caption">八次抽样，均值方差怎样算出来？</title><desc id="plate-alt">橙框标出滞后二的十二个矩阵单元。各滞后的协方差贡献相加后除以六十四。精确有限链 ESS 和长链近似随链长变化。</desc><defs><clipPath id="plate-view-0"><rect x="-18.24" y="82.638686" width="996.48" height="1428.9055"/></clipPath><g id="plate-scene"><rect id="edition-paper" x="-18.24" y="52.4" width="996.48" height="1515.84" fill="#ffffff"/><svg id="edition-view" x="0" y="70.64" width="960" height="1479.36" viewBox="0 70.64 960 1479.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plate-caption" aria-describedby="plate-alt" viewBox="0 0 1360 2140" width="1360" height="2140"><title id="plate-caption">八次抽样，均值方差怎样算出来？</title><desc id="plate-alt">橙框标出滞后二的十二个矩阵单元。各滞后的协方差贡献相加后除以六十四。精确有限链 ESS 和长链近似随链长变化。</desc><defs><clipPath id="plate-view-0"><rect x="-18.24" y="82.638686" width="996.48" height="1428.9055"/></clipPath><g id="plate-scene"><rect id="edition-paper" x="-18.24" y="52.4" width="996.48" height="1515.84" fill="#ffffff"/><svg id="scientific-layout" x="0" y="70.64" width="960" height="1479.36" viewBox="0 70.64 960 1479.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
     <rect x="0" y="0" width="960" height="1550" fill="#ffffff" stroke="none" rx="0" stroke-width="2"/>
     <text x="46" y="110" fill="#455f71" font-size="26" font-weight="400" text-anchor="start">平稳 AR(1) 例子，相邻相关为 0.8</text>
     <rect x="46" y="150" width="44" height="42" fill="#ebf6f8" stroke="none" rx="8" stroke-width="2"/>
@@ -104,7 +103,7 @@
     <text x="741.463" y="1000" fill="#455f71" font-size="24" font-weight="400" text-anchor="middle">6</text>
     <line x1="836.6481" y1="967" x2="836.6481" y2="974" stroke="#6f879a" stroke-width="2"/>
     <text x="836.6481" y="1000" fill="#455f71" font-size="24" font-weight="400" text-anchor="middle">7</text>
-    <text x="118" y="685" fill="#455f71" font-size="24" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">协方差总和中的贡献</text>
+    <text x="118" y="685" fill="#455f71" font-size="24" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif">协方差总和中的贡献</text>
     <text x="889" y="1035" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">滞后 k</text>
     <rect x="147.3519" y="791.6667" width="46" height="175.3333" fill="#1b697e" stroke="none" rx="2" stroke-width="2"/>
     <text x="170.3519" y="778.6667" fill="#1b697e" font-size="24" font-weight="650" text-anchor="middle">8</text>
@@ -126,7 +125,7 @@
     <text x="68" y="1118" fill="#1b697e" font-size="26" font-weight="700" text-anchor="middle">C</text>
     <text x="103" y="1118" fill="#283341" font-size="30" font-weight="650" text-anchor="start">链短时，精确 ESS 与长链近似不同</text>
     <line x1="123" y1="1176" x2="158" y2="1176" stroke="#1b697e" stroke-width="4"/>
-    <text x="168" y="1184" fill="#1b697e" font-size="24" font-weight="600" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">有限链精确值</text>
+    <text x="168" y="1184" fill="#1b697e" font-size="24" font-weight="600" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif">有限链精确值</text>
     <line x1="488" y1="1176" x2="523" y2="1176" stroke="#6f879a" stroke-width="4" stroke-dasharray="10 6"/>
     <text x="533" y="1184" fill="#6f879a" font-size="24" font-weight="600" text-anchor="start">长链近似 N ÷ 9</text>
     <line x1="118" y1="1439.0" x2="889" y2="1439.0" stroke="#d6e2e6" stroke-width="1.3"/>
@@ -153,7 +152,7 @@
     <text x="628.3803" y="1472" fill="#455f71" font-size="24" font-weight="400" text-anchor="middle">48</text>
     <line x1="889.0" y1="1439" x2="889.0" y2="1446" stroke="#6f879a" stroke-width="2"/>
     <text x="889.0" y="1472" fill="#455f71" font-size="24" font-weight="400" text-anchor="middle">72</text>
-    <text x="118" y="1229" fill="#455f71" font-size="24" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">均值的有效样本量</text>
+    <text x="118" y="1229" fill="#455f71" font-size="24" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif">均值的有效样本量</text>
     <text x="889" y="1507" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">链长 N</text>
     <polyline points="118.000,1419.900 128.859,1417.778 139.718,1416.019 150.577,1414.323 161.437,1412.629 172.296,1410.918 183.155,1409.183 194.014,1407.422 204.873,1405.635 215.732,1403.822 226.592,1401.984 237.451,1400.124 248.310,1398.243 259.169,1396.342 270.028,1394.424 280.887,1392.488 291.746,1390.538 302.606,1388.573 313.465,1386.596 324.324,1384.608 335.183,1382.609 346.042,1380.600 356.901,1378.583 367.761,1376.558 378.620,1374.526 389.479,1372.487 400.338,1370.442 411.197,1368.392 422.056,1366.337 432.915,1364.277 443.775,1362.213 454.634,1360.146 465.493,1358.075 476.352,1356.000 487.211,1353.923 498.070,1351.843 508.930,1349.761 519.789,1347.677 530.648,1345.590 541.507,1343.502 552.366,1341.411 563.225,1339.319 574.085,1337.226 584.944,1335.131 595.803,1333.035 606.662,1330.937 617.521,1328.839 628.380,1326.739 639.239,1324.638 650.099,1322.537 660.958,1320.434 671.817,1318.331 682.676,1316.227 693.535,1314.122 704.394,1312.017 715.254,1309.910 726.113,1307.804 736.972,1305.696 747.831,1303.588 758.690,1301.480 769.549,1299.371 780.408,1297.262 791.268,1295.152 802.127,1293.042 812.986,1290.931 823.845,1288.820 834.704,1286.709 845.563,1284.597 856.423,1282.485 867.282,1280.373 878.141,1278.260 889.000,1276.147" stroke="#1b697e" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
     <polyline points="118.000,1436.878 889.000,1286.200" stroke="#6f879a" stroke-width="4" fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="10 6"/>

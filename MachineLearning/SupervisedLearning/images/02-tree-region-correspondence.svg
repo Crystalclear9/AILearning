@@ -1,19 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="534.195" viewBox="-18.24 26.0452 996.48 534.195" role="img" aria-labelledby="artwork-title"><title id="artwork-title">同一棵回归树的判断路径、三个叶子区域与新样本预测</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="444.947093"/></clipPath><linearGradient id="edition-wash-1" x1="0%" y1="0%" x2="82%" y2="100%"><stop offset="0%" stop-color="#f4f6f8"/><stop offset="100%" stop-color="#ecf0f3"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="26.0452" width="996.48" height="534.195" fill="#ffffff"/><svg id="edition-view" x="0" y="44.2852" width="960" height="497.715" viewBox="0 44.28524 960 497.71476" overflow="hidden"><rect x="0" y="44.28524" width="960" height="497.71476" fill="#ffffff" id="plate-canvas"/><rect width="960" height="542" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.948875)"><g><metadata>
-  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-   <cc:Work>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-04T14:57:43.204802</dc:date>
-    <dc:format>image/svg+xml</dc:format>
-    <dc:creator>
-     <cc:Agent>
-      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
-     </cc:Agent>
-    </dc:creator>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="534.195" viewBox="-18.24 26.0452 996.48 534.195" role="img" aria-labelledby="artwork-title"><title id="artwork-title">同一棵回归树的判断路径、三个叶子区域与新样本预测</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="444.947093"/></clipPath><linearGradient id="edition-wash-1" x1="0%" y1="0%" x2="82%" y2="100%"><stop offset="0%" stop-color="#f4f6f8"/><stop offset="100%" stop-color="#ecf0f3"/></linearGradient><linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="26.0452" width="996.48" height="534.195" fill="#ffffff"/><svg id="plot-content" x="0" y="44.2852" width="960" height="497.715" viewBox="0 44.28524 960 497.71476" overflow="hidden"><rect x="0" y="44.28524" width="960" height="497.71476" fill="#ffffff" id="plot-canvas"/><rect width="960" height="542" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.948875)"><g><defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g id="figure_1">
@@ -275,10 +260,10 @@
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
-       <path id="m335609dbbf" d="M 0 0 L 0 3.5 " style="stroke: #1d262f; stroke-width: 0.8"/>
+       <path id="m335609dbbf" d="M 0 0 L 0 3.5 " style="stroke: #233b4a; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m335609dbbf" x="652.105682" y="396.105625" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m335609dbbf" x="652.105682" y="396.105625" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_12">
@@ -294,7 +279,7 @@
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m335609dbbf" x="763.665682" y="396.105625" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m335609dbbf" x="763.665682" y="396.105625" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_13">
@@ -307,7 +292,7 @@
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m335609dbbf" x="931.005682" y="396.105625" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#m335609dbbf" x="931.005682" y="396.105625" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_14">
@@ -336,10 +321,10 @@
     <g id="ytick_1">
      <g id="line2d_4">
       <defs>
-       <path id="meca7b9ea00" d="M 0 0 L -3.5 0 " style="stroke: #1d262f; stroke-width: 0.8"/>
+       <path id="meca7b9ea00" d="M 0 0 L -3.5 0 " style="stroke: #233b4a; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#meca7b9ea00" x="652.105682" y="396.105625" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#meca7b9ea00" x="652.105682" y="396.105625" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_16">
@@ -352,7 +337,7 @@
     <g id="ytick_2">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#meca7b9ea00" x="652.105682" y="228.765625" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#meca7b9ea00" x="652.105682" y="228.765625" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_17">
@@ -365,7 +350,7 @@
     <g id="ytick_3">
      <g id="line2d_6">
       <g>
-       <use xlink:href="#meca7b9ea00" x="652.105682" y="61.425625" style="stroke: #1d262f; stroke-width: 0.8"/>
+       <use xlink:href="#meca7b9ea00" x="652.105682" y="61.425625" style="stroke: #233b4a; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_18">
@@ -386,9 +371,9 @@
     <line clip-path="url(#p4dabb63235)" style="fill: none; stroke: #bc602f; stroke-width: 2.5; stroke-linecap: square" x1="763.665682" y1="228.765625" x2="931.005682" y2="228.765625"/>
    </g>
    <g id="patch_15">
-    <line x1="652.105682" y1="396.105625" x2="652.105682" y2="61.425625" stroke="#202a37" stroke-width="0.94222973"/></g>
+    <line x1="652.105682" y1="396.105625" x2="652.105682" y2="61.425625" stroke="#233b4a" stroke-width="0.94222973"/></g>
    <g id="patch_16">
-    <line x1="652.105682" y1="396.105625" x2="931.005682" y2="396.105625" stroke="#202a37" stroke-width="0.94222973"/></g>
+    <line x1="652.105682" y1="396.105625" x2="931.005682" y2="396.105625" stroke="#233b4a" stroke-width="0.94222973"/></g>
    <g id="text_20">
     <!-- R₁：预测 2 -->
     <g style="fill: #263e50" transform="translate(652.946744 100.471625) scale(0.2 -0.2)">
@@ -521,4 +506,4 @@
    <rect x="652.105682" y="61.425625" width="278.9" height="334.68"/>
   </clipPath>
  </defs>
-</g></g></g><text x="646.766779" y="75.28524" font-family="Microsoft YaHei, Noto Sans CJK SC, SimSun, serif" font-size="24" fill="#283c4c" text-anchor="start" aria-label="特征 x₂" id="text_19" data-axis-label="matplotlib.axis_2">特征 x₂</text></svg></svg>
+</g></g></g></svg><text id="text_19" x="643.770" y="89.290" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="19.93" fill="#233b4a" text-anchor="start">特征 x₂</text></svg>

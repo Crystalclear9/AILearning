@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1602.48" viewBox="-18.24 110.76 996.48 1602.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">共享参数驱动三步内层迭代，以及有限步导数与隐式近似的差别</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- <path id="mb51b47a37d" d="M 0 0 L 0 3.5 " style="stroke: #527586; stroke-width: 0.8"/>
-      <path id="mf7fe8c31f8" d="M 0 0 L -3.5 0 " style="stroke: #527586; stroke-width: 0.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="plot-title" height="668" viewBox="0 0 1200 668"><title id="plot-title">共享参数驱动三步内层迭代，以及有限步导数与隐式近似的差别</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="mb51b47a37d" d="M 0 0 L 0 3.5 " style="stroke: #526976; stroke-width: 0.8"/>
+      <path id="mf7fe8c31f8" d="M 0 0 L -3.5 0 " style="stroke: #526976; stroke-width: 0.8"/>
       <path id="me5821c790d" d="M 0 2.5 C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 C 2.236584 1.29895 2.5 0.663008 2.5 0 C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 C -1.29895 2.236584 -0.663008 2.5 0 2.5 z " style="stroke: #297492"/>
     <path id="m9d996e4b68" d="M -2 2 L 2 2 L 2 -2 L -2 -2 z " style="stroke: #ba6b41; stroke-linejoin: miter"/>
     <clipPath id="pb95e1d61b6">
@@ -10,7 +9,7 @@
   <clipPath id="p542c8032d0">
    <rect x="679.68" y="90.72" width="403.2" height="312.48"/>
   </clipPath>
- </defs><rect id="edition-paper" x="-18.24" y="110.76" width="996.48" height="1602.48" fill="#ffffff"/><svg id="edition-view" x="0" y="129" width="960" height="1566" viewBox="0 129 960 1566" overflow="hidden"><rect x="0" y="0" width="960" height="1695" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">A</text></g><g transform="translate(-37.629398 133.184208) scale(1.69765818)"><g id="axes_1">
+ <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="668" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" fill="#233b4a" text-anchor="start">共享参数驱动三步内层迭代，以及有限步导数与隐式近似的差别</text><g transform="translate(3.882917 10.424465) scale(0.65598603)"><g transform="matrix(1.697658 0 0 1.697658 -37.629398 133.184204)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 158.88 302.946 C 164.672036 302.946 170.227624 301.16257 174.323212 297.988489 C 178.4188 294.814409 180.72 290.508828 180.72 286.02 C 180.72 281.531172 178.4188 277.225591 174.323212 274.051511 C 170.227624 270.87743 164.672036 269.094 158.88 269.094 C 153.087964 269.094 147.532376 270.87743 143.436788 274.051511 C 139.3412 277.225591 137.04 281.531172 137.04 286.02 C 137.04 290.508828 139.3412 294.814409 143.436788 297.988489 C 147.532376 301.16257 153.087964 302.946 158.88 302.946 z " clip-path="url(#pb95e1d61b6)" style="fill: #ffffff; stroke: #297492; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
@@ -37,10 +36,10 @@
    </g>
    <g id="text_1">
 
-    <g style="fill: #243b4d" transform="translate(143.93 292.353984)">
+    <g style="fill: #233b4a" transform="translate(143.93 292.353984)">
      <text>
-      <tspan x="0" y="-0.421875" style="font-style: oblique; font-size: 23px; font-family: 'DejaVu Sans'; fill: #243b4d">w</tspan>
-      <tspan x="18.811035" y="3.351562" style="font-size: 16.1px; font-family: 'DejaVu Sans'; fill: #243b4d">0</tspan>
+      <tspan x="0" y="-0.421875" style="font-style: oblique; font-size: 23px; font-family: 'DejaVu Sans'; fill: #233b4a">w</tspan>
+      <tspan x="18.811035" y="3.351562" style="font-size: 16.1px; font-family: 'DejaVu Sans'; fill: #233b4a">0</tspan>
      </text>
     </g>
    </g>
@@ -49,10 +48,10 @@
    </g>
    <g id="text_3">
 
-    <g style="fill: #243b4d" transform="translate(234.65 292.353984)">
+    <g style="fill: #233b4a" transform="translate(234.65 292.353984)">
      <text>
-      <tspan x="0" y="-0.421875" style="font-style: oblique; font-size: 23px; font-family: 'DejaVu Sans'; fill: #243b4d">w</tspan>
-      <tspan x="18.811035" y="3.351562" style="font-size: 16.1px; font-family: 'DejaVu Sans'; fill: #243b4d">1</tspan>
+      <tspan x="0" y="-0.421875" style="font-style: oblique; font-size: 23px; font-family: 'DejaVu Sans'; fill: #233b4a">w</tspan>
+      <tspan x="18.811035" y="3.351562" style="font-size: 16.1px; font-family: 'DejaVu Sans'; fill: #233b4a">1</tspan>
      </text>
     </g>
    </g>
@@ -61,10 +60,10 @@
    </g>
    <g id="text_5">
 
-    <g style="fill: #243b4d" transform="translate(325.37 292.353984)">
+    <g style="fill: #233b4a" transform="translate(325.37 292.353984)">
      <text>
-      <tspan x="0" y="-0.421875" style="font-style: oblique; font-size: 23px; font-family: 'DejaVu Sans'; fill: #243b4d">w</tspan>
-      <tspan x="18.811035" y="3.351562" style="font-size: 16.1px; font-family: 'DejaVu Sans'; fill: #243b4d">2</tspan>
+      <tspan x="0" y="-0.421875" style="font-style: oblique; font-size: 23px; font-family: 'DejaVu Sans'; fill: #233b4a">w</tspan>
+      <tspan x="18.811035" y="3.351562" style="font-size: 16.1px; font-family: 'DejaVu Sans'; fill: #233b4a">2</tspan>
      </text>
     </g>
    </g>
@@ -73,10 +72,10 @@
    </g>
    <g id="text_7">
 
-    <g style="fill: #243b4d" transform="translate(416.09 292.353984)">
+    <g style="fill: #233b4a" transform="translate(416.09 292.353984)">
      <text>
-      <tspan x="0" y="-0.421875" style="font-style: oblique; font-size: 23px; font-family: 'DejaVu Sans'; fill: #243b4d">w</tspan>
-      <tspan x="18.811035" y="3.351562" style="font-size: 16.1px; font-family: 'DejaVu Sans'; fill: #243b4d">3</tspan>
+      <tspan x="0" y="-0.421875" style="font-style: oblique; font-size: 23px; font-family: 'DejaVu Sans'; fill: #233b4a">w</tspan>
+      <tspan x="18.811035" y="3.351562" style="font-size: 16.1px; font-family: 'DejaVu Sans'; fill: #233b4a">3</tspan>
      </text>
     </g>
    </g>
@@ -111,13 +110,13 @@
     </g>
    </g>
    <g id="text_10">
-    <text style="font-size: 22px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #243b4d" x="300" y="387.576" transform="rotate(-0 300 387.576)">每条参数路径都参与最终导数</text>
+    <text style="font-size: 22px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="300" y="387.576" transform="rotate(-0 300 387.576)">每条参数路径都参与最终导数</text>
    </g>
    <g id="text_11">
-    <text style="font-size: 24px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #243b4d" x="316.8" y="67.72" transform="rotate(-0 316.8 67.72)">同一参数进入每步更新</text>
+    <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="316.8" y="67.72" transform="rotate(-0 316.8 67.72)">同一参数进入每步更新</text>
    </g>
   </g>
-  </g><path d="M44 853.107 H916" stroke="#d3e0e8" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="865.11" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="891.11" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">B</text></g><g transform="translate(-958.846635 845.291018) scale(1.69765818)"><g id="axes_2">
+  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A</text><g transform="translate(546.986482 -456.709749) scale(0.65598603)"><g transform="matrix(1.697658 0 0 1.697658 -958.846619 845.291016)"><g id="axes_2">
    <g id="patch_12">
     <path d="M 679.68 403.2 L 1082.88 403.2 L 1082.88 90.72 L 679.68 90.72 z " style="fill: #ffffff"/>
    </g>
@@ -127,11 +126,11 @@
       </g>
      <g id="line2d_2">
       <g>
-       <use xlink:href="#mb51b47a37d" x="679.68" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mb51b47a37d" x="679.68" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_12">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="679.68" y="426.1875" transform="rotate(-0 679.68 426.1875)">1</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="679.68" y="426.1875" transform="rotate(-0 679.68 426.1875)">1</text>
      </g>
     </g>
     <g id="xtick_2">
@@ -139,11 +138,11 @@
       </g>
      <g id="line2d_4">
       <g>
-       <use xlink:href="#mb51b47a37d" x="722.122105" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mb51b47a37d" x="722.122105" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_13">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="722.122105" y="426.1875" transform="rotate(-0 722.122105 426.1875)">3</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="722.122105" y="426.1875" transform="rotate(-0 722.122105 426.1875)">3</text>
      </g>
     </g>
     <g id="xtick_3">
@@ -151,11 +150,11 @@
       </g>
      <g id="line2d_6">
       <g>
-       <use xlink:href="#mb51b47a37d" x="870.669474" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mb51b47a37d" x="870.669474" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_14">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="870.669474" y="426.1875" transform="rotate(-0 870.669474 426.1875)">10</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="870.669474" y="426.1875" transform="rotate(-0 870.669474 426.1875)">10</text>
      </g>
     </g>
     <g id="xtick_4">
@@ -163,64 +162,64 @@
       </g>
      <g id="line2d_8">
       <g>
-       <use xlink:href="#mb51b47a37d" x="1082.88" y="403.2" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mb51b47a37d" x="1082.88" y="403.2" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_15">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #527586" x="1082.88" y="426.1875" transform="rotate(-0 1082.88 426.1875)">20</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #526976" x="1082.88" y="426.1875" transform="rotate(-0 1082.88 426.1875)">20</text>
      </g>
     </g>
     <g id="text_16">
-     <text style="font-size: 22px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #243b4d" x="881.28" y="460.745625" transform="rotate(-0 881.28 460.745625)">实际迭代步数 T</text>
+     <text style="font-size: 22px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="881.28" y="460.745625" transform="rotate(-0 881.28 460.745625)">实际迭代步数 T</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
     <g id="ytick_1">
      <g id="line2d_9">
-      <line x1="679.68" y1="385.84" x2="1082.88" y2="385.84" stroke="#d6e2e5" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p542c8032d0)"/></g>
+      <line x1="679.68" y1="385.84" x2="1082.88" y2="385.84" stroke="#dbe8eb" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p542c8032d0)"/></g>
      <g id="line2d_10">
       <g>
-       <use xlink:href="#mf7fe8c31f8" x="679.68" y="385.84" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mf7fe8c31f8" x="679.68" y="385.84" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_17">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527586" x="672.68" y="393.83375" transform="rotate(-0 672.68 393.83375)">-0.5</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #526976" x="672.68" y="393.83375" transform="rotate(-0 672.68 393.83375)">-0.5</text>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_11">
-      <line x1="679.68" y1="299.04" x2="1082.88" y2="299.04" stroke="#d6e2e5" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p542c8032d0)"/></g>
+      <line x1="679.68" y1="299.04" x2="1082.88" y2="299.04" stroke="#dbe8eb" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p542c8032d0)"/></g>
      <g id="line2d_12">
       <g>
-       <use xlink:href="#mf7fe8c31f8" x="679.68" y="299.04" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mf7fe8c31f8" x="679.68" y="299.04" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_18">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527586" x="672.68" y="307.03375" transform="rotate(-0 672.68 307.03375)">0.0</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #526976" x="672.68" y="307.03375" transform="rotate(-0 672.68 307.03375)">0.0</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_13">
-      <line x1="679.68" y1="212.24" x2="1082.88" y2="212.24" stroke="#d6e2e5" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p542c8032d0)"/></g>
+      <line x1="679.68" y1="212.24" x2="1082.88" y2="212.24" stroke="#dbe8eb" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p542c8032d0)"/></g>
      <g id="line2d_14">
       <g>
-       <use xlink:href="#mf7fe8c31f8" x="679.68" y="212.24" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mf7fe8c31f8" x="679.68" y="212.24" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_19">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527586" x="672.68" y="220.23375" transform="rotate(-0 672.68 220.23375)">0.5</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #526976" x="672.68" y="220.23375" transform="rotate(-0 672.68 220.23375)">0.5</text>
      </g>
     </g>
     <g id="ytick_4">
      <g id="line2d_15">
-      <line x1="679.68" y1="125.44" x2="1082.88" y2="125.44" stroke="#d6e2e5" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p542c8032d0)"/></g>
+      <line x1="679.68" y1="125.44" x2="1082.88" y2="125.44" stroke="#dbe8eb" stroke-width="0.77643243" stroke-opacity="0.55" clip-path="url(#p542c8032d0)"/></g>
      <g id="line2d_16">
       <g>
-       <use xlink:href="#mf7fe8c31f8" x="679.68" y="125.44" style="fill: #527586; stroke: #527586; stroke-width: 0.8"/>
+       <use xlink:href="#mf7fe8c31f8" x="679.68" y="125.44" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_20">
-      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #527586" x="672.68" y="133.43375" transform="rotate(-0 672.68 133.43375)">1.0</text>
+      <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: end; fill: #526976" x="672.68" y="133.43375" transform="rotate(-0 672.68 133.43375)">1.0</text>
      </g>
     </g>
     </g>
@@ -281,11 +280,11 @@
     <path d="M 679.68 299.04 L 1082.88 299.04 " clip-path="url(#p542c8032d0)" style="fill: none; stroke: #778b9f; stroke-linecap: square"/>
    </g>
    <g id="patch_13">
-    <line x1="679.68" y1="403.2" x2="679.68" y2="90.72" stroke="#202a37" stroke-width="1.36216216"/><polyline points="676.00216216,98.89297297 679.68,90.72 683.35783784,98.89297297" fill="none" stroke="#202a37" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="679.68" y1="403.2" x2="679.68" y2="90.72" stroke="#233b4a" stroke-width="1.36216216"/><polyline points="676.00216216,98.89297297 679.68,90.72 683.35783784,98.89297297" fill="none" stroke="#233b4a" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="patch_14">
-    <line x1="679.68" y1="403.2" x2="1082.88" y2="403.2" stroke="#202a37" stroke-width="1.36216216"/><polyline points="1074.70702703,399.52216216 1082.88,403.2 1074.70702703,406.87783784" fill="none" stroke="#202a37" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
+    <line x1="679.68" y1="403.2" x2="1082.88" y2="403.2" stroke="#233b4a" stroke-width="1.36216216"/><polyline points="1074.70702703,399.52216216 1082.88,403.2 1074.70702703,406.87783784" fill="none" stroke="#233b4a" stroke-width="1.28043243" stroke-linejoin="round" stroke-linecap="round"/></g>
    <g id="text_22">
-    <text style="font-size: 24px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: middle; fill: #243b4d" x="881.28" y="67.72" transform="rotate(-0 881.28 67.72)">有限步与固定点敏感度</text>
+    <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="881.28" y="67.72" transform="rotate(-0 881.28 67.72)">有限步与固定点敏感度</text>
    </g>
    <g id="legend_1">
     <g id="line2d_21">
@@ -295,7 +294,7 @@
      </g>
     </g>
     <g id="text_23">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #243b4d" x="864.88" y="318.309375" transform="rotate(-0 864.88 318.309375)">有限步目标的完整导数</text>
+     <text style="font-size: 20px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="864.88" y="318.309375" transform="rotate(-0 864.88 318.309375)">有限步目标的完整导数</text>
     </g>
     <g id="line2d_22">
      <path d="M 808.88 342.26875 L 828.88 342.26875 L 848.88 342.26875 " style="fill: none; stroke-dasharray: 9.62,4.16; stroke-dashoffset: 0; stroke: #ba6b41; stroke-width: 2.6"/>
@@ -304,14 +303,14 @@
      </g>
     </g>
     <g id="text_24">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #243b4d" x="864.88" y="349.26875" transform="rotate(-0 864.88 349.26875)">在当前输出套用解导数</text>
+     <text style="font-size: 20px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="864.88" y="349.26875" transform="rotate(-0 864.88 349.26875)">在当前输出套用解导数</text>
     </g>
     <g id="line2d_23">
      <path d="M 808.88 373.228125 L 828.88 373.228125 L 848.88 373.228125 " style="fill: none; stroke-dasharray: 2.6,4.29; stroke-dashoffset: 0; stroke: #778b9f; stroke-width: 2.6"/>
     </g>
     <g id="text_25">
-     <text style="font-size: 20px; font-family: 'Microsoft YaHei', 'DejaVu Sans'; text-anchor: start; fill: #243b4d" x="864.88" y="380.228125" transform="rotate(-0 864.88 380.228125)">收敛解目标的导数</text>
+     <text style="font-size: 20px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="864.88" y="380.228125" transform="rotate(-0 864.88 380.228125)">收敛解目标的导数</text>
     </g>
    </g>
   </g>
- </g><text x="130.017677" y="1243.484682" text-anchor="end" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="26" fill="#283c4c" aria-label="外层目标对 θ 的导数" id="text_21" data-axis-label="matplotlib.axis_2"><tspan x="130.017677" dy="0">外层目标</tspan><tspan x="130.017677" dy="30.68">对 θ 的导</tspan><tspan x="130.017677" dy="30.68">数</tspan></text></svg></svg>
+ </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B · 外层目标对 θ 的导数</text></svg>

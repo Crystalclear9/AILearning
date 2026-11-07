@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1740.48" viewBox="-18.24 110.76 996.48 1740.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">两状态重启链的折扣访问流量及有限前缀质量的收敛</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  <path id="me98aff890d" d="M 0 0 L 0 3.5 " style="stroke: #527383; stroke-width: 0.8"/>
       <path id="mf7831760f5" d="M 0 0 L -3.5 0 " style="stroke: #527383; stroke-width: 0.8"/>
@@ -8,7 +7,7 @@
   <clipPath id="p56f52f0bec">
    <rect x="599.818618" y="84.24" width="506.101382" height="466.56"/>
   </clipPath>
- </defs><rect id="edition-paper" x="-18.24" y="110.76" width="996.48" height="1740.48" fill="#ffffff"/><svg id="edition-view" x="0" y="129" width="960" height="1704" viewBox="0 129 960 1704" overflow="hidden"><rect x="0" y="0" width="960" height="1833" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">A</text></g><g transform="translate(-22.839494 104.477602) scale(1.45564085)"><g id="axes_1">
+ <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="110.76" width="996.48" height="1740.48" fill="#ffffff"/><svg id="plot-content" x="0" y="129" width="960" height="1704" viewBox="0 129 960 1704" overflow="hidden"><rect x="0" y="0" width="960" height="1833" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="153" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="179" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">A</text></g><g transform="translate(-22.839494 104.477602) scale(1.45564085)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 149.618433 365.9256 C 159.745916 365.9256 169.459967 360.825281 176.621179 351.747928 C 183.782391 342.670575 187.806083 330.357315 187.806083 317.52 C 187.806083 304.682685 183.782391 292.369425 176.621179 283.292072 C 169.459967 274.214719 159.745916 269.1144 149.618433 269.1144 C 139.49095 269.1144 129.776899 274.214719 122.615687 283.292072 C 115.454475 292.369425 111.430783 304.682685 111.430783 317.52 C 111.430783 330.357315 115.454475 342.670575 122.615687 351.747928 C 129.776899 360.825281 139.49095 365.9256 149.618433 365.9256 z " clip-path="url(#p72fabb528e)" style="fill: #ffffff; stroke: #2a7fa1; stroke-width: 3; stroke-linejoin: miter"/>
    </g>
@@ -115,7 +114,7 @@
      </text>
      <rect x="0" y="-5.421875" width="12.724609" height="1.25"/>
     </g>
-    <text style="font-size: 20px; font-family: 'Microsoft YaHei'; fill: #263e50" transform="translate(100.794996 498.312)">当前奖励 0</text>
+    <text style="font-size: 20px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; fill: #263e50" transform="translate(100.794996 498.312)">当前奖励 0</text>
    </g>
    <g id="text_8">
     <!-- $\dfrac{2}{3}$ 访问质量 -->
@@ -131,10 +130,10 @@
      </text>
      <rect x="0" y="-5.15625" width="12.724609" height="1.25"/>
     </g>
-    <text style="font-size: 20px; font-family: 'Microsoft YaHei'; fill: #263e50" transform="translate(376.850295 498.312)">当前奖励 1</text>
+    <text style="font-size: 20px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; fill: #263e50" transform="translate(376.850295 498.312)">当前奖励 1</text>
    </g>
    <g id="text_9">
-    <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #263e50" x="287.646083" y="90.072" transform="rotate(-0 287.646083 90.072)">重启链：80% 继续，20% 回到 A</text>
+    <text style="font-size: 20px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #263e50" x="287.646083" y="90.072" transform="rotate(-0 287.646083 90.072)">重启链：80% 继续，20% 回到 A</text>
    </g>
   </g>
   </g><path d="M44 887.907 H916" stroke="#d3e0e8" stroke-width="1.5"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif"><rect x="48" y="899.91" width="46" height="36" rx="8" fill="#ecf5f7"/><text x="71" y="925.91" font-size="26" font-weight="700" fill="#1c687e" text-anchor="middle">B</text></g><g transform="translate(-733.756778 905.285006) scale(1.45564085)"><g id="axes_2">
@@ -203,7 +202,7 @@
      </g>
     </g>
     <g id="text_16">
-     <text style="font-size: 18px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #263e50" x="852.869309" y="592.95625" transform="rotate(-0 852.869309 592.95625)">保留时刻 0 至 H−1</text>
+     <text style="font-size: 18px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #263e50" x="852.869309" y="592.95625" transform="rotate(-0 852.869309 592.95625)">保留时刻 0 至 H−1</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
@@ -284,9 +283,9 @@
     <path d="M 599.818618 251.723077 L 1105.92 251.723077 " clip-path="url(#p56f52f0bec)" style="fill: none; stroke-dasharray: 1,1.65; stroke-dashoffset: 0; stroke: #c66e41"/>
    </g>
    <g id="patch_9">
-    <line x1="599.818618" y1="550.8" x2="599.818618" y2="84.24" stroke="#202a37" stroke-width="1.65"/></g>
+    <line x1="599.818618" y1="550.8" x2="599.818618" y2="84.24" stroke="#233b4a" stroke-width="1.65"/></g>
    <g id="patch_10">
-    <line x1="599.818618" y1="550.8" x2="1105.92" y2="550.8" stroke="#202a37" stroke-width="1.65"/></g>
+    <line x1="599.818618" y1="550.8" x2="1105.92" y2="550.8" stroke="#233b4a" stroke-width="1.65"/></g>
    <g id="text_24">
     <!-- 前缀逐渐逼近 $d=(\dfrac{1}{3},\dfrac{2}{3})$ -->
     <g style="fill: #263e50" transform="translate(737.579309 62.24)">
@@ -317,20 +316,20 @@
      <path d="M 918.7275 477.2875 L 934.7275 477.2875 L 950.7275 477.2875 " style="fill: none; stroke: #2a7fa1; stroke-width: 3; stroke-linecap: square"/>
     </g>
     <g id="text_25">
-     <text style="font-size: 19.92px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #263e50" x="963.5275" y="482.8875" transform="rotate(-0 963.5275 482.8875)">A 的累计折扣质量</text>
+     <text style="font-size: 19.92px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #263e50" x="963.5275" y="482.8875" transform="rotate(-0 963.5275 482.8875)">A 的累计折扣质量</text>
     </g>
     <g id="line2d_19">
      <path d="M 918.7275 502.055 L 934.7275 502.055 L 950.7275 502.055 " style="fill: none; stroke: #c66e41; stroke-width: 3; stroke-linecap: square"/>
     </g>
     <g id="text_26">
-     <text style="font-size: 19.92px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #263e50" x="963.5275" y="507.655" transform="rotate(-0 963.5275 507.655)">B 的累计折扣质量</text>
+     <text style="font-size: 19.92px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #263e50" x="963.5275" y="507.655" transform="rotate(-0 963.5275 507.655)">B 的累计折扣质量</text>
     </g>
     <g id="line2d_20">
      <path d="M 918.7275 526.8225 L 934.7275 526.8225 L 950.7275 526.8225 " style="fill: none; stroke-dasharray: 7.4,3.2; stroke-dashoffset: 0; stroke: #a6b5c3; stroke-width: 2"/>
     </g>
     <g id="text_27">
-     <text style="font-size: 19.83px; font-family: 'Microsoft YaHei'; text-anchor: start; fill: #263e50" x="963.5275" y="532.4225" transform="rotate(-0 963.5275 532.4225)">已保留的总质量</text>
+     <text style="font-size: 19.83px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #263e50" x="963.5275" y="532.4225" transform="rotate(-0 963.5275 532.4225)">已保留的总质量</text>
     </g>
    </g>
   </g>
- </g><text x="142.363705" y="1004.908191" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif" font-size="26.201535" fill="#283c4c" text-anchor="start" aria-label="归一化折扣质量" id="text_23" data-axis-label="matplotlib.axis_2">归一化折扣质量</text></svg></svg>
+ </g></svg><text id="text_23" x="139.360" y="1017.910" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="19.93" fill="#233b4a" text-anchor="start">归一化折扣质量</text></svg>
