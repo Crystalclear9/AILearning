@@ -1,20 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1193.7" height="774.7" viewBox="-8.85 38.15 1193.7 774.7" role="img" aria-labelledby="title desc">
-<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title id="title">单 logit 与双 logit 参数化的梯度几何和单步对照</title><desc id="desc">固定输入等于1，标签1，初始logit为0。单logit步长0.2后有效logit0.1；两个logit同样步长各向相反方向移动0.1，有效差值0.2；两logit学习率减半则恢复0.1。</desc>
-<rect id="edition-paper" x="-8.85" y="38.15" width="1193.7" height="774.7" fill="#ffffff"/><svg id="edition-view" x="13" y="60" width="1150" height="731" viewBox="13 60 1150 731" overflow="hidden"><rect x="13" y="60" width="1150" height="731" fill="#ffffff"/><rect width="1200" height="820" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plate-caption" aria-describedby="plate-alt" viewBox="0 0 1360 862" width="1360" height="862"><title id="plate-caption">单 logit 与双 logit 参数化的梯度几何和单步对照</title><desc id="plate-alt">固定输入等于1，标签1，初始logit为0。单logit步长0.2后有效logit0.1；两个logit同样步长各向相反方向移动0.1，有效差值0.2；两logit学习率减半则恢复0.1。</desc><defs><clipPath id="plate-view-0"><rect x="-8.85" y="73.351687" width="1193.7" height="607.89265"/></clipPath><clipPath id="plate-view-1"><rect x="-8.85" y="681.24434" width="1193.7" height="94.537229"/></clipPath><g id="plate-scene"><defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect id="edition-paper" x="-8.85" y="38.15" width="1193.7" height="774.7" fill="#ffffff"/><svg id="edition-view" x="13" y="60" width="1150" height="731" viewBox="13 60 1150 731" overflow="hidden"><rect x="13" y="60" width="1150" height="731" fill="#ffffff"/><rect width="1200" height="820" fill="#ffffff"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#233a4b">
 <text x="44" y="100" font-size="26" fill="#618297" text-anchor="start" font-weight="400">固定输入 x = 1，标签 y = 1，初始概率 0.5；无动量、无正则</text>
 <text x="44" y="163" font-size="28" fill="#233a4b" text-anchor="start" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">① 两个分数沿相反方向移动</text>
-<line x1="152.0" y1="208.99999999999997" x2="152.0" y2="569.0" stroke="#e0e9ef" stroke-width="1"/>
-<line x1="91.99999999999997" y1="569.0" x2="512.0" y2="569.0" stroke="#e0e9ef" stroke-width="1"/>
-<text x="152.0" y="599.0" font-size="24" fill="#618297" text-anchor="middle" font-weight="400">-0.1</text>
+<line x1="152.0" y1="208.99999999999997" x2="152.0" y2="569.0" stroke="#d6e2e6" stroke-width="1"/>
+<line x1="92" y1="569" x2="512" y2="569" stroke="#657682" stroke-width="1.55" stroke-linecap="round"/><text x="152.0" y="599.0" font-size="24" fill="#618297" text-anchor="middle" font-weight="400">-0.1</text>
 <text x="69.5" y="577.0" font-size="24" fill="#618297" text-anchor="end" font-weight="400">-0.1</text>
-<line x1="302" y1="208.99999999999997" x2="302" y2="569.0" stroke="#e0e9ef" stroke-width="1"/>
-<line x1="91.99999999999997" y1="419" x2="512.0" y2="419" stroke="#e0e9ef" stroke-width="1"/>
+<line x1="302" y1="208.99999999999997" x2="302" y2="569.0" stroke="#d6e2e6" stroke-width="1"/>
+<line x1="152" y1="569" x2="152" y2="574" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="302" y1="569" x2="302" y2="574" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="452" y1="569" x2="452" y2="574" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="87" y1="569" x2="92" y2="569" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="87" y1="419" x2="92" y2="419" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="87" y1="269" x2="92" y2="269" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="91.99999999999997" y1="419" x2="512.0" y2="419" stroke="#d6e2e6" stroke-width="1"/>
 <text x="302" y="599.0" font-size="24" fill="#618297" text-anchor="middle" font-weight="400">0</text>
 <text x="69.5" y="427" font-size="24" fill="#618297" text-anchor="end" font-weight="400">0</text>
-<line x1="452.0" y1="208.99999999999997" x2="452.0" y2="569.0" stroke="#e0e9ef" stroke-width="1"/>
-<line x1="91.99999999999997" y1="269.0" x2="512.0" y2="269.0" stroke="#e0e9ef" stroke-width="1"/>
+<line x1="452.0" y1="208.99999999999997" x2="452.0" y2="569.0" stroke="#d6e2e6" stroke-width="1"/>
+<line x1="91.99999999999997" y1="269.0" x2="512.0" y2="269.0" stroke="#d6e2e6" stroke-width="1"/>
 <text x="452.0" y="599.0" font-size="24" fill="#618297" text-anchor="middle" font-weight="400">0.1</text>
 <text x="69.5" y="277.0" font-size="24" fill="#618297" text-anchor="end" font-weight="400">0.1</text>
 <line x1="91.99999999999997" y1="419" x2="512.0" y2="419" stroke="#618297" stroke-width="2"/>
@@ -51,4 +48,4 @@
 <rect x="44" y="692" width="1112" height="92" rx="12" fill="url(#book-wash-eef4f9)" stroke="none"/>
 <text x="65" y="730" font-size="27" fill="#233a4b" text-anchor="start" font-weight="400">两分数梯度分别为 −g 与 g，所以差值更新含 2ηg。</text>
 <text x="65" y="769" font-size="25" fill="#233a4b" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">图仅比较自由输出分数；共享骨干的学习率不能跟着整体减半。</text>
-</g></svg></svg>
+</g></svg></g></defs><g id="paper-and-content"><rect x="0" y="0" width="1360" height="862" fill="white"/><g transform="translate(36.827664 -28.74404) scale(1.0955681)"><use xmlns:ns0="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-0)" ns0:href="#plate-scene"/></g><g transform="translate(36.827664 -40.155968) scale(1.0955681)"><use xmlns:ns1="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-1)" ns1:href="#plate-scene"/></g></g></svg>

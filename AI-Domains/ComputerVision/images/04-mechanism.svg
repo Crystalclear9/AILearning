@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1280.89" height="820.892" viewBox="14.554 45.554 1280.89 820.892" role="img" aria-labelledby="title desc"><title id="title">置信筛选必须同时报告覆盖与条件错误率</title><desc id="desc">分数由高到低为0.99到0.55，前两个预测错误，之后六个正确。只接收前四个时覆盖0.5、条件错误率0.5；全接收时条件错误率0.25。</desc><rect id="edition-paper" x="14.554" y="45.554" width="1280.89" height="820.892" fill="#ffffff"/><svg id="edition-view" x="38" y="69" width="1234" height="774" viewBox="38 69 1234 774" overflow="hidden"><rect x="38" y="69" width="1234" height="774" fill="#ffffff"/><rect width="1400" height="840" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#2a3645">
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plate-caption" aria-describedby="plate-alt" viewBox="0 0 1360 854" width="1360" height="854"><title id="plate-caption">置信筛选必须同时报告覆盖与条件错误率</title><desc id="plate-alt">分数由高到低为0.99到0.55，前两个预测错误，之后六个正确。只接收前四个时覆盖0.5、条件错误率0.5；全接收时条件错误率0.25。</desc><defs><clipPath id="plate-view-0"><rect x="14.554" y="83.599688" width="1280.89" height="52.052215"/></clipPath><clipPath id="plate-view-1"><rect x="14.554" y="135.6519" width="1280.89" height="690.74623"/></clipPath><g id="plate-scene"><rect id="edition-paper" x="14.554" y="45.554" width="1280.89" height="820.892" fill="#ffffff"/><svg id="edition-view" x="38" y="69" width="1234" height="774" viewBox="38 69 1234 774" overflow="hidden"><rect x="38" y="69" width="1234" height="774" fill="#ffffff"/><rect width="1400" height="840" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#2a3645">
 <text x="56" y="110" font-size="27" fill="#60808d" text-anchor="start" font-weight="400">沿用实验五的 8 条人工预测；橙色叉号是错误，蓝色勾号是正确。</text>
 <text x="120" y="182" font-size="28" fill="#60808d" text-anchor="middle" font-weight="400">0.99</text>
 <circle cx="120" cy="230" r="28" fill="#ae6635" stroke="none" stroke-width="3"/>
@@ -37,15 +37,15 @@
 <line x1="74" y1="273" x2="74" y2="287" stroke="#ae6635" stroke-width="3"/>
 <line x1="635" y1="273" x2="635" y2="287" stroke="#ae6635" stroke-width="3"/>
 <text x="350" y="323" font-size="28" fill="#ae6635" text-anchor="middle" font-weight="400">阈值 0.90：保留前 4 条</text>
-<line x1="150" y1="695" x2="780" y2="695" stroke="#e8edf1" stroke-width="1"/>
+<line x1="150" y1="695" x2="150" y2="410" stroke="#657682" stroke-width="1.55" stroke-linecap="round"/><line x1="307.5" y1="695" x2="307.5" y2="700" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="465" y1="695" x2="465" y2="700" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="622.5" y1="695" x2="622.5" y2="700" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="780" y1="695" x2="780" y2="700" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="145" y1="695" x2="150" y2="695" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="145" y1="623.75" x2="150" y2="623.75" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="145" y1="552.5" x2="150" y2="552.5" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="145" y1="481.25" x2="150" y2="481.25" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="145" y1="410" x2="150" y2="410" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="150" y1="695" x2="780" y2="695" stroke="#d6e2e6" stroke-width="1"/>
 <text x="130" y="704" font-size="24" fill="#60808d" text-anchor="end" font-weight="400">0</text>
-<line x1="150" y1="623.75" x2="780" y2="623.75" stroke="#e8edf1" stroke-width="1"/>
+<line x1="150" y1="623.75" x2="780" y2="623.75" stroke="#d6e2e6" stroke-width="1"/>
 <text x="130" y="632.75" font-size="24" fill="#60808d" text-anchor="end" font-weight="400">0.25</text>
-<line x1="150" y1="552.5" x2="780" y2="552.5" stroke="#e8edf1" stroke-width="1"/>
+<line x1="150" y1="552.5" x2="780" y2="552.5" stroke="#d6e2e6" stroke-width="1"/>
 <text x="130" y="561.5" font-size="24" fill="#60808d" text-anchor="end" font-weight="400">0.5</text>
-<line x1="150" y1="481.25" x2="780" y2="481.25" stroke="#e8edf1" stroke-width="1"/>
+<line x1="150" y1="481.25" x2="780" y2="481.25" stroke="#d6e2e6" stroke-width="1"/>
 <text x="130" y="490.25" font-size="24" fill="#60808d" text-anchor="end" font-weight="400">0.75</text>
-<line x1="150" y1="410" x2="780" y2="410" stroke="#e8edf1" stroke-width="1"/>
+<line x1="150" y1="410" x2="780" y2="410" stroke="#d6e2e6" stroke-width="1"/>
 <text x="130" y="419" font-size="24" fill="#60808d" text-anchor="end" font-weight="400">1</text>
 <line x1="150" y1="695" x2="780" y2="695" stroke="#60808d" stroke-width="2"/>
 <polyline points="228.75,410.0 307.5,410.0 386.25,505.0 465.0,552.5 543.75,581.0 622.5,600.0 701.25,613.5714285714286 780.0,623.75" fill="none" stroke="#207894" stroke-width="3"/>
@@ -67,4 +67,4 @@
 <text x="900" y="501" font-size="29" fill="#ae6635" text-anchor="start" font-weight="400">覆盖 50% · 错误 50%</text>
 <text x="900" y="594" font-size="30" fill="#207894" text-anchor="start" font-weight="600">全部 8 条</text>
 <text x="900" y="643" font-size="29" fill="#207894" text-anchor="start" font-weight="400">覆盖 100% · 错误 25%</text>
-<text x="56" y="821" font-size="26" fill="#60808d" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">覆盖为零时，条件错误率无定义；连线只帮助追踪阈值变化。</text></g></svg></svg>
+<text x="56" y="821" font-size="26" fill="#60808d" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">覆盖为零时，条件错误率无定义；连线只帮助追踪阈值变化。</text></g></svg></g></defs><g id="paper-and-content"><rect x="0" y="0" width="1360" height="854" fill="white"/><g transform="translate(10.22895 -33.438662) scale(1.0209929)"><use xmlns:ns0="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-0)" ns0:href="#plate-scene"/></g><g transform="translate(10.22895 -42.269637) scale(1.0209929)"><use xmlns:ns1="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-1)" ns1:href="#plate-scene"/></g></g></svg>

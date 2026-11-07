@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1180.21" height="763.206" viewBox="4.397 38.397 1180.21 763.206" role="img" aria-labelledby="title desc">
-<defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title id="title">两种结束概率的未终止尾概率及有限串质量</title><desc id="desc">比较两种结束率：第t步的结束概率分别为1除以(t+1)平方和1除以(t+1)。前者一半概率永不结束；后者几乎必然结束但期望长度无穷。</desc>
-<rect id="edition-paper" x="4.397" y="38.397" width="1180.21" height="763.206" fill="#ffffff"/><svg id="edition-view" x="26" y="60" width="1137" height="720" viewBox="26 60 1137 720" overflow="hidden"><rect x="26" y="60" width="1137" height="720" fill="#ffffff"/><rect width="1200" height="800" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plate-caption" aria-describedby="plate-alt" viewBox="0 0 1360 848" width="1360" height="848"><title id="plate-caption">两种结束概率的未终止尾概率及有限串质量</title><desc id="plate-alt">比较两种结束率：第t步的结束概率分别为1除以(t+1)平方和1除以(t+1)。前者一半概率永不结束；后者几乎必然结束但期望长度无穷。</desc><defs><clipPath id="plate-view-0"><rect x="4.397" y="76.797333" width="1180.21" height="209.54944"/></clipPath><clipPath id="plate-view-1"><rect x="4.397" y="286.34678" width="1180.21" height="426.76857"/></clipPath><clipPath id="plate-view-2"><rect x="4.397" y="713.11535" width="1180.21" height="51.930812"/></clipPath><g id="plate-scene"><defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect id="edition-paper" x="4.397" y="38.397" width="1180.21" height="763.206" fill="#ffffff"/><svg id="edition-view" x="26" y="60" width="1137" height="720" viewBox="26 60 1137 720" overflow="hidden"><rect x="26" y="60" width="1137" height="720" fill="#ffffff"/><rect width="1200" height="800" fill="#ffffff"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#233a4b">
 <text x="44" y="100" font-size="26" fill="#618297" text-anchor="start" font-weight="400">仅有继续符号和 EOS；T 是首次输出 EOS 的步数，t 从 1 开始</text>
 <text x="80" y="175" font-size="27" fill="#b96f41" text-anchor="start" font-weight="400">A：q(t) =</text>
@@ -13,15 +11,14 @@
 <line x1="825" y1="170" x2="955" y2="170" stroke="#2e77a6" stroke-width="2"/>
 <text x="890" y="204" font-size="25" fill="#2e77a6" text-anchor="middle" font-weight="400">t + 1</text>
 <text x="80" y="255" font-size="28" fill="#233a4b" text-anchor="start" font-weight="700">① 仍未结束的概率 P(T &gt; n)</text>
-<line x1="108" y1="613" x2="598" y2="613" stroke="#e0e9ef" stroke-width="2"/>
-<text x="93" y="621" font-size="24" fill="#618297" text-anchor="end" font-weight="400">0</text>
-<line x1="108" y1="540.0" x2="598" y2="540.0" stroke="#e0e9ef" stroke-width="2"/>
+<line x1="108" y1="613" x2="598" y2="613" stroke="#657682" stroke-width="1.55" stroke-linecap="round"/><text x="93" y="621" font-size="24" fill="#618297" text-anchor="end" font-weight="400">0</text>
+<line x1="103" y1="613" x2="108" y2="613" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="103" y1="540" x2="108" y2="540" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="103" y1="467" x2="108" y2="467" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="103" y1="394" x2="108" y2="394" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="103" y1="321" x2="108" y2="321" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="108" y1="540.0" x2="598" y2="540.0" stroke="#d6e2e6" stroke-width="1.3"/>
 <text x="93" y="548.0" font-size="24" fill="#618297" text-anchor="end" font-weight="400">0.25</text>
-<line x1="108" y1="467.0" x2="598" y2="467.0" stroke="#e0e9ef" stroke-width="2"/>
+<line x1="108" y1="467.0" x2="598" y2="467.0" stroke="#d6e2e6" stroke-width="1.3"/>
 <text x="93" y="475.0" font-size="24" fill="#618297" text-anchor="end" font-weight="400">0.5</text>
-<line x1="108" y1="394.0" x2="598" y2="394.0" stroke="#e0e9ef" stroke-width="2"/>
+<line x1="108" y1="394.0" x2="598" y2="394.0" stroke="#d6e2e6" stroke-width="1.3"/>
 <text x="93" y="402.0" font-size="24" fill="#618297" text-anchor="end" font-weight="400">0.75</text>
-<line x1="108" y1="321" x2="598" y2="321" stroke="#e0e9ef" stroke-width="2"/>
+<line x1="108" y1="321" x2="598" y2="321" stroke="#d6e2e6" stroke-width="1.3"/>
 <text x="93" y="329" font-size="24" fill="#618297" text-anchor="end" font-weight="400">1</text>
 <line x1="108.0" y1="613" x2="108.0" y2="620" stroke="#618297" stroke-width="2"/>
 <text x="108.0" y="651" font-size="24" fill="#618297" text-anchor="middle" font-weight="400">0</text>
@@ -49,4 +46,4 @@
 <text x="730" y="547" font-size="25" fill="#2e77a6" text-anchor="start" font-weight="400">总质量为 1，但平均长度仍无穷</text>
 <rect x="44" y="724" width="1112" height="48" rx="10" fill="url(#book-wash-eef4f9)" stroke="none"/>
 <text x="65" y="758" font-size="26" fill="#233a4b" text-anchor="start" font-weight="400">B：截断到 10、100、1000 步，期望长度约为 2.929、5.187、7.485。</text>
-</g></svg></svg>
+</g></svg></g></defs><g id="paper-and-content"><rect x="0" y="0" width="1360" height="848" fill="white"/><g transform="translate(20.1363 -33.680484) scale(1.1099436)"><use xmlns:ns0="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-0)" ns0:href="#plate-scene"/></g><g transform="translate(20.1363 -43.624885) scale(1.1099436)"><use xmlns:ns1="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-1)" ns1:href="#plate-scene"/></g><g transform="translate(20.1363 -53.200975) scale(1.1099436)"><use xmlns:ns2="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-2)" ns2:href="#plate-scene"/></g></g></svg>

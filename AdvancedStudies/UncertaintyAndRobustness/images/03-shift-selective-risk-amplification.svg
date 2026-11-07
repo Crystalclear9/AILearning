@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1453.2" height="730.311" viewBox="-26.6 56.2895 1453.2 730.311" role="img" aria-labelledby="plate-title">
-<title id="plate-title">用三块质量复算分布变化的条件风险放大</title><rect id="edition-paper" x="-26.6" y="56.2895" width="1453.2" height="730.311" fill="#ffffff"/><svg id="edition-view" x="0" y="82.8895" width="1400" height="677.111" viewBox="0 82.8895 1400 677.1105" overflow="hidden"><rect id="offline-white-background" x="0" y="82.889518" width="1400" height="677.110482" fill="#ffffff"/><rect width="1400" height="760" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plate-caption" viewBox="0 0 1360 727" width="1360" height="727"><title id="plate-caption">用三块质量复算分布变化的条件风险放大</title><defs><clipPath id="plate-view-0"><rect x="-26.6" y="104.45457" width="1453.2" height="633.98086"/></clipPath><g id="plate-scene"><rect id="edition-paper" x="-26.6" y="56.2895" width="1453.2" height="730.311" fill="#ffffff"/><svg id="edition-view" x="0" y="82.8895" width="1400" height="677.111" viewBox="0 82.8895 1400 677.1105" overflow="hidden"><rect id="offline-white-background" x="0" y="82.889518" width="1400" height="677.110482" fill="#ffffff"/><rect width="1400" height="760" fill="#ffffff"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="24" fill="#1a3c53">
 <text x="70.00" y="130.00" font-size="28" fill="#1a3c53" text-anchor="start">A  覆盖固定 0.1 的三块概率质量</text>
 <text x="770.00" y="130.00" font-size="28" fill="#1a3c53" text-anchor="start">B  相同 0.01 迁移量，在低覆盖时更危险</text>
@@ -20,13 +19,13 @@
 <text x="842.00" y="183.00" font-size="24" fill="#287ab0" text-anchor="start">来源风险 = 0.1</text>
 <line x1="800.00" y1="210.00" x2="830.00" y2="210.00" stroke="#c06c34" stroke-width="4"/>
 <text x="842.00" y="218.00" font-size="24" fill="#c06c34" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">目标风险：覆盖越低，放大越明显</text>
-<line x1="810.00" y1="610.00" x2="1310.00" y2="610.00" stroke="#e5ecf2" stroke-width="1"/>
+<line x1="810" y1="610" x2="810" y2="305.38" stroke="#657682" stroke-width="1.55" stroke-linecap="round"/><line x1="805" y1="610" x2="810" y2="610" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="805" y1="559.23" x2="810" y2="559.23" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="805" y1="457.69" x2="810" y2="457.69" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="805" y1="305.38" x2="810" y2="305.38" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="810.00" y1="610.00" x2="1310.00" y2="610.00" stroke="#d6e2e6" stroke-width="1"/>
 <text x="795.00" y="618.00" font-size="24" fill="#617f96" text-anchor="end">0</text>
-<line x1="810.00" y1="559.23" x2="1310.00" y2="559.23" stroke="#e5ecf2" stroke-width="1"/>
+<line x1="810.00" y1="559.23" x2="1310.00" y2="559.23" stroke="#d6e2e6" stroke-width="1"/>
 <text x="795.00" y="567.23" font-size="24" fill="#617f96" text-anchor="end">0.1</text>
-<line x1="810.00" y1="457.69" x2="1310.00" y2="457.69" stroke="#e5ecf2" stroke-width="1"/>
+<line x1="810.00" y1="457.69" x2="1310.00" y2="457.69" stroke="#d6e2e6" stroke-width="1"/>
 <text x="795.00" y="465.69" font-size="24" fill="#617f96" text-anchor="end">0.3</text>
-<line x1="810.00" y1="305.38" x2="1310.00" y2="305.38" stroke="#e5ecf2" stroke-width="1"/>
+<line x1="810.00" y1="305.38" x2="1310.00" y2="305.38" stroke="#d6e2e6" stroke-width="1"/>
 <text x="795.00" y="313.38" font-size="24" fill="#617f96" text-anchor="end">0.6</text>
 <line x1="810.00" y1="610.00" x2="810.00" y2="617.00" stroke="#617f96" stroke-width="2"/>
 <text x="810.00" y="648.00" font-size="24" fill="#617f96" text-anchor="middle">0.02</text>
@@ -45,4 +44,4 @@
 <circle cx="850.82" cy="508.46" r="6" fill="#c06c34"/>
 <circle cx="1054.90" cy="549.08" r="6" fill="#c06c34"/>
 <text x="100.00" y="733.00" font-size="24" fill="#c06c34" text-anchor="start">总变差 = 0.01；覆盖相同，风险 0.1 → 0.2</text>
-</g></svg></svg>
+</g></svg></g></defs><g id="paper-and-content"><rect x="0" y="0" width="1360" height="727" fill="white"/><g transform="translate(0.47897912 -50.49066) scale(0.98189186)"><use xmlns:ns0="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-0)" ns0:href="#plate-scene"/></g></g></svg>

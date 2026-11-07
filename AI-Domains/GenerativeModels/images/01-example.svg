@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1434.52" height="837.516" viewBox="1.742 36.742 1434.52 837.516" role="img" aria-labelledby="title desc"><title id="title">高斯观测噪声尺度改变重构项权重</title><desc id="desc">同一残差 x=1、均值0。左侧高斯密度；右侧完整负对数似然与只有平方误差项的目标。完整目标在sigma=1取得极小值。</desc><rect id="edition-paper" x="1.742" y="36.742" width="1434.52" height="837.516" fill="#ffffff"/><svg id="edition-view" x="28" y="63" width="1382" height="785" viewBox="28 63 1382 785" overflow="hidden"><rect x="28" y="63" width="1382" height="785" fill="#ffffff"/><rect width="1440" height="850" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#2a3645">
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plate-caption" aria-describedby="plate-alt" viewBox="0 0 1360 798" width="1360" height="798"><title id="plate-caption">高斯观测噪声尺度改变重构项权重</title><desc id="plate-alt">同一残差 x=1、均值0。左侧高斯密度；右侧完整负对数似然与只有平方误差项的目标。完整目标在sigma=1取得极小值。</desc><defs><clipPath id="plate-view-0"><rect x="1.742" y="77.528952" width="1434.52" height="629.89765"/></clipPath><clipPath id="plate-view-1"><rect x="1.742" y="707.4266" width="1434.52" height="126.04444"/></clipPath><g id="plate-scene"><rect id="edition-paper" x="1.742" y="36.742" width="1434.52" height="837.516" fill="#ffffff"/><svg id="edition-view" x="28" y="63" width="1382" height="785" viewBox="28 63 1382 785" overflow="hidden"><rect x="28" y="63" width="1382" height="785" fill="#ffffff"/><rect width="1440" height="850" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#2a3645">
 <text x="48" y="105" font-size="28" fill="#61768a" text-anchor="start" font-weight="400">固定均值 0，固定观测 x = 1；仅改变标准差 σ。</text>
 <text x="95" y="164" font-size="30" fill="#2a3645" text-anchor="start" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">同一观测处，比较密度高度</text>
 <text x="95" y="211" font-size="26" fill="#2a3645" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">概率密度</text>
-<line x1="95" y1="570.0" x2="625" y2="570.0" stroke="#ebeff3" stroke-width="2"/>
+<line x1="95" y1="570" x2="95" y2="240.58824" stroke="#657682" stroke-width="1.55" stroke-linecap="round"/><line x1="90" y1="570" x2="95" y2="570" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="90" y1="405.29412" x2="95" y2="405.29412" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="90" y1="240.58824" x2="95" y2="240.58824" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="95" y1="570.0" x2="625" y2="570.0" stroke="#d6e2e6" stroke-width="1.3"/>
 <text x="80" y="578.0" font-size="24" fill="#2a3645" text-anchor="end" font-weight="400">0</text>
-<line x1="95" y1="405.2941176470588" x2="625" y2="405.2941176470588" stroke="#ebeff3" stroke-width="2"/>
+<line x1="95" y1="405.2941176470588" x2="625" y2="405.2941176470588" stroke="#d6e2e6" stroke-width="1.3"/>
 <text x="80" y="413.2941176470588" font-size="24" fill="#2a3645" text-anchor="end" font-weight="400">0.4</text>
-<line x1="95" y1="240.58823529411762" x2="625" y2="240.58823529411762" stroke="#ebeff3" stroke-width="2"/>
+<line x1="95" y1="240.58823529411762" x2="625" y2="240.58823529411762" stroke="#d6e2e6" stroke-width="1.3"/>
 <text x="80" y="248.58823529411762" font-size="24" fill="#2a3645" text-anchor="end" font-weight="400">0.8</text>
 <line x1="95" y1="570" x2="625" y2="570" stroke="#628697" stroke-width="2"/>
 <line x1="95.0" y1="570" x2="95.0" y2="579" stroke="#b3c0cc" stroke-width="2"/>
@@ -34,11 +34,11 @@
 <text x="505" y="675" font-size="26" fill="#1f8592" text-anchor="start" font-weight="400">σ = 2</text>
 <text x="795" y="164" font-size="30" fill="#2a3645" text-anchor="start" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">完整目标出现有限最优点</text>
 <text x="795" y="211" font-size="26" fill="#2a3645" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">负对数似然</text>
-<line x1="795" y1="570.0" x2="1355" y2="570.0" stroke="#ebeff3" stroke-width="2"/>
+<line x1="795" y1="570" x2="795" y2="328.62069" stroke="#657682" stroke-width="1.55" stroke-linecap="round"/><line x1="836.48148" y1="570" x2="836.48148" y2="575" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="940.18519" y1="570" x2="940.18519" y2="575" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="1147.5926" y1="570" x2="1147.5926" y2="575" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="1355" y1="570" x2="1355" y2="575" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="790" y1="570" x2="795" y2="570" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="790" y1="449.31034" x2="795" y2="449.31034" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="790" y1="328.62069" x2="795" y2="328.62069" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="795" y1="570.0" x2="1355" y2="570.0" stroke="#d6e2e6" stroke-width="1.3"/>
 <text x="778" y="578.0" font-size="24" fill="#2a3645" text-anchor="end" font-weight="400">0</text>
-<line x1="795" y1="449.31034482758616" x2="1355" y2="449.31034482758616" stroke="#ebeff3" stroke-width="2"/>
+<line x1="795" y1="449.31034482758616" x2="1355" y2="449.31034482758616" stroke="#d6e2e6" stroke-width="1.3"/>
 <text x="778" y="457.31034482758616" font-size="24" fill="#2a3645" text-anchor="end" font-weight="400">2</text>
-<line x1="795" y1="328.6206896551724" x2="1355" y2="328.6206896551724" stroke="#ebeff3" stroke-width="2"/>
+<line x1="795" y1="328.6206896551724" x2="1355" y2="328.6206896551724" stroke="#d6e2e6" stroke-width="1.3"/>
 <text x="778" y="336.6206896551724" font-size="24" fill="#2a3645" text-anchor="end" font-weight="400">4</text>
 <line x1="795" y1="570" x2="1355" y2="570" stroke="#628697" stroke-width="2"/>
 <text x="836.4814814814815" y="610" font-size="24" fill="#2a3645" text-anchor="middle" font-weight="400">0.5</text>
@@ -60,4 +60,4 @@
 <text x="1120" y="675" font-size="26" fill="#61768a" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">仅残差项</text>
 <line x1="48" y1="710" x2="1392" y2="710" stroke="#ebeff3" stroke-width="2"/>
 <text x="48" y="760" font-size="30" fill="#2a3645" text-anchor="start" font-weight="400">增大 σ 会减轻残差惩罚，也会摊薄概率密度；log σ 不能省略。</text>
-<text x="48" y="810" font-size="28" fill="#2a3645" text-anchor="start" font-weight="400">完整目标 = 0.5 log(2π) + log σ +</text><text x="520" y="794" font-size="24" text-anchor="middle">1</text><line x1="495" y1="801" x2="545" y2="801" stroke="#2a3645" stroke-width="2"/><text x="520" y="829" font-size="24" text-anchor="middle">2σ²</text></g></svg></svg>
+<text x="48" y="810" font-size="28" fill="#2a3645" text-anchor="start" font-weight="400">完整目标 = 0.5 log(2π) + log σ +</text><text x="520" y="794" font-size="24" text-anchor="middle">1</text><line x1="495" y1="801" x2="545" y2="801" stroke="#2a3645" stroke-width="2"/><text x="520" y="829" font-size="24" text-anchor="middle">2σ²</text></g></svg></g></defs><g id="paper-and-content"><rect x="0" y="0" width="1360" height="798" fill="white"/><g transform="translate(26.831177 -19.716288) scale(0.9287043)"><use xmlns:ns0="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-0)" ns0:href="#plate-scene"/></g><g transform="translate(26.831177 -29.074901) scale(0.9287043)"><use xmlns:ns1="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-1)" ns1:href="#plate-scene"/></g></g></svg>

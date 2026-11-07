@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="705.48" viewBox="-18.24 28.76 996.48 705.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">稀有目标轨迹可能在有限日志中完全缺席</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="618.8"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="705.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="669" viewBox="0 47 960 669" overflow="hidden"><rect width="960" height="716" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.606667)"><g><rect width="1500" height="1020" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="plate-caption" viewBox="0 0 1360 942" width="1360" height="942"><title id="plate-caption">稀有目标轨迹可能在有限日志中完全缺席</title><defs><clipPath id="plate-view-0"><rect x="-18.24" y="83.939338" width="996.48" height="46.827152"/></clipPath><clipPath id="plate-view-1"><rect x="-18.24" y="130.76649" width="996.48" height="517.14715"/></clipPath><g id="plate-scene"><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="618.8"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="705.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="669" viewBox="0 47 960 669" overflow="hidden"><rect width="960" height="716" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.606667)"><g><rect width="1500" height="1020" fill="#ffffff"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#253d4f">
 <text x="65" y="55" font-size="41.28px" fill="#253d4f" text-anchor="start" font-weight="normal">A  H = 8：一条目标轨迹的概率与贡献</text>
 <circle cx="100" cy="150" r="28" fill="#edf4f7" stroke="#1f6683" stroke-width="2"/>
@@ -38,13 +38,13 @@
 <text x="740" y="265" font-size="32.13px" fill="#2a7391" text-anchor="middle" font-weight="normal">256</text>
 <text x="815" y="245" font-size="37.41px" fill="#a05c36" text-anchor="start" font-weight="normal">命中时单轨迹贡献 256</text>
 <text x="65" y="335" font-size="35.96px" fill="#253d4f" text-anchor="start" font-weight="normal">B  100 条日志：命中次数 K → 估计值 2.56K</text>
-<line x1="140" y1="770.0" x2="710" y2="770.0" stroke="#dde5eb" stroke-width="1"/>
+<line x1="140" y1="770" x2="140" y2="478.33333" stroke="#657682" stroke-width="1.55" stroke-linecap="round"/><line x1="135" y1="770" x2="140" y2="770" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="135" y1="672.77778" x2="140" y2="672.77778" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="135" y1="575.55556" x2="140" y2="575.55556" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="135" y1="478.33333" x2="140" y2="478.33333" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="140" y1="770.0" x2="710" y2="770.0" stroke="#d6e2e6" stroke-width="1"/>
 <text x="126" y="778.0" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0</text>
-<line x1="140" y1="672.7777777777778" x2="710" y2="672.7777777777778" stroke="#dde5eb" stroke-width="1"/>
+<line x1="140" y1="672.7777777777778" x2="710" y2="672.7777777777778" stroke="#d6e2e6" stroke-width="1"/>
 <text x="126" y="680.7777777777778" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0.2</text>
-<line x1="140" y1="575.5555555555555" x2="710" y2="575.5555555555555" stroke="#dde5eb" stroke-width="1"/>
+<line x1="140" y1="575.5555555555555" x2="710" y2="575.5555555555555" stroke="#d6e2e6" stroke-width="1"/>
 <text x="126" y="583.5555555555555" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0.4</text>
-<line x1="140" y1="478.3333333333333" x2="710" y2="478.3333333333333" stroke="#dde5eb" stroke-width="1"/>
+<line x1="140" y1="478.3333333333333" x2="710" y2="478.3333333333333" stroke="#d6e2e6" stroke-width="1"/>
 <text x="126" y="486.3333333333333" font-size="27.37px" fill="#475b6c" text-anchor="end" font-weight="normal">0.6</text>
 <line x1="140.0" y1="770" x2="140.0" y2="778" stroke="#8798a9" stroke-width="1.5"/>
 <text x="140.0" y="807" font-size="27.37px" fill="#475b6c" text-anchor="middle" font-weight="normal">0</text>
@@ -99,4 +99,4 @@
 <polyline fill="none" stroke="#1f6683" stroke-width="4" points="875,770 914.231,770 953.462,769.999 992.692,769.449 1031.923,755.37 1071.154,697.535 1110.385,610.249 1149.615,533.359 1188.846,482.153 1228.077,452.579 1267.308,436.683 1306.538,428.442 1345.769,424.247 1385,422.13"/>
 <circle cx="1149.6153846153845" cy="533.3592372116584" r="8" fill="#b76334" stroke="none" stroke-width="1"/>
 <text x="100" y="930" font-size="37.41px" fill="#253d4f" text-anchor="start" font-weight="normal">重复抽样均值 = 1；方差 = 2.55；单次估计却有约 67.6% 等于零。</text>
-</g></g></g></g></svg></svg>
+</g></g></g></g></svg></g></defs><g id="paper-and-content"><rect x="0" y="0" width="1360" height="942" fill="white"/><g transform="translate(-28.9924 -76.690024) scale(1.5088813)"><use href="#plate-scene" clip-path="url(#plate-view-0)" xlink:href="#plate-scene"/></g><g transform="translate(-28.9924 -86.418435) scale(1.5088813)"><use href="#plate-scene" clip-path="url(#plate-view-1)" xlink:href="#plate-scene"/></g></g></svg>

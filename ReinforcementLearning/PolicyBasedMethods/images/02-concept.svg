@@ -1,8 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-18.24 52.4 996.48 1505.84" width="996.48" height="1505.84" role="img" aria-labelledby="title description">
-  <title id="title">PPO 裁剪后，策略仍能继续移动</title>
-  <desc id="description">新策略给动作一 0.8 的概率。平均裁剪目标在 0.6 后保持 0.2，但旧到新的 KL 继续增大。</desc>
-  <rect id="edition-paper" x="-18.24" y="52.4" width="996.48" height="1505.84" fill="#ffffff"/><svg id="edition-view" x="0" y="70.64" width="960" height="1469.36" viewBox="0 70.64 960 1469.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="plate-caption" aria-describedby="plate-alt" viewBox="0 0 1360 2199" width="1360" height="2199"><title id="plate-caption">PPO 裁剪后，策略仍能继续移动</title><desc id="plate-alt">新策略给动作一 0.8 的概率。平均裁剪目标在 0.6 后保持 0.2，但旧到新的 KL 继续增大。</desc><defs><clipPath id="plate-view-0"><rect x="-18.24" y="82.659028" width="996.48" height="1425.078"/></clipPath><g id="plate-scene"><rect id="edition-paper" x="-18.24" y="52.4" width="996.48" height="1505.84" fill="#ffffff"/><svg id="edition-view" x="0" y="70.64" width="960" height="1469.36" viewBox="0 70.64 960 1469.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
     <rect x="0" y="0" width="960" height="1540" fill="#ffffff" stroke="none" rx="0" stroke-width="2"/>
     <text x="46" y="110" fill="#455f71" font-size="26" font-weight="400" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">同一状态、两个动作，旧策略各给一半概率</text>
     <rect x="46" y="152" width="44" height="42" fill="#ebf6f8" stroke="none" rx="8" stroke-width="2"/>
@@ -29,15 +26,15 @@
     <text x="159" y="593" fill="#1b697e" font-size="24" font-weight="600" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">裁剪目标</text>
     <line x1="431" y1="585" x2="466" y2="585" stroke="#6f879a" stroke-width="4" stroke-dasharray="10 6"/>
     <text x="476" y="593" fill="#6f879a" font-size="24" font-weight="600" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">未裁剪目标</text>
-    <line x1="126" y1="945.0" x2="875" y2="945.0" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="126" y1="1429" x2="126" y2="663" stroke="#657682" stroke-width="1.55" stroke-linecap="round"/><line x1="121" y1="945" x2="126" y2="945" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="121" y1="874.5" x2="126" y2="874.5" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="121" y1="804" x2="126" y2="804" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="121" y1="733.5" x2="126" y2="733.5" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="121" y1="663" x2="126" y2="663" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="121" y1="1429" x2="126" y2="1429" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="121" y1="1352.6667" x2="126" y2="1352.6667" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="121" y1="1276.3333" x2="126" y2="1276.3333" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="121" y1="1200" x2="126" y2="1200" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="126" y1="945.0" x2="875" y2="945.0" stroke="#d6e2e6" stroke-width="1.3"/>
     <text x="114" y="953.0" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">-1</text>
-    <line x1="126" y1="874.5" x2="875" y2="874.5" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="126" y1="874.5" x2="875" y2="874.5" stroke="#d6e2e6" stroke-width="1.3"/>
     <text x="114" y="882.5" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">-0.5</text>
-    <line x1="126" y1="804.0" x2="875" y2="804.0" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="126" y1="804.0" x2="875" y2="804.0" stroke="#d6e2e6" stroke-width="1.3"/>
     <text x="114" y="812.0" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">0</text>
-    <line x1="126" y1="733.5" x2="875" y2="733.5" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="126" y1="733.5" x2="875" y2="733.5" stroke="#d6e2e6" stroke-width="1.3"/>
     <text x="114" y="741.5" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">0.5</text>
-    <line x1="126" y1="663.0" x2="875" y2="663.0" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="126" y1="663.0" x2="875" y2="663.0" stroke="#d6e2e6" stroke-width="1.3"/>
     <text x="114" y="671.0" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">1</text>
     <line x1="126" y1="663" x2="126" y2="945" stroke="#6f879a" stroke-width="2"/>
     <line x1="126" y1="945" x2="875" y2="945" stroke="#6f879a" stroke-width="2"/>
@@ -63,13 +60,13 @@
     <rect x="46" y="1061" width="44" height="42" fill="#ebf6f8" stroke="none" rx="8" stroke-width="2"/>
     <text x="68" y="1092" fill="#1b697e" font-size="26" font-weight="700" text-anchor="middle">C</text>
     <text x="103" y="1092" fill="#283341" font-size="30" font-weight="650" text-anchor="start">同一段平台上，KL 仍增大</text>
-    <line x1="126" y1="1429.0" x2="875" y2="1429.0" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="126" y1="1429.0" x2="875" y2="1429.0" stroke="#d6e2e6" stroke-width="1.3"/>
     <text x="114" y="1437.0" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">0</text>
-    <line x1="126" y1="1352.6667" x2="875" y2="1352.6667" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="126" y1="1352.6667" x2="875" y2="1352.6667" stroke="#d6e2e6" stroke-width="1.3"/>
     <text x="114" y="1360.6667" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">0.4</text>
-    <line x1="126" y1="1276.3333" x2="875" y2="1276.3333" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="126" y1="1276.3333" x2="875" y2="1276.3333" stroke="#d6e2e6" stroke-width="1.3"/>
     <text x="114" y="1284.3333" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">0.8</text>
-    <line x1="126" y1="1200.0" x2="875" y2="1200.0" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="126" y1="1200.0" x2="875" y2="1200.0" stroke="#d6e2e6" stroke-width="1.3"/>
     <text x="114" y="1208.0" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">1.2</text>
     <line x1="126" y1="1200" x2="126" y2="1429" stroke="#6f879a" stroke-width="2"/>
     <line x1="126" y1="1429" x2="875" y2="1429" stroke="#6f879a" stroke-width="2"/>
@@ -95,4 +92,4 @@
     <text x="709.2" y="1366.4168" fill="#9b4f2e" font-size="26" font-weight="700" text-anchor="end">0.223</text>
     <text x="820.55" y="1254.5386" fill="#9b4f2e" font-size="26" font-weight="700" text-anchor="end">0.830</text>
   </g>
-</svg></svg>
+</svg></g></defs><g id="paper-and-content"><rect x="0" y="0" width="1360" height="2199" fill="white"/><g transform="translate(-1.4176788 -71.574937) scale(1.4721483)"><use xmlns:ns0="http://www.w3.org/1999/xlink" href="#plate-scene" clip-path="url(#plate-view-0)" ns0:href="#plate-scene"/></g></g></svg>
