@@ -9,6 +9,7 @@
 <linearGradient id="n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1f5f6"/></linearGradient>
 </defs>
 <text x="75" y="58" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="31" text-anchor="start" font-weight="600">低温强化近负例的排斥，远负例几乎退出竞争</text>
+<text x="75" y="112" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="25" font-weight="600">A  归一化概率</text>
 <text x="75" y="178" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="23" text-anchor="start" font-weight="400">温度 1</text>
 <path d="M278 194 L290 150 L616.423 150 L604.423 194 Z" fill="url(#t)" stroke="#166d75" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="447.212" y="179.7" fill="#166d75" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0.457329</text>
@@ -20,10 +21,11 @@
 <path d="M278 292 L290 248 L929.764 248 L917.764 292 Z" fill="url(#t)" stroke="#166d75" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="603.882" y="277.7" fill="#166d75" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0.880762</text>
 <rect x="929.764" y="248" width="88.207" height="44" fill="#fbede8" opacity="1"/>
+<text x="973.8675" y="277.7" fill="#a74d3a" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="middle">0.119198</text>
 <rect x="1017.97" y="248" width="0.03" height="44" fill="#e8e6f2" opacity="1"/>
 <text x="1043" y="277" fill="#6e618e" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="start" font-weight="400">0.000040</text>
 <path d="M75 344 L1125 344" fill="none" stroke="#dbe8eb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="75" y="388" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">相似度梯度，依次为正例、近负例、远负例。</text>
+<text x="75" y="388" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">B  相似度梯度（正例、近负例、远负例）</text>
 <text x="75" y="469" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="23" text-anchor="start" font-weight="400">温度 1</text>
 <path d="M658 434 L658 483" fill="none" stroke="#dbe8eb" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M658 445 L524.503 445" fill="none" stroke="#166d75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
