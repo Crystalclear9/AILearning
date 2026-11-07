@@ -1,2 +1,74 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1297.5" height="615.5" viewBox="-23.75 -23.75 1297.5 615.5" role="img" aria-labelledby="title description"><title id="title">一个字典项怎样匹配三个相等的键</title><desc id="description">先用 True 写入 A，再用 1 更新同一项为 B。随后用 True、1、1.0 读取均得到 B，字典长度为一。</desc><defs><marker id="ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 L 2.2 5 Z" fill="#293442"/></marker><marker id="teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 L 2.2 5 Z" fill="#1e6672"/></marker><marker id="coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 L 2.2 5 Z" fill="#9d493e"/></marker><marker id="violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 L 2.2 5 Z" fill="#635280"/></marker><linearGradient id="water" x1="0%" x2="85%" y1="0%" y2="100%"><stop offset="0%" stop-color="#78bfc9" stop-opacity=".14"/><stop offset="100%" stop-color="#78bfc9" stop-opacity=".49"/></linearGradient><linearGradient id="peach" x1="0%" x2="85%" y1="0%" y2="100%"><stop offset="0%" stop-color="#e7aea5" stop-opacity=".14"/><stop offset="100%" stop-color="#e7aea5" stop-opacity=".49"/></linearGradient><linearGradient id="lilac" x1="0%" x2="85%" y1="0%" y2="100%"><stop offset="0%" stop-color="#bfaedc" stop-opacity=".14"/><stop offset="100%" stop-color="#bfaedc" stop-opacity=".49"/></linearGradient></defs><rect id="edition-paper" x="-23.75" y="-23.75" width="1297.5" height="615.5" fill="#ffffff"/><svg id="edition-view" x="0" y="0" width="1250" height="568" viewBox="0 0 1250 568" overflow="hidden"><rect x="0" y="0" width="1250" height="568" fill="#ffffff"/><text x="338" y="71" fill="#293442" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="33" text-anchor="middle">d[True] = 'A'</text><rect x="157" y="121" width="208" height="91" rx="3" fill="url(#water)" stroke="#1e6672" stroke-width="1.8"/><rect x="365" y="121" width="154" height="91" rx="3" fill="url(#peach)" stroke="#9d493e" stroke-width="1.8"/><text x="261" y="177" fill="#1e6672" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="36" text-anchor="middle">True</text><text x="442" y="177" fill="#9d493e" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="38" text-anchor="middle">A</text><text x="261" y="256" fill="#1e6672" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="28" text-anchor="middle">原键</text><text x="442" y="256" fill="#9d493e" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="28" text-anchor="middle">当前值</text><text x="940" y="71" fill="#293442" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="33" text-anchor="middle">d[1] = 'B'</text><rect x="759" y="121" width="208" height="91" rx="3" fill="url(#water)" stroke="#1e6672" stroke-width="1.8"/><rect x="967" y="121" width="154" height="91" rx="3" fill="url(#peach)" stroke="#9d493e" stroke-width="1.8"/><text x="863" y="177" fill="#1e6672" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="36" text-anchor="middle">True</text><text x="1044" y="177" fill="#9d493e" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="38" text-anchor="middle">B</text><text x="863" y="256" fill="#1e6672" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="28" text-anchor="middle">原键</text><text x="1044" y="256" fill="#9d493e" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="28" text-anchor="middle">当前值</text><line x1="548" y1="167" x2="724" y2="167" stroke="#635280" stroke-width="2.8" stroke-linecap="round" marker-end="url(#violet)"/><text x="636" y="143" fill="#635280" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="27" text-anchor="middle">更新同一项</text><rect x="562" y="416" width="124" height="62" rx="3" fill="url(#peach)" stroke="#9d493e" stroke-width="1.8"/><text x="280" y="349" fill="#293442" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="31" text-anchor="middle">d[True]</text><path d="M 280 368 Q 280 443 552 443" stroke="#293442" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" marker-end="url(#ink)"/><text x="624" y="349" fill="#293442" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="31" text-anchor="middle">d[1]</text><line x1="624" y1="367" x2="624" y2="408" stroke="#293442" stroke-width="2" stroke-linecap="round" marker-end="url(#ink)"/><text x="965" y="349" fill="#293442" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="31" text-anchor="middle">d[1.0]</text><path d="M 965 368 Q 965 443 694 443" stroke="#293442" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" marker-end="url(#ink)"/><text x="624" y="455" fill="#9d493e" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="36" text-anchor="middle">B</text><text x="624" y="528" fill="#293442" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="30" text-anchor="middle">三次读取都命中同一项</text></svg></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="665" viewBox="0 0 1360 665" role="img" aria-labelledby="plate-title plate-desc">
+  <title id="plate-title">三种写法可以命中同一个字典条目</title>
+  <desc id="plate-desc">先用 True 写入 A，再用 1 覆盖为 B。True、1、1.0 三种读取都命中同一个条目。</desc>
+  <defs>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#202a37"/>
+    </marker>
+    <linearGradient id="wash-ink" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#afb9c7" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#afb9c7" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#196f77"/>
+    </marker>
+    <linearGradient id="wash-teal" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#8dccd2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#8dccd2" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#a84b3b"/>
+    </marker>
+    <linearGradient id="wash-coral" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#efaa9d" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#efaa9d" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#655184"/>
+    </marker>
+    <linearGradient id="wash-violet" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#b4a6d2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#b4a6d2" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#3c7459"/>
+    </marker>
+    <linearGradient id="wash-green" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#a4cfb3" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#a4cfb3" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#657682"/>
+    </marker>
+    <linearGradient id="wash-gray" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#becbd2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#becbd2" stop-opacity=".58"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1360" height="665" fill="white" stroke="none" stroke-width="1.6"/>
+  <text x="355" y="66" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">第一次写入</text>
+  <text x="355" y="133" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="30" fill="#196f77" text-anchor="middle">d[True] = "A"</text>
+  <polygon points="212,247 466,247 498,173 244,173" stroke="#196f77" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-teal)"/>
+  <text x="355" y="219.24" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="28" fill="#196f77" text-anchor="middle">True  ↦  "A"</text>
+  <text x="355" y="293" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="27" fill="#202a37" text-anchor="middle">字典长度为 1</text>
+  <text x="1005" y="66" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">第二次写入</text>
+  <text x="1005" y="133" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="30" fill="#a84b3b" text-anchor="middle">d[1] = "B"</text>
+  <polygon points="862,247 1116,247 1148,173 894,173" stroke="#a84b3b" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-coral)"/>
+  <text x="1005" y="219.24" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="28" fill="#a84b3b" text-anchor="middle">True  ↦  "B"</text>
+  <text x="1005" y="293" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="27" fill="#202a37" text-anchor="middle">字典长度为 1</text>
+  <line x1="543" y1="212" x2="817" y2="212" stroke="#657682" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-gray)"/>
+  <text x="676" y="381" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">只读取条目，不执行写入</text>
+  <polygon points="261,485 410.4,485 441,425 291.6,425" stroke="#657682" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-gray)"/>
+  <text x="351" y="464.24" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="28" fill="#657682" text-anchor="middle">d[True]</text>
+  <line x1="351" y1="491" x2="351" y2="541" stroke="#196f77" stroke-width="1.7" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+  <text x="351" y="586" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="31" fill="#196f77" text-anchor="middle">"B"</text>
+  <polygon points="584,485 733.4,485 764,425 614.6,425" stroke="#657682" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-gray)"/>
+  <text x="674" y="464.24" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="28" fill="#657682" text-anchor="middle">d[1]</text>
+  <line x1="674" y1="491" x2="674" y2="541" stroke="#196f77" stroke-width="1.7" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+  <text x="674" y="586" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="31" fill="#196f77" text-anchor="middle">"B"</text>
+  <polygon points="907,485 1056.4,485 1087,425 937.6,425" stroke="#657682" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-gray)"/>
+  <text x="997" y="464.24" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="28" fill="#657682" text-anchor="middle">d[1.0]</text>
+  <line x1="997" y1="491" x2="997" y2="541" stroke="#196f77" stroke-width="1.7" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+  <text x="997" y="586" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="31" fill="#196f77" text-anchor="middle">"B"</text>
+</svg>

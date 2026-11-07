@@ -1,84 +1,116 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1370.16" height="685.16" viewBox="-25.08 -25.08 1370.16 685.16" role="img" aria-labelledby="title description">
-  <title id="title">原始可行与对偶可行的间隙</title>
-  <desc id="description">对偶候选的曲线最高为一。比较四组原始、对偶候选时，竖轴上的上下界距离为两项非负量之和。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="657" viewBox="0 0 1360 657" role="img" aria-labelledby="plate-title plate-desc">
+  <title id="plate-title">用对偶下界夹住原始最优值</title>
+  <desc id="plate-desc">左图扫描对偶函数。右图用同一目标刻度显示四组候选的原始上界与对偶下界。</desc>
   <defs>
-    <marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#242e3a"/>
+    <marker id="arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#202a37"/>
     </marker>
-    <marker id="arrow-teal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#217283"/>
-    </marker>
-    <marker id="arrow-coral" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#af5546"/>
-    </marker>
-    <marker id="arrow-violet" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#675e8c"/>
-    </marker>
-    <linearGradient id="wash-cyan" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#95cdd4" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#95cdd4" stop-opacity="0.48"/>
+    <linearGradient id="wash-ink" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#afb9c7" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#afb9c7" stop-opacity=".58"/>
     </linearGradient>
-    <linearGradient id="wash-red" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#eab6b0" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#eab6b0" stop-opacity="0.48"/>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#196f77"/>
+    </marker>
+    <linearGradient id="wash-teal" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#8dccd2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#8dccd2" stop-opacity=".58"/>
     </linearGradient>
-    <linearGradient id="wash-violet" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#beb4d3" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#beb4d3" stop-opacity="0.48"/>
+    <marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#a84b3b"/>
+    </marker>
+    <linearGradient id="wash-coral" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#efaa9d" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#efaa9d" stop-opacity=".58"/>
     </linearGradient>
-    <clipPath id="plot-1">
-      <rect x="95" y="153" width="453" height="323"/>
-    </clipPath>
+    <marker id="arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#655184"/>
+    </marker>
+    <linearGradient id="wash-violet" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#b4a6d2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#b4a6d2" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#3c7459"/>
+    </marker>
+    <linearGradient id="wash-green" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#a4cfb3" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#a4cfb3" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#657682"/>
+    </marker>
+    <linearGradient id="wash-gray" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#becbd2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#becbd2" stop-opacity=".58"/>
+    </linearGradient>
   </defs>
-  <rect id="edition-paper" x="-25.08" y="-25.08" width="1370.16" height="685.16" fill="#ffffff"/><svg id="edition-view" x="0" y="0" width="1320" height="635" viewBox="0 0 1320 635" overflow="hidden"><rect width="1320" height="635" fill="#ffffff"/>
-  <g font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">
-    <text x="323" y="51" font-size="34" fill="#242e3a" text-anchor="middle" font-weight="400">A  对偶下界有多紧</text>
-    <line x1="93" y1="430.41667" x2="565" y2="430.41667" stroke="#242e3a" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-    <line x1="96" y1="480" x2="96" y2="137" stroke="#242e3a" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-    <text x="573" y="437.41667" font-size="28" fill="#242e3a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">λ</text>
-    <text x="96" y="124" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">g(λ)</text>
-    <line x1="206" y1="430.41667" x2="206" y2="437.41667" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="206" y="460.41667" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
-    <line x1="316" y1="430.41667" x2="316" y2="437.41667" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="316" y="460.41667" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">2</text>
-    <line x1="536" y1="430.41667" x2="536" y2="437.41667" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="536" y="460.41667" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">4</text>
-    <line x1="89" y1="207.5" x2="96" y2="207.5" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="83" y="214.5" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
-    <polyline points="96.00000,430.41667 97.12750,428.13763 98.25500,425.87030 99.38250,423.61467 100.51000,421.37076 101.63750,419.13856 102.76500,416.91807 103.89250,414.70929 105.02000,412.51222 106.14750,410.32686 107.27500,408.15321 108.40250,405.99127 109.53000,403.84104 110.65750,401.70252 111.78500,399.57571 112.91250,397.46061 114.04000,395.35722 115.16750,393.26555 116.29500,391.18558 117.42250,389.11732 118.55000,387.06077 119.67750,385.01593 120.80500,382.98280 121.93250,380.96138 123.06000,378.95167 124.18750,376.95367 125.31500,374.96739 126.44250,372.99281 127.57000,371.02994 128.69750,369.07878 129.82500,367.13933 130.95250,365.21159 132.08000,363.29557 133.20750,361.39125 134.33500,359.49864 135.46250,357.61774 136.59000,355.74856 137.71750,353.89108 138.84500,352.04531 139.97250,350.21125 141.10000,348.38891 142.22750,346.57827 143.35500,344.77934 144.48250,342.99213 145.61000,341.21662 146.73750,339.45282 147.86500,337.70073 148.99250,335.96036 150.12000,334.23169 151.24750,332.51474 152.37500,330.80949 153.50250,329.11595 154.63000,327.43413 155.75750,325.76401 156.88500,324.10560 158.01250,322.45891 159.14000,320.82392 160.26750,319.20065 161.39500,317.58908 162.52250,315.98923 163.65000,314.40108 164.77750,312.82465 165.90500,311.25992 167.03250,309.70691 168.16000,308.16560 169.28750,306.63601 170.41500,305.11812 171.54250,303.61195 172.67000,302.11748 173.79750,300.63473 174.92500,299.16368 176.05250,297.70435 177.18000,296.25672 178.30750,294.82081 179.43500,293.39660 180.56250,291.98411 181.69000,290.58333 182.81750,289.19425 183.94500,287.81689 185.07250,286.45124 186.20000,285.09729 187.32750,283.75506 188.45500,282.42453 189.58250,281.10572 190.71000,279.79862 191.83750,278.50323 192.96500,277.21954 194.09250,275.94757 195.22000,274.68731 196.34750,273.43875 197.47500,272.20191 198.60250,270.97678 199.73000,269.76336 200.85750,268.56164 201.98500,267.37164 203.11250,266.19335 204.24000,265.02677 205.36750,263.87189 206.49500,262.72873 207.62250,261.59728 208.75000,260.47754 209.87750,259.36951 211.00500,258.27319 212.13250,257.18857 213.26000,256.11567 214.38750,255.05448 215.51500,254.00500 216.64250,252.96723 217.77000,251.94117 218.89750,250.92682 220.02500,249.92418 221.15250,248.93325 222.28000,247.95402 223.40750,246.98651 224.53500,246.03071 225.66250,245.08662 226.79000,244.15424 227.91750,243.23357 229.04500,242.32461 230.17250,241.42736 231.30000,240.54182 232.42750,239.66799 233.55500,238.80587 234.68250,237.95546 235.81000,237.11676 236.93750,236.28977 238.06500,235.47450 239.19250,234.67093 240.32000,233.87907 241.44750,233.09892 242.57500,232.33048 243.70250,231.57375 244.83000,230.82873 245.95750,230.09542 247.08500,229.37382 248.21250,228.66393 249.34000,227.96576 250.46750,227.27929 251.59500,226.60453 252.72250,225.94148 253.85000,225.29014 254.97750,224.65052 256.10500,224.02260 257.23250,223.40639 258.36000,222.80189 259.48750,222.20910 260.61500,221.62803 261.74250,221.05866 262.87000,220.50100 263.99750,219.95505 265.12500,219.42082 266.25250,218.89829 267.38000,218.38747 268.50750,217.88837 269.63500,217.40097 270.76250,216.92528 271.89000,216.46131 273.01750,216.00904 274.14500,215.56848 275.27250,215.13964 276.40000,214.72250 277.52750,214.31707 278.65500,213.92336 279.78250,213.54135 280.91000,213.17106 282.03750,212.81247 283.16500,212.46559 284.29250,212.13043 285.42000,211.80697 286.54750,211.49523 287.67500,211.19519 288.80250,210.90687 289.93000,210.63025 291.05750,210.36535 292.18500,210.11215 293.31250,209.87067 294.44000,209.64089 295.56750,209.42283 296.69500,209.21647 297.82250,209.02183 298.95000,208.83889 300.07750,208.66767 301.20500,208.50815 302.33250,208.36035 303.46000,208.22426 304.58750,208.09987 305.71500,207.98720 306.84250,207.88623 307.97000,207.79698 309.09750,207.71944 310.22500,207.65360 311.35250,207.59948 312.48000,207.55707 313.60750,207.52636 314.73500,207.50737 315.86250,207.50009 316.99000,207.50451 318.11750,207.52065 319.24500,207.54850 320.37250,207.58806 321.50000,207.63932 322.62750,207.70230 323.75500,207.77699 324.88250,207.86339 326.01000,207.96149 327.13750,208.07131 328.26500,208.19284 329.39250,208.32608 330.52000,208.47102 331.64750,208.62768 332.77500,208.79605 333.90250,208.97613 335.03000,209.16792 336.15750,209.37142 337.28500,209.58663 338.41250,209.81354 339.54000,210.05217 340.66750,210.30251 341.79500,210.56456 342.92250,210.83832 344.05000,211.12379 345.17750,211.42097 346.30500,211.72986 347.43250,212.05046 348.56000,212.38277 349.68750,212.72679 350.81500,213.08252 351.94250,213.44996 353.07000,213.82911 354.19750,214.21997 355.32500,214.62254 356.45250,215.03682 357.58000,215.46281 358.70750,215.90051 359.83500,216.34992 360.96250,216.81104 362.09000,217.28387 363.21750,217.76841 364.34500,218.26466 365.47250,218.77262 366.60000,219.29229 367.72750,219.82367 368.85500,220.36676 369.98250,220.92157 371.11000,221.48808 372.23750,222.06630 373.36500,222.65623 374.49250,223.25787 375.62000,223.87122 376.74750,224.49628 377.87500,225.13306 379.00250,225.78154 380.13000,226.44173 381.25750,227.11363 382.38500,227.79725 383.51250,228.49257 384.64000,229.19960 385.76750,229.91834 386.89500,230.64880 388.02250,231.39096 389.15000,232.14483 390.27750,232.91041 391.40500,233.68771 392.53250,234.47671 393.66000,235.27742 394.78750,236.08985 395.91500,236.91398 397.04250,237.74982 398.17000,238.59738 399.29750,239.45664 400.42500,240.32761 401.55250,241.21030 402.68000,242.10469 403.80750,243.01080 404.93500,243.92861 406.06250,244.85813 407.19000,245.79937 408.31750,246.75231 409.44500,247.71697 410.57250,248.69333 411.70000,249.68141 412.82750,250.68119 413.95500,251.69269 415.08250,252.71589 416.21000,253.75081 417.33750,254.79743 418.46500,255.85577 419.59250,256.92581 420.72000,258.00757 421.84750,259.10103 422.97500,260.20621 424.10250,261.32309 425.23000,262.45169 426.35750,263.59199 427.48500,264.74401 428.61250,265.90774 429.74000,267.08317 430.86750,268.27032 431.99500,269.46918 433.12250,270.67974 434.25000,271.90202 435.37750,273.13600 436.50500,274.38170 437.63250,275.63911 438.76000,276.90822 439.88750,278.18905 441.01500,279.48159 442.14250,280.78584 443.27000,282.10179 444.39750,283.42946 445.52500,284.76884 446.65250,286.11993 447.78000,287.48272 448.90750,288.85723 450.03500,290.24345 451.16250,291.64138 452.29000,293.05101 453.41750,294.47236 454.54500,295.90542 455.67250,297.35019 456.80000,298.80667 457.92750,300.27486 459.05500,301.75475 460.18250,303.24636 461.31000,304.74968 462.43750,306.26471 463.56500,307.79145 464.69250,309.32990 465.82000,310.88006 466.94750,312.44193 468.07500,314.01550 469.20250,315.60079 470.33000,317.19779 471.45750,318.80650 472.58500,320.42692 473.71250,322.05905 474.84000,323.70289 475.96750,325.35844 477.09500,327.02570 478.22250,328.70467 479.35000,330.39535 480.47750,332.09774 481.60500,333.81184 482.73250,335.53765 483.86000,337.27517 484.98750,339.02440 486.11500,340.78534 487.24250,342.55799 488.37000,344.34236 489.49750,346.13843 490.62500,347.94621 491.75250,349.76570 492.88000,351.59690 494.00750,353.43981 495.13500,355.29443 496.26250,357.16076 497.39000,359.03881 498.51750,360.92856 499.64500,362.83002 500.77250,364.74319 501.90000,366.66807 503.02750,368.60466 504.15500,370.55297 505.28250,372.51298 506.41000,374.48470 507.53750,376.46813 508.66500,378.46328 509.79250,380.47013 510.92000,382.48869 512.04750,384.51896 513.17500,386.56095 514.30250,388.61464 515.43000,390.68004 516.55750,392.75716 517.68500,394.84598 518.81250,396.94651 519.94000,399.05876 521.06750,401.18271 522.19500,403.31837 523.32250,405.46575 524.45000,407.62483 525.57750,409.79562 526.70500,411.97813 527.83250,414.17234 528.96000,416.37827 530.08750,418.59590 531.21500,420.82525 532.34250,423.06630 533.47000,425.31906 534.59750,427.58354 535.72500,429.85972 536.85250,432.14762 537.98000,434.44722 539.10750,436.75854 540.23500,439.08156 541.36250,441.41630 542.49000,443.76274 543.61750,446.12090 544.74500,448.49076 545.87250,450.87234 547.00000,453.26562" fill="none" stroke="#217283" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" clip-path="url(#plot-1)"/>
-    <circle cx="206" cy="263.22917" r="7" fill="#242e3a" stroke="#ffffff" stroke-width="2.4"/>
-    <circle cx="316" cy="207.5" r="7" fill="#af5546" stroke="#ffffff" stroke-width="2.4"/>
-    <line x1="96" y1="207.5" x2="316" y2="207.5" stroke="#dae4e8" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 5"/>
-    <text x="390" y="126" font-size="29" fill="#af5546" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">最佳下界</text>
-    <line x1="397" y1="137" x2="320" y2="202.5" stroke="#af5546" stroke-width="1.35" stroke-linecap="round"/>
-    <text x="960" y="51" font-size="34" fill="#242e3a" text-anchor="middle" font-weight="400">B  同一尺度上读四组间隙</text>
-    <line x1="699" y1="427.25" x2="699" y2="151.7" stroke="#242e3a" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-    <text x="699" y="133.7" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">目标值</text>
-    <text x="782" y="488" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">A</text>
-    <rect x="759" y="194.6" width="46" height="199.65" fill="url(#wash-violet)" rx="4"/>
-    <line x1="759" y1="194.6" x2="805" y2="194.6" stroke="#217283" stroke-width="2.2" stroke-linecap="round"/>
-    <line x1="759" y1="394.25" x2="805" y2="394.25" stroke="#af5546" stroke-width="2.2" stroke-linecap="round"/>
-    <text x="782" y="545" font-size="26" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1.21</text>
-    <text x="917" y="488" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">B</text>
-    <rect x="894" y="353" width="46" height="41.25" fill="url(#wash-violet)" rx="4"/>
-    <line x1="894" y1="353" x2="940" y2="353" stroke="#217283" stroke-width="2.2" stroke-linecap="round"/>
-    <line x1="894" y1="394.25" x2="940" y2="394.25" stroke="#af5546" stroke-width="2.2" stroke-linecap="round"/>
-    <text x="917" y="545" font-size="26" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">0.25</text>
-    <text x="1052" y="488" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">C</text>
-    <rect x="1029" y="194.6" width="46" height="158.4" fill="url(#wash-violet)" rx="4"/>
-    <line x1="1029" y1="194.6" x2="1075" y2="194.6" stroke="#217283" stroke-width="2.2" stroke-linecap="round"/>
-    <line x1="1029" y1="353" x2="1075" y2="353" stroke="#af5546" stroke-width="2.2" stroke-linecap="round"/>
-    <text x="1052" y="545" font-size="26" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">0.96</text>
-    <text x="1187" y="488" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">D</text>
-    <circle cx="1187" cy="353" r="8" fill="#675e8c" stroke="#ffffff" stroke-width="2.4"/>
-    <text x="1187" y="545" font-size="26" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">0.00</text>
-    <line x1="701" y1="353" x2="1253" y2="353" stroke="#dae4e8" stroke-width="1.55" stroke-linecap="round" stroke-dasharray="5 6"/>
-    <line x1="690" y1="353" x2="699" y2="353" stroke="#242e3a" stroke-width="1.4" stroke-linecap="round"/>
-    <text x="679" y="360" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
-    <text x="703" y="545" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">间隙</text>
-    <text x="793" y="604" font-size="27" fill="#217283" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">蓝  原始上界</text>
-    <text x="997" y="604" font-size="27" fill="#af5546" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">橙  对偶下界</text>
-    <text x="1186" y="604" font-size="27" fill="#675e8c" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">重合点</text>
-  </g>
-</svg></svg>
+  <rect x="0" y="0" width="1360" height="657" fill="white" stroke="none" stroke-width="1.6"/>
+  <text x="333" y="65" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">A  对偶函数给出下界</text>
+  <line x1="122" y1="501" x2="622" y2="501" stroke="#202a37" stroke-width="1.75" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+  <line x1="126" y1="505" x2="126" y2="130" stroke="#202a37" stroke-width="1.75" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+  <text x="126" y="115" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="25" fill="#202a37" text-anchor="start">目标值</text>
+  <line x1="126" y1="501" x2="126" y2="508" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="126" y="531" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="middle">0</text>
+  <line x1="239" y1="501" x2="239" y2="508" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="239" y="531" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="middle">1</text>
+  <line x1="352" y1="501" x2="352" y2="508" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="352" y="531" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="middle">2</text>
+  <line x1="465" y1="501" x2="465" y2="508" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="465" y="531" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="middle">3</text>
+  <line x1="578" y1="501" x2="578" y2="508" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="578" y="531" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="middle">4</text>
+  <line x1="119" y1="421.25" x2="126" y2="421.25" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="114" y="429.25" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="end">0.25</text>
+  <line x1="119" y1="341.5" x2="126" y2="341.5" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="114" y="349.5" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="end">0.5</text>
+  <line x1="119" y1="261.75" x2="126" y2="261.75" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="114" y="269.75" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="end">0.75</text>
+  <line x1="119" y1="182" x2="126" y2="182" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="114" y="190" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="end">1</text>
+  <polyline points="126,501 128.825,493.0748 131.65,485.2494 134.475,477.5236 137.3,469.8975 140.125,462.3711 142.95,454.9444 145.775,447.6173 148.6,440.39 151.425,433.2623 154.25,426.2344 157.075,419.3061 159.9,412.4775 162.725,405.7486 165.55,399.1194 168.375,392.5898 171.2,386.16 174.025,379.8298 176.85,373.5994 179.675,367.4686 182.5,361.4375 185.325,355.5061 188.15,349.6744 190.975,343.9423 193.8,338.31 196.625,332.7773 199.45,327.3444 202.275,322.0111 205.1,316.7775 207.925,311.6436 210.75,306.6094 213.575,301.6748 216.4,296.84 219.225,292.1048 222.05,287.4694 224.875,282.9336 227.7,278.4975 230.525,274.1611 233.35,269.9244 236.175,265.7873 239,261.75 241.825,257.8123 244.65,253.9744 247.475,250.2361 250.3,246.5975 253.125,243.0586 255.95,239.6194 258.775,236.2798 261.6,233.04 264.425,229.8998 267.25,226.8594 270.075,223.9186 272.9,221.0775 275.725,218.3361 278.55,215.6944 281.375,213.1523 284.2,210.71 287.025,208.3673 289.85,206.1244 292.675,203.9811 295.5,201.9375 298.325,199.9936 301.15,198.1494 303.975,196.4048 306.8,194.76 309.625,193.2148 312.45,191.7694 315.275,190.4236 318.1,189.1775 320.925,188.0311 323.75,186.9844 326.575,186.0373 329.4,185.19 332.225,184.4423 335.05,183.7944 337.875,183.2461 340.7,182.7975 343.525,182.4486 346.35,182.1994 349.175,182.0498 352,182 354.825,182.0498 357.65,182.1994 360.475,182.4486 363.3,182.7975 366.125,183.2461 368.95,183.7944 371.775,184.4423 374.6,185.19 377.425,186.0373 380.25,186.9844 383.075,188.0311 385.9,189.1775 388.725,190.4236 391.55,191.7694 394.375,193.2148 397.2,194.76 400.025,196.4048 402.85,198.1494 405.675,199.9936 408.5,201.9375 411.325,203.9811 414.15,206.1244 416.975,208.3673 419.8,210.71 422.625,213.1523 425.45,215.6944 428.275,218.3361 431.1,221.0775 433.925,223.9186 436.75,226.8594 439.575,229.8998 442.4,233.04 445.225,236.2798 448.05,239.6194 450.875,243.0586 453.7,246.5975 456.525,250.2361 459.35,253.9744 462.175,257.8123 465,261.75 467.825,265.7873 470.65,269.9244 473.475,274.1611 476.3,278.4975 479.125,282.9336 481.95,287.4694 484.775,292.1048 487.6,296.84 490.425,301.6748 493.25,306.6094 496.075,311.6436 498.9,316.7775 501.725,322.0111 504.55,327.3444 507.375,332.7773 510.2,338.31 513.025,343.9423 515.85,349.6744 518.675,355.5061 521.5,361.4375 524.325,367.4686 527.15,373.5994 529.975,379.8298 532.8,386.16 535.625,392.5898 538.45,399.1194 541.275,405.7486 544.1,412.4775 546.925,419.3061 549.75,426.2344 552.575,433.2623 555.4,440.39 558.225,447.6173 561.05,454.9444 563.875,462.3711 566.7,469.8975 569.525,477.5236 572.35,485.2494 575.175,493.0748 578,501" stroke="#196f77" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="126" y1="182" x2="578" y2="182" stroke="#655184" stroke-width="1.65" stroke-linecap="round" stroke-dasharray="6 6"/>
+  <circle cx="352" cy="182" r="6.5" stroke="#196f77" stroke-width="1.8" fill="#196f77"/>
+  <text x="372" y="157" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="26" fill="#196f77" text-anchor="middle">g(2) = 1</text>
+  <text x="363" y="570" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="28" fill="#202a37" text-anchor="middle">对偶变量 λ</text>
+  <text x="1019" y="65" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">B  逐对比较上下界</text>
+  <line x1="782" y1="501" x2="1305" y2="501" stroke="#202a37" stroke-width="1.75" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+  <line x1="786" y1="505" x2="786" y2="124" stroke="#202a37" stroke-width="1.75" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
+  <text x="786" y="109" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="25" fill="#202a37" text-anchor="start">目标值</text>
+  <line x1="779" y1="501" x2="786" y2="501" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="774" y="509" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="end">0</text>
+  <line x1="779" y1="416" x2="786" y2="416" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="774" y="424" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="end">0.5</text>
+  <line x1="786" y1="416" x2="1292" y2="416" stroke="#d4e0e4" stroke-width="1" stroke-linecap="round"/>
+  <line x1="779" y1="331" x2="786" y2="331" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="774" y="339" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="end">1</text>
+  <line x1="786" y1="331" x2="1292" y2="331" stroke="#d4e0e4" stroke-width="1" stroke-linecap="round"/>
+  <line x1="779" y1="246" x2="786" y2="246" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="774" y="254" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="end">1.5</text>
+  <line x1="786" y1="246" x2="1292" y2="246" stroke="#d4e0e4" stroke-width="1" stroke-linecap="round"/>
+  <line x1="779" y1="161" x2="786" y2="161" stroke="#202a37" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="774" y="169" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="23" fill="#202a37" text-anchor="end">2</text>
+  <line x1="786" y1="161" x2="1292" y2="161" stroke="#d4e0e4" stroke-width="1" stroke-linecap="round"/>
+  <line x1="786" y1="331" x2="1292" y2="331" stroke="#655184" stroke-width="1.65" stroke-linecap="round" stroke-dasharray="6 6"/>
+  <rect x="828" y="167.8" width="52" height="205.7" fill="url(#wash-coral)" stroke="#a84b3b" stroke-width="1.45"/>
+  <circle cx="854" cy="373.5" r="6" stroke="#196f77" stroke-width="1.8" fill="#196f77"/>
+  <circle cx="854" cy="167.8" r="6" stroke="#a84b3b" stroke-width="1.8" fill="#a84b3b"/>
+  <text x="854" y="551" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="25" fill="#202a37" text-anchor="middle">A</text>
+  <text x="854" y="597" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="25" fill="#a84b3b" text-anchor="middle">1.21</text>
+  <rect x="945" y="331" width="52" height="42.5" fill="url(#wash-coral)" stroke="#a84b3b" stroke-width="1.45"/>
+  <circle cx="971" cy="373.5" r="6" stroke="#196f77" stroke-width="1.8" fill="#196f77"/>
+  <circle cx="971" cy="331" r="6" stroke="#a84b3b" stroke-width="1.8" fill="#a84b3b"/>
+  <text x="971" y="551" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="25" fill="#202a37" text-anchor="middle">B</text>
+  <text x="971" y="597" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="25" fill="#a84b3b" text-anchor="middle">0.25</text>
+  <rect x="1062" y="167.8" width="52" height="163.2" fill="url(#wash-coral)" stroke="#a84b3b" stroke-width="1.45"/>
+  <circle cx="1088" cy="331" r="6" stroke="#196f77" stroke-width="1.8" fill="#196f77"/>
+  <circle cx="1088" cy="167.8" r="6" stroke="#a84b3b" stroke-width="1.8" fill="#a84b3b"/>
+  <text x="1088" y="551" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="25" fill="#202a37" text-anchor="middle">C</text>
+  <text x="1088" y="597" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="25" fill="#a84b3b" text-anchor="middle">0.96</text>
+  <circle cx="1205" cy="331" r="6" stroke="#196f77" stroke-width="1.8" fill="#196f77"/>
+  <text x="1205" y="551" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="25" fill="#202a37" text-anchor="middle">D</text>
+  <text x="1205" y="597" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="25" fill="#196f77" text-anchor="middle">0.00</text>
+  <text x="708" y="598" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="25" fill="#202a37" text-anchor="middle">间隙</text>
+  <text x="676" y="640" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="27" fill="#202a37" text-anchor="middle">青点是对偶下界，珊瑚色区间上端是原始上界。</text>
+</svg>
