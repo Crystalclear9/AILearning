@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="655.48" viewBox="-18.24 28.76 996.48 655.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">循环导入会访问尚未初始化的模块</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="568.75"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="655.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="619" viewBox="0 47 960 619" overflow="hidden"><rect width="960" height="666" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.631944)"><g><defs><linearGradient id="book-wash-edf5f8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f8"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient><linearGradient id="book-wash-fff1e7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbf3ee"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title>循环导入：模块已在缓存里，属性却还没有执行出来</title><rect width="1440" height="900" fill="#ffffff"/><g font-family="Microsoft YaHei, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="655.48" viewBox="-18.24 28.76 996.48 655.48" role="img" aria-labelledby="artwork-title"><defs><linearGradient id="mechanism-wash-c" x1="0" x2=".94" y1="0" y2="1"><stop offset="0" stop-color="#fff6f3"/><stop offset="1" stop-color="#f1d4ca"/></linearGradient><linearGradient id="mechanism-wash-t" x1="0" x2=".94" y1="0" y2="1"><stop offset="0" stop-color="#f1faf9"/><stop offset="1" stop-color="#cbe7e7"/></linearGradient></defs><title id="artwork-title">循环导入会访问尚未初始化的模块</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="568.75"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="655.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="619" viewBox="0 47 960 619" overflow="hidden"><rect width="960" height="666" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.631944)"><g><defs><linearGradient id="book-wash-edf5f8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f8"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient><linearGradient id="book-wash-fff1e7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbf3ee"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title>循环导入：模块已在缓存里，属性却还没有执行出来</title><rect width="1440" height="900" fill="#ffffff"/><g font-family="Microsoft YaHei, sans-serif">
 <text x="55" y="65" font-size="41.934066px" fill="#213747" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">循环导入：模块已在缓存里，属性却还没有执行出来</text>
 <text x="65" y="132" font-size="39.99px" fill="#277290" text-anchor="start">a.py</text>
 <text x="770" y="132" font-size="39.99px" fill="#a55f3a" text-anchor="start">b.py</text>
@@ -16,7 +15,7 @@
 <text x="250" y="390" font-size="29.7px" fill="#277290" text-anchor="middle">A 的顶层执行</text>
 <text x="700" y="390" font-size="31.32px" fill="#213747" text-anchor="middle">sys.modules</text>
 <text x="1140" y="390" font-size="34.83px" fill="#a55f3a" text-anchor="middle">B 的顶层执行</text>
-<rect x="580" y="420" width="240" height="60" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
+<path d="M587.2000 420 H827.2000 L812.8000 480 H572.8000 Z" fill="url(#mechanism-wash-t)" stroke="#196d75" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="700" y="460" font-size="34.83px" fill="#277290" text-anchor="middle">"a" → 对象 A</text>
 <line x1="260" y1="450" x2="575" y2="450" stroke="#1c6583" stroke-width="2.46" stroke-dasharray=""/>
 <polyline fill="none" stroke="#1c6583" stroke-width="2.46" points="563.95,454.67 575,450 563.95,445.33"/>
@@ -24,7 +23,7 @@
 <line x1="265" y1="520" x2="1135" y2="520" stroke="#1c6583" stroke-width="2.46" stroke-dasharray=""/>
 <polyline fill="none" stroke="#1c6583" stroke-width="2.46" points="1123.95,524.67 1135,520 1123.95,515.33"/>
 <text x="720" y="510" font-size="34.83px" fill="#277290" text-anchor="middle">import b</text>
-<rect x="580" y="550" width="240" height="60" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
+<path d="M587.2000 550 H827.2000 L812.8000 610 H572.8000 Z" fill="url(#mechanism-wash-c)" stroke="#a74838" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="700" y="590" font-size="34.83px" fill="#a55f3a" text-anchor="middle">"b" → 对象 B</text>
 <line x1="1135" y1="580" x2="825" y2="580" stroke="#ae5f34" stroke-width="2.46" stroke-dasharray=""/>
 <polyline fill="none" stroke="#ae5f34" stroke-width="2.46" points="836.05,575.33 825,580 836.05,584.67"/>
@@ -38,7 +37,7 @@
 <text x="1030" y="750" font-size="37.41px" fill="#a55f3a" text-anchor="start">读取 a.x</text>
 <line x1="1065" y1="770" x2="850" y2="800" stroke="#ae5f34" stroke-width="2.46" stroke-dasharray=""/>
 <polyline fill="none" stroke="#ae5f34" stroke-width="2.46" points="860.3,793.84 850,800 861.59,803.1"/>
-<rect x="580" y="785" width="270" height="62" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
+<path d="M583.6000 785 H853.6000 L838.7200 847 H568.7200 Z" fill="url(#mechanism-wash-c)" stroke="#a74838" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="715" y="825" font-size="36.12px" fill="#a55f3a" text-anchor="middle">A 中尚无属性 x</text>
 <text x="900" y="830" font-size="38.7px" fill="#a55f3a" text-anchor="start">AttributeError</text>
 </g></g></g></g></svg></svg>

@@ -27,21 +27,21 @@
 <text x="1045.0" y="220" font-size="26" fill="#2a3645" text-anchor="middle" font-weight="400">y=1</text>
 <text x="1147.0" y="220" font-size="26" fill="#2a3645" text-anchor="middle" font-weight="400">y=2</text>
 <text x="770" y="307" font-size="26" fill="#2a3645" text-anchor="end" font-weight="400">x=0</text>
-<rect x="790" y="245" width="102" height="102" fill="#f0f5f8" stroke="#ffffff" stroke-width="2"/>
-<rect x="892" y="245" width="102" height="102" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
-<rect x="994" y="245" width="102" height="102" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
-<rect x="1096" y="245" width="102" height="102" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<rect x="790" y="245" width="102" height="102" fill="#f0f5f8" stroke="none" stroke-width="2"/>
+<rect x="892" y="245" width="102" height="102" fill="#ffffff" stroke="none" stroke-width="2"/>
+<rect x="994" y="245" width="102" height="102" fill="#ffffff" stroke="none" stroke-width="2"/>
+<rect x="1096" y="245" width="102" height="102" fill="#ffffff" stroke="none" stroke-width="2"/>
 <text x="770" y="409" font-size="26" fill="#2a3645" text-anchor="end" font-weight="400">x=1</text>
-<rect x="790" y="347" width="102" height="102" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
-<rect x="892" y="347" width="102" height="102" fill="#f0f5f8" stroke="#ffffff" stroke-width="2"/>
-<rect x="994" y="347" width="102" height="102" fill="#f0f5f8" stroke="#ffffff" stroke-width="2"/>
-<rect x="1096" y="347" width="102" height="102" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<rect x="790" y="347" width="102" height="102" fill="#ffffff" stroke="none" stroke-width="2"/>
+<rect x="892" y="347" width="102" height="102" fill="#f0f5f8" stroke="none" stroke-width="2"/>
+<rect x="994" y="347" width="102" height="102" fill="#f0f5f8" stroke="none" stroke-width="2"/>
+<rect x="1096" y="347" width="102" height="102" fill="#ffffff" stroke="none" stroke-width="2"/>
 <text x="770" y="511" font-size="26" fill="#2a3645" text-anchor="end" font-weight="400">x=2</text>
-<rect x="790" y="449" width="102" height="102" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
-<rect x="892" y="449" width="102" height="102" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
-<rect x="994" y="449" width="102" height="102" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
-<rect x="1096" y="449" width="102" height="102" fill="#f0f5f8" stroke="#ffffff" stroke-width="2"/>
-<line x1="841" y1="296" x2="943" y2="398" stroke="#bb6f38" stroke-width="5"/>
+<rect x="790" y="449" width="102" height="102" fill="#ffffff" stroke="none" stroke-width="2"/>
+<rect x="892" y="449" width="102" height="102" fill="#ffffff" stroke="none" stroke-width="2"/>
+<rect x="994" y="449" width="102" height="102" fill="#ffffff" stroke="none" stroke-width="2"/>
+<rect x="1096" y="449" width="102" height="102" fill="#f0f5f8" stroke="none" stroke-width="2"/>
+<path d="M892 245V551 M994 245V551 M1096 245V551 M790 347H1198 M790 449H1198" fill="none" stroke="#a9bfc4" stroke-width="1.28" stroke-opacity="0.88" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/><path d="M790 245H1198V551H790Z" fill="none" stroke="#729098" stroke-width="1.55" stroke-opacity="1" stroke-linecap="round" stroke-linejoin="round" pointer-events="none"/><line x1="841" y1="296" x2="943" y2="398" stroke="#bb6f38" stroke-width="5"/>
 <line x1="943" y1="398" x2="1045" y2="398" stroke="#bb6f38" stroke-width="5"/>
 <line x1="1045" y1="398" x2="1147" y2="500" stroke="#bb6f38" stroke-width="5"/>
 <circle cx="841" cy="296" r="29" fill="#ffffff" stroke="#bb6f38" stroke-width="3"/>

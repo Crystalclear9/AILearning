@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-18.24 52.4 996.48 1225.84" width="996.48" height="1225.84" role="img" aria-labelledby="title description">
   <title id="title">同为单位方差，均值精度为何不同？</title>
   <desc id="description">前三幅矩阵比较独立、AR(1) 和公共因子模型。第四幅比较样本均值的标准差。等相关模型趋近于根号 0.2。</desc>
@@ -220,19 +219,19 @@
     <text x="105" y="586" fill="#283341" font-size="30" font-weight="650" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">把每个协方差都计入均值方差</text>
     <line x1="114" y1="971.0" x2="889" y2="971.0" stroke="#d9e4eb" stroke-width="2"/>
     <text x="102" y="979.0" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">0</text>
-    <line x1="114" y1="918.8" x2="889" y2="918.8" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="114" y1="918.8" x2="889" y2="918.8" stroke="#dce7e9" stroke-width="1.4"/>
     <text x="102" y="926.8" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">0.2</text>
-    <line x1="114" y1="866.6" x2="889" y2="866.6" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="114" y1="866.6" x2="889" y2="866.6" stroke="#dce7e9" stroke-width="1.4"/>
     <text x="102" y="874.6" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">0.4</text>
-    <line x1="114" y1="814.4" x2="889" y2="814.4" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="114" y1="814.4" x2="889" y2="814.4" stroke="#dce7e9" stroke-width="1.4"/>
     <text x="102" y="822.4" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">0.6</text>
-    <line x1="114" y1="762.2" x2="889" y2="762.2" stroke="#d9e4eb" stroke-width="2"/>
+    <line x1="114" y1="762.2" x2="889" y2="762.2" stroke="#dce7e9" stroke-width="1.4"/>
     <text x="102" y="770.2" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">0.8</text>
     <line x1="114" y1="710.0" x2="889" y2="710.0" stroke="#d9e4eb" stroke-width="2"/>
     <text x="102" y="718.0" fill="#455f71" font-size="24" font-weight="400" text-anchor="end">1</text>
-    <line x1="114" y1="710" x2="114" y2="971" stroke="#6f879a" stroke-width="2"/>
-    <line x1="114" y1="971" x2="889" y2="971" stroke="#6f879a" stroke-width="2"/>
-    <line x1="114.0" y1="971" x2="114.0" y2="978" stroke="#6f879a" stroke-width="2"/>
+    <line x1="114" y1="710" x2="114" y2="971" stroke="#40596a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="114" y1="971" x2="889" y2="971" stroke="#40596a" stroke-width="2" stroke-linecap="round"/>
+    <path d="M889.00000 971.00000 L874.00000 965.60000 L874.00000 976.40000Z M114.00000 710.00000 L110.24160 720.44000 L117.75840 720.44000Z" fill="#40596a" stroke="none" pointer-events="none"/><line x1="114.0" y1="971" x2="114.0" y2="978" stroke="#6f879a" stroke-width="2"/>
     <text x="114.0" y="1004" fill="#455f71" font-size="24" font-weight="400" text-anchor="middle">1</text>
     <line x1="301.8788" y1="971" x2="301.8788" y2="978" stroke="#6f879a" stroke-width="2"/>
     <text x="301.8788" y="1004" fill="#455f71" font-size="24" font-weight="400" text-anchor="middle">25</text>

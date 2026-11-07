@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="623.48" viewBox="-18.24 28.76 996.48 623.48" role="img" aria-labelledby="artwork-title artwork-desc"><title id="artwork-title">Stacking 的折外输入：训练身份与记忆噪声反例</title><desc id="artwork-desc">两种不同基学习算法在每折分别拟合副本，填充完整六行两列折外特征；部署使用全数据重拟合的两个基学习器。</desc><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="536.095636"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="623.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="587" viewBox="0 47 960 587" overflow="hidden"><rect width="960" height="634" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 31.908604) scale(0.758333)"><g><defs><linearGradient id="book-wash-eaf2fa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#edf4fa"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient><linearGradient id="book-wash-fff0e3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#faf1ec"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect id="offline-white-background" x="0" y="58.142523" width="1200" height="706.939252" fill="#ffffff"/><title id="title">Stacking：算法身份与折身份是两条不同的轴</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="623.48" viewBox="-18.24 28.76 996.48 623.48" role="img" aria-labelledby="artwork-title artwork-desc"><defs><linearGradient id="mechanism-wash-c" x1="0" x2=".94" y1="0" y2="1"><stop offset="0" stop-color="#fff6f3"/><stop offset="1" stop-color="#f1d4ca"/></linearGradient><linearGradient id="mechanism-wash-t" x1="0" x2=".94" y1="0" y2="1"><stop offset="0" stop-color="#f1faf9"/><stop offset="1" stop-color="#cbe7e7"/></linearGradient></defs><title id="artwork-title">Stacking 的折外输入：训练身份与记忆噪声反例</title><desc id="artwork-desc">两种不同基学习算法在每折分别拟合副本，填充完整六行两列折外特征；部署使用全数据重拟合的两个基学习器。</desc><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="536.095636"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="623.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="587" viewBox="0 47 960 587" overflow="hidden"><rect width="960" height="634" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 31.908604) scale(0.758333)"><g><defs><linearGradient id="book-wash-eaf2fa" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#edf4fa"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient><linearGradient id="book-wash-fff0e3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#faf1ec"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><rect id="offline-white-background" x="0" y="58.142523" width="1200" height="706.939252" fill="#ffffff"/><title id="title">Stacking：算法身份与折身份是两条不同的轴</title>
   <desc id="desc">两种不同基学习算法在每折分别拟合副本，填充完整六行两列折外特征；部署使用全数据重拟合的两个基学习器。</desc>
   <rect width="1200" height="790" fill="#ffffff"/>
   <defs>
@@ -72,12 +71,12 @@
     <rect x="745" y="465" width="140" height="44" rx="5" fill="url(#book-wash-fff0e3)" stroke="#b36131" stroke-width="1.2"/>
     <text x="815.0" y="495.0" font-size="28.56px" fill="#a25e34" font-weight="500" text-anchor="middle">0.667</text>
     <line fill="none" stroke="#227199" stroke-width="2.5" marker-end="url(#arrow-blue)" x1="900" y1="345" x2="980" y2="345"/>
-    <rect x="990" y="300" width="175" height="90" rx="5" fill="url(#book-wash-eaf2fa)" stroke="#a7c5d7" stroke-width="1.2"/>
+    <path d="M1000.3250 300 H1175.3250 L1154.6750 390 H979.6750 Z" fill="url(#mechanism-wash-t)" stroke="#196d75" stroke-width="1.85" stroke-linejoin="round"/>
     <text x="1077.5" y="353.0" font-size="34.83px" fill="#2e77a6" font-weight="500" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">元模型</text>
     <text x="1075" y="434" font-size="28.38px" fill="#507992" font-weight="400" text-anchor="middle">用 Z 与标签 y 拟合</text>
     <line x1="35" y1="557" x2="1165" y2="557" stroke="#dde5eb" stroke-width="2"/>
     <text x="35" y="605" font-size="32.25px" fill="#233a4b" font-weight="600" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">部署：两个算法各用全部六行重训，元模型保持已拟合状态</text>
-    <rect x="35" y="654" width="150" height="70" rx="5" fill="url(#book-wash-fff0e3)" stroke="#b36131" stroke-width="1.2"/>
+    <path d="M43.4000 654 H193.4000 L176.6000 724 H26.6000 Z" fill="url(#mechanism-wash-c)" stroke="#a74838" stroke-width="1.85" stroke-linejoin="round"/>
     <text x="110.0" y="697.0" font-size="30.96px" fill="#a25e34" font-weight="500" text-anchor="middle">新 x = 3.5</text>
     <line fill="none" stroke="#227199" stroke-width="2.5" marker-end="url(#arrow-blue)" x1="200" y1="689" x2="300" y2="689"/>
     <rect x="325" y="631" width="210" height="48" rx="5" fill="url(#book-wash-eaf2fa)" stroke="#a7c5d7" stroke-width="1.2"/>
@@ -88,7 +87,7 @@
     <rect x="675" y="654" width="240" height="70" rx="5" fill="url(#book-wash-eaf2fa)" stroke="#a7c5d7" stroke-width="1.2"/>
     <text x="795.0" y="697.0" font-size="26.4px" fill="#2e77a6" font-weight="500" text-anchor="middle">按 A、B 列顺序输入</text>
     <line fill="none" stroke="#227199" stroke-width="2.5" marker-end="url(#arrow-blue)" x1="930" y1="689" x2="980" y2="689"/>
-    <rect x="995" y="654" width="170" height="70" rx="5" fill="url(#book-wash-eaf2fa)" stroke="#a7c5d7" stroke-width="1.2"/>
+    <path d="M1003.4000 654 H1173.4000 L1156.6000 724 H986.6000 Z" fill="url(#mechanism-wash-t)" stroke="#196d75" stroke-width="1.85" stroke-linejoin="round"/>
     <text x="1080.0" y="697.0" font-size="32.25px" fill="#2e77a6" font-weight="500" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">固定元模型</text>
   </g>
 </g></g></g></svg></svg>

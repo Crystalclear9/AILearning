@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="1161.84" viewBox="-18.24 51.4 996.48 1161.84" role="img" aria-labelledby="title desc">
 <title id="title">总方差来自组内与组间两处</title><desc id="desc">A 组样本是负一和一，B 组样本是三和五。组内距离均为一，组均值与总均值相距二。</desc>
 <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#537184"/></marker></defs>
@@ -58,17 +57,17 @@
 <text x="101" y="772" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">知道组别后，预测风险少了四</text>
 <line x1="143" y1="1060" x2="723" y2="1060" stroke="#d4e0e7" stroke-width="2"/>
 <text x="128" y="1068" font-size="24" fill="#476072" font-weight="400" text-anchor="end">0</text>
-<line x1="143" y1="1015" x2="723" y2="1015" stroke="#d4e0e7" stroke-width="2"/>
+<line x1="143" y1="1015" x2="723" y2="1015" stroke="#dce7e9" stroke-width="1.4"/>
 <text x="128" y="1023" font-size="24" fill="#476072" font-weight="400" text-anchor="end">5</text>
-<line x1="143" y1="970" x2="723" y2="970" stroke="#d4e0e7" stroke-width="2"/>
+<line x1="143" y1="970" x2="723" y2="970" stroke="#dce7e9" stroke-width="1.4"/>
 <text x="128" y="978" font-size="24" fill="#476072" font-weight="400" text-anchor="end">10</text>
-<line x1="143" y1="925" x2="723" y2="925" stroke="#d4e0e7" stroke-width="2"/>
+<line x1="143" y1="925" x2="723" y2="925" stroke="#dce7e9" stroke-width="1.4"/>
 <text x="128" y="933" font-size="24" fill="#476072" font-weight="400" text-anchor="end">15</text>
 <line x1="143" y1="880" x2="723" y2="880" stroke="#d4e0e7" stroke-width="2"/>
 <text x="128" y="888" font-size="24" fill="#476072" font-weight="400" text-anchor="end">20</text>
-<line x1="143" y1="1060" x2="723" y2="1060" stroke="#476072" stroke-width="2"/>
-<line x1="143" y1="1060" x2="143" y2="880" stroke="#476072" stroke-width="2"/>
-<line x1="143" y1="1060" x2="143" y2="1068" stroke="#476072" stroke-width="2"/>
+<line x1="143" y1="1060" x2="723" y2="1060" stroke="#40596a" stroke-width="2" stroke-linecap="round"/>
+<line x1="143" y1="1060" x2="143" y2="880" stroke="#40596a" stroke-width="2" stroke-linecap="round"/>
+<path d="M723.00000 1060.00000 L708.00000 1054.60000 L708.00000 1065.40000Z M143.00000 880.00000 L140.12000 888.00000 L145.88000 888.00000Z" fill="#40596a" stroke="none" pointer-events="none"/><line x1="143" y1="1060" x2="143" y2="1068" stroke="#476072" stroke-width="2"/>
 <text x="143" y="1096" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">0</text>
 <line x1="288" y1="1060" x2="288" y2="1068" stroke="#476072" stroke-width="2"/>
 <text x="288" y="1096" font-size="24" fill="#476072" font-weight="400" text-anchor="middle">1</text>

@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="655.48" viewBox="-18.24 28.76 996.48 655.48" role="img" aria-labelledby="artwork-title"><title id="artwork-title">临时文件与正式文件的发布边界</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="568.75"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="655.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="619" viewBox="0 47 960 619" overflow="hidden"><rect width="960" height="666" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.631944)"><g><defs><linearGradient id="book-wash-edf5f8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f8"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient><linearGradient id="book-wash-fff1e7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbf3ee"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title>原子发布切换的是名字，读者持有的是已打开的文件</title><rect width="1440" height="900" fill="#ffffff"/><g font-family="Microsoft YaHei, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="655.48" viewBox="-18.24 28.76 996.48 655.48" role="img" aria-labelledby="artwork-title"><defs><linearGradient id="mechanism-wash-c" x1="0" x2=".94" y1="0" y2="1"><stop offset="0" stop-color="#fff6f3"/><stop offset="1" stop-color="#f1d4ca"/></linearGradient><linearGradient id="mechanism-wash-t" x1="0" x2=".94" y1="0" y2="1"><stop offset="0" stop-color="#f1faf9"/><stop offset="1" stop-color="#cbe7e7"/></linearGradient></defs><title id="artwork-title">临时文件与正式文件的发布边界</title><defs><clipPath id="artwork-view"><rect x="25" y="76" width="910" height="568.75"/></clipPath></defs><rect id="edition-paper" x="-18.24" y="28.76" width="996.48" height="655.48" fill="#ffffff"/><svg id="edition-view" x="0" y="47" width="960" height="619" viewBox="0 47 960 619" overflow="hidden"><rect width="960" height="666" fill="#ffffff"/><g clip-path="url(#artwork-view)"><g transform="translate(25 76) scale(0.631944)"><g><defs><linearGradient id="book-wash-edf5f8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f8"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient><linearGradient id="book-wash-fff1e7" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbf3ee"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title>原子发布切换的是名字，读者持有的是已打开的文件</title><rect width="1440" height="900" fill="#ffffff"/><g font-family="Microsoft YaHei, sans-serif">
 <text x="55" y="65" font-size="41.934066px" fill="#213747" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">原子发布切换的是名字，读者持有的是已打开的文件</text>
 <text x="260" y="135" font-size="36.12px" fill="#213747" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">① 准备</text>
 <text x="550" y="135" font-size="36.12px" fill="#213747" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">② 写临时文件</text>
@@ -7,7 +6,7 @@
 <text x="1130" y="135" font-size="36.12px" fill="#213747" text-anchor="middle">④ replace 成功</text>
 <text x="25" y="240" font-size="32.25px" fill="#213747" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">正式路径</text>
 <text x="25" y="420" font-size="32.25px" fill="#213747" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">临时路径</text>
-<rect x="155" y="205" width="210" height="120" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
+<path d="M164.1667 205 H374.1667 L352.1667 325 H142.1667 Z" fill="url(#mechanism-wash-t)" stroke="#196d75" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="260" y="243" font-size="37.41px" fill="#277290" text-anchor="middle">旧版 V1</text>
 <rect x="180" y="262" width="65" height="55" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
 <text x="212.5" y="298" font-size="32.13px" fill="#277290" text-anchor="middle">1</text>
@@ -16,13 +15,13 @@
 <text x="260" y="430" font-size="34.83px" fill="#475b6c" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">不存在</text>
 <line x1="375" y1="255" x2="430" y2="255" stroke="#76889b" stroke-width="2" stroke-dasharray=""/>
 <polyline fill="none" stroke="#76889b" stroke-width="2" points="418.95,259.67 430,255 418.95,250.33"/>
-<rect x="445" y="205" width="210" height="120" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
+<path d="M454.1667 205 H664.1667 L642.1667 325 H432.1667 Z" fill="url(#mechanism-wash-t)" stroke="#196d75" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="550" y="243" font-size="37.41px" fill="#277290" text-anchor="middle">旧版 V1</text>
 <rect x="470" y="262" width="65" height="55" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
 <text x="502.5" y="298" font-size="32.13px" fill="#277290" text-anchor="middle">1</text>
 <rect x="545" y="262" width="65" height="55" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
 <text x="577.5" y="298" font-size="32.13px" fill="#277290" text-anchor="middle">1</text>
-<rect x="445" y="385" width="210" height="120" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
+<path d="M456.0000 385 H666.0000 L644.0000 505 H434.0000 Z" fill="url(#mechanism-wash-c)" stroke="#a74838" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="550" y="422" font-size="34.83px" fill="#a55f3a" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">写入中</text>
 <rect x="470" y="441" width="65" height="55" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
 <text x="502.5" y="477" font-size="32.13px" fill="#a55f3a" text-anchor="middle">2</text>
@@ -30,13 +29,13 @@
 <text x="577.5" y="477" font-size="34.83px" fill="#a55f3a" text-anchor="middle">…</text>
 <line x1="665" y1="255" x2="720" y2="255" stroke="#76889b" stroke-width="2" stroke-dasharray=""/>
 <polyline fill="none" stroke="#76889b" stroke-width="2" points="708.95,259.67 720,255 708.95,250.33"/>
-<rect x="735" y="205" width="210" height="120" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
+<path d="M744.1667 205 H954.1667 L932.1667 325 H722.1667 Z" fill="url(#mechanism-wash-t)" stroke="#196d75" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="840" y="243" font-size="37.41px" fill="#277290" text-anchor="middle">旧版 V1</text>
 <rect x="760" y="262" width="65" height="55" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
 <text x="792.5" y="298" font-size="32.13px" fill="#277290" text-anchor="middle">1</text>
 <rect x="835" y="262" width="65" height="55" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
 <text x="867.5" y="298" font-size="32.13px" fill="#277290" text-anchor="middle">1</text>
-<rect x="735" y="385" width="210" height="120" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
+<path d="M746.0000 385 H956.0000 L934.0000 505 H724.0000 Z" fill="url(#mechanism-wash-c)" stroke="#a74838" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="840" y="422" font-size="34.83px" fill="#a55f3a" text-anchor="middle">完整 V2</text>
 <rect x="760" y="441" width="65" height="55" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
 <text x="792.5" y="477" font-size="32.13px" fill="#a55f3a" text-anchor="middle">2</text>
@@ -44,30 +43,30 @@
 <text x="867.5" y="477" font-size="32.13px" fill="#a55f3a" text-anchor="middle">2</text>
 <line x1="955" y1="255" x2="1010" y2="255" stroke="#76889b" stroke-width="2" stroke-dasharray=""/>
 <polyline fill="none" stroke="#76889b" stroke-width="2" points="998.95,259.67 1010,255 998.95,250.33"/>
-<rect x="1025" y="205" width="210" height="120" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
+<path d="M1034.1667 205 H1244.1667 L1222.1667 325 H1012.1667 Z" fill="url(#mechanism-wash-c)" stroke="#a74838" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="1130" y="243" font-size="37.41px" fill="#a55f3a" text-anchor="middle">新版 V2</text>
 <rect x="1050" y="262" width="65" height="55" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
 <text x="1082.5" y="298" font-size="32.13px" fill="#a55f3a" text-anchor="middle">2</text>
 <rect x="1125" y="262" width="65" height="55" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
 <text x="1157.5" y="298" font-size="32.13px" fill="#a55f3a" text-anchor="middle">2</text>
-<rect x="1025" y="385" width="210" height="120" rx="3" fill="#f6f8f9" stroke="#76889b" stroke-dasharray="7 5"/>
+<path d="M1036.0000 385 H1246.0000 L1224.0000 505 H1014.0000 Z" fill="url(#mechanism-wash-t)" stroke="#196d75" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="1130" y="422" font-size="34.83px" fill="#475b6c" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">名字已移走</text>
 <line x1="990" y1="165" x2="990" y2="520" stroke="#ae5f34" stroke-width="3" stroke-dasharray="7 7"/>
 <line x1="945" y1="438" x2="1040" y2="310" stroke="#ae5f34" stroke-width="2.46" stroke-dasharray=""/>
 <polyline fill="none" stroke="#ae5f34" stroke-width="2.46" points="1037.17,321.66 1040,310 1029.66,316.09"/>
 <text x="55" y="575" font-size="38.7px" fill="#213747" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">替换后，两种读者读到不同版本</text>
-<rect x="55" y="620" width="290" height="82" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
+<path d="M64.6000 620 H354.6000 L334.9200 702 H44.9200 Z" fill="url(#mechanism-wash-t)" stroke="#196d75" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="200" y="653" font-size="31.32px" fill="#277290" text-anchor="middle">已打开的旧读者 R1</text>
 <text x="200" y="687" font-size="34.83px" fill="#277290" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">持有旧文件</text>
-<rect x="575" y="620" width="270" height="82" rx="3" fill="url(#book-wash-edf5f8)" stroke="#1c6583" stroke-dasharray=""/>
+<path d="M584.6000 620 H854.6000 L834.9200 702 H564.9200 Z" fill="url(#mechanism-wash-t)" stroke="#196d75" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="710" y="655" font-size="37.41px" fill="#277290" text-anchor="middle">旧文件 V1</text>
 <text x="710" y="688" font-size="31.32px" fill="#277290" text-anchor="middle">内容仍为 1, 1</text>
 <line x1="345" y1="660" x2="575" y2="660" stroke="#1c6583" stroke-width="2.46" stroke-dasharray=""/>
 <polyline fill="none" stroke="#1c6583" stroke-width="2.46" points="563.95,664.67 575,660 563.95,655.33"/>
-<rect x="55" y="745" width="290" height="82" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
+<path d="M64.6000 745 H354.6000 L334.9200 827 H44.9200 Z" fill="url(#mechanism-wash-c)" stroke="#a74838" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="200" y="778" font-size="31.32px" fill="#a55f3a" text-anchor="middle">重新打开路径的 R2</text>
 <text x="200" y="812" font-size="34.83px" fill="#a55f3a" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">解析正式名字</text>
-<rect x="575" y="745" width="270" height="82" rx="3" fill="url(#book-wash-fff1e7)" stroke="#ae5f34" stroke-dasharray=""/>
+<path d="M584.6000 745 H854.6000 L834.9200 827 H564.9200 Z" fill="url(#mechanism-wash-c)" stroke="#a74838" stroke-width="1.85" stroke-linejoin="round"/>
 <text x="710" y="780" font-size="37.41px" fill="#a55f3a" text-anchor="middle">新文件 V2</text>
 <text x="710" y="813" font-size="31.32px" fill="#a55f3a" text-anchor="middle">内容为 2, 2</text>
 <line x1="345" y1="785" x2="575" y2="785" stroke="#ae5f34" stroke-width="2.46" stroke-dasharray=""/>
