@@ -1,82 +1,53 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1370.16" height="715.16" viewBox="-25.08 -25.08 1370.16 715.16" role="img" aria-labelledby="title description">
-  <title id="title">事件发生与数据可用是两道门</title>
-  <desc id="description">横轴为事件时间，纵轴为可用时间。只有 B 的两个时间都严格早于 6。</desc>
-  <defs>
-    <marker id="arrow-ink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#242e3a"/>
-    </marker>
-    <marker id="arrow-teal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#217283"/>
-    </marker>
-    <marker id="arrow-coral" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#af5546"/>
-    </marker>
-    <marker id="arrow-violet" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0 0 L11 6 L0 12 L2.5 6 Z" fill="#675e8c"/>
-    </marker>
-    <linearGradient id="wash-cyan" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#95cdd4" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#95cdd4" stop-opacity="0.48"/>
-    </linearGradient>
-    <linearGradient id="wash-red" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#eab6b0" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#eab6b0" stop-opacity="0.48"/>
-    </linearGradient>
-    <linearGradient id="wash-violet" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#beb4d3" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#beb4d3" stop-opacity="0.48"/>
-    </linearGradient>
-    <clipPath id="plot-1">
-      <rect x="169" y="107" width="478" height="478"/>
-    </clipPath>
-  </defs>
-  <rect id="edition-paper" x="-25.08" y="-25.08" width="1370.16" height="715.16" fill="#ffffff"/><svg id="edition-view" x="0" y="0" width="1320" height="665" viewBox="0 0 1320 665" overflow="hidden"><rect width="1320" height="665" fill="#ffffff"/>
-  <g font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">
-    <polygon points="170.00000,584.00000 408.00000,584.00000 408.00000,346.00000 170.00000,346.00000" fill="url(#wash-cyan)" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
-    <line x1="167" y1="584" x2="664" y2="584" stroke="#242e3a" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-    <line x1="170" y1="589" x2="170" y2="91" stroke="#242e3a" stroke-width="2.1" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
-    <text x="672" y="591" font-size="28" fill="#242e3a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif"/>
-    <text x="170" y="78" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">可用时间</text>
-    <line x1="221.33333" y1="584" x2="221.33333" y2="591" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="221.33333" y="614" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">4</text>
-    <line x1="314.66667" y1="584" x2="314.66667" y2="591" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="314.66667" y="614" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">5</text>
-    <line x1="408" y1="584" x2="408" y2="591" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="408" y="614" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">6</text>
-    <line x1="501.33333" y1="584" x2="501.33333" y2="591" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="501.33333" y="614" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">7</text>
-    <line x1="594.66667" y1="584" x2="594.66667" y2="591" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="594.66667" y="614" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">8</text>
-    <line x1="163" y1="532.66667" x2="170" y2="532.66667" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="157" y="539.66667" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">4</text>
-    <line x1="163" y1="392.66667" x2="170" y2="392.66667" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="157" y="399.66667" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">5.5</text>
-    <line x1="163" y1="346" x2="170" y2="346" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="157" y="353" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">6</text>
-    <line x1="163" y1="252.66667" x2="170" y2="252.66667" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="157" y="259.66667" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">7</text>
-    <line x1="163" y1="159.33333" x2="170" y2="159.33333" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="157" y="166.33333" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">8</text>
-    <text x="687" y="592" font-size="29" fill="#242e3a" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">事件时间</text>
-    <line x1="408" y1="584" x2="408" y2="108" stroke="#675e8c" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 5"/>
-    <line x1="170" y1="346" x2="646" y2="346" stroke="#675e8c" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="7 5"/>
-    <text x="290.4" y="481.33333" font-size="27" fill="#217283" text-anchor="middle" font-weight="400">两个时间都早于 6</text>
-    <circle cx="221.33333" cy="252.66667" r="8" fill="#af5546" stroke="#ffffff" stroke-width="2.4"/>
-    <text x="237.33333" y="240.66667" font-size="28" fill="#af5546" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">A</text>
-    <circle cx="314.66667" cy="392.66667" r="8" fill="#217283" stroke="#ffffff" stroke-width="2.4"/>
-    <text x="330.66667" y="380.66667" font-size="28" fill="#217283" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">B</text>
-    <circle cx="594.66667" cy="159.33333" r="8" fill="#675e8c" stroke="#ffffff" stroke-width="2.4"/>
-    <text x="610.66667" y="147.33333" font-size="28" fill="#675e8c" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">C</text>
-    <text x="824" y="163" font-size="35" fill="#242e3a" text-anchor="start" font-weight="400">在时刻 6 决策</text>
-    <circle cx="839" cy="243" r="7" fill="#af5546" stroke="#ffffff" stroke-width="2.4"/>
-    <text x="862" y="252" font-size="29" fill="#af5546" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">A</text>
-    <text x="906" y="252" font-size="28" fill="#242e3a" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">已经发生，尚不可用</text>
-    <circle cx="839" cy="336" r="7" fill="#217283" stroke="#ffffff" stroke-width="2.4"/>
-    <text x="862" y="345" font-size="29" fill="#217283" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">B</text>
-    <text x="906" y="345" font-size="28" fill="#242e3a" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">已经发生，也已可用</text>
-    <circle cx="839" cy="429" r="7" fill="#675e8c" stroke="#ffffff" stroke-width="2.4"/>
-    <text x="862" y="438" font-size="29" fill="#675e8c" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">C</text>
-    <text x="906" y="438" font-size="28" fill="#242e3a" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">事件还没有发生</text>
-  </g>
-</svg></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="677" viewBox="0 0 1200 677" role="img" aria-labelledby="fig-title fig-desc">
+<title id="fig-title">可用范围由两道独立边界的交集定义</title>
+<desc id="fig-desc">时刻六决策，两个时间都严格早于六才在可用区域。</desc>
+<rect x="0" y="0" width="1200" height="677" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#ecf6f6"/></linearGradient>
+<linearGradient id="r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8e6f2"/></linearGradient>
+<linearGradient id="n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1f5f6"/></linearGradient>
+</defs>
+<text x="74" y="58" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="31" text-anchor="start" font-weight="600">一道门管发生，另一道门管可用</text>
+<path d="M141 557 L141 367.553 L330.447 367.553 L330.447 557 Z" fill="#ecf6f6" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M141 557 L524 557" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M524 557 L513 562 L513 552 Z" fill="#233b4a" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M141 557 L141 174" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M141 174 L146 185 L136 185 Z" fill="#233b4a" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M172.574 553 L172.574 562" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="172.574" y="586" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="middle" font-weight="400">4</text>
+<path d="M251.511 553 L251.511 562" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="251.511" y="586" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="middle" font-weight="400">5</text>
+<path d="M330.447 553 L330.447 562" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="330.447" y="586" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="middle" font-weight="400">6</text>
+<path d="M409.383 553 L409.383 562" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="409.383" y="586" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="middle" font-weight="400">7</text>
+<path d="M488.319 553 L488.319 562" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="488.319" y="586" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="middle" font-weight="400">8</text>
+<path d="M136 525.426 L145 525.426" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="131" y="531.426" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="end" font-weight="400">4</text>
+<path d="M136 407.021 L145 407.021" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="131" y="413.021" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="end" font-weight="400">5.5</text>
+<path d="M136 367.553 L145 367.553" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="131" y="373.553" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="end" font-weight="400">6</text>
+<path d="M136 288.617 L145 288.617" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="131" y="294.617" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="end" font-weight="400">7</text>
+<path d="M136 209.681 L145 209.681" fill="none" stroke="#233b4a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="131" y="215.681" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" text-anchor="end" font-weight="400">8</text>
+<text x="531" y="563" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" text-anchor="start" font-weight="400">事件时间</text>
+<text x="141" y="164" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" text-anchor="middle" font-weight="400">可用时间</text>
+<path d="M330.447 557 L330.447 186" fill="none" stroke="#6e618e" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M141 367.553 L512 367.553" fill="none" stroke="#6e618e" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<circle cx="172.574" cy="288.617" r="6.5" fill="#ffffff" stroke="#a74d3a" stroke-width="3"/>
+<text x="184.574" y="277.617" fill="#a74d3a" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">A</text>
+<text x="700" y="224" fill="#a74d3a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="23" text-anchor="start" font-weight="400">A　早已发生，尚未可用</text>
+<circle cx="251.511" cy="407.021" r="6.5" fill="#ffffff" stroke="#166d75" stroke-width="3"/>
+<text x="263.511" y="396.021" fill="#166d75" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">B</text>
+<text x="700" y="319" fill="#166d75" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="23" text-anchor="start" font-weight="400">B　已经发生，也已可用</text>
+<circle cx="409.383" cy="209.681" r="6.5" fill="#ffffff" stroke="#526976" stroke-width="3"/>
+<text x="421.383" y="198.681" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">C</text>
+<text x="700" y="414" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="23" text-anchor="start" font-weight="400">C　事件还没有发生</text>
+<text x="700" y="518" fill="#166d75" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">浅色区要求两个时间都小于 6。</text>
+<path d="M75 612 L1125 612" fill="none" stroke="#dbe8eb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="652" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">位于任一虚线上的记录，也不满足本例的严格截止。</text>
+</svg>
