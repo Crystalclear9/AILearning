@@ -39,10 +39,12 @@
     <text x="578" y="375" font-size="28" fill="#242e3a" text-anchor="start" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">θ</text>
     <text x="102" y="109" font-size="27" fill="#242e3a" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">密度</text>
     <line x1="387.71429" y1="368" x2="387.71429" y2="375" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="387.71429" y="398" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">⅔</text>
-    <line x1="423.42857" y1="368" x2="423.42857" y2="375" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="423.42857" y="398" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">¾</text>
-    <line x1="530.57143" y1="368" x2="530.57143" y2="375" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
+    <g><text x="387.71429" y="394" font-size="19" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">2</text>
+    <text x="387.71429" y="417" font-size="19" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">3</text>
+    <line x1="375.71429" x2="399.71429" y1="399" y2="399" stroke="#4b5e6b" stroke-width="1.4"/></g><line x1="423.42857" y1="368" x2="423.42857" y2="375" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
+    <g><text x="423.42857" y="394" font-size="19" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">3</text>
+    <text x="423.42857" y="417" font-size="19" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">4</text>
+    <line x1="411.42857" x2="435.42857" y1="399" y2="399" stroke="#4b5e6b" stroke-width="1.4"/></g><line x1="530.57143" y1="368" x2="530.57143" y2="375" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
     <text x="530.57143" y="398" font-size="25" fill="#4b5e6b" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
     <line x1="95" y1="275.28745" x2="102" y2="275.28745" stroke="#242e3a" stroke-width="1.5" stroke-linecap="round"/>
     <text x="89" y="282.28745" font-size="25" fill="#4b5e6b" text-anchor="end" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">1</text>
@@ -71,8 +73,10 @@
     <text x="1126" y="218" font-size="24" fill="#242e3a" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">试验二</text>
     <polygon points="686.00000,346.00000 780.00000,302.00000 902.00000,302.00000 808.00000,346.00000" fill="url(#wash-red)" stroke="#af5546" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
     <text x="792" y="283" font-size="26" fill="#af5546" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">固定成功率</text>
-    <text x="794" y="332" font-size="27" fill="#af5546" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">θ = ⅔</text>
-    <line x1="927" y1="324" x2="1080" y2="287" stroke="#af5546" stroke-width="1.65" stroke-linecap="round" marker-end="url(#arrow-coral)"/>
+    <text x="779" y="331" font-size="27" fill="#af5546" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">θ =</text>
+    <g><text x="812.0" y="319" font-size="19" fill="#af5546" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">2</text>
+    <text x="812.0" y="342" font-size="19" fill="#af5546" text-anchor="middle" font-weight="400" font-family="Cambria Math, STIX Two Text, Georgia, SimSun, serif">3</text>
+    <line x1="800.0" x2="824.0" y1="324" y2="324" stroke="#af5546" stroke-width="1.4"/></g><line x1="927" y1="324" x2="1080" y2="287" stroke="#af5546" stroke-width="1.65" stroke-linecap="round" marker-end="url(#arrow-coral)"/>
     <circle cx="1102" cy="287" r="7" fill="#af5546" stroke="#ffffff" stroke-width="2.4"/>
     <text x="1126" y="293" font-size="24" fill="#242e3a" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">试验一</text>
     <line x1="927" y1="324" x2="1080" y2="361" stroke="#af5546" stroke-width="1.65" stroke-linecap="round" marker-end="url(#arrow-coral)"/>
