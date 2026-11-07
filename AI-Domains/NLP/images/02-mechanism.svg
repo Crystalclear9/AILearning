@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1324.49" height="825.488" viewBox="-2.244 41.756 1324.49 825.488" role="img" aria-labelledby="title desc"><title id="title">词面重复需要按参考次数裁剪计数</title><desc id="desc">候选甲甲甲，参考甲乙丙。一元匹配为一除三，二元匹配为零除二；等长所以长度惩罚一，不平滑 BLEU-2 为零。</desc><rect id="edition-paper" x="-2.244" y="41.756" width="1324.49" height="825.488" fill="#ffffff"/><svg id="edition-view" x="22" y="66" width="1276" height="777" viewBox="22 66 1276 777" overflow="hidden"><rect x="22" y="66" width="1276" height="777" fill="#ffffff"/><rect width="1320" height="850" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#2a3645">
-<text x="45" y="108" font-size="28" fill="#638494" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">同一组文本，同时检查单词与相邻词对</text>
+<text x="45" y="108" font-size="28" fill="#577482" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">同一组文本，同时检查单词与相邻词对</text>
 <text x="50" y="216" font-size="29" fill="#2a3645" text-anchor="start" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">候选</text>
 <rect x="240" y="170" width="130" height="75" fill="#ecf3f8" stroke="none" stroke-width="2"/>
 <text x="305" y="221" font-size="36" fill="#2a3645" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">甲</text>
@@ -30,20 +29,20 @@
 <line x1="40" y1="460" x2="1280" y2="460" stroke="#b3c0cc" stroke-width="2"/>
 <text x="45" y="522" font-size="30" fill="#2a3645" text-anchor="start" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">二元词对</text>
 <rect x="280" y="490" width="170" height="65" fill="#f7ede4" stroke="none" stroke-width="2"/>
-<text x="365" y="532" font-size="30" fill="#b96f37" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">甲甲</text>
+<text x="365" y="532" font-size="30" fill="#93582c" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">甲甲</text>
 <rect x="510" y="490" width="170" height="65" fill="#f7ede4" stroke="none" stroke-width="2"/>
-<text x="595" y="532" font-size="30" fill="#b96f37" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">甲甲</text>
+<text x="595" y="532" font-size="30" fill="#93582c" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">甲甲</text>
 <rect x="280" y="590" width="170" height="65" fill="#ecf3f8" stroke="none" stroke-width="2"/>
-<text x="365" y="632" font-size="30" fill="#2e7bb1" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">甲乙</text>
+<text x="365" y="632" font-size="30" fill="#296e9e" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">甲乙</text>
 <rect x="510" y="590" width="170" height="65" fill="#ecf3f8" stroke="none" stroke-width="2"/>
-<text x="595" y="632" font-size="30" fill="#2e7bb1" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">乙丙</text>
+<text x="595" y="632" font-size="30" fill="#296e9e" text-anchor="middle" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">乙丙</text>
 <text x="45" y="632" font-size="28" fill="#2a3645" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">参考词对</text>
-<text x="850" y="532" font-size="28" fill="#b96f37" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">没有一个词对匹配</text>
+<text x="850" y="532" font-size="28" fill="#a16130" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">没有一个词对匹配</text>
 <text x="850" y="610" font-size="28" fill="#2a3645" text-anchor="start" font-weight="400">二元精确率 =</text>
 <text x="1120" y="604" font-size="29" fill="#2a3645" text-anchor="middle" font-weight="400">0</text>
 <line x1="1107" y1="611" x2="1133" y2="611" stroke="#2a3645" stroke-width="1.5"/>
 <text x="1120" y="639" font-size="29" fill="#2a3645" text-anchor="middle" font-weight="400">2</text>
 <line x1="40" y1="710" x2="1280" y2="710" stroke="#b3c0cc" stroke-width="2"/>
 <text x="45" y="772" font-size="28" fill="#2a3645" text-anchor="start" font-weight="400">长度相同：BP = 1</text>
-<text x="600" y="772" font-size="31" fill="#b96f37" text-anchor="start" font-weight="700">未做平滑：BLEU-2 = 0</text>
-<text x="45" y="821" font-size="27" fill="#638494" text-anchor="start" font-weight="400">一元词都“见过”，不代表重复、顺序与内容都正确。</text></g></svg></svg>
+<text x="600" y="772" font-size="31" fill="#a16130" text-anchor="start" font-weight="700">未做平滑：BLEU-2 = 0</text>
+<text x="45" y="821" font-size="27" fill="#577482" text-anchor="start" font-weight="400">一元词都“见过”，不代表重复、顺序与内容都正确。</text></g></svg></svg>

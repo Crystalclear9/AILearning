@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1324.49" height="798.488" viewBox="-2.244 36.756 1324.49 798.488" role="img" aria-labelledby="title desc"><title id="title">TF-IDF 拟合只能使用训练文档集合</title><desc id="desc">三篇训练文档的计数、文档频率和 IDF；冻结词表之后，测试中的新词没有新坐标。</desc><rect id="edition-paper" x="-2.244" y="36.756" width="1324.49" height="798.488" fill="#ffffff"/><svg id="edition-view" x="22" y="61" width="1276" height="750" viewBox="22 61 1276 750" overflow="hidden"><rect x="22" y="61" width="1276" height="750" fill="#ffffff"/><rect width="1320" height="820" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#2a3645">
 <text x="40" y="103" font-size="28" fill="#2a3645" text-anchor="start" font-weight="400">训练：猫 猫 鱼 ｜ 狗 鱼 ｜ 狗</text>
 <text x="370" y="163" font-size="32" fill="#2a3645" text-anchor="middle" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">猫</text>
@@ -45,7 +44,7 @@
 <text x="840" y="470" font-size="27" fill="#2e7bb1" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">因此得到更高权重</text>
 <line x1="40" y1="610" x2="1280" y2="610" stroke="#b3c0cc" stroke-width="2"/>
 <text x="40" y="662" font-size="29" fill="#2a3645" text-anchor="start" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">测试只做变换</text>
-<text x="45" y="725" font-size="32" fill="#b96f37" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">猫 新词</text>
+<text x="45" y="725" font-size="32" fill="#a16130" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">猫 新词</text>
 <text x="290" y="725" font-size="36" fill="#2a3645" text-anchor="start" font-weight="400">→</text>
 <rect x="405" y="682" width="110" height="67" fill="#f0f5f8" stroke="none" stroke-width="2"/>
 <text x="460" y="725" font-size="30" fill="#2a3645" text-anchor="middle" font-weight="400">1</text>
@@ -54,5 +53,5 @@
 <rect x="725" y="682" width="110" height="67" fill="#f0f5f8" stroke="none" stroke-width="2"/>
 <text x="780" y="725" font-size="30" fill="#2a3645" text-anchor="middle" font-weight="400">0</text>
 <text x="990" y="705" font-size="27" fill="#2a3645" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">仍按 猫、狗、鱼</text>
-<text x="990" y="750" font-size="27" fill="#b96f37" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">新词不扩充词表</text>
-<text x="450" y="789" font-size="26" fill="#638494" text-anchor="start" font-weight="400">L2 归一化后的向量</text></g></svg></svg>
+<text x="990" y="750" font-size="27" fill="#a16130" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">新词不扩充词表</text>
+<text x="450" y="789" font-size="26" fill="#577482" text-anchor="start" font-weight="400">L2 归一化后的向量</text></g></svg></svg>

@@ -1,6 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1324.49" height="789.488" viewBox="-2.244 41.756 1324.49 789.488" role="img" aria-labelledby="title desc"><title id="title">动态时间规整允许局部速度不同</title><desc id="desc">x零一二，y零一一二。最优路径是一一、二二、二三、三四，总代价零，重复的是第二位置。</desc><rect id="edition-paper" x="-2.244" y="41.756" width="1324.49" height="789.488" fill="#ffffff"/><svg id="edition-view" x="22" y="66" width="1276" height="741" viewBox="22 66 1276 741" overflow="hidden"><rect x="22" y="66" width="1276" height="741" fill="#ffffff"/><rect width="1320" height="850" fill="#ffffff"/><g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#2a3645">
-<text x="40" y="108" font-size="28" fill="#628394" text-anchor="start" font-weight="400">本章实验三：x = (0, 1, 2)，y = (0, 1, 1, 2)</text>
+<text x="40" y="108" font-size="28" fill="#577584" text-anchor="start" font-weight="400">本章实验三：x = (0, 1, 2)，y = (0, 1, 1, 2)</text>
 <text x="50" y="180" font-size="28" fill="#2a3645" text-anchor="start" font-weight="700">序列 x</text>
 <text x="50" y="485" font-size="28" fill="#2a3645" text-anchor="start" font-weight="700">序列 y</text>
 <line x1="155" y1="245" x2="120" y2="389" stroke="#2e7bb1" stroke-width="3"/>
@@ -46,22 +45,22 @@
 <line x1="943" y1="398" x2="1045" y2="398" stroke="#bb6f38" stroke-width="5"/>
 <line x1="1045" y1="398" x2="1147" y2="500" stroke="#bb6f38" stroke-width="5"/>
 <circle cx="841" cy="296" r="29" fill="#ffffff" stroke="#bb6f38" stroke-width="3"/>
-<text x="841" y="307" font-size="30" fill="#bb6f38" text-anchor="middle" font-weight="400">0</text>
-<text x="943" y="307" font-size="30" fill="#628394" text-anchor="middle" font-weight="400">1</text>
-<text x="1045" y="307" font-size="30" fill="#628394" text-anchor="middle" font-weight="400">1</text>
-<text x="1147" y="307" font-size="30" fill="#628394" text-anchor="middle" font-weight="400">4</text>
-<text x="841" y="409" font-size="30" fill="#628394" text-anchor="middle" font-weight="400">1</text>
+<text x="841" y="307" font-size="30" fill="#a26030" text-anchor="middle" font-weight="400">0</text>
+<text x="943" y="307" font-size="30" fill="#577584" text-anchor="middle" font-weight="400">1</text>
+<text x="1045" y="307" font-size="30" fill="#577584" text-anchor="middle" font-weight="400">1</text>
+<text x="1147" y="307" font-size="30" fill="#577584" text-anchor="middle" font-weight="400">4</text>
+<text x="841" y="409" font-size="30" fill="#577584" text-anchor="middle" font-weight="400">1</text>
 <circle cx="943" cy="398" r="29" fill="#ffffff" stroke="#bb6f38" stroke-width="3"/>
-<text x="943" y="409" font-size="30" fill="#bb6f38" text-anchor="middle" font-weight="400">0</text>
+<text x="943" y="409" font-size="30" fill="#a26030" text-anchor="middle" font-weight="400">0</text>
 <circle cx="1045" cy="398" r="29" fill="#ffffff" stroke="#bb6f38" stroke-width="3"/>
-<text x="1045" y="409" font-size="30" fill="#bb6f38" text-anchor="middle" font-weight="400">0</text>
-<text x="1147" y="409" font-size="30" fill="#628394" text-anchor="middle" font-weight="400">1</text>
-<text x="841" y="511" font-size="30" fill="#628394" text-anchor="middle" font-weight="400">4</text>
-<text x="943" y="511" font-size="30" fill="#628394" text-anchor="middle" font-weight="400">1</text>
-<text x="1045" y="511" font-size="30" fill="#628394" text-anchor="middle" font-weight="400">1</text>
+<text x="1045" y="409" font-size="30" fill="#a26030" text-anchor="middle" font-weight="400">0</text>
+<text x="1147" y="409" font-size="30" fill="#577584" text-anchor="middle" font-weight="400">1</text>
+<text x="841" y="511" font-size="30" fill="#577584" text-anchor="middle" font-weight="400">4</text>
+<text x="943" y="511" font-size="30" fill="#577584" text-anchor="middle" font-weight="400">1</text>
+<text x="1045" y="511" font-size="30" fill="#577584" text-anchor="middle" font-weight="400">1</text>
 <circle cx="1147" cy="500" r="29" fill="#ffffff" stroke="#bb6f38" stroke-width="3"/>
-<text x="1147" y="511" font-size="30" fill="#bb6f38" text-anchor="middle" font-weight="400">0</text>
-<text x="790" y="616" font-size="28" fill="#bb6f38" text-anchor="start" font-weight="400">路径代价：0 + 0 + 0 + 0 = 0</text>
+<text x="1147" y="511" font-size="30" fill="#a26030" text-anchor="middle" font-weight="400">0</text>
+<text x="790" y="616" font-size="28" fill="#a26030" text-anchor="start" font-weight="400">路径代价：0 + 0 + 0 + 0 = 0</text>
 <line x1="40" y1="665" x2="1280" y2="665" stroke="#b3c0cc" stroke-width="2"/>
 <text x="40" y="724" font-size="30" fill="#2a3645" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">重复一次对应，可表达局部伸缩；不是任意交换顺序。</text>
-<text x="40" y="785" font-size="28" fill="#628394" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">零代价只说明这份代价函数匹配，不能证明物理同步唯一。</text></g></svg></svg>
+<text x="40" y="785" font-size="28" fill="#577584" text-anchor="start" font-weight="400" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">零代价只说明这份代价函数匹配，不能证明物理同步唯一。</text></g></svg></svg>

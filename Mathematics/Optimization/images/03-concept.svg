@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1360" height="675" viewBox="0 0 1360 675" role="img" aria-labelledby="plate-title plate-desc">
   <title id="plate-title">相切最优点与 KKT 方向锥</title>
   <desc id="plate-desc">A 参数坐标中，最小等值圆与 x+y=2 相切于 (1,1)。B 位移坐标中，两个梯度向量抵消；向可行侧的一阶变化非负。</desc>
@@ -47,7 +46,7 @@
     </linearGradient>
   </defs>
   <rect x="0" y="0" width="1360" height="675" fill="white" stroke="none" stroke-width="1.6"/>
-  <text x="320" y="60" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">A  参数空间的相切点</text>
+  <text x="320" y="45" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">A  参数空间的相切点</text>
   <polygon points="174.4,85.4 595.6,85.4 595.6,506.6" stroke="#196f77" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-teal)"/>
   <line x1="170.89" y1="413" x2="610.81" y2="413" stroke="#202a37" stroke-width="1.75" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
   <line x1="268" y1="522.98" x2="268" y2="67.85" stroke="#202a37" stroke-width="1.75" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
@@ -61,7 +60,7 @@
   <text x="429" y="331" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="26" fill="#a84b3b" text-anchor="middle">(1, 1)</text>
   <text x="435" y="171" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="29" fill="#196f77" text-anchor="middle">可行半平面</text>
   <text x="322" y="632" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="29" fill="#202a37" text-anchor="middle">相切等值圆的目标值为 2</text>
-  <text x="1020" y="60" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">B  可行位移的方向锥</text>
+  <text x="1020" y="45" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">B  可行位移的方向锥</text>
   <polygon points="842.56,169.56 1193.44,169.56 1193.44,520.44" stroke="#196f77" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-teal)"/>
   <line x1="810.6" y1="345" x2="1232.88" y2="345" stroke="#202a37" stroke-width="1.7" stroke-linecap="round" marker-end="url(#arrow-ink)"/>
   <line x1="1018" y1="532" x2="1018" y2="151.2" stroke="#202a37" stroke-width="1.7" stroke-linecap="round" marker-end="url(#arrow-ink)"/>

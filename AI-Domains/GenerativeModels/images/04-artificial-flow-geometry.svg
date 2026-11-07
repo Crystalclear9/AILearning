@@ -1,47 +1,46 @@
-<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1336.94" height="1051.94" viewBox="21.528 45.528 1336.94 1051.94" role="img" aria-labelledby="plate-title"><title id="plate-title">实验三人工流的潜空间网格、输出弯曲、条件均值与标准差</title><rect id="edition-paper" x="21.528" y="45.528" width="1336.94" height="1051.94" fill="#ffffff"/><svg id="edition-view" x="46" y="70" width="1288" height="1003" viewBox="46 70 1288 1003" overflow="hidden"><rect x="46" y="70" width="1288" height="1003" fill="#ffffff"/><rect width="1440" height="1080" fill="#ffffff"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#23394a">
 <text x="70" y="112" font-size="28" fill="#23394a" text-anchor="start" font-weight="700">① 潜空间：Z0、Z1 独立标准正态</text>
 <text x="800" y="112" font-size="28" fill="#23394a" text-anchor="start" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">② 数据空间：横向平移缩放，纵向弯曲</text>
 <line x1="100.0" y1="175" x2="100.0" y2="605" stroke="#e0e8ee" stroke-width="2"/>
-<text x="100.0" y="640" font-size="24" fill="#688091" text-anchor="middle">-2</text>
+<text x="100.0" y="640" font-size="24" fill="#5e7382" text-anchor="middle">-2</text>
 <line x1="221.25" y1="175" x2="221.25" y2="605" stroke="#e0e8ee" stroke-width="2"/>
-<text x="221.25" y="640" font-size="24" fill="#688091" text-anchor="middle">-1</text>
+<text x="221.25" y="640" font-size="24" fill="#5e7382" text-anchor="middle">-1</text>
 <line x1="342.5" y1="175" x2="342.5" y2="605" stroke="#e0e8ee" stroke-width="2"/>
-<text x="342.5" y="640" font-size="24" fill="#688091" text-anchor="middle">0</text>
+<text x="342.5" y="640" font-size="24" fill="#5e7382" text-anchor="middle">0</text>
 <line x1="463.75" y1="175" x2="463.75" y2="605" stroke="#e0e8ee" stroke-width="2"/>
-<text x="463.75" y="640" font-size="24" fill="#688091" text-anchor="middle">1</text>
+<text x="463.75" y="640" font-size="24" fill="#5e7382" text-anchor="middle">1</text>
 <line x1="585.0" y1="175" x2="585.0" y2="605" stroke="#e0e8ee" stroke-width="2"/>
-<text x="585.0" y="640" font-size="24" fill="#688091" text-anchor="middle">2</text>
+<text x="585.0" y="640" font-size="24" fill="#5e7382" text-anchor="middle">2</text>
 <line x1="100" y1="605.0" x2="585" y2="605.0" stroke="#e0e8ee" stroke-width="2"/>
-<text x="87" y="613.0" font-size="24" fill="#688091" text-anchor="end">-2</text>
+<text x="87" y="613.0" font-size="24" fill="#5e7382" text-anchor="end">-2</text>
 <line x1="100" y1="497.5" x2="585" y2="497.5" stroke="#e0e8ee" stroke-width="2"/>
-<text x="87" y="505.5" font-size="24" fill="#688091" text-anchor="end">-1</text>
+<text x="87" y="505.5" font-size="24" fill="#5e7382" text-anchor="end">-1</text>
 <line x1="100" y1="390.0" x2="585" y2="390.0" stroke="#e0e8ee" stroke-width="2"/>
-<text x="87" y="398.0" font-size="24" fill="#688091" text-anchor="end">0</text>
+<text x="87" y="398.0" font-size="24" fill="#5e7382" text-anchor="end">0</text>
 <line x1="100" y1="282.5" x2="585" y2="282.5" stroke="#e0e8ee" stroke-width="2"/>
-<text x="87" y="290.5" font-size="24" fill="#688091" text-anchor="end">1</text>
+<text x="87" y="290.5" font-size="24" fill="#5e7382" text-anchor="end">1</text>
 <line x1="100" y1="175.0" x2="585" y2="175.0" stroke="#e0e8ee" stroke-width="2"/>
-<text x="87" y="183.0" font-size="24" fill="#688091" text-anchor="end">2</text>
+<text x="87" y="183.0" font-size="24" fill="#5e7382" text-anchor="end">2</text>
 <line x1="100" y1="605" x2="585" y2="605" stroke="#23394a" stroke-width="2"/>
 <line x1="100" y1="175" x2="100" y2="605" stroke="#23394a" stroke-width="2"/>
 <text x="585" y="677" font-size="26" fill="#23394a" text-anchor="end">z0</text>
 <text x="100" y="157" font-size="26" fill="#23394a" text-anchor="start">z1</text>
 <line x1="815.0" y1="175" x2="815.0" y2="605" stroke="#e0e8ee" stroke-width="2"/>
-<text x="815.0" y="640" font-size="24" fill="#688091" text-anchor="middle">-1.8</text>
+<text x="815.0" y="640" font-size="24" fill="#5e7382" text-anchor="middle">-1.8</text>
 <line x1="1057.5" y1="175" x2="1057.5" y2="605" stroke="#e0e8ee" stroke-width="2"/>
-<text x="1057.5" y="640" font-size="24" fill="#688091" text-anchor="middle">0.8</text>
+<text x="1057.5" y="640" font-size="24" fill="#5e7382" text-anchor="middle">0.8</text>
 <line x1="1300.0" y1="175" x2="1300.0" y2="605" stroke="#e0e8ee" stroke-width="2"/>
-<text x="1300.0" y="640" font-size="24" fill="#688091" text-anchor="middle">3.4</text>
+<text x="1300.0" y="640" font-size="24" fill="#5e7382" text-anchor="middle">3.4</text>
 <line x1="815" y1="605.0" x2="1300" y2="605.0" stroke="#e0e8ee" stroke-width="2"/>
-<text x="802" y="613.0" font-size="24" fill="#688091" text-anchor="end">-3</text>
+<text x="802" y="613.0" font-size="24" fill="#5e7382" text-anchor="end">-3</text>
 <line x1="815" y1="497.5" x2="1300" y2="497.5" stroke="#e0e8ee" stroke-width="2"/>
-<text x="802" y="505.5" font-size="24" fill="#688091" text-anchor="end">-1</text>
+<text x="802" y="505.5" font-size="24" fill="#5e7382" text-anchor="end">-1</text>
 <line x1="815" y1="390.0" x2="1300" y2="390.0" stroke="#e0e8ee" stroke-width="2"/>
-<text x="802" y="398.0" font-size="24" fill="#688091" text-anchor="end">1</text>
+<text x="802" y="398.0" font-size="24" fill="#5e7382" text-anchor="end">1</text>
 <line x1="815" y1="282.5" x2="1300" y2="282.5" stroke="#e0e8ee" stroke-width="2"/>
-<text x="802" y="290.5" font-size="24" fill="#688091" text-anchor="end">3</text>
+<text x="802" y="290.5" font-size="24" fill="#5e7382" text-anchor="end">3</text>
 <line x1="815" y1="175.0" x2="1300" y2="175.0" stroke="#e0e8ee" stroke-width="2"/>
-<text x="802" y="183.0" font-size="24" fill="#688091" text-anchor="end">5</text>
+<text x="802" y="183.0" font-size="24" fill="#5e7382" text-anchor="end">5</text>
 <line x1="815" y1="605" x2="1300" y2="605" stroke="#23394a" stroke-width="2"/>
 <line x1="815" y1="175" x2="815" y2="605" stroke="#23394a" stroke-width="2"/>
 <text x="1300" y="677" font-size="26" fill="#23394a" text-anchor="end">x0</text>
@@ -81,7 +80,7 @@
 <polyline points="733.026,365.062 745.000,360.000 733.026,354.938" fill="none" stroke="#23394a" stroke-width="3" opacity="1"/>
 <text x="694" y="315" font-size="30" fill="#23394a" text-anchor="middle">g</text>
 <text x="80" y="710" font-size="28" fill="#23394a" text-anchor="start">蓝线：条件均值；浅蓝带：条件均值 ±1 个条件标准差。</text>
-<text x="80" y="755" font-size="27" fill="#688091" text-anchor="start">相同 z1 区间的条件概率相同，输出带宽却随 z0 改变。</text>
+<text x="80" y="755" font-size="27" fill="#5e7382" text-anchor="start">相同 z1 区间的条件概率相同，输出带宽却随 z0 改变。</text>
 <text x="110" y="820" font-size="26" fill="#23394a" text-anchor="start" font-weight="700">z0</text>
 <text x="300" y="820" font-size="26" fill="#23394a" text-anchor="start" font-weight="700">x0</text>
 <text x="500" y="820" font-size="26" fill="#23394a" text-anchor="start" font-weight="700">E[X1 | Z0]</text>
@@ -102,5 +101,5 @@
 <text x="500" y="989" font-size="27" fill="#23394a" text-anchor="start">0.0</text>
 <text x="790" y="989" font-size="27" fill="#23394a" text-anchor="start">1.305463</text>
 <text x="1100" y="989" font-size="27" fill="#23394a" text-anchor="start">0.528922</text>
-<text x="80" y="1050" font-size="26" fill="#688091" text-anchor="start">网格线是坐标映射，不是等密度线；图只显示潜坐标 [−2,2] 内的截面。</text>
+<text x="80" y="1050" font-size="26" fill="#5e7382" text-anchor="start">网格线是坐标映射，不是等密度线；图只显示潜坐标 [−2,2] 内的截面。</text>
 </g></svg></svg>
