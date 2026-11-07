@@ -185,7 +185,7 @@
     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="68.5625" y="22.388125" transform="rotate(-0 68.5625 22.388125)">A 每组偏差相消</text>
    </g>
   </g>
-  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A · 残差（原单位）</text><g transform="translate(558.991800 -326.562682) scale(0.64073628)"><g transform="matrix(1.813034 0 0 1.813034 -863.836448 731.382565)"><g id="axes_2">
+  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">残差（原单位）</text><g transform="translate(558.991800 -326.562682) scale(0.64073628)"><g transform="matrix(1.813034 0 0 1.813034 -863.836448 731.382565)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 571.214752 259.521875 L 963.8925 259.521875 L 963.8925 40.388125 L 571.214752 40.388125 z " style="fill: #ffffff"/>
    </g>
@@ -297,7 +297,7 @@
     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="571.214752" y="22.388125" transform="rotate(-0 571.214752 22.388125)">B 幅度没有相消</text>
    </g>
   </g>
-  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B · MAE＝RMSE（原单位）</text><line x1="65" x2="1135" y1="521.930" y2="521.930" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(-2.631069 -269.965706) scale(0.64073628)"><g transform="matrix(1.813034 0 0 1.813034 47.489346 721.337658)"><g id="axes_3">
+  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">MAE＝RMSE（原单位）</text><line x1="65" x2="1135" y1="521.930" y2="521.930" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(-2.631069 -269.965706) scale(0.64073628)"><g transform="matrix(1.813034 0 0 1.813034 47.489346 721.337658)"><g id="axes_3">
    <g id="patch_11">
     <path d="M 68.5625 607.095625 L 461.240248 607.095625 L 461.240248 387.961875 L 68.5625 387.961875 z " style="fill: #ffffff"/>
    </g>
@@ -464,7 +464,7 @@
     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="68.5625" y="369.961875" transform="rotate(-0 68.5625 369.961875)">C 事先给定参考尺度</text>
    </g>
   </g>
-  </g></g><text x="62.000" y="569.930" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">C · MAE ÷ 参考尺度</text><g transform="translate(564.784056 -684.554118) scale(0.64073628)"><g transform="matrix(1.813034 0 0 1.813034 -863.836448 1368.382743)"><g id="axes_4">
+  </g></g><text x="62.000" y="569.930" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">MAE ÷ 参考尺度</text><g transform="translate(564.784056 -684.554118) scale(0.64073628)"><g transform="matrix(1.813034 0 0 1.813034 -863.836448 1368.382743)"><g id="axes_4">
    <g id="patch_17">
     <path d="M 571.214752 607.095625 L 963.8925 607.095625 L 963.8925 387.961875 L 571.214752 387.961875 z " style="fill: #ffffff"/>
    </g>
@@ -600,4 +600,4 @@
     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="571.214752" y="369.961875" transform="rotate(-0 571.214752 369.961875)">D 谁主导总平方误差</text>
    </g>
   </g>
- </g></g><text x="626.000" y="569.930" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">D · 平方误差占比（%）</text></svg>
+ </g></g><text x="626.000" y="569.930" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">平方误差占比（%）</text></svg>

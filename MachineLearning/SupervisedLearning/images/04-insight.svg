@@ -200,7 +200,7 @@
     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="56.2175" y="41.551493" transform="rotate(-0 56.2175 41.551493)">A  固定第一列，保留第二列</text>
    </g>
   </g>
-  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A</text><g transform="translate(559.590902 -530.272463) scale(0.63531138)"><g transform="matrix(2.590329 0 0 2.590329 -842.69574 1056.91272)"><g id="axes_2">
+  </g></g><g transform="translate(559.590902 -530.272463) scale(0.63531138)"><g transform="matrix(2.590329 0 0 2.590329 -842.69574 1056.91272)"><g id="axes_2">
    <g id="patch_10">
     <path d="M 413.924868 331.220125 L 669.430132 331.220125 L 669.430132 37.388125 L 413.924868 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -398,7 +398,7 @@
     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="413.924868" y="22.388125" transform="rotate(-0 413.924868 22.388125)">B  逐行预测，再做等权平均</text>
    </g>
   </g>
-  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B · 固定第一列为 1 的模型输出</text><line x1="65" x2="1135" y1="784.007" y2="784.007" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(256.936929 -477.149528) scale(0.63531138)"><g transform="matrix(2.590329 0 0 2.590329 -1769.275635 2100.307617)"><g id="axes_3">
+  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">固定第一列为 1 的模型输出</text><line x1="65" x2="1135" y1="784.007" y2="784.007" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(256.936929 -477.149528) scale(0.63531138)"><g transform="matrix(2.590329 0 0 2.590329 -1769.275635 2100.307617)"><g id="axes_3">
    <g id="patch_18">
     <path d="M 771.632237 331.220125 L 1027.1375 331.220125 L 1027.1375 37.388125 L 771.632237 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -555,4 +555,4 @@
     </g>
    </g>
   </g>
- </g></g><text x="344.000" y="832.007" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">C · 相应规则下的平均模型输出</text></svg>
+ </g></g><text x="344.000" y="832.007" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">相应规则下的平均模型输出</text></svg>

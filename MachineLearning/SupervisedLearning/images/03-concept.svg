@@ -183,7 +183,7 @@
     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="69.4525" y="53.892055" transform="rotate(-0 69.4525 53.892055)">A  垂线距离，不是横向间距</text>
    </g>
   </g>
-  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A</text><g transform="translate(559.382981 -491.613683) scale(0.58170641)"><g transform="matrix(2.623167 0 0 2.623167 -909.202148 1088.659302)"><g id="axes_2">
+  </g></g><g transform="translate(559.382981 -491.613683) scale(0.58170641)"><g transform="matrix(2.623167 0 0 2.623167 -909.202148 1088.659302)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 429.215658 347.852125 L 686.189342 347.852125 L 686.189342 37.388125 L 429.215658 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -307,7 +307,7 @@
     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="429.215658" y="22.388125" transform="rotate(-0 429.215658 22.388125)">B  投影到同一条法线</text>
    </g>
   </g>
-  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B</text><line x1="65" x2="1135" y1="781.543" y2="781.543" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(299.979367 -428.302442) scale(0.58170641)"><g transform="matrix(2.623167 0 0 2.623167 -1852.920898 2206.464111)"><g id="axes_3">
+  </g></g><line x1="65" x2="1135" y1="781.543" y2="781.543" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(299.979367 -428.302442) scale(0.58170641)"><g transform="matrix(2.623167 0 0 2.623167 -1852.920898 2206.464111)"><g id="axes_3">
    <g id="patch_10">
     <path d="M 788.978816 347.852125 L 1045.9525 347.852125 L 1045.9525 37.388125 L 788.978816 37.388125 z " style="fill: #ffffff"/>
    </g>
@@ -478,4 +478,4 @@
     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="788.978816" y="22.388125" transform="rotate(-0 788.978816 22.388125)">C  正类查询的距离进入损失</text>
    </g>
   </g>
- </g></g><text x="344.000" y="829.543" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">C · hinge 损失</text></svg>
+ </g></g><text x="344.000" y="829.543" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">hinge 损失</text></svg>

@@ -197,7 +197,7 @@
     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233a4b" x="68.113594" y="26.385" transform="rotate(-0 68.113594 26.385)">A  错误分散：每个对象只错一票</text>
    </g>
   </g>
-  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A</text><g transform="translate(585.373596 -299.502861) scale(0.62339120)"><g transform="matrix(1.590245 0 0 1.590245 -909.763783 711.077361)"><g id="axes_2">
+  </g></g><g transform="translate(585.373596 -299.502861) scale(0.62339120)"><g transform="matrix(1.590245 0 0 1.590245 -909.763783 711.077361)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 671.330835 312.497 L 1128.313594 312.497 L 1128.313594 46.385 L 671.330835 46.385 z " style="fill: #ffffff"/>
    </g>
@@ -379,7 +379,7 @@
     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233a4b" x="671.330835" y="26.385" transform="rotate(-0 671.330835 26.385)">B  错误重叠：同两个对象全错</text>
    </g>
   </g>
-  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B</text><line x1="65" x2="1135" y1="501.087" y2="501.087" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(9.388900 -240.270071) scale(0.62339120)"><g transform="matrix(1.590245 0 0 1.590245 49.499503 676.013238)"><g id="axes_3">
+  </g></g><line x1="65" x2="1135" y1="501.087" y2="501.087" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(9.388900 -240.270071) scale(0.62339120)"><g transform="matrix(1.590245 0 0 1.590245 49.499503 676.013238)"><g id="axes_3">
    <g id="patch_8">
     <path d="M 68.113594 711.665 L 525.096352 711.665 L 525.096352 445.553 L 68.113594 445.553 z " style="fill: #ffffff"/>
    </g>
@@ -595,7 +595,7 @@
     </g>
    </g>
   </g>
-  </g></g><text x="62.000" y="549.087" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">C · 六个等概率对象上的错误率</text><g transform="translate(567.865654 -617.278367) scale(0.62339120)"><g transform="matrix(1.590245 0 0 1.590245 -909.763783 1280.789154)"><g id="axes_4">
+  </g></g><text x="62.000" y="549.087" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">六个等概率对象上的错误率</text><g transform="translate(567.865654 -617.278367) scale(0.62339120)"><g transform="matrix(1.590245 0 0 1.590245 -909.763783 1280.789154)"><g id="axes_4">
    <g id="patch_19">
     <path d="M 671.330835 711.665 L 1128.313594 711.665 L 1128.313594 445.553 L 671.330835 445.553 z " style="fill: #ffffff"/>
    </g>
@@ -801,4 +801,4 @@
     </g>
    </g>
   </g>
- </g></g><text x="626.000" y="549.087" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">D · 对对象与抽票共同平均的错误率</text></svg>
+ </g></g><text x="626.000" y="549.087" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">对对象与抽票共同平均的错误率</text></svg>

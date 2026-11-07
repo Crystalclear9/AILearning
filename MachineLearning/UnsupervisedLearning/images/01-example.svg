@@ -110,7 +110,7 @@
     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233a4b" x="52.397031" y="26.385" transform="rotate(-0 52.397031 26.385)">A  固定四个点，先合并 A、B</text>
    </g>
   </g>
-  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A</text><g transform="translate(552.240082 -363.358008) scale(0.64438840)"><g transform="matrix(1.64397 0 0 1.64397 -930.270935 787.519592)"><g id="axes_2">
+  </g></g><g transform="translate(552.240082 -363.358008) scale(0.64438840)"><g transform="matrix(1.64397 0 0 1.64397 -930.270935 787.519592)"><g id="axes_2">
    <g id="patch_6">
     <path d="M 659.520108 314.643065 L 1112.597031 314.643065 L 1112.597031 46.385 L 659.520108 46.385 z " style="fill: #ffffff"/>
    </g>
@@ -234,7 +234,7 @@
     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233a4b" x="659.520108" y="26.385" transform="rotate(-0 659.520108 26.385)">B  单链接：最近点维持链条</text>
    </g>
   </g>
-  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B · 合并距离</text><line x1="65" x2="1135" y1="558.610" y2="558.610" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(-11.759918 -275.258663) scale(0.64438840)"><g transform="matrix(1.64397 0 0 1.64397 67.821419 759.476929)"><g id="axes_3">
+  </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">合并距离</text><line x1="65" x2="1135" y1="558.610" y2="558.610" stroke="#dbe8eb" stroke-width="1.4"/><g transform="translate(-11.759918 -275.258663) scale(0.64438840)"><g transform="matrix(1.64397 0 0 1.64397 67.821419 759.476929)"><g id="axes_3">
    <g id="patch_9">
     <path d="M 52.397031 711.665 L 505.473954 711.665 L 505.473954 443.406935 L 52.397031 443.406935 z " style="fill: #ffffff"/>
    </g>
@@ -358,7 +358,7 @@
     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233a4b" x="52.397031" y="423.406935" transform="rotate(-0 52.397031 423.406935)">C  全链接：最远点限制直径</text>
    </g>
   </g>
-  </g></g><text x="62.000" y="606.610" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">C · 合并距离</text><g transform="translate(557.817264 -677.679218) scale(0.64438840)"><g transform="matrix(1.64397 0 0 1.64397 -930.270935 1383.972168)"><g id="axes_4">
+  </g></g><text x="62.000" y="606.610" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">合并距离</text><g transform="translate(557.817264 -677.679218) scale(0.64438840)"><g transform="matrix(1.64397 0 0 1.64397 -930.270935 1383.972168)"><g id="axes_4">
    <g id="patch_12">
     <path d="M 659.520108 711.665 L 1112.597031 711.665 L 1112.597031 443.406935 L 659.520108 443.406935 z " style="fill: #ffffff"/>
    </g>
@@ -528,4 +528,4 @@
     <text style="font-size: 24px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233a4b" x="659.520108" y="423.406935" transform="rotate(-0 659.520108 423.406935)">D  Ward：每一步增加多少 SSE</text>
    </g>
   </g>
- </g></g><text x="626.000" y="606.610" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">D · 组内平方误差增量</text></svg>
+ </g></g><text x="626.000" y="606.610" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#526976" text-anchor="start">组内平方误差增量</text></svg>
