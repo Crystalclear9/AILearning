@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1193.7" height="694.7" viewBox="3.15 36.15 1193.7 694.7" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1193.7" height="601.063059" viewBox="3.15 130.241647 1193.7 601.063059" role="img" aria-labelledby="title desc">
 <defs><linearGradient id="book-wash-eef4f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0f6f9"/><stop offset="1" stop-color="#ffffff" stop-opacity=".64"/></linearGradient></defs><title id="title">输入协方差怎样改变最佳秩一更新</title><desc id="desc">目标矩阵 diag(3,1)，输入二阶矩 diag(0.01,100)。矩阵截断保留第一方向，预测风险最优保留第二方向。</desc>
 <rect id="edition-paper" x="3.15" y="36.15" width="1193.7" height="694.7" fill="#ffffff"/><svg id="edition-view" x="25" y="58" width="1150" height="651" viewBox="25 58 1150 651" overflow="hidden"><rect x="25" y="58" width="1150" height="651" fill="#ffffff"/><rect width="1200" height="760" fill="#ffffff"/>
 <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#233a4b">
-<text x="44" y="98" font-size="26" fill="#577487" text-anchor="start" font-weight="400">目标更新 M = diag(3, 1)；输入零均值，两个坐标方差为 0.01 和 100</text>
 <rect x="44" y="132" width="348" height="480" rx="14" fill="#ffffff" stroke="#e0e9ef"/>
 <text x="66" y="177" font-size="28" fill="#233a4b" text-anchor="start" font-weight="700" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">① 只看矩阵系数</text>
 <rect x="426" y="132" width="348" height="480" rx="14" fill="#ffffff" stroke="#e0e9ef"/>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1434.52" height="1087.52" viewBox="2.742 43.742 1434.52 1087.52" role="img" aria-labelledby="plate-title"><title id="plate-title">实验四的双峰点误差与条件二元概率、NLL和Brier对照</title><rect id="edition-paper" x="2.742" y="43.742" width="1434.52" height="1087.52" fill="#ffffff"/><svg id="edition-view" x="29" y="70" width="1382" height="1035" viewBox="29 70 1382 1035" overflow="hidden"><rect x="29" y="70" width="1382" height="1035" fill="#ffffff"/><rect width="1440" height="1120" fill="#ffffff"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#23394a">
+<svg xmlns="http://www.w3.org/2000/svg" width="1434.52" height="968.722918" viewBox="2.742 43.742000 1434.52 968.722918" role="img" aria-labelledby="plate-title"><title id="plate-title">实验四的双峰点误差与条件二元概率、NLL和Brier对照</title><rect id="edition-paper" x="2.742" y="43.742" width="1434.52" height="1087.52" fill="#ffffff"/><svg id="edition-view" x="29" y="70" width="1382" height="1035" viewBox="29 70 1382 1035" overflow="hidden"><rect x="29" y="70" width="1382" height="1035" fill="#ffffff"/><rect width="1440" height="1120" fill="#ffffff"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#23394a">
 <text x="50" y="112" font-size="28" fill="#23394a" text-anchor="start" font-weight="700">① 同一条件下，真实结果 Y 等概率取 −1 或 +1</text>
 <rect x="48" y="145" width="1344" height="250" fill="#ffffff" stroke="#e0e8ee" stroke-width="2" rx="12"/>
 <text x="80" y="195" font-size="28" fill="#2c77ab" text-anchor="start" font-weight="700">点预测 ŷ=0</text>
@@ -47,5 +47,4 @@
 <text x="795" y="906" font-size="25" fill="#23394a" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">独立采样不匹配率</text>
 <text x="1080" y="906" font-size="25" fill="#2c77ab" text-anchor="start">0.32</text>
 <text x="1240" y="906" font-size="25" fill="#c36b31" text-anchor="start">0.50</text>
-<text x="50" y="1080" font-size="26" fill="#5e7382" text-anchor="start">上图为精确分布和期望；有限随机实验围绕这些值波动。二元 Brier 使用 (Y−q)²。</text>
 </g></svg></svg>

@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="770.84" viewBox="-18.24 51.4 996.48 770.84" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="996.48" height="695.191341" viewBox="-18.24 127.601412 996.48 695.191341" role="img" aria-labelledby="title desc">
 <defs><linearGradient id="textbook-plane-n" x1="0" x2="0.92" y1="0" y2="1"><stop offset="0" stop-color="#f9fbfc"/><stop offset="1" stop-color="#e8eef1"/></linearGradient><linearGradient id="textbook-plane-t" x1="0" x2="0.92" y1="0" y2="1"><stop offset="0" stop-color="#f1faf9"/><stop offset="1" stop-color="#cbe7e8"/></linearGradient></defs><title id="title">先给路径算概率，再给字符串合并</title><desc id="desc">三条终止路径的概率为 0.4、0.3、0.3。前两条都解码成 ab，因此字符串 ab 的概率为 0.7。</desc>
 <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#537184"/></marker></defs>
 <rect id="edition-paper" x="-18.24" y="51.4" width="996.48" height="770.84" fill="#ffffff"/><svg id="edition-view" x="0" y="69.64" width="960" height="734.36" viewBox="0 69.64 960 734.36" overflow="hidden"><g font-family="Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif">
 <rect x="0" y="0" width="960" height="804" rx="0" fill="#ffffff" stroke="none" stroke-width="1.8"/>
-<text x="46" y="106" font-size="26" fill="#476072" font-weight="400" text-anchor="start">同一个字符串可以由不同的 token 序列产生</text>
 <rect x="44" y="144" width="42" height="41" rx="10" fill="#ecf5f7" stroke="none" stroke-width="1.8"/>
 <text x="65" y="174" font-size="25" fill="#1c687e" font-weight="700" text-anchor="middle">A</text>
 <text x="101" y="174" font-size="31" fill="#283341" font-weight="700" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">模型先生成三条已终止的路径</text>
