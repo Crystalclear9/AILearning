@@ -162,13 +162,13 @@
 
 定义第 $`\ell`$ 层节点状态 $`h_i^{(\ell)}`$，一轮可写成
 
-$$
+```math
 \begin{aligned}
 m_{ij}^{(\ell)} &=\phi_\ell(h_i^{(\ell)},h_j^{(\ell)},z_{ij}),\\[6pt]
 m_i^{(\ell)} &=\underset{j\in\mathcal N(i)}{\mathrm{AGG}}\,m_{ij}^{(\ell)},\\[6pt]
 h_i^{(\ell+1)} &=\psi_\ell(h_i^{(\ell)},m_i^{(\ell)}).
 \end{aligned}
-$$
+```
 
 消息函数决定一条边传什么，聚合决定怎样把可变数量邻居压成固定维数，更新决定如何结合中心状态。参数在所有同类型节点和边之间共享，才允许同一个规则迁移到不同位置。边属性可以进入消息函数，例如距离用于衰减强度，关系类型用于选择参数，时间差用于区分近期和远期事件。把边特征只拼到最后的图级输出，通常无法替代逐边使用它。
 
@@ -198,37 +198,17 @@ $$
 
 这里固定一个中心节点，只看能通过一条边到达它的消息。一次聚合的边界就由这组入边决定。
 
-下图 (a) 确定一层消息传递能使用哪些直接入邻居。图 (b) 换一个小例子，对照三种聚合定义如何分配中心和邻居的贡献。
+下图左侧确定一层消息传递能使用哪些直接入邻居，右侧分开邻域聚合与中心更新。随后再比较三种聚合定义。
 
-![消息范围与聚合定义。图 (a) 图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边。图 (b) 消息聚合怎样更新一个节点。](images/01-message-neighborhood-and-aggregation-pair.svg)
+![A、B、D 直接向 C 发送消息，E 先到 D，中心更新使用聚合后的消息和旧状态](images/01-img-message-neighborhood.webp)
 
-<details>
-<summary>放大图 (a)</summary>
+[打开原图放大](images/01-img-message-neighborhood.webp)
 
-[打开图 (a) 单独查看](images/01-message-neighborhood-and-aggregation-pair.svg#a)
+图左侧的 A、B、D 是 C 的直接入邻居。先沿各边构造同维消息，再逐分量相加，最后更新 C 的表示；求和不依赖邻居顺序。E 的消息先到 D，但没有到 C 的直接边，至少要再经过一层才能经这条路径影响 C。图只突出邻居消息；是否加入自环、使用归一化或保留中心的旧特征，取决于具体层的定义。
 
-![图 (a) · 图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，上左区域](images/01-message-neighborhood-and-aggregation-pair.svg#a-textbook-detail-1-1)
+用相同的三个旧输入比较三种算子。两个邻居的值为一和五，中心的值为二。第一种算子的邻域不含自身，两项贡献为 $`\frac12`$ 与 $`\frac52`$，均值为三；中心特征二单独保留，拼接得到 $`[2,3]`$。这是一种保留来源角色的更新输入，并不是已经把两个坐标相加成五。
 
-![图 (a) · 图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，上右区域](images/01-message-neighborhood-and-aggregation-pair.svg#a-textbook-detail-1-2)
-
-![图 (a) · 图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，下左区域](images/01-message-neighborhood-and-aggregation-pair.svg#a-textbook-detail-2-1)
-
-![图 (a) · 图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，下右区域](images/01-message-neighborhood-and-aggregation-pair.svg#a-textbook-detail-2-2)
-
-</details>
-
-<details>
-<summary>放大图 (b)</summary>
-
-[打开图 (b) 单独查看](images/01-message-neighborhood-and-aggregation-pair.svg#b)
-
-</details>
-
-图 (a) 中，A、B、D 是 C 的直接入邻居。先沿各边构造同维消息，再逐分量相加，最后更新 C 的表示；求和不依赖邻居顺序。E 与 D 相连，但没有到 C 的直接边，至少要再经过一层才能经这条路径影响 C。图只突出邻居消息；是否加入自环、使用归一化或保留中心的旧特征，取决于具体层的定义。
-
-图 (b) 的三种算子使用完全相同的旧输入，蓝、绿两段分别表示邻居 1 与 5 的贡献，橙段表示中心 2 的贡献，三排使用同一长度刻度。第一排邻域不含自身，两项贡献为 $`\frac12`$ 与 $`\frac52`$，均值为三；中心特征二单独保留，拼接得到 $`[2,3]`$。这是一种保留来源角色的更新输入，并不是已经把两个坐标相加成五。
-
-第二排改为包含自身的普通均值，三项贡献为 $`\frac13,\frac23,\frac53`$，相加为 $`\frac83`$。第三排使用三节点无向链加单位自环的对称 GCN 归一化，度数为 $`(2,3,2)`$，因此两端输入各乘 $`\frac1{\sqrt6}`$，中心输入乘 $`\frac13`$，贡献为约 $`0.408248,0.666667,2.041241`$，总输出约为 $`3.116156`$。图上显示到有限小数位，所有计算使用完整精度。它们没有训练参数，数值差异完全来自聚合定义。
+第二种改为包含自身的普通均值，三项贡献为 $`\frac13,\frac23,\frac53`$，相加为 $`\frac83`$。第三种使用三节点无向链加单位自环的对称 GCN 归一化，度数为 $`(2,3,2)`$，因此两端输入各乘 $`\frac1{\sqrt6}`$，中心输入乘 $`\frac13`$，贡献为约 $`0.408248,0.666667,2.041241`$，总输出约为 $`3.116156`$。这里的近似值只在最终显示时舍入。它们没有训练参数，数值差异完全来自聚合定义。
 
 因此“均值聚合”不能省略含不含中心的约定，而“归一化”也不能省略接收者与发送者两端的度。三种结果不是谁更接近同一个正确答案，而是三个不同预测函数；应根据任务是否需要区分中心与邻域来选择。对邻居收集、聚合、更新的分工，可结合 [Distill 的逐步消息传递说明](https://distill.pub/2021/gnn-intro/#passing-messages-between-parts-of-the-graph)阅读；对称度系数则以本章第 4 节及 [Kipf 作者的公式](https://tkipf.github.io/graph-convolutional-networks/)为准。
 
@@ -244,20 +224,20 @@ $$
 
 对无向非负图，令 $`\widetilde A=A+I`$、$`\widetilde D=\mathrm{diag}(\widetilde d_1,\ldots,\widetilde d_n)`$，定义
 
-$$
+```math
 \begin{aligned}
 S &=\widetilde D^{-\frac{1}{2}}\widetilde A\widetilde D^{-\frac{1}{2}},\\[6pt]
 H' &=\sigma(SHW).
 \end{aligned}
-$$
+```
 
 输入 $`H`$ 形状为 $`n\times d`$，参数 $`W`$ 为 $`d\times q`$，输出为 $`n\times q`$。每条从 $`j`$ 到 $`i`$ 的消息权重是 $`\frac{\widetilde A_{ij}}{\sqrt{\widetilde d_i\widetilde d_j}}`$。接收端和发送端的度数都进入分母，因此一个高连接节点向每个邻居发送的单位特征影响受到缩放。这与只除以接收端度数的随机游走均值不同。
 
 在三节点链上，加入自环后的度为 $`(2,3,2)`$，所以
 
-$$
+```math
 S=\begin{pmatrix}\frac{1}{2}&\frac{1}{\sqrt6}&0\\\frac{1}{\sqrt6}&\frac{1}{3}&\frac{1}{\sqrt6}\\0&\frac{1}{\sqrt6}&\frac{1}{2}\end{pmatrix}.
-$$
+```
 
 取 $`W=1`$ 且暂不激活，有 $`Sx=(\frac{1}{2}+\frac{2}{\sqrt6},\frac{\;2}{3}+\frac{6}{\sqrt6},\frac{\;5}{2}+\frac{2}{\sqrt6})^T`$，约为 $`(1.316497,3.116156,3.316497)^T`$。它不等于前面的邻居均值。中间节点接收两个端点时，端点较低的度数使这两条边具有比自环更大的权重。这里的差异来自算子定义，与训练好坏无关。
 
@@ -273,25 +253,13 @@ $$
 
 #### 图解：两种度归一化保留不同方向
 
-![同一自环链图上行归一化与对称度归一化的不同几何](images/01-normalization-geometry.svg)
+![带自环的三节点链上，行归一化保持全一输入，对称度归一化在端点和中点给出不同数值](images/01-img-graph-normalization-comparison.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![同一自环链图上行归一化与对称度归一化的不同几何，上左区域](images/01-normalization-geometry.svg#textbook-detail-1-1)
-
-![同一自环链图上行归一化与对称度归一化的不同几何，上右区域](images/01-normalization-geometry.svg#textbook-detail-1-2)
-
-![同一自环链图上行归一化与对称度归一化的不同几何，下左区域](images/01-normalization-geometry.svg#textbook-detail-2-1)
-
-![同一自环链图上行归一化与对称度归一化的不同几何，下右区域](images/01-normalization-geometry.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/01-img-graph-normalization-comparison.webp)
 
 **沿图上每条消息读一次。** 三节点无向链加单位自环后，度为 $`(2,3,2)`$。两端自环的 S 系数为 $`\frac12`$，中间自环为 $`\frac13`$，相邻节点之间的两个方向都是 $`\frac1{\sqrt6}`$。这些是对称归一化后的消息权重，虽然原图每条边权都是一，传播系数已经随端点度数改变。
 
-**全一输入是最直接的反例。** 若输入 $`h=\mathbf1`$，行均值传播 P 对每行有效邻居求平均，仍输出 $`(1,1,1)^\top`$。S 的两端输出则为 $`\frac12+\frac1{\sqrt6}\approx0.90825`$，中间为 $`\frac13+\frac2{\sqrt6}\approx1.14983`$。图右不是训练误差，也不是小数舍入制造的不守恒，而是两个算子对“常量”的坐标解释不同；不能为了让 GCN 输出全一而额外做一次未经说明的行归一化。
+**全一输入是最直接的反例。** 若输入 $`h=\mathbf1`$，行均值传播 P 对每行有效邻居求平均，仍输出 $`(1,1,1)^\top`$。S 的两端输出则为 $`\frac12+\frac1{\sqrt6}\approx0.90825`$，中间为 $`\frac13+\frac2{\sqrt6}\approx1.14983`$。这两个结果来自不同的归一化算子。对称归一化保留的方向可由下面的度数向量推出。
 
 **换到正确的保留方向。** 对 $`h=(\sqrt2,\sqrt3,\sqrt2)^\top`$，端点输出为 $`\frac{\sqrt2}{2}+\frac{\sqrt3}{\sqrt6}=\sqrt2`$，中间也返回 $`\sqrt3`$。这说明 S 保持平方根度方向，而 P 保持常数方向。二者相似变换并不表示在相同数值输入上输出相同；当图是正则图时度数相等，两个方向才重合。传播公式依据 [Kipf 与 Welling 第 2 节](https://arxiv.org/html/1609.02907v4)，图中没有加入可学习通道投影与激活，避免把线性算子的性质直接当作深层训练保证。
 
@@ -389,17 +357,9 @@ $$
 
 ### 图解：有向边决定哪一侧可以读取消息
 
-![有向边决定哪一侧可以读取消息](images/01-example.svg)
+![正向时 A、C 向 B 发送消息，反向时梯度从 B 返回 A、C](images/01-img-directed-message-and-adjoint.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![有向边决定哪一侧可以读取消息，下左区域](images/01-example.svg#textbook-detail-2-1)
-
-![有向边决定哪一侧可以读取消息，下右区域](images/01-example.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/01-img-directed-message-and-adjoint.webp)
 
 **同一个转置，在正向和反向里有不同含义。** 正向按图中行接收、列发送的约定做 $`y=Mx=(0,6,0)^T`$，再令损失为 $`L=\frac12 y_B^2=18`$。输出端的梯度为 $`(0,6,0)^T`$，链式法则给出输入梯度 $`\nabla_xL=M^T\nabla_yL=(6,0,6)^T`$：A 和 C 各对 B 的和贡献一次，B 的原输入没有参与该和，所以其输入梯度为零。
 
@@ -407,18 +367,18 @@ $$
 
 **同一条有向消息，逐步读到矩阵。** A 图只有 $`A\to B`$、$`C\to B`$ 两条边，按节点 A、B、C 排列输入 $`x=(2,10,4)^{\mathsf T}`$。不加自环、不做度归一化，只求入边特征之和；因此 B 接收二与四，自己的十不参与。为免节点名 A 与算子混淆，这里将邻接矩阵记为 $`M`$。采用“接收者在行、发送者在列”，B 图为
 
-$$
+```math
 M=\begin{pmatrix}0&0&0\\1&0&1\\0&0&0\end{pmatrix},\qquad
 Mx=(0,6,0)^{\mathsf T}.
-$$
+```
 
 C 图再逐节点比较错误转置：$`M^{\mathsf T}x=(10,0,10)^{\mathsf T}`$，A、C 反而读到了 B 的十。两个算子的形状完全相同，普通形状断言不会报警；方向测试应同时检查有边消息、无边隔离和自环约定。
 
 D 图不是改变图，而是把数组顺序改为 C、A、B。设对应置换矩阵为 $`P`$，则 $`x'=Px=(4,2,10)^{\mathsf T}`$，必须同时将邻接改为 $`M'=PMP^{\mathsf T}`$，得到
 
-$$
+```math
 M'x'=PMx=(0,0,6)^{\mathsf T}.
-$$
+```
 
 输出六仍属于节点 B，只是数组位置随身份重排。这就是本例的置换等变，不是要求输出数组逐位置完全不变。只重排特征而不重排邻接，或只检查输出形状，会把不同对象混到一起。可对照 [Distill 的节点顺序等变与图—矩阵联读](https://distill.pub/2021/understanding-gnns/#node-order-equivariance)；其拉普拉斯示意面向无向图，本图则独立使用有向算例，方向约定仍以这里的定义为准。
 
@@ -440,25 +400,13 @@ $$
 
 #### 图解：重特征值的位置编码为何不能只修正符号
 
-![四节点环的重特征子空间旋转与不变投影矩阵](images/01-spectral-basis-projector.svg)
+![同一四节点环在两组正交基中的坐标方向改变，边和节点身份保持不变](images/01-img-spectral-basis-rotation.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![四节点环的重特征子空间旋转与不变投影矩阵，上左区域](images/01-spectral-basis-projector.svg#textbook-detail-1-1)
-
-![四节点环的重特征子空间旋转与不变投影矩阵，上右区域](images/01-spectral-basis-projector.svg#textbook-detail-1-2)
-
-![四节点环的重特征子空间旋转与不变投影矩阵，下左区域](images/01-spectral-basis-projector.svg#textbook-detail-2-1)
-
-![四节点环的重特征子空间旋转与不变投影矩阵，下右区域](images/01-spectral-basis-projector.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/01-img-spectral-basis-rotation.webp)
 
 **同一张图已经存在坐标歧义，不必等到换图。** 取无向四节点环，边为 $`1-2-3-4-1`$，不加自环，使用组合拉普拉斯 $`L=D-A`$。每个节点度数为二，所以
 
-$$
+```math
 L=
 \begin{pmatrix}
 2&-1&0&-1\\
@@ -466,11 +414,11 @@ L=
 0&-1&2&-1\\
 -1&0&-1&2
 \end{pmatrix}.
-$$
+```
 
 其特征值为 $`0,2,2,4`$。特征值二对应二维特征子空间，一组正交归一基可以写成
 
-$$
+```math
 \begin{aligned}
 &U=\frac1{\sqrt2}
 \begin{pmatrix}
@@ -481,11 +429,11 @@ $$
 \end{pmatrix},\\
 &\quad LU=2U,\qquad U^\top U=I_2.
 \end{aligned}
-$$
+```
 
 若把 $`U`$ 的每一行当作节点的二维位置，则图左四个节点分别位于坐标轴的正负方向。但这些坐标轴不是图中唯一规定的方向。取正交矩阵
 
-$$
+```math
 \begin{aligned}
 &Q=\frac1{\sqrt2}
 \begin{pmatrix}1&-1\\1&1\end{pmatrix},\\
@@ -495,7 +443,7 @@ $$
 1&-1\\1&1\\-1&1\\-1&-1
 \end{pmatrix}.
 \end{aligned}
-$$
+```
 
 仍有 $`LU'=2U'`$、$`U'^\top U'=I_2`$，所以它同样是一组合法输出。图中的同一节点一，从 $`(\frac1{\sqrt2},0)`$ 变成 $`(\frac12,-\frac12)`$；节点身份与边没有改变，只是选取了另一组特征基。若后续网络直接读取“第一坐标大于 $`0.6`$”这样的特征，输出就可能随求解器选择而改变。
 
@@ -503,7 +451,7 @@ $$
 
 **将任意坐标换成子空间对象。** 对正交归一基，投影矩阵为
 
-$$
+```math
 P=UU^\top=
 \frac12
 \begin{pmatrix}
@@ -512,22 +460,22 @@ P=UU^\top=
 -1&0&1&0\\
 0&-1&0&1
 \end{pmatrix}.
-$$
+```
 
-换基后有 $`U' U'^\top=UQQ^\top U^\top=UU^\top=P`$。因此图右的矩阵不随这次旋转改变。每个元素 $`P_{ij}`$ 是两行位置向量的内积；相邻节点为零，环上相对节点为负二分之一，所有对角元素为二分之一。对应平方距离可由
+换基后有 $`U' U'^\top=UQQ^\top U^\top=UU^\top=P`$。因此投影矩阵不随这次旋转改变。每个元素 $`P_{ij}`$ 是两行位置向量的内积；相邻节点为零，环上相对节点为负二分之一，所有对角元素为二分之一。对应平方距离可由
 
-$$
+```math
 \|U_{i,:}-U_{j,:}\|^2
 =P_{ii}+P_{jj}-2P_{ij}
-$$
+```
 
 恢复，所以相邻节点的平方距离为一，相对节点为二。这些相对关系在两组坐标下相同。这里的 $`P`$ 是正交投影，可以包含负数，既不是概率矩阵，也不是未经额外定义便能当作注意力权重的对象。
 
 还必须区分**换基不变**与**节点重编号等变**。若用置换矩阵 $`\Pi`$ 重编号，则 $`L_{\mathrm{new}}=\Pi L\Pi^\top`$，求解器可给出 $`U_{\mathrm{new}}=\Pi UQ`$。于是
 
-$$
+```math
 P_{\mathrm{new}}=\Pi P\Pi^\top.
-$$
+```
 
 它不会在数组里逐元素原样不动，而是两条节点轴都要重排。若将 $`P`$ 的整行直接交给一个对列编号敏感的普通头，仍可能破坏图对称性；下游也需采用相应的等变或不变处理。投影消除的是基选择歧义，不是自动解决全部图学习问题。
 
@@ -565,12 +513,12 @@ $$
 
 逐元素激活与行置换可交换，因此
 
-$$
+```math
 \begin{aligned}
 &F(A',X')=\sigma(QSQ^TQXW)\\
 &\quad =\sigma(QSXW)=Q\sigma(SXW)=QF(A,X).
 \end{aligned}
-$$
+```
 
 共享偏置 $`\mathbf1b^T`$ 也满足 $`Q\mathbf1b^T=\mathbf1b^T`$，所以不破坏结论。把多层逐次复合，用数学归纳法可得整网等变。节点输出随节点重排是等变；若再对所有节点求和或均值，读出结果保持不变，才是图级不变。二者不能用同一个词替代。
 
@@ -608,38 +556,18 @@ $$
 
 下图 (a) 先用行归一化隔离分母效应。图 (b) 再用对称归一化算一个零内容邻居仍能改变输出的例子。
 
-![归一化分母与边权的间接作用。图 (a) 邻边与自环共享归一化分母。图 (b) 加大一条边也改变另一条边的归一化系数。](images/01-edge-weights-and-normalization-pair.svg)
+![图 (a) 自环与邻边共享分母。图 (b) 改变另一条边的权重会改变非零来源的归一化贡献](images/01-img-edge-normalization-dependence.webp)
 
-<details>
-<summary>放大图 (a)</summary>
+[打开原图放大](images/01-img-edge-normalization-dependence.webp)
 
-[打开图 (a) 单独查看](images/01-edge-weights-and-normalization-pair.svg#a)
+**邻边与自环共享归一化分母。** 图 (a) 先使用行归一化来隔离分母效应：某节点只有自环权一和一条邻边权 w，读取系数分别为 1 除以 (1+w) 与 w 除以 (1+w)。修改邻边会同时削弱自环系数，所以归一化传播不是每条边互不相关地缩放。对称度归一化还依赖另一端的度，必须按本章矩阵式重新计算，不能将图中的行归一化系数冒充 GCN 的全部行为。进一步阅读可对照[Distill 对图传播算子的推导](https://distill.pub/2021/understanding-gnns/)。
 
-![图 (a) · 邻边与自环共享归一化分母，上左区域](images/01-edge-weights-and-normalization-pair.svg#a-textbook-detail-1-1)
-
-![图 (a) · 邻边与自环共享归一化分母，上右区域](images/01-edge-weights-and-normalization-pair.svg#a-textbook-detail-1-2)
-
-![图 (a) · 邻边与自环共享归一化分母，下左区域](images/01-edge-weights-and-normalization-pair.svg#a-textbook-detail-2-1)
-
-![图 (a) · 邻边与自环共享归一化分母，下右区域](images/01-edge-weights-and-normalization-pair.svg#a-textbook-detail-2-2)
-
-</details>
-
-<details>
-<summary>放大图 (b)</summary>
-
-[打开图 (b) 单独查看](images/01-edge-weights-and-normalization-pair.svg#b)
-
-</details>
-
-**邻边与自环共享归一化分母。** 图 (a) 先使用行归一化来隔离分母效应：某节点只有自环权一和一条邻边权 w，读取系数分别为 1 除以 (1+w) 与 w 除以 (1+w)。修改邻边会同时削弱自环系数，所以归一化传播不是每条边互不相关地缩放。对称度归一化还依赖另一端的度，必须按本章矩阵式重新计算，不能将这条行归一化曲线冒充 GCN 的全部行为。进一步阅读可对照[Distill 对图传播算子的推导](https://distill.pub/2021/understanding-gnns/)。
-
-$$
+```math
 \begin{aligned}
 &a_{\mathrm{self}}=\frac{1}{1+w},\\
 &\quad a_{\mathrm{neighbor}}=\frac{w}{1+w},\qquad w\geq0.
 \end{aligned}
-$$
+```
 
 #### 边权的间接导数：一条零内容边也能改变输出
 
@@ -647,19 +575,19 @@ $$
 
 图 (b) 把三节点链的 $`0\leftrightarrow1`$ 边权设为 $`t\ge0`$，$`1\leftrightarrow2`$ 边权为一，三个自环权重均为一；输入取 $`x=(0,0,1)^T`$，不加通道变换与激活。此时度数是 $`(1+t,2+t,2)`$，节点一只从节点二收到非零内容，却有
 
-$$
+```math
 \begin{aligned}
 &y_1(t)=\frac{1}{\sqrt{2(t+2)}},\\
 &\quad \frac{dy_1}{dt}
 =-\frac{1}{2\sqrt2\,(t+2)^{\frac32}}.
 \end{aligned}
-$$
+```
 
 当 $`t=0,1,2`$，输出依次为 $`0.5,0.408248,0.353553`$；在 $`t=1`$ 的导数约为 $`-0.0680414`$。增强左边并没有增加来自节点零的内容，因为其输入为零，但它增加接收节点的度，降低了右边消息的归一化系数。若只对“正在学习的那条边的分子”求导，会错误得到零。
 
 一般地，记 $`B=A+I`$、$`S_{ij}=B_{ij}d_i^{-\frac12}d_j^{-\frac12}`$。对参数 $`t`$ 必须同时求导：
 
-$$
+```math
 \frac{\partial S_{ij}}{\partial t}
 =\frac{\partial B_{ij}}{\partial t}\frac{1}{\sqrt{d_id_j}}
 -\frac{S_{ij}}2
@@ -667,7 +595,7 @@ $$
 \frac{\partial d_i}{\partial t}\frac{1}{d_i}
 +\frac{\partial d_j}{\partial t}\frac{1}{d_j}
 \right).
-$$
+```
 
 所以可学习边权影响的不只是一项消息，还包括所有共享端点的归一化项。这里图的边支持集固定、权重非负、度数严格为正；离散增删边的选择本身不能直接套用这个光滑导数。对称归一化的定义可与 [Kipf 作者的 GCN 教学说明](https://tkipf.github.io/graph-convolutional-networks/)对照；本图的带权反例由上述公式独立构造。
 
@@ -683,31 +611,19 @@ $$
 
 ### 图解：两层消息传递形成两跳依赖范围
 
-![两层消息传递形成两跳依赖范围](images/01-mechanism.svg)
+![五节点链上中心响应经一层到达一跳邻居，经两层到达两端](images/01-img-two-hop-dependency.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![两层消息传递形成两跳依赖范围，上左区域](images/01-mechanism.svg#textbook-detail-1-1)
-
-![两层消息传递形成两跳依赖范围，上右区域](images/01-mechanism.svg#textbook-detail-1-2)
-
-![两层消息传递形成两跳依赖范围，下左区域](images/01-mechanism.svg#textbook-detail-2-1)
-
-![两层消息传递形成两跳依赖范围，下右区域](images/01-mechanism.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/01-img-two-hop-dependency.webp)
 
 **沿同一张图逐层复算。** 这里采用实验三的五节点链 $`0-1-2-3-4`$，每个节点有单位自环，度数为 $`(2,3,3,3,2)`$。为了隔离图传播，只令输入 $`x=(0,0,1,0,0)^\top`$，不加通道矩阵、偏置或激活。每层都使用同一对称归一化矩阵 $`S`$，橙色表示该层非零响应，圆内数字始终是节点编号。
 
 第一层 $`Sx=(0,\frac13,\frac13,\frac13,0)^\top`$，节点零尚未收到响应；第二层为
-$$
+```math
 S^2x=\left(\frac1{3\sqrt6},\frac29,\frac13,\frac29,\frac1{3\sqrt6}\right)^\top.
-$$
+```
 节点零的唯一两步贡献来自 $`2\to1\to0`$，系数是 $`\frac13\cdot\frac1{\sqrt6}`$，约为 $`0.136083`$。若输入改为只在节点三非零，两层后节点零仍是零，因为不存在长度不超过二的路径。自环允许信号停留一层，却不能让它越过一条不存在的边。
 
-**范围与影响大小分开读。** 两跳范围描述“可能依赖谁”，具体系数描述这次线性传播中“影响有多大”；范围覆盖不意味着等权或无损传递。图中数值经过四位小数显示，计算使用完整精度。机制可对照 [Kipf 的 GCN 作者教学文章](https://tkipf.github.io/graph-convolutional-networks/)的逐层传播；若添加全局注意力、图级归一化或其他跨节点操作，应重新分析依赖范围。
+**范围与影响大小分开读。** 两跳范围描述“可能依赖谁”，具体系数描述这次线性传播中“影响有多大”；范围覆盖不意味着等权或无损传递。图中只标出非零响应的位置，各位置的影响大小由上述向量给出。机制可对照 [Kipf 的 GCN 作者教学文章](https://tkipf.github.io/graph-convolutional-networks/)的逐层传播；若添加全局注意力、图级归一化或其他跨节点操作，应重新分析依赖范围。
 
 <a id="graph-1-detail-39"></a>
 
@@ -866,9 +782,9 @@ print('input/weight/directional gradients passed:', float(analytic))
 
 对称非负无向邻接给出归一化拉普拉斯 $`L=I-S`$。任意标量信号 $`f`$ 满足
 
-$$
+```math
 f^TLf=\frac12\sum_{i,j}\widetilde A_{ij}\left(\frac{f_i}{\sqrt{\widetilde d_i}}-\frac{f_j}{\sqrt{\widetilde d_j}}\right)^2.
-$$
+```
 
 证明时先展开平方。两个平方项在交换下标后相等，利用每行权重和等于度，合并为 $`\sum_i f_i^2`$；交叉项为 $`\sum_{ij}f_iS_{ij}f_j`$，因此得到右边等于左边。这个展开同时说明 $`L`$ 半正定，因为每个权重非负、每个平方非负。若有负边，正是这一步失去保证，不能再沿用相同几何解释。
 

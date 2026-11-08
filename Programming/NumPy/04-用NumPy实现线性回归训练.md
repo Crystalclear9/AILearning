@@ -83,12 +83,12 @@
 
 本章采用平均半平方损失，并可加入只作用于权重的二次惩罚：
 
-$$
+```math
 \begin{aligned}
 J(w,b) &=\frac1{2n}\Vert Xw+b\mathbf1-y\Vert _2^2+\frac\lambda2\Vert w\Vert _2^2,\\[6pt]
 \lambda &\ge0.
 \end{aligned}
-$$
+```
 
 当 $`\lambda=0`$ 时是普通最小二乘；当 $`\lambda>0`$ 时截距仍不受惩罚。这是模型定义的一部分。若把常数列拼进矩阵，再对全部参数等同惩罚，就已经换成另一个目标。很多看似求解器差异，实际来自这些不显眼的约定。
 
@@ -102,9 +102,9 @@ $$
 
 令 $`r=Xw+b\mathbf1-y`$。固定数据后，目标微分为
 
-$$
+```math
 dJ=\frac1n r^TX\,dw+\frac1n r^T\mathbf1\,db+\lambda w^Tdw.
-$$
+```
 
 所以权重梯度为 $`g_w=\frac{X^Tr}{n}+\lambda w`$，截距梯度为 $`g_b=\mathrm{mean}(r)`$。函数应同时返回目标值、权重梯度和截距梯度，而且三者必须在同一份参数上计算。若先更新权重，再用新权重重新算截距梯度，就不再是这里定义的一次同时梯度下降。
 
@@ -144,62 +144,22 @@ $$
 
 下图 (a) 手算一项权重和偏置的同时更新。图 (b) 把同一个残差分配给多个参数分量，再比较不同步长。
 
-![从标量更新到多个参数分量。图 (a) 一次训练更新的状态依赖。图 (b) 训练器的一次完整更新。](images/04-linear-update-components-and-step-size-pair.svg)
+![图 (a) 是单特征更新，图 (b) 用同一旧梯度同时更新两个权重和偏置](images/04-single-update-from-one-stale-gradient.webp)
 
-<details>
-<summary>放大图 (a)</summary>
-
-[打开图 (a) 单独查看](images/04-linear-update-components-and-step-size-pair.svg#a)
-
-![图 (a) · 一次训练更新的状态依赖，上左区域](images/04-linear-update-components-and-step-size-pair.svg#a-textbook-detail-1-1)
-
-![图 (a) · 一次训练更新的状态依赖，上右区域](images/04-linear-update-components-and-step-size-pair.svg#a-textbook-detail-1-2)
-
-![图 (a) · 一次训练更新的状态依赖，下左区域](images/04-linear-update-components-and-step-size-pair.svg#a-textbook-detail-2-1)
-
-![图 (a) · 一次训练更新的状态依赖，下右区域](images/04-linear-update-components-and-step-size-pair.svg#a-textbook-detail-2-2)
-
-</details>
-
-<details>
-<summary>放大图 (b)</summary>
-
-[打开图 (b) 单独查看](images/04-linear-update-components-and-step-size-pair.svg#b)
-
-![图 (b) · 训练器的一次完整更新，上左区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-1-1)
-
-![图 (b) · 训练器的一次完整更新，上中区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-1-2)
-
-![图 (b) · 训练器的一次完整更新，上右区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-1-3)
-
-![图 (b) · 训练器的一次完整更新，中左区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-2-1)
-
-![图 (b) · 训练器的一次完整更新，中中区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-2-2)
-
-![图 (b) · 训练器的一次完整更新，中右区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-2-3)
-
-![图 (b) · 训练器的一次完整更新，下左区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-3-1)
-
-![图 (b) · 训练器的一次完整更新，下中区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-3-2)
-
-![图 (b) · 训练器的一次完整更新，下右区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-3-3)
-
-![图 (b) · 训练器的一次完整更新，完整说明与标注](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-complete-detail-1)
-
-</details>
+[打开原图放大](images/04-single-update-from-one-stale-gradient.webp)
 
 图 (a) 先沿前向依赖得到预测二与残差负三，再把残差分别乘输入二和偏置导数一，得到权重梯度负六、偏置梯度负三。采用半平方损失及学习率十分之一，同时更新后得到权重一点六、偏置零点三，新预测为三点五。这里使用单样本目标，批量平均、正则项与不同损失缩放都会改变梯度。
 
 
-**一次参数更新究竟改了什么，又为何受步长限制？** 图 (b) 左侧从各参数的加权贡献算出旧预测和旧残差，再把同一残差分发给三个梯度分量；右图在这份固定旧梯度上比较不同步长。两部分对应同一次单样本计算，不是两条分别训练出来的曲线。
+**一次参数更新究竟改了什么？** 图 (b) 另取两个特征，固定同一份旧梯度，按步长 $`0.1`$ 同时更新两个权重和偏置。这个算例还可以通过改变步长，核对同一更新方向是否总能降低目标。
 
 **先固定旧梯度，再改变步长。** 图 (b) 使用同一样本 $`x=(1,2)`$、目标三、零初始参数和未加正则的半平方误差。旧残差为负三，三个参数 $`(w_1,w_2,b)`$ 的梯度分别为 $`(-3,-6,-3)`$；步长 $`\eta=0.1`$ 时，同时更新到 $`(0.3,0.6,0.3)`$，新预测为一点八，新损失为 $`\frac12(1.8-3)^2=0.72`$。
 
-左侧三列固定三个参数分量，依次列出特征、旧参数、旧梯度和新参数。第二个权重的特征值为二，所以梯度为负六，更新幅度是另外两项的两倍。三项同时使用这份旧梯度更新，算完新参数后再计算预测和损失。
+图 (b) 的向量按第一权重、第二权重、偏置的顺序排列。第二个权重的特征值为二，所以梯度为负六，更新幅度是另外两项的两倍。三项同时使用这份旧梯度更新，算完新参数后再计算预测和损失。
 
-右图横轴是**一次更新可选择的不同步长**，不是训练轮数。沿这个固定旧梯度，新预测是 $`18\eta`$，所以整条曲线为 $`\frac12(18\eta-3)^2`$。它在 $`\eta=\frac16`$ 达到零；$`0<\eta<\frac13`$ 时损失低于旧值四点五，在 $`\eta=\frac13`$ 时回到旧值，再加大步长就会更差。这给出了“为什么不能无条件增大学习率”的可复算反例，并与后文最大曲率六对应的稳定步长边界一致。
+沿这份固定旧梯度，新预测为 $`18\eta`$，因此任一步长对应的损失是 $`\frac12(18\eta-3)^2`$。$`\eta=\frac16`$ 时损失为零，$`0<\eta<\frac13`$ 时低于旧值四点五。$`\eta=\frac13`$ 时刚好回到旧值，再加大步长就会更差。这个边界与本题最大曲率六对应的稳定条件一致。
 
-该样本只约束一个线性组合，所以一次把它拟合到零并不意味着三个参数唯一，也不意味着对其他样本泛化良好。图中三个梯度都在旧参数处计算；若先更新权重，再用新权重重算偏置梯度，就改变了算法，不再对应这条步长曲线。
+该样本只约束一个线性组合，所以一次把它拟合到零并不意味着三个参数唯一，也不意味着对其他样本泛化良好。图中三个梯度都在旧参数处计算；若先更新权重，再用新权重重算偏置梯度，就改变了算法，不再对应上面的单步损失公式。
 
 
 <a id="sec-2"></a>
@@ -508,11 +468,11 @@ assert np.allclose(grad - unregularized, np.r_[lam * theta[:-1], 0.0])
 
 在标准化空间拟合 $`\widehat y=Zv+c`$，代入定义得到
 
-$$
+```math
 \widehat y
 =\sum_jX_j\frac{v_j}{s_j}
 +\left(c-\sum_j\mu_j\frac{v_j}{s_j}\right).
-$$
+```
 
 因此原单位权重是 $`w_j=\frac{v_j}{s_j}`$，原截距是 $`b=c-\mu^Tw`$。这条恒等式适合做部署验证：对同一组原始输入，标准化预测与原单位参数预测应在浮点容差内一致。若不一致，先检查截距与缩放方向，而不是把差异解释为模型随机性。
 
@@ -621,35 +581,11 @@ print("raw coefficients:", w_raw, "raw intercept:", b_raw)
 
 ### 图解：预处理只能从训练数据估计
 
-![预处理只能从训练数据估计](images/04-advanced.svg)
+![仅用训练集和将验证集混入拟合时，中心化参数及训练验证变换均不同](images/04-training-only-centering-versus-leakage.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/04-training-only-centering-versus-leakage.webp)
 
-![预处理只能从训练数据估计，上左区域](images/04-advanced.svg#textbook-detail-1-1)
-
-![预处理只能从训练数据估计，上中区域](images/04-advanced.svg#textbook-detail-1-2)
-
-![预处理只能从训练数据估计，上右区域](images/04-advanced.svg#textbook-detail-1-3)
-
-![预处理只能从训练数据估计，中左区域](images/04-advanced.svg#textbook-detail-2-1)
-
-![预处理只能从训练数据估计，中中区域](images/04-advanced.svg#textbook-detail-2-2)
-
-![预处理只能从训练数据估计，中右区域](images/04-advanced.svg#textbook-detail-2-3)
-
-![预处理只能从训练数据估计，下左区域](images/04-advanced.svg#textbook-detail-3-1)
-
-![预处理只能从训练数据估计，下中区域](images/04-advanced.svg#textbook-detail-3-2)
-
-![预处理只能从训练数据估计，下右区域](images/04-advanced.svg#textbook-detail-3-3)
-
-![预处理只能从训练数据估计，完整说明与标注](images/04-advanced.svg#textbook-complete-detail-1)
-
-</details>
-
-
-三条等单位数轴分别画出原始输入、合法中心化和泄漏中心化。蓝点始终是训练输入零与二的变换，橙点始终是同一个验证输入一百；连线让它的位移可以直接比较。仅按训练集拟合中心化参数时，均值为 1，验证样本 100 变成 99。若把验证样本也放进拟合，均值变为 34，验证结果就被改成 66；预处理已经使用了本应留作评价的数据。
+图中两条路径使用同一组训练输入零、二与验证输入一百。只用训练集拟合中心化参数时，均值为一，训练值变成负一和一，验证值变成九十九。若拟合时也读入验证输入，均值变成三十四，训练值变成负三十四和负三十二，验证值变成六十六。问题出在估计参数的数据范围，减法本身没有变化。
 
 本图只演示减均值，没有执行标准差缩放。两组训练点的中心分别移到零与负三十三，这揭示了泄漏同时改变训练表示，并非只把验证数字改小。预处理拟合与应用的区别可对照 [scikit-learn 的数据泄漏说明](https://scikit-learn.org/stable/common_pitfalls.html#data-leakage)。验证输入可以用于应用已拟合变换，却不能反向改变训练阶段的估计；测试集还应保持独立。
 
@@ -665,13 +601,13 @@ print("raw coefficients:", w_raw, "raw intercept:", b_raw)
 
 把截距并入 $`\theta=(w,b)`$，增广设计记为 $`A=[X,\mathbf1]`$。令 $`D=\mathrm{diag}(1,\ldots,1,0)`$，有
 
-$$
+```math
 \begin{aligned}
 H &=\frac{A^TA}{n}+\lambda D,\\[6pt]
 q &=\frac{A^Ty}{n},\\[6pt]
 \nabla J(\theta) &=H\theta-q.
 \end{aligned}
-$$
+```
 
 任取最优解 $`\theta^*`$ 满足 $`H\theta^*=q`$，误差 $`e_t=\theta_t-\theta^*`$ 经过一次更新变为 $`e_{t+1}=(I-\eta H)e_t`$。由于 $`H`$ 对称半正定，存在正交特征基；沿特征值为 $`\mu_j`$ 的方向，误差每步乘以 $`1-\eta\mu_j`$。训练不是一个统一速度的过程，而是多个不同速度方向的叠加。
 
@@ -699,9 +635,9 @@ $$
 
 无正则且秩亏时，$`H`$ 有零特征值，相应误差分量不会被梯度下降改变。因为 $`q`$ 属于 $`A^T`$ 的像空间，梯度始终与 $`A`$ 的零空间正交。若步长对所有正特征值稳定，则极限为
 
-$$
+```math
 \theta_\infty=A^+y+P_{\ker A}\theta_0.
-$$
+```
 
 其中 $`A^+`$ 为伪逆，$`P_{\ker A}`$ 是零空间正交投影。从零开始时选出增广参数的欧氏最小范数最小二乘解；非零初值可以保留零空间分量。这个结论明确依赖普通欧氏梯度下降、固定稳定步长和无正则平方目标，不能直接推广到自适应优化器或任意参数变换。
 
@@ -713,33 +649,11 @@ $$
 
 #### 图解：零损失方向和最小范数解
 
-![损失收敛并不总能唯一识别参数](images/04-nullspace-minimum-norm.svg)
+![直线上的参数都能精确拟合，原点到直线的垂足是最小范数解](images/04-zero-loss-affine-set-and-minimum-norm.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/04-zero-loss-affine-set-and-minimum-norm.webp)
 
-![损失收敛并不总能唯一识别参数，上左区域](images/04-nullspace-minimum-norm.svg#textbook-detail-1-1)
-
-![损失收敛并不总能唯一识别参数，上中区域](images/04-nullspace-minimum-norm.svg#textbook-detail-1-2)
-
-![损失收敛并不总能唯一识别参数，上右区域](images/04-nullspace-minimum-norm.svg#textbook-detail-1-3)
-
-![损失收敛并不总能唯一识别参数，中左区域](images/04-nullspace-minimum-norm.svg#textbook-detail-2-1)
-
-![损失收敛并不总能唯一识别参数，中中区域](images/04-nullspace-minimum-norm.svg#textbook-detail-2-2)
-
-![损失收敛并不总能唯一识别参数，中右区域](images/04-nullspace-minimum-norm.svg#textbook-detail-2-3)
-
-![损失收敛并不总能唯一识别参数，下左区域](images/04-nullspace-minimum-norm.svg#textbook-detail-3-1)
-
-![损失收敛并不总能唯一识别参数，下中区域](images/04-nullspace-minimum-norm.svg#textbook-detail-3-2)
-
-![损失收敛并不总能唯一识别参数，下右区域](images/04-nullspace-minimum-norm.svg#textbook-detail-3-3)
-
-</details>
-
-
-只用一个样本，取设计行 `[1, 1]`、目标 1，省略偏置。满足 `w1 + w2 = 1` 的参数都能精确拟合，图 A橙线标出整个零损失集合。图 B仅在这条零损失线上比较参数范数平方，最小点是(0.5,0.5)，其他点仍可有相同预测。这里的最小范数选择可由相应伪逆解或零初始化、合适步长的梯度下降得到；有限强度岭回归一般还会改变预测，不能说它总在零损失直线上选点。
+只用设计行 `[1, 1]` 和目标一，省略偏置。所有满足 $`w_1+w_2=1`$ 的参数都能精确拟合。图中从原点向该直线作垂线，交点 $`(0.5,0.5)`$ 给出最小范数解。沿直线偏离该点可写成 $`(0.5+t,0.5-t)`$，范数平方等于 $`0.5+2t^2`$。伪逆或零初始化的适当梯度下降会选到最小范数解，有限强度岭回归一般还会改变预测。
 
 继续阅读：[NumPy最小二乘的最小范数约定](https://numpy.org/doc/stable/reference/generated/numpy.linalg.lstsq.html)。
 
@@ -749,9 +663,9 @@ $$
 
 先考虑无正则、无截距或已经统一并入增广设计的情形，从零初值出发。沿奇异值为 $`\sigma_j>0`$ 的方向，$`H`$ 特征值为 $`\mu_j=\frac{\sigma_j^2}{n}`$。经过 $`t`$ 步后，精确最小二乘系数被乘以
 
-$$
+```math
 f_t(\mu_j)=1-(1-\eta\mu_j)^t.
-$$
+```
 
 若 $`0<\eta\le\frac{1}{L}`$，这些因子从零逐步趋近一，大曲率方向较快学到，小曲率方向较晚进入。有限步训练由此抑制某些小奇异值方向，这就是早停具有正则化效果的一条具体机制。它不是提前停止就一定提高预测，而是改变了方向响应，需要用数据与验证判断收益。
 
@@ -775,48 +689,24 @@ $$
 
 ### 图解：谱方向决定梯度下降收敛速度
 
-![谱方向决定梯度下降收敛速度](images/04-mechanism.svg)
+![在相同迭代次数对照两个方向的误差，第六步的加权损失约为零点一四五五六八](images/04-spectral-error-contraction-at-shared-iterations.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/04-spectral-error-contraction-at-shared-iterations.webp)
 
-![谱方向决定梯度下降收敛速度，上左区域](images/04-mechanism.svg#textbook-detail-1-1)
-
-![谱方向决定梯度下降收敛速度，上中区域](images/04-mechanism.svg#textbook-detail-1-2)
-
-![谱方向决定梯度下降收敛速度，上右区域](images/04-mechanism.svg#textbook-detail-1-3)
-
-![谱方向决定梯度下降收敛速度，中左区域](images/04-mechanism.svg#textbook-detail-2-1)
-
-![谱方向决定梯度下降收敛速度，中中区域](images/04-mechanism.svg#textbook-detail-2-2)
-
-![谱方向决定梯度下降收敛速度，中右区域](images/04-mechanism.svg#textbook-detail-2-3)
-
-![谱方向决定梯度下降收敛速度，下左区域](images/04-mechanism.svg#textbook-detail-3-1)
-
-![谱方向决定梯度下降收敛速度，下中区域](images/04-mechanism.svg#textbook-detail-3-2)
-
-![谱方向决定梯度下降收敛速度，下右区域](images/04-mechanism.svg#textbook-detail-3-3)
-
-![谱方向决定梯度下降收敛速度，完整说明与标注（1）](images/04-mechanism.svg#textbook-complete-detail-1)
-
-![谱方向决定梯度下降收敛速度，完整说明与标注（2）](images/04-mechanism.svg#textbook-complete-detail-2)
-
-</details>
-
-
-**底部把同一次更新序列按谱方向拆开。** 本图固定 $`J(e)=\frac12(e_1^2+4e_2^2)`$、$`e(0)=(1,1)`$、步长 $`0.1`$，所以第六步的参数误差为 $`(0.9^6,0.6^6)\approx(0.531441,0.046656)`$。代回目标，慢方向平方约为 $`0.282430`$，快方向加权平方约为 $`0.008707`$，两项相加再除二，得到损失约 $`0.145568`$。
+**按谱方向分别计算参数误差。** 本图固定 $`J(e)=\frac12(e_1^2+4e_2^2)`$、$`e(0)=(1,1)`$、步长 $`0.1`$，所以第六步的参数误差为 $`(0.9^6,0.6^6)\approx(0.531441,0.046656)`$。代回目标，慢方向平方约为 $`0.282430`$，快方向加权平方约为 $`0.008707`$，两项相加再除二，得到损失约 $`0.145568`$。
 
 这是一份参数误差与目标贡献的双账本：大曲率方向衰减快且原本加权更重，会让前期损失降得很快；慢方向仍可能离最优参数很远。一般二次目标的目标差由 Hessian 度量参数误差，不能只凭一条小损失曲线推断每个坐标都已恢复；若存在零曲率方向，甚至不能从训练目标识别该方向的参数。
 
 
-把本节推导落到二维目标 $`J(e)=\frac12(e_1^2+4e_2^2)`$，最优点为原点，Hessian 特征值为一与四。取初始误差 $`(1,1)`$、学习率零点一，递推恰为 $`e_1(t)=0.9^t`$、$`e_2(t)=0.6^t`$。左边的点按照同一组 $`t`$ 值落在参数平面上，等高线是该目标的椭圆；它们并不是独立绘制的任意示意轨迹。
+把本节推导落到二维目标 $`J(e)=\frac12(e_1^2+4e_2^2)`$，最优点为原点，Hessian 特征值为一与四。取初始误差 $`(1,1)`$、学习率零点一，递推恰为 $`e_1(t)=0.9^t`$、$`e_2(t)=0.6^t`$。表中两列都是这一递推在相同迭代次数下的读数。
 
-椭圆沿第二方向更窄，表示同样大小的该方向误差会带来更大目标变化。起步后第二分量快速缩小，轨迹先靠近第一轴，再沿第一方向缓慢接近最优点。右边按更新次数画出两个**误差分量**，让这个“先快后慢”可以逐点核对：第三步约为 $`(0.729,0.216)`$，第六步约为 $`(0.531441,0.046656)`$。不能把右图纵轴读成训练损失，后者还要对分量平方并按曲率加权。
+如果画出目标等高线，椭圆沿第二方向更窄。该方向误差的加权代价更高，且在当前步长下衰减更快。表中第三步为 $`(0.729,0.216)`$，第六步为 $`(0.531441,0.046656)`$。这两列记录参数误差，求损失时还需要对它们平方并按曲率加权。
 
-![有符号误差区分衰减、等幅与发散](images/04-step-stability.svg)
+![四种步长对应的乘因子和第四步误差，区分衰减、等幅振荡与发散](images/04-step-size-signed-error-stability.webp)
 
-**把稳定边界画出来。** 这张独立图固定初始第二方向误差为一，分别用步长零点一、零点四、零点五和零点六执行四次递推。对应因子为零点六、负零点六、负一和负一点四；后两条在第四步分别仍为一与三点八四一六。零点四虽然每步改变符号，绝对值却按零点六衰减；零点五停在等幅振荡；零点六的绝对值增长。因而只看曲线折返既不能证明发散，只看少数几步损失下降也不能替代对最大谱方向的稳定性检查。
+[打开原图放大](images/04-step-size-signed-error-stability.webp)
+
+**用第四步核对稳定边界。** 这张独立图固定初始第二方向误差为一，分别用步长零点一、零点四、零点五和零点六执行四次递推。对应因子为零点六、负零点六、负一和负一点四；后两条在第四步分别仍为一与三点八四一六。零点四虽然每步改变符号，绝对值却按零点六衰减；零点五停在等幅振荡；零点六的绝对值增长。因而只看曲线折返既不能证明发散，只看少数几步损失下降也不能替代对最大谱方向的稳定性检查。
 
 此例的稳定步长范围为 $`0<\eta<\frac12`$。若改为零点四，两个因子为零点六与负零点六，第二方向会交替越过原点，却仍收敛；如果只画绝对误差，就看不到这个符号振荡。等于零点五时高曲率方向因子为负一，一般不再衰减。因而“轨迹存在折返”和“算法发散”不能简单等同，应检查因子的绝对值及初始方向。
 

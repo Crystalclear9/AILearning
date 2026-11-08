@@ -156,21 +156,9 @@
 
 #### 图解：版本替换以后如何处理权限撤销
 
-![同一型号最新有效版本与权限撤销的时间路径](images/03-concept.svg)
+![新版替代旧版后权限转到 team-b，team-a 在新生效期没有合法证据](images/03-img-version-replacement-and-access.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![同一型号最新有效版本与权限撤销的时间路径，上左区域](images/03-concept.svg#textbook-detail-1-1)
-
-![同一型号最新有效版本与权限撤销的时间路径，上右区域](images/03-concept.svg#textbook-detail-1-2)
-
-![同一型号最新有效版本与权限撤销的时间路径，下左区域](images/03-concept.svg#textbook-detail-2-1)
-
-![同一型号最新有效版本与权限撤销的时间路径，下右区域](images/03-concept.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/03-img-version-replacement-and-access.webp)
 
 先沿时间轴检查同一型号的版本与访问权。时点一，旧版 A 上限三十五且 team-a 可见；时点二，新版整体替换旧版，上限四十、仅 team-b 可见。新版不可见不使旧版重新生效，所以 team-a 在时点二没有合法证据，不能因旧版仍带可见 ACL 而退回三十五。图中横条表示生效区间，竖线是版本交界，不表示两版本数值之间进行插值。第 4 节实验同时覆盖新版仍可见与新版撤销权限两种情况。图中固定为后者。
 
@@ -212,23 +200,11 @@
 
 一个可靠打包结果应能回答：哪些候选被保留、为何保留、哪些被截断、每段对应什么来源、输出还剩多少预算。如果摘要器参与压缩，它也成为新的生成阶段，需要验证是否改变条件或数值。把摘要称为“原始证据”会掩盖这一层误差，最好保留原文定位并允许回查。
 
-![检索候选怎样变成可核对证据](images/03-version-checked-evidence.svg)
+![候选分别通过版本和访问检查，保留证据的来源、版本、位置](images/03-img-evidence-filtering.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/03-img-evidence-filtering.webp)
 
-![检索候选怎样变成可核对证据，上左区域](images/03-version-checked-evidence.svg#textbook-detail-1-1)
-
-![检索候选怎样变成可核对证据，上右区域](images/03-version-checked-evidence.svg#textbook-detail-1-2)
-
-![检索候选怎样变成可核对证据，下左区域](images/03-version-checked-evidence.svg#textbook-detail-2-1)
-
-![检索候选怎样变成可核对证据，下右区域](images/03-version-checked-evidence.svg#textbook-detail-2-2)
-
-</details>
-
-
-左侧候选有同一来源的两个版本和另一来源的片段。在这个例子中，灰色 `A-v1` 已失效，停在边界外；绿色 `A-v2` 与紫色 `B-v2` 在当前请求中同时满足版本和访问要求。用右侧保留的来源信息回查原文。引用要保留来源、版本和具体位置。两个来源的版本号恰好都为二，不自动证明它们适用同一时间与语境。
+图中的候选包含来源 A 的两个版本和来源 B 的一个片段。当前请求下，`A-v1` 已失效，`A-v2` 与 `B-v2` 同时满足版本与访问条件。保留下来的引用还应记录来源、版本和具体位置，方便回查。两个来源的版本号恰好都为二，仍需各自核对生效时间与适用范围。
 
 图中的筛选规则由系统与数据政策确定，检索相似度不能替代权限检查。通过筛选的片段也仍需检验能否共同推出主张，不能因为它们与问题相关就认定证据充分；片段正文也没有权限改变工具规则。[Lewis 等的 RAG 原论文图 1](https://arxiv.org/pdf/2005.11401)区分检索器与生成器，这里的版本、权限和证据跨度是部署时还须独立追踪的对象。
 
@@ -415,29 +391,17 @@ print('claim_validation_passed')
 
 ### 图解：工具调用需要有预算和终止条件的状态机
 
-![工具调用中失败请求与预算耗尽的具体轨迹](images/03-mechanism.svg)
+![工具参数必须同时通过严格整数类型和数值范围检查](images/03-img-tool-input-contract.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![工具调用中失败请求与预算耗尽的具体轨迹，上左区域](images/03-mechanism.svg#textbook-detail-1-1)
-
-![工具调用中失败请求与预算耗尽的具体轨迹，上右区域](images/03-mechanism.svg#textbook-detail-1-2)
-
-![工具调用中失败请求与预算耗尽的具体轨迹，下左区域](images/03-mechanism.svg#textbook-detail-2-1)
-
-![工具调用中失败请求与预算耗尽的具体轨迹，下右区域](images/03-mechanism.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/03-img-tool-input-contract.webp)
 
 **在剩余预算仍大于零的独立请求中，逐项检查参数契约。** 图中工具只接受绝对值不超过一千的严格整数。JSON 的 true 解码为 Python 布尔值，虽满足 $`\mathrm{isinstance}(v,\mathrm{int})`$，却不满足 $`\mathrm{type}(v)\ \mathrm{is}\ \mathrm{int}`$；JSON 的 $`2.0`$ 解码为浮点数，同样被拒绝。整数二同时通过类型与范围，整数一千零一则只通过类型检查。
 
 这些是新请求的校验样例，不是把上方已耗尽的三次预算继续延长。执行顺序仍是先检查预算、记账，再解析和验证，最后才调用白名单中的纯加法；只有通过所有条件的参数能进入执行器。类型约束与业务范围各自拦截不同输入，不能因为模型输出“看起来像数字”便省略其中一层。
 
-**沿实际代码读四次请求。** 图中每个方块代表一次剩余尝试额度。第一次合法调用得到五；第二次的 JSON `true` 虽可被 Python 当作整数子类处理，却不满足这里的 `type(v) is int`，因此被拒绝；第三次的 `send` 不在允许工具集合中。三次请求都先增加 `calls`，因此两个失败也消耗预算。第四次虽然参数合法，仍在解析前以 `budget-exhausted` 返回。
+**沿实际代码读四次请求。** 下面回到代码，逐次核对预算记账。第一次合法调用得到五；第二次的 JSON `true` 虽可被 Python 当作整数子类处理，却不满足这里的 `type(v) is int`，因此被拒绝；第三次的 `send` 不在允许工具集合中。三次请求都先增加 `calls`，因此两个失败也消耗预算。第四次虽然参数合法，仍在解析前以 `budget-exhausted` 返回。
 
-**状态与边界。** 实验最终 `calls == 3`、`len(trace) == 3`，第四次没有写入当前程序的轨迹。若业务要求记录所有被挡下的请求，应另设入口日志，不能声称这个 `trace` 已完整覆盖四次尝试。参数检查允许绝对值不超过一千的正、负整数与零，并非只允许正数。图中的工具名白名单和严格数据校验属于这个本地算例；它没有实现面向用户的权限系统，也没有网络或文件副作用，不能拿此成功测试替代真实工具的授权、幂等与事务验证。
+**状态与边界。** 实验最终 `calls == 3`、`len(trace) == 3`，第四次没有写入当前程序的轨迹。若业务要求记录所有被挡下的请求，应另设入口日志，不能声称这个 `trace` 已完整覆盖四次尝试。参数检查允许绝对值不超过一千的正、负整数与零，并非只允许正数。这里的工具名白名单和严格数据校验属于这个本地算例；它没有实现面向用户的权限系统，也没有网络或文件副作用，不能拿此成功测试替代真实工具的授权、幂等与事务验证。
 
 <a id="llm-3-detail-27"></a>
 
@@ -547,27 +511,13 @@ print('executor_trace', ex.trace)
 
 #### 图解：RAG 的阶段计数与总体分母
 
-![同一百题的分阶段计数与总体分母](images/03-stage-counts.svg)
+![一百题沿召回、证据使用和正确答案三步保留八十、六十和五十四题](images/03-img-nested-stage-counts.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/03-img-nested-stage-counts.webp)
 
-![同一百题的分阶段计数与总体分母，上左区域](images/03-stage-counts.svg#textbook-detail-1-1)
+沿图中的成功路径，先有二十题未召回，再有二十题没有正确使用证据，最后六题没有得到正确答案，留下五十四题。右侧分支只记录每一步新增的流失，计算该步条件率时使用上一阶段尚存的题数作分母。
 
-![同一百题的分阶段计数与总体分母，上右区域](images/03-stage-counts.svg#textbook-detail-1-2)
-
-![同一百题的分阶段计数与总体分母，下左区域](images/03-stage-counts.svg#textbook-detail-2-1)
-
-![同一百题的分阶段计数与总体分母，下右区域](images/03-stage-counts.svg#textbook-detail-2-2)
-
-![同一百题的分阶段计数与总体分母，完整说明与标注](images/03-stage-counts.svg#textbook-complete-detail-1)
-
-</details>
-
-
-四条计数带共用同一百题的宽度。蓝绿色段保留成功路径，橙色段表示本阶段流失，浅灰段表示此前已流失。第一步二十题未召回，第二步再有二十题没有正确使用证据，最后六题没有得到正确答案，留下五十四题。橙色段每次只标新增失败，阶段条件率的分母则是上一阶段尚存的题数。
-
-本例人为设置嵌套事件，所以 $`\frac{80}{100}\times\frac{60}{80}\times\frac{54}{60}=\frac{54}{100}=0.54`$；相邻计数消去，不依赖阶段独立。计数带按阶段结果整理这一百道人工示例题，宽度只表示题数。真实评估必须记录未召回却靠记忆答对、引用不支持却碰巧正确等其他路径；证据忠实性也不等于事实正确。原始 [RAG 图 1 与第 2 节](https://arxiv.org/html/2005.11401v4#S2)描述的是潜证据概率模型，与本图的工程计数分解属于不同层次。
+本例人为设置嵌套事件，所以 $`\frac{80}{100}\times\frac{60}{80}\times\frac{54}{60}=\frac{54}{100}=0.54`$；相邻计数消去，不依赖阶段独立。图按阶段整理的是同一组人工示例题。真实评估必须记录未召回却靠记忆答对、引用不支持却碰巧正确等其他路径；证据忠实性也不等于事实正确。原始 [RAG 图 1 与第 2 节](https://arxiv.org/html/2005.11401v4#S2)描述的是潜证据概率模型，与本图的工程计数分解属于不同层次。
 
 <a id="llm-3-detail-33"></a>
 
@@ -591,28 +541,18 @@ print('executor_trace', ex.trace)
 
 若检索改善只带来更多无关上下文，生成质量可能下降。这个现象不意味着检索无用，而提示预算、排序和抗干扰能力之间存在交互。实验可固定正确证据，逐步增加干扰，测量性能随干扰数量、相似度和位置变化。最好同时观察答案与引用，以判断模型是忽视证据、选错主体还是被错误信息覆盖。
 
-![按证据条件分解系统成功率](images/03-evidence-conditional-success.svg)
+![按证据是否充分分支，两条成功路径的概率相加](images/03-img-total-success-probability.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/03-img-total-success-probability.webp)
 
-![按证据条件分解系统成功率，上左区域](images/03-evidence-conditional-success.svg#textbook-detail-1-1)
+**按证据条件分解系统成功率。** 本图令有充分证据时回答成功率为 0.8，无证据时为 0.1。全概率公式将两条成功路径的质量相加，得到 $`0.8r+0.1(1-r)`$。当证据不足的成功质量为零时，才可只保留证据充分这一项。真实系统需要同时记录检索充分性、条件回答正确性和最终正确性；阶段指标必须使用明确的条件分母。
 
-![按证据条件分解系统成功率，下左区域](images/03-evidence-conditional-success.svg#textbook-detail-2-1)
-
-![按证据条件分解系统成功率，下右区域](images/03-evidence-conditional-success.svg#textbook-detail-2-2)
-
-</details>
-
-
-**按证据条件分解系统成功率。** 本图令有充分证据时回答成功率为 0.8，无证据时为 0.1。全概率公式给出总体成功率 0.8r+0.1(1−r)，并非简单的 0.8r。只有额外规定无证据必定失败，才能使用乘积。真实系统需要同时记录检索充分性、条件回答正确性和最终正确性；阶段指标必须使用明确的条件分母。
-
-$$
+```math
 \begin{aligned}
 &P(C)=P(C\mid E)P(E)+P(C\mid E^c)P(E^c)\\
 &\quad =0.8r+0.1(1-r).
 \end{aligned}
-$$
+```
 
 <a id="sec-6-1"></a>
 
@@ -630,7 +570,9 @@ $$
 
 如果模型收到的资料包含试图改变系统行为的内容，例如一份被检索到的说明把“发布到别组”写成执行要求，这属于间接提示注入。材料可由当前用户读取，说明检索访问控制可能已经正确工作。它仍然只是一份可读证据，不能替用户批准发布。与直接从用户输入传来指令相比，间接来源还包括网页、附件、邮件和工具返回。只检测用户输入就会漏掉这些渠道。[OWASP 提示注入说明](https://genai.owasp.org/glossary/prompt-injection/)
 
-![资料进入模型形成提议，执行器按可信身份和授权独立核对后才提交动作](images/03-tool-authorization-boundary.svg)
+![模型提交动作提议，执行器从可信会话获取主体和权限后独立判断](images/03-img-independent-tool-authorization.webp)
+
+[打开原图放大](images/03-img-independent-tool-authorization.webp)
 
 把权限边界落实到工具接口时，可以分开核对三件事。
 
@@ -721,64 +663,52 @@ print("only the exact authorized request committed once")
 
 #### 图解：边缘似然如何把检索先验变成答案后验
 
-![RAG 检索先验、联合质量、后验责任度及两种损失的对照](images/03-rag-posterior-responsibility.svg)
+![证据先验与条件答案概率相乘，再由总质量归一化为后验责任度](images/03-img-rag-prior-to-posterior.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![RAG 检索先验、联合质量、后验责任度及两种损失的对照，上左区域](images/03-rag-posterior-responsibility.svg#textbook-detail-1-1)
-
-![RAG 检索先验、联合质量、后验责任度及两种损失的对照，上右区域](images/03-rag-posterior-responsibility.svg#textbook-detail-1-2)
-
-![RAG 检索先验、联合质量、后验责任度及两种损失的对照，下左区域](images/03-rag-posterior-responsibility.svg#textbook-detail-2-1)
-
-![RAG 检索先验、联合质量、后验责任度及两种损失的对照，下右区域](images/03-rag-posterior-responsibility.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/03-img-rag-prior-to-posterior.webp)
 
 **先确定“求和”在对数的哪一侧。** 固定问题 $`q`$、训练答案 $`y`$ 和一个有限候选集合，记检索概率为 $`\pi_z=p_\eta(z\mid q)`$，条件答案概率为 $`l_z=p_\theta(y\mid q,z)`$。本节假设 $`\sum_z\pi_z=1`$，且各项概率为正，以便所有对数有限。隐变量混合模型的负对数似然为
 
-$$
+```math
 L_{\mathrm{marg}}
 =-\log P,\qquad
 P=\sum_z\pi_zl_z.
-$$
+```
 
 另一种看似相近的实现，先随机选一份证据、计算答案损失，再按检索概率平均，得到
 
-$$
+```math
 L_{\mathrm{avg}}
 =-\sum_z\pi_z\log l_z.
-$$
+```
 
 两者分别是“先混合概率再取对数”与“先取对数再平均”。由对数的凹性，$`L_{\mathrm{avg}}\ge L_{\mathrm{marg}}`$，因此直接交换次序会改写训练目标。原始 RAG 采用检索隐变量的边缘负对数似然，并区分按整段回答和按 token 边缘化的模型；这些概率模型不能与把全部段落拼接后进行一次普通生成混为一谈。[Retrieval-Augmented Generation 原论文，第 2 节](https://arxiv.org/pdf/2005.11401)
 
 **两份候选的完整手算。** 图中检索先验为 $`(\pi_1,\pi_2)=(0.8,0.2)`$，生成器给当前训练答案的条件概率为 $`(l_1,l_2)=(0.1,0.9)`$。联合质量为 $`(0.08,0.18)`$，所以边缘答案概率是 $`P=0.26`$。两种损失分别为
 
-$$
+```math
 \begin{aligned}
 &L_{\mathrm{marg}}=-\log0.26\approx1.347074,\\
 &L_{\mathrm{avg}}=-0.8\log0.1-0.2\log0.9\\
 &\approx1.863140.
 \end{aligned}
-$$
+```
 
 第一份候选虽然检索先验更大，却更难生成给定答案。观察到训练答案后，其后验责任度变为
 
-$$
+```math
 \begin{aligned}
 &r_z=p(z\mid q,y)=\frac{\pi_zl_z}{P},\\
 &\quad (r_1,r_2)=\left(\frac4{13},\frac9{13}\right)\\
 &\quad \approx(0.307692,0.692308).
 \end{aligned}
-$$
+```
 
 “责任度”表示在这个概率模型中，各候选对当前答案似然的解释份额。它与检索时尚未看到答案的先验不是同一分布，也不是人工事实支持率。模型可能仅因参数记忆、答案措辞或无关相关性而给出高似然；高后验并不自动证明该段文字蕴含答案，引用验收仍须独立进行。
 
 **损失差距还能精确定位。** 用 $`r_z=\frac{\pi_zl_z}{P}`$ 代入 KL 散度，得到
 
-$$
+```math
 \begin{aligned}
 D_{\mathrm{KL}}(\pi\Vert r)
 &=\sum_z\pi_z\log\frac{\pi_z}{r_z}\\
@@ -786,23 +716,23 @@ D_{\mathrm{KL}}(\pi\Vert r)
 &=L_{\mathrm{avg}}-L_{\mathrm{marg}}
 \approx0.516066.
 \end{aligned}
-$$
+```
 
 这个等式比单独引用 Jensen 更具体：差距衡量先验与当前答案后验之间的不一致。在所有正先验候选上，若 $`l_z`$ 相同，两种损失相等；若某候选有正先验但给目标答案零概率，平均损失可以发散，而只要其他候选仍提供正质量，边缘损失仍有限。实际实现应使用对数域的稳定求和，而不是先将极小序列概率连乘到零。
 
 **梯度为何会偏向第二份候选？** 固定当前候选集合，令检索概率由分数 $`a_z`$ 的 softmax 给出，并暂将条件答案概率与这些分数视为独立参数。链式求导得到
 
-$$
+```math
 \frac{\partial L_{\mathrm{marg}}}{\partial a_j}
 =\pi_j-r_j.
-$$
+```
 
 本例两个分数的梯度为 $`(\frac{32}{65},-\frac{32}{65})`$，约 $`(0.492308,-0.492308)`$；梯度下降会降低第一项、提高第二项。生成器参数的梯度则是
 
-$$
+```math
 \nabla_\theta L_{\mathrm{marg}}
 =-\sum_z r_z\nabla_\theta\log l_z.
-$$
+```
 
 它按后验责任度分配当前样本的学习信号，而平均损失对生成器使用的是先验权重 $`\pi_z`$。这解释了为何两个损失不仅数值不同，训练方向和证据分工也可能不同。公式来自对整个边缘目标求导，不意味着可以在任意替代目标里随意删去权重的求导路径。
 
@@ -845,31 +775,9 @@ $$
 | C | 3 | 0.90 | v |
 | D | 3 | 0.85 | w |
 
-![预算相同而事实覆盖不同的两种上下文](images/03-context-budget-coverage.svg)
+![两种上下文方案成本同为十，保留互补证据才能覆盖三条事实](images/03-img-budget-and-evidence-coverage.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![预算相同而事实覆盖不同的两种上下文，上左区域](images/03-context-budget-coverage.svg#textbook-detail-1-1)
-
-![预算相同而事实覆盖不同的两种上下文，上中区域](images/03-context-budget-coverage.svg#textbook-detail-1-2)
-
-![预算相同而事实覆盖不同的两种上下文，上右区域](images/03-context-budget-coverage.svg#textbook-detail-1-3)
-
-![预算相同而事实覆盖不同的两种上下文，中左区域](images/03-context-budget-coverage.svg#textbook-detail-2-1)
-
-![预算相同而事实覆盖不同的两种上下文，中中区域](images/03-context-budget-coverage.svg#textbook-detail-2-2)
-
-![预算相同而事实覆盖不同的两种上下文，中右区域](images/03-context-budget-coverage.svg#textbook-detail-2-3)
-
-![预算相同而事实覆盖不同的两种上下文，下左区域](images/03-context-budget-coverage.svg#textbook-detail-3-1)
-
-![预算相同而事实覆盖不同的两种上下文，下中区域](images/03-context-budget-coverage.svg#textbook-detail-3-2)
-
-![预算相同而事实覆盖不同的两种上下文，下右区域](images/03-context-budget-coverage.svg#textbook-detail-3-3)
-
-</details>
-
+[打开原图放大](images/03-img-budget-and-evidence-coverage.webp)
 
 预算为十，按排名依次装入并跳过放不下的块，会选择 A、B，成本十，却只覆盖一条事实。B、C、D 的成本同样为十，却覆盖全部三条；若选 A，另外两条所需总成本为十二，必然放不下。穷举十六个子集即可确认，B、C、D 是本例唯一能完整回答的可行集合。
 

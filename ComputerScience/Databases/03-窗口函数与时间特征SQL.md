@@ -191,41 +191,13 @@ frame 对不同函数并非统一生效。偏移函数、排名函数与 frame �
 
 下图 (a) 对照 `ROWS` 和 `RANGE` 如何处理排序键相同的记录。图 (b) 把同一个当前行放进不同窗口，核对记录数、有效金额数与和。
 
-![SQL 窗口成员与统计分母。图 (a) 窗口帧按位置或同值范围取成员。图 (b) ROWS 按行推进，RANGE 前缀纳入同级行。](images/03-sql-window-membership-and-counts-pair.svg)
+![图 (a) ROWS 和 RANGE 的同级行，图 (b) 同一当前行的成员和统计分母](images/03-window-membership-denominators.webp)
 
-<details>
-<summary>放大图 (a)</summary>
-
-[打开图 (a) 单独查看](images/03-sql-window-membership-and-counts-pair.svg#a)
-
-![图 (a) · 窗口帧按位置或同值范围取成员，上左区域](images/03-sql-window-membership-and-counts-pair.svg#a-textbook-detail-1-1)
-
-![图 (a) · 窗口帧按位置或同值范围取成员，上右区域](images/03-sql-window-membership-and-counts-pair.svg#a-textbook-detail-1-2)
-
-![图 (a) · 窗口帧按位置或同值范围取成员，下左区域](images/03-sql-window-membership-and-counts-pair.svg#a-textbook-detail-2-1)
-
-![图 (a) · 窗口帧按位置或同值范围取成员，下右区域](images/03-sql-window-membership-and-counts-pair.svg#a-textbook-detail-2-2)
-
-</details>
-
-<details>
-<summary>放大图 (b)</summary>
-
-[打开图 (b) 单独查看](images/03-sql-window-membership-and-counts-pair.svg#b)
-
-![图 (b) · ROWS 按行推进，RANGE 前缀纳入同级行，上左区域](images/03-sql-window-membership-and-counts-pair.svg#b-textbook-detail-1-1)
-
-![图 (b) · ROWS 按行推进，RANGE 前缀纳入同级行，上右区域](images/03-sql-window-membership-and-counts-pair.svg#b-textbook-detail-1-2)
-
-![图 (b) · ROWS 按行推进，RANGE 前缀纳入同级行，下左区域](images/03-sql-window-membership-and-counts-pair.svg#b-textbook-detail-2-1)
-
-![图 (b) · ROWS 按行推进，RANGE 前缀纳入同级行，下右区域](images/03-sql-window-membership-and-counts-pair.svg#b-textbook-detail-2-2)
-
-</details>
+[打开原图放大](images/03-window-membership-denominators.webp)
 
 图 (a) 中，在第一条十所在的 a 行，ROWS 的当前行边界只纳入已经到达的位置 a；RANGE 的当前值边界会同时纳入排序值相同的 a、b，因此两种前缀和分别为十与二十。示例需用额外稳定键定义 ROWS 下的具体行顺序；窗口内排序也不自动保证最终查询输出顺序。可分别用 ROWS 的 ORDER BY value, id 与 RANGE 的 ORDER BY value 复现。若给 RANGE 也增加唯一 id，a 与 b 就不再是同级行。两种帧都从分区起点到 CURRENT ROW。下面的事件算例进一步加入空金额与排除当前组的情形。
 
-图 (b) 顶部给出四条事件的时间和金额，`NULL` 表示 SQL 空值，各排薄片圈出窗口中的记录。三排都固定当前行为 E3：前两个窗口包含 E1、E2、E3，所以记录数为三、金额有效数为二、已知金额和为十二；排除当前时间组的窗口只含 E1、E2，三项变为二、二、十二。相同的 `SUM` 不能证明参与身份相同，`COUNT(*)` 与 `COUNT(amount)` 也不能互相替换。
+图 (b) 固定当前行 E3，把成员集合和三个统计量放在同一行。ROWS 与 RANGE 的完整前缀恰好均含 E1、E2、E3，记录数为三、有效金额数为二、金额和为十二。排除当前同级组后只含 E1、E2，三个数依次为二、二、十二。
 
 **沿四条事件逐行核算。** 事件取自第 3 节的可运行实验。按 `(event_time,event_id)` 定义的 ROWS 前缀依次纳入当前事件及其之前各行，和为 5、12、12、23；只按 `event_time` 排序的 RANGE 前缀把同时间的 E1 与 E2 一起纳入，和为 12、12、12、23；同一个 RANGE 再使用 `EXCLUDE GROUP`，得到 NULL、NULL、12、12。当当前行是 E1 时，ROWS 只纳入 E1，RANGE 还纳入同一时刻的 E2。图中改用 E3 作为当前行，两种前缀恰好相同，因而可以单独看到排除当前组的影响。
 
@@ -233,21 +205,9 @@ frame 对不同函数并非统一生效。偏移函数、排名函数与 frame �
 
 具体默认窗口和语法取决于数据库。需要确定逐事件次序时，应提供稳定的次级排序键并显式写出框架；不要依赖碰巧出现的物理行序解释业务时间。
 
-![窗口的分区决定哪些行允许共享累计状态](images/03-window-partition-reset.svg)
+![分区边界使运行和重新开始](images/03-window-partition-reset-states.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![窗口的分区决定哪些行允许共享累计状态，上左区域](images/03-window-partition-reset.svg#textbook-detail-1-1)
-
-![窗口的分区决定哪些行允许共享累计状态，上右区域](images/03-window-partition-reset.svg#textbook-detail-1-2)
-
-![窗口的分区决定哪些行允许共享累计状态，下左区域](images/03-window-partition-reset.svg#textbook-detail-2-1)
-
-![窗口的分区决定哪些行允许共享累计状态，下右区域](images/03-window-partition-reset.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/03-window-partition-reset-states.webp)
 
 窗口的分区决定哪些行允许共享累计状态。输入的唯一顺序键为 id=1、2、3、4，对应 A1=2、A2=3、B1=10、B2=20；字母表示分区，编号只是本例的明确次序。两种查询都显式采用 `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`。
 
@@ -375,11 +335,13 @@ con.close()
 
 ### 图解：修订事件时间会复活旧版本吗
 
-![同一事件修订了发生时间时先选版本与先过滤窗口的差异](images/03-version-before-window.svg)
+![先选可见最新版和先按时间筛选得到不同事件](images/03-latest-visible-before-window.webp)
 
-图中横轴是事件时间，纵轴是版本首次可用时间。某个事件的 v1 记为事件时间 9、可用时间 9、金额 10；后来 v2 在可用时间 12 更正为事件时间 4、金额 100。预测时刻为 13，需要统计事件窗口 $`[8,13)`$；两个版本都已可见，但不能把同一事件当成两笔独立事实。
+[打开原图放大](images/03-latest-visible-before-window.webp)
 
-正确顺序先按当前预测时点筛可见版本，再对同一事件选最新版，得到 v2；最后检查其事件时间 4，不在窗口内，所以这笔事件对窗口合计贡献零。左图蓝色区域表示事件时间和可用时间同时满足窗口与历史可见条件；v1 落在区域里，却已经被已知的修订取代。二维位置只能判断候选是否合法，不能代替版本选择。
+图中的版本卡分别保存事件时间与首次可用时间。某个事件的 v1 记为事件时间 9、可用时间 9、金额 10；后来 v2 在可用时间 12 更正为事件时间 4、金额 100。预测时刻为 13，需要统计事件窗口 $`[8,13)`$；两个版本都已可见，但不能把同一事件当成两笔独立事实。
+
+正确顺序先按当前预测时点筛可见版本，再对同一事件选最新版，得到 v2；最后检查其事件时间 4，不在窗口内，所以这笔事件对窗口合计贡献零。旧版 v1 的事件时间落在窗口内，却已被已知的修订取代。比较两个时间字段与选择事实版本是两步不同的操作。
 
 错误顺序先过滤事件时间，会删掉 v2，只剩落在窗口里的 v1；再对剩余行排名，就把已被更正的旧版本当成有效事实，得到金额 10。它看似更早减少了数据量，实际却改变了“最新”的候选集合。只有在已经证明被过滤字段在版本间不变，或具有其他足以保证等价的条件时，才可以交换这些步骤。普通 SQL 优化的“尽量提前筛选”不能超越语义等价证明。
 
@@ -524,23 +486,11 @@ LAG 可以取排序前一条记录，适合差分与间隔计算；LEAD 取后�
 
 ### 图解：LAST_VALUE 取决于窗口终点
 
-![LAST_VALUE 取决于窗口终点](images/03-advanced.svg)
+![窗口终点和空值策略决定返回值](images/03-last-value-frame-policy.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/03-last-value-frame-policy.webp)
 
-![LAST_VALUE 取决于窗口终点，上左区域](images/03-advanced.svg#textbook-detail-1-1)
-
-![LAST_VALUE 取决于窗口终点，上右区域](images/03-advanced.svg#textbook-detail-1-2)
-
-![LAST_VALUE 取决于窗口终点，下左区域](images/03-advanced.svg#textbook-detail-2-1)
-
-![LAST_VALUE 取决于窗口终点，下右区域](images/03-advanced.svg#textbook-detail-2-2)
-
-</details>
-
-
-**底部同时固定当前行、窗口和空值政策。** 当前行为 id 二、值为空。窗口截止当前行时，`LAST_VALUE` 返回该空值；扩大到分区末得到三十，但那是未来 id 三的值；如果目标是“截至当前行最后已知值”，正确对象应是 id 一的十。三个结果分别对应三个不同查询，不能用得到非空值来证明历史特征正确。
+**沿三个返回箭头核对窗口与空值规则。** 当前行为 id 二、值为空。窗口截止当前行时，`LAST_VALUE` 返回该空值；扩大到分区末得到三十，但那是未来 id 三的值；如果目标是“截至当前行最后已知值”，正确对象应是 id 一的十。三个结果分别对应三个不同查询，不能用得到非空值来证明历史特征正确。
 
 有些数据库提供忽略空值的窗口选项，有些需要另外构造查询，但跳过空值不会授权跨过时间边界。还应确认排序键唯一、窗口端点明确，并按系统支持的实际语法实现。特别是 PostgreSQL 的窗口函数空值处理约定，参见 [官方窗口函数说明](https://www.postgresql.org/docs/current/functions-window.html)。
 
@@ -568,21 +518,9 @@ PostgreSQL 的 LAST_VALUE 按 RESPECT NULLS 工作，不会自动跳过末行 NU
 
 **离线排序正确，不代表在线会话号永久不变。**
 
-![迟到的中间事件把两个已有会话合并并改变旧事件的会话归属](images/03-late-event-session-merge.svg)
+![迟到中间事件把两组会话合并](images/03-late-event-merges-sessions.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![迟到的中间事件把两个已有会话合并并改变旧事件的会话归属，上左区域](images/03-late-event-session-merge.svg#textbook-detail-1-1)
-
-![迟到的中间事件把两个已有会话合并并改变旧事件的会话归属，上右区域](images/03-late-event-session-merge.svg#textbook-detail-1-2)
-
-![迟到的中间事件把两个已有会话合并并改变旧事件的会话归属，下左区域](images/03-late-event-session-merge.svg#textbook-detail-2-1)
-
-![迟到的中间事件把两个已有会话合并并改变旧事件的会话归属，下右区域](images/03-late-event-session-merge.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/03-late-event-merges-sessions.webp)
 
 继续使用“相邻间隔严格大于五才断开”的规则。可用时刻八，只收到事件时间零与八的两条活动，金额分别十、二十；间隔八，故当前结果是两个会话。可用时刻九，又收到事件时间四、金额五的迟到活动。按事件时间重新排序后，两个相邻间隔都变为四，三条活动成为同一会话，总额三十五。后来的数据没有改旧记录本身，却改了旧记录的邻接关系与分组归属。
 
@@ -639,39 +577,15 @@ con.close()
 
 会话号是怎样从事件时间计算出来的？先逐列读前一事件与间隔，再把开启标记按前缀求和；不要直接按会话总跨度猜编号。
 
-![会话边界来自相邻事件间隔](images/03-mechanism.svg)
+![由相邻间隔、开启标记和累计和得到会话编号](images/03-lag-session-boundaries.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/03-lag-session-boundaries.webp)
 
-![会话边界来自相邻事件间隔，上左区域](images/03-mechanism.svg#textbook-detail-1-1)
+顶部每列始终对应同一事件；前一事件由 LAG 取得，第一条没有前驱，故直接标记为开启。开启标记依次为 1、0、1、0，累计和才得到 1、1、2、2；这让 SQL 的两个窗口阶段能够逐项手算。表格按事件顺序排列，间隔应从第一行的时间相减。同一用户的事件时间为 0、4、12、16，相邻间隔依次是 4、8、4；采用“间隔严格大于 5 才开启新会话”的规则，在时间 12 处切开，得到 {0,4} 与 {12,16}。等于阈值五时仍留在原会话，若业务采用“大于等于”，必须同时修改 SQL 与边界测试。
 
-![会话边界来自相邻事件间隔，上中区域](images/03-mechanism.svg#textbook-detail-1-2)
+另一组时间 0、4、8 是用来排除另一种常见误解：会话总跨度已经超过五，但两次相邻间隔都只有四，因此仍是一个会话。用“当前时间减去会话首事件”替代 LAG 给出的前一事件时间，会实现另一种固定时长分段规则。
 
-![会话边界来自相邻事件间隔，上右区域](images/03-mechanism.svg#textbook-detail-1-3)
-
-![会话边界来自相邻事件间隔，中左区域](images/03-mechanism.svg#textbook-detail-2-1)
-
-![会话边界来自相邻事件间隔，中中区域](images/03-mechanism.svg#textbook-detail-2-2)
-
-![会话边界来自相邻事件间隔，中右区域](images/03-mechanism.svg#textbook-detail-2-3)
-
-![会话边界来自相邻事件间隔，下左区域](images/03-mechanism.svg#textbook-detail-3-1)
-
-![会话边界来自相邻事件间隔，下中区域](images/03-mechanism.svg#textbook-detail-3-2)
-
-![会话边界来自相邻事件间隔，下右区域](images/03-mechanism.svg#textbook-detail-3-3)
-
-![会话边界来自相邻事件间隔，完整说明与标注](images/03-mechanism.svg#textbook-complete-detail-1)
-
-</details>
-
-
-顶部每列始终对应同一事件；前一事件由 LAG 取得，第一条没有前驱，故直接标记为开启。开启标记依次为 1、0、1、0，累计和才得到 1、1、2、2；这让 SQL 的两个窗口阶段能够逐项手算。下方时间线使用真实事件间隔的比例作核对。同一用户的事件时间为 0、4、12、16，相邻间隔依次是 4、8、4；采用“间隔严格大于 5 才开启新会话”的规则，在时间 12 处切开，得到 {0,4} 与 {12,16}。等于阈值五时仍留在原会话，若业务采用“大于等于”，必须同时修改 SQL 与边界测试。
-
-下方的 0、4、8 是用来排除另一种常见误解：会话总跨度已经超过五，但两次相邻间隔都只有四，因此仍是一个会话。用“当前时间减去会话首事件”替代 LAG 给出的前一事件时间，会实现另一种固定时长分段规则。
-
-实现时应先按用户分区、按时间与稳定次级键排序，用 LAG 取得前一事件，再标记首行或超阈值行，最后对开启标记求累计和。分区、顺序和累计窗口都需显式保持一致；可以对照 [SQLite 窗口函数的分区与框架说明](https://www.sqlite.org/windowfunctions.html)。图中的横轴是事件时间，不是处理耗时，也不表示空白区间一定没有尚未到达的迟到事件。
+实现时应先按用户分区、按时间与稳定次级键排序，用 LAG 取得前一事件，再标记首行或超阈值行，最后对开启标记求累计和。分区、顺序和累计窗口都需显式保持一致；可以对照 [SQLite 窗口函数的分区与框架说明](https://www.sqlite.org/windowfunctions.html)。图中时间为事件时间。相邻事件之间可能还有尚未到达的记录。
 
 <a id="sec-5"></a>
 

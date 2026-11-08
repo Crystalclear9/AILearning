@@ -104,39 +104,15 @@ VGG 一类规则堆叠使结构容易描述与扩展，但很深的普通网络�
 
 ### 图解：残差分支与捷径如何汇合
 
-![残差分支与捷径如何汇合](images/03-concept.svg)
+![同一位置的输入与修正值相加，输出保留原网格](images/03-residual-addition-keeps-the-same-spatial-coordinates.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/03-residual-addition-keeps-the-same-spatial-coordinates.webp)
 
-![残差分支与捷径如何汇合，上左区域](images/03-concept.svg#textbook-detail-1-1)
-
-![残差分支与捷径如何汇合，上中区域](images/03-concept.svg#textbook-detail-1-2)
-
-![残差分支与捷径如何汇合，上右区域](images/03-concept.svg#textbook-detail-1-3)
-
-![残差分支与捷径如何汇合，中左区域](images/03-concept.svg#textbook-detail-2-1)
-
-![残差分支与捷径如何汇合，中中区域](images/03-concept.svg#textbook-detail-2-2)
-
-![残差分支与捷径如何汇合，中右区域](images/03-concept.svg#textbook-detail-2-3)
-
-![残差分支与捷径如何汇合，下左区域](images/03-concept.svg#textbook-detail-3-1)
-
-![残差分支与捷径如何汇合，下中区域](images/03-concept.svg#textbook-detail-3-2)
-
-![残差分支与捷径如何汇合，下右区域](images/03-concept.svg#textbook-detail-3-3)
-
-![残差分支与捷径如何汇合，完整说明与标注](images/03-concept.svg#textbook-complete-detail-1)
-
-</details>
-
-
-**先把“修正”读成同位置的算术。** 上半图将一个通道的 2 × 2 切片分成两条路径：捷径保留 $`x`$，另一条计算 $`F(x)`$，在相同坐标相加。四个位置的修正值分别为 0.1、−0.2、0、0.5。于是右上位置从 2 减到 1.8，左下位置仍为 3，右下位置从 4 增到 4.5。这些数表示这个示例中的修正值，不能由这四个数推断导数或训练收敛性。
+**先把“修正”读成同位置的算术。** 图中把同一通道的 2 × 2 切片及其修正放在相同坐标网格上：捷径保留 $`x`$，另一条计算 $`F(x)`$，在相同坐标相加。四个位置的修正值分别为 0.1、−0.2、0、0.5。于是右上位置从 2 减到 1.8，左下位置仍为 3，右下位置从 4 增到 4.5。这些数表示这个示例中的修正值，不能由这四个数推断导数或训练收敛性。
 
 残差相加不增加通道数，也不会重新排列位置。若残差分支改变通道或空间尺寸，捷径需要与输出坐标相匹配的投影；只有形状相同仍不足以保证语义对齐。图中相加之后没有额外激活，若接 ReLU 等操作，还必须继续追踪该操作对数值与梯度的影响。
 
-**再看修正为什么是另一种参数化。** 下排左图用同一切片四个位置的原值作横坐标、相加后的输出作纵坐标；虚线表示不作修正，竖直短箭头表示该位置增加或减少了多少。右图把完全相同的四个修正量单独画出，位置 1 至 4 按行展开。目标输出若接近原表示，分支只需提供相应修正；这解释了残差参数化的动机，但小修正值本身不保证梯度良好或训练容易。四个散点来自同一向量的不同坐标，没有把它们连接成一个未知标量函数，也不能从散点间斜率推断雅可比。
+**再看修正为什么是另一种参数化。** 目标表示若接近原表示，分支只需提供相应差值。图中右上角的修正为负，左下角保持原值，右下角增加。这样可以在相同空间坐标上直接检查修正的含义。反向传播还需要知道 $`F(x)`$ 随输入的变化，仅凭一次前向的四个修正值无法得到雅可比。
 
 为了独立检查导数，再另外指定两个完整的一维函数：令 $`F(x)=0`$，则 $`y=x`$，斜率为一；令 $`F(x)=-x`$，则 $`y=0`$，斜率为零。两种函数都存在那条原样传递输入的捷径，最终导数却不同。反向时两条路径的梯度要按链式法则相加，不能因为图上能沿直路走回输入就忽略另一条路径的抵消。后面的非正规矩阵图进一步区分特征方向与奇异方向；这里先把修正的前向含义讲清，随后再用完整导数分析其边界。
 
@@ -187,42 +163,30 @@ print('identity path and projected branch shapes verified')
 
 该实验把残差分支置零，证明此具体参数配置下块等于恒等且输入梯度为一。它没有证明任意训练后块都这样，也没有证明深层残差网络必然优化成功。第二部分核对奇数尺寸下两个步长二分支均得到五乘六，防止只按输入除二误算。实验中的加法后没有额外激活，因而恒等结论与所写公式一致。
 
-![捷径仍可能在特定方向抵消](images/03-residual-direction-cancellation.svg)
+![标量捷径可能抵消分支，剪切算子特征值相同但奇异值相差显著](images/03-residual-gains-in-eigen-directions-and-singular-directions.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/03-residual-gains-in-eigen-directions-and-singular-directions.webp)
 
-![捷径仍可能在特定方向抵消，上左区域](images/03-residual-direction-cancellation.svg#textbook-detail-1-1)
+**捷径仍可能在特定方向抵消。** 图的上半部分 先研究一条固定特征方向；假定该方向是分支雅可比的实特征向量，对应特征值 λ。恒等捷径使同方向增益从 λ 变为 1+λ，绝对增益如图。λ=−1 时恰好抵消，λ=0 时完整保留，λ=1 时放大两倍。因而“有捷径就不会梯度消失”仍需条件；非正规矩阵还不能只凭特征值判断全部奇异方向的放大。
 
-![捷径仍可能在特定方向抵消，上右区域](images/03-residual-direction-cancellation.svg#textbook-detail-1-2)
-
-![捷径仍可能在特定方向抵消，下左区域](images/03-residual-direction-cancellation.svg#textbook-detail-2-1)
-
-![捷径仍可能在特定方向抵消，下右区域](images/03-residual-direction-cancellation.svg#textbook-detail-2-2)
-
-</details>
-
-
-**捷径仍可能在特定方向抵消。** 图 A 先研究一条固定特征方向；假定该方向是分支雅可比的实特征向量，对应特征值 λ。恒等捷径使同方向增益从 λ 变为 1+λ，绝对增益如图。λ=−1 时恰好抵消，λ=0 时完整保留，λ=1 时放大两倍。因而“有捷径就不会梯度消失”仍需条件；非正规矩阵还不能只凭特征值判断全部奇异方向的放大。
-
-**没有负特征值，也可能出现强烈收缩。** 图 B 改看二维残差雅可比 $`R_k=I+J_F=\begin{bmatrix}1&k\\0&1\end{bmatrix}`$。无论 $`k`$ 多大，它的两个特征值都是一；但 $`k=4`$ 时，输入单位圆被剪切成细长椭圆。图内两轴等比例，虚线是原单位圆，实线是所有单位输入的实际像，所以椭圆长、短半径分别给出最大和最小奇异值。
+**没有负特征值，也可能出现强烈收缩。** 图的下半部分 改看二维残差雅可比 $`R_k=I+J_F=\begin{bmatrix}1&k\\0&1\end{bmatrix}`$。无论 $`k`$ 多大，它的两个特征值都是一；但 $`k=4`$ 时，输入单位圆被剪切成细长椭圆。这个椭圆的长、短半径分别等于最大和最小奇异值，图的下半部分 列出其数值。
 
 从 $`R_k^\top R_k=\begin{bmatrix}1&k\\k&k^2+1\end{bmatrix}`$ 求特征值，再开平方，得到在 $`k\ge0`$ 时
 
-$$
+```math
 \begin{aligned}
 &\sigma_{\max}(R_k)=\frac{\sqrt{k^2+4}+k}{2},\\
 &\quad \sigma_{\min}(R_k)=\frac{\sqrt{k^2+4}-k}{2}.
 \end{aligned}
-$$
+```
 
-二者乘积为一。$`k=4`$ 时约为 $`4.236`$ 与 $`0.236`$：一个方向可被放大四倍多，另一个方向却缩到原长约四分之一，尽管所有特征值的模都等于一。图 C 把这种分离随 $`k`$ 的变化画在同一对数轴上。反向乘 $`R_k^\top`$ 具有同样奇异值，但对应方向需用相应左右奇异向量区分；不能把图 B 的前向椭圆直接当作同一方向的反向梯度图。
+二者乘积为一。$`k=4`$ 时约为 $`4.236`$ 与 $`0.236`$：一个方向可被放大四倍多，另一个方向却缩到原长约四分之一，尽管所有特征值的模都等于一。由公式可进一步看出，随 $`k`$ 增大，一个奇异值增长，另一个按其倒数缩小。反向乘 $`R_k^\top`$ 的奇异值不变，但输入与输出的奇异向量角色互换。
 
 这是指定局部线性块的独立反例，用于说明应怎样检查长度增益，并非声称实际残差网络总出现这种剪切。[D2L 对残差参数化的解释](https://d2l.ai/chapter_convolutional-modern/resnet.html)给出恒等捷径的优化动机；这里同时保留实特征方向的抵消例子和非正规矩阵的奇异值例子，让动机与保证的边界可以分别复算。
 
-$$
+```math
 J_{\mathrm{res}}v=(I+J_F)v=(1+\lambda)v,\qquad J_Fv=\lambda v.
-$$
+```
 
 <a id="sec-5"></a>
 ## 3. 深度分离、倒残差与通道表达限制
@@ -279,52 +243,28 @@ print('separable equivalence passed; independent edge kernels have rank two')
 <a id="cnn3-depthwise-visible-rank"></a>
 ### 3.4 从两个实际窗口看见秩一限制
 
-![同一输入通道的两个独立边缘响应不能压成一个空间基](images/03-depthwise-two-directions.svg)
+![两个目标响应分别落在输出的坐标轴上，单一空间基只能覆盖一条过原点的直线](images/03-one-depthwise-basis-cannot-reproduce-two-independent-responses.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![同一输入通道的两个独立边缘响应不能压成一个空间基，上左区域](images/03-depthwise-two-directions.svg#textbook-detail-1-1)
-
-![同一输入通道的两个独立边缘响应不能压成一个空间基，上中区域](images/03-depthwise-two-directions.svg#textbook-detail-1-2)
-
-![同一输入通道的两个独立边缘响应不能压成一个空间基，上右区域](images/03-depthwise-two-directions.svg#textbook-detail-1-3)
-
-![同一输入通道的两个独立边缘响应不能压成一个空间基，中左区域](images/03-depthwise-two-directions.svg#textbook-detail-2-1)
-
-![同一输入通道的两个独立边缘响应不能压成一个空间基，中中区域](images/03-depthwise-two-directions.svg#textbook-detail-2-2)
-
-![同一输入通道的两个独立边缘响应不能压成一个空间基，中右区域](images/03-depthwise-two-directions.svg#textbook-detail-2-3)
-
-![同一输入通道的两个独立边缘响应不能压成一个空间基，下左区域](images/03-depthwise-two-directions.svg#textbook-detail-3-1)
-
-![同一输入通道的两个独立边缘响应不能压成一个空间基，下中区域](images/03-depthwise-two-directions.svg#textbook-detail-3-2)
-
-![同一输入通道的两个独立边缘响应不能压成一个空间基，下右区域](images/03-depthwise-two-directions.svg#textbook-detail-3-3)
-
-![同一输入通道的两个独立边缘响应不能压成一个空间基，完整说明与标注](images/03-depthwise-two-directions.svg#textbook-complete-detail-1)
-
-</details>
-
+[打开原图放大](images/03-one-depthwise-basis-cannot-reproduce-two-independent-responses.webp)
 
 **把上面的核秩换成可检查的输出。** 仍使用实验二中的两个核，记左右差核为 $`H`$、上下差核为 $`V=H^\top`$：
 
-$$
+```math
 \begin{aligned}
 &H=\begin{bmatrix}-1&0&1\\-1&0&1\\-1&0&1\end{bmatrix},\\
 &\quad V=\begin{bmatrix}-1&-1&-1\\0&0&0\\1&1&1\end{bmatrix}.
 \end{aligned}
-$$
+```
 
-这里使用深度学习库常用的互相关约定，不翻转核；输入是一个单通道特征窗口，可取负值，不要求它是未经处理的像素。两个标准输出通道分别以 $`H`$、$`V`$ 为核，无偏置。让测试窗口也依次取 $`H`$ 和 $`V`$，逐项相乘求和得到 $`\langle H,H\rangle=6`$、$`\langle V,V\rangle=6`$、$`\langle H,V\rangle=0`$。因此它们所需的输出分别为 $`(6,0)`$ 与 $`(0,6)`$，图中蓝橙两点就是这两个结果；没有把“横向边缘”这样的名称当作数值证据。
+这里使用深度学习库常用的互相关约定，不翻转核；输入是一个单通道特征窗口，可取负值，不要求它是未经处理的像素。两个标准输出通道分别以 $`H`$、$`V`$ 为核，无偏置。让测试窗口也依次取 $`H`$ 和 $`V`$，逐项相乘求和得到 $`\langle H,H\rangle=6`$、$`\langle V,V\rangle=6`$、$`\langle H,V\rangle=0`$。因此它们所需的输出分别为 $`(6,0)`$ 与 $`(0,6)`$，图中两点就是这两个正交的输出向量。
 
 **为什么换成任何一个深度核都不行。** 设唯一深度核为 $`D`$，两个点卷积系数为 $`a,b`$。对任意窗口 $`X`$，两个输出只能是 $`(a\langle D,X\rangle,b\langle D,X\rangle)`$，都位于向量 $`(a,b)`$ 张成的同一个过原点子空间。图中虚线只画 $`a=b`$ 的一种方向；换系数可以改变方向，却无法把两个不共线的目标点同时放进去。代数上，若两个测试窗口的深度响应为 $`z_H,z_V`$，输出矩阵为
 
-$$
+```math
 \begin{bmatrix}az_H&az_V\\bz_H&bz_V\end{bmatrix}
 =\begin{bmatrix}a\\b\end{bmatrix}
 \begin{bmatrix}z_H&z_V\end{bmatrix},
-$$
+```
 
 它的行列式恒为零，而目标矩阵 $`\begin{bmatrix}6&0\\0&6\end{bmatrix}`$ 的行列式为三十六。失败与初始化、训练轮数无关：这个线性结构本身不能精确表示所需映射。增加到两个深度基，分别取 $`H,V`$，再用单位点投影，就能精确实现这两个输出通道；这给出了足够的明确构造，而不只是一个秩下界。
 
@@ -341,21 +281,9 @@ $$
 
 **先融合，再传给下一尺度。**
 
-![先融合，再传给下一尺度](images/03-pyramid-fuse-before-propagating.svg)
+![粗特征上采样后与横向特征合并，再把已融合结果传向下一尺度](images/03-fused-pyramid-feature-propagates-to-the-next-scale.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![先融合，再传给下一尺度，上左区域](images/03-pyramid-fuse-before-propagating.svg#textbook-detail-1-1)
-
-![先融合，再传给下一尺度，上右区域](images/03-pyramid-fuse-before-propagating.svg#textbook-detail-1-2)
-
-![先融合，再传给下一尺度，下左区域](images/03-pyramid-fuse-before-propagating.svg#textbook-detail-2-1)
-
-![先融合，再传给下一尺度，下右区域](images/03-pyramid-fuse-before-propagating.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/03-fused-pyramid-feature-propagates-to-the-next-scale.webp)
 
 粗特征先上采样到较细一级，与该级主干的横向特征在加号处相加。下一条下行箭头从已经融合的结果出发。加号的两条入边需要在同一空间网格上。一份携带粗上下文，另一份保留更细的位置变化。
 
@@ -424,29 +352,17 @@ print('pyramid shapes and lost-information counterexample verified')
 
 ### 图解：特征金字塔的侧向连接与上采样
 
-![特征金字塔的侧向连接与上采样](images/03-example.svg)
+![两个细位置都继承粗值三，横向分支使其中一个位置增加一](images/03-lateral-input-distinguishes-two-positions-with-the-same-coarse-value.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/03-lateral-input-distinguishes-two-positions-with-the-same-coarse-value.webp)
 
-![特征金字塔的侧向连接与上采样，上左区域](images/03-example.svg#textbook-detail-1-1)
+**读图与计算。** 图从通道投影后的同一通道选出两个相邻位置：低分辨率矩阵为 $`\begin{bmatrix}1&2\\3&4\end{bmatrix}`$，最近邻上采样把每个值复制到一个 $`2\times2`$ 区域。侧向分支在原来的高分辨率坐标上提供一个由零和一组成的折线。两者逐点相加，例如第三行第二列是 $`3+1=4`$，而第四行第二列仍是 $`3+0=3`$。这两个位置在粗特征中原本无法区分，融合后仍可保留侧向分支提供的差别。
 
-![特征金字塔的侧向连接与上采样，上右区域](images/03-example.svg#textbook-detail-1-2)
-
-![特征金字塔的侧向连接与上采样，下左区域](images/03-example.svg#textbook-detail-2-1)
-
-![特征金字塔的侧向连接与上采样，下右区域](images/03-example.svg#textbook-detail-2-2)
-
-</details>
-
-
-**读图与计算。** 图把通道投影之后的一个通道单独展开：低分辨率矩阵为 $`\begin{bmatrix}1&2\\3&4\end{bmatrix}`$，最近邻上采样把每个值复制到一个 $`2\times2`$ 区域。侧向分支在原来的高分辨率坐标上提供一个由零和一组成的折线。两者逐点相加，例如第三行第二列是 $`3+1=4`$，而第四行第二列仍是 $`3+0=3`$。这两个位置在粗特征中原本无法区分，融合后仍可保留侧向分支提供的差别。
-
-完整网络还需要对齐通道。例如 C3 为 $`16\times16\times128`$，经侧向 $`1\times1`$ 卷积变成 $`16\times16\times64`$；C4 为 $`8\times8\times256`$，先投影成 $`8\times8\times64`$ 的 P4，再上采样到 C3 的空间大小，两路相加得到 P3。图中缩小空间并只展示一个通道，是为了逐项检查这个加法，不是另一套网络尺寸。
+完整网络还需要对齐通道。例如 C3 为 $`16\times16\times128`$，经侧向 $`1\times1`$ 卷积变成 $`16\times16\times64`$；C4 为 $`8\times8\times256`$，先投影成 $`8\times8\times64`$ 的 $`M_4`$，再上采样到 C3 的空间大小，与投影后的 C3 相加得到 $`M_3`$。若按 FPN 的命名，预测特征 $`P_3`$ 由 $`M_3`$ 进一步卷积得到。图中选出一个通道的两个位置，可逐项检查加法。
 
 **适用条件。** 最近邻复制没有产生新的空间信息；细节来自侧向分支。相加前必须核对坐标中心、步距、填充和插值约定，形状相同并不充分保证对齐。侧向信息存在也不等于检测性能必然提高，还需要任务上的独立对照。本图只讨论融合，不包含常见的融合后卷积。
 
-**沿同一坐标剖面核对信息来自哪里。** 下图曲线读取第二列，行索引从零开始：上采样分支为 $`(1,1,3,3)`$，侧向分支为 $`(1,1,1,0)`$，融合后为 $`(2,2,4,3)`$。第三、第四行虽然都继承粗值三，但只有第三行得到侧向增量一。两条位置因此恢复了差别；差别来自侧向输入，没有被最近邻复制凭空创造。
+**沿同一坐标剖面核对信息来自哪里。** 完整剖面读取第二列，行索引从零开始：上采样分支为 $`(1,1,3,3)`$，侧向分支为 $`(1,1,1,0)`$，融合后为 $`(2,2,4,3)`$。第三、第四行虽然都继承粗值三，但只有第三行得到侧向增量一。两条位置因此恢复了差别；差别来自侧向输入，没有被最近邻复制凭空创造。
 
 把侧向分支第三行第二列的一移到第四行第二列，保持所有其他位置不变，粗特征和上采样结果均不改变，而融合后的这两个值会从 $`(4,3)`$ 变成 $`(3,4)`$。这个干预区分了“两个位置都属于同一个粗区域”和“细节究竟落在哪一个位置”：只保留粗分支的系统无法对该干预作出不同响应。
 
@@ -511,30 +427,18 @@ print('patch projection equality and dimensional bottleneck verified')
 
 ### 图解：视觉分块把空间网格转成 token 序列
 
-![视觉分块把空间网格转成 token 序列](images/03-mechanism.svg)
+![四乘四输入分成四个块，按固定位置顺序经过共享投影得到四个标记](images/03-patch-projection-preserves-the-order-of-four-spatial-patches.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![视觉分块把空间网格转成 token 序列，上左区域](images/03-mechanism.svg#textbook-detail-1-1)
-
-![视觉分块把空间网格转成 token 序列，上右区域](images/03-mechanism.svg#textbook-detail-1-2)
-
-![视觉分块把空间网格转成 token 序列，下左区域](images/03-mechanism.svg#textbook-detail-2-1)
-
-![视觉分块把空间网格转成 token 序列，下右区域](images/03-mechanism.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/03-patch-projection-preserves-the-order-of-four-spatial-patches.webp)
 
 **逐项复算块投影。** 图使用单通道 $`4\times4`$ 输入和 $`2\times2`$ 不重叠分块，专门把数字缩小到能手算；上方实验仍是三通道、块边长四的独立等价性验证。四块按左上、右上、左下、右下排列，每块按行展开。共享投影为
 
-$$
+```math
 W=\begin{bmatrix}
 1&1&1&1\\
 -1&1&-1&1
 \end{bmatrix}.
-$$
+```
 
 第一行读取块内总和，第二行读取右列减左列。左上块展开为 $`(1,2,5,6)^\top`$，所以 token 是 $`(14,2)^\top`$；其他三块依次为 $`(22,2)^\top,(46,2)^\top,(54,2)^\top`$。不同块共享同一组投影参数，输出仍应连同块位置一起交给后续交互层。这里没有偏置；增加相同偏置会平移所有 token，不改变两个输入之差的分析。
 

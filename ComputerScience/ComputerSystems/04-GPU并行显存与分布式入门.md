@@ -73,33 +73,9 @@ CUDA 把工作组织成线程、线程块和网格，线程块内可以协作并
 
 访存差异可以先落实到地址。下图固定线程数和元素类型，只改变相邻线程所读地址的间距。
 
-![连续访问与跨距访问落在不同段](images/04-scientific-plate.svg)
+![连续与跨距访问触及不同数量的示意段](images/04-lane-memory-segments.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![连续访问与跨距访问落在不同段，上左区域](images/04-scientific-plate.svg#textbook-detail-1-1)
-
-![连续访问与跨距访问落在不同段，上中区域](images/04-scientific-plate.svg#textbook-detail-1-2)
-
-![连续访问与跨距访问落在不同段，上右区域](images/04-scientific-plate.svg#textbook-detail-1-3)
-
-![连续访问与跨距访问落在不同段，中左区域](images/04-scientific-plate.svg#textbook-detail-2-1)
-
-![连续访问与跨距访问落在不同段，中中区域](images/04-scientific-plate.svg#textbook-detail-2-2)
-
-![连续访问与跨距访问落在不同段，中右区域](images/04-scientific-plate.svg#textbook-detail-2-3)
-
-![连续访问与跨距访问落在不同段，下左区域](images/04-scientific-plate.svg#textbook-detail-3-1)
-
-![连续访问与跨距访问落在不同段，下中区域](images/04-scientific-plate.svg#textbook-detail-3-2)
-
-![连续访问与跨距访问落在不同段，下右区域](images/04-scientific-plate.svg#textbook-detail-3-3)
-
-![连续访问与跨距访问落在不同段，完整说明与标注](images/04-scientific-plate.svg#textbook-complete-detail-1)
-
-</details>
-
+[打开原图放大](images/04-lane-memory-segments.webp)
 
 四条示意 lane 读取连续的 float32 元素零到三时，落在同一个十六字节示意段；改成索引零、四、八、十二后，落在四段。图用人为简化的段大小解释地址聚集，四条 lane 与十六字节均不是真实 GPU warp 或事务规格。实际合并访问还受架构、对齐、缓存与指令访问宽度影响。
 
@@ -175,25 +151,13 @@ CPU 与 GPU 内存也要分开。把状态卸载到主机可以减少设备容�
 
 锁页主机内存与合适异步接口可以帮助某些传输路径，但不能把任何带有“非阻塞”参数的调用都理解为已经获得重叠。接口返回仅表示提交语义，结果在何时可安全读取仍由依赖决定。设备到主机的异步拷贝后立刻读取主机数组，也可能读取尚未完成的数据，必须建立完成条件。
 
-![异步提交之后，依赖仍要明确建立](images/04-stream-event-dependency.svg)
+![流间事件依赖与输入存储生命周期](images/04-stream-and-storage-dependencies.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/04-stream-and-storage-dependencies.webp)
 
-![异步提交之后，依赖仍要明确建立，上左区域](images/04-stream-event-dependency.svg#textbook-detail-1-1)
+横轴是示意时间：传输流在 0 到 2 复制输入，计算流 C 等待这次复制完成的事件，再于 2 到 5 使用设备输入。时刻 2 的竖箭头表示执行依赖。底部横条表示设备输入存储必须一直可供使用，直到消费完成。这两种关系不能互相替代，主机调用返回同样不代表设备已完成。
 
-![异步提交之后，依赖仍要明确建立，上右区域](images/04-stream-event-dependency.svg#textbook-detail-1-2)
-
-![异步提交之后，依赖仍要明确建立，下左区域](images/04-stream-event-dependency.svg#textbook-detail-2-1)
-
-![异步提交之后，依赖仍要明确建立，下右区域](images/04-stream-event-dependency.svg#textbook-detail-2-2)
-
-</details>
-
-
-横轴是示意时间：传输流在 0 到 2 复制输入，计算流 C 等待这次复制完成的事件，再于 2 到 5 使用设备输入。橙色竖箭头表示执行依赖；蓝色横条表示设备输入存储必须一直可供使用，直到消费完成。这两种关系不能互相替代，主机调用返回同样不代表设备已完成。
-
-在 PyTorch 的缓存分配器语境下，wait_event 或 wait_stream 用来约束未来排入流的执行顺序；record_stream 则登记张量在另一条流上的使用，帮助分配器避免在该使用结束前复用其存储。也可以按明确的同步与所有权协议手动管理，不能把任一接口当成所有资源安全的通用保证。主机侧传输源也要按具体传输接口维持正确生命周期；本图蓝条只画设备输入存储。这一分工可对照 [PyTorch CUDA 流说明](https://docs.pytorch.org/docs/stable/notes/cuda.html#cuda-streams)。
+在 PyTorch 的缓存分配器语境下，wait_event 或 wait_stream 用来约束未来排入流的执行顺序；record_stream 则登记张量在另一条流上的使用，帮助分配器避免在该使用结束前复用其存储。也可以按明确的同步与所有权协议手动管理，不能把任一接口当成所有资源安全的通用保证。主机侧传输源也要按具体传输接口维持正确生命周期；图中存储条只表示设备输入。这一分工可对照 [PyTorch CUDA 流说明](https://docs.pytorch.org/docs/stable/notes/cuda.html#cuda-streams)。
 
 此图只展示单批数据，数值不是设备性能实测。多批传输与计算能否重叠，仍取决于独立资源、缓冲和完整的数据依赖。
 
@@ -267,39 +231,15 @@ CPU 与 GPU 内存也要分开。把状态卸载到主机可以减少设备容�
 
 两卡各取均值为什么仍不是五条记录的均值？先给每条导数保留身份，再把本地贡献送入同一个全局分母。
 
-![复制参数不等于重复消费同一批数据](images/04-mechanism.svg)
+![本地梯度和与样本数共同决定全局均值](images/04-shard-gradient-count-reduction.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/04-shard-gradient-count-reduction.webp)
 
-![复制参数不等于重复消费同一批数据，上左区域](images/04-mechanism.svg#textbook-detail-1-1)
-
-![复制参数不等于重复消费同一批数据，上中区域](images/04-mechanism.svg#textbook-detail-1-2)
-
-![复制参数不等于重复消费同一批数据，上右区域](images/04-mechanism.svg#textbook-detail-1-3)
-
-![复制参数不等于重复消费同一批数据，中左区域](images/04-mechanism.svg#textbook-detail-2-1)
-
-![复制参数不等于重复消费同一批数据，中中区域](images/04-mechanism.svg#textbook-detail-2-2)
-
-![复制参数不等于重复消费同一批数据，中右区域](images/04-mechanism.svg#textbook-detail-2-3)
-
-![复制参数不等于重复消费同一批数据，下左区域](images/04-mechanism.svg#textbook-detail-3-1)
-
-![复制参数不等于重复消费同一批数据，下中区域](images/04-mechanism.svg#textbook-detail-3-2)
-
-![复制参数不等于重复消费同一批数据，下右区域](images/04-mechanism.svg#textbook-detail-3-3)
-
-![复制参数不等于重复消费同一批数据，完整说明与标注](images/04-mechanism.svg#textbook-complete-detail-1)
-
-</details>
-
-
-图把副本数据并行展开为第 7.2 节可执行程序的五条记录。所有副本从 $`w=0.7`$ 出发，单样本平方损失的导数为 $`2x_i(wx_i-y_i)`$，依次得到 $`1.4,1.6,12.6,14.4,35`$。进程 A 负责前两条，贡献和为三；进程 B 负责后三条，贡献和为六十二。柱高表示导数，而不是损失或执行耗时。
+图把副本数据并行展开为第 7.2 节可执行程序的五条记录。所有副本从 $`w=0.7`$ 出发，单样本平方损失的导数为 $`2x_i(wx_i-y_i)`$，依次得到 $`1.4,1.6,12.6,14.4,35`$。进程 A 负责前两条，贡献和为三；进程 B 负责后三条，贡献和为六十二。图分别标出每个分片的梯度和与样本数。
 
 直接平均两个本地均值，得到 $`\frac{1.5+\frac{62}{3}}{2}\approx11.0833`$，给 A 中每条记录的权重是 $`\frac14`$，给 B 中每条的权重是 $`\frac16`$。声明的五条记录等权目标却应为 $`\frac{3+62}{5}=13`$，每条权重均为 $`\frac15`$。偏差是归约定义改变，不是不同设备间的随机舍入。
 
-若通信最终等权平均两张卡的梯度，各卡对本地损失和先乘 $`\frac25`$ 再反向，平均后恰好抵消设备数二。若使用本地均值，A 与 B 则应分别乘 $`\frac45`$ 与 $`\frac65`$。图底部把两路相互独立的同步前梯度展开为 $`3\times\frac25=1.2`$ 与 $`62\times\frac25=24.8`$，再等权平均得到十三；箭头表示两路汇入同一归约，不表示 A 的结果送给 B 当作输入。图只复算代数，不声称已运行集合通信；真实程序还要检查数据身份、初始参数、通信序列及更新边界。
+若通信最终等权平均两张卡的梯度，各卡对本地损失和先乘 $`\frac25`$ 再反向，平均后恰好抵消设备数二。若使用本地均值，A 与 B 则应分别乘 $`\frac45`$ 与 $`\frac65`$。按这种等权通信约定，两路同步前梯度分别是 $`3\times\frac25=1.2`$ 与 $`62\times\frac25=24.8`$，再等权平均得到十三。图中的两路汇入同一全局账本。图只复算代数，不声称已运行集合通信；真实程序还要检查数据身份、初始参数、通信序列及更新边界。
 
 <a id="sec-5"></a>
 
@@ -321,23 +261,11 @@ CPU 与 GPU 内存也要分开。把状态卸载到主机可以减少设备容�
 
 反向重叠意味着某些层的梯度已经就绪时开始通信，同时继续计算其他层。可隐藏的时间受依赖和资源限制：最后就绪的桶通常有无法隐藏的通信尾部；通信内核和反向也可能争用设备带宽。把全部反向时间与全部通信时间直接取最大值，是理想下界，需要进一步验证实际关键路径。
 
-![同一数据块在四进程环形全归约中的累计与传播](images/04-ring-traffic.svg)
+![同一分片先累加再传播归约结果](images/04-ring-allreduce-single-shard.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/04-ring-allreduce-single-shard.webp)
 
-![同一数据块在四进程环形全归约中的累计与传播，上左区域](images/04-ring-traffic.svg#textbook-detail-1-1)
-
-![同一数据块在四进程环形全归约中的累计与传播，上右区域](images/04-ring-traffic.svg#textbook-detail-1-2)
-
-![同一数据块在四进程环形全归约中的累计与传播，下左区域](images/04-ring-traffic.svg#textbook-detail-2-1)
-
-![同一数据块在四进程环形全归约中的累计与传播，下右区域](images/04-ring-traffic.svg#textbook-detail-2-2)
-
-</details>
-
-
-**底部将通信量继续拆成步数与每步负载。** 四卡环将完整张量 M 分成四块，归约分散与全收集各走三步，每一步每卡发送一块。沿用图中 M 等于十二个有效载荷单位，每卡总发送 $`2(4-1)\frac{12}{4}=18`$，全机发送七十二；如果同时统计接收量，会是另一套计数口径。
+**把通信量拆成步数与每步负载。** 四卡环将完整张量 M 分成四块，归约分散与全收集各走三步，每一步每卡发送一块。若 M 等于十二个有效载荷单位，每卡总发送 $`2(4-1)\frac{12}{4}=18`$，全机发送七十二；如果同时统计接收量，会是另一套计数口径。
 
 在每步启动代价为 $`\alpha`$、有效带宽固定且忽略重叠等因素的简化模型中，每卡通信时间为 $`6\alpha+\frac{18}{\text{带宽}}`$。同样的总字节不能抹去消息启动次数；小张量可能由启动项主导。实际库的算法选择、拓扑与计算重叠需测量，不能把这个模型当作实测承诺。算法结构可参阅 [NCCL 集合通信操作](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/usage/collectives.html)。
 
@@ -345,7 +273,7 @@ CPU 与 GPU 内存也要分开。把状态卸载到主机可以减少设备容�
 
 右侧环从已归约的 A 出发，再用三步把 $`(10,10,10)`$ 从三传到零、一、二。这一阶段只复制结果，不再次加上本地输入，否则就重复归约。其他三个块同时传播，结束后四个进程都持有完整的四块结果。第一阶段是减少未归约贡献并把完整结果分片留下，第二阶段是补齐各自缺少的已归约块；这比把 all-reduce 理解成“每步交换整个梯度”更准确。
 
-对完整四块算法，每个进程每步发送一块，两个阶段各三步，因此每进程发送 $`6\times3=18`$ 个有效载荷单位，即 $`\frac{2(p-1)M}{p}`$。每进程接收量也为十八，收发合计三十六；全网发送量为 $`4\times18=72`$。图只显出 A 的六次传送，不能把这六条箭头当作全网完整的消息数。这里数的是有效载荷，不含协议头、延迟和实现分块，也不代表实际 NCCL 必定选择环算法。
+对完整四块算法，每个进程每步发送一块，两个阶段各三步，因此每进程发送 $`6\times3=18`$ 个有效载荷单位，即 $`\frac{2(p-1)M}{p}`$。每进程接收量也为十八，收发合计三十六；全网发送量为 $`4\times18=72`$。图只沿一个分片追踪六条传送。其他分片也同时沿环传递。这里数的是有效载荷，不含协议头、延迟和实现分块，也不代表实际 NCCL 必定选择环算法。
 
 集合操作的输入输出与 ReduceScatter 后接 AllGather 的关系，可对照 [NCCL 集合操作文档](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/usage/collectives.html)；环式两阶段的步数可参照 [NVIDIA 对传统环形 AllReduce 的说明](https://developer.nvidia.com/blog/3x-faster-allreduce-with-nvswitch-and-tensorrt-llm-multishot/)。本图数字是独立构造的可复算教学例子。
 
@@ -425,33 +353,11 @@ CPU 与 GPU 内存也要分开。把状态卸载到主机可以减少设备容�
 
 ### 图解：复制梯度与分片梯度的范数
 
-![复制梯度与分片梯度的范数](images/04-concept.svg)
+![复制梯度去重、分片梯度汇总平方和](images/04-replicated-and-sharded-norm.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/04-replicated-and-sharded-norm.webp)
 
-![复制梯度与分片梯度的范数，上左区域](images/04-concept.svg#textbook-detail-1-1)
-
-![复制梯度与分片梯度的范数，上中区域](images/04-concept.svg#textbook-detail-1-2)
-
-![复制梯度与分片梯度的范数，上右区域](images/04-concept.svg#textbook-detail-1-3)
-
-![复制梯度与分片梯度的范数，中左区域](images/04-concept.svg#textbook-detail-2-1)
-
-![复制梯度与分片梯度的范数，中中区域](images/04-concept.svg#textbook-detail-2-2)
-
-![复制梯度与分片梯度的范数，中右区域](images/04-concept.svg#textbook-detail-2-3)
-
-![复制梯度与分片梯度的范数，下左区域](images/04-concept.svg#textbook-detail-3-1)
-
-![复制梯度与分片梯度的范数，下中区域](images/04-concept.svg#textbook-detail-3-2)
-
-![复制梯度与分片梯度的范数，下右区域](images/04-concept.svg#textbook-detail-3-3)
-
-</details>
-
-
-**范数归约错误会怎样改变真实更新？** 右侧把上限固定为三，正确系数为 $`\min(1,\frac35)=0.6`$，得到梯度 $`(1.8,2.4)`$。若把两个完整副本的平方和再次相加，会误用 $`\sqrt{50}`$，得到的实际梯度范数只有 $`\frac3{\sqrt2}`$，比要求的三更小。分片场景若各卡先开方再相加，则误用七，真实范数变为 $`\frac{15}{7}`$。这不是仅在日志里多显示一个数：系数被用于全部坐标后，优化器接收的更新量已经改变。图中的圆只表示逻辑二维梯度的范数边界，不表示各设备都有一份半径为三的独立裁剪预算。
+**范数归约错误会怎样改变真实更新？** 取裁剪上限三，正确系数为 $`\min(1,\frac35)=0.6`$，得到梯度 $`(1.8,2.4)`$。若把两个完整副本的平方和再次相加，会误用 $`\sqrt{50}`$，得到的实际梯度范数只有 $`\frac3{\sqrt2}`$，比要求的三更小。分片场景若各卡先开方再相加，则误用七，真实范数变为 $`\frac{15}{7}`$。这不是仅在日志里多显示一个数：系数被用于全部坐标后，优化器接收的更新量已经改变。两种所有权布局都使用同一个逻辑梯度的裁剪预算。
 
 **读图。** 左侧每个设备都持有完整梯度 (3,4)，只需按一份逻辑坐标计算平方和 25；把两个副本再相加会错误地得到 50。右侧设备 A 只持有第一个坐标 3，设备 B 只持有第二个坐标 4，必须先归约局部平方和 $`9+16=25`$，最后开方得到 5。先在各卡开方再相加得到 7，也不是全局 L2 范数。两种布局改变的是坐标存放位置，不改变逻辑梯度本身。
 
@@ -463,33 +369,21 @@ CPU 与 GPU 内存也要分开。把状态卸载到主机可以减少设备容�
 
 ### 图解：重计算用额外计算换取较短的激活驻留
 
-![重计算用额外计算换取较短的激活驻留](images/04-advanced.svg)
+![在检查点区域反向重算中间激活](images/04-checkpoint-recompute-subgraph.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![重计算用额外计算换取较短的激活驻留，上左区域](images/04-advanced.svg#textbook-detail-1-1)
-
-![重计算用额外计算换取较短的激活驻留，上右区域](images/04-advanced.svg#textbook-detail-1-2)
-
-![重计算用额外计算换取较短的激活驻留，下左区域](images/04-advanced.svg#textbook-detail-2-1)
-
-![重计算用额外计算换取较短的激活驻留，下右区域](images/04-advanced.svg#textbook-detail-2-2)
-
-</details>
-
+[打开原图放大](images/04-checkpoint-recompute-subgraph.webp)
 
 图固定一个可手算函数，而不是给任意网络假定统一的重算时长。取 $`a=x^2`$、$`b=\sin a`$、$`L=b^2`$ 和输入 $`x=2`$，得到 $`a=4`$、$`b\approx-0.7568`$、$`L\approx0.57275`$。常规自动求导需要分别为平方、正弦及最后的平方保留相应输入 $`x,a,b`$。把 $`f(x)=\sin(x^2)`$ 包在非重入激活检查点内，长期只需保留边界输入 x 和外部损失仍需的 b；中间 a 不必一直驻留。
 
 反向进入这一段时，重新计算 $`a=2^2=4`$，就能恢复正弦导数所需的值。链式法则给出
 
-$$
+```math
 \begin{aligned}
 &\frac{dL}{dx}=2b\,\cos(a)\,2x
 =8\sin(4)\cos(4)\\
 &\quad \approx3.9574329865.
 \end{aligned}
-$$
+```
 
 两种执行都得到该导数，区别是保存时间与额外执行。用当前受控 CPU 路径的保存张量钩子观察，普通方式保留三个非空标量；非重入检查点保留两个非空标量及一个零元素内部占位张量，函数在反向阶段再次进入。非重入实现可能在所需值已重建后提前停止，不能把“再次进入”理解为一定完整计算整个函数。这个极小账本只解释机制，不等于显存节省比例：对象开销、边界、输出、工作区与模型状态都需要另算。
 

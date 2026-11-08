@@ -112,9 +112,9 @@ Bellman 备份包含两种不同运算：一个动作内部先对环境结果求
 
 上一章有 $`G_t=R_{t+1}+\gamma G_{t+1}`$。固定当前状态和动作后取期望，由状态充分性和后续策略的马尔可夫性质，未来回报条件期望可写成下一状态价值，因此
 
-$$
+```math
 q^\pi(s,a)=\sum_{s',r}p(s',r\mid s,a)\bigl[r+\gamma v^\pi(s')\bigr].
-$$
+```
 
 再对当前动作按策略求平均，得到 Bellman 期望方程。条件期望的塔式法则负责把未知下一状态平均，状态充分性负责使下一段只依赖 $`s'`$ 而非全部历史。若观测不是充分状态，直接把同一个式子写在观测上不一定成立，除非明确使用历史或信念作为状态。
 
@@ -123,27 +123,15 @@ $$
 <a id="visual-mdp-02"></a>
 ### 图解：Bellman 备份：先对环境分支求期望，再区分行动优化
 
-![Bellman 备份：先对环境分支求期望，再区分行动优化](images/02-concept.svg)
+![动作 a 对两个环境分支求期望后得三点七，低于动作 b 的三点九](images/02-img-expectation-then-action-choice.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/02-img-expectation-then-action-choice.webp)
 
-![Bellman 备份：先对环境分支求期望，再区分行动优化，上左区域](images/02-concept.svg#textbook-detail-1-1)
-
-![Bellman 备份：先对环境分支求期望，再区分行动优化，上右区域](images/02-concept.svg#textbook-detail-1-2)
-
-![Bellman 备份：先对环境分支求期望，再区分行动优化，下左区域](images/02-concept.svg#textbook-detail-2-1)
-
-![Bellman 备份：先对环境分支求期望，再区分行动优化，下右区域](images/02-concept.svg#textbook-detail-2-2)
-
-</details>
-
-
-从 A 的叶端开始读：动作 a 的即时奖励一，等概率到达价值二、四的后继；折扣 $`0.9`$，路径价值分别为 $`2.8,4.6`$。圆形机会节点由环境决定，智能体不能选择其结果。B 先乘对应概率，再求和：
-$$
+先读动作 a 的两个结果：动作 a 的即时奖励一，等概率到达价值二、四的后继；折扣 $`0.9`$，路径价值分别为 $`2.8,4.6`$。圆形机会节点由环境决定，智能体不能选择其结果。先乘对应概率，再求和：
+```math
 Q(a)=\frac12(2.8)+\frac12(4.6)=1.4+2.3=3.7.
-$$
-C 加入确定获得 $`3.9`$ 后终止的动作 b。正确动作是 b；若把机会分支也取最大，会把 a 错估为 $`4.6`$，进而反转选择。这里最优动作间隔为 $`0.2`$，不应将单次幸运结果与期望值混为一谈。
+```
+再比较确定获得 $`3.9`$ 后终止的动作 b。正确动作是 b；若把机会分支也取最大，会把 a 错估为 $`4.6`$，进而反转选择。这里最优动作间隔为 $`0.2`$，不应将单次幸运结果与期望值混为一谈。
 
 最优 Bellman 算子的顺序为“每个动作内部按环境概率求期望，再在动作之间取最大”；固定策略评价则还需按策略概率平均动作。先取最大再求期望通常意味着已经获得未来随机结果的信息，改变了问题的信息条件。此类机会与选择节点的区分可参照 [Berkeley CS188 价值迭代教材](https://inst.eecs.berkeley.edu/~cs188/textbook/mdp/value-iteration.html)。
 
@@ -161,12 +149,12 @@ C 加入确定获得 $`3.9`$ 后终止的动作 b。正确动作是 b；若把�
 
 令 $`P_\pi(s,s')=\sum_a\pi(a\mid s)P(s'\mid s,a)`$，$`r_\pi(s)=\sum_a\pi(a\mid s)\overline r(s,a)`$。则价值方程为
 
-$$
+```math
 \begin{aligned}
 v^\pi &=r_\pi+\gamma P_\pi v^\pi,\\[6pt]
 (I-\gamma P_\pi)v^\pi &=r_\pi.
 \end{aligned}
-$$
+```
 
 因为 $`P_\pi`$ 为行随机矩阵，最大范数算子范数为一，$`\gamma P_\pi`$ 的谱半径小于一。因此逆矩阵存在，并可写成非负 Neumann 级数 $`\sum_{k\ge0}\gamma^kP_\pi^k`$。每一项都对应若干步之后的期望奖励，这让线性代数解与轨迹回报具有同一解释，而不是两套互不相关的定义。
 
@@ -200,33 +188,21 @@ $$
 
 定义 $`(T_\pi v)(s)=r_\pi(s)+\gamma\sum_{s'}P_\pi(s,s')v(s')`$。它接受任意候选价值向量，做一次策略加权的前瞻，不要求输入已经等于真实价值。定义最优算子
 
-$$
+```math
 \begin{aligned}
 &Q_v(s,a)=\overline r(s,a)\\
 &\quad+\gamma\sum_{s'}P(s'\mid s,a)v(s'),\\
 &(Tv)(s)=\max_{a\in\mathcal A(s)}Q_v(s,a).
 \end{aligned}
-$$
+```
 
 <a id="scientific-plate-02"></a>
 
-![环境求期望而决策者选动作](images/02-expectation-before-action-max.svg)
+![每个动作内部先对环境分支加权，再跨动作取最大](images/02-img-bellman-operator-order.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/02-img-bellman-operator-order.webp)
 
-![环境求期望而决策者选动作，上左区域](images/02-expectation-before-action-max.svg#textbook-detail-1-1)
-
-![环境求期望而决策者选动作，上右区域](images/02-expectation-before-action-max.svg#textbook-detail-1-2)
-
-![环境求期望而决策者选动作，下左区域](images/02-expectation-before-action-max.svg#textbook-detail-2-1)
-
-![环境求期望而决策者选动作，下右区域](images/02-expectation-before-action-max.svg#textbook-detail-2-2)
-
-</details>
-
-
-左侧两个圆点是选定动作 A 或 B 后的机会分支。每个机会分支列出两个可能结果。每个分支沿标注的转移概率加权汇总后继价值。得到两个动作候选后，最优算子取其中较大者。即时奖励与折扣按正文加入。若把机会分支也取最大，就改变了环境随机性。
+上、下两行分别处理动作 A、B。每个动作先将即时奖励与折扣后继价值按环境概率汇总，再把所得的两个动作值送到最优算子。若直接在环境分支上取最大，就把环境的随机结果错当作可选决策。
 
 最大动作选择在每个状态独立进行。固定策略算子是仿射映射，最优算子因最大值通常非线性。二者都在完整表格空间上定义，后续收缩证明针对这套精确映射。如果把更新结果再投影到受限函数类，实际算子就变成投影复合映射，其性质需要重新分析。
 
@@ -250,13 +226,13 @@ $$
 
 记 $`\Vert x\Vert _\infty=\max_s\vert x(s)\vert `$。对任何两个候选向量，有
 
-$$
+```math
 \begin{aligned}
 &\vert (T_\pi u)(s)-(T_\pi v)(s)\vert\\
 &\quad =\gamma\left\vert \sum_{s'}P_\pi(s,s')[u(s')-v(s')]\right\vert\\
 &\quad \le\gamma\Vert u-v\Vert _\infty.
 \end{aligned}
-$$
+```
 
 先用三角不等式，再用每项误差不超过最大误差和概率行和为一，即得 $`\Vert T_\pi u-T_\pi v\Vert _\infty\le\gamma\Vert u-v\Vert _\infty`$。奖励项消失，因为同一个已知模型下比较两个输入。若模型也在变化，还需要额外模型误差项，不能把同模型收缩当作对模型失真的完整保证。
 
@@ -281,21 +257,23 @@ $$
 <a id="visual-insight-mdp-02"></a>
 ### 深入图解：收缩率决定最坏误差上界下降的速度
 
-![收缩率决定最坏误差上界下降的速度](images/02-insight.svg)
+![交替转移模型的前两次同步备份与精确固定点](images/02-img-alternating-bellman-iterates.webp)
 
-左图采用第 2.2 节的交替转移模型和第 10.1 节的初始向量 $`(-3,7)`$，实际执行同步备份。两条实线分别为两个状态价值，虚线为其精确固定点 $`(\frac{280}{19},\frac{290}{19})`$；第一次备份为 $`(7.3,-0.7)`$，第二次为 $`(0.37,8.57)`$。坐标上下交替，是因为旧状态一的误差下一轮进入状态零，反向亦然，并非算法变得不稳定。
+[打开原图放大](images/02-img-alternating-bellman-iterates.webp)
+
+表中采用第 2.2 节的交替转移模型和第 10.1 节的初始向量 $`(-3,7)`$，实际执行同步备份。前两列状态值按实际备份次序列出，末行给出精确固定点 $`(\frac{280}{19},\frac{290}{19})`$；第一次备份为 $`(7.3,-0.7)`$，第二次为 $`(0.37,8.57)`$。坐标上下交替，是因为旧状态一的误差下一轮进入状态零，反向亦然，并非算法变得不稳定。
 
 把误差记作 $`e_k=v_k-v^\pi`$，本例有
 
-$$
+```math
 \begin{aligned}
 &e_{k+1}=\gamma
 \begin{pmatrix}0&1\\1&0\end{pmatrix}e_k,\\
 &\quad \|e_{k+1}\|_\infty=\gamma\|e_k\|_\infty.
 \end{aligned}
-$$
+```
 
-右图画的是**实际归一化误差**，分别用两种折扣重新求精确价值后计算，因此在这个特殊置换转移中恰好等于理论曲线 $`\gamma^k`$。两种折扣的精确价值不同，不能共用左图固定点来计算右图蓝线误差。第 4.2 节的算子证明仍只承诺不等式；其他 MDP 的概率平均可能进一步抵消误差，实际下降会更快。同步评估的定义与模型固定点可对照 [Stanford CS234 第 2 讲第 7、12 页](https://web.stanford.edu/class/cs234/slides/lecture2pre.pdf)，本图轨迹由本章模型直接复算。
+对不同折扣分别求精确固定点后再计算**实际归一化误差**，在这个特殊置换转移中恰好等于理论曲线 $`\gamma^k`$。两种折扣对应不同的精确价值。计算任一误差时，须使用该折扣对应的固定点。第 4.2 节的算子证明仍只承诺不等式；其他 MDP 的概率平均可能进一步抵消误差，实际下降会更快。同步评估的定义与模型固定点可对照 [Stanford CS234 第 2 讲第 7、12 页](https://web.stanford.edu/class/cs234/slides/lecture2pre.pdf)，表中两次备份由本章模型直接复算。
 
 对完整表格 Bellman 收缩算子，每轮同步备份后的最大范数误差不超过上一轮的 gamma 倍。若初始误差上界为一，五轮后零点五折扣的界为零点零三一二五，零点九折扣的界约零点五九零四九。几何曲线对一般模型是理论上界，本图的交替模型是达到上界的特例；图中不包含采样噪声、函数逼近投影或模型误差。原地和异步更新需要按相应次序与条件分析，不能把完整同步轮次的证书直接套到少量局部更新。
 
@@ -371,9 +349,9 @@ Bellman 最优式在动作确定后对下一状态求期望，再在当前可选
 
 定义残差 $`\delta=\Vert Tv-v\Vert _\infty`$。由三角不等式和收缩，$`\Vert v-v^*\Vert \le\delta+\gamma\Vert v-v^*\Vert `$，因此
 
-$$
+```math
 \Vert v-v^*\Vert _\infty\le\frac{\delta}{1-\gamma}.
-$$
+```
 
 固定策略残差同理控制相对该策略的价值误差。若只知道相邻迭代差 $`\Vert v_{k+1}-v_k\Vert =\delta_k`$，它正是旧向量 $`v_k`$ 的残差，因此旧向量误差至多 $`\frac{\delta_k}{(1-\gamma)}`$，新向量还可用收缩多乘一个 $`\gamma`$。报告容差时应说明返回的是哪个向量，避免一位索引错用。
 
@@ -383,10 +361,10 @@ $$
 
 令 $`\pi_v`$ 对近似价值 $`v`$ 贪心，误差 $`e=\Vert v-v^*\Vert _\infty`$。可推得
 
-$$
+```math
 \Vert v^*-v^{\pi_v}\Vert _\infty\le\frac{2\gamma e}{1-\gamma}
 \le\frac{2\gamma\delta}{(1-\gamma)^2}.
-$$
+```
 
 第一个界来自把最优动作与近似贪心动作各自的未来误差最多算一次，再用策略价值递推累积；第二个代入残差界。它通常保守，但提醒高折扣下固定数值残差可能不足以保证很小控制损失。第 9.1 节会完整展开推导，而不是把价值精度直接当作策略精度。
 
@@ -394,24 +372,24 @@ $$
 
 ### 图解算例：同一个 Bellman 残差在高折扣下给出更松的误差界
 
-![同一个 Bellman 残差在高折扣下给出更松的误差界](images/02-example.svg)
+![同一残差在两种折扣下给出的三个上界](images/02-img-bellman-residual-certificates.webp)
 
-[打开原图放大](images/02-example.svg)
+[打开原图放大](images/02-img-bellman-residual-certificates.webp)
 
-**图 B把上界落实为能达到等号的任务。** 取零奖励、确定自循环、$`\gamma=0.99`$ 的单状态模型，真值为零。候选值为 $`c`$ 时，真实值误差为 $`|c|`$，残差却只有 $`0.01|c|`$，因此“残差除以 $`1-\gamma`$”恰好回到真实误差。该任务只有一个动作，实际策略损失恒为零；这检验的是价值界的紧性，不是在声称图 A两个策略上界也由同一个任务达到。
+**构造能达到价值误差界的任务。** 取零奖励、确定自循环、$`\gamma=0.99`$ 的单状态模型，真值为零。候选值为 $`c`$ 时，真实值误差为 $`|c|`$，残差却只有 $`0.01|c|`$，因此“残差除以 $`1-\gamma`$”恰好回到真实误差。该任务只有一个动作，实际策略损失恒为零；这个任务验证了价值界的紧性。策略界另需考虑动作选择。
 
-图同时画出三种不同证书。固定 $`\delta=\|Tv-v\|_\infty=0.01`$，蓝线是价值误差界 $`\frac{\delta}{1-\gamma}`$；灰线是先把残差转成价值误差、再代入前面策略损失界得到的 $`\frac{2\gamma\delta}{(1-\gamma)^2}`$。它正确但未充分利用当前策略正是对同一向量贪心这个事实。
+表中对照三种不同证书。固定 $`\delta=\|Tv-v\|_\infty=0.01`$，第一列上界是价值误差界 $`\frac{\delta}{1-\gamma}`$；间接策略界先把残差转成价值误差、再代入前面策略损失界得到的 $`\frac{2\gamma\delta}{(1-\gamma)^2}`$。它正确但未充分利用当前策略正是对同一向量贪心这个事实。
 
-还可直接得到橙色界。令 $`\pi`$ 对 $`v`$ 精确贪心，则 $`T_\pi v=Tv`$，因此同一个残差同时是最优算子和该固定策略算子的残差。分别应用收缩残差引理，得到
+还可直接得到策略损失界。令 $`\pi`$ 对 $`v`$ 精确贪心，则 $`T_\pi v=Tv`$，因此同一个残差同时是最优算子和该固定策略算子的残差。分别应用收缩残差引理，得到
 
-$$
+```math
 \begin{aligned}
 &\|v-v^*\|_\infty\le\frac\delta{1-\gamma},\\
 &\quad \|v-v^\pi\|_\infty\le\frac\delta{1-\gamma}.
 \end{aligned}
-$$
+```
 
-三角不等式立即给出 $`\|v^*-v^\pi\|_\infty\le\frac{2\delta}{1-\gamma}`$。同一事件上的确定性结论可同时成立，所以可以取这次直接界与灰色界中较小者；没有增加新的失败概率预算。折扣为零点九时，价值界为零点一，橙色策略界为零点二，灰色为一点八；折扣零点九九时分别是一、二与一百九十八。纵轴使用对数刻度，比较的是上界量级，并非某次实验的实际策略损失。
+三角不等式立即给出 $`\|v^*-v^\pi\|_\infty\le\frac{2\delta}{1-\gamma}`$。同一事件上的确定性结论可同时成立，所以可以取这次直接界与间接界中较小者；没有增加新的失败概率预算。折扣为零点九时，价值界为零点一，直接策略界为零点二，间接策略界为一点八；折扣零点九九时分别是一、二与一百九十八。这些数值均为理论上界。
 
 这说明证书松散可能来自证明路径，也可能来自问题敏感性，不能只凭一个很大的上界断言策略必然差。直接界仍要求有限折扣表格模型、完整真实算子残差和精确贪心；采样批次 TD 损失、错误模型残差或近似动作优化不能直接代入。若只有 $`\|Tv-T_\pi v\|_\infty\le\eta`$，则固定策略残差至多 $`\delta+\eta`$，相应直接策略界变成 $`\frac{2\delta+\eta}{1-\gamma}`$。
 
@@ -449,7 +427,7 @@ $$
 
 令 $`\pi`$ 对 $`v`$ 贪心，因此 $`Tv=T_\pi v`$。用 $`v^*=Tv^*`$ 与 $`v^\pi=T_\pi v^\pi`$，插入 $`Tv`$ 和 $`T_\pi v`$，可得
 
-$$
+```math
 \begin{aligned}
 &\Vert v^*-v^\pi\Vert _\infty
 \le\Vert Tv^*-Tv\Vert _\infty\\
@@ -457,7 +435,7 @@ $$
 +\Vert T_\pi v^*-T_\pi v^\pi\Vert _\infty\\
 &\quad \le2\gamma e+\gamma\Vert v^*-v^\pi\Vert _\infty.
 \end{aligned}
-$$
+```
 
 移项得到前述界。若新策略只是近似贪心，满足 $`\Vert Tv-T_\pi v\Vert _\infty\le\eta`$，右侧再增加 $`\eta`$，损失界变为 $`\frac{(2\gamma e+\eta)}{(1-\gamma)}`$。这展示价值估计误差与动作选择误差如何分别影响控制，不应把二者混成一个训练损失。
 
@@ -477,10 +455,10 @@ $$
 
 若实际迭代满足 $`v_{k+1}=Tv_k+e_k`$，且 $`\Vert e_k\Vert _\infty\le\varepsilon`$，递推有
 
-$$
+```math
 \Vert v_k-v^*\Vert _\infty\le\gamma^k\Vert v_0-v^*\Vert _\infty+
 \varepsilon\frac{1-\gamma^k}{1-\gamma}.
-$$
+```
 
 初始误差按几何衰减，但持续近似误差留下约 $`\frac{\varepsilon}{(1-\gamma)}`$ 的误差地板。增加迭代轮数无法消除固定偏差。若误差逐渐变小或满足更细条件，可能得到更好结果，需要相应分析，不能一概认为任何噪声都导致同一个固定极限。
 
@@ -500,60 +478,38 @@ $$
 
 要把“投影可能破坏收缩”变成可检查的机制，不需要神经网络或随机噪声。考虑一个只有两个状态、每状态只有一个动作的持续任务：
 
-$$
+```math
 P=\begin{pmatrix}0.1&0.9\\0.1&0.9\end{pmatrix},
 \qquad r=0,\qquad\gamma=0.9.
-$$
+```
 
 转移矩阵每行和为一，链不可约且非周期。所有奖励为零，所以真实价值唯一为 $`v^*=0`$，Bellman 算子是 $`Tv=0.9Pv`$，在最大范数下为 $`0.9`$ 收缩。
 
 现在把价值限制为一维线性函数族
 
-$$
+```math
 v_w=\phi w,\qquad\phi=\begin{pmatrix}1\\2\end{pmatrix}.
-$$
+```
 
 每轮先精确计算完整 Bellman 目标，再以权重 $`D=\mathrm{diag}(0.9,0.1)`$ 精确求最小二乘投影：
 
-$$
+```math
 \begin{aligned}
 &w_{k+1}
 =\arg\min_u\|T(\phi w_k)-\phi u\|_D^2,\\
 &\quad \|z\|_D^2=z^\top Dz.
 \end{aligned}
-$$
+```
 
 这里没有采样误差、没有有限步优化误差，真实零价值也在函数族中，因此发散不能归咎于表达能力不足。
 
-![Bellman 备份先缩小最大坐标，随后失配拟合权重的投影把结果放大；改用平稳分布权重后同一函数族稳定衰减](images/02-projected-bellman-growth.svg)
+![Bellman 备份缩小最大坐标，失配权重的投影再次放大](images/02-img-projected-bellman-growth.webp)
 
-<details>
-<summary>页内放大读图</summary>
-
-![Bellman 备份先缩小最大坐标，随后失配拟合权重的投影把结果放大；改用平稳分布权重后同一函数族稳定衰减，上左区域](images/02-projected-bellman-growth.svg#textbook-detail-1-1)
-
-![Bellman 备份先缩小最大坐标，随后失配拟合权重的投影把结果放大；改用平稳分布权重后同一函数族稳定衰减，上中区域](images/02-projected-bellman-growth.svg#textbook-detail-1-2)
-
-![Bellman 备份先缩小最大坐标，随后失配拟合权重的投影把结果放大；改用平稳分布权重后同一函数族稳定衰减，上右区域](images/02-projected-bellman-growth.svg#textbook-detail-1-3)
-
-![Bellman 备份先缩小最大坐标，随后失配拟合权重的投影把结果放大；改用平稳分布权重后同一函数族稳定衰减，中左区域](images/02-projected-bellman-growth.svg#textbook-detail-2-1)
-
-![Bellman 备份先缩小最大坐标，随后失配拟合权重的投影把结果放大；改用平稳分布权重后同一函数族稳定衰减，中中区域](images/02-projected-bellman-growth.svg#textbook-detail-2-2)
-
-![Bellman 备份先缩小最大坐标，随后失配拟合权重的投影把结果放大；改用平稳分布权重后同一函数族稳定衰减，中右区域](images/02-projected-bellman-growth.svg#textbook-detail-2-3)
-
-![Bellman 备份先缩小最大坐标，随后失配拟合权重的投影把结果放大；改用平稳分布权重后同一函数族稳定衰减，下左区域](images/02-projected-bellman-growth.svg#textbook-detail-3-1)
-
-![Bellman 备份先缩小最大坐标，随后失配拟合权重的投影把结果放大；改用平稳分布权重后同一函数族稳定衰减，下中区域](images/02-projected-bellman-growth.svg#textbook-detail-3-2)
-
-![Bellman 备份先缩小最大坐标，随后失配拟合权重的投影把结果放大；改用平稳分布权重后同一函数族稳定衰减，下右区域](images/02-projected-bellman-growth.svg#textbook-detail-3-3)
-
-</details>
-
+[打开原图放大](images/02-img-projected-bellman-growth.webp)
 
 由于 $`P\phi=(1.9,1.9)^\top`$，解标量正规方程可得
 
-$$
+```math
 \begin{aligned}
 &\phi^\top D\phi=0.9+0.1\times4=1.3,\\
 &\phi^\top DP\phi=0.9\times1\times1.9
@@ -564,17 +520,17 @@ $$
 &=\frac{1.881}{1.3}w_k
 \approx1.446923\,w_k.
 \end{aligned}
-$$
+```
 
 只要 $`w_0\neq0`$，幅度就几何增长。取 $`w_0=1`$，第一轮的完整过程是
 
-$$
+```math
 \begin{pmatrix}1\\2\end{pmatrix}
 \xrightarrow{T}
 \begin{pmatrix}1.71\\1.71\end{pmatrix}
 \xrightarrow{\Pi_D}
 \begin{pmatrix}1.446923\\2.893846\end{pmatrix}.
-$$
+```
 
 Bellman 备份把最大绝对值从二降至 $`1.71`$，投影却把它增加到 $`2.893846`$。投影并没有做错自己的任务：第一个状态权重大，它宁愿令第二状态偏离目标更多，也要使第一个状态更接近 $`1.71`$。由于函数族规定第二个坐标是第一个的两倍，这种选择放大了下一轮备份将重点使用的第二状态。
 
@@ -582,17 +538,17 @@ Bellman 备份把最大绝对值从二降至 $`1.71`$，投影却把它增加到
 
 本链的平稳分布为 $`d_\pi=(0.1,0.9)`$。换成 $`D_\pi=\mathrm{diag}(0.1,0.9)`$，其他部分完全保持：
 
-$$
+```math
 w_{k+1}
 =0.9\frac{3.61}{3.7}w_k
 \approx0.878108\,w_k,
-$$
+```
 
-于是从同一个 $`w_0=1`$ 衰减到零。第八轮两种权重分别给出约 $`19.211600`$ 与 $`0.353496`$，图中使用对数纵轴同时显示增长和衰减。
+于是从同一个 $`w_0=1`$ 衰减到零。第八轮两种权重分别给出约 $`19.211600`$ 与 $`0.353496`$，可由各自的系数直接复算。
 
 平稳权重之所以特殊，可以用 Jensen 不等式直接说明。对任意向量 $`z`$，
 
-$$
+```math
 \begin{aligned}
 &\|Pz\|_{D_\pi}^2
 =\sum_i d_{\pi,i}\left(\sum_jP_{ij}z_j\right)^2\\
@@ -600,7 +556,7 @@ $$
 &=\sum_jd_{\pi,j}z_j^2
 =\|z\|_{D_\pi}^2.
 \end{aligned}
-$$
+```
 
 最后一个相等使用 $`d_\pi^\top P=d_\pi^\top`$。因此固定策略的 Bellman 算子与正交投影在同一加权范数下分别收缩与不扩张，复合后仍有 $`\gamma`$ 收缩保证。这里权重均为正，线性特征 Gram 矩阵也可逆，投影定义无歧义。
 
@@ -773,12 +729,12 @@ print('expectation/max-order and contraction implementation assertions passed')
 
 如果只保留非终止状态、转移行和可能小于一，而 $`r_{\min},r_{\max}`$ 只约束实际决策时的奖励，应先把零尾部纳入边界。始终有效的保守选择是
 
-$$
+```math
 \begin{aligned}
 &\ell_0=\frac{\min(0,r_{\min})}{1-\gamma}\mathbf1,\\
 &\quad u_0=\frac{\max(0,r_{\max})}{1-\gamma}\mathbf1.
 \end{aligned}
-$$
+```
 
 此时 $`\ell_0\le0\le u_0`$。次随机转移对非正常数的加权和不小于这个常数，对非负常数的加权和不大于这个常数，因而仍有 $`T\ell_0\ge\ell_0`$、$`Tu_0\le u_0`$，上述单调夹逼成立。一步领取一然后终止、$`\gamma=0.9`$ 的任务真值是一；若仅以决策奖励区间 $`[1,1]`$ 代入完整持续模型公式，会错误地把上下界都定成十。保留零尾部后得到 $`[0,10]`$，一次备份即收缩为 $`[1,1]`$。吸收状态统一回报的约定可对照 [Sutton–Barto 讲义第 11 页](https://web.stanford.edu/class/cme241/lecture_slides/rich_sutton_slides/5-6-MDPs.pdf)；这里的常数界从该约定与算子单调性直接推出。
 
@@ -788,9 +744,9 @@ $$
 
 考虑变量向量 $`v`$，施加所有状态动作约束
 
-$$
+```math
 v(s)\ge\overline r(s,a)+\gamma\sum_{s'}P(s'\mid s,a)v(s').
-$$
+```
 
 这等价于 $`v\ge Tv`$。由单调性不断应用 $`T`$，取极限得任意可行 $`v`$ 都逐坐标不小于 $`v^*`$。因此若目标为最小化 $`\sum_s\nu(s)v(s)`$，且所有 $`\nu(s)>0`$，$`v^*`$ 是唯一最优解。这里线性规划最小化的是所有上界中最小那个，并不与原奖励最大化矛盾。
 
@@ -804,9 +760,9 @@ $$
 
 给每个状态动作约束配置非负变量 $`x(s,a)`$，线性规划对偶约束具有流量守恒形式
 
-$$
+```math
 \sum_a x(s,a)-\gamma\sum_{y,a}P(s\mid y,a)x(y,a)=\nu(s).
-$$
+```
 
 左边表示从该状态使用动作的折扣总量减去来自其他状态的折扣流入，右边是初始注入。若 $`\nu`$ 是初始概率分布，对偶变量可解释为未归一化的折扣状态动作访问量。**在完整行随机表示中（有终止时包括吸收后的虚拟自循环）**，将守恒式对状态求和得到总量 $`\sum_{s,a}x(s,a)=\frac1{1-\gamma}`$。若只统计终止前真实决策，令 $`T`$ 为终止时刻，则总量是 $`E[\sum_{t=0}^{T-1}\gamma^t]`$，至多为这个几何上界，并随策略和终止机制变化。一步必终止的任务只有一次真实决策，故总量为一；吸收后的虚拟访问不属于执行动作数。两种表示的原始回报相同，但不能把访问总量或归一化分母混用。目标最大化 $`\sum_{s,a}x(s,a)\overline r(s,a)`$，恰是总体期望回报。
 
@@ -818,25 +774,13 @@ $$
 
 ### 图解：终止表示、价值与折扣访问量
 
-![一步终止任务在完整吸收表示与非终止子矩阵中的价值和访问量](images/02-terminal-measures.svg)
+![两种终止表示保留同一价值，但折扣访问总量不同](images/02-img-terminal-value-and-occupancy.webp)
 
-<details>
-<summary>页内放大读图</summary>
+[打开原图放大](images/02-img-terminal-value-and-occupancy.webp)
 
-![一步终止任务在完整吸收表示与非终止子矩阵中的价值和访问量，上左区域](images/02-terminal-measures.svg#textbook-detail-1-1)
+表中固定一个确定任务：从 A 执行唯一动作，领取一并真正终止，折扣为零点九。完整表示补上零奖励吸收状态 T，于是 $`v(T)=0+0.9v(T)=0`$、$`v(A)=1+0.9v(T)=1`$。非终止表示删掉终止状态，只保存继续转移子矩阵 $`K=[0]`$，同一个方程变为 $`v=1+0.9Kv=1`$。两个表示的价值相同，不能因为继续转移子矩阵的行和为零就强行把它归一化成一；那会把一次结束改成持续领取奖励。
 
-![一步终止任务在完整吸收表示与非终止子矩阵中的价值和访问量，上右区域](images/02-terminal-measures.svg#textbook-detail-1-2)
-
-![一步终止任务在完整吸收表示与非终止子矩阵中的价值和访问量，下左区域](images/02-terminal-measures.svg#textbook-detail-2-1)
-
-![一步终止任务在完整吸收表示与非终止子矩阵中的价值和访问量，下右区域](images/02-terminal-measures.svg#textbook-detail-2-2)
-
-</details>
-
-
-上图固定一个确定任务：从 A 执行唯一动作，领取一并真正终止，折扣为零点九。左侧补上零奖励吸收状态 T，于是 $`v(T)=0+0.9v(T)=0`$、$`v(A)=1+0.9v(T)=1`$。右侧删掉终止状态，只保存继续转移子矩阵 $`K=[0]`$，同一个方程变为 $`v=1+0.9Kv=1`$。两个表示的价值相同，不能因为右侧行和为零就强行把它归一化成一；那会把一次结束改成持续领取奖励。
-
-访问量则需要另算。完整表示中，A 只在时刻零访问一次，所以 $`x_A=1`$；T 从下一时刻起永久自循环，$`x_T=0.9+0.9^2+\cdots=\frac{0.9}{1-0.9}=9`$，总量为十。用流量约束也得到 $`x_A=1`$、$`x_T-0.9(x_A+x_T)=0`$，与轨迹求和完全一致。图中的珊瑚色长条表示九次**折扣虚拟访问**，不是九次环境奖励、九个真实回合或九条新增数据。
+访问量则需要另算。完整表示中，A 只在时刻零访问一次，所以 $`x_A=1`$；T 从下一时刻起永久自循环，$`x_T=0.9+0.9^2+\cdots=\frac{0.9}{1-0.9}=9`$，总量为十。用流量约束也得到 $`x_A=1`$、$`x_T-0.9(x_A+x_T)=0`$，与轨迹求和完全一致。两种访问总量相差的九来自吸收状态的**折扣虚拟访问**。
 
 只保留终止前真实决策时，总量为一，目标仍是 $`x_A r_A=1`$；完整表示则是 $`x_A r_A+x_T r_T=1+9\times0=1`$。如果先把真实决策访问重新归一化成概率一，却又照搬完整持续模型的 $`\frac1{1-\gamma}`$ 系数，会把回报误算成十。归一化常数、期望所用分布与是否包含吸收状态必须配套。零奖励吸收状态的统一约定见 [Sutton–Barto 讲义第 11 页](https://web.stanford.edu/class/cme241/lecture_slides/rich_sutton_slides/5-6-MDPs.pdf)；本图把该约定直接代入本节的流量方程逐项求解。
 
@@ -932,12 +876,12 @@ $$
 
 从收缩得 $`\Vert v_{k+1}-v_k\Vert \le\gamma^k\Vert v_1-v_0\Vert `$。对任意 $`m>k`$，三角不等式给出
 
-$$
+```math
 \begin{aligned}
 &\Vert v_m-v_k\Vert \le\sum_{j=k}^{m-1}\Vert v_{j+1}-v_j\Vert\\
 &\quad \le\frac{\gamma^k}{1-\gamma}\Vert v_1-v_0\Vert .
 \end{aligned}
-$$
+```
 
 右边与尾段长度无关，并随 $`k`$ 趋零，因此不是只说明相邻差小，而是真正说明任意足够晚的两项都接近。这一步区别于“相邻差趋零所以序列收敛”的错误推理；一般序列相邻差趋零仍可能发散，例如某些缓慢增长序列。收缩额外提供可求和的几何速度，才保证尾段总变化有限。
 
@@ -953,16 +897,16 @@ $$
 
 更形式化地，令 $`H_t`$ 包含行动前历史，策略只允许使用 $`H_t`$ 和与未来环境噪声独立的内部随机性，不允许预知未来。对条件动作分布再取平均，有
 
-$$
+```math
 v^*(S_t)\ge E[R_{t+1}+\gamma v^*(S_{t+1})\mid H_t].
-$$
+```
 
 乘以 $`\gamma^t`$ 并取期望，从零到 $`H-1`$ 求和。相邻价值项一正一负望远镜抵消，得到
 
-$$
+```math
 E\left[\sum_{t=0}^{H-1}\gamma^tR_{t+1}\right]
 \le E[v^*(S_0)]-\gamma^HE[v^*(S_H)].
-$$
+```
 
 尾项绝对值受 $`\gamma^HV_{\max}`$ 控制，因此趋零；有界奖励也允许把有限回报期望传到无限和极限。由此严格覆盖所有非预知历史随机策略。若策略能够事先看到未来随机结果，条件分布已经被额外信息改变，正如天气反例，以上一步不等式不再描述原决策权限。把信息权限写入证明，可以防止“任意策略”被误解为允许超出任务定义的预知者。
 
