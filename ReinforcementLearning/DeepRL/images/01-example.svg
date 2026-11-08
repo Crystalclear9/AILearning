@@ -20,7 +20,7 @@
   <clipPath id="p8a736585a6">
    <rect x="584.193982" y="64.8" width="403.646018" height="259.2"/>
   </clipPath>
- <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="643" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="30" fill="#233b4a" text-anchor="start">优先回放改变抽样目标，完整校正需要相应权重</text><g transform="translate(-10.188369 42.650979) scale(0.64233100)"><g transform="matrix(1.797209 0 0 1.797209 16.483688 115.226418)"><g id="axes_1">
+ <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f4f7f8"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="643" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="30" fill="#202a37" text-anchor="start" font-weight="400">优先回放改变抽样目标，完整校正需要相应权重</text><g transform="translate(-10.188369 42.650979) scale(0.64233100)"><g transform="matrix(1.797209 0 0 1.797209 16.483688 115.226418)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 75.6 324  L 479.246018 324  L 479.246018 64.8  L 75.6 64.8  z " style="fill: #ffffff"/>
    </g>
@@ -42,7 +42,7 @@
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #637789" x="75.6" y="344.589375" transform="rotate(-0 75.6 344.589375)">0.0</text>
+      <text style="font-size: 17px; text-anchor: middle; fill: #637789" x="75.6" y="344.589375" transform="rotate(-0 75.6 344.589375)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.0</text>
      </g>
     </g>
     <g id="xtick_2">
@@ -52,7 +52,7 @@
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #637789" x="237.058407" y="344.589375" transform="rotate(-0 237.058407 344.589375)">0.4</text>
+      <text style="font-size: 17px; text-anchor: middle; fill: #637789" x="237.058407" y="344.589375" transform="rotate(-0 237.058407 344.589375)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.4</text>
      </g>
     </g>
     <g id="xtick_3">
@@ -62,7 +62,7 @@
       </g>
      </g>
      <g id="text_3">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #637789" x="398.516814" y="344.589375" transform="rotate(-0 398.516814 344.589375)">0.8</text>
+      <text style="font-size: 17px; text-anchor: middle; fill: #637789" x="398.516814" y="344.589375" transform="rotate(-0 398.516814 344.589375)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.8</text>
      </g>
     </g>
     <g id="xtick_4">
@@ -72,11 +72,11 @@
       </g>
      </g>
      <g id="text_4">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #637789" x="479.246018" y="344.589375" transform="rotate(-0 479.246018 344.589375)">1.0</text>
+      <text style="font-size: 17px; text-anchor: middle; fill: #637789" x="479.246018" y="344.589375" transform="rotate(-0 479.246018 344.589375)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.0</text>
      </g>
     </g>
     <g id="text_5">
-     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="277.423009" y="368.003594" transform="rotate(-0 277.423009 368.003594)">均匀随机数 u（0 到 1）</text>
+     <text style="font-size: 19px; text-anchor: middle; fill: #202a37" x="277.423009" y="368.003594" transform="rotate(-0 277.423009 368.003594)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">均匀随机数 u（0 到 1）</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
@@ -87,7 +87,7 @@
       </g>
      </g>
      <g id="text_6">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="68.6" y="330.794688" transform="rotate(-0 68.6 330.794688)">0</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="68.6" y="330.794688" transform="rotate(-0 68.6 330.794688)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
      </g>
     </g>
     <g id="ytick_2">
@@ -97,7 +97,7 @@
       </g>
      </g>
      <g id="text_7">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="68.6" y="274.446861" transform="rotate(-0 68.6 274.446861)">1</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="68.6" y="274.446861" transform="rotate(-0 68.6 274.446861)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
      </g>
     </g>
     <g id="ytick_3">
@@ -107,7 +107,7 @@
       </g>
      </g>
      <g id="text_8">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="68.6" y="218.099035" transform="rotate(-0 68.6 218.099035)">2</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="68.6" y="218.099035" transform="rotate(-0 68.6 218.099035)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
      </g>
     </g>
     <g id="ytick_4">
@@ -117,7 +117,7 @@
       </g>
      </g>
      <g id="text_9">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="68.6" y="161.751209" transform="rotate(-0 68.6 161.751209)">3</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="68.6" y="161.751209" transform="rotate(-0 68.6 161.751209)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text>
      </g>
     </g>
     <g id="ytick_5">
@@ -127,7 +127,7 @@
       </g>
      </g>
      <g id="text_10">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="68.6" y="105.403383" transform="rotate(-0 68.6 105.403383)">4</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="68.6" y="105.403383" transform="rotate(-0 68.6 105.403383)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">4</text>
      </g>
     </g>
     </g>
@@ -141,27 +141,27 @@
     <path d="M 398.516814 98.608696  L 479.246018 98.608696  " clip-path="url(#paf567b7525)" style="fill: none; stroke: #bb7249; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="patch_3">
-    <line x1="75.6" y1="324" x2="75.6" y2="64.8" stroke="#233b4a" stroke-width="1.36366898"/></g>
+    <line x1="75.6" y1="324" x2="75.6" y2="64.8" stroke="#202a37" stroke-width="1.36366898"/></g>
    <g id="patch_4">
-    <line x1="75.6" y1="324" x2="479.246018" y2="324" stroke="#233b4a" stroke-width="1.36366898"/></g>
+    <line x1="75.6" y1="324" x2="479.246018" y2="324" stroke="#202a37" stroke-width="1.36366898"/></g>
    <g id="text_12">
-    <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #2c7a96" x="237.058407" y="406.944" transform="rotate(-0 237.058407 406.944)">抽中 A：80%</text>
+    <text style="font-size: 19px; text-anchor: middle; fill: #2c7a96" x="237.058407" y="406.944" transform="rotate(-0 237.058407 406.944)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">抽中 A：80%</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #bb7249" x="438.881416" y="406.944" transform="rotate(-0 438.881416 406.944)">B：20%</text>
+    <text style="font-size: 19px; text-anchor: middle; fill: #833328" x="438.881416" y="406.944" transform="rotate(-0 438.881416 406.944)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">B：20%</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 22px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2c7a96" x="237.058407" y="301.46087" transform="rotate(-0 237.058407 301.46087)">0.8 × 1</text>
+    <text style="font-size: 22px; text-anchor: middle; fill: #234a60" x="237.058407" y="301.46087" transform="rotate(-0 237.058407 301.46087)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.8 × 1</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 20px; font-family: 'Microsoft YaHei'; fill: #bb7249" transform="translate(424.745478 187.147473)">0.2</text>
-    <text style="font-size: 20px; font-family: 'Microsoft YaHei'; fill: #bb7249" transform="translate(422.640791 211.304348)">× 4</text>
+    <text style="font-size: 20px; fill: #833328" transform="translate(424.745478 187.147473)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.2</text>
+    <text style="font-size: 20px; fill: #833328" transform="translate(422.640791 211.304348)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">× 4</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 21px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="75.6" y="46.8" transform="rotate(-0 75.6 46.8)">不校正：面积为 1.6</text>
+    <text style="font-size: 21px; text-anchor: start; fill: #202a37" x="75.6" y="46.8" transform="rotate(-0 75.6 46.8)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">不校正：面积为 1.6</text>
    </g>
   </g>
-  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">A · 抽中后使用的损失</text><g transform="translate(559.242540 -478.632740) scale(0.64233100)"><g transform="matrix(1.797209 0 0 1.797209 -897.566154 926.778625)"><g id="axes_2">
+  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" fill="#196f77" text-anchor="start" font-weight="400">A · 抽中后使用的损失</text><g transform="translate(559.242540 -478.632740) scale(0.64233100)"><g transform="matrix(1.797209 0 0 1.797209 -897.566154 926.778625)"><g id="axes_2">
    <g id="patch_5">
     <path d="M 584.193982 324  L 987.84 324  L 987.84 64.8  L 584.193982 64.8  z " style="fill: #ffffff"/>
    </g>
@@ -183,7 +183,7 @@
       </g>
      </g>
      <g id="text_17">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #637789" x="584.193982" y="344.589375" transform="rotate(-0 584.193982 344.589375)">0.0</text>
+      <text style="font-size: 17px; text-anchor: middle; fill: #637789" x="584.193982" y="344.589375" transform="rotate(-0 584.193982 344.589375)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.0</text>
      </g>
     </g>
     <g id="xtick_6">
@@ -193,7 +193,7 @@
       </g>
      </g>
      <g id="text_18">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #637789" x="745.652389" y="344.589375" transform="rotate(-0 745.652389 344.589375)">0.4</text>
+      <text style="font-size: 17px; text-anchor: middle; fill: #637789" x="745.652389" y="344.589375" transform="rotate(-0 745.652389 344.589375)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.4</text>
      </g>
     </g>
     <g id="xtick_7">
@@ -203,7 +203,7 @@
       </g>
      </g>
      <g id="text_19">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #637789" x="907.110796" y="344.589375" transform="rotate(-0 907.110796 344.589375)">0.8</text>
+      <text style="font-size: 17px; text-anchor: middle; fill: #637789" x="907.110796" y="344.589375" transform="rotate(-0 907.110796 344.589375)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.8</text>
      </g>
     </g>
     <g id="xtick_8">
@@ -213,11 +213,11 @@
       </g>
      </g>
      <g id="text_20">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #637789" x="987.84" y="344.589375" transform="rotate(-0 987.84 344.589375)">1.0</text>
+      <text style="font-size: 17px; text-anchor: middle; fill: #637789" x="987.84" y="344.589375" transform="rotate(-0 987.84 344.589375)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.0</text>
      </g>
     </g>
     <g id="text_21">
-     <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #233b4a" x="786.016991" y="368.003594" transform="rotate(-0 786.016991 368.003594)">均匀随机数 u（0 到 1）</text>
+     <text style="font-size: 19px; text-anchor: middle; fill: #202a37" x="786.016991" y="368.003594" transform="rotate(-0 786.016991 368.003594)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">均匀随机数 u（0 到 1）</text>
     </g>
    </g>
    <g id="matplotlib.axis_4">
@@ -228,7 +228,7 @@
       </g>
      </g>
      <g id="text_22">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="577.193982" y="330.794688" transform="rotate(-0 577.193982 330.794688)">0</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="577.193982" y="330.794688" transform="rotate(-0 577.193982 330.794688)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
      </g>
     </g>
     <g id="ytick_7">
@@ -238,7 +238,7 @@
       </g>
      </g>
      <g id="text_23">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="577.193982" y="285.716427" transform="rotate(-0 577.193982 285.716427)">2</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="577.193982" y="285.716427" transform="rotate(-0 577.193982 285.716427)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
      </g>
     </g>
     <g id="ytick_8">
@@ -248,7 +248,7 @@
       </g>
      </g>
      <g id="text_24">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="577.193982" y="240.638166" transform="rotate(-0 577.193982 240.638166)">4</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="577.193982" y="240.638166" transform="rotate(-0 577.193982 240.638166)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">4</text>
      </g>
     </g>
     <g id="ytick_9">
@@ -258,7 +258,7 @@
       </g>
      </g>
      <g id="text_25">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="577.193982" y="195.559905" transform="rotate(-0 577.193982 195.559905)">6</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="577.193982" y="195.559905" transform="rotate(-0 577.193982 195.559905)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">6</text>
      </g>
     </g>
     <g id="ytick_10">
@@ -268,7 +268,7 @@
       </g>
      </g>
      <g id="text_26">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="577.193982" y="150.481644" transform="rotate(-0 577.193982 150.481644)">8</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="577.193982" y="150.481644" transform="rotate(-0 577.193982 150.481644)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">8</text>
      </g>
     </g>
     <g id="ytick_11">
@@ -278,7 +278,7 @@
       </g>
      </g>
      <g id="text_27">
-      <text style="font-size: 17px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #637789" x="577.193982" y="105.403383" transform="rotate(-0 577.193982 105.403383)">10</text>
+      <text style="font-size: 17px; text-anchor: end; fill: #637789" x="577.193982" y="105.403383" transform="rotate(-0 577.193982 105.403383)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">10</text>
      </g>
     </g>
     </g>
@@ -292,24 +292,24 @@
     <path d="M 907.110796 98.608696  L 987.84 98.608696  " clip-path="url(#p8a736585a6)" style="fill: none; stroke: #bb7249; stroke-width: 3; stroke-linecap: square"/>
    </g>
    <g id="patch_6">
-    <line x1="584.193982" y1="324" x2="584.193982" y2="64.8" stroke="#233b4a" stroke-width="1.36366898"/></g>
+    <line x1="584.193982" y1="324" x2="584.193982" y2="64.8" stroke="#202a37" stroke-width="1.36366898"/></g>
    <g id="patch_7">
-    <line x1="584.193982" y1="324" x2="987.84" y2="324" stroke="#233b4a" stroke-width="1.36366898"/></g>
+    <line x1="584.193982" y1="324" x2="987.84" y2="324" stroke="#202a37" stroke-width="1.36366898"/></g>
    <g id="text_29">
-    <text style="font-size: 19px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #2c7a96" x="745.652389" y="406.944" transform="rotate(-0 745.652389 406.944)">抽中 A：80%</text>
+    <text style="font-size: 19px; text-anchor: middle; fill: #2c7a96" x="745.652389" y="406.944" transform="rotate(-0 745.652389 406.944)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">抽中 A：80%</text>
    </g>
    <g id="text_30">
-    <text style="font-size: 19px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #bb7249" x="947.475398" y="406.944" transform="rotate(-0 947.475398 406.944)">B：20%</text>
+    <text style="font-size: 19px; text-anchor: middle; fill: #833328" x="947.475398" y="406.944" transform="rotate(-0 947.475398 406.944)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">B：20%</text>
    </g>
    <g id="text_31">
-    <text style="font-size: 20px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2c7a96" x="745.652389" y="296.953043" transform="rotate(-0 745.652389 296.953043)">0.8 × 0.625</text>
+    <text style="font-size: 20px; text-anchor: middle; fill: #2c7a96" x="745.652389" y="296.953043" transform="rotate(-0 745.652389 296.953043)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.8 × 0.625</text>
    </g>
    <g id="text_32">
-    <text style="font-size: 20px; font-family: 'Microsoft YaHei'; fill: #bb7249" transform="translate(933.339461 187.147473)">0.2</text>
-    <text style="font-size: 20px; font-family: 'Microsoft YaHei'; fill: #bb7249" transform="translate(925.370711 211.304348)">× 10</text>
+    <text style="font-size: 20px; fill: #833328" transform="translate(933.339461 187.147473)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.2</text>
+    <text style="font-size: 20px; fill: #833328" transform="translate(925.370711 211.304348)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">× 10</text>
    </g>
    <g id="text_33">
-    <text style="font-size: 21px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: start; fill: #233b4a" x="584.193982" y="46.8" transform="rotate(-0 584.193982 46.8)">完整校正：面积为 2.5</text>
+    <text style="font-size: 21px; text-anchor: start; fill: #202a37" x="584.193982" y="46.8" transform="rotate(-0 584.193982 46.8)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">完整校正：面积为 2.5</text>
    </g>
   </g>
- </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="21" fill="#166d75" text-anchor="start">B · 乘重要性权重后的损失</text></svg>
+ </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" fill="#196f77" text-anchor="start" font-weight="400">B · 乘重要性权重后的损失</text></svg>

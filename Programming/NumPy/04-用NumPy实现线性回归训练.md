@@ -140,56 +140,60 @@ $$
 
 ### 图解：训练器的一次完整更新
 
-先用单个权重和偏置核对一次更新，再用下一张图把同样的残差传播到三个特征分量。
+先核对单个权重，再看多个参数怎样使用同一份旧残差。
 
-![一次训练更新的状态依赖](images/04-one-sample-gradient-update.svg)
+下图 (a) 手算一项权重和偏置的同时更新。图 (b) 把同一个残差分配给多个参数分量，再比较不同步长。
+
+![从标量更新到多个参数分量。图 (a) 一次训练更新的状态依赖。图 (b) 训练器的一次完整更新。](images/04-linear-update-components-and-step-size-pair.svg)
 
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (a)</summary>
 
-![一次训练更新的状态依赖，上左区域](images/04-one-sample-gradient-update.svg#textbook-detail-1-1)
+[打开图 (a) 单独查看](images/04-linear-update-components-and-step-size-pair.svg#a)
 
-![一次训练更新的状态依赖，上右区域](images/04-one-sample-gradient-update.svg#textbook-detail-1-2)
+![图 (a) · 一次训练更新的状态依赖，上左区域](images/04-linear-update-components-and-step-size-pair.svg#a-textbook-detail-1-1)
 
-![一次训练更新的状态依赖，下左区域](images/04-one-sample-gradient-update.svg#textbook-detail-2-1)
+![图 (a) · 一次训练更新的状态依赖，上右区域](images/04-linear-update-components-and-step-size-pair.svg#a-textbook-detail-1-2)
 
-![一次训练更新的状态依赖，下右区域](images/04-one-sample-gradient-update.svg#textbook-detail-2-2)
+![图 (a) · 一次训练更新的状态依赖，下左区域](images/04-linear-update-components-and-step-size-pair.svg#a-textbook-detail-2-1)
+
+![图 (a) · 一次训练更新的状态依赖，下右区域](images/04-linear-update-components-and-step-size-pair.svg#a-textbook-detail-2-2)
 
 </details>
 
-
-先沿前向依赖得到预测二与残差负三，再把残差分别乘输入二和偏置导数一，得到权重梯度负六、偏置梯度负三。采用半平方损失及学习率十分之一，同时更新后得到权重一点六、偏置零点三，新预测为三点五。这里使用单样本目标，批量平均、正则项与不同损失缩放都会改变梯度。
-
-
-**一次参数更新究竟改了什么，又为何受步长限制？** 左图从三个输入分量的乘积汇成旧预测和旧残差，再把同一残差分发给三个梯度分量；右图在这份固定旧梯度上比较不同步长。两部分对应同一次单样本计算，不是两条分别训练出来的曲线。
-
-![训练器的一次完整更新](images/04-concept.svg)
-
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (b)</summary>
 
-![训练器的一次完整更新，上左区域](images/04-concept.svg#textbook-detail-1-1)
+[打开图 (b) 单独查看](images/04-linear-update-components-and-step-size-pair.svg#b)
 
-![训练器的一次完整更新，上中区域](images/04-concept.svg#textbook-detail-1-2)
+![图 (b) · 训练器的一次完整更新，上左区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-1-1)
 
-![训练器的一次完整更新，上右区域](images/04-concept.svg#textbook-detail-1-3)
+![图 (b) · 训练器的一次完整更新，上中区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-1-2)
 
-![训练器的一次完整更新，中左区域](images/04-concept.svg#textbook-detail-2-1)
+![图 (b) · 训练器的一次完整更新，上右区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-1-3)
 
-![训练器的一次完整更新，中中区域](images/04-concept.svg#textbook-detail-2-2)
+![图 (b) · 训练器的一次完整更新，中左区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-2-1)
 
-![训练器的一次完整更新，中右区域](images/04-concept.svg#textbook-detail-2-3)
+![图 (b) · 训练器的一次完整更新，中中区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-2-2)
 
-![训练器的一次完整更新，下左区域](images/04-concept.svg#textbook-detail-3-1)
+![图 (b) · 训练器的一次完整更新，中右区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-2-3)
 
-![训练器的一次完整更新，下中区域](images/04-concept.svg#textbook-detail-3-2)
+![图 (b) · 训练器的一次完整更新，下左区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-3-1)
 
-![训练器的一次完整更新，下右区域](images/04-concept.svg#textbook-detail-3-3)
+![图 (b) · 训练器的一次完整更新，下中区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-3-2)
+
+![图 (b) · 训练器的一次完整更新，下右区域](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-detail-3-3)
+
+![图 (b) · 训练器的一次完整更新，完整说明与标注](images/04-linear-update-components-and-step-size-pair.svg#b-textbook-complete-detail-1)
 
 </details>
 
+图 (a) 先沿前向依赖得到预测二与残差负三，再把残差分别乘输入二和偏置导数一，得到权重梯度负六、偏置梯度负三。采用半平方损失及学习率十分之一，同时更新后得到权重一点六、偏置零点三，新预测为三点五。这里使用单样本目标，批量平均、正则项与不同损失缩放都会改变梯度。
 
-**先固定旧梯度，再改变步长。** 本图使用同一样本 $`x=(1,2)`$、目标三、零初始参数和未加正则的半平方误差。旧残差为负三，三个参数 $`(w_1,w_2,b)`$ 的梯度分别为 $`(-3,-6,-3)`$；步长 $`\eta=0.1`$ 时，同时更新到 $`(0.3,0.6,0.3)`$，新预测为一点八，新损失为 $`\frac12(1.8-3)^2=0.72`$。
+
+**一次参数更新究竟改了什么，又为何受步长限制？** 图 (b) 左侧从各参数的加权贡献算出旧预测和旧残差，再把同一残差分发给三个梯度分量；右图在这份固定旧梯度上比较不同步长。两部分对应同一次单样本计算，不是两条分别训练出来的曲线。
+
+**先固定旧梯度，再改变步长。** 图 (b) 使用同一样本 $`x=(1,2)`$、目标三、零初始参数和未加正则的半平方误差。旧残差为负三，三个参数 $`(w_1,w_2,b)`$ 的梯度分别为 $`(-3,-6,-3)`$；步长 $`\eta=0.1`$ 时，同时更新到 $`(0.3,0.6,0.3)`$，新预测为一点八，新损失为 $`\frac12(1.8-3)^2=0.72`$。
 
 左侧三列固定三个参数分量，依次列出特征、旧参数、旧梯度和新参数。第二个权重的特征值为二，所以梯度为负六，更新幅度是另外两项的两倍。三项同时使用这份旧梯度更新，算完新参数后再计算预测和损失。
 
@@ -640,6 +644,8 @@ print("raw coefficients:", w_raw, "raw intercept:", b_raw)
 
 ![预处理只能从训练数据估计，下右区域](images/04-advanced.svg#textbook-detail-3-3)
 
+![预处理只能从训练数据估计，完整说明与标注](images/04-advanced.svg#textbook-complete-detail-1)
+
 </details>
 
 
@@ -791,6 +797,10 @@ $$
 ![谱方向决定梯度下降收敛速度，下中区域](images/04-mechanism.svg#textbook-detail-3-2)
 
 ![谱方向决定梯度下降收敛速度，下右区域](images/04-mechanism.svg#textbook-detail-3-3)
+
+![谱方向决定梯度下降收敛速度，完整说明与标注（1）](images/04-mechanism.svg#textbook-complete-detail-1)
+
+![谱方向决定梯度下降收敛速度，完整说明与标注（2）](images/04-mechanism.svg#textbook-complete-detail-2)
 
 </details>
 

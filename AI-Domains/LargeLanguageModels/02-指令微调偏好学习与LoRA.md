@@ -227,6 +227,8 @@ A 矩阵十二个系数、B 矩阵十六个，因子共二十八个参数，组�
 
 ![LoRA零初始化B时A和B在第一步接收到的不同梯度，下右区域](images/02-lora-initial-gradient-gate.svg#textbook-detail-3-3)
 
+![LoRA零初始化B时A和B在第一步接收到的不同梯度，完整说明与标注](images/02-lora-initial-gradient-gate.svg#textbook-complete-detail-1)
+
 </details>
 
 
@@ -354,33 +356,55 @@ $$
 
 其中胜者和败者必须针对相同提示及相同条件协议。原始 DPO 的序列 log 概率是回复 token 条件 log 概率之和，包括哪些特殊标记应预先定义。随意改成按长度平均，会改变目标；它可能是研究变体，但不能声称与上述完整序列推导完全相同。
 
-![两条回答的当前概率相同，但相对冻结参考策略的增益不同](images/02-scientific-plate.svg)
+<a id="pair-dpo-relative-margin-and-gradient"></a>
+
+下图 (a) 用当前概率相同的两条回答说明参考策略怎样改变偏好间隔。图 (b) 再看不同间隔下损失斜率怎样变化。
+
+![DPO 相对参考的间隔与梯度。图 (a) 两条回答的当前概率相同，但相对冻结参考策略的增益不同。图 (b) 偏好间隔决定梯度尺度。](images/02-dpo-relative-margin-and-gradient-pair.svg)
 
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (a)</summary>
 
-![两条回答的当前概率相同，但相对冻结参考策略的增益不同，上左区域](images/02-scientific-plate.svg#textbook-detail-1-1)
+[打开图 (a) 单独查看](images/02-dpo-relative-margin-and-gradient-pair.svg#a)
 
-![两条回答的当前概率相同，但相对冻结参考策略的增益不同，上中区域](images/02-scientific-plate.svg#textbook-detail-1-2)
+![图 (a) · 两条回答的当前概率相同，但相对冻结参考策略的增益不同，上左区域](images/02-dpo-relative-margin-and-gradient-pair.svg#a-textbook-detail-1-1)
 
-![两条回答的当前概率相同，但相对冻结参考策略的增益不同，上右区域](images/02-scientific-plate.svg#textbook-detail-1-3)
+![图 (a) · 两条回答的当前概率相同，但相对冻结参考策略的增益不同，上中区域](images/02-dpo-relative-margin-and-gradient-pair.svg#a-textbook-detail-1-2)
 
-![两条回答的当前概率相同，但相对冻结参考策略的增益不同，中左区域](images/02-scientific-plate.svg#textbook-detail-2-1)
+![图 (a) · 两条回答的当前概率相同，但相对冻结参考策略的增益不同，上右区域](images/02-dpo-relative-margin-and-gradient-pair.svg#a-textbook-detail-1-3)
 
-![两条回答的当前概率相同，但相对冻结参考策略的增益不同，中中区域](images/02-scientific-plate.svg#textbook-detail-2-2)
+![图 (a) · 两条回答的当前概率相同，但相对冻结参考策略的增益不同，中左区域](images/02-dpo-relative-margin-and-gradient-pair.svg#a-textbook-detail-2-1)
 
-![两条回答的当前概率相同，但相对冻结参考策略的增益不同，中右区域](images/02-scientific-plate.svg#textbook-detail-2-3)
+![图 (a) · 两条回答的当前概率相同，但相对冻结参考策略的增益不同，中中区域](images/02-dpo-relative-margin-and-gradient-pair.svg#a-textbook-detail-2-2)
 
-![两条回答的当前概率相同，但相对冻结参考策略的增益不同，下左区域](images/02-scientific-plate.svg#textbook-detail-3-1)
+![图 (a) · 两条回答的当前概率相同，但相对冻结参考策略的增益不同，中右区域](images/02-dpo-relative-margin-and-gradient-pair.svg#a-textbook-detail-2-3)
 
-![两条回答的当前概率相同，但相对冻结参考策略的增益不同，下中区域](images/02-scientific-plate.svg#textbook-detail-3-2)
+![图 (a) · 两条回答的当前概率相同，但相对冻结参考策略的增益不同，下左区域](images/02-dpo-relative-margin-and-gradient-pair.svg#a-textbook-detail-3-1)
 
-![两条回答的当前概率相同，但相对冻结参考策略的增益不同，下右区域](images/02-scientific-plate.svg#textbook-detail-3-3)
+![图 (a) · 两条回答的当前概率相同，但相对冻结参考策略的增益不同，下中区域](images/02-dpo-relative-margin-and-gradient-pair.svg#a-textbook-detail-3-2)
+
+![图 (a) · 两条回答的当前概率相同，但相对冻结参考策略的增益不同，下右区域](images/02-dpo-relative-margin-and-gradient-pair.svg#a-textbook-detail-3-3)
+
+![图 (a) · 两条回答的当前概率相同，但相对冻结参考策略的增益不同，完整说明与标注](images/02-dpo-relative-margin-and-gradient-pair.svg#a-textbook-complete-detail-1)
 
 </details>
 
+<details>
+<summary>放大图 (b)</summary>
 
-两条回答来自同一提示，分别由当前策略 $`\pi`$ 与冻结参考 $`q`$ 计算序列概率。横轴越靠右，序列对数概率越大；两条回答的当前概率相同，因此当前策略的两个实心点落在同一条竖虚线上。偏好回答从参考概率 $`0.1`$ 提高到 $`0.3`$，有一段正位移；另一条回答的参考点和当前点重合。偏好分数来自两条回答各自对数位移的差。
+[打开图 (b) 单独查看](images/02-dpo-relative-margin-and-gradient-pair.svg#b)
+
+![图 (b) · 偏好间隔决定梯度尺度，上左区域](images/02-dpo-relative-margin-and-gradient-pair.svg#b-textbook-detail-1-1)
+
+![图 (b) · 偏好间隔决定梯度尺度，上右区域](images/02-dpo-relative-margin-and-gradient-pair.svg#b-textbook-detail-1-2)
+
+![图 (b) · 偏好间隔决定梯度尺度，下左区域](images/02-dpo-relative-margin-and-gradient-pair.svg#b-textbook-detail-2-1)
+
+![图 (b) · 偏好间隔决定梯度尺度，下右区域](images/02-dpo-relative-margin-and-gradient-pair.svg#b-textbook-detail-2-2)
+
+</details>
+
+图 (a) 中的两条回答来自同一提示，分别由当前策略 $`\pi`$ 与冻结参考 $`q`$ 计算序列概率。横轴越靠右，序列对数概率越大；两条回答的当前概率相同，因此当前策略的两个实心点落在同一条竖虚线上。偏好回答从参考概率 $`0.1`$ 提高到 $`0.3`$，有一段正位移；另一条回答的参考点和当前点重合。偏好分数来自两条回答各自对数位移的差。
 
 两套策略各自把剩余概率留给其他回答。图中两段位移分别为 $`\ln 3`$ 和零。取 $`\beta=1`$，将位移之差送入 sigmoid，得到偏好比较模型中的概率 $`\sigma(\ln 3)=\frac34`$。序列对数概率须按一致协议累加有效回复词元，不把它变成无参考的奖励分类分数。[DPO 原论文第 4 节](https://arxiv.org/html/2305.18290v2#S4)给出这一重参数化。
 
@@ -392,23 +416,9 @@ $$
 
 偏好数据可分且没有额外约束时，逻辑损失可能持续推动比较间隔扩大，没有有限参数最优点。训练损失接近零不意味着模型的真实质量已经饱和，也可能只是把训练比较对记住。应监测独立偏好、任务正确性、与参考的分布偏移和输出行为，必要时使用早停或其他明确正则，而不是单纯追求更小训练损失。
 
-![偏好间隔决定梯度尺度](images/02-preference-margin-gradient.svg)
+沿[图 (b)](#pair-dpo-relative-margin-and-gradient)的横轴比较间隔为零和间隔很大时的斜率。
 
-<details>
-<summary>页内放大读图</summary>
-
-![偏好间隔决定梯度尺度，上左区域](images/02-preference-margin-gradient.svg#textbook-detail-1-1)
-
-![偏好间隔决定梯度尺度，上右区域](images/02-preference-margin-gradient.svg#textbook-detail-1-2)
-
-![偏好间隔决定梯度尺度，下左区域](images/02-preference-margin-gradient.svg#textbook-detail-2-1)
-
-![偏好间隔决定梯度尺度，下右区域](images/02-preference-margin-gradient.svg#textbook-detail-2-2)
-
-</details>
-
-
-**偏好间隔决定梯度尺度。** 本图固定一个偏好对，将相对参考模型的好坏对数概率优势差记为 Δ，损失为 log[1+exp(−βΔ)]。β 同时改变横向尺度与导数：Δ=0 处导数为负 β 除以二，而较大的正间隔处梯度趋近零。它不是奖励的原始分差，也不能仅靠单对损失下降断定整体回答质量提高；偏好噪声、长度及分布偏移仍需独立检验。进一步阅读可对照[DPO 原论文第 4 节与梯度附录](https://arxiv.org/html/2305.18290v2)。
+**偏好间隔决定梯度尺度。** 图 (b) 固定一个偏好对，将相对参考模型的好坏对数概率优势差记为 Δ，损失为 log[1+exp(−βΔ)]。β 同时改变横向尺度与导数：Δ=0 处导数为负 β 除以二，而较大的正间隔处梯度趋近零。它不是奖励的原始分差，也不能仅靠单对损失下降断定整体回答质量提高；偏好噪声、长度及分布偏移仍需独立检验。进一步阅读可对照[DPO 原论文第 4 节与梯度附录](https://arxiv.org/html/2305.18290v2)。
 
 $$
 L(\Delta)=\ln(1+e^{-\beta\Delta}),\qquad \frac{\partial L}{\partial\Delta}=-\frac{\beta}{1+e^{\beta\Delta}}.
@@ -464,6 +474,8 @@ print('dpo_losses', before, l1.item(), 'winner_p', logits.softmax(0)[0].item())
 ![DPO 比较的是相对参考模型的偏好差，下左区域](images/02-example.svg#textbook-detail-2-1)
 
 ![DPO 比较的是相对参考模型的偏好差，下右区域](images/02-example.svg#textbook-detail-2-2)
+
+![DPO 比较的是相对参考模型的偏好差，完整说明与标注](images/02-example.svg#textbook-complete-detail-1)
 
 </details>
 
@@ -705,14 +717,14 @@ Adam、不同因子学习率或因子衰减会改变上式，不能把它当所�
 **把误差放进可计算的策略。** 设只有正确回答与错误回答，参考概率为 $`(0.99,0.01)`$，真奖励为 $`(1,0)`$，代理奖励却为 $`(1,2)`$。对 KL 正则目标，指数倾斜解给出
 
 $$
-p_{\rm bad}(\beta)
+p_{\mathrm{bad}}(\beta)
 =\frac{0.01e^{\frac2\beta}}{0.99e^{\frac1\beta}+0.01e^{\frac2\beta}}
 =\frac{1}{1+99e^{-\frac1\beta}}.
 $$
 
 ![奖励误差在不同优化压力下被放大](images/02-reward-error-amplification.svg)
 
-当 $`\beta=1`$，错误回答概率约为 $`0.0267`$；当 $`\beta=0.2`$，它升至 $`0.5999`$；当 $`\beta=0.1`$，升至 $`0.9955`$。代理期望奖励为 $`1+p_{\rm bad}`$，真期望奖励为 $`1-p_{\rm bad}`$，两者严格反向变化。图是上述有限分布的精确计算，不是大模型实验曲线。这里没有训练奖励模型，只用一个已指定的错误排序隔离优化放大的作用。
+当 $`\beta=1`$，错误回答概率约为 $`0.0267`$；当 $`\beta=0.2`$，它升至 $`0.5999`$；当 $`\beta=0.1`$，升至 $`0.9955`$。代理期望奖励为 $`1+p_{\mathrm{bad}}`$，真期望奖励为 $`1-p_{\mathrm{bad}}`$，两者严格反向变化。图是上述有限分布的精确计算，不是大模型实验曲线。这里没有训练奖励模型，只用一个已指定的错误排序隔离优化放大的作用。
 
 误差界也可以写得更具体。令真奖励、代理奖励诱导的两个最优策略分别为 $`\pi_r,\pi_{\hat r}`$，参考分布在比较的两种回答上为正。任意回答 $`a,b`$ 的几率比满足
 
@@ -826,6 +838,8 @@ $$
 ![LoRA：四个矩阵元素共用一个输出方向，下中区域](images/02-mechanism.svg#textbook-detail-3-2)
 
 ![LoRA：四个矩阵元素共用一个输出方向，下右区域](images/02-mechanism.svg#textbook-detail-3-3)
+
+![LoRA：四个矩阵元素共用一个输出方向，完整说明与标注](images/02-mechanism.svg#textbook-complete-detail-1)
 
 </details>
 

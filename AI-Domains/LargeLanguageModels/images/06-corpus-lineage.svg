@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 720 348" role="img" aria-labelledby="title desc">
+<title id="title">正文如何变成训练位置</title>
+<desc id="desc">原始抓取记录经提取器形成一版正文，再由分词与切分产生两个区间。每个区间通过父级键可追溯到正文与原始抓取。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10 2 5Z" fill="#196f77"/></marker>
+<linearGradient id="wash-teal" x2="85%" y2="100%"><stop stop-color="#8dccd2" stop-opacity=".18"/><stop offset="100%" stop-color="#8dccd2" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10 2 5Z" fill="#655184"/></marker>
+<linearGradient id="wash-violet" x2="85%" y2="100%"><stop stop-color="#b4a6d2" stop-opacity=".18"/><stop offset="100%" stop-color="#b4a6d2" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10 2 5Z" fill="#a84b3b"/></marker>
+<linearGradient id="wash-coral" x2="85%" y2="100%"><stop stop-color="#efaa9d" stop-opacity=".18"/><stop offset="100%" stop-color="#efaa9d" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10 2 5Z" fill="#657682"/></marker>
+<linearGradient id="wash-gray" x2="85%" y2="100%"><stop stop-color="#becbd2" stop-opacity=".18"/><stop offset="100%" stop-color="#becbd2" stop-opacity=".58"/></linearGradient>
+</defs>
+<rect width="720" height="348" fill="#fff"/>
+<g font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif">
+<text x="360" y="49" fill="#202a37" font-size="29" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400" transform="translate(360 38.5) scale(0.72413793) translate(-360 -38.5)">正文如何变成训练位置</text>
+<polygon points="53,151 195,151 182,223 40,223" fill="url(#wash-gray)" stroke="#657682" stroke-width="1.6"/><text x="117.5" y="196.18" fill="#202a37" font-size="23" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400" transform="translate(117.5 187.67999268) scale(0.80434783) translate(-117.5 -187.67999268)">抓取记录</text>
+<polygon points="283,151 423,151 410,223 270,223" fill="url(#wash-teal)" stroke="#196f77" stroke-width="1.6"/><text x="346.5" y="196.18" fill="#196f77" font-size="23" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400" transform="translate(346.5 187.67999268) scale(0.80434783) translate(-346.5 -187.67999268)">提取正文</text>
+<polygon points="533,98 679,98 666,164 520,164" fill="url(#wash-violet)" stroke="#655184" stroke-width="1.6"/><text x="599.5" y="140.18" fill="#655184" font-size="23" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400" transform="translate(599.5 131.67999268) scale(0.80434783) translate(-599.5 -131.67999268)">训练区间甲</text>
+<polygon points="533,209 679,209 666,275 520,275" fill="url(#wash-violet)" stroke="#655184" stroke-width="1.6"/><text x="599.5" y="251.18" fill="#655184" font-size="23" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400" transform="translate(599.5 242.67999268) scale(0.80434783) translate(-599.5 -242.67999268)">训练区间乙</text>
+<line x1="192" y1="186" x2="270" y2="186" stroke="#196f77" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+<line x1="417" y1="186" x2="524" y2="130" stroke="#655184" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-violet)"/>
+<line x1="417" y1="186" x2="524" y2="242" stroke="#655184" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-violet)"/>
+<text x="119" y="257" fill="#657682" font-size="21" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400" transform="translate(119 249.5) scale(0.88095238) translate(-119 -249.5)">快照与记录键</text>
+<text x="347" y="257" fill="#196f77" font-size="21" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400" transform="translate(347 249.5) scale(0.88095238) translate(-347 -249.5)">提取版本</text>
+<text x="360" y="315" fill="#202a37" font-size="23" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400" transform="translate(360 306.5) scale(0.80434783) translate(-360 -306.5)">区间可沿父级键回到原始记录</text>
+</g>
+</svg>

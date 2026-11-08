@@ -456,6 +456,8 @@ $$
 
 ![对称参数后验具有相同成员函数但参数平均函数退化，下右区域](images/03-mechanism.svg#textbook-detail-3-3)
 
+![对称参数后验具有相同成员函数但参数平均函数退化，完整说明与标注](images/03-mechanism.svg#textbook-complete-detail-1)
+
 </details>
 
 
@@ -820,6 +822,8 @@ $$
 ![PAC Bayes二元KL预算的风险反演与平方根放松对照，下中区域](images/03-binary-kl-inversion.svg#textbook-detail-3-2)
 
 ![PAC Bayes二元KL预算的风险反演与平方根放松对照，下右区域](images/03-binary-kl-inversion.svg#textbook-detail-3-3)
+
+![PAC Bayes二元KL预算的风险反演与平方根放松对照，完整说明与标注](images/03-binary-kl-inversion.svg#textbook-complete-detail-1)
 
 </details>
 

@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1341.55539499"><title id="title">BatchNorm 的两种统计来源</title><desc id="description">(a) 运行统计无需反传也会改变。(b) 固定查询值时关闭运行统计的BatchNorm在eval中依赖同批其他样本。</desc><rect width="1200" fill="#fff" height="1341.55539499"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 678"/><view id="a-textbook-detail-1-1" viewBox="0 51 540 305.1"/><view id="a-textbook-detail-1-2" viewBox="330 51 540 305.1"/><view id="a-textbook-detail-1-3" viewBox="649.86666667 51 540 305.1"/><view id="a-textbook-detail-2-1" viewBox="0 237.45 540 305.1"/><view id="a-textbook-detail-2-2" viewBox="330 237.45 540 305.1"/><view id="a-textbook-detail-2-3" viewBox="660 237.45 540 305.1"/><view id="a-textbook-detail-3-1" viewBox="0 423.9 540 305.1"/><view id="a-textbook-detail-3-2" viewBox="330 423.9 540 305.1"/><view id="a-textbook-detail-3-3" viewBox="660 423.9 540 305.1"/><svg width="1200" height="678" viewBox="0 0 1200 678" role="img" aria-labelledby="a-fig-title a-fig-desc" id="panel-a" x="0" y="51">
+<title id="a-fig-title">运行均值适应新分布，也遗忘旧分布</title>
+<desc id="a-fig-desc">两种动量用相同批次均值更新，较大动量更快接近新均值，调换批次顺序也会改变结果。</desc>
+<rect x="0" y="0" width="1200" height="678" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="a-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="a-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="a-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="a-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+</defs>
+<text x="77" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">每批均值一直为 10</text>
+<path d="M107 341.28 L513 341.28" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107 292.559 L513 292.559" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107 243.839 L513 243.839" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107 195.118 L513 195.118" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107 146.398 L513 146.398" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107 390 L525 390" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M525 390 L514 395 L514 385 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107 390 L107 121" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107 121 L112 132 L102 132 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107 386 L107 395" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="107" y="419" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">0</text>
+<path d="M242.333 386 L242.333 395" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="242.333" y="419" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">10</text>
+<path d="M377.667 386 L377.667 395" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="377.667" y="419" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">20</text>
+<path d="M513 386 L513 395" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="513" y="419" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">30</text>
+<path d="M102 341.28 L111 341.28" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="97" y="347.28" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">2</text>
+<path d="M102 292.559 L111 292.559" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="97" y="298.559" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">4</text>
+<path d="M102 243.839 L111 243.839" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="97" y="249.839" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">6</text>
+<path d="M102 195.118 L111 195.118" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="97" y="201.118" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">8</text>
+<path d="M102 146.398 L111 146.398" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="97" y="152.398" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">10</text>
+<text x="532" y="396" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="start" font-weight="400">批次</text>
+<text x="107" y="111" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="middle" font-weight="400">运行均值</text>
+<path d="M107 390 L120.533 365.64 L134.067 343.716 L147.6 323.984 L161.133 306.225 L174.667 290.243 L188.2 275.858 L201.733 262.912 L215.267 251.261 L228.8 240.774 L242.333 231.337 L255.867 222.843 L269.4 215.198 L282.933 208.318 L296.467 202.126 L310 196.554 L323.533 191.538 L337.067 187.024 L350.6 182.961 L364.133 179.305 L377.667 176.014 L391.2 173.053 L404.733 170.387 L418.267 167.988 L431.8 165.829 L445.333 163.886 L458.867 162.137 L472.4 160.563 L485.933 159.147 L499.467 157.872 L513 156.725" fill="none" stroke="#196f77" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M107 390 L120.533 329.1 L134.067 283.424 L147.6 249.168 L161.133 223.475 L174.667 204.206 L188.2 189.754 L201.733 178.915 L215.267 170.786 L228.8 164.689 L242.333 160.116 L255.867 156.687 L269.4 154.115 L282.933 152.185 L296.467 150.739 L310 149.653 L323.533 148.84 L337.067 148.229 L350.6 147.771 L364.133 147.428 L377.667 147.171 L391.2 146.977 L404.733 146.833 L418.267 146.724 L431.8 146.643 L445.333 146.581 L458.867 146.536 L472.4 146.501 L485.933 146.475 L499.467 146.456 L513 146.442" fill="none" stroke="#a84b3b" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="659" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">第 16 批开始，批均值改为 0</text>
+<path d="M689 341.28 L1095 341.28" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M689 292.559 L1095 292.559" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M689 243.839 L1095 243.839" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M689 195.118 L1095 195.118" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M689 146.398 L1095 146.398" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M689 390 L1107 390" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1107 390 L1096 395 L1096 385 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M689 390 L689 121" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M689 121 L694 132 L684 132 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M689 386 L689 395" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="689" y="419" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">0</text>
+<path d="M824.333 386 L824.333 395" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="824.333" y="419" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">10</text>
+<path d="M959.667 386 L959.667 395" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="959.667" y="419" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">20</text>
+<path d="M1095 386 L1095 395" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1095" y="419" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">30</text>
+<path d="M684 341.28 L693 341.28" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="679" y="347.28" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">2</text>
+<path d="M684 292.559 L693 292.559" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="679" y="298.559" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">4</text>
+<path d="M684 243.839 L693 243.839" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="679" y="249.839" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">6</text>
+<path d="M684 195.118 L693 195.118" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="679" y="201.118" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">8</text>
+<path d="M684 146.398 L693 146.398" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="679" y="152.398" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">10</text>
+<text x="1114" y="396" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="start" font-weight="400">批次</text>
+<text x="689" y="111" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="middle" font-weight="400">运行均值</text>
+<path d="M689 390 L702.533 365.64 L716.067 343.716 L729.6 323.984 L743.133 306.225 L756.667 290.243 L770.2 275.858 L783.733 262.912 L797.267 251.261 L810.8 240.774 L824.333 231.337 L837.867 222.843 L851.4 215.198 L864.933 208.318 L878.467 202.126 L892 196.554 L905.533 215.898 L919.067 233.308 L932.6 248.978 L946.133 263.08 L959.667 275.772 L973.2 287.195 L986.733 297.475 L1000.267 306.728 L1013.8 315.055 L1027.333 322.549 L1040.867 329.294 L1054.4 335.365 L1067.933 340.829 L1081.467 345.746 L1095 350.171" fill="none" stroke="#196f77" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M689 390 L702.533 329.1 L716.067 283.424 L729.6 249.168 L743.133 223.475 L756.667 204.206 L770.2 189.754 L783.733 178.915 L797.267 170.786 L810.8 164.689 L824.333 160.116 L837.867 156.687 L851.4 154.115 L864.933 152.185 L878.467 150.739 L892 149.653 L905.533 209.74 L919.067 254.805 L932.6 288.604 L946.133 313.953 L959.667 332.965 L973.2 347.223 L986.733 357.918 L1000.267 365.938 L1013.8 371.954 L1027.333 376.465 L1040.867 379.849 L1054.4 382.387 L1067.933 384.29 L1081.467 385.718 L1095 386.788" fill="none" stroke="#a84b3b" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M892 390 L892 146.398" fill="none" stroke="#655184" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 5"/>
+<text x="77" y="447" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">蓝绿 a = 0.10，橙 a = 0.25</text>
+<path d="M75 475 L1125 475" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="76" y="514" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="25" text-anchor="start" font-weight="400">同样两批，次序不同 · a = 0.25</text>
+<text x="77" y="569" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">先 0 后 10</text>
+<path d="M77 638 L104 589 L536 589 L509 638 Z" fill="url(#a-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="306.5" y="621.9" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">0 → 0 → 2.5</text>
+<text x="651" y="569" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">先 10 后 0</text>
+<path d="M651 638 L678 589 L1110 589 L1083 638 Z" fill="url(#a-r)" stroke="#a84b3b" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="880.5" y="621.9" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">0 → 2.5 → 1.875</text>
+</svg><line x1="58" x2="1142" y1="741" y2="741" stroke="#dce6e8" stroke-width="1"/><text x="60" y="788" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 804 1200 537.55539499"/><view id="b-textbook-detail-1-1" viewBox="0 804 684 306.406575145"/><view id="b-textbook-detail-1-2" viewBox="516 804 684 306.406575145"/><view id="b-textbook-detail-2-1" viewBox="0 1035.14881985 684 306.406575145"/><view id="b-textbook-detail-2-2" viewBox="516 1035.14881985 684 306.406575145"/><svg width="1200" height="537.55539499" viewBox="-18.24 57.8541 996.48 446.386" role="img" aria-labelledby="b-artwork-title" id="panel-b" x="0" y="804">
+<title id="b-artwork-title">固定查询值时关闭运行统计的BatchNorm在eval中依赖同批其他样本</title><defs><clipPath id="b-artwork-view"><rect x="25" y="114" width="910" height="350.440714"/></clipPath><linearGradient id="b-science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient><linearGradient id="b-science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient><linearGradient id="b-science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient><linearGradient id="b-science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f4f7f8"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect id="b-edition-paper" x="-18.24" y="57.8541" width="996.48" height="446.386" fill="#ffffff"/><svg id="b-plot-content" x="0" y="76.0941" width="960" height="409.906" viewBox="0 76.094082 960 409.905918" overflow="hidden"><rect x="0" y="76.094082" width="960" height="409.905918" fill="#ffffff" id="b-plot-canvas"/><rect width="960" height="486" fill="#ffffff"/><g clip-path="url(#b-artwork-view)"><g transform="translate(23.090241 111.135362) scale(0.954879)"><g><rect x="2" y="3" width="953" height="367" fill="#ffffff"/><defs>
+  <style type="text/css">#panel-b *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="b-figure_1">
+  <g id="b-patch_1">
+   <path d="M 0 376.782688  L 958.856562 376.782688  L 958.856562 0  L 0 0  z " style="fill: #ffffff"/>
+  </g>
+  <g id="b-axes_1">
+   <g id="b-patch_2">
+    <path d="M 76.007656 300.168  L 680.807656 300.168  L 680.807656 21.6  L 76.007656 21.6  z " style="fill: #ffffff"/>
+   </g>
+   <g id="b-matplotlib.axis_1">
+    <g id="b-xtick_1">
+     <g id="b-line2d_1">
+      </g>
+     <g id="b-line2d_2">
+      <defs>
+       <path id="b-m48a61e633e" d="M 0 0  L 0 3.5  " style="stroke: #202a37; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#b-m48a61e633e" x="90.407656" y="300.168" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_1">
+      <text style="font-size: 24.99px; text-anchor: middle" x="90.407656" y="323.954875" transform="translate(90.40764523 313.48207664) scale(0.81199862) translate(-90.40764523 -313.48207664) rotate(-0 90.407656 323.954875)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">-1</text>
+     </g>
+    </g>
+    <g id="b-xtick_2">
+     <g id="b-line2d_3">
+      </g>
+     <g id="b-line2d_4">
+      <g>
+       <use xlink:href="#b-m48a61e633e" x="234.407656" y="300.168" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_2">
+      <text style="font-size: 24.99px; text-anchor: middle" x="234.407656" y="323.954875" transform="translate(234.47309875 313.48207664) scale(0.81199862) translate(-234.47309875 -313.48207664) rotate(-0 234.407656 323.954875)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
+     </g>
+    </g>
+    <g id="b-xtick_3">
+     <g id="b-line2d_5">
+      </g>
+     <g id="b-line2d_6">
+      <g>
+       <use xlink:href="#b-m48a61e633e" x="378.407656" y="300.168" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_3">
+      <text style="font-size: 24.99px; text-anchor: middle" x="378.407656" y="323.954875" transform="translate(378.40762854 313.48207664) scale(0.81199862) translate(-378.40762854 -313.48207664) rotate(-0 378.407656 323.954875)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
+     </g>
+    </g>
+    <g id="b-xtick_4">
+     <g id="b-line2d_7">
+      </g>
+     <g id="b-line2d_8">
+      <g>
+       <use xlink:href="#b-m48a61e633e" x="522.407656" y="300.168" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_4">
+      <text style="font-size: 24.99px; text-anchor: middle" x="522.407656" y="323.954875" transform="translate(522.40762854 313.48207664) scale(0.81199862) translate(-522.40762854 -313.48207664) rotate(-0 522.407656 323.954875)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
+     </g>
+    </g>
+    <g id="b-xtick_5">
+     <g id="b-line2d_9">
+      </g>
+     <g id="b-line2d_10">
+      <g>
+       <use xlink:href="#b-m48a61e633e" x="666.407656" y="300.168" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_5">
+      <text style="font-size: 24.99px; text-anchor: middle" x="666.407656" y="323.954875" transform="translate(666.40762854 313.48207664) scale(0.81199862) translate(-666.40762854 -313.48207664) rotate(-0 666.407656 323.954875)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text>
+     </g>
+    </g>
+    <g id="b-text_6">
+     <text style="font-size: 27.09px; text-anchor: middle" x="378.407656" y="349.962219" transform="translate(378.47602844 340.53668213) scale(0.98982003) translate(-378.47602844 -340.53668213) rotate(-0 378.407656 349.962219)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">同批另一幅图的像素值</text>
+    </g>
+   </g>
+   <g id="b-matplotlib.axis_2">
+    <g id="b-ytick_1">
+     <g id="b-line2d_11">
+      <line x1="76.007656" y1="282.195871" x2="680.807656" y2="282.195871" stroke="#e7ecef" stroke-width="0.9405" stroke-opacity="0.18" clip-path="url(#b-p608a349152)"/></g>
+     <g id="b-line2d_12">
+      <defs>
+       <path id="b-m4bcf977b72" d="M 0 0  L -3.5 0  " style="stroke: #202a37; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#b-m4bcf977b72" x="76.007656" y="282.195871" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_7">
+      <text style="font-size: 24.99px; text-anchor: end" x="69.007656" y="290.589308" transform="translate(57.27485561 280.11647606) scale(0.81199862) translate(-57.27485561 -280.11647606) rotate(-0 69.007656 290.589308)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">-1</text>
+     </g>
+    </g>
+    <g id="b-ytick_2">
+     <g id="b-line2d_13">
+      <line x1="76.007656" y1="192.335226" x2="680.807656" y2="192.335226" stroke="#e7ecef" stroke-width="0.9405" stroke-opacity="0.18" clip-path="url(#b-p608a349152)"/></g>
+     <g id="b-line2d_14">
+      <g>
+       <use xlink:href="#b-m4bcf977b72" x="76.007656" y="192.335226" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_8">
+      <text style="font-size: 24.99px; text-anchor: end" x="69.007656" y="200.728663" transform="translate(62.33124924 190.2558651) scale(0.81199862) translate(-62.33124924 -190.2558651) rotate(-0 69.007656 200.728663)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
+     </g>
+    </g>
+    <g id="b-ytick_3">
+     <g id="b-line2d_15">
+      <line x1="76.007656" y1="102.474581" x2="680.807656" y2="102.474581" stroke="#e7ecef" stroke-width="0.9405" stroke-opacity="0.18" clip-path="url(#b-p608a349152)"/></g>
+     <g id="b-line2d_16">
+      <g>
+       <use xlink:href="#b-m4bcf977b72" x="76.007656" y="102.474581" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_9">
+      <text style="font-size: 24.99px; text-anchor: end" x="69.007656" y="110.868018" transform="translate(62.26579428 100.39522362) scale(0.81199862) translate(-62.26579428 -100.39522362) rotate(-0 69.007656 110.868018)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
+     </g>
+    </g>
+    </g>
+   <g id="b-line2d_17">
+    <polyline clip-path="url(#b-p608a349152)" style="fill: none; stroke: #b35e2d; stroke-width: 3; stroke-linecap: square" points="90.407656,102.47503 360.047656,102.584932 367.247656,102.772318 370.487656,103.062873 372.287656,103.453351 373.367656,103.906714 374.087656,104.407294 374.807656,105.219067 375.167656,105.827215 375.527656,106.656462 375.887656,107.824333 376.247656,109.533793 376.607656,112.153627 376.967656,116.389119 377.327656,123.639388 377.687656,136.606019 378.047656,159.301796 378.767656,225.368656 379.127656,248.064432 379.487656,261.031064 379.847656,268.281332 380.207656,272.516825 380.567656,275.136659 380.927656,276.846119 381.647656,278.843237 382.367656,279.909693 383.087656,280.541218 384.167656,281.093245 385.607656,281.485499 387.767656,281.773492 391.367656,281.974811 398.567656,282.104317 418.727656,282.172956 536.807656,282.194386 666.407656,282.195422 666.407656,282.195422"/>
+   </g>
+   <g id="b-line2d_18">
+    <line clip-path="url(#b-p608a349152)" style="fill: none; stroke: #1e6c8e; stroke-width: 3; stroke-linecap: square" x1="76.007656" y1="102.47503" x2="680.807656" y2="102.47503"/>
+   </g>
+   <g id="b-line2d_19">
+    <line clip-path="url(#b-p608a349152)" style="fill: none; stroke-dasharray: 1,1.65; stroke-dashoffset: 0; stroke: #bacad5" x1="378.407656" y1="300.168" x2="378.407656" y2="21.6"/>
+   </g>
+   <g id="b-patch_3">
+    <line x1="76.007656" y1="300.168" x2="76.007656" y2="21.6" stroke="#202a37" stroke-width="1.65"/><polyline points="71.552656,31.5 76.007656,21.6 80.462656,31.5" fill="none" stroke="#202a37" stroke-width="1.551" stroke-linejoin="round" stroke-linecap="round"/></g>
+   <g id="b-patch_4">
+    <line x1="76.007656" y1="300.168" x2="680.807656" y2="300.168" stroke="#202a37" stroke-width="1.65"/><polyline points="670.907656,295.713 680.807656,300.168 670.907656,304.623" fill="none" stroke="#202a37" stroke-width="1.551" stroke-linejoin="round" stroke-linecap="round"/></g>
+   <g id="b-PathCollection_1">
+    <defs>
+     <path id="b-md4cf498e4d" d="M 0 5  C 1.326016 5 2.597899 4.473168 3.535534 3.535534  C 4.473168 2.597899 5 1.326016 5 0  C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534  C 2.597899 -4.473168 1.326016 -5 0 -5  C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534  C -4.473168 -2.597899 -5 -1.326016 -5 0  C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534  C -2.597899 4.473168 -1.326016 5 0 5  z " style="stroke: #b35e2d"/>
+    </defs>
+    <g clip-path="url(#b-p608a349152)">
+     <use xlink:href="#b-md4cf498e4d" x="234.407656" y="102.476378" style="fill: #b35e2d; stroke: #b35e2d"/>
+     <use xlink:href="#b-md4cf498e4d" x="666.407656" y="282.195422" style="fill: #b35e2d; stroke: #b35e2d"/>
+    </g>
+   </g>
+   <g id="b-legend_1">
+    <g id="b-line2d_20">
+     <polyline style="fill: none; stroke: #b35e2d; stroke-width: 3; stroke-linecap: square" points="376.728125,44.539375 393.728125,44.539375 410.728125,44.539375"/>
+    </g>
+    <g id="b-text_11">
+     <text style="font-size: 21.93px; text-anchor: start" x="424.328125" y="50.489375" transform="rotate(-0 424.328125 50.489375)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">关闭运行统计：eval 仍用当前批</text>
+    </g>
+    <g id="b-line2d_21">
+     <polyline style="fill: none; stroke: #1e6c8e; stroke-width: 3; stroke-linecap: square" points="376.728125,70.854844 393.728125,70.854844 410.728125,70.854844"/>
+    </g>
+    <g id="b-text_12">
+     <text style="font-size: 21.93px; text-anchor: start" x="424.328125" y="76.804844" transform="rotate(-0 424.328125 76.804844)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">固定运行均值 0、方差 1</text>
+    </g>
+   </g>
+  </g>
+  <g id="b-text_13">
+   <text style="font-size: 27.752198px; text-anchor: start; fill: #202a37" x="740.207656" y="84.672" transform="translate(795.69699097 74.72284317) scale(0.96620176) translate(-795.69699097 -74.72284317) rotate(-0 740.207656 84.672)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">同伴为 0</text>
+  </g>
+  <g id="b-text_14">
+   <text style="font-size: 22.155px; text-anchor: start; fill: #a45c32" x="740.207656" y="131.976" transform="rotate(-0 740.207656 131.976)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">查询输出 +0.999980</text>
+  </g>
+  <g id="b-text_15">
+   <text style="font-size: 27.752198px; text-anchor: start; fill: #202a37" x="740.207656" y="210.816" transform="translate(795.69699097 200.86684036) scale(0.96620176) translate(-795.69699097 -200.86684036) rotate(-0 740.207656 210.816)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">同伴为 3</text>
+  </g>
+  <g id="b-text_16">
+   <text style="font-size: 22.155px; text-anchor: start; fill: #a45c32" x="740.207656" y="258.12" transform="rotate(-0 740.207656 258.12)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">查询输出 −0.999995</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="b-p608a349152">
+   <rect x="76.007656" y="21.6" width="604.8" height="278.568"/>
+  </clipPath>
+ </defs>
+</g></g></g></svg><text id="b-text_10" x="95.670" y="121.760" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="19.93" fill="#202a37" text-anchor="start" font-weight="400">查询样本的归一化输出</text></svg></svg>

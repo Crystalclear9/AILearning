@@ -1,0 +1,420 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1386.17647059"><title id="title">感受野的窗口重叠与响应系数</title><desc id="description">(a) 同一输入脉冲可被多个窗口重复使用。(b) 感受野不只看范围，还要看重叠路径。</desc><rect width="1200" fill="#fff" height="1386.17647059"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 669"/><view id="a-textbook-detail-1-1" viewBox="0 51 684 381.33"/><view id="a-textbook-detail-1-2" viewBox="516 51 684 381.33"/><view id="a-textbook-detail-2-1" viewBox="0 338.67 684 381.33"/><view id="a-textbook-detail-2-2" viewBox="516 338.67 684 381.33"/><svg width="1200" height="669" viewBox="0 0 1200 669" role="img" aria-labelledby="a-fig-title a-fig-desc" id="panel-a" x="0" y="51">
+<title id="a-fig-title">中心与角点进入的窗口数不同</title>
+<desc id="a-fig-desc">两层三乘三全一核，无填充。中心像素进入九个第一层窗口，角点只进入一个。</desc>
+<rect x="0" y="0" width="1200" height="669" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="a-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="a-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="a-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="a-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+</defs>
+<text x="75" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">同样的单位脉冲，不同的覆盖路径</text>
+<text x="235" y="110" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">5 × 5 输入</text>
+<text x="639" y="110" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">3 × 3 第一层</text>
+<text x="1001" y="110" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">输出</text>
+<text x="77" y="215" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">中心脉冲</text>
+<rect x="228" y="141" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="246.5" y="164.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="269" y="141" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="287.5" y="164.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="310" y="141" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="328.5" y="164.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="351" y="141" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="369.5" y="164.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="392" y="141" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="410.5" y="164.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="228" y="176" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="246.5" y="199.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="269" y="176" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="287.5" y="199.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="310" y="176" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="328.5" y="199.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="351" y="176" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="369.5" y="199.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="392" y="176" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="410.5" y="199.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="228" y="211" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="246.5" y="234.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="269" y="211" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="287.5" y="234.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="310" y="211" width="37" height="31" fill="#edf6f6" opacity="1"/>
+<text x="328.5" y="234.5" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="351" y="211" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="369.5" y="234.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="392" y="211" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="410.5" y="234.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="228" y="246" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="246.5" y="269.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="269" y="246" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="287.5" y="269.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="310" y="246" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="328.5" y="269.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="351" y="246" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="369.5" y="269.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="392" y="246" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="410.5" y="269.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="228" y="281" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="246.5" y="304.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="269" y="281" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="287.5" y="304.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="310" y="281" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="328.5" y="304.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="351" y="281" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="369.5" y="304.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="392" y="281" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="410.5" y="304.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="627" y="169" width="54" height="38" fill="#edf6f6" opacity="1"/>
+<text x="654" y="196" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="685" y="169" width="54" height="38" fill="#edf6f6" opacity="1"/>
+<text x="712" y="196" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="743" y="169" width="54" height="38" fill="#edf6f6" opacity="1"/>
+<text x="770" y="196" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="627" y="211" width="54" height="38" fill="#edf6f6" opacity="1"/>
+<text x="654" y="238" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="685" y="211" width="54" height="38" fill="#edf6f6" opacity="1"/>
+<text x="712" y="238" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="743" y="211" width="54" height="38" fill="#edf6f6" opacity="1"/>
+<text x="770" y="238" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="627" y="253" width="54" height="38" fill="#edf6f6" opacity="1"/>
+<text x="654" y="280" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="685" y="253" width="54" height="38" fill="#edf6f6" opacity="1"/>
+<text x="712" y="280" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="743" y="253" width="54" height="38" fill="#edf6f6" opacity="1"/>
+<text x="770" y="280" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<path d="M456 224 L596 224" fill="none" stroke="#655184" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M596 224 L585 229 L585 219 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M833 224 L948 224" fill="none" stroke="#655184" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M948 224 L937 229 L937 219 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M968 254 L995 200 L1116 200 L1089 254 Z" fill="url(#a-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1042" y="236.1" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="26" text-anchor="middle" font-weight="400">9</text>
+<text x="77" y="445" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">角点脉冲</text>
+<rect x="228" y="371" width="37" height="31" fill="#fbede8" opacity="1"/>
+<text x="246.5" y="394.5" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="269" y="371" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="287.5" y="394.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="310" y="371" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="328.5" y="394.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="351" y="371" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="369.5" y="394.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="392" y="371" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="410.5" y="394.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="228" y="406" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="246.5" y="429.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="269" y="406" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="287.5" y="429.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="310" y="406" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="328.5" y="429.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="351" y="406" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="369.5" y="429.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="392" y="406" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="410.5" y="429.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="228" y="441" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="246.5" y="464.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="269" y="441" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="287.5" y="464.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="310" y="441" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="328.5" y="464.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="351" y="441" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="369.5" y="464.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="392" y="441" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="410.5" y="464.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="228" y="476" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="246.5" y="499.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="269" y="476" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="287.5" y="499.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="310" y="476" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="328.5" y="499.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="351" y="476" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="369.5" y="499.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="392" y="476" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="410.5" y="499.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="228" y="511" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="246.5" y="534.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="269" y="511" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="287.5" y="534.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="310" y="511" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="328.5" y="534.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="351" y="511" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="369.5" y="534.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="392" y="511" width="37" height="31" fill="#f4f7f8" opacity="1"/>
+<text x="410.5" y="534.5" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="627" y="399" width="54" height="38" fill="#fbede8" opacity="1"/>
+<text x="654" y="426" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<rect x="685" y="399" width="54" height="38" fill="#f4f7f8" opacity="1"/>
+<text x="712" y="426" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="743" y="399" width="54" height="38" fill="#f4f7f8" opacity="1"/>
+<text x="770" y="426" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="627" y="441" width="54" height="38" fill="#f4f7f8" opacity="1"/>
+<text x="654" y="468" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="685" y="441" width="54" height="38" fill="#f4f7f8" opacity="1"/>
+<text x="712" y="468" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="743" y="441" width="54" height="38" fill="#f4f7f8" opacity="1"/>
+<text x="770" y="468" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="627" y="483" width="54" height="38" fill="#f4f7f8" opacity="1"/>
+<text x="654" y="510" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="685" y="483" width="54" height="38" fill="#f4f7f8" opacity="1"/>
+<text x="712" y="510" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<rect x="743" y="483" width="54" height="38" fill="#f4f7f8" opacity="1"/>
+<text x="770" y="510" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0</text>
+<path d="M456 454 L596 454" fill="none" stroke="#655184" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M596 454 L585 459 L585 449 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M833 454 L948 454" fill="none" stroke="#655184" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M948 454 L937 459 L937 449 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M968 484 L995 430 L1116 430 L1089 484 Z" fill="url(#a-r)" stroke="#a84b3b" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1042" y="466.1" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="26" text-anchor="middle" font-weight="400">1</text>
+<path d="M75 579 L1125 579" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="75" y="625" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="start" font-weight="400">每层步幅 1、无填充；输出正是包含脉冲的第一层窗口数。</text>
+</svg><line x1="58" x2="1142" y1="732" y2="732" stroke="#dce6e8" stroke-width="1"/><text x="60" y="779" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 795 1200 591.176470588"/><view id="b-textbook-detail-1-1" viewBox="0 795 540 266.029411765"/><view id="b-textbook-detail-1-2" viewBox="330 795 540 266.029411765"/><view id="b-textbook-detail-1-3" viewBox="660 795 540 266.029411765"/><view id="b-textbook-detail-2-1" viewBox="0 957.573529412 540 266.029411765"/><view id="b-textbook-detail-2-2" viewBox="330 957.573529412 540 266.029411765"/><view id="b-textbook-detail-2-3" viewBox="660 957.573529412 540 266.029411765"/><view id="b-textbook-detail-3-1" viewBox="0 1120.14705882 540 266.029411765"/><view id="b-textbook-detail-3-2" viewBox="330 1120.14705882 540 266.029411765"/><view id="b-textbook-detail-3-3" viewBox="660 1120.14705882 540 266.029411765"/><svg width="1200" height="591.176470588" viewBox="0 0 1360 670" role="img" aria-labelledby="b-plate-title b-plate-desc" id="panel-b" x="0" y="795">
+<title id="b-plate-title">两次三乘三互相关的路径数</title>
+  <desc id="b-plate-desc">单位脉冲位于中心时终值为九，位于角点时为一。右侧系数由一维路径向量外积求得。</desc>
+  <defs>
+    <marker id="b-arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#202a37"/>
+    </marker>
+    <linearGradient id="b-wash-ink" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#afb9c7" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#afb9c7" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="b-arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#196f77"/>
+    </marker>
+    <linearGradient id="b-wash-teal" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#8dccd2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#8dccd2" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="b-arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#a84b3b"/>
+    </marker>
+    <linearGradient id="b-wash-coral" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#efaa9d" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#efaa9d" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="b-arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#655184"/>
+    </marker>
+    <linearGradient id="b-wash-violet" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#b4a6d2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#b4a6d2" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="b-arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#3c7459"/>
+    </marker>
+    <linearGradient id="b-wash-green" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#a4cfb3" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#a4cfb3" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="b-arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#657682"/>
+    </marker>
+    <linearGradient id="b-wash-gray" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#becbd2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#becbd2" stop-opacity=".58"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1360" height="670" fill="white" stroke="none" stroke-width="1.6"/>
+  <text x="235" y="57" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="36" fill="#202a37" text-anchor="middle" font-weight="400">输入脉冲</text>
+  <text x="565" y="57" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="36" fill="#202a37" text-anchor="middle" font-weight="400">第一层响应</text>
+  <text x="782" y="57" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="36" fill="#202a37" text-anchor="middle" font-weight="400" transform="translate(782 44) scale(0.97067901) translate(-782 -44)">输出</text>
+  <rect x="145" y="106" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="164" y="130.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="183" y="106" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="202" y="130.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="221" y="106" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="240" y="130.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="259" y="106" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="278" y="130.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="297" y="106" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="316" y="130.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="145" y="144" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="164" y="168.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="183" y="144" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="202" y="168.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="221" y="144" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="240" y="168.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="259" y="144" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="278" y="168.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="297" y="144" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="316" y="168.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="145" y="182" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="164" y="206.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="183" y="182" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="202" y="206.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="221" y="182" width="38" height="38" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="240" y="206.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="259" y="182" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="278" y="206.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="297" y="182" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="316" y="206.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="145" y="220" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="164" y="244.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="183" y="220" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="202" y="244.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="221" y="220" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="240" y="244.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="259" y="220" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="278" y="244.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="297" y="220" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="316" y="244.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="145" y="258" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="164" y="282.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="183" y="258" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="202" y="282.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="221" y="258" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="240" y="282.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="259" y="258" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="278" y="282.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="297" y="258" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="316" y="282.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <text x="63" y="213" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="27" fill="#196f77" text-anchor="middle" font-weight="400">中心</text>
+  <line x1="360" y1="201" x2="472" y2="201" stroke="#196f77" stroke-width="2" stroke-linecap="round" marker-end="url(#b-arrow-teal)"/>
+  <rect x="501" y="138" width="42" height="42" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="522" y="164.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="543" y="138" width="42" height="42" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="564" y="164.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="585" y="138" width="42" height="42" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="606" y="164.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="501" y="180" width="42" height="42" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="522" y="206.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="543" y="180" width="42" height="42" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="564" y="206.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="585" y="180" width="42" height="42" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="606" y="206.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="501" y="222" width="42" height="42" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="522" y="248.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="543" y="222" width="42" height="42" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="564" y="248.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="585" y="222" width="42" height="42" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="606" y="248.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <line x1="646" y1="201" x2="727" y2="201" stroke="#196f77" stroke-width="2" stroke-linecap="round" marker-end="url(#b-arrow-teal)"/>
+  <circle cx="786" cy="201" r="36" stroke="#196f77" stroke-width="1.8" fill="url(#b-wash-teal)"/>
+  <text x="786" y="211" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="32" fill="#196f77" text-anchor="middle" font-weight="400" transform="translate(786 197.5) scale(0.94444444) translate(-786 -197.5)">9</text>
+  <rect x="145" y="379" width="38" height="38" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="164" y="403.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="183" y="379" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="202" y="403.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="221" y="379" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="240" y="403.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="259" y="379" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="278" y="403.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="297" y="379" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="316" y="403.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="145" y="417" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="164" y="441.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="183" y="417" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="202" y="441.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="221" y="417" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="240" y="441.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="259" y="417" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="278" y="441.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="297" y="417" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="316" y="441.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="145" y="455" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="164" y="479.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="183" y="455" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="202" y="479.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="221" y="455" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="240" y="479.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="259" y="455" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="278" y="479.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="297" y="455" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="316" y="479.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="145" y="493" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="164" y="517.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="183" y="493" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="202" y="517.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="221" y="493" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="240" y="517.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="259" y="493" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="278" y="517.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="297" y="493" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="316" y="517.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="145" y="531" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="164" y="555.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="183" y="531" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="202" y="555.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="221" y="531" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="240" y="555.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="259" y="531" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="278" y="555.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="297" y="531" width="38" height="38" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="316" y="555.32" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <text x="63" y="486" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="27" fill="#a84b3b" text-anchor="middle" font-weight="400">角点</text>
+  <line x1="360" y1="474" x2="472" y2="474" stroke="#a84b3b" stroke-width="2" stroke-linecap="round" marker-end="url(#b-arrow-coral)"/>
+  <rect x="501" y="411" width="42" height="42" fill="#a5d3d5" stroke="white" stroke-width="1.25"/>
+  <text x="522" y="437.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#0f5158" text-anchor="middle" font-weight="400">1</text>
+  <rect x="543" y="411" width="42" height="42" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="564" y="437.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="585" y="411" width="42" height="42" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="606" y="437.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="501" y="453" width="42" height="42" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="522" y="479.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="543" y="453" width="42" height="42" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="564" y="479.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="585" y="453" width="42" height="42" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="606" y="479.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="501" y="495" width="42" height="42" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="522" y="521.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="543" y="495" width="42" height="42" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="564" y="521.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <rect x="585" y="495" width="42" height="42" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="606" y="521.88" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#657682" text-anchor="middle" font-weight="400">0</text>
+  <line x1="646" y1="474" x2="727" y2="474" stroke="#a84b3b" stroke-width="2" stroke-linecap="round" marker-end="url(#b-arrow-coral)"/>
+  <circle cx="786" cy="474" r="36" stroke="#a84b3b" stroke-width="1.8" fill="url(#b-wash-coral)"/>
+  <text x="786" y="484" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="32" fill="#a84b3b" text-anchor="middle" font-weight="400" transform="translate(786 470.5) scale(0.94444444) translate(-786 -470.5)">1</text>
+  <line x1="863" y1="94" x2="863" y2="571" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="1108" y="57" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="36" fill="#202a37" text-anchor="middle" font-weight="400">原输入位置的系数</text>
+  <rect x="975" y="190" width="54" height="54" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="1002" y="224.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">1</text>
+  <rect x="1029" y="190" width="54" height="54" fill="#e2f0f1" stroke="white" stroke-width="1.25"/>
+  <text x="1056" y="224.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">2</text>
+  <rect x="1083" y="190" width="54" height="54" fill="#d1e8e9" stroke="white" stroke-width="1.25"/>
+  <text x="1110" y="224.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">3</text>
+  <rect x="1137" y="190" width="54" height="54" fill="#e2f0f1" stroke="white" stroke-width="1.25"/>
+  <text x="1164" y="224.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">2</text>
+  <rect x="1191" y="190" width="54" height="54" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="1218" y="224.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">1</text>
+  <rect x="975" y="244" width="54" height="54" fill="#e2f0f1" stroke="white" stroke-width="1.25"/>
+  <text x="1002" y="278.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">2</text>
+  <rect x="1029" y="244" width="54" height="54" fill="#c0dfe1" stroke="white" stroke-width="1.25"/>
+  <text x="1056" y="278.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">4</text>
+  <rect x="1083" y="244" width="54" height="54" fill="#9bcbcf" stroke="white" stroke-width="1.25"/>
+  <text x="1110" y="278.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">6</text>
+  <rect x="1137" y="244" width="54" height="54" fill="#c0dfe1" stroke="white" stroke-width="1.25"/>
+  <text x="1164" y="278.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">4</text>
+  <rect x="1191" y="244" width="54" height="54" fill="#e2f0f1" stroke="white" stroke-width="1.25"/>
+  <text x="1218" y="278.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">2</text>
+  <rect x="975" y="298" width="54" height="54" fill="#d1e8e9" stroke="white" stroke-width="1.25"/>
+  <text x="1002" y="332.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">3</text>
+  <rect x="1029" y="298" width="54" height="54" fill="#9bcbcf" stroke="white" stroke-width="1.25"/>
+  <text x="1056" y="332.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">6</text>
+  <rect x="1083" y="298" width="54" height="54" fill="#196f77" stroke="white" stroke-width="1.25"/>
+  <text x="1110" y="332.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="white" text-anchor="middle" font-weight="400">9</text>
+  <rect x="1137" y="298" width="54" height="54" fill="#9bcbcf" stroke="white" stroke-width="1.25"/>
+  <text x="1164" y="332.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">6</text>
+  <rect x="1191" y="298" width="54" height="54" fill="#d1e8e9" stroke="white" stroke-width="1.25"/>
+  <text x="1218" y="332.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">3</text>
+  <rect x="975" y="352" width="54" height="54" fill="#e2f0f1" stroke="white" stroke-width="1.25"/>
+  <text x="1002" y="386.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">2</text>
+  <rect x="1029" y="352" width="54" height="54" fill="#c0dfe1" stroke="white" stroke-width="1.25"/>
+  <text x="1056" y="386.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">4</text>
+  <rect x="1083" y="352" width="54" height="54" fill="#9bcbcf" stroke="white" stroke-width="1.25"/>
+  <text x="1110" y="386.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">6</text>
+  <rect x="1137" y="352" width="54" height="54" fill="#c0dfe1" stroke="white" stroke-width="1.25"/>
+  <text x="1164" y="386.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">4</text>
+  <rect x="1191" y="352" width="54" height="54" fill="#e2f0f1" stroke="white" stroke-width="1.25"/>
+  <text x="1218" y="386.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">2</text>
+  <rect x="975" y="406" width="54" height="54" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="1002" y="440.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">1</text>
+  <rect x="1029" y="406" width="54" height="54" fill="#e2f0f1" stroke="white" stroke-width="1.25"/>
+  <text x="1056" y="440.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">2</text>
+  <rect x="1083" y="406" width="54" height="54" fill="#d1e8e9" stroke="white" stroke-width="1.25"/>
+  <text x="1110" y="440.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">3</text>
+  <rect x="1137" y="406" width="54" height="54" fill="#e2f0f1" stroke="white" stroke-width="1.25"/>
+  <text x="1164" y="440.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">2</text>
+  <rect x="1191" y="406" width="54" height="54" fill="#f2f7f8" stroke="white" stroke-width="1.25"/>
+  <text x="1218" y="440.56" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">1</text>
+  <rect x="975" y="190" width="54" height="54" fill="none" stroke="#a84b3b" stroke-width="2.25"/>
+  <rect x="1083" y="298" width="54" height="54" fill="none" stroke="#196f77" stroke-width="2.25"/>
+  <text x="1110" y="518" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">中心 9，角点 1，总和 81</text>
+  <text x="681" y="632" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="30" fill="#202a37" text-anchor="middle" font-weight="400">两个空间轴上的路径数相乘，得到原输入的二维系数。</text>
+</svg></svg>

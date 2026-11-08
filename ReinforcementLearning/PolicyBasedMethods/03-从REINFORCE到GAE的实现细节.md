@@ -349,10 +349,10 @@ $$
 
 $$
 \begin{aligned}
-&\widehat g_{\rm raw}=\frac12\sum_{i=1}^2 S_iR_i,\\
+&\widehat g_{\mathrm{raw}}=\frac12\sum_{i=1}^2 S_iR_i,\\
 &\bar R=\frac{R_1+R_2}{2},\\
-&\widehat g_{\rm center}=\frac12\sum_{i=1}^2S_i(R_i-\bar R),\\
-&\widehat g_{\rm LOO}=\frac12\bigl[S_1(R_1-R_2)+S_2(R_2-R_1)\bigr].
+&\widehat g_{\mathrm{center}}=\frac12\sum_{i=1}^2S_i(R_i-\bar R),\\
+&\widehat g_{\mathrm{LOO}}=\frac12\bigl[S_1(R_1-R_2)+S_2(R_2-R_1)\bigr].
 \end{aligned}
 $$
 
@@ -387,9 +387,9 @@ $$
 
 $$
 \begin{aligned}
-&E[\widehat g_{\rm raw}]=0.16,\\
-&\quad E[\widehat g_{\rm center}]=0.08,\qquad
-E[\widehat g_{\rm LOO}]=0.16.
+&E[\widehat g_{\mathrm{raw}}]=0.16,\\
+&\quad E[\widehat g_{\mathrm{center}}]=0.08,\qquad
+E[\widehat g_{\mathrm{LOO}}]=0.16.
 \end{aligned}
 $$
 
@@ -397,7 +397,7 @@ $$
 
 $$
 \begin{aligned}
-&E[\widehat g_{\rm center}]\\
+&E[\widehat g_{\mathrm{center}}]\\
 &=E\left[\frac1n\sum_iS_iR_i
 -\frac{1}{n^2}\sum_i\sum_j S_iR_j\right]\\
 &=g-\frac{n}{n^2}g
@@ -414,7 +414,7 @@ $$
 \end{aligned}
 $$
 
-这个等式对每一批样本逐项成立，因此 $`\widehat g_{\rm LOO}=\frac{n}{n-1}\widehat g_{\rm center}`$，其期望恢复为 $`g`$。$`n=1`$ 时批内中心化恒为零，留一基线没有定义，必须改用历史估计、独立估计或不用基线。
+这个等式对每一批样本逐项成立，因此 $`\widehat g_{\mathrm{LOO}}=\frac{n}{n-1}\widehat g_{\mathrm{center}}`$，其期望恢复为 $`g`$。$`n=1`$ 时批内中心化恒为零，留一基线没有定义，必须改用历史估计、独立估计或不用基线。
 
 需要守住三个边界。第一，`detach` 只能阻止自动微分通过基线反向传播，不能让随机变量在统计上独立，因此不能自行消除上述偏差。第二，固定 $`n`$、无裁剪的简单梯度估计仅被乘上一个正常数，期望方向不变；但与随机标准差、不同批大小、非线性优化器或 PPO 裁剪结合后，不能直接沿用“只改学习率”的结论。第三，同一条轨迹里的时间步相互依赖，交叉项不一定为零；这里的留一修正不能无条件套在 rollout 的每个时间步上。应先明确独立采样单位，必要时在相同初始条件下用独立完整轨迹构造基线。
 
@@ -422,10 +422,10 @@ $$
 
 $$
 \begin{aligned}
-&\mathrm{Var}(\widehat g_{\rm raw})
+&\mathrm{Var}(\widehat g_{\mathrm{raw}})
 =0.32(0.4)^2\\
 &+0.04(0.8)^2-(0.16)^2=0.0512,\\
-&\mathrm{Var}(\widehat g_{\rm LOO})
+&\mathrm{Var}(\widehat g_{\mathrm{LOO}})
 =0.32(0.5)^2-(0.16)^2\\
 &=0.0544.
 \end{aligned}

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1290"><title id="title">候选遗漏与聚合排名</title><desc id="description">(a) 两列局部最高分遗漏聚合赢家与逐层阈值证书。(b) 重排只能重新排列已经进入候选的记录。</desc><rect width="1200" fill="#fff" height="1290"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 658"/><view id="a-textbook-detail-1-1" viewBox="0 51 684 375.06"/><view id="a-textbook-detail-1-2" viewBox="516 51 684 375.06"/><view id="a-textbook-detail-2-1" viewBox="0 333.94 684 375.06"/><view id="a-textbook-detail-2-2" viewBox="516 333.94 684 375.06"/><svg width="1200" height="658" viewBox="0 0 1200 658" role="img" aria-labelledby="a-fig-title a-fig-desc" id="panel-a" x="0" y="51">
+<title id="a-fig-title">聚合排序的停止条件</title>
+<desc id="a-fig-desc">局部第一名的并集漏掉全局第一。逐列扫描时用当前阈值约束未见实体的总分。</desc>
+<rect x="0" y="0" width="1200" height="658" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="a-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="a-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="a-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="a-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+<linearGradient id="a-blue" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e9f1f8"/></linearGradient>
+<linearGradient id="a-ochre" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f7f0d9"/></linearGradient>
+<linearGradient id="a-green" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#ecf5ee"/></linearGradient>
+</defs>
+<text x="76" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">局部第一名可能漏掉全局第一</text>
+<rect x="136" y="156" width="179" height="50" fill="#f4f7f8" opacity="1"/>
+<text x="225.5" y="189" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">A : 9</text>
+<rect x="319" y="156" width="179" height="50" fill="#f4f7f8" opacity="1"/>
+<text x="408.5" y="189" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">B : 9</text>
+<text x="120" y="189" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" text-anchor="end" font-weight="400">1</text>
+<rect x="136" y="210" width="179" height="50" fill="#edf6f6" opacity="1"/>
+<text x="225.5" y="243" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">C : 7</text>
+<rect x="319" y="210" width="179" height="50" fill="#edf6f6" opacity="1"/>
+<text x="408.5" y="243" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">C : 6</text>
+<text x="120" y="243" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" text-anchor="end" font-weight="400">2</text>
+<rect x="136" y="264" width="179" height="50" fill="#f4f7f8" opacity="1"/>
+<text x="225.5" y="297" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">D : 2</text>
+<rect x="319" y="264" width="179" height="50" fill="#f4f7f8" opacity="1"/>
+<text x="408.5" y="297" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">D : 2</text>
+<text x="120" y="297" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" text-anchor="end" font-weight="400">3</text>
+<rect x="136" y="318" width="179" height="50" fill="#f4f7f8" opacity="1"/>
+<text x="225.5" y="351" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">E : 1</text>
+<rect x="319" y="318" width="179" height="50" fill="#f4f7f8" opacity="1"/>
+<text x="408.5" y="351" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">E : 1</text>
+<text x="120" y="351" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" text-anchor="end" font-weight="400">4</text>
+<rect x="136" y="372" width="179" height="50" fill="#f4f7f8" opacity="1"/>
+<text x="225.5" y="405" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">F : 0.5</text>
+<rect x="319" y="372" width="179" height="50" fill="#f4f7f8" opacity="1"/>
+<text x="408.5" y="405" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">F : 0.5</text>
+<text x="120" y="405" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" text-anchor="end" font-weight="400">5</text>
+<rect x="136" y="426" width="179" height="50" fill="#f4f7f8" opacity="1"/>
+<text x="225.5" y="459" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">B : 0</text>
+<rect x="319" y="426" width="179" height="50" fill="#f4f7f8" opacity="1"/>
+<text x="408.5" y="459" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">A : 0</text>
+<text x="120" y="459" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" text-anchor="end" font-weight="400">6</text>
+<text x="225.5" y="142" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="middle" font-weight="400">列表 1</text>
+<text x="408.5" y="142" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="middle" font-weight="400">列表 2</text>
+<text x="654" y="130" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">扫描深度</text>
+<text x="845" y="130" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">最佳完整分数</text>
+<text x="1045" y="130" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="middle" font-weight="400">阈值上界</text>
+<text x="655" y="182" fill="#202a37" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" text-anchor="start" font-weight="400">1</text>
+<text x="897" y="182" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" text-anchor="middle" font-weight="400">9</text>
+<text x="1045" y="182" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" text-anchor="middle" font-weight="400">18</text>
+<text x="655" y="217" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">继续扫描</text>
+<text x="655" y="276" fill="#202a37" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" text-anchor="start" font-weight="400">2</text>
+<text x="897" y="276" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" text-anchor="middle" font-weight="400">13</text>
+<text x="1045" y="276" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" text-anchor="middle" font-weight="400">13</text>
+<text x="655" y="311" fill="#655184" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">平局规则另判</text>
+<text x="655" y="370" fill="#202a37" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" text-anchor="start" font-weight="400">3</text>
+<text x="897" y="370" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" text-anchor="middle" font-weight="400">13</text>
+<text x="1045" y="370" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="23" text-anchor="middle" font-weight="400">4</text>
+<text x="655" y="405" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">可以停止</text>
+<path d="M75 514 L1125 514" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="77" y="560" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="start" font-weight="400">只取局部第一名得到 A、B；完整总分最高的却是 C = 13。</text>
+<text x="77" y="611" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">严格超过阈值时，未见实体已无法超过当前最佳。</text>
+</svg><line x1="58" x2="1142" y1="721" y2="721" stroke="#dce6e8" stroke-width="1"/><text x="60" y="768" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 784 1200 506"/><view id="b-textbook-detail-1-1" viewBox="0 784 684 288.42"/><view id="b-textbook-detail-1-2" viewBox="506.41666667 784 684 288.42"/><view id="b-textbook-detail-2-1" viewBox="0 1001.58 684 288.42"/><view id="b-textbook-detail-2-2" viewBox="516 1001.58 684 288.42"/><svg width="1200" height="506" viewBox="0 0 1200 506" role="img" aria-labelledby="b-fig-title b-fig-desc" id="panel-b" x="0" y="784">
+<title id="b-fig-title">候选阶段的遗漏无法靠重排恢复</title>
+<desc id="b-fig-desc">最终分数最高的是 a，但候选只有 b、c、d，重排只能返回 b。</desc>
+<rect x="0" y="0" width="1200" height="506" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="b-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="b-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="b-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="b-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+<linearGradient id="b-blue" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e9f1f8"/></linearGradient>
+<linearGradient id="b-ochre" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f7f0d9"/></linearGradient>
+<linearGradient id="b-green" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#ecf5ee"/></linearGradient>
+</defs>
+<text x="76" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">先看候选集里还有谁</text>
+<text x="76" y="122" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="26" text-anchor="start" font-weight="400">全库分数</text>
+<text x="487" y="122" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="26" text-anchor="start" font-weight="400">第一阶段候选</text>
+<text x="895" y="122" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="26" text-anchor="start" font-weight="400">精确重排</text>
+<path d="M76 192 L103 146 L310 146 L283 192 Z" fill="url(#b-r)" stroke="#a84b3b" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="193" y="177.4" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">a    0.99</text>
+<path d="M76 255 L103 209 L310 209 L283 255 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="193" y="240.4" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">b    0.90</text>
+<path d="M488 255 L515 209 L703 209 L676 255 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="595.5" y="240.4" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">b</text>
+<path d="M76 318 L103 272 L310 272 L283 318 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="193" y="303.4" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">c    0.80</text>
+<path d="M488 318 L515 272 L703 272 L676 318 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="595.5" y="303.4" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">c</text>
+<path d="M76 381 L103 335 L310 335 L283 381 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="193" y="366.4" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">d    0.70</text>
+<path d="M488 381 L515 335 L703 335 L676 381 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="595.5" y="366.4" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">d</text>
+<text x="502" y="178" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="start" font-weight="400">a 未入候选</text>
+<path d="M330 271 L455 271" fill="none" stroke="#655184" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M455 271 L444 276 L444 266 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M721 271 L853 271" fill="none" stroke="#655184" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M853 271 L842 276 L842 266 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M890 296 L917 245 L1109 245 L1082 296 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="999.5" y="279.25" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="25" text-anchor="middle" font-weight="400">返回 b</text>
+<path d="M75 414 L1125 414" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="77" y="459" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="start" font-weight="400">重排只能重新比较入选对象，无法找回被第一阶段漏掉的 a。</text>
+</svg></svg>

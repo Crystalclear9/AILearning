@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1342"><title id="title">混杂、筛选与干预</title><desc id="description">(a) 混杂分叉与干预的区别：机制、算例与边界。(b) 干预删除分配箭头而保留结果机制。</desc><rect width="1200" fill="#fff" height="1342"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 776"/><view id="a-textbook-complete-detail-1" viewBox="68.5 400.2 660 426.8"/><view id="a-textbook-detail-1-1" viewBox="0 54.97332113 540 349.2"/><view id="a-textbook-detail-1-2" viewBox="330 54.97332113 540 349.2"/><view id="a-textbook-detail-1-3" viewBox="650.06666667 51 540 349.2"/><view id="a-textbook-detail-2-1" viewBox="10.22006429 264.3999939 540 349.2"/><view id="a-textbook-detail-2-2" viewBox="330 264.4 540 349.2"/><view id="a-textbook-detail-2-3" viewBox="650.06666667 264.3999939 540 349.2"/><view id="a-textbook-detail-3-1" viewBox="10.22006429 477.79998779 540 349.2"/><view id="a-textbook-detail-3-2" viewBox="330 477.8 540 349.2"/><view id="a-textbook-detail-3-3" viewBox="650.06666667 477.79998779 540 349.2"/><svg width="1200" height="776" viewBox="0 0 1200 776" role="img" aria-labelledby="a-fig-title a-fig-desc" id="panel-a" x="0" y="51">
+<title id="a-fig-title">观察处理组会筛选人，干预设置处理不会</title>
+<desc id="a-fig-desc">高低风险原先各半。观察到处理组须重新归一化，干预仍按原始风险比例。</desc>
+<rect x="0" y="0" width="1200" height="776" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="a-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="a-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="a-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="a-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+</defs>
+<text x="74" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">先追踪谁被纳入，再计算人群均值</text>
+<text x="74" y="144" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="25" text-anchor="start" font-weight="400">观察 A = 1</text>
+<text x="74" y="214" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">原总体</text>
+<rect x="233" y="187" width="158" height="44" fill="#fbede8" opacity="1"/>
+<path d="M233 187 L391 187" fill="none" stroke="#a84b3b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="312" y="215" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.50</text>
+<rect x="391" y="187" width="158" height="44" fill="#edf6f6" opacity="1"/>
+<path d="M391 187 L549 187" fill="none" stroke="#196f77" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="215" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.50</text>
+<text x="74" y="310" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">保留质量</text>
+<rect x="233" y="283" width="142.2" height="44" fill="#fbede8" opacity="1"/>
+<path d="M233 283 L375.2 283" fill="none" stroke="#a84b3b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="304.1" y="311" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.45</text>
+<rect x="375.2" y="283" width="15.8" height="44" fill="#edf6f6" opacity="1"/>
+<path d="M375.2 283 L391 283" fill="none" stroke="#196f77" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="383.1" y="351" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">0.05</text>
+<text x="74" y="406" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">内部比例</text>
+<rect x="233" y="379" width="284.4" height="44" fill="#fbede8" opacity="1"/>
+<path d="M233 379 L517.4 379" fill="none" stroke="#a84b3b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="375.2" y="407" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.90</text>
+<rect x="517.4" y="379" width="31.6" height="44" fill="#edf6f6" opacity="1"/>
+<path d="M517.4 379 L549 379" fill="none" stroke="#196f77" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="533.2" y="447" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">0.10</text>
+<text x="74" y="502" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">结果贡献</text>
+<rect x="233" y="475" width="113.76" height="44" fill="#fbede8" opacity="1"/>
+<path d="M233 475 L346.76 475" fill="none" stroke="#a84b3b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="289.88" y="503" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.36</text>
+<rect x="346.76" y="475" width="28.44" height="44" fill="#edf6f6" opacity="1"/>
+<path d="M346.76 475 L375.2 475" fill="none" stroke="#196f77" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="360.98" y="543" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">0.09</text>
+<text x="74" y="627" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">最后均值 0.45</text>
+<text x="647" y="144" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="25" text-anchor="start" font-weight="400">干预 do(A = 1)</text>
+<text x="647" y="214" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">原总体</text>
+<rect x="806" y="187" width="158" height="44" fill="#fbede8" opacity="1"/>
+<path d="M806 187 L964 187" fill="none" stroke="#a84b3b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="885" y="215" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.50</text>
+<rect x="964" y="187" width="158" height="44" fill="#edf6f6" opacity="1"/>
+<path d="M964 187 L1122 187" fill="none" stroke="#196f77" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1043" y="215" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.50</text>
+<text x="647" y="310" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">保留质量</text>
+<rect x="806" y="283" width="158" height="44" fill="#fbede8" opacity="1"/>
+<path d="M806 283 L964 283" fill="none" stroke="#a84b3b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="885" y="311" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.50</text>
+<rect x="964" y="283" width="158" height="44" fill="#edf6f6" opacity="1"/>
+<path d="M964 283 L1122 283" fill="none" stroke="#196f77" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1043" y="311" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.50</text>
+<text x="647" y="406" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">内部比例</text>
+<rect x="806" y="379" width="158" height="44" fill="#fbede8" opacity="1"/>
+<path d="M806 379 L964 379" fill="none" stroke="#a84b3b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="885" y="407" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.50</text>
+<rect x="964" y="379" width="158" height="44" fill="#edf6f6" opacity="1"/>
+<path d="M964 379 L1122 379" fill="none" stroke="#196f77" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1043" y="407" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.50</text>
+<text x="647" y="502" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">结果贡献</text>
+<rect x="806" y="475" width="63.2" height="44" fill="#fbede8" opacity="1"/>
+<path d="M806 475 L869.2 475" fill="none" stroke="#a84b3b" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="837.6" y="503" fill="#a84b3b" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.20</text>
+<rect x="869.2" y="475" width="142.2" height="44" fill="#edf6f6" opacity="1"/>
+<path d="M869.2 475 L1011.4 475" fill="none" stroke="#196f77" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="940.3" y="503" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0.45</text>
+<text x="647" y="627" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">最后均值 0.65</text>
+<path d="M75 659 L1125 659" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="708" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">橙色为高风险、蓝绿为低风险。处理下层内均值分别为 0.4、0.9。</text>
+</svg><line x1="58" x2="1142" y1="839" y2="839" stroke="#dce6e8" stroke-width="1"/><text x="60" y="886" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 902 1200 440"/><view id="b-textbook-detail-1-1" viewBox="0 902 684 250.8"/><view id="b-textbook-detail-1-2" viewBox="516 902 684 250.8"/><view id="b-textbook-detail-2-1" viewBox="0 1091.2 684 250.8"/><view id="b-textbook-detail-2-2" viewBox="516 1091.2 684 250.8"/><svg viewBox="0 0 1200 440" role="img" aria-labelledby="b-title b-description" width="1200" height="440" id="panel-b" x="0" y="902">
+<title id="b-title">干预删除分配箭头而保留结果机制</title>
+<desc id="b-description">左右共用节点位置。干预只删除 X 到 A 的箭头，X 到 Y 和 A 到 Y 保留。</desc>
+<defs>
+<linearGradient id="b-wash-t" x1="0" x2="0.9" y1="0" y2="1"><stop stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient>
+<linearGradient id="b-wash-c" x1="0" x2="0.9" y1="0" y2="1"><stop stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient>
+<linearGradient id="b-wash-v" x1="0" x2="0.9" y1="0" y2="1"><stop stop-color="#f7f4fb"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient>
+<linearGradient id="b-wash-n" x1="0" x2="0.9" y1="0" y2="1"><stop stop-color="#f4f7f8"/><stop offset="1" stop-color="#e9eef2"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1200" height="440" rx="0" fill="white" stroke="none" stroke-width="1.6"/>
+<text x="290" y="57" text-anchor="middle" fill="#232b37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="33" font-weight="400">观察处理</text>
+<path d="M64 358l35 -61h400l-35 61Z" fill="url(#b-wash-n)" stroke="#546677" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270.4061920063267 173.02254541690084L172.44262450694512 293.12856310449877" fill="none" stroke="#196f77" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M164.85792463842643 302.4276129432991L178.98832439347495 294.596150579058L169.68927455467463 287.01145071053935Z" fill="#196f77" stroke="#196f77" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M309.5938079936733 173.02254541690084L407.5573754930549 293.12856310449877" fill="none" stroke="#196f77" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M415.1420753615736 302.4276129432991L410.3107254453254 287.01145071053935L401.01167560652505 294.596150579058Z" fill="#196f77" stroke="#196f77" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M175.0 328.0L391.0 328.0" fill="none" stroke="#232b37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M403.0 328.0L388.0 322.0L388.0 334.0Z" fill="#232b37" stroke="#232b37" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="290" cy="149" r="29" fill="url(#b-wash-t)" stroke="#196f77" stroke-width="2.5"/>
+<text x="290" y="160" text-anchor="middle" fill="#232b37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="29" font-weight="400">X</text>
+<circle cx="144" cy="328" r="29" fill="url(#b-wash-t)" stroke="#196f77" stroke-width="2.5"/>
+<text x="144" y="339" text-anchor="middle" fill="#232b37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="29" font-weight="400">A</text>
+<circle cx="436" cy="328" r="29" fill="url(#b-wash-t)" stroke="#196f77" stroke-width="2.5"/>
+<text x="436" y="339" text-anchor="middle" fill="#232b37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="29" font-weight="400">Y</text>
+<text x="290" y="404" text-anchor="middle" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="30" font-weight="400">风险影响分配</text>
+<text x="903" y="57" text-anchor="middle" fill="#232b37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="33" font-weight="400">设置处理</text>
+<path d="M677 358l35 -61h400l-35 61Z" fill="url(#b-wash-n)" stroke="#546677" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M883.4061920063267 173.02254541690084L777.2258663160499 303.20253376319914" fill="none" stroke="#a84b3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 10"/>
+<circle cx="830.0" cy="238.5" r="15" fill="white" stroke="none" stroke-width="2.5"/>
+<path d="M822.0 230.5L838.0 246.5" fill="none" stroke="#a84b3b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M822.0 246.5L838.0 230.5" fill="none" stroke="#a84b3b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M922.5938079936733 173.02254541690084L1020.5573754930548 293.12856310449877" fill="none" stroke="#196f77" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1028.1420753615735 302.4276129432991L1023.3107254453253 287.01145071053935L1014.0116756065249 294.596150579058Z" fill="#196f77" stroke="#196f77" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M788.0 328.0L1004.0 328.0" fill="none" stroke="#232b37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1016.0 328.0L1001.0 322.0L1001.0 334.0Z" fill="#232b37" stroke="#232b37" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="903" cy="149" r="29" fill="url(#b-wash-t)" stroke="#196f77" stroke-width="2.5"/>
+<text x="903" y="160" text-anchor="middle" fill="#232b37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="29" font-weight="400">X</text>
+<circle cx="757" cy="328" r="29" fill="url(#b-wash-c)" stroke="#a84b3b" stroke-width="2.5"/>
+<text x="757" y="339" text-anchor="middle" fill="#232b37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="29" font-weight="400">A</text>
+<circle cx="1049" cy="328" r="29" fill="url(#b-wash-t)" stroke="#196f77" stroke-width="2.5"/>
+<text x="1049" y="339" text-anchor="middle" fill="#232b37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="29" font-weight="400">Y</text>
+<text x="903" y="404" text-anchor="middle" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="30" font-weight="400">切断分配机制</text>
+<path d="M576 232L612.0 232.0" fill="none" stroke="#625481" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M624 232L609.0 226.0L609.0 238.0Z" fill="#625481" stroke="#625481" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></svg>

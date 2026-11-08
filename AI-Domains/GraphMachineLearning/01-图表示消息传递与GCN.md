@@ -198,27 +198,35 @@ $$
 
 这里固定一个中心节点，只看能通过一条边到达它的消息。一次聚合的边界就由这组入边决定。
 
-![图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边](images/01-incoming-message-sum.svg)
+下图 (a) 确定一层消息传递能使用哪些直接入邻居。图 (b) 换一个小例子，对照三种聚合定义如何分配中心和邻居的贡献。
+
+![消息范围与聚合定义。图 (a) 图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边。图 (b) 消息聚合怎样更新一个节点。](images/01-message-neighborhood-and-aggregation-pair.svg)
 
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (a)</summary>
 
-![图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，上左区域](images/01-incoming-message-sum.svg#textbook-detail-1-1)
+[打开图 (a) 单独查看](images/01-message-neighborhood-and-aggregation-pair.svg#a)
 
-![图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，上右区域](images/01-incoming-message-sum.svg#textbook-detail-1-2)
+![图 (a) · 图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，上左区域](images/01-message-neighborhood-and-aggregation-pair.svg#a-textbook-detail-1-1)
 
-![图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，下左区域](images/01-incoming-message-sum.svg#textbook-detail-2-1)
+![图 (a) · 图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，上右区域](images/01-message-neighborhood-and-aggregation-pair.svg#a-textbook-detail-1-2)
 
-![图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，下右区域](images/01-incoming-message-sum.svg#textbook-detail-2-2)
+![图 (a) · 图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，下左区域](images/01-message-neighborhood-and-aggregation-pair.svg#a-textbook-detail-2-1)
+
+![图 (a) · 图中 A、B、D 的消息汇入中心 C，E 没有通向 C 的直接边，下右区域](images/01-message-neighborhood-and-aggregation-pair.svg#a-textbook-detail-2-2)
 
 </details>
 
+<details>
+<summary>放大图 (b)</summary>
 
-A、B、D 是 C 的直接入邻居。先沿各边构造同维消息，再逐分量相加，最后更新 C 的表示；求和不依赖邻居顺序。E 与 D 相连，但没有到 C 的直接边，至少要再经过一层才能经这条路径影响 C。图只突出邻居消息；是否加入自环、使用归一化或保留中心的旧特征，取决于具体层的定义。
+[打开图 (b) 单独查看](images/01-message-neighborhood-and-aggregation-pair.svg#b)
 
-![消息聚合怎样更新一个节点](images/01-concept.svg)
+</details>
 
-三种算子使用完全相同的旧输入，蓝、绿两段分别表示邻居 1 与 5 的贡献，橙段表示中心 2 的贡献，三排使用同一长度刻度。第一排邻域不含自身，两项贡献为 $`\frac12`$ 与 $`\frac52`$，均值为三；中心特征二单独保留，拼接得到 $`[2,3]`$。这是一种保留来源角色的更新输入，并不是已经把两个坐标相加成五。
+图 (a) 中，A、B、D 是 C 的直接入邻居。先沿各边构造同维消息，再逐分量相加，最后更新 C 的表示；求和不依赖邻居顺序。E 与 D 相连，但没有到 C 的直接边，至少要再经过一层才能经这条路径影响 C。图只突出邻居消息；是否加入自环、使用归一化或保留中心的旧特征，取决于具体层的定义。
+
+图 (b) 的三种算子使用完全相同的旧输入，蓝、绿两段分别表示邻居 1 与 5 的贡献，橙段表示中心 2 的贡献，三排使用同一长度刻度。第一排邻域不含自身，两项贡献为 $`\frac12`$ 与 $`\frac52`$，均值为三；中心特征二单独保留，拼接得到 $`[2,3]`$。这是一种保留来源角色的更新输入，并不是已经把两个坐标相加成五。
 
 第二排改为包含自身的普通均值，三项贡献为 $`\frac13,\frac23,\frac53`$，相加为 $`\frac83`$。第三排使用三节点无向链加单位自环的对称 GCN 归一化，度数为 $`(2,3,2)`$，因此两端输入各乘 $`\frac1{\sqrt6}`$，中心输入乘 $`\frac13`$，贡献为约 $`0.408248,0.666667,2.041241`$，总输出约为 $`3.116156`$。图上显示到有限小数位，所有计算使用完整精度。它们没有训练参数，数值差异完全来自聚合定义。
 
@@ -596,23 +604,35 @@ $$
 
 如果图结构由离散最近邻选择得到，选择索引通常不可微，自动微分只会沿已选边的连续数值传播，不能自动对“哪条边被选中”给出普通导数。需要软连接、可微松弛或其他专门方法时，应明确它们改变的优化问题。看到边权张量具有梯度，不等于整个构图流程已经端到端可微。
 
-![邻边与自环共享归一化分母](images/01-edge-normalization-coupling.svg)
+<a id="pair-edge-weights-and-normalization"></a>
+
+下图 (a) 先用行归一化隔离分母效应。图 (b) 再用对称归一化算一个零内容邻居仍能改变输出的例子。
+
+![归一化分母与边权的间接作用。图 (a) 邻边与自环共享归一化分母。图 (b) 加大一条边也改变另一条边的归一化系数。](images/01-edge-weights-and-normalization-pair.svg)
 
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (a)</summary>
 
-![邻边与自环共享归一化分母，上左区域](images/01-edge-normalization-coupling.svg#textbook-detail-1-1)
+[打开图 (a) 单独查看](images/01-edge-weights-and-normalization-pair.svg#a)
 
-![邻边与自环共享归一化分母，上右区域](images/01-edge-normalization-coupling.svg#textbook-detail-1-2)
+![图 (a) · 邻边与自环共享归一化分母，上左区域](images/01-edge-weights-and-normalization-pair.svg#a-textbook-detail-1-1)
 
-![邻边与自环共享归一化分母，下左区域](images/01-edge-normalization-coupling.svg#textbook-detail-2-1)
+![图 (a) · 邻边与自环共享归一化分母，上右区域](images/01-edge-weights-and-normalization-pair.svg#a-textbook-detail-1-2)
 
-![邻边与自环共享归一化分母，下右区域](images/01-edge-normalization-coupling.svg#textbook-detail-2-2)
+![图 (a) · 邻边与自环共享归一化分母，下左区域](images/01-edge-weights-and-normalization-pair.svg#a-textbook-detail-2-1)
+
+![图 (a) · 邻边与自环共享归一化分母，下右区域](images/01-edge-weights-and-normalization-pair.svg#a-textbook-detail-2-2)
 
 </details>
 
+<details>
+<summary>放大图 (b)</summary>
 
-**邻边与自环共享归一化分母。** 本图先使用行归一化来隔离分母效应：某节点只有自环权一和一条邻边权 w，读取系数分别为 1 除以 (1+w) 与 w 除以 (1+w)。修改邻边会同时削弱自环系数，所以归一化传播不是每条边互不相关地缩放。对称度归一化还依赖另一端的度，必须按本章矩阵式重新计算，不能将这条行归一化曲线冒充 GCN 的全部行为。进一步阅读可对照[Distill 对图传播算子的推导](https://distill.pub/2021/understanding-gnns/)。
+[打开图 (b) 单独查看](images/01-edge-weights-and-normalization-pair.svg#b)
+
+</details>
+
+**邻边与自环共享归一化分母。** 图 (a) 先使用行归一化来隔离分母效应：某节点只有自环权一和一条邻边权 w，读取系数分别为 1 除以 (1+w) 与 w 除以 (1+w)。修改邻边会同时削弱自环系数，所以归一化传播不是每条边互不相关地缩放。对称度归一化还依赖另一端的度，必须按本章矩阵式重新计算，不能将这条行归一化曲线冒充 GCN 的全部行为。进一步阅读可对照[Distill 对图传播算子的推导](https://distill.pub/2021/understanding-gnns/)。
 
 $$
 \begin{aligned}
@@ -623,9 +643,9 @@ $$
 
 #### 边权的间接导数：一条零内容边也能改变输出
 
-![加大一条边也改变另一条边的归一化系数](images/01-edge-weight-normalization.svg)
+从[图 (b)](#pair-edge-weights-and-normalization)检查接收端的度数变化如何影响另一条边的系数。
 
-把三节点链的 $`0\leftrightarrow1`$ 边权设为 $`t\ge0`$，$`1\leftrightarrow2`$ 边权为一，三个自环权重均为一；输入取 $`x=(0,0,1)^T`$，不加通道变换与激活。此时度数是 $`(1+t,2+t,2)`$，节点一只从节点二收到非零内容，却有
+图 (b) 把三节点链的 $`0\leftrightarrow1`$ 边权设为 $`t\ge0`$，$`1\leftrightarrow2`$ 边权为一，三个自环权重均为一；输入取 $`x=(0,0,1)^T`$，不加通道变换与激活。此时度数是 $`(1+t,2+t,2)`$，节点一只从节点二收到非零内容，却有
 
 $$
 \begin{aligned}

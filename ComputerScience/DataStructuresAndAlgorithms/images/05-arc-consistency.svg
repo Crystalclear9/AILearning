@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="658.33333333" viewBox="0 0 720 395" role="img" aria-labelledby="title desc">
+<title id="title">删值沿约束链传播</title><desc id="desc">X 固定为一，X 与 Y 不同、Y 与 Z 不同。Y 删除一后，Z 删除二，最终保留一、二、一。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#196f77"/></marker>
+<linearGradient id="wash-teal" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#8dccd2" stop-opacity=".18"/><stop offset="100%" stop-color="#8dccd2" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#a84b3b"/></marker>
+<linearGradient id="wash-coral" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#efaa9d" stop-opacity=".18"/><stop offset="100%" stop-color="#efaa9d" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#655184"/></marker>
+<linearGradient id="wash-violet" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#b4a6d2" stop-opacity=".18"/><stop offset="100%" stop-color="#b4a6d2" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#657682"/></marker>
+<linearGradient id="wash-gray" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#becbd2" stop-opacity=".18"/><stop offset="100%" stop-color="#becbd2" stop-opacity=".58"/></linearGradient>
+</defs>
+<rect width="720" height="395" fill="#fff"/>
+<text x="360" y="51" fill="#202a37" font-size="29" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(360 40.5) scale(0.72413793) translate(-360 -40.5)">删值沿约束链传播</text>
+<text x="207" y="112" fill="#202a37" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(206.8515625 103) scale(0.74) translate(-206.8515625 -103)">X</text>
+<text x="407" y="112" fill="#202a37" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(406.8671875 103) scale(0.74) translate(-406.8671875 -103)">Y</text>
+<text x="607" y="112" fill="#202a37" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(607 103) scale(0.74) translate(-607 -103)">Z</text>
+<text x="306" y="115" fill="#657682" font-size="23" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" text-anchor="middle" font-weight="400" transform="translate(306 108.5) scale(0.80434783) translate(-306 -108.5)">≠</text>
+<text x="506" y="115" fill="#657682" font-size="23" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" text-anchor="middle" font-weight="400" transform="translate(506 108.5) scale(0.80434783) translate(-506 -108.5)">≠</text>
+<text x="28" y="184" fill="#202a37" font-size="23" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="start" font-weight="400" transform="translate(51 175.5) scale(0.80434783) translate(-51 -175.5)">起始</text>
+<text x="28" y="294" fill="#202a37" font-size="23" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="start" font-weight="400" transform="translate(62.5 285.5) scale(0.80434783) translate(-62.5 -285.5)">传播后</text>
+<polygon points="144,209 247,209 267,139 164,139" fill="url(#wash-teal)" stroke="#196f77" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="207" y="184" fill="#196f77" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(207 175) scale(0.74) translate(-207 -175)">{1}</text>
+<polygon points="344,209 447,209 467,139 364,139" fill="url(#wash-gray)" stroke="#657682" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="407" y="184" fill="#202a37" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(407 175) scale(0.74) translate(-407 -175)">{1, 2}</text>
+<polygon points="544,209 647,209 667,139 564,139" fill="url(#wash-gray)" stroke="#657682" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="607" y="184" fill="#202a37" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(607 175) scale(0.74) translate(-607 -175)">{1, 2}</text>
+<line x1="407" y1="215" x2="407" y2="239" stroke="#655184" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-violet)"/>
+<line x1="607" y1="215" x2="607" y2="239" stroke="#655184" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-violet)"/>
+<polygon points="144,319 247,319 267,249 164,249" fill="url(#wash-teal)" stroke="#196f77" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="207" y="294" fill="#196f77" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(207 285) scale(0.74) translate(-207 -285)">{1}</text>
+<polygon points="344,319 447,319 467,249 364,249" fill="url(#wash-violet)" stroke="#655184" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="407" y="294" fill="#655184" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(407 285) scale(0.74) translate(-407 -285)">{2}</text>
+<polygon points="544,319 647,319 667,249 564,249" fill="url(#wash-teal)" stroke="#196f77" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="607" y="294" fill="#196f77" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(607 285) scale(0.74) translate(-607 -285)">{1}</text>
+<text x="360" y="367" fill="#202a37" font-size="24" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(360 358) scale(0.77083333) translate(-360 -358)">先删 Y 的 1，再删 Z 的 2</text>
+</svg>

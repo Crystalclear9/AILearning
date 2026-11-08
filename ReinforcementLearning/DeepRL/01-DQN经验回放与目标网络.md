@@ -608,7 +608,7 @@ print('max/independent/correlated means:', ordinary.mean(),
 
 $$
 \begin{aligned}
-w_{\rm fit} &=c\bar w,\\[6pt]
+w_{\mathrm{fit}} &=c\bar w,\\[6pt]
 c &=\gamma\frac{\sum_sd_s\phi_s(P\phi)_s}{\sum_sd_s\phi_s^2}
 =0.9\frac{2.02}{1.03}>1.
 \end{aligned}
@@ -772,6 +772,8 @@ $$
 ![Huber 的残差导数与模型参数梯度，下中区域](images/01-insight.svg#textbook-detail-3-2)
 
 ![Huber 的残差导数与模型参数梯度，下右区域](images/01-insight.svg#textbook-detail-3-3)
+
+![Huber 的残差导数与模型参数梯度，完整说明与标注](images/01-insight.svg#textbook-complete-detail-1)
 
 </details>
 

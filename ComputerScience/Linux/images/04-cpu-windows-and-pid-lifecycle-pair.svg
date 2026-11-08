@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1426.35294118"><title id="title">CPU 计数差与进程生命周期</title><desc id="description">(a) 累计CPU时间需要在同一生命周期和同一时间窗内求差。(b) 相同PID对应不同进程生命周期时累计CPU时间不能连线求差。</desc><rect width="1200" fill="#fff" height="1426.35294118"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 598"/><view id="a-textbook-detail-1-1" viewBox="0 51 540 269.1"/><view id="a-textbook-detail-1-2" viewBox="330 51 540 269.1"/><view id="a-textbook-detail-1-3" viewBox="660 51 540 269.1"/><view id="a-textbook-detail-2-1" viewBox="0 222.60459269 540 269.1"/><view id="a-textbook-detail-2-2" viewBox="330 215.45 540 269.1"/><view id="a-textbook-detail-2-3" viewBox="660 222.60367228 540 269.1"/><view id="a-textbook-detail-3-1" viewBox="0 379.9 540 269.1"/><view id="a-textbook-detail-3-2" viewBox="330 374.46353923 540 269.1"/><view id="a-textbook-detail-3-3" viewBox="660 379.9 540 269.1"/><svg width="1200" role="img" aria-labelledby="a-plot-title" height="598" viewBox="0 0 1200 598" id="panel-a" x="0" y="51">
+<title id="a-plot-title">累计CPU时间需要在同一生命周期和同一时间窗内求差</title><defs><style type="text/css">#panel-a *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="a-me405623204" d="M 0 0 L 0 3.5 " style="stroke: #657682; stroke-width: 0.8"/>
+      <path id="a-m8ac951100e" d="M 0 0 L -3.5 0 " style="stroke: #657682; stroke-width: 0.8"/>
+      <clipPath id="a-p922d2d5119">
+   <rect x="71.28" y="40.608" width="369.829565" height="243.648"/>
+  </clipPath>
+  <clipPath id="a-pdd22e7119b">
+   <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
+  </clipPath>
+ <linearGradient id="a-science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient><linearGradient id="a-science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient><linearGradient id="a-science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient><linearGradient id="a-science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f4f7f8"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="598" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="30" fill="#202a37" text-anchor="start" font-weight="400">累计CPU时间需要在同一生命周期和同一时间窗内求差</text><g transform="translate(-13.592479 37.217885) scale(0.64443716)"><g transform="matrix(1.985068 0 0 1.985068 21.46475 138.551437)"><g id="a-axes_1">
+   <g id="a-patch_2">
+    <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
+   </g>
+   <g id="a-matplotlib.axis_1">
+    <g id="a-xtick_1">
+     <g id="a-line2d_1">
+      <g>
+       <use xlink:href="#a-me405623204" x="88.090435" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_1">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="88.090435" y="304.046" transform="rotate(-0 88.090435 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
+     </g>
+    </g>
+    <g id="a-xtick_2">
+     <g id="a-line2d_2">
+      <g>
+       <use xlink:href="#a-me405623204" x="155.332174" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_2">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="155.332174" y="304.046" transform="rotate(-0 155.332174 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
+     </g>
+    </g>
+    <g id="a-xtick_3">
+     <g id="a-line2d_3">
+      <g>
+       <use xlink:href="#a-me405623204" x="222.573913" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_3">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="222.573913" y="304.046" transform="rotate(-0 222.573913 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
+     </g>
+    </g>
+    <g id="a-xtick_4">
+     <g id="a-line2d_4">
+      <g>
+       <use xlink:href="#a-me405623204" x="289.815652" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_4">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="289.815652" y="304.046" transform="rotate(-0 289.815652 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text>
+     </g>
+    </g>
+    <g id="a-xtick_5">
+     <g id="a-line2d_5">
+      <g>
+       <use xlink:href="#a-me405623204" x="357.057391" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_5">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="357.057391" y="304.046" transform="rotate(-0 357.057391 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">4</text>
+     </g>
+    </g>
+    <g id="a-xtick_6">
+     <g id="a-line2d_6">
+      <g>
+       <use xlink:href="#a-me405623204" x="424.29913" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_6">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="424.29913" y="304.046" transform="rotate(-0 424.29913 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">5</text>
+     </g>
+    </g>
+    <g id="a-text_7">
+     <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="256.194783" y="324.8135" transform="rotate(-0 256.194783 324.8135)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">观察时间/秒</text>
+    </g>
+   </g>
+   <g id="a-matplotlib.axis_2">
+    <g id="a-ytick_1">
+     <g id="a-line2d_7">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="71.28" y="273.181091" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_8">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="279.576091" transform="rotate(-0 64.28 279.576091)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
+     </g>
+    </g>
+    <g id="a-ytick_2">
+     <g id="a-line2d_8">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="71.28" y="228.881455" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_9">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="235.276455" transform="rotate(-0 64.28 235.276455)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
+     </g>
+    </g>
+    <g id="a-ytick_3">
+     <g id="a-line2d_9">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="71.28" y="184.581818" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_10">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="190.976818" transform="rotate(-0 64.28 190.976818)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
+     </g>
+    </g>
+    <g id="a-ytick_4">
+     <g id="a-line2d_10">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="71.28" y="140.282182" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_11">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="146.677182" transform="rotate(-0 64.28 146.677182)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text>
+     </g>
+    </g>
+    <g id="a-ytick_5">
+     <g id="a-line2d_11">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="71.28" y="95.982545" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_12">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="102.377545" transform="rotate(-0 64.28 102.377545)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">4</text>
+     </g>
+    </g>
+    <g id="a-ytick_6">
+     <g id="a-line2d_12">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="71.28" y="51.682909" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_13">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="58.077909" transform="rotate(-0 64.28 58.077909)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">5</text>
+     </g>
+    </g>
+    </g>
+   <g id="a-line2d_13">
+    <path d="M 88.090435 273.181091 L 155.332174 273.181091 L 222.573913 184.581818 L 289.815652 184.581818 L 357.057391 184.581818 L 424.29913 184.581818 " clip-path="url(#a-p922d2d5119)" style="fill: none; stroke: #507e97; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="a-line2d_14">
+    <path d="M 88.090435 273.181091 L 155.332174 228.881455 L 222.573913 184.581818 L 289.815652 140.282182 L 357.057391 95.982545 L 424.29913 51.682909 " clip-path="url(#a-p922d2d5119)" style="fill: none; stroke: #b76633; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="a-patch_3">
+    <line x1="71.28" y1="284.256" x2="71.28" y2="40.608" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="a-patch_4">
+    <line x1="71.28" y1="284.256" x2="441.109565" y2="284.256" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="a-text_15">
+    <text style="font-size: 19.2px; text-anchor: middle; fill: #263e50" x="256.194783" y="34.608" transform="rotate(-0 256.194783 34.608)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">同一进程：只有前一段在运行</text>
+   </g>
+   <g id="a-legend_1">
+    <g id="a-line2d_15">
+     <path d="M 85.68 62.198 L 101.68 62.198 L 117.68 62.198 " style="fill: none; stroke: #507e97; stroke-width: 1.5; stroke-linecap: square"/>
+    </g>
+    <g id="a-text_16">
+     <text style="font-size: 16px; text-anchor: start; fill: #263e50" x="130.48" y="67.798" transform="rotate(-0 130.48 67.798)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">进程CPU秒</text>
+    </g>
+    <g id="a-line2d_16">
+     <path d="M 85.68 86.9655 L 101.68 86.9655 L 117.68 86.9655 " style="fill: none; stroke: #b76633; stroke-width: 1.5; stroke-linecap: square"/>
+    </g>
+    <g id="a-text_17">
+     <text style="font-size: 16px; text-anchor: start; fill: #263e50" x="130.48" y="92.5655" transform="rotate(-0 130.48 92.5655)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">墙钟秒</text>
+    </g>
+   </g>
+  </g>
+  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" fill="#196f77" text-anchor="start" font-weight="400">A · 累计秒</text><g transform="translate(558.875426 -411.954814) scale(0.64443716)"><g transform="matrix(1.985068 0 0 1.985068 -932.913147 835.549927)"><g id="a-axes_2">
+   <g id="a-patch_5">
+    <path d="M 552.058435 284.256 L 921.888 284.256 L 921.888 40.608 L 552.058435 40.608 z " style="fill: #ffffff"/>
+   </g>
+   <g id="a-patch_6">
+    <path d="M 568.86887 284.256 L 718.294957 284.256 L 718.294957 121.824 L 568.86887 121.824 z " clip-path="url(#a-pdd22e7119b)" style="fill: #507e97"/>
+   </g>
+   <g id="a-patch_7">
+    <path d="M 755.651478 284.256 L 905.077565 284.256 L 905.077565 284.256 L 755.651478 284.256 z " clip-path="url(#a-pdd22e7119b)" style="fill: #b76633"/>
+   </g>
+   <g id="a-matplotlib.axis_3">
+    <g id="a-xtick_7">
+     <g id="a-line2d_17">
+      <g>
+       <use xlink:href="#a-me405623204" x="643.581913" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_18">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="643.581913" y="304.046" transform="rotate(-0 643.581913 304.046)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">整个5秒窗口</text>
+     </g>
+    </g>
+    <g id="a-xtick_8">
+     <g id="a-line2d_18">
+      <g>
+       <use xlink:href="#a-me405623204" x="830.364522" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_19">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="830.364522" y="304.046" transform="rotate(-0 830.364522 304.046)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">后3秒窗口</text>
+     </g>
+    </g>
+   </g>
+   <g id="a-matplotlib.axis_4">
+    <g id="a-ytick_7">
+     <g id="a-line2d_19">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="552.058435" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_20">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="290.651" transform="rotate(-0 545.058435 290.651)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.0</text>
+     </g>
+    </g>
+    <g id="a-ytick_8">
+     <g id="a-line2d_20">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="552.058435" y="243.648" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_21">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="250.043" transform="rotate(-0 545.058435 250.043)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.1</text>
+     </g>
+    </g>
+    <g id="a-ytick_9">
+     <g id="a-line2d_21">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="552.058435" y="203.04" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_22">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="209.435" transform="rotate(-0 545.058435 209.435)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.2</text>
+     </g>
+    </g>
+    <g id="a-ytick_10">
+     <g id="a-line2d_22">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="552.058435" y="162.432" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_23">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="168.827" transform="rotate(-0 545.058435 168.827)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.3</text>
+     </g>
+    </g>
+    <g id="a-ytick_11">
+     <g id="a-line2d_23">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="552.058435" y="121.824" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_24">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="128.219" transform="rotate(-0 545.058435 128.219)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.4</text>
+     </g>
+    </g>
+    <g id="a-ytick_12">
+     <g id="a-line2d_24">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="552.058435" y="81.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_25">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="87.611" transform="rotate(-0 545.058435 87.611)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.5</text>
+     </g>
+    </g>
+    <g id="a-ytick_13">
+     <g id="a-line2d_25">
+      <g>
+       <use xlink:href="#a-m8ac951100e" x="552.058435" y="40.608" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_26">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="47.003" transform="rotate(-0 545.058435 47.003)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.6</text>
+     </g>
+    </g>
+    </g>
+   <g id="a-patch_8">
+    <line x1="552.058435" y1="284.256" x2="552.058435" y2="40.608" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="a-patch_9">
+    <line x1="552.058435" y1="284.256" x2="921.888" y2="284.256" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="a-text_28">
+    <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="643.581913" y="109.6416" transform="rotate(-0 643.581913 109.6416)" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">2÷5=0.4</text>
+   </g>
+   <g id="a-text_29">
+    <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="830.364522" y="268.0128" transform="rotate(-0 830.364522 268.0128)" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">0÷3=0</text>
+   </g>
+   <g id="a-text_30">
+    <text style="font-size: 19.2px; text-anchor: middle; fill: #263e50" x="736.973217" y="34.608" transform="rotate(-0 736.973217 34.608)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">先对正确窗口取差，再除墙钟差</text>
+   </g>
+  </g>
+ </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" fill="#196f77" text-anchor="start" font-weight="400">B · 平均使用CPU个数</text></svg><line x1="58" x2="1142" y1="661" y2="661" stroke="#dce6e8" stroke-width="1"/><text x="60" y="708" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 724 1200 702.352941176"/><svg role="img" aria-labelledby="b-plate-caption" aria-describedby="b-plate-alt" viewBox="0 0 1360 796" width="1200" height="702.352941176" id="panel-b" x="0" y="724"><title id="b-plate-caption">相同PID对应不同进程生命周期时累计CPU时间不能连线求差</title><desc id="b-plate-alt">计数器还在增加，也不能跨进程生命周期直接求差 先核对主机、启动周期、进程身份、单位与采样边界，再计算增量。</desc><defs><clipPath id="b-plate-view-0"><rect x="-18.24" y="83.99335" width="996.48" height="499.0133"/></clipPath><g id="b-plate-scene"><defs><clipPath id="b-artwork-view"><rect x="25" y="76" width="910" height="522.090219"/></clipPath></defs><rect id="b-edition-paper" x="-18.24" y="28.76" width="996.48" height="609.48" fill="#ffffff"/><svg id="b-scientific-layout" x="0" y="47" width="960" height="573" viewBox="0 47 960 573" overflow="hidden"><rect width="960" height="620" fill="#ffffff"/><g clip-path="url(#b-artwork-view)"><g transform="translate(7.68142 35.83893) scale(0.737997)"><g><rect width="1233.067" height="707.442" fill="#ffffff" x="23.467" y="54.419"/><g font-family="Microsoft YaHei,Arial,sans-serif" fill="#202a37"><text x="50" y="103" font-size="34.83px" fill="#202a37" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">教学计数：同一个 PID 被复用；CPU 累计时间已经换了统计对象</text><text x="55" y="165" font-size="32.25px" fill="#202a37" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">CPU 累计秒</text><line x1="145" y1="610" x2="715" y2="610" stroke="#657682" stroke-width="1.55" stroke-linecap="round"/><text x="125" y="618" font-size="29.75px" fill="#202a37" text-anchor="end" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text><line x1="145" y1="610" x2="145" y2="615" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="335" y1="610" x2="335" y2="615" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="525" y1="610" x2="525" y2="615" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="715" y1="610" x2="715" y2="615" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="140" y1="610" x2="145" y2="610" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="140" y1="480" x2="145" y2="480" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="140" y1="350" x2="145" y2="350" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line x1="140" y1="220" x2="145" y2="220" stroke="#657682" stroke-width="1.15" stroke-linecap="round"/><line stroke="#e7ecef" stroke-width="1.3" x1="145" y1="480" x2="715" y2="480"/><text x="125" y="488" font-size="29.75px" fill="#202a37" text-anchor="end" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text><line stroke="#e7ecef" stroke-width="1.3" x1="145" y1="350" x2="715" y2="350"/><text x="125" y="358" font-size="29.75px" fill="#202a37" text-anchor="end" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text><line stroke="#e7ecef" stroke-width="1.3" x1="145" y1="220" x2="715" y2="220"/><text x="125" y="228" font-size="29.75px" fill="#202a37" text-anchor="end" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text><line stroke="#e7ecef" stroke-width="2" x1="145" y1="195" x2="145" y2="610"/><line stroke="#1f7fac" stroke-width="5" x1="145" y1="480" x2="335" y2="376"/><circle cx="145" cy="480" r="8" fill="#1f7fac"/><text x="145" y="460" font-size="33.32px" fill="#2678a3" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text><circle cx="335" cy="376.0" r="8" fill="#1f7fac"/><text x="335" y="356.0" font-size="33.32px" fill="#2678a3" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.8</text><line stroke="#aa6032" stroke-width="5" x1="525" y1="324" x2="715" y2="246"/><circle cx="525" cy="324.0" r="8" fill="#aa6032"/><text x="525" y="304.0" font-size="33.32px" fill="#995d34" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2.2</text><circle cx="715" cy="246.0" r="8" fill="#aa6032"/><text x="715" y="226.0" font-size="33.32px" fill="#995d34" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2.8</text><line stroke="#95a3b1" stroke-width="3" stroke-dasharray="7 8" x1="335" y1="376" x2="525" y2="324"/><line stroke="#9a5434" stroke-width="4" x1="415" y1="335" x2="445" y2="365"/><line stroke="#9a5434" stroke-width="4" x1="415" y1="365" x2="445" y2="335"/><text x="295" y="435" font-size="33.54px" fill="#a75c40" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">生命周期改变：此段不求差</text><text x="145" y="653" font-size="32.13px" fill="#202a37" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text><text x="335" y="653" font-size="32.13px" fill="#202a37" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text><text x="525" y="653" font-size="32.13px" fill="#202a37" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text><text x="715" y="653" font-size="32.13px" fill="#202a37" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text><text x="340" y="707" font-size="34.83px" fill="#202a37" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">相对墙钟时间（秒）</text><text x="145" y="235" font-size="34.83px" fill="#2678a3" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">进程 A</text><text x="555" y="195" font-size="34.83px" fill="#995d34" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">进程 B</text><line stroke="#e7ecef" stroke-width="2" x1="790" y1="155" x2="790" y2="710"/><text x="835" y="220" font-size="35.907995px" fill="#2678a3" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">0 → 1 秒：同一个 A</text><text x="835" y="275" font-size="32.25px" fill="#2678a3" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">CPU 增量 0.8 秒 → 0.8 CPU</text><text x="835" y="380" font-size="35.907995px" fill="#a75c40" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">1 → 2 秒：A 已被 B 替代</text><text x="835" y="435" font-size="32.25px" fill="#a75c40" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">差值为正，仍不是有效速率</text><text x="835" y="540" font-size="35.907995px" fill="#995d34" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">2 → 3 秒：同一个 B</text><text x="835" y="595" font-size="32.25px" fill="#995d34" text-anchor="start" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">CPU 增量 0.6 秒 → 0.6 CPU</text><line stroke="#e7ecef" stroke-width="2" x1="50" y1="735" x2="1230" y2="735"/></g><desc> 计数器还在增加，也不能跨进程生命周期直接求差 先核对主机、启动周期、进程身份、单位与采样边界，再计算增量。</desc></g></g></g></svg></g></defs><rect x="0" y="0" width="1360" height="796" fill="#fff" id="b-textbook-white-paper"/><g id="b-paper-and-content"><rect x="0" y="0" width="1360" height="796" fill="white"/><g transform="translate(6.7238222 -66.431793) scale(1.3913755)"><use href="#b-plate-scene" clip-path="url(#b-plate-view-0)" xlink:href="#b-plate-scene"/></g></g></svg></svg>

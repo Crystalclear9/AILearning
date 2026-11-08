@@ -674,6 +674,8 @@ $$
 
 ![相同HMC链的均值与平方统计量自相关和有效样本量，下右区域](images/02-function-dependent-autocorrelation.svg#textbook-detail-3-3)
 
+![相同HMC链的均值与平方统计量自相关和有效样本量，完整说明与标注](images/02-function-dependent-autocorrelation.svg#textbook-complete-detail-1)
+
 </details>
 
 

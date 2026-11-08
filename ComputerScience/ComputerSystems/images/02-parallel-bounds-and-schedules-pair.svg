@@ -1,0 +1,355 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1397"><title id="title">并行时间下界与可行排程</title><desc id="description">(a) 总工作与关键路径的两个下界。(b) 下界成立，不等于下界必然可达到。</desc><rect width="1200" fill="#fff" height="1397"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 691"/><view id="a-textbook-detail-1-1" viewBox="0 51 540 310.95"/><view id="a-textbook-detail-1-2" viewBox="330 51 540 310.95"/><view id="a-textbook-detail-1-3" viewBox="649.35260417 51 540 310.95"/><view id="a-textbook-detail-2-1" viewBox="0 238.34666667 540 310.95"/><view id="a-textbook-detail-2-2" viewBox="330 238.34666667 540 310.95"/><view id="a-textbook-detail-2-3" viewBox="649.35260417 238.34666667 540 310.95"/><view id="a-textbook-detail-3-1" viewBox="0 431.05 540 310.95"/><view id="a-textbook-detail-3-2" viewBox="330 431.05 540 310.95"/><view id="a-textbook-detail-3-3" viewBox="660 431.05 540 310.95"/><svg width="1200" height="691" viewBox="0 0 1200 691" role="img" aria-labelledby="a-fig-title a-fig-desc" id="panel-a" x="0" y="51">
+<title id="a-fig-title">并行资源不能突破关键路径</title>
+<desc id="a-fig-desc">四个任务总工作九，一条最长链耗时六。两单元调度已达到六。</desc>
+<rect x="0" y="0" width="1200" height="691" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="a-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="a-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="a-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="a-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+<linearGradient id="a-blue" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e9f1f8"/></linearGradient>
+<linearGradient id="a-ochre" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f7f0d9"/></linearGradient>
+<linearGradient id="a-green" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#ecf5ee"/></linearGradient>
+</defs>
+<text x="76" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">同一依赖图，两种调度</text>
+<path d="M167.603 185.355 L342.397 133.645" fill="none" stroke="#196f77" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M342.397 133.645 L333.267 141.56 L330.43 131.971 Z" fill="#196f77" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M167.712 204.268 L342.288 253.732" fill="none" stroke="#657682" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M342.288 253.732 L330.341 255.544 L333.067 245.922 Z" fill="#657682" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M408.031 132.059 L632.969 186.941" fill="none" stroke="#196f77" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M632.969 186.941 L621.097 189.191 L623.468 179.476 Z" fill="#196f77" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M408.108 255.263 L632.892 202.737" fill="none" stroke="#657682" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M632.892 202.737 L623.318 210.108 L621.043 200.371 Z" fill="#657682" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="135" cy="195" r="31" fill="url(#a-t)" stroke="#196f77" stroke-width="1.55"/>
+<text x="135" y="203" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="23" text-anchor="middle" font-weight="400">A:2</text>
+<circle cx="375" cy="124" r="31" fill="url(#a-t)" stroke="#196f77" stroke-width="1.55"/>
+<text x="375" y="132" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="23" text-anchor="middle" font-weight="400">B:3</text>
+<circle cx="375" cy="263" r="31" fill="url(#a-n)" stroke="#657682" stroke-width="1.55"/>
+<text x="375" y="271" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="23" text-anchor="middle" font-weight="400">C:3</text>
+<circle cx="666" cy="195" r="31" fill="url(#a-t)" stroke="#196f77" stroke-width="1.55"/>
+<text x="666" y="203" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="23" text-anchor="middle" font-weight="400">D:1</text>
+<text x="779" y="165" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">总工作量 9</text>
+<text x="779" y="220" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">关键路径长度 6</text>
+<path d="M75 307 L1125 307" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="76" y="364" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">一个单元</text>
+<rect x="255" y="337" width="180" height="44" fill="#edf6f6" opacity="1"/>
+<text x="345" y="367" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">A</text>
+<rect x="437" y="337" width="271" height="44" fill="#edf6f6" opacity="1"/>
+<text x="572.5" y="367" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">B</text>
+<rect x="710" y="337" width="271" height="44" fill="#fbede8" opacity="1"/>
+<text x="845.5" y="367" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">C</text>
+<rect x="983" y="337" width="89" height="44" fill="#edf6f6" opacity="1"/>
+<text x="1027.5" y="367" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">D</text>
+<text x="76" y="430" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">两单元 · 1</text>
+<rect x="255" y="403" width="180" height="44" fill="#edf6f6" opacity="1"/>
+<text x="345" y="433" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">A</text>
+<rect x="437" y="403" width="271" height="44" fill="#edf6f6" opacity="1"/>
+<text x="572.5" y="433" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">B</text>
+<rect x="710" y="403" width="89" height="44" fill="#edf6f6" opacity="1"/>
+<text x="754.5" y="433" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">D</text>
+<text x="76" y="496" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">两单元 · 2</text>
+<rect x="437" y="469" width="271" height="44" fill="#fbede8" opacity="1"/>
+<text x="572.5" y="499" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">C</text>
+<path d="M254 553 L1101 553" fill="none" stroke="#202a37" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1101 553 L1090 558 L1090 548 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M254 549 L254 557" fill="none" stroke="#202a37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="254" y="586" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0</text>
+<path d="M345 549 L345 557" fill="none" stroke="#202a37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="345" y="586" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">1</text>
+<path d="M436 549 L436 557" fill="none" stroke="#202a37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="436" y="586" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">2</text>
+<path d="M527 549 L527 557" fill="none" stroke="#202a37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="527" y="586" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">3</text>
+<path d="M618 549 L618 557" fill="none" stroke="#202a37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="618" y="586" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">4</text>
+<path d="M709 549 L709 557" fill="none" stroke="#202a37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="709" y="586" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">5</text>
+<path d="M800 549 L800 557" fill="none" stroke="#202a37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="800" y="586" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">6</text>
+<path d="M891 549 L891 557" fill="none" stroke="#202a37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="891" y="586" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">7</text>
+<path d="M982 549 L982 557" fill="none" stroke="#202a37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="982" y="586" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">8</text>
+<path d="M1073 549 L1073 557" fill="none" stroke="#202a37" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1073" y="586" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">9</text>
+<text x="77" y="641" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="start" font-weight="400">本例最大加速为 9 除以 6，即 1.5。</text>
+</svg><line x1="58" x2="1142" y1="754" y2="754" stroke="#dce6e8" stroke-width="1"/><text x="60" y="801" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 817 1200 580"/><view id="b-textbook-detail-1-1" viewBox="0 817 540 261"/><view id="b-textbook-detail-1-2" viewBox="330 817 540 261"/><view id="b-textbook-detail-1-3" viewBox="660 817 540 261"/><view id="b-textbook-detail-2-1" viewBox="0 976.5 540 261"/><view id="b-textbook-detail-2-2" viewBox="330 976.5 540 261"/><view id="b-textbook-detail-2-3" viewBox="660 976.5 540 261"/><view id="b-textbook-detail-3-1" viewBox="0 1136 540 261"/><view id="b-textbook-detail-3-2" viewBox="330 1136 540 261"/><view id="b-textbook-detail-3-3" viewBox="660 1136 540 261"/><svg width="1200" role="img" aria-labelledby="b-plot-title" height="580" viewBox="0 0 1200 580" id="panel-b" x="0" y="817">
+<title id="b-plot-title">下界成立，不等于下界必然可达到</title><defs><style type="text/css">#panel-b *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="b-md199a5d8f8" d="M 0 0 L 0 3.5 " style="stroke: #657682; stroke-width: 0.8"/>
+      <path id="b-m7129cfe504" d="M 0 0 L -3.5 0 " style="stroke: #657682; stroke-width: 0.8"/>
+      <clipPath id="b-p20bb3e4aee">
+   <rect x="71.28" y="40.608" width="369.829565" height="243.648"/>
+  </clipPath>
+  <clipPath id="b-p793adeaa88">
+   <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
+  </clipPath>
+ <linearGradient id="b-science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient><linearGradient id="b-science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient><linearGradient id="b-science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient><linearGradient id="b-science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f4f7f8"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="580" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="30" fill="#202a37" text-anchor="start" font-weight="400">下界成立，不等于下界必然可达到</text><g transform="translate(4.483826 46.000420) scale(0.61334230)"><g transform="matrix(1.992174 0 0 1.992174 16.287516 132.460327)"><g id="b-axes_1">
+   <g id="b-patch_2">
+    <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
+   </g>
+   <g id="b-patch_3">
+    <path d="M 88.090435 284.256 L 184.150062 284.256 L 184.150062 127.625143 L 88.090435 127.625143 z " clip-path="url(#b-p20bb3e4aee)" style="fill: #507e97"/>
+   </g>
+   <g id="b-patch_4">
+    <path d="M 208.164969 284.256 L 304.224596 284.256 L 304.224596 179.835429 L 208.164969 179.835429 z " clip-path="url(#b-p20bb3e4aee)" style="fill: #1c7481"/>
+   </g>
+   <g id="b-patch_5">
+    <path d="M 328.239503 284.256 L 424.29913 284.256 L 424.29913 75.414857 L 328.239503 75.414857 z " clip-path="url(#b-p20bb3e4aee)" style="fill: #b76633"/>
+   </g>
+   <g id="b-matplotlib.axis_1">
+    <g id="b-xtick_1">
+     <g id="b-line2d_1">
+      <g>
+       <use xlink:href="#b-md199a5d8f8" x="136.120248" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_1">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="136.120248" y="304.046" transform="rotate(-0 136.120248 304.046)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">总工作÷2</text>
+     </g>
+    </g>
+    <g id="b-xtick_2">
+     <g id="b-line2d_2">
+      <g>
+       <use xlink:href="#b-md199a5d8f8" x="256.194783" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_2">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="256.194783" y="304.046" transform="rotate(-0 256.194783 304.046)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">关键路径</text>
+     </g>
+    </g>
+    <g id="b-xtick_3">
+     <g id="b-line2d_3">
+      <g>
+       <use xlink:href="#b-md199a5d8f8" x="376.269317" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_3">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="376.269317" y="304.046" transform="rotate(-0 376.269317 304.046)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">可行最优时间</text>
+     </g>
+    </g>
+   </g>
+   <g id="b-matplotlib.axis_2">
+    <g id="b-ytick_1">
+     <g id="b-line2d_4">
+      <g>
+       <use xlink:href="#b-m7129cfe504" x="71.28" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_4">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="290.651" transform="rotate(-0 64.28 290.651)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
+     </g>
+    </g>
+    <g id="b-ytick_2">
+     <g id="b-line2d_5">
+      <g>
+       <use xlink:href="#b-m7129cfe504" x="71.28" y="249.449143" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_5">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="255.844143" transform="rotate(-0 64.28 255.844143)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
+     </g>
+    </g>
+    <g id="b-ytick_3">
+     <g id="b-line2d_6">
+      <g>
+       <use xlink:href="#b-m7129cfe504" x="71.28" y="214.642286" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_6">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="221.037286" transform="rotate(-0 64.28 221.037286)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
+     </g>
+    </g>
+    <g id="b-ytick_4">
+     <g id="b-line2d_7">
+      <g>
+       <use xlink:href="#b-m7129cfe504" x="71.28" y="179.835429" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_7">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="186.230429" transform="rotate(-0 64.28 186.230429)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text>
+     </g>
+    </g>
+    <g id="b-ytick_5">
+     <g id="b-line2d_8">
+      <g>
+       <use xlink:href="#b-m7129cfe504" x="71.28" y="145.028571" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_8">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="151.423571" transform="rotate(-0 64.28 151.423571)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">4</text>
+     </g>
+    </g>
+    <g id="b-ytick_6">
+     <g id="b-line2d_9">
+      <g>
+       <use xlink:href="#b-m7129cfe504" x="71.28" y="110.221714" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_9">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="116.616714" transform="rotate(-0 64.28 116.616714)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">5</text>
+     </g>
+    </g>
+    <g id="b-ytick_7">
+     <g id="b-line2d_10">
+      <g>
+       <use xlink:href="#b-m7129cfe504" x="71.28" y="75.414857" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_10">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="81.809857" transform="rotate(-0 64.28 81.809857)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">6</text>
+     </g>
+    </g>
+    <g id="b-ytick_8">
+     <g id="b-line2d_11">
+      <g>
+       <use xlink:href="#b-m7129cfe504" x="71.28" y="40.608" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_11">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="47.003" transform="rotate(-0 64.28 47.003)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">7</text>
+     </g>
+    </g>
+    </g>
+   <g id="b-patch_6">
+    <line x1="71.28" y1="284.256" x2="71.28" y2="40.608" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="b-patch_7">
+    <line x1="71.28" y1="284.256" x2="441.109565" y2="284.256" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="b-text_13">
+    <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="136.120248" y="120.663771" transform="rotate(-0 136.120248 120.663771)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">4.5</text>
+   </g>
+   <g id="b-text_14">
+    <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="256.194783" y="172.874057" transform="rotate(-0 256.194783 172.874057)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text>
+   </g>
+   <g id="b-text_15">
+    <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="376.269317" y="68.453486" transform="rotate(-0 376.269317 68.453486)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">6</text>
+   </g>
+   <g id="b-text_16">
+    <text style="font-size: 19.2px; text-anchor: middle; fill: #263e50" x="256.194783" y="34.608" transform="rotate(-0 256.194783 34.608)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">下界没有考虑任务不可拆分</text>
+   </g>
+  </g>
+  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" fill="#196f77" text-anchor="start" font-weight="400">A · 时间单位</text><g transform="translate(588.027978 -386.829104) scale(0.61334230)"><g transform="matrix(1.992174 0 0 1.992174 -941.506897 838.152771)"><g id="b-axes_2">
+   <g id="b-patch_8">
+    <path d="M 552.058435 284.256 L 921.888 284.256 L 921.888 40.608 L 552.058435 40.608 z " style="fill: #ffffff"/>
+   </g>
+   <g id="b-PolyCollection_1">
+    <path d="M 552.058435 147.81312 L 552.058435 89.3376 L 728.167752 89.3376 L 728.167752 147.81312 z " clip-path="url(#b-p793adeaa88)" style="fill: #507e97"/>
+    <path d="M 728.167752 147.81312 L 728.167752 89.3376 L 904.277068 89.3376 L 904.277068 147.81312 z " clip-path="url(#b-p793adeaa88)" style="fill: #b76633"/>
+   </g>
+   <g id="b-PolyCollection_2">
+    <path d="M 552.058435 245.27232 L 552.058435 186.7968 L 728.167752 186.7968 L 728.167752 245.27232 z " clip-path="url(#b-p793adeaa88)" style="fill: #1c7481"/>
+   </g>
+   <g id="b-matplotlib.axis_3">
+    <g id="b-xtick_4">
+     <g id="b-line2d_12">
+      <g>
+       <use xlink:href="#b-md199a5d8f8" x="552.058435" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_17">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="552.058435" y="304.046" transform="rotate(-0 552.058435 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
+     </g>
+    </g>
+    <g id="b-xtick_5">
+     <g id="b-line2d_13">
+      <g>
+       <use xlink:href="#b-md199a5d8f8" x="610.76154" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_18">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="610.76154" y="304.046" transform="rotate(-0 610.76154 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
+     </g>
+    </g>
+    <g id="b-xtick_6">
+     <g id="b-line2d_14">
+      <g>
+       <use xlink:href="#b-md199a5d8f8" x="669.464646" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_19">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="669.464646" y="304.046" transform="rotate(-0 669.464646 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
+     </g>
+    </g>
+    <g id="b-xtick_7">
+     <g id="b-line2d_15">
+      <g>
+       <use xlink:href="#b-md199a5d8f8" x="728.167752" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_20">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="728.167752" y="304.046" transform="rotate(-0 728.167752 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text>
+     </g>
+    </g>
+    <g id="b-xtick_8">
+     <g id="b-line2d_16">
+      <g>
+       <use xlink:href="#b-md199a5d8f8" x="786.870857" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_21">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="786.870857" y="304.046" transform="rotate(-0 786.870857 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">4</text>
+     </g>
+    </g>
+    <g id="b-xtick_9">
+     <g id="b-line2d_17">
+      <g>
+       <use xlink:href="#b-md199a5d8f8" x="845.573963" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_22">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="845.573963" y="304.046" transform="rotate(-0 845.573963 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">5</text>
+     </g>
+    </g>
+    <g id="b-xtick_10">
+     <g id="b-line2d_18">
+      <g>
+       <use xlink:href="#b-md199a5d8f8" x="904.277068" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_23">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="904.277068" y="304.046" transform="rotate(-0 904.277068 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">6</text>
+     </g>
+    </g>
+    <g id="b-text_24">
+     <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="736.973217" y="324.8135" transform="rotate(-0 736.973217 324.8135)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">时间</text>
+    </g>
+   </g>
+   <g id="b-matplotlib.axis_4">
+    <g id="b-ytick_9">
+     <g id="b-line2d_19">
+      <g>
+       <use xlink:href="#b-m7129cfe504" x="552.058435" y="216.03456" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_25">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="222.42956" transform="rotate(-0 545.058435 222.42956)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">单元2</text>
+     </g>
+    </g>
+    <g id="b-ytick_10">
+     <g id="b-line2d_20">
+      <g>
+       <use xlink:href="#b-m7129cfe504" x="552.058435" y="118.57536" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_26">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="124.97036" transform="rotate(-0 545.058435 124.97036)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">单元1</text>
+     </g>
+    </g>
+   </g>
+   <g id="b-patch_9">
+    <line x1="552.058435" y1="284.256" x2="552.058435" y2="40.608" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="b-patch_10">
+    <line x1="552.058435" y1="284.256" x2="921.888" y2="284.256" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="b-text_27">
+    <text style="font-size: 16px; text-anchor: middle; fill: #ffffff" x="640.113093" y="118.57536" transform="rotate(-0 640.113093 118.57536)" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">A</text>
+   </g>
+   <g id="b-text_28">
+    <text style="font-size: 16px; text-anchor: middle; fill: #ffffff" x="816.22241" y="118.57536" transform="rotate(-0 816.22241 118.57536)" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">C</text>
+   </g>
+   <g id="b-text_29">
+    <text style="font-size: 16px; text-anchor: middle; fill: #ffffff" x="640.113093" y="216.03456" transform="rotate(-0 640.113093 216.03456)" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">B</text>
+   </g>
+   <g id="b-text_30">
+    <text style="font-size: 19.2px; text-anchor: middle; fill: #263e50" x="736.973217" y="34.608" transform="rotate(-0 736.973217 34.608)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">三个独立任务：各耗时3</text>
+   </g>
+  </g>
+ </g></g><text x="626.000" y="116.000" font-family="Cambria, Noto Serif, Georgia, serif" font-size="21" fill="#196f77" text-anchor="start" font-weight="400">B</text></svg></svg>

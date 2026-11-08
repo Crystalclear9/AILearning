@@ -189,41 +189,43 @@ frame 对不同函数并非统一生效。偏移函数、排名函数与 frame �
 
 **窗口帧按位置或同值范围取成员**
 
-![窗口帧按位置或同值范围取成员](images/03-rows-range-peers.svg)
+下图 (a) 对照 `ROWS` 和 `RANGE` 如何处理排序键相同的记录。图 (b) 把同一个当前行放进不同窗口，核对记录数、有效金额数与和。
+
+![SQL 窗口成员与统计分母。图 (a) 窗口帧按位置或同值范围取成员。图 (b) ROWS 按行推进，RANGE 前缀纳入同级行。](images/03-sql-window-membership-and-counts-pair.svg)
 
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (a)</summary>
 
-![窗口帧按位置或同值范围取成员，上左区域](images/03-rows-range-peers.svg#textbook-detail-1-1)
+[打开图 (a) 单独查看](images/03-sql-window-membership-and-counts-pair.svg#a)
 
-![窗口帧按位置或同值范围取成员，上右区域](images/03-rows-range-peers.svg#textbook-detail-1-2)
+![图 (a) · 窗口帧按位置或同值范围取成员，上左区域](images/03-sql-window-membership-and-counts-pair.svg#a-textbook-detail-1-1)
 
-![窗口帧按位置或同值范围取成员，下左区域](images/03-rows-range-peers.svg#textbook-detail-2-1)
+![图 (a) · 窗口帧按位置或同值范围取成员，上右区域](images/03-sql-window-membership-and-counts-pair.svg#a-textbook-detail-1-2)
 
-![窗口帧按位置或同值范围取成员，下右区域](images/03-rows-range-peers.svg#textbook-detail-2-2)
+![图 (a) · 窗口帧按位置或同值范围取成员，下左区域](images/03-sql-window-membership-and-counts-pair.svg#a-textbook-detail-2-1)
+
+![图 (a) · 窗口帧按位置或同值范围取成员，下右区域](images/03-sql-window-membership-and-counts-pair.svg#a-textbook-detail-2-2)
 
 </details>
 
-
-在第一条十所在的 a 行，ROWS 的当前行边界只纳入已经到达的位置 a；RANGE 的当前值边界会同时纳入排序值相同的 a、b，因此两种前缀和分别为十与二十。示例需用额外稳定键定义 ROWS 下的具体行顺序；窗口内排序也不自动保证最终查询输出顺序。可分别用 ROWS 的 ORDER BY value, id 与 RANGE 的 ORDER BY value 复现。若给 RANGE 也增加唯一 id，a 与 b 就不再是同级行。两种帧都从分区起点到 CURRENT ROW。下面的事件算例进一步加入空金额与排除当前组的情形。
-
-![ROWS 按行推进，RANGE 前缀纳入同级行](images/03-concept.svg)
-
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (b)</summary>
 
-![ROWS 按行推进，RANGE 前缀纳入同级行，上左区域](images/03-concept.svg#textbook-detail-1-1)
+[打开图 (b) 单独查看](images/03-sql-window-membership-and-counts-pair.svg#b)
 
-![ROWS 按行推进，RANGE 前缀纳入同级行，上右区域](images/03-concept.svg#textbook-detail-1-2)
+![图 (b) · ROWS 按行推进，RANGE 前缀纳入同级行，上左区域](images/03-sql-window-membership-and-counts-pair.svg#b-textbook-detail-1-1)
 
-![ROWS 按行推进，RANGE 前缀纳入同级行，下左区域](images/03-concept.svg#textbook-detail-2-1)
+![图 (b) · ROWS 按行推进，RANGE 前缀纳入同级行，上右区域](images/03-sql-window-membership-and-counts-pair.svg#b-textbook-detail-1-2)
 
-![ROWS 按行推进，RANGE 前缀纳入同级行，下右区域](images/03-concept.svg#textbook-detail-2-2)
+![图 (b) · ROWS 按行推进，RANGE 前缀纳入同级行，下左区域](images/03-sql-window-membership-and-counts-pair.svg#b-textbook-detail-2-1)
+
+![图 (b) · ROWS 按行推进，RANGE 前缀纳入同级行，下右区域](images/03-sql-window-membership-and-counts-pair.svg#b-textbook-detail-2-2)
 
 </details>
 
+图 (a) 中，在第一条十所在的 a 行，ROWS 的当前行边界只纳入已经到达的位置 a；RANGE 的当前值边界会同时纳入排序值相同的 a、b，因此两种前缀和分别为十与二十。示例需用额外稳定键定义 ROWS 下的具体行顺序；窗口内排序也不自动保证最终查询输出顺序。可分别用 ROWS 的 ORDER BY value, id 与 RANGE 的 ORDER BY value 复现。若给 RANGE 也增加唯一 id，a 与 b 就不再是同级行。两种帧都从分区起点到 CURRENT ROW。下面的事件算例进一步加入空金额与排除当前组的情形。
 
-顶部给出四条事件的时间和金额，`NULL` 表示 SQL 空值，各排薄片圈出窗口中的记录。三排都固定当前行为 E3：前两个窗口包含 E1、E2、E3，所以记录数为三、金额有效数为二、已知金额和为十二；排除当前时间组的窗口只含 E1、E2，三项变为二、二、十二。相同的 `SUM` 不能证明参与身份相同，`COUNT(*)` 与 `COUNT(amount)` 也不能互相替换。
+图 (b) 顶部给出四条事件的时间和金额，`NULL` 表示 SQL 空值，各排薄片圈出窗口中的记录。三排都固定当前行为 E3：前两个窗口包含 E1、E2、E3，所以记录数为三、金额有效数为二、已知金额和为十二；排除当前时间组的窗口只含 E1、E2，三项变为二、二、十二。相同的 `SUM` 不能证明参与身份相同，`COUNT(*)` 与 `COUNT(amount)` 也不能互相替换。
 
 **沿四条事件逐行核算。** 事件取自第 3 节的可运行实验。按 `(event_time,event_id)` 定义的 ROWS 前缀依次纳入当前事件及其之前各行，和为 5、12、12、23；只按 `event_time` 排序的 RANGE 前缀把同时间的 E1 与 E2 一起纳入，和为 12、12、12、23；同一个 RANGE 再使用 `EXCLUDE GROUP`，得到 NULL、NULL、12、12。当当前行是 E1 时，ROWS 只纳入 E1，RANGE 还纳入同一时刻的 E2。图中改用 E3 作为当前行，两种前缀恰好相同，因而可以单独看到排除当前组的影响。
 
@@ -659,6 +661,8 @@ con.close()
 ![会话边界来自相邻事件间隔，下中区域](images/03-mechanism.svg#textbook-detail-3-2)
 
 ![会话边界来自相邻事件间隔，下右区域](images/03-mechanism.svg#textbook-detail-3-3)
+
+![会话边界来自相邻事件间隔，完整说明与标注](images/03-mechanism.svg#textbook-complete-detail-1)
 
 </details>
 

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="730" viewBox="0 0 1360 730" role="img" aria-labelledby="plate-title plate-desc">
-<view id="textbook-detail-1-1" viewBox="0.000000 0.000000 775.200000 416.100000"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="644.11764706" viewBox="0 0 1360 730" role="img" aria-labelledby="plate-title plate-desc">
+<view id="textbook-detail-1-1" viewBox="14.66520342 0 775.200000 416.100000"/>
 <view id="textbook-detail-1-2" viewBox="584.800000 0.000000 775.200000 416.100000"/>
-<view id="textbook-detail-2-1" viewBox="0.000000 313.900000 775.200000 416.100000"/>
+<view id="textbook-detail-2-1" viewBox="14.66520342 313.8999939 775.200000 416.100000"/>
 <view id="textbook-detail-2-2" viewBox="584.800000 313.900000 775.200000 416.100000"/>
   <title id="plate-title">一次对称坐标扰动同时改变两个元素</title>
   <desc id="plate-desc">完整矩阵梯度是 2、4 两个非对角分量。限制为对称矩阵时梯度的对应元素各为 3，独立参数 c 的导数为 6。</desc>
@@ -51,50 +51,50 @@
     </linearGradient>
   </defs>
   <rect x="0" y="0" width="1360" height="730" fill="white" stroke="none" stroke-width="0"/>
-  <text x="237" y="65" font-size="35" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" fill="#202a37" text-anchor="middle">完整矩阵梯度</text>
+  <text x="237" y="65" font-size="35" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" fill="#202a37" text-anchor="middle" font-weight="400">完整矩阵梯度</text>
   <rect x="147" y="147" width="90" height="90" fill="#f1f6f7" stroke="white" stroke-width="1.6"/>
-  <text x="192" y="206.4" font-size="30" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">0</text>
+  <text x="192" y="206.4" font-size="30" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">0</text>
   <rect x="237" y="147" width="90" height="90" fill="#cce8e8" stroke="white" stroke-width="1.6"/>
-  <text x="282" y="206.4" font-size="30" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">2</text>
+  <text x="282" y="206.4" font-size="30" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">2</text>
   <rect x="147" y="237" width="90" height="90" fill="#cce8e8" stroke="white" stroke-width="1.6"/>
-  <text x="192" y="296.4" font-size="30" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">4</text>
+  <text x="192" y="296.4" font-size="30" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">4</text>
   <rect x="237" y="237" width="90" height="90" fill="#f1f6f7" stroke="white" stroke-width="1.6"/>
-  <text x="282" y="296.4" font-size="30" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">0</text>
-  <text x="237" y="386" font-size="26" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" fill="#196f77" text-anchor="middle">允许扰动两格都改变</text>
+  <text x="282" y="296.4" font-size="30" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">0</text>
+  <text x="237" y="386" font-size="26" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" fill="#196f77" text-anchor="middle" font-weight="400">允许扰动两格都改变</text>
   <rect x="157" y="421" width="80" height="80" fill="#f1f6f7" stroke="white" stroke-width="1.6"/>
-  <text x="197" y="473.8" font-size="25" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">0</text>
+  <text x="197" y="473.8" font-size="25" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">0</text>
   <rect x="237" y="421" width="80" height="80" fill="#cce8e8" stroke="white" stroke-width="1.6"/>
-  <text x="277" y="473.8" font-size="25" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">δc</text>
+  <text x="277" y="473.8" font-size="25" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" fill="#202a37" text-anchor="middle" font-weight="400">δc</text>
   <rect x="157" y="501" width="80" height="80" fill="#cce8e8" stroke="white" stroke-width="1.6"/>
-  <text x="197" y="553.8" font-size="25" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">δc</text>
+  <text x="197" y="553.8" font-size="25" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" fill="#202a37" text-anchor="middle" font-weight="400">δc</text>
   <rect x="237" y="501" width="80" height="80" fill="#f1f6f7" stroke="white" stroke-width="1.6"/>
-  <text x="277" y="553.8" font-size="25" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">0</text>
-  <text x="683" y="65" font-size="35" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" fill="#202a37" text-anchor="middle">对称空间的梯度</text>
+  <text x="277" y="553.8" font-size="25" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">0</text>
+  <text x="683" y="65" font-size="35" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" fill="#202a37" text-anchor="middle" font-weight="400">对称空间的梯度</text>
   <rect x="593" y="147" width="90" height="90" fill="#f1f6f7" stroke="white" stroke-width="1.6"/>
-  <text x="638" y="206.4" font-size="30" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">0</text>
+  <text x="638" y="206.4" font-size="30" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">0</text>
   <rect x="683" y="147" width="90" height="90" fill="#e7e0f1" stroke="white" stroke-width="1.6"/>
-  <text x="728" y="206.4" font-size="30" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">3</text>
+  <text x="728" y="206.4" font-size="30" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">3</text>
   <rect x="593" y="237" width="90" height="90" fill="#e7e0f1" stroke="white" stroke-width="1.6"/>
-  <text x="638" y="296.4" font-size="30" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">3</text>
+  <text x="638" y="296.4" font-size="30" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">3</text>
   <rect x="683" y="237" width="90" height="90" fill="#f1f6f7" stroke="white" stroke-width="1.6"/>
-  <text x="728" y="296.4" font-size="30" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">0</text>
-  <text x="683" y="386" font-size="26" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" fill="#655184" text-anchor="middle">允许扰动两格都改变</text>
+  <text x="728" y="296.4" font-size="30" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">0</text>
+  <text x="683" y="386" font-size="26" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" fill="#655184" text-anchor="middle" font-weight="400">允许扰动两格都改变</text>
   <rect x="603" y="421" width="80" height="80" fill="#f1f6f7" stroke="white" stroke-width="1.6"/>
-  <text x="643" y="473.8" font-size="25" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">0</text>
+  <text x="643" y="473.8" font-size="25" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">0</text>
   <rect x="683" y="421" width="80" height="80" fill="#e7e0f1" stroke="white" stroke-width="1.6"/>
-  <text x="723" y="473.8" font-size="25" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">δc</text>
+  <text x="723" y="473.8" font-size="25" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" fill="#202a37" text-anchor="middle" font-weight="400">δc</text>
   <rect x="603" y="501" width="80" height="80" fill="#e7e0f1" stroke="white" stroke-width="1.6"/>
-  <text x="643" y="553.8" font-size="25" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">δc</text>
+  <text x="643" y="553.8" font-size="25" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" fill="#202a37" text-anchor="middle" font-weight="400">δc</text>
   <rect x="683" y="501" width="80" height="80" fill="#f1f6f7" stroke="white" stroke-width="1.6"/>
-  <text x="723" y="553.8" font-size="25" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#202a37" text-anchor="middle">0</text>
-  <text x="1122" y="65" font-size="35" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" fill="#202a37" text-anchor="middle">独立坐标导数</text>
+  <text x="723" y="553.8" font-size="25" font-family="Segoe UI, DejaVu Sans, sans-serif" fill="#202a37" text-anchor="middle" font-weight="400">0</text>
+  <text x="1122" y="65" font-size="35" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" fill="#202a37" text-anchor="middle" font-weight="400">独立坐标导数</text>
   <polygon points="986,262 1218,262 1254,156 1022,156" fill="url(#wash-coral)" stroke="#a84b3b" stroke-width="1.7" stroke-linejoin="round"/>
-  <text x="1091" y="196" font-size="24" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#a84b3b" text-anchor="middle">df</text>
+  <text x="1091" y="196" font-size="24" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" fill="#a84b3b" text-anchor="middle" font-weight="400">df</text>
   <polyline points="1065.5,203 1116.5,203" fill="none" stroke="#a84b3b" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
-  <text x="1091" y="232" font-size="24" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#a84b3b" text-anchor="middle">dc</text>
-  <text x="1171" y="215" font-size="29" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#a84b3b" text-anchor="middle">= 6</text>
-  <text x="1118" y="393" font-size="26" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" fill="#a84b3b" text-anchor="middle">只与一个 δc 配对</text>
-  <text x="1063" y="515" font-size="26" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" fill="#a84b3b" text-anchor="middle">同样得到</text>
-  <text x="1206" y="515" font-size="29" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" fill="#a84b3b" text-anchor="middle">6δc</text>
-  <text x="686" y="675" font-size="29" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" fill="#202a37" text-anchor="middle">方向导数相同。若直接用同一学习率，两种步长几何不同。</text>
+  <text x="1091" y="232" font-size="24" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" fill="#a84b3b" text-anchor="middle" font-weight="400">dc</text>
+  <text x="1171" y="215" font-size="29" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" fill="#a84b3b" text-anchor="middle" font-weight="400">= 6</text>
+  <text x="1118" y="393" font-size="26" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" fill="#a84b3b" text-anchor="middle" font-weight="400">只与一个 δc 配对</text>
+  <text x="1063" y="515" font-size="26" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" fill="#a84b3b" text-anchor="middle" font-weight="400">同样得到</text>
+  <text x="1206" y="515" font-size="29" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" fill="#a84b3b" text-anchor="middle" font-weight="400">6δc</text>
+  <text x="686" y="675" font-size="29" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" fill="#202a37" text-anchor="middle" font-weight="400">方向导数相同。若直接用同一学习率，两种步长几何不同。</text>
 </svg>

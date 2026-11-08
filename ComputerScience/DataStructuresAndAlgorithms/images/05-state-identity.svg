@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 720 390" role="img" aria-labelledby="title desc">
+<title id="title">同一地点，两种未来</title><desc id="desc">未持证与持证是两个状态。领取许可保持地点不变。过门动作只能从持证状态执行。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#196f77"/></marker>
+<linearGradient id="wash-teal" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#8dccd2" stop-opacity=".18"/><stop offset="100%" stop-color="#8dccd2" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#a84b3b"/></marker>
+<linearGradient id="wash-coral" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#efaa9d" stop-opacity=".18"/><stop offset="100%" stop-color="#efaa9d" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#655184"/></marker>
+<linearGradient id="wash-violet" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#b4a6d2" stop-opacity=".18"/><stop offset="100%" stop-color="#b4a6d2" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#657682"/></marker>
+<linearGradient id="wash-gray" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#becbd2" stop-opacity=".18"/><stop offset="100%" stop-color="#becbd2" stop-opacity=".58"/></linearGradient>
+</defs>
+<rect width="720" height="390" fill="#fff"/>
+<text x="360" y="50" fill="#202a37" font-size="29" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(360 39.5) scale(0.72413793) translate(-360 -39.5)">同一地点，两种未来</text>
+<polygon points="62,174 289,174 309,91 82,91" fill="url(#wash-coral)" stroke="#a84b3b" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="184" y="144" fill="#a84b3b" font-size="31" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(184 132.5) scale(0.59677419) translate(-184 -132.5)">P，未持证</text>
+<polygon points="62,330 289,330 309,247 82,247" fill="url(#wash-teal)" stroke="#196f77" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="184" y="299" fill="#196f77" font-size="31" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(184 287.5) scale(0.59677419) translate(-184 -287.5)">P，已持证</text>
+<line x1="184" y1="181" x2="184" y2="238" stroke="#655184" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-violet)"/>
+<text x="205" y="218" fill="#655184" font-size="23" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="start" font-weight="400" transform="translate(251 209.5) scale(0.80434783) translate(-251 -209.5)">领取许可</text>
+<line x1="312" y1="132" x2="495" y2="132" stroke="#a84b3b" stroke-width="2.8" stroke-linecap="round" stroke-dasharray="7 7"/>
+<line x1="486" y1="122" x2="504" y2="142" stroke="#a84b3b" stroke-width="2.8" stroke-linecap="round"/>
+<line x1="486" y1="142" x2="504" y2="122" stroke="#a84b3b" stroke-width="2.8" stroke-linecap="round"/>
+<text x="526" y="141" fill="#a84b3b" font-size="23" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="start" font-weight="400" transform="translate(572 132.5) scale(0.80434783) translate(-572 -132.5)">无法过门</text>
+<line x1="312" y1="288" x2="482" y2="288" stroke="#196f77" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+<polygon points="493,330 641,330 661,247 513,247" fill="url(#wash-teal)" stroke="#196f77" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="577" y="299" fill="#196f77" font-size="31" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(577.25 287.5) scale(0.59677419) translate(-577.25 -287.5)">门后 G</text>
+<text x="360" y="373" fill="#202a37" font-size="24" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(360 364) scale(0.77083333) translate(-360 -364)">位置相同，许可决定可行动作</text>
+</svg>

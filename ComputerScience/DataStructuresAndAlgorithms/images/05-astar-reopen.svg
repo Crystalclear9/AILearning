@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="791.66666667" viewBox="0 0 720 475" role="img" aria-labelledby="title desc">
+<title id="title">A* 为什么要重开 A</title><desc id="desc">边为 S 到 A 成本三、S 到 B 成本一、B 到 A 成本一、A 到 G 成本二。只有 B 的启发值为三。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#196f77"/></marker>
+<linearGradient id="wash-teal" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#8dccd2" stop-opacity=".18"/><stop offset="100%" stop-color="#8dccd2" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#a84b3b"/></marker>
+<linearGradient id="wash-coral" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#efaa9d" stop-opacity=".18"/><stop offset="100%" stop-color="#efaa9d" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#655184"/></marker>
+<linearGradient id="wash-violet" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#b4a6d2" stop-opacity=".18"/><stop offset="100%" stop-color="#b4a6d2" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#657682"/></marker>
+<linearGradient id="wash-gray" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#becbd2" stop-opacity=".18"/><stop offset="100%" stop-color="#becbd2" stop-opacity=".58"/></linearGradient>
+</defs>
+<rect width="720" height="475" fill="#fff"/>
+<text x="360" y="50" fill="#202a37" font-size="29" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(359.75 39.5) scale(0.72413793) translate(-359.75 -39.5)">A* 为什么要重开 A</text>
+<line x1="131" y1="164" x2="335" y2="164" stroke="#657682" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-gray)"/>
+<text x="228" y="149" fill="#657682" font-size="25" font-family="Segoe UI, DejaVu Sans, sans-serif" text-anchor="middle" font-weight="400" transform="translate(228 138.5) scale(0.64) translate(-228 -138.5)">3</text>
+<line x1="111" y1="192" x2="244" y2="326" stroke="#196f77" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+<text x="145" y="266" fill="#196f77" font-size="25" font-family="Segoe UI, DejaVu Sans, sans-serif" text-anchor="middle" font-weight="400" transform="translate(145 255.5) scale(0.64) translate(-145 -255.5)">1</text>
+<line x1="288" y1="320" x2="354" y2="196" stroke="#196f77" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+<text x="297" y="266" fill="#196f77" font-size="25" font-family="Segoe UI, DejaVu Sans, sans-serif" text-anchor="middle" font-weight="400" transform="translate(297 255.5) scale(0.64) translate(-297 -255.5)">1</text>
+<line x1="407" y1="164" x2="576" y2="164" stroke="#196f77" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
+<text x="489" y="149" fill="#196f77" font-size="25" font-family="Segoe UI, DejaVu Sans, sans-serif" text-anchor="middle" font-weight="400" transform="translate(489 138.5) scale(0.64) translate(-489 -138.5)">2</text>
+<circle cx="94" cy="164" r="34" fill="url(#wash-gray)" stroke="#657682" stroke-width="1.7"/><text x="94" y="174" fill="#202a37" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(94 165) scale(0.74) translate(-94 -165)">S</text>
+<circle cx="371" cy="164" r="34" fill="url(#wash-violet)" stroke="#655184" stroke-width="1.7"/><text x="371" y="174" fill="#655184" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(370.7109375 165) scale(0.74) translate(-370.7109375 -165)">A</text>
+<circle cx="271" cy="352" r="34" fill="url(#wash-teal)" stroke="#196f77" stroke-width="1.7"/><text x="271" y="362" fill="#196f77" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(271 353) scale(0.74) translate(-271 -353)">B</text>
+<circle cx="612" cy="164" r="34" fill="url(#wash-teal)" stroke="#196f77" stroke-width="1.7"/><text x="612" y="174" fill="#196f77" font-size="25" font-family="Cambria, Noto Serif, Georgia, serif" text-anchor="middle" font-weight="400" transform="translate(612 165) scale(0.74) translate(-612 -165)">G</text>
+<text x="94" y="231" fill="#657682" font-size="22" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" text-anchor="middle" font-weight="400" transform="translate(94 225) scale(0.84090909) translate(-94 -225)">h = 0</text>
+<text x="395" y="231" fill="#655184" font-size="22" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" text-anchor="middle" font-weight="400" transform="translate(395 225) scale(0.84090909) translate(-395 -225)">h = 0</text>
+<text x="271" y="416" fill="#196f77" font-size="22" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" text-anchor="middle" font-weight="400" transform="translate(271 410) scale(0.84090909) translate(-271 -410)">h = 3</text>
+<text x="612" y="231" fill="#196f77" font-size="22" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" text-anchor="middle" font-weight="400" transform="translate(612 225) scale(0.84090909) translate(-612 -225)">h = 0</text>
+<text x="360" y="454" fill="#202a37" font-size="25" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(360 445.5) scale(0.74) translate(-360 -445.5)">经 B 到 A，代价由 3 降到 2</text>
+</svg>

@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1392.35294118"><title id="title">RoIAlign 的分区与插值</title><desc id="description">(a) RoIAlign 在连续位置读取四邻特征。(b) 连续RoI内的采样点与单点双线性插值权重。</desc><rect width="1200" fill="#fff" height="1392.35294118"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 642.352941176"/><view id="a-textbook-detail-1-1" viewBox="0 51 540 289.058823529"/><view id="a-textbook-detail-1-2" viewBox="330 51 540 289.058823529"/><view id="a-textbook-detail-1-3" viewBox="660 51 540 289.058823529"/><view id="a-textbook-detail-2-2" viewBox="330 227.647058824 540 289.058823529"/><view id="a-textbook-detail-2-3" viewBox="660 227.647058824 540 289.058823529"/><view id="a-textbook-detail-3-1" viewBox="0 404.294117647 540 289.058823529"/><view id="a-textbook-detail-3-2" viewBox="330 404.294117647 540 289.058823529"/><view id="a-textbook-detail-3-3" viewBox="660 404.294117647 540 289.058823529"/><svg width="1200" height="642.352941176" viewBox="0 0 1360 728" role="img" aria-labelledby="a-plate-title a-plate-desc" id="panel-a" x="0" y="51">
+<title id="a-plate-title">RoIAlign 保留连续位置</title>
+  <desc id="a-plate-desc">左侧候选框的边界和采样点都可位于整数格之间。右侧放大一个单元，用四角值及其权重计算 2.5。</desc>
+  <defs>
+    <marker id="a-arrow-ink" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#202a37"/>
+    </marker>
+    <linearGradient id="a-wash-ink" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#afb9c7" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#afb9c7" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="a-arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#196f77"/>
+    </marker>
+    <linearGradient id="a-wash-teal" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#8dccd2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#8dccd2" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="a-arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#a84b3b"/>
+    </marker>
+    <linearGradient id="a-wash-coral" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#efaa9d" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#efaa9d" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="a-arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#655184"/>
+    </marker>
+    <linearGradient id="a-wash-violet" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#b4a6d2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#b4a6d2" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="a-arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#3c7459"/>
+    </marker>
+    <linearGradient id="a-wash-green" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#a4cfb3" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#a4cfb3" stop-opacity=".58"/>
+    </linearGradient>
+    <marker id="a-arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.8" markerHeight="6.8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#657682"/>
+    </marker>
+    <linearGradient id="a-wash-gray" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#becbd2" stop-opacity=".18"/>
+      <stop offset="100%" stop-color="#becbd2" stop-opacity=".58"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1360" height="728" fill="white" stroke="none" stroke-width="1.6"/>
+  <text x="322" y="56" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="36" fill="#202a37" text-anchor="middle" font-weight="400">候选框与采样点落在连续坐标上</text>
+  <line x1="124" y1="142" x2="124" y2="512" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <line x1="124" y1="142" x2="494" y2="142" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <circle cx="124" cy="142" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="124" cy="216" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="124" cy="290" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="124" cy="364" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="124" cy="438" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="124" cy="512" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <line x1="198" y1="142" x2="198" y2="512" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <line x1="124" y1="216" x2="494" y2="216" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <circle cx="198" cy="142" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="198" cy="216" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="198" cy="290" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="198" cy="364" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="198" cy="438" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="198" cy="512" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <line x1="272" y1="142" x2="272" y2="512" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <line x1="124" y1="290" x2="494" y2="290" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <circle cx="272" cy="142" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="272" cy="216" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="272" cy="290" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="272" cy="364" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="272" cy="438" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="272" cy="512" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <line x1="346" y1="142" x2="346" y2="512" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <line x1="124" y1="364" x2="494" y2="364" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <circle cx="346" cy="142" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="346" cy="216" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="346" cy="290" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="346" cy="364" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="346" cy="438" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="346" cy="512" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <line x1="420" y1="142" x2="420" y2="512" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <line x1="124" y1="438" x2="494" y2="438" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <circle cx="420" cy="142" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="420" cy="216" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="420" cy="290" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="420" cy="364" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="420" cy="438" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="420" cy="512" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <line x1="494" y1="142" x2="494" y2="512" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <line x1="124" y1="512" x2="494" y2="512" stroke="#e7ecef" stroke-width="1.25" stroke-linecap="round"/>
+  <circle cx="494" cy="142" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="494" cy="216" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="494" cy="290" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="494" cy="364" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="494" cy="438" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <circle cx="494" cy="512" r="2.6" stroke="#657682" stroke-width="1.8" fill="#657682"/>
+  <rect x="158.78" y="229.32" width="253.82" height="251.6" fill="url(#a-wash-teal)" stroke="#196f77" stroke-width="1.9"/>
+  <line x1="285.69" y1="229.32" x2="285.69" y2="480.92" stroke="#196f77" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <line x1="158.78" y1="355.12" x2="412.6" y2="355.12" stroke="#196f77" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <rect x="198" y="290" width="74" height="74" fill="none" stroke="#655184" stroke-width="2"/>
+  <circle cx="216.5" cy="327" r="7" stroke="#a84b3b" stroke-width="1.8" fill="#a84b3b"/>
+  <text x="1010" y="56" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="36" fill="#202a37" text-anchor="middle" font-weight="400">放大同一个网格单元</text>
+  <line x1="272" y1="290" x2="796" y2="151" stroke="#655184" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 6"/>
+  <line x1="272" y1="364" x2="796" y2="456" stroke="#655184" stroke-width="1.4" stroke-linecap="round" stroke-dasharray="5 6"/>
+  <rect x="796" y="151" width="305" height="305" fill="url(#a-wash-violet)" stroke="#655184" stroke-width="2"/>
+  <line x1="872.25" y1="303.5" x2="796" y2="151" stroke="#655184" stroke-width="1.45" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <circle cx="796" cy="151" r="6" stroke="#655184" stroke-width="1.8" fill="#655184"/>
+  <text x="774" y="160" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#655184" text-anchor="middle" font-weight="400">0</text>
+  <line x1="872.25" y1="303.5" x2="1101" y2="151" stroke="#655184" stroke-width="1.45" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <circle cx="1101" cy="151" r="6" stroke="#655184" stroke-width="1.8" fill="#655184"/>
+  <text x="1123" y="160" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#655184" text-anchor="middle" font-weight="400">2</text>
+  <line x1="872.25" y1="303.5" x2="796" y2="456" stroke="#655184" stroke-width="1.45" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <circle cx="796" cy="456" r="6" stroke="#655184" stroke-width="1.8" fill="#655184"/>
+  <text x="774" y="465" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#655184" text-anchor="middle" font-weight="400">4</text>
+  <line x1="872.25" y1="303.5" x2="1101" y2="456" stroke="#655184" stroke-width="1.45" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <circle cx="1101" cy="456" r="6" stroke="#655184" stroke-width="1.8" fill="#655184"/>
+  <text x="1123" y="465" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="25" fill="#655184" text-anchor="middle" font-weight="400">6</text>
+  <line x1="872.25" y1="151" x2="872.25" y2="303.5" stroke="#657682" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <line x1="796" y1="303.5" x2="872.25" y2="303.5" stroke="#657682" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 4"/>
+  <circle cx="872.25" cy="303.5" r="8" stroke="#a84b3b" stroke-width="1.8" fill="#a84b3b"/>
+  <text x="872.25" y="105" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" fill="#655184" text-anchor="middle" font-weight="400">1</text>
+  <line x1="852.25" y1="111" x2="892.25" y2="111" stroke="#655184" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="872.25" y="136" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" fill="#655184" text-anchor="middle" font-weight="400">4</text>
+  <text x="755" y="287.5" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" fill="#655184" text-anchor="middle" font-weight="400">1</text>
+  <line x1="735" y1="293.5" x2="775" y2="293.5" stroke="#655184" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="755" y="318.5" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="21" fill="#655184" text-anchor="middle" font-weight="400">2</text>
+  <line x1="1126" y1="303.5" x2="1189" y2="303.5" stroke="#a84b3b" stroke-width="1.85" stroke-linecap="round" marker-end="url(#a-arrow-coral)"/>
+  <text x="1242" y="288.5" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="26" fill="#a84b3b" text-anchor="middle" font-weight="400">插值</text>
+  <text x="1242" y="328.5" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="33" fill="#a84b3b" text-anchor="middle" font-weight="400" transform="translate(1242 314.5) scale(0.91582492) translate(-1242 -314.5)">2.5</text>
+  <text x="322" y="597" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">框和分区线保留原来的连续位置。</text>
+  <text x="981" y="597" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="28" fill="#202a37" text-anchor="middle" font-weight="400">先对每个点插值，再在分区内聚合。</text>
+</svg><line x1="58" x2="1142" y1="705.352941176" y2="705.352941176" stroke="#dce6e8" stroke-width="1"/><text x="60" y="752.352941176" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 768.352941176 1200 624"/><view id="b-textbook-detail-1-1" viewBox="0 768.352941176 684 355.68"/><view id="b-textbook-detail-1-2" viewBox="516 768.352941176 684 355.68"/><view id="b-textbook-detail-2-1" viewBox="0 1036.67294118 684 355.68"/><view id="b-textbook-detail-2-2" viewBox="516 1036.67294118 684 355.68"/><svg viewBox="0 0 1200 624" role="img" aria-labelledby="b-title b-description" width="1200" height="624" id="panel-b" x="0" y="768.352941176">
+<title id="b-title">连续RoI内的采样点与单点双线性插值权重</title>
+<desc id="b-description">左图横向 x，纵向 y 向下，bin 内四个点的坐标由子区间中心给出。右图放大第一个点，四条线对应四个插值权重。</desc>
+<defs>
+<linearGradient id="b-wash-t" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient>
+<linearGradient id="b-wash-c" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient>
+<linearGradient id="b-wash-v" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient>
+<linearGradient id="b-wash-g" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#ecf5ee"/><stop offset="1" stop-color="#cce3d2"/></linearGradient>
+<linearGradient id="b-wash-n" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#f7fafb"/><stop offset="1" stop-color="#e7ecef"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1200" height="624" fill="white" stroke="none" stroke-width="1.6" rx="0"/>
+<text x="286" y="58" fill="#202a37" font-size="35" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">连续位置的四个采样点</text>
+<text x="910" y="58" fill="#202a37" font-size="35" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">放大第一个采样点</text>
+<path d="M138 145 L138 457" stroke="#dce7e9" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="138" y="129" fill="#657682" font-size="24" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
+<path d="M242 145 L242 457" stroke="#dce7e9" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="242" y="129" fill="#657682" font-size="24" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
+<path d="M346 145 L346 457" stroke="#dce7e9" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="346" y="129" fill="#657682" font-size="24" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
+<path d="M450 145 L450 457" stroke="#dce7e9" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="450" y="129" fill="#657682" font-size="24" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text>
+<path d="M138 145 L450 145" stroke="#dce7e9" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="111" y="153" fill="#657682" font-size="24" text-anchor="end" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
+<path d="M138 249 L450 249" stroke="#dce7e9" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="111" y="257" fill="#657682" font-size="24" text-anchor="end" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
+<path d="M138 353 L450 353" stroke="#dce7e9" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="111" y="361" fill="#657682" font-size="24" text-anchor="end" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
+<path d="M138 457 L450 457" stroke="#dce7e9" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="111" y="465" fill="#657682" font-size="24" text-anchor="end" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text>
+<path d="M138 94 L467 94" stroke="#657682" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M478 94L464 88.2L464 99.8Z" stroke="#657682" stroke-width="1" fill="#657682" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="500" y="102" fill="#657682" font-size="26" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">x</text>
+<path d="M87 145 L87 474" stroke="#657682" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M87 485L92.8 471L81.2 471Z" stroke="#657682" stroke-width="1" fill="#657682" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="87" y="517" fill="#657682" font-size="26" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">y</text>
+<rect x="158.8" y="176.2" width="124.8" height="124.8" fill="url(#b-wash-t)" stroke="#196f77" stroke-width="2.7" rx="0"/>
+<path d="M221.2 176.2 L221.2 301" stroke="#196f77" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<path d="M158.8 238.6 L283.6 238.6" stroke="#196f77" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 7"/>
+<circle cx="190.0" cy="207.4" r="7" fill="#a84b3b" stroke="none" stroke-width="1.7"/>
+<circle cx="252.4" cy="207.4" r="7" fill="#196f77" stroke="none" stroke-width="1.7"/>
+<circle cx="190.0" cy="269.8" r="7" fill="#196f77" stroke="none" stroke-width="1.7"/>
+<circle cx="252.4" cy="269.8" r="7" fill="#196f77" stroke="none" stroke-width="1.7"/>
+<circle cx="138" cy="145" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="242" cy="145" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="346" cy="145" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="450" cy="145" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="138" cy="249" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="242" cy="249" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="346" cy="249" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="450" cy="249" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="138" cy="353" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="242" cy="353" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="346" cy="353" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="450" cy="353" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="138" cy="457" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="242" cy="457" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="346" cy="457" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<circle cx="450" cy="457" r="4.5" fill="#202a37" stroke="none" stroke-width="1.7"/>
+<text x="297" y="548" fill="#657682" font-size="30" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">F(x, y) = x + 2y</text>
+<path d="M498 272 L631 272" stroke="#655184" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M642 272L628 266.2L628 277.8Z" stroke="#655184" stroke-width="1" fill="#655184" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="775" y="147" width="242" height="242" fill="url(#b-wash-v)" stroke="#655184" stroke-width="2.4" rx="0"/>
+<path d="M775 147 L896 292.2" stroke="#655184" stroke-width="2.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="775" cy="147" r="6.5" fill="#655184" stroke="none" stroke-width="1.7"/>
+<text x="757" y="120" fill="#202a37" font-size="28" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(757.0000205 108.00000381) scale(0.95238095) translate(-757.0000205 -108.00000381)">0</text>
+<text x="806.4000000000001" y="205.07999999999998" fill="#655184" font-size="24" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.2</text>
+<path d="M1017 147 L896 292.2" stroke="#655184" stroke-width="2.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1017" cy="147" r="6.5" fill="#655184" stroke="none" stroke-width="1.7"/>
+<text x="1035" y="120" fill="#202a37" font-size="28" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(1035.00008154 108.00000381) scale(0.95238095) translate(-1035.00008154 -108.00000381)">1</text>
+<text x="985.5999999999999" y="205.07999999999998" fill="#655184" font-size="24" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(5 8.75)">0.2</text>
+<path d="M775 389 L896 292.2" stroke="#655184" stroke-width="2.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="775" cy="389" r="6.5" fill="#655184" stroke="none" stroke-width="1.7"/>
+<text x="757" y="416" fill="#202a37" font-size="28" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(757.0000205 404.00001144) scale(0.95238095) translate(-757.0000205 -404.00001144)">2</text>
+<text x="806.4000000000001" y="350.28" fill="#655184" font-size="24" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.3</text>
+<path d="M1017 389 L896 292.2" stroke="#655184" stroke-width="2.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1017" cy="389" r="6.5" fill="#655184" stroke="none" stroke-width="1.7"/>
+<text x="1035" y="416" fill="#202a37" font-size="28" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(1035.00008154 404.00001144) scale(0.95238095) translate(-1035.00008154 -404.00001144)">3</text>
+<text x="985.5999999999999" y="350.28" fill="#655184" font-size="24" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.3</text>
+<circle cx="896.0" cy="292.2" r="12" fill="white" stroke="#a84b3b" stroke-width="3"/>
+<text x="896.0" y="343.2" fill="#a84b3b" font-size="27" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">(0.5, 0.6)</text>
+<text x="897" y="476" fill="#a84b3b" font-size="30" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">插值结果 1.7</text>
+<text x="897" y="535" fill="#657682" font-size="30" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">四个采样值的平均为 2.6</text>
+</svg></svg>

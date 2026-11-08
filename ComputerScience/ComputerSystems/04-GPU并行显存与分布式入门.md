@@ -96,6 +96,8 @@ CUDA 把工作组织成线程、线程块和网格，线程块内可以协作并
 
 ![连续访问与跨距访问落在不同段，下右区域](images/04-scientific-plate.svg#textbook-detail-3-3)
 
+![连续访问与跨距访问落在不同段，完整说明与标注](images/04-scientific-plate.svg#textbook-complete-detail-1)
+
 </details>
 
 
@@ -287,6 +289,8 @@ CPU 与 GPU 内存也要分开。把状态卸载到主机可以减少设备容�
 ![复制参数不等于重复消费同一批数据，下中区域](images/04-mechanism.svg#textbook-detail-3-2)
 
 ![复制参数不等于重复消费同一批数据，下右区域](images/04-mechanism.svg#textbook-detail-3-3)
+
+![复制参数不等于重复消费同一批数据，完整说明与标注](images/04-mechanism.svg#textbook-complete-detail-1)
 
 </details>
 

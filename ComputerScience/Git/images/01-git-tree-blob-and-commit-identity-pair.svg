@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1299"><title id="title">Git 对象复用与提交身份</title><desc id="description">(a) 提交、树与内容对象承担不同角色。(b) 相同文件树不代表相同提交。</desc><rect width="1200" fill="#fff" height="1299"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 561"/><view id="a-textbook-detail-1-1" viewBox="0 51 540 252.45"/><view id="a-textbook-detail-1-2" viewBox="330 51 540 252.45"/><view id="a-textbook-detail-1-3" viewBox="660 51 540 252.45"/><view id="a-textbook-detail-2-1" viewBox="0 205.275 540 252.45"/><view id="a-textbook-detail-2-3" viewBox="660 205.275 540 252.45"/><view id="a-textbook-detail-3-1" viewBox="0 359.55 540 252.45"/><view id="a-textbook-detail-3-2" viewBox="330 359.55 540 252.45"/><svg width="1200" height="561" viewBox="0 0 1200 561" role="img" aria-labelledby="a-fig-title a-fig-desc" id="panel-a" x="0" y="51">
+<title id="a-fig-title">改文件名改变树条目，内容对象可复用</title>
+<desc id="a-fig-desc">两个提交的树记录不同路径，但同样的文件字节可继续引用同一个 blob。</desc>
+<rect x="0" y="0" width="1200" height="561" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="a-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="a-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="a-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="a-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+<linearGradient id="a-blue" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e9f1f8"/></linearGradient>
+<linearGradient id="a-ochre" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f7f0d9"/></linearGradient>
+<linearGradient id="a-green" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#ecf5ee"/></linearGradient>
+</defs>
+<text x="76" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">从 alpha.txt 改名为 beta.txt</text>
+<path d="M78 162 L105 115 L257 115 L230 162 Z" fill="url(#a-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="167.5" y="147.25" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="25" text-anchor="middle" font-weight="400">C1</text>
+<path d="M268 139 L315 139" fill="none" stroke="#196f77" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M315 139 L304 144 L304 134 Z" fill="#196f77" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M327 162 L354 115 L506 115 L479 162 Z" fill="url(#a-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="416.5" y="146.9" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="middle" font-weight="400">树 T1</text>
+<path d="M416 173 L416 218" fill="none" stroke="#196f77" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M416 218 L411 207 L421 207 Z" fill="#196f77" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M78 287 L105 230 L516 230 L489 287 Z" fill="url(#a-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="297" y="266.9" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">100644   alpha.txt → B</text>
+<path d="M294 294 L294 347 L600 347" fill="none" stroke="#196f77" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M600 347 L600 401" fill="none" stroke="#196f77" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M600 401 L595 390 L605 390 Z" fill="#196f77" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M657 162 L684 115 L836 115 L809 162 Z" fill="url(#a-r)" stroke="#a84b3b" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="746.5" y="147.25" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="25" text-anchor="middle" font-weight="400">C2</text>
+<path d="M847 139 L894 139" fill="none" stroke="#a84b3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M894 139 L883 144 L883 134 Z" fill="#a84b3b" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M906 162 L933 115 L1085 115 L1058 162 Z" fill="url(#a-r)" stroke="#a84b3b" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="995.5" y="146.9" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="middle" font-weight="400">树 T2</text>
+<path d="M995 173 L995 218" fill="none" stroke="#a84b3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M995 218 L990 207 L1000 207 Z" fill="#a84b3b" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M657 287 L684 230 L1095 230 L1068 287 Z" fill="url(#a-r)" stroke="#a84b3b" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="876" y="266.9" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">100644   beta.txt → B</text>
+<path d="M873 294 L873 347 L600 347" fill="none" stroke="#a84b3b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M600 347 L600 401" fill="none" stroke="#a84b3b" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M600 401 L595 390 L605 390 Z" fill="#a84b3b" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M750 105 L750 83 L165 83" fill="none" stroke="#655184" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M165 83 L165 108" fill="none" stroke="#655184" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M165 108 L160 97 L170 97 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="460" y="76" fill="#655184" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="20" text-anchor="middle" font-weight="400">parent</text>
+<path d="M391 471 L418 412 L809 412 L782 471 Z" fill="url(#a-v)" stroke="#655184" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="600" y="449.55" fill="#655184" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="middle" font-weight="400">blob B   ·   score=1 + 换行</text>
+<text x="77" y="523" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">文件名属于树对象，blob 对应文件字节。</text>
+</svg><line x1="58" x2="1142" y1="624" y2="624" stroke="#dce6e8" stroke-width="1"/><text x="60" y="671" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 687 1200 612"/><view id="b-textbook-detail-1-1" viewBox="0 691.05333089 684 348.84"/><view id="b-textbook-detail-1-2" viewBox="516 691.05333089 684 348.84"/><view id="b-textbook-detail-2-1" viewBox="0 950.16 684 348.84"/><view id="b-textbook-detail-2-2" viewBox="516 950.16 684 348.84"/><svg width="1200" height="612" viewBox="0 0 1200 612" role="img" aria-labelledby="b-fig-title b-fig-desc" id="panel-b" x="0" y="687">
+<title id="b-fig-title">提交可以共享树，但拥有不同父对象</title>
+<desc id="b-fig-desc">C1 和 C2 都引用树 T，分别引用父提交 P1 和 P2。对象标识包含父引用。</desc>
+<rect x="0" y="0" width="1200" height="612" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="b-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="b-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="b-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="b-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+<linearGradient id="b-blue" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e9f1f8"/></linearGradient>
+<linearGradient id="b-ochre" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f7f0d9"/></linearGradient>
+<linearGradient id="b-green" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#ecf5ee"/></linearGradient>
+</defs>
+<text x="75" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">同一文件快照，两条不同的父链</text>
+<path d="M117 193 L144 139 L338 139 L311 193 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="227.5" y="175.1" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="26" text-anchor="middle" font-weight="400">C1</text>
+<path d="M231 206 L231 304" fill="none" stroke="#196f77" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M231 304 L226 293 L236 293 Z" fill="#196f77" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="246" y="267" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="start" font-weight="400">parent</text>
+<path d="M117 369 L144 315 L338 315 L311 369 Z" fill="url(#b-n)" stroke="#657682" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="227.5" y="350.4" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">P1</text>
+<path d="M775 193 L802 139 L996 139 L969 193 Z" fill="url(#b-r)" stroke="#a84b3b" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="885.5" y="175.1" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="26" text-anchor="middle" font-weight="400">C2</text>
+<path d="M889 206 L889 304" fill="none" stroke="#a84b3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M889 304 L884 293 L894 293 Z" fill="#a84b3b" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="904" y="267" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="start" font-weight="400">parent</text>
+<path d="M775 369 L802 315 L996 315 L969 369 Z" fill="url(#b-n)" stroke="#657682" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="885.5" y="350.4" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">P2</text>
+<path d="M353 168 L498 168" fill="none" stroke="#196f77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M498 168 L487 173 L487 163 Z" fill="#196f77" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M757 168 L698 168" fill="none" stroke="#a84b3b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M698 168 L709 163 L709 173 Z" fill="#a84b3b" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="399" y="150" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="start" font-weight="400">tree</text>
+<text x="724" y="150" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="middle" font-weight="400">tree</text>
+<path d="M515 193 L542 139 L687 139 L660 193 Z" fill="url(#b-v)" stroke="#655184" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="601" y="174.75" fill="#655184" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="25" text-anchor="middle" font-weight="400">树 T</text>
+<path d="M75 411 L1125 411" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="77" y="465" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">展开树 T 的同一个文件条目</text>
+<path d="M77 553 L104 498 L584 498 L557 553 Z" fill="url(#b-v)" stroke="#655184" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="330.5" y="533.9" fill="#655184" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">100644   config.txt</text>
+<path d="M613 527 L754 527" fill="none" stroke="#655184" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M754 527 L743 532 L743 522 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M786 553 L813 498 L1118 498 L1091 553 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="952" y="533.9" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="middle" font-weight="400">同一个内容对象</text>
+</svg></svg>

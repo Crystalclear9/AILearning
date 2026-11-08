@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="666.66666667" viewBox="0 0 720 400" role="img" aria-labelledby="title desc">
+<title id="title">过门动作改变哪些事实</title><desc id="desc">过门前在门口、持证并有电。过门后到达目的地，仍持证，门口和有电事实被删除。</desc>
+<defs>
+<marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#196f77"/></marker>
+<linearGradient id="wash-teal" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#8dccd2" stop-opacity=".18"/><stop offset="100%" stop-color="#8dccd2" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-coral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#a84b3b"/></marker>
+<linearGradient id="wash-coral" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#efaa9d" stop-opacity=".18"/><stop offset="100%" stop-color="#efaa9d" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-violet" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#655184"/></marker>
+<linearGradient id="wash-violet" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#b4a6d2" stop-opacity=".18"/><stop offset="100%" stop-color="#b4a6d2" stop-opacity=".58"/></linearGradient>
+<marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 L 2 5 Z" fill="#657682"/></marker>
+<linearGradient id="wash-gray" x1="0%" y1="0%" x2="85%" y2="100%"><stop offset="0%" stop-color="#becbd2" stop-opacity=".18"/><stop offset="100%" stop-color="#becbd2" stop-opacity=".58"/></linearGradient>
+</defs>
+<rect width="720" height="400" fill="#fff"/>
+<text x="360" y="50" fill="#202a37" font-size="29" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(360 39.5) scale(0.72413793) translate(-360 -39.5)">过门动作改变哪些事实</text>
+<text x="194" y="111" fill="#202a37" font-size="25" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(194 102.5) scale(0.74) translate(-194 -102.5)">执行前</text>
+<text x="526" y="111" fill="#202a37" font-size="25" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(526 102.5) scale(0.74) translate(-526 -102.5)">执行后</text>
+<polygon points="52,320 315,320 335,139 72,139" fill="url(#wash-teal)" stroke="#196f77" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="384,320 647,320 667,139 404,139" fill="url(#wash-violet)" stroke="#655184" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="194" y="189" fill="#196f77" font-size="25" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(194 180.5) scale(0.74) translate(-194 -180.5)">在门口</text>
+<text x="194" y="239" fill="#196f77" font-size="25" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(194 230.5) scale(0.74) translate(-194 -230.5)">已持证</text>
+<text x="194" y="289" fill="#196f77" font-size="25" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(194 280.5) scale(0.74) translate(-194 -280.5)">有电</text>
+<text x="526" y="189" fill="#655184" font-size="25" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(526 180.5) scale(0.74) translate(-526 -180.5)">到达目的地</text>
+<text x="526" y="239" fill="#655184" font-size="25" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(526 230.5) scale(0.74) translate(-526 -230.5)">仍持证</text>
+<text x="526" y="289" fill="#833328" font-size="24" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(526 280) scale(0.77083333) translate(-526 -280)">无可用电量</text>
+<line x1="337" y1="224" x2="382" y2="224" stroke="#657682" stroke-width="1.35" stroke-linecap="round" marker-end="url(#arrow-gray)"/>
+<text x="360" y="365" fill="#202a37" font-size="23" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" text-anchor="middle" font-weight="400" transform="translate(360 356.5) scale(0.80434783) translate(-360 -356.5)">改变地点并消耗电量，许可保留</text>
+</svg>

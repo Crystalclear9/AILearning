@@ -127,6 +127,8 @@ VGG 一类规则堆叠使结构容易描述与扩展，但很深的普通网络�
 
 ![残差分支与捷径如何汇合，下右区域](images/03-concept.svg#textbook-detail-3-3)
 
+![残差分支与捷径如何汇合，完整说明与标注](images/03-concept.svg#textbook-complete-detail-1)
+
 </details>
 
 
@@ -299,6 +301,8 @@ print('separable equivalence passed; independent edge kernels have rank two')
 ![同一输入通道的两个独立边缘响应不能压成一个空间基，下中区域](images/03-depthwise-two-directions.svg#textbook-detail-3-2)
 
 ![同一输入通道的两个独立边缘响应不能压成一个空间基，下右区域](images/03-depthwise-two-directions.svg#textbook-detail-3-3)
+
+![同一输入通道的两个独立边缘响应不能压成一个空间基，完整说明与标注](images/03-depthwise-two-directions.svg#textbook-complete-detail-1)
 
 </details>
 

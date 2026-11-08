@@ -44,6 +44,7 @@
 - [10. 进一步研究：误差传播与系统边界](#llm-3-detail-34)
   - [10.1 从联合事件理解瓶颈](#llm-3-detail-35)
   - [10.2 对抗资料与权限不应交给生成器自觉](#llm-3-detail-36)
+    - [间接提示注入：从可读资料到授权执行](#llm-3-tool-authority)
   - [10.3 版本化系统与可复现评价](#llm-3-detail-37)
 - [11. 进阶推导：把检索增强看成带隐变量的预测](#llm-3-detail-56)
   - [11.1 检索分布与生成分布的组合](#llm-3-detail-57)
@@ -559,6 +560,8 @@ print('executor_trace', ex.trace)
 
 ![同一百题的分阶段计数与总体分母，下右区域](images/03-stage-counts.svg#textbook-detail-2-2)
 
+![同一百题的分阶段计数与总体分母，完整说明与标注](images/03-stage-counts.svg#textbook-complete-detail-1)
+
 </details>
 
 
@@ -620,6 +623,77 @@ $$
 模型可以被训练识别资料中的恶意指令，但系统仍应在架构层限制可执行工具和参数范围。若某文档要求读取另一个无权资料，执行器不能因为模型复述了该要求就放行。权限是服务端根据主体与资源判定的关系，不是文档内容可以修改的属性。模型层防御和执行层边界互补，不能互相替代。
 
 同一原则适用于引用与缓存。一个用户可见的摘要如果包含其他用户资料，也属于泄漏，即便没有原文逐字复制。缓存不能只按问题字符串命中，应考虑主体权限、资料版本和生成配置。评估可使用两个权限组的成对请求，确保相同问题在不同主体下只获得各自允许证据，并测试权限撤销后的缓存失效。
+
+<a id="llm-3-tool-authority"></a>
+
+#### 间接提示注入：从可读资料到授权执行
+
+如果模型收到的资料包含试图改变系统行为的内容，例如一份被检索到的说明把“发布到别组”写成执行要求，这属于间接提示注入。材料可由当前用户读取，说明检索访问控制可能已经正确工作。它仍然只是一份可读证据，不能替用户批准发布。与直接从用户输入传来指令相比，间接来源还包括网页、附件、邮件和工具返回。只检测用户输入就会漏掉这些渠道。[OWASP 提示注入说明](https://genai.owasp.org/glossary/prompt-injection/)
+
+![资料进入模型形成提议，执行器按可信身份和授权独立核对后才提交动作](images/03-tool-authorization-boundary.svg)
+
+把权限边界落实到工具接口时，可以分开核对三件事。
+
+- **谁在请求。** 从已经认证的会话获取主体。模型输出里的角色字段、资料中自称管理员的话，以及工具返回中的文字确认，都不改变这个主体。
+- **允许做什么。** 服务端根据主体、操作、资源、接收范围和当前策略独立判定。读某份资料的权限不自动推导为公开、转发或修改的权限。
+- **是否确认了这一次。** 对需要人工确认的操作，把批准绑定到具体动作、目标和内容版本。换目标、改内容或权限撤销后都要重新核对，避免把“确认发布 A”复用为“向别组发布 B”。[OWASP 关于过度代理权限的防护建议](https://genai.owasp.org/llmrisk/llm062025-excessive-agency/)
+
+下面只模拟执行器。它不调用模型和外部工具，提交的结果只写入本进程的列表。批准由可信确认界面写入服务端状态，模型只提交候选参数。测试故意假设模型可能已经生成不安全提议，观察执行器是否产生实际效果。
+
+```python
+from hashlib import sha256
+
+
+def fingerprint(body):
+    return sha256(body.encode("utf-8")).hexdigest()
+
+
+class Gate:
+    def __init__(self):
+        self.epoch = 1
+        self.allowed = {("alice", "memo", "team_a")}
+        self.approvals = {}
+        self.effects = []
+
+    def approve(self, token, actor, record, audience, body):
+        # Called by a trusted confirmation interface, not by the model.
+        if (actor, record, audience) not in self.allowed:
+            raise PermissionError("publication not permitted")
+        self.approvals[token] = (
+            actor, record, audience, fingerprint(body), self.epoch
+        )
+
+    def execute(self, actor, proposal, token=None):
+        record, audience, body = proposal
+        if (actor, record, audience) not in self.allowed:
+            return "policy_denied"
+        expected = (actor, record, audience, fingerprint(body), self.epoch)
+        if token is None or self.approvals.get(token) != expected:
+            return "approval_mismatch"
+        del self.approvals[token]
+        self.effects.append((actor, record, audience, fingerprint(body)))
+        return "committed"
+
+
+gate = Gate()
+clean = ("memo", "team_a", "approved text")
+gate.approve("grant-1", "alice", *clean)
+assert gate.execute("alice", ("memo", "team_b", clean[2]), "grant-1") == "policy_denied"
+assert gate.execute("alice", ("memo", "team_a", "changed text"), "grant-1") == "approval_mismatch"
+assert gate.execute("alice", clean) == "approval_mismatch"
+assert gate.effects == []
+assert gate.execute("alice", clean, "grant-1") == "committed"
+assert gate.execute("alice", clean, "grant-1") == "approval_mismatch"
+gate.approve("grant-2", "alice", *clean)
+gate.epoch += 1
+assert gate.execute("alice", clean, "grant-2") == "approval_mismatch"
+assert len(gate.effects) == 1
+print("only the exact authorized request committed once")
+```
+
+在这里，改收件范围因策略拒绝，改内容因确认不匹配而拒绝。缺少批准、重放令牌和策略版本改变也没有产生额外效果。正式实现还要让批准句柄不可预测或可验证，由可信服务签发并限制有效期。示例里的字符串不是安全令牌。并发场景应将有效性检查、消费令牌和提交记录放入同一个原子过程，或者使用可审计的事务与幂等键。否则两个请求可能同时看到同一令牌未消费。
+
+验收时把“模型提出了什么”和“执行器做了什么”分开记账。以注入场景中实际产生越权效果的次数作一个指标，以正常的已授权请求成功完成的次数作另一个指标。拒绝全部请求可能让前一个数字很好看，却无法完成正常任务。可固定查询、资料和可见权限，在对照组只修改资料中是否夹带指令，再交叉改动目标、内容和权限版本。对产生外部效果的系统，日志应足以重放判定，但不必保存敏感正文或有效令牌。[NIST 生成式 AI 风险管理概要](https://doi.org/10.6028/NIST.AI.600-1)
 
 <a id="llm-3-detail-37"></a>
 

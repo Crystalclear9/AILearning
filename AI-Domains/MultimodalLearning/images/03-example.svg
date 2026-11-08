@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="852" viewBox="0 0 1360 852" role="img" aria-labelledby="plate-title plate-desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="751.76470588" viewBox="0 0 1360 852" role="img" aria-labelledby="plate-title plate-desc">
 <view id="textbook-detail-1-1" viewBox="0.000000 0.000000 775.200000 485.640000"/>
 <view id="textbook-detail-1-2" viewBox="584.800000 0.000000 775.200000 485.640000"/>
-<view id="textbook-detail-2-1" viewBox="0.000000 366.360000 775.200000 485.640000"/>
-<view id="textbook-detail-2-2" viewBox="584.800000 366.360000 775.200000 485.640000"/>
+<view id="textbook-detail-2-1" viewBox="0 361.98539988 775.200000 485.640000"/>
+<view id="textbook-detail-2-2" viewBox="584.79998779 361.98539988 775.200000 485.640000"/>
   <title id="plate-title">冻结参数与截断梯度有不同后果</title>
   <desc id="plate-desc">在同一标量计算链中，冻结中间乘数仍允许输入梯度穿过。截断 h 后，前端梯度缺失。缓存失效也要检查全部上游依赖。</desc>
   <defs>
@@ -51,39 +51,39 @@
     </linearGradient>
   </defs>
   <rect x="0" y="0" width="1360" height="852" fill="white" stroke="none" stroke-width="1.6"/>
-  <text x="674" y="55" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">同一个前向链</text>
+  <text x="674" y="55" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="36" fill="#202a37" text-anchor="middle" font-weight="400">同一个前向链</text>
   <polygon points="69,181 215,181 241,114 95,114" stroke="#657682" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-gray)"/>
-  <text x="155" y="157.73" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="31" fill="#657682" text-anchor="middle">x = 1</text>
+  <text x="155" y="157.73" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="31" fill="#202a37" text-anchor="middle" font-weight="400">x = 1</text>
   <polygon points="321,181 467,181 493,114 347,114" stroke="#196f77" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-teal)"/>
-  <text x="407" y="157.73" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="31" fill="#196f77" text-anchor="middle">× 2</text>
+  <text x="407" y="157.73" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="31" fill="#196f77" text-anchor="middle" font-weight="400">× 2</text>
   <line x1="254" y1="147" x2="306" y2="147" stroke="#196f77" stroke-width="1.85" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
   <polygon points="585,181 731,181 757,114 611,114" stroke="#655184" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-violet)"/>
-  <text x="671" y="157.73" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="31" fill="#655184" text-anchor="middle">× 3</text>
+  <text x="671" y="157.73" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="31" fill="#655184" text-anchor="middle" font-weight="400">× 3</text>
   <line x1="506" y1="147" x2="570" y2="147" stroke="#196f77" stroke-width="1.85" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
   <polygon points="849,181 995,181 1021,114 875,114" stroke="#196f77" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-teal)"/>
-  <text x="935" y="157.73" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="31" fill="#196f77" text-anchor="middle">× 4</text>
+  <text x="935" y="157.73" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="31" fill="#196f77" text-anchor="middle" font-weight="400">× 4</text>
   <line x1="770" y1="147" x2="834" y2="147" stroke="#196f77" stroke-width="1.85" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
   <polygon points="1126,181 1272,181 1298,114 1152,114" stroke="#a84b3b" stroke-width="1.8" stroke-linejoin="round" fill="url(#wash-coral)"/>
-  <text x="1212" y="157.73" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="31" fill="#a84b3b" text-anchor="middle">y = 24</text>
+  <text x="1212" y="157.73" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="31" fill="#a84b3b" text-anchor="middle" font-weight="400">y = 24</text>
   <line x1="1034" y1="147" x2="1111" y2="147" stroke="#196f77" stroke-width="1.85" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
-  <text x="408" y="228" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="25" fill="#196f77" text-anchor="middle">前端 a</text>
-  <text x="935" y="228" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="25" fill="#196f77" text-anchor="middle">后端 b</text>
-  <text x="673" y="228" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="25" fill="#655184" text-anchor="middle">固定中间乘数 f</text>
-  <text x="814" y="211" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif" font-size="26" fill="#196f77" text-anchor="middle">h = 6</text>
-  <text x="351" y="291" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="32" fill="#196f77" text-anchor="middle">冻结参数，梯度仍通过</text>
+  <text x="408" y="228" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="25" fill="#196f77" text-anchor="middle" font-weight="400">前端 a</text>
+  <text x="935" y="228" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="25" fill="#196f77" text-anchor="middle" font-weight="400">后端 b</text>
+  <text x="673" y="228" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="25" fill="#655184" text-anchor="middle" font-weight="400">固定中间乘数 f</text>
+  <text x="814" y="211" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="26" fill="#196f77" text-anchor="middle" font-weight="400">h = 6</text>
+  <text x="351" y="291" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="32" fill="#196f77" text-anchor="middle" font-weight="400">冻结参数，梯度仍通过</text>
   <line x1="1212" y1="342" x2="970" y2="342" stroke="#196f77" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
-  <text x="938" y="382" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="26" fill="#196f77" text-anchor="middle">后端梯度 = 144</text>
+  <text x="938" y="382" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="26" fill="#196f77" text-anchor="middle" font-weight="400">后端梯度 = 144</text>
   <line x1="902" y1="342" x2="708" y2="342" stroke="#196f77" stroke-width="1.9" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
   <line x1="630" y1="342" x2="443" y2="342" stroke="#196f77" stroke-width="1.9" stroke-linecap="round" marker-end="url(#arrow-teal)"/>
-  <text x="403" y="382" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="26" fill="#196f77" text-anchor="middle">前端梯度 = 288</text>
-  <text x="351" y="475" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="32" fill="#a84b3b" text-anchor="middle">在 h 处截断梯度</text>
+  <text x="403" y="382" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="26" fill="#196f77" text-anchor="middle" font-weight="400">前端梯度 = 288</text>
+  <text x="351" y="475" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="32" fill="#a84b3b" text-anchor="middle" font-weight="400">在 h 处截断梯度</text>
   <line x1="1212" y1="526" x2="970" y2="526" stroke="#a84b3b" stroke-width="2" stroke-linecap="round" marker-end="url(#arrow-coral)"/>
-  <text x="938" y="566" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="26" fill="#a84b3b" text-anchor="middle">后端梯度 = 144</text>
+  <text x="938" y="566" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="26" fill="#a84b3b" text-anchor="middle" font-weight="400">后端梯度 = 144</text>
   <line x1="907" y1="526" x2="783" y2="526" stroke="#a84b3b" stroke-width="1.65" stroke-linecap="round" marker-end="url(#arrow-coral)" stroke-dasharray="6 6"/>
   <line x1="774" y1="514" x2="774" y2="538" stroke="#a84b3b" stroke-width="2.7" stroke-linecap="round"/>
-  <text x="401" y="565" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="27" fill="#a84b3b" text-anchor="middle">前端梯度缺失</text>
-  <line x1="91" y1="654" x2="1270" y2="654" stroke="#d4e0e4" stroke-width="1.4" stroke-linecap="round"/>
-  <text x="678" y="710" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="36" fill="#202a37" text-anchor="middle">前端改为 1，缓存旧表示会用错值</text>
-  <text x="418" y="783" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="29" fill="#196f77" text-anchor="middle">重算：h = 3，输出 12</text>
-  <text x="983" y="783" font-family="SimSun, Noto Serif CJK SC, Microsoft YaHei, serif" font-size="29" fill="#a84b3b" text-anchor="middle">复用旧值：h = 6，输出 24</text>
+  <text x="401" y="565" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="27" fill="#a84b3b" text-anchor="middle" font-weight="400">前端梯度缺失</text>
+  <line x1="91" y1="654" x2="1270" y2="654" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round"/>
+  <text x="678" y="710" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="36" fill="#202a37" text-anchor="middle" font-weight="400" transform="translate(678 697) scale(0.97067901) translate(-678 -697)">前端改为 1，缓存旧表示会用错值</text>
+  <text x="418" y="783" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="29" fill="#196f77" text-anchor="middle" font-weight="400">重算：h = 3，输出 12</text>
+  <text x="983" y="783" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="29" fill="#a84b3b" text-anchor="middle" font-weight="400">复用旧值：h = 6，输出 24</text>
 </svg>

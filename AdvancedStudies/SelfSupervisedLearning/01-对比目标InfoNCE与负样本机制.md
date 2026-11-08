@@ -363,6 +363,8 @@ $$
 
 ![单位圆上的候选向量以及归一化去除径向梯度的投影，下右区域](images/01-normalized-tangent-gradient.svg#textbook-detail-3-3)
 
+![单位圆上的候选向量以及归一化去除径向梯度的投影，完整说明与标注](images/01-normalized-tangent-gradient.svg#textbook-complete-detail-1)
+
 </details>
 
 
@@ -614,7 +616,7 @@ print('representation coordinate std',std.tolist())
 
 用 $`P_Y^N`$ 表示所有候选都独立来自边缘的基准分布。给定锚点 x 而隐藏正确索引时，候选集合密度为 $`Q_x(y_{1:N})=[N^{-1}\sum_ir(x,y_i)]\prod_jp(y_j)`$。它是一个真实归一化混合分布，因为每个比率在对应边缘下期望为一。这个定义使后面的非负项有清楚概率意义，而不是仅靠一句 Jensen 略过。
 
-最优索引后验是 $`\frac{r_I}{\sum_jr_j}`$，所以索引互信息为期望对数 $`\frac{Nr_I}{\sum_jr_j}`$。其中对数 rI 的期望恰好是原始配对联合分布的互信息；对数平均比率的期望则是 $`E_XD_{\rm KL}(Q_X\Vert P_Y^N)`$。于是前面两者之差给出精确分解。
+最优索引后验是 $`\frac{r_I}{\sum_jr_j}`$，所以索引互信息为期望对数 $`\frac{Nr_I}{\sum_jr_j}`$。其中对数 rI 的期望恰好是原始配对联合分布的互信息；对数平均比率的期望则是 $`E_XD_{\mathrm{KL}}(Q_X\Vert P_Y^N)`$。于是前面两者之差给出精确分解。
 
 <a id="infonce-45"></a>
 

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 624" role="img" aria-labelledby="title description" width="900" height="468.000000">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 624" role="img" aria-labelledby="title description" width="1200" height="624">
 <view id="textbook-detail-1-1" viewBox="0.000000 0.000000 684.000000 355.680000"/>
 <view id="textbook-detail-1-2" viewBox="516.000000 0.000000 684.000000 355.680000"/>
 <view id="textbook-detail-2-1" viewBox="0.000000 268.320000 684.000000 355.680000"/>
@@ -6,58 +6,58 @@
 <title id="title">两个相邻同类实例的正确划分、整体合并、局部等分与PQ变化</title>
 <desc id="description">真值是相邻但不重叠的两个同类实例，各一百像素。三种预测的语义前景均相同，但实例匹配要求 IoU 严格大于二分之一。</desc>
 <defs>
-<linearGradient id="wash-t" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#eff9f8"/><stop offset="1" stop-color="#c4e3e3"/></linearGradient>
-<linearGradient id="wash-c" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#fdf4f1"/><stop offset="1" stop-color="#f1d2c9"/></linearGradient>
-<linearGradient id="wash-v" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#f8f5fa"/><stop offset="1" stop-color="#e3d9ef"/></linearGradient>
-<linearGradient id="wash-g" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#f2f8f3"/><stop offset="1" stop-color="#d7eadc"/></linearGradient>
-<linearGradient id="wash-n" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#f7fafb"/><stop offset="1" stop-color="#e8eef0"/></linearGradient>
+<linearGradient id="wash-t" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient>
+<linearGradient id="wash-c" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient>
+<linearGradient id="wash-v" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient>
+<linearGradient id="wash-g" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#ecf5ee"/><stop offset="1" stop-color="#cce3d2"/></linearGradient>
+<linearGradient id="wash-n" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#f7fafb"/><stop offset="1" stop-color="#e7ecef"/></linearGradient>
 </defs>
 <rect x="0" y="0" width="1200" height="624" fill="white" stroke="none" stroke-width="1.6" rx="0"/>
-<text x="387" y="55" fill="#222d39" font-size="34" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">两个真值实例，各一百像素</text>
-<rect x="248" y="93" width="139" height="54" fill="url(#wash-t)" stroke="#1a7077" stroke-width="2.6" rx="0"/>
-<text x="317" y="129" fill="#1a7077" font-size="28" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">G₁</text>
-<rect x="387" y="93" width="139" height="54" fill="url(#wash-c)" stroke="#ac4f3e" stroke-width="2.6" rx="0"/>
-<text x="456" y="129" fill="#ac4f3e" font-size="28" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">G₂</text>
-<text x="835" y="125" fill="#536979" font-size="29" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">匹配要求 IoU 大于</text>
-<text x="1000" y="106" fill="#ac4f3e" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">1</text>
-<path d="M982 115 L1018 115" stroke="#ac4f3e" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="1000" y="143" fill="#ac4f3e" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">2</text>
+<text x="387" y="55" fill="#202a37" font-size="34" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">两个真值实例，各一百像素</text>
+<rect x="248" y="93" width="139" height="54" fill="url(#wash-t)" stroke="#196f77" stroke-width="2.6" rx="0"/>
+<text x="317" y="129" fill="#196f77" font-size="28" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">G₁</text>
+<rect x="387" y="93" width="139" height="54" fill="url(#wash-c)" stroke="#a84b3b" stroke-width="2.6" rx="0"/>
+<text x="456" y="129" fill="#a84b3b" font-size="28" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">G₂</text>
+<text x="835" y="125" fill="#657682" font-size="29" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">匹配要求 IoU 大于</text>
+<text x="1000" y="106" fill="#a84b3b" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(1000 94.66667175) scale(0.98765432) translate(-1000 -94.66667175)">1</text>
+<path d="M982 115 L1018 115" stroke="#a84b3b" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1000" y="143" fill="#a84b3b" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(1000 131.66667175) scale(0.98765432) translate(-1000 -131.66667175)">2</text>
 <path d="M89 190 L1110 190" stroke="#d5e3e5" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="208" y="249" fill="#222d39" font-size="33" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">A  正确区分</text>
-<rect x="61" y="296" width="147.0" height="81" fill="url(#wash-t)" stroke="#1a7077" stroke-width="2.4" rx="0"/>
-<text x="134.5" y="348" fill="#1a7077" font-size="31" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">100</text>
-<rect x="208.0" y="296" width="147.0" height="81" fill="url(#wash-c)" stroke="#ac4f3e" stroke-width="2.4" rx="0"/>
-<text x="281.5" y="348" fill="#ac4f3e" font-size="31" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">100</text>
-<text x="208" y="454" fill="#655185" font-size="34" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">PQ = 1</text>
-<text x="114" y="514" fill="#536979" font-size="23" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">TP</text>
-<text x="114" y="552" fill="#222d39" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">2</text>
-<text x="208" y="514" fill="#536979" font-size="23" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">FP</text>
-<text x="208" y="552" fill="#222d39" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">0</text>
-<text x="302" y="514" fill="#536979" font-size="23" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">FN</text>
-<text x="302" y="552" fill="#222d39" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">0</text>
-<text x="597" y="249" fill="#222d39" font-size="33" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">B  全部合并</text>
-<rect x="450" y="296" width="294.0" height="81" fill="url(#wash-v)" stroke="#655185" stroke-width="2.4" rx="0"/>
-<text x="597.0" y="348" fill="#655185" font-size="31" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">200</text>
-<text x="597" y="454" fill="#655185" font-size="34" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">PQ = 0</text>
-<text x="503" y="514" fill="#536979" font-size="23" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">TP</text>
-<text x="503" y="552" fill="#222d39" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">0</text>
-<text x="597" y="514" fill="#536979" font-size="23" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">FP</text>
-<text x="597" y="552" fill="#222d39" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">1</text>
-<text x="691" y="514" fill="#536979" font-size="23" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">FN</text>
-<text x="691" y="552" fill="#222d39" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">2</text>
-<text x="986" y="249" fill="#222d39" font-size="33" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">C  等分首个实例</text>
-<rect x="839" y="296" width="73.5" height="81" fill="url(#wash-v)" stroke="#655185" stroke-width="2.4" rx="0"/>
-<text x="875.75" y="348" fill="#655185" font-size="31" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">50</text>
-<rect x="912.5" y="296" width="73.5" height="81" fill="url(#wash-g)" stroke="#3d725a" stroke-width="2.4" rx="0"/>
-<text x="949.25" y="348" fill="#3d725a" font-size="31" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">50</text>
-<rect x="986.0" y="296" width="147.0" height="81" fill="url(#wash-c)" stroke="#ac4f3e" stroke-width="2.4" rx="0"/>
-<text x="1059.5" y="348" fill="#ac4f3e" font-size="31" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">100</text>
-<text x="986" y="454" fill="#655185" font-size="34" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">PQ = 0.4</text>
-<text x="892" y="514" fill="#536979" font-size="23" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">TP</text>
-<text x="892" y="552" fill="#222d39" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">1</text>
-<text x="986" y="514" fill="#536979" font-size="23" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">FP</text>
-<text x="986" y="552" fill="#222d39" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">2</text>
-<text x="1080" y="514" fill="#536979" font-size="23" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">FN</text>
-<text x="1080" y="552" fill="#222d39" font-size="27" text-anchor="middle" font-family="Cambria Math, DejaVu Sans, Microsoft YaHei, sans-serif">1</text>
-<text x="600" y="602" fill="#536979" font-size="28" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, STSong, Microsoft YaHei, serif">三种预测的语义前景 IoU 都为一</text>
+<text x="208" y="249" fill="#202a37" font-size="33" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">A  正确区分</text>
+<rect x="61" y="296" width="147.0" height="81" fill="url(#wash-t)" stroke="#196f77" stroke-width="2.4" rx="0"/>
+<text x="134.5" y="348" fill="#196f77" font-size="31" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(134.50000381 335.33335495) scale(0.86021505) translate(-134.50000381 -335.33335495)">100</text>
+<rect x="208.0" y="296" width="147.0" height="81" fill="url(#wash-c)" stroke="#a84b3b" stroke-width="2.4" rx="0"/>
+<text x="281.5" y="348" fill="#a84b3b" font-size="31" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(281.50001144 335.33335495) scale(0.86021505) translate(-281.50001144 -335.33335495)">100</text>
+<text x="208" y="454" fill="#655184" font-size="34" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400" transform="translate(208.00000763 444.66667747) scale(0.90686275) translate(-208.00000763 -444.66667747)">PQ = 1</text>
+<text x="114" y="514" fill="#657682" font-size="23" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">TP</text>
+<text x="114" y="552" fill="#202a37" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(114 540.66668701) scale(0.98765432) translate(-114 -540.66668701)">2</text>
+<text x="208" y="514" fill="#657682" font-size="23" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">FP</text>
+<text x="208" y="552" fill="#202a37" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(208.05208349 540.66668701) scale(0.98765432) translate(-208.05208349 -540.66668701)">0</text>
+<text x="302" y="514" fill="#657682" font-size="23" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">FN</text>
+<text x="302" y="552" fill="#202a37" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(302.05208349 540.66668701) scale(0.98765432) translate(-302.05208349 -540.66668701)">0</text>
+<text x="597" y="249" fill="#202a37" font-size="33" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">B  全部合并</text>
+<rect x="450" y="296" width="294.0" height="81" fill="url(#wash-v)" stroke="#655184" stroke-width="2.4" rx="0"/>
+<text x="597.0" y="348" fill="#655184" font-size="31" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(597.00004196 335.33335495) scale(0.86021505) translate(-597.00004196 -335.33335495)">200</text>
+<text x="597" y="454" fill="#655184" font-size="34" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400" transform="translate(597.00002289 444.66667747) scale(0.90686275) translate(-597.00002289 -444.66667747)">PQ = 0</text>
+<text x="503" y="514" fill="#657682" font-size="23" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">TP</text>
+<text x="503" y="552" fill="#202a37" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(503.05208349 540.66668701) scale(0.98765432) translate(-503.05208349 -540.66668701)">0</text>
+<text x="597" y="514" fill="#657682" font-size="23" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">FP</text>
+<text x="597" y="552" fill="#202a37" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(597 540.66668701) scale(0.98765432) translate(-597 -540.66668701)">1</text>
+<text x="691" y="514" fill="#657682" font-size="23" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">FN</text>
+<text x="691" y="552" fill="#202a37" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(691 540.66668701) scale(0.98765432) translate(-691 -540.66668701)">2</text>
+<text x="986" y="249" fill="#202a37" font-size="33" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">C  等分首个实例</text>
+<rect x="839" y="296" width="73.5" height="81" fill="url(#wash-v)" stroke="#655184" stroke-width="2.4" rx="0"/>
+<text x="875.75" y="348" fill="#655184" font-size="31" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(875.75 335.33335495) scale(0.86021505) translate(-875.75 -335.33335495)">50</text>
+<rect x="912.5" y="296" width="73.5" height="81" fill="url(#wash-g)" stroke="#3c7459" stroke-width="2.4" rx="0"/>
+<text x="949.25" y="348" fill="#3c7459" font-size="31" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(949.25 335.33335495) scale(0.86021505) translate(-949.25 -335.33335495)">50</text>
+<rect x="986.0" y="296" width="147.0" height="81" fill="url(#wash-c)" stroke="#a84b3b" stroke-width="2.4" rx="0"/>
+<text x="1059.5" y="348" fill="#a84b3b" font-size="31" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(1059.50004196 335.33335495) scale(0.86021505) translate(-1059.50004196 -335.33335495)">100</text>
+<text x="986" y="454" fill="#655184" font-size="34" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400" transform="translate(986.00004196 444.66667747) scale(0.90686275) translate(-986.00004196 -444.66667747)">PQ = 0.4</text>
+<text x="892" y="514" fill="#657682" font-size="23" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">TP</text>
+<text x="892" y="552" fill="#202a37" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(892 540.66668701) scale(0.98765432) translate(-892 -540.66668701)">1</text>
+<text x="986" y="514" fill="#657682" font-size="23" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">FP</text>
+<text x="986" y="552" fill="#202a37" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(986 540.66668701) scale(0.98765432) translate(-986 -540.66668701)">2</text>
+<text x="1080" y="514" fill="#657682" font-size="23" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">FN</text>
+<text x="1080" y="552" fill="#202a37" font-size="27" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400" transform="translate(1080 540.66668701) scale(0.98765432) translate(-1080 -540.66668701)">1</text>
+<text x="600" y="602" fill="#657682" font-size="28" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">三种预测的语义前景 IoU 都为一</text>
 </svg>

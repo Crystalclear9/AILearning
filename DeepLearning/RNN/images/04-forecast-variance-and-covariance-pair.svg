@@ -1,0 +1,396 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1355"><title id="title">多步误差中的独立与相关残差</title><desc id="description">(a) 每步噪声累积到非零平台。(b) 旧误差与新残差的协方差如何改变第二步预测方差。</desc><rect width="1200" fill="#fff" height="1355"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 664"/><view id="a-textbook-detail-1-1" viewBox="0 51 540 298.8"/><view id="a-textbook-detail-1-2" viewBox="330 51 540 298.8"/><view id="a-textbook-detail-1-3" viewBox="660 51 540 298.8"/><view id="a-textbook-detail-2-1" viewBox="0 231.02866252 540 298.8"/><view id="a-textbook-detail-2-2" viewBox="330 233.6 540 298.8"/><view id="a-textbook-detail-2-3" viewBox="660 233.6 540 298.8"/><view id="a-textbook-detail-3-1" viewBox="0 416.2 540 298.8"/><view id="a-textbook-detail-3-2" viewBox="330 416.2 540 298.8"/><view id="a-textbook-detail-3-3" viewBox="660 416.2 540 298.8"/><svg width="1200" height="664" viewBox="0 0 1200 664" role="img" aria-labelledby="a-fig-title a-fig-desc" id="panel-a" x="0" y="51">
+<title id="a-fig-title">未来创新如何累计到预测误差</title>
+<desc id="a-fig-desc">递归预测误差来自每个未观察创新。独立、方差为一时，贡献按系数平方相加。</desc>
+<rect x="0" y="0" width="1200" height="664" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="a-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="a-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="a-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="a-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+</defs>
+<text x="76" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">预测步长与累计方差</text>
+<path d="M103 488 L609 488" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M103 340.101 L609 340.101" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M103 192.202 L609 192.202" fill="none" stroke="#e7ecef" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M103 488 L621 488" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M621 488 L610 493 L610 483 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M103 488 L103 124" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M103 124 L108 135 L98 135 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M103 484 L103 493" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="517" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">1</text>
+<path d="M209.526 484 L209.526 493" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="209.526" y="517" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">5</text>
+<path d="M342.684 484 L342.684 493" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="342.684" y="517" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">10</text>
+<path d="M475.842 484 L475.842 493" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="475.842" y="517" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">15</text>
+<path d="M609 484 L609 493" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="609" y="517" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">20</text>
+<path d="M98 488 L107 488" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="93" y="494" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">1</text>
+<path d="M98 340.101 L107 340.101" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="93" y="346.101" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">10</text>
+<path d="M98 192.202 L107 192.202" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="93" y="198.202" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">100</text>
+<text x="628" y="494" fill="#202a37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="start" font-weight="400">h</text>
+<text x="103" y="114" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="middle" font-weight="400">误差方差</text>
+<path d="M103 488 L129.632 456.225 L156.263 441.904 L182.895 434.174 L209.526 429.673 L236.158 426.95 L262.789 425.266 L289.421 424.211 L316.053 423.545 L342.684 423.122 L369.316 422.853 L395.947 422.682 L422.579 422.572 L449.211 422.502 L475.842 422.457 L502.474 422.428 L529.105 422.41 L555.737 422.398 L582.368 422.391 L609 422.386" fill="none" stroke="#196f77" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="182.895" cy="434.174" r="6" fill="#196f77" stroke="#ffffff" stroke-width="1.5"/>
+<path d="M103 488 L129.632 437.065 L156.263 404.415 L182.895 379.139 L209.526 357.819 L236.158 338.936 L262.789 321.68 L289.421 305.57 L316.053 290.298 L342.684 275.654 L369.316 261.493 L395.947 247.707 L422.579 234.215 L449.211 220.958 L475.842 207.889 L502.474 194.971 L529.105 182.175 L555.737 169.479 L582.368 156.864 L609 144.314" fill="none" stroke="#a84b3b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="182.895" cy="379.139" r="6" fill="#a84b3b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="104" y="557" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">蓝绿 a = 0.8，橙 a = 1.1</text>
+<text x="104" y="595" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">纵轴使用对数刻度。</text>
+<text x="698" y="55" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="27" text-anchor="start" font-weight="400">固定 a = 0.8：第 4 步</text>
+<text x="701" y="157" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="start" font-weight="400">创新 1</text>
+<path d="M839 173 L858 125 L1083 125 L1064 173 Z" fill="url(#a-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="961" y="156.7" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">0.512² = 0.262144</text>
+<text x="701" y="255" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="start" font-weight="400">创新 2</text>
+<path d="M839 271 L858 223 L1083 223 L1064 271 Z" fill="url(#a-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="961" y="254.7" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">0.640² = 0.409600</text>
+<text x="701" y="353" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="start" font-weight="400">创新 3</text>
+<path d="M839 369 L858 321 L1083 321 L1064 369 Z" fill="url(#a-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="961" y="352.7" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">0.800² = 0.640000</text>
+<text x="701" y="451" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="start" font-weight="400">创新 4</text>
+<path d="M839 467 L858 419 L1083 419 L1064 467 Z" fill="url(#a-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="961" y="450.7" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">1.000² = 1.000000</text>
+<text x="699" y="552" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">四项之和 = 2.311744</text>
+<text x="698" y="598" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">每个未来创新方差均为 1。</text>
+</svg><line x1="58" x2="1142" y1="727" y2="727" stroke="#dce6e8" stroke-width="1"/><text x="60" y="774" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 790 1200 565"/><view id="b-textbook-detail-1-1" viewBox="0 790 540 254.25"/><view id="b-textbook-detail-1-2" viewBox="330 790 540 254.25"/><view id="b-textbook-detail-1-3" viewBox="660 790 540 254.25"/><view id="b-textbook-detail-2-1" viewBox="0 940.78368388 540 254.25"/><view id="b-textbook-detail-2-2" viewBox="330 945.375 540 254.25"/><view id="b-textbook-detail-2-3" viewBox="660 945.375 540 254.25"/><view id="b-textbook-detail-3-1" viewBox="0 1100.75 540 254.25"/><view id="b-textbook-detail-3-2" viewBox="330 1100.75 540 254.25"/><view id="b-textbook-detail-3-3" viewBox="660 1100.75 540 254.25"/><svg width="1200" role="img" aria-labelledby="b-plot-title" height="565" viewBox="0 0 1200 565" id="panel-b" x="0" y="790">
+<title id="b-plot-title">旧误差与新残差的协方差如何改变第二步预测方差</title><defs><style type="text/css">#panel-b *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="b-m6b9bed1830" d="M 0 0 L 0 3.5 " style="stroke: #202a37; stroke-width: 0.8"/>
+      <path id="b-m4244bb4315" d="M 0 0 L -3.5 0 " style="stroke: #202a37; stroke-width: 0.8"/>
+      <path id="b-C0_0_671f8a5770" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 -0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z "/>
+    <clipPath id="b-p4c3aa0ba57">
+   <rect x="69.252031" y="10.8" width="428.336166" height="302.128739"/>
+  </clipPath>
+  <clipPath id="b-p8649712156">
+   <rect x="584.463354" y="10.8" width="428.336166" height="302.128739"/>
+  </clipPath>
+ <linearGradient id="b-science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient><linearGradient id="b-science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient><linearGradient id="b-science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient><linearGradient id="b-science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f4f7f8"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="565" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="30" fill="#202a37" text-anchor="start" font-weight="400">旧误差与新残差的协方差如何改变第二步预测方差</text><g transform="translate(12.301917 10.986979) scale(0.62474020)"><g transform="matrix(1.654969 0 0 1.654969 73.996033 196.6371)"><g id="b-axes_1">
+   <g id="b-patch_2">
+    <path d="M 69.252031 312.928739 L 497.588198 312.928739 L 497.588198 10.8 L 69.252031 10.8 z " style="fill: #ffffff"/>
+   </g>
+   <g id="b-matplotlib.axis_1">
+    <g id="b-xtick_1">
+     <g id="b-line2d_1">
+      </g>
+     <g id="b-line2d_2">
+      <g>
+       <use xlink:href="#b-m6b9bed1830" x="88.721857" y="312.928739" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_1">
+      <text style="font-size: 18px; text-anchor: middle" x="88.721857" y="334.317489" transform="rotate(-0 88.721857 334.317489)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">-0.6</text>
+     </g>
+    </g>
+    <g id="b-xtick_2">
+     <g id="b-line2d_3">
+      </g>
+     <g id="b-line2d_4">
+      <g>
+       <use xlink:href="#b-m6b9bed1830" x="153.621276" y="312.928739" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_2">
+      <text style="font-size: 18px; text-anchor: middle" x="153.621276" y="334.317489" transform="rotate(-0 153.621276 334.317489)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">-0.4</text>
+     </g>
+    </g>
+    <g id="b-xtick_3">
+     <g id="b-line2d_5">
+      </g>
+     <g id="b-line2d_6">
+      <g>
+       <use xlink:href="#b-m6b9bed1830" x="218.520695" y="312.928739" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_3">
+      <text style="font-size: 18px; text-anchor: middle" x="218.520695" y="334.317489" transform="rotate(-0 218.520695 334.317489)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">-0.2</text>
+     </g>
+    </g>
+    <g id="b-xtick_4">
+     <g id="b-line2d_7">
+      </g>
+     <g id="b-line2d_8">
+      <g>
+       <use xlink:href="#b-m6b9bed1830" x="283.420114" y="312.928739" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_4">
+      <text style="font-size: 18px; text-anchor: middle" x="283.420114" y="334.317489" transform="rotate(-0 283.420114 334.317489)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.0</text>
+     </g>
+    </g>
+    <g id="b-xtick_5">
+     <g id="b-line2d_9">
+      </g>
+     <g id="b-line2d_10">
+      <g>
+       <use xlink:href="#b-m6b9bed1830" x="348.319534" y="312.928739" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_5">
+      <text style="font-size: 18px; text-anchor: middle" x="348.319534" y="334.317489" transform="rotate(-0 348.319534 334.317489)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.2</text>
+     </g>
+    </g>
+    <g id="b-xtick_6">
+     <g id="b-line2d_11">
+      </g>
+     <g id="b-line2d_12">
+      <g>
+       <use xlink:href="#b-m6b9bed1830" x="413.218953" y="312.928739" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_6">
+      <text style="font-size: 18px; text-anchor: middle" x="413.218953" y="334.317489" transform="rotate(-0 413.218953 334.317489)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.4</text>
+     </g>
+    </g>
+    <g id="b-xtick_7">
+     <g id="b-line2d_13">
+      </g>
+     <g id="b-line2d_14">
+      <g>
+       <use xlink:href="#b-m6b9bed1830" x="478.118372" y="312.928739" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_7">
+      <text style="font-size: 18px; text-anchor: middle" x="478.118372" y="334.317489" transform="rotate(-0 478.118372 334.317489)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.6</text>
+     </g>
+    </g>
+    <g id="b-text_8">
+     <!-- $\operatorname{Cov}(e_1,\epsilon_2)$ -->
+     <g style="fill: #243b4c" transform="translate(227.770114 359.579051)">
+      <text font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">
+       <tspan x="0" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">C</tspan>
+       <tspan x="14.663086" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">o</tspan>
+       <tspan x="27.51123" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">v</tspan>
+       <tspan x="39.938965" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">(</tspan>
+       <tspan x="70.978564" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">,</tspan>
+       <tspan x="103.023047" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">)</tspan>
+       <tspan x="48.131836" y="-0.0625" style="font-style: oblique; font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">e</tspan>
+       <tspan x="81.745166" y="-0.0625" style="font-style: oblique; font-size: 21px; fill: #243b4c" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">ε</tspan>
+       <tspan x="61.051758" y="3.382812" style="font-size: 14.7px; fill: #243b4c" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</tspan>
+       <tspan x="93.09624" y="3.382812" style="font-size: 14.7px; fill: #243b4c" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="b-matplotlib.axis_2">
+    <g id="b-ytick_1">
+     <g id="b-line2d_15">
+      <line x1="69.252031" y1="312.070418" x2="497.588198" y2="312.070418" stroke="#e7ecef" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#b-p4c3aa0ba57)"/></g>
+     <g id="b-line2d_16">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="69.252031" y="312.070418" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_9">
+      <text style="font-size: 18px; text-anchor: end" x="62.252031" y="319.264793" transform="rotate(-0 62.252031 319.264793)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.0</text>
+     </g>
+    </g>
+    <g id="b-ytick_2">
+     <g id="b-line2d_17">
+      <line x1="69.252031" y1="240.543728" x2="497.588198" y2="240.543728" stroke="#e7ecef" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#b-p4c3aa0ba57)"/></g>
+     <g id="b-line2d_18">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="69.252031" y="240.543728" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_10">
+      <text style="font-size: 18px; text-anchor: end" x="62.252031" y="247.738103" transform="rotate(-0 62.252031 247.738103)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.5</text>
+     </g>
+    </g>
+    <g id="b-ytick_3">
+     <g id="b-line2d_19">
+      <line x1="69.252031" y1="169.017038" x2="497.588198" y2="169.017038" stroke="#e7ecef" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#b-p4c3aa0ba57)"/></g>
+     <g id="b-line2d_20">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="69.252031" y="169.017038" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_11">
+      <text style="font-size: 18px; text-anchor: end" x="62.252031" y="176.211413" transform="rotate(-0 62.252031 176.211413)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.0</text>
+     </g>
+    </g>
+    <g id="b-ytick_4">
+     <g id="b-line2d_21">
+      <line x1="69.252031" y1="97.490348" x2="497.588198" y2="97.490348" stroke="#e7ecef" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#b-p4c3aa0ba57)"/></g>
+     <g id="b-line2d_22">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="69.252031" y="97.490348" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_12">
+      <text style="font-size: 18px; text-anchor: end" x="62.252031" y="104.684723" transform="rotate(-0 62.252031 104.684723)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.5</text>
+     </g>
+    </g>
+    <g id="b-ytick_5">
+     <g id="b-line2d_23">
+      <line x1="69.252031" y1="25.963658" x2="497.588198" y2="25.963658" stroke="#e7ecef" stroke-width="0.82483654" stroke-opacity="0.15" clip-path="url(#b-p4c3aa0ba57)"/></g>
+     <g id="b-line2d_24">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="69.252031" y="25.963658" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_13">
+      <text style="font-size: 18px; text-anchor: end" x="62.252031" y="33.158033" transform="rotate(-0 62.252031 33.158033)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2.0</text>
+     </g>
+    </g>
+    <g id="b-text_14">
+     <!-- $\operatorname{Var}(e_2)$ -->
+     <g style="fill: #243b4c" transform="translate(27.586875 199.454369) rotate(-90)">
+      <text font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">
+       <tspan x="0" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">V</tspan>
+       <tspan x="14.365723" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">a</tspan>
+       <tspan x="27.234375" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">r</tspan>
+       <tspan x="35.868164" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">(</tspan>
+       <tspan x="66.907764" y="-0.0625" style="font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">)</tspan>
+       <tspan x="44.061035" y="-0.0625" style="font-style: oblique; font-size: 21px; fill: #243b4c" font-family="Cambria, Noto Serif, Georgia, serif" font-weight="400">e</tspan>
+       <tspan x="56.980957" y="3.382812" style="font-size: 14.7px; fill: #243b4c" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="b-line2d_25">
+    <path d="M 88.721857 299.195614 L 478.118372 24.533124 L 478.118372 24.533124 " clip-path="url(#b-p4c3aa0ba57)" style="fill: none; stroke: #2c759f; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="b-patch_3">
+    <line x1="69.252031" y1="312.928739" x2="69.252031" y2="10.8" stroke="#202a37" stroke-width="1.44708165"/><polyline points="65.34491056,19.48248987 69.252031,10.8 73.15915144,19.48248987" fill="none" stroke="#202a37" stroke-width="1.36025675" stroke-linejoin="round" stroke-linecap="round"/></g>
+   <g id="b-patch_4">
+    <line x1="69.252031" y1="312.928739" x2="497.588198" y2="312.928739" stroke="#202a37" stroke-width="1.44708165"/><polyline points="488.90570813,309.02161856 497.588198,312.928739 488.90570813,316.83585944" fill="none" stroke="#202a37" stroke-width="1.36025675" stroke-linejoin="round" stroke-linecap="round"/></g>
+   <g id="b-PathCollection_1">
+    <g clip-path="url(#b-p4c3aa0ba57)">
+     <use xlink:href="#b-C0_0_671f8a5770" x="121.171567" y="276.307073" style="fill: #2c759f; stroke: #2c759f"/>
+    </g>
+    <g clip-path="url(#b-p4c3aa0ba57)">
+     <use xlink:href="#b-C0_0_671f8a5770" x="283.420114" y="161.864369" style="fill: #bc6d37; stroke: #bc6d37"/>
+    </g>
+   </g>
+  </g>
+  </g></g><text x="62.000" y="116.000" font-family="Cambria, Noto Serif, Georgia, serif" font-size="21" fill="#196f77" text-anchor="start" font-weight="400">A</text><g transform="translate(568.486417 -435.333668) scale(0.62474020)"><g transform="matrix(1.654969 0 0 1.654969 -778.662964 911.045715)"><g id="b-axes_2">
+   <g id="b-patch_5">
+    <path d="M 584.463354 312.928739 L 1012.79952 312.928739 L 1012.79952 10.8 L 584.463354 10.8 z " style="fill: #ffffff"/>
+   </g>
+   <g id="b-patch_6">
+    <path d="M 603.933179 165.94719 L 715.189327 165.94719 L 715.189327 61.426978 L 603.933179 61.426978 z " clip-path="url(#b-p8649712156)" style="fill: #2c759f"/>
+   </g>
+   <g id="b-patch_7">
+    <path d="M 743.003363 165.94719 L 854.25951 165.94719 L 854.25951 98.988929 L 743.003363 98.988929 z " clip-path="url(#b-p8649712156)" style="fill: #7f91a3"/>
+   </g>
+   <g id="b-patch_8">
+    <path d="M 882.073547 165.94719 L 993.329694 165.94719 L 993.329694 296.597456 L 882.073547 296.597456 z " clip-path="url(#b-p8649712156)" style="fill: #bc6d37"/>
+   </g>
+   <g id="b-matplotlib.axis_3">
+    <g id="b-xtick_8">
+     <g id="b-line2d_26">
+      <g>
+       <use xlink:href="#b-m6b9bed1830" x="659.561253" y="312.928739" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_15">
+      <text style="font-size: 18px; text-anchor: middle" x="659.561253" y="334.317489" transform="rotate(-0 659.561253 334.317489)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">旧误差项</text>
+     </g>
+    </g>
+    <g id="b-xtick_9">
+     <g id="b-line2d_27">
+      <g>
+       <use xlink:href="#b-m6b9bed1830" x="798.631437" y="312.928739" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_16">
+      <text style="font-size: 18px; text-anchor: middle" x="798.631437" y="334.317489" transform="rotate(-0 798.631437 334.317489)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">新误差项</text>
+     </g>
+    </g>
+    <g id="b-xtick_10">
+     <g id="b-line2d_28">
+      <g>
+       <use xlink:href="#b-m6b9bed1830" x="937.701621" y="312.928739" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_17">
+      <text style="font-size: 18px; text-anchor: middle" x="937.701621" y="334.317489" transform="rotate(-0 937.701621 334.317489)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">交叉项</text>
+     </g>
+    </g>
+   </g>
+   <g id="b-matplotlib.axis_4">
+    <g id="b-ytick_6">
+     <g id="b-line2d_29">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="584.463354" y="288.431814" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_18">
+      <text style="font-size: 18px; text-anchor: end" x="577.463354" y="295.626189" transform="rotate(-0 577.463354 295.626189)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">-0.75</text>
+     </g>
+    </g>
+    <g id="b-ytick_7">
+     <g id="b-line2d_30">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="584.463354" y="247.603606" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_19">
+      <text style="font-size: 18px; text-anchor: end" x="577.463354" y="254.797981" transform="rotate(-0 577.463354 254.797981)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">-0.50</text>
+     </g>
+    </g>
+    <g id="b-ytick_8">
+     <g id="b-line2d_31">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="584.463354" y="206.775398" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_20">
+      <text style="font-size: 18px; text-anchor: end" x="577.463354" y="213.969773" transform="rotate(-0 577.463354 213.969773)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">-0.25</text>
+     </g>
+    </g>
+    <g id="b-ytick_9">
+     <g id="b-line2d_32">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="584.463354" y="165.94719" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_21">
+      <text style="font-size: 18px; text-anchor: end" x="577.463354" y="173.141565" transform="rotate(-0 577.463354 173.141565)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.00</text>
+     </g>
+    </g>
+    <g id="b-ytick_10">
+     <g id="b-line2d_33">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="584.463354" y="125.118982" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_22">
+      <text style="font-size: 18px; text-anchor: end" x="577.463354" y="132.313357" transform="rotate(-0 577.463354 132.313357)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.25</text>
+     </g>
+    </g>
+    <g id="b-ytick_11">
+     <g id="b-line2d_34">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="584.463354" y="84.290774" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_23">
+      <text style="font-size: 18px; text-anchor: end" x="577.463354" y="91.485149" transform="rotate(-0 577.463354 91.485149)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.50</text>
+     </g>
+    </g>
+    <g id="b-ytick_12">
+     <g id="b-line2d_35">
+      <g>
+       <use xlink:href="#b-m4244bb4315" x="584.463354" y="43.462566" style="stroke: #202a37; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_24">
+      <text style="font-size: 18px; text-anchor: end" x="577.463354" y="50.656941" transform="rotate(-0 577.463354 50.656941)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.75</text>
+     </g>
+    </g>
+    </g>
+   <g id="b-line2d_36">
+    <path d="M 584.463354 165.94719 L 1012.79952 165.94719 " clip-path="url(#b-p8649712156)" style="fill: none; stroke: #7f91a3; stroke-linecap: square"/>
+   </g>
+   <g id="b-patch_9">
+    <line x1="584.463354" y1="312.928739" x2="584.463354" y2="10.8" stroke="#202a37" stroke-width="1.44708164"/></g>
+   <g id="b-patch_10">
+    <line x1="584.463354" y1="312.928739" x2="1012.79952" y2="312.928739" stroke="#202a37" stroke-width="1.44708164"/></g>
+   <g id="b-text_26">
+    <text style="font-size: 22px; text-anchor: middle; fill: #243b4c" x="798.631437" y="41.012874" transform="rotate(-0 798.631437 41.012874)" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">0.64 + 0.41 - 0.80 = 0.25</text>
+   </g>
+  </g>
+ </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" fill="#196f77" text-anchor="start" font-weight="400">B · 第二步方差的组成</text></svg></svg>

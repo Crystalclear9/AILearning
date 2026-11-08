@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1186"><title id="title">生成器的消费与暂停位置</title><desc id="description">(a) 同一个生成器依次交给 next 和 list 消费。(b) 生成器的创建与消费分离。</desc><rect width="1200" fill="#fff" height="1186"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 400"/><view id="a-textbook-detail-1-1" viewBox="0 51 684 228"/><view id="a-textbook-detail-1-2" viewBox="516 51 684 228"/><view id="a-textbook-detail-2-1" viewBox="0 223 684 228"/><view id="a-textbook-detail-2-2" viewBox="516 223 684 228"/><svg width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="a-fig-title a-fig-desc" id="panel-a" x="0" y="51">
+<title id="a-fig-title">生成器的同一个消费位置</title>
+<desc id="a-fig-desc">函数调用创建生成器，next 返回第一个元素后暂停，list 从该暂停点继续收集。</desc>
+<rect x="0" y="0" width="1200" height="400" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="a-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="a-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="a-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="a-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+</defs>
+<text x="75" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">同一个生成器向前推进</text>
+<path d="M99 240 L1119 240" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1119 240 L1108 245 L1108 235 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="144" cy="240" r="8" fill="#196f77" stroke="#ffffff" stroke-width="1.5"/>
+<text x="144" y="284" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="middle" font-weight="400">刚创建</text>
+<circle cx="376" cy="240" r="8" fill="#196f77" stroke="#ffffff" stroke-width="1.5"/>
+<text x="376" y="284" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">yield 0</text>
+<circle cx="608" cy="240" r="8" fill="#a84b3b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="608" y="284" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">yield 1</text>
+<circle cx="840" cy="240" r="8" fill="#a84b3b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="840" y="284" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="middle" font-weight="400">yield 2</text>
+<circle cx="1061" cy="240" r="8" fill="#a84b3b" stroke="#ffffff" stroke-width="1.5"/>
+<text x="1061" y="284" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="middle" font-weight="400">耗尽</text>
+<path d="M66 168 L93 113 L239 113 L212 168 Z" fill="url(#a-n)" stroke="#657682" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="152.5" y="149.6" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="26" text-anchor="middle" font-weight="400">values()</text>
+<path d="M299 168 L326 113 L457 113 L430 168 Z" fill="url(#a-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="378" y="149.6" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="26" text-anchor="middle" font-weight="400">next(g)</text>
+<path d="M565 168 L592 113 L1104 113 L1077 168 Z" fill="url(#a-r)" stroke="#a84b3b" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="834.5" y="149.6" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="26" text-anchor="middle" font-weight="400">list(g) 从暂停处接着收集</text>
+<path d="M144 177 L144 229" fill="none" stroke="#657682" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M144 229 L139 218 L149 218 Z" fill="#657682" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M376 177 L376 229" fill="none" stroke="#657682" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M376 229 L371 218 L381 218 Z" fill="#657682" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M608 178 L1061 178" fill="none" stroke="#a84b3b" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M608 178 L608 228" fill="none" stroke="#a84b3b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M608 228 L603 217 L613 217 Z" fill="#a84b3b" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1061 178 L1061 228" fill="none" stroke="#a84b3b" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1061 228 L1056 217 L1066 217 Z" fill="#a84b3b" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="375" y="352" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="25" text-anchor="middle" font-weight="400">返回 0</text>
+<text x="832" y="352" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="25" text-anchor="middle" font-weight="400">返回 [1, 2]</text>
+</svg><line x1="58" x2="1142" y1="463" y2="463" stroke="#dce6e8" stroke-width="1"/><text x="60" y="510" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 526 1200 660"/><view id="b-textbook-detail-1-1" viewBox="0 526 684 376.2"/><view id="b-textbook-detail-1-2" viewBox="516 526 684 376.2"/><view id="b-textbook-detail-2-1" viewBox="0 809.8 684 376.2"/><view id="b-textbook-detail-2-2" viewBox="516 809.8 684 376.2"/><svg width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="b-fig-title b-fig-desc" id="panel-b" x="0" y="526">
+<title id="b-fig-title">生成器推进同一个执行帧</title>
+<desc id="b-fig-desc">函数体在调用时尚未执行。三个 next 请求分别得到 1、4 和 StopIteration。别名不会复制消费位置。</desc>
+<rect x="0" y="0" width="1200" height="660" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="b-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="b-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="b-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="b-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+</defs>
+<text x="75" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">函数体</text>
+<text x="528" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">调用方</text>
+<text x="822" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">生成器帧</text>
+<path d="M69 404 L111 99 L431 99 L389 404 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="133" y="150" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="start" font-weight="400">def squares():</text>
+<text x="161" y="196" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="start" font-weight="400">i = 1</text>
+<text x="161" y="242" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="start" font-weight="400">yield i * i</text>
+<text x="161" y="288" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="start" font-weight="400">i = 2</text>
+<text x="161" y="334" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="24" text-anchor="start" font-weight="400">yield i * i</text>
+<path d="M549 102 L549 471" fill="none" stroke="#e7ecef" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1091 102 L1091 471" fill="none" stroke="#e7ecef" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M554 144 L1068 144" fill="none" stroke="#202a37" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1068 144 L1057 149 L1057 139 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="570" y="135" fill="#202a37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="start" font-weight="400">squares()</text>
+<text x="1038" y="136" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="end" font-weight="400">尚未执行</text>
+<path d="M1070 183 L554 183" fill="none" stroke="#655184" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M554 183 L565 178 L565 188 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="812" y="173" fill="#655184" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="middle" font-weight="400">生成器 g</text>
+<path d="M554 237 L1068 237" fill="none" stroke="#202a37" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1068 237 L1057 242 L1057 232 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="570" y="228" fill="#202a37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="start" font-weight="400">next(g)</text>
+<text x="1038" y="229" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="end" font-weight="400">暂停，i = 1</text>
+<path d="M1070 276 L554 276" fill="none" stroke="#655184" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M554 276 L565 271 L565 281 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="812" y="266" fill="#655184" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1</text>
+<path d="M554 330 L1068 330" fill="none" stroke="#202a37" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1068 330 L1057 335 L1057 325 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="570" y="321" fill="#202a37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="start" font-weight="400">next(g)</text>
+<text x="1038" y="322" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="end" font-weight="400">暂停，i = 2</text>
+<path d="M1070 369 L554 369" fill="none" stroke="#655184" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M554 369 L565 364 L565 374 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="812" y="359" fill="#655184" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">4</text>
+<path d="M554 423 L1068 423" fill="none" stroke="#202a37" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1068 423 L1057 428 L1057 418 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="570" y="414" fill="#202a37" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="start" font-weight="400">next(g)</text>
+<text x="1038" y="415" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="23" text-anchor="end" font-weight="400">执行帧结束</text>
+<path d="M1070 462 L554 462" fill="none" stroke="#655184" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M554 462 L565 457 L565 467 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="812" y="452" fill="#655184" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="22" text-anchor="middle" font-weight="400">StopIteration</text>
+<path d="M75 508 L1125 508" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74 597 L101 545 L225 545 L198 597 Z" fill="url(#b-v)" stroke="#655184" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="149.5" y="580.1" fill="#655184" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="26" text-anchor="middle" font-weight="400">g</text>
+<path d="M255 597 L282 545 L418 545 L391 597 Z" fill="url(#b-v)" stroke="#655184" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="336.5" y="580.1" fill="#655184" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="26" text-anchor="middle" font-weight="400">alias</text>
+<path d="M226 573 L235 573 L235 619 L511 619 L511 580" fill="none" stroke="#655184" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M511 580 L547 580" fill="none" stroke="#655184" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M547 580 L536 585 L536 575 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M420 571 L547 571" fill="none" stroke="#655184" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M547 571 L536 576 L536 566 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M553 597 L580 545 L1101 545 L1074 597 Z" fill="url(#b-t)" stroke="#196f77" stroke-width="1.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="827" y="579.4" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="middle" font-weight="400">两个名字共享同一帧、同一消费位置</text>
+</svg></svg>

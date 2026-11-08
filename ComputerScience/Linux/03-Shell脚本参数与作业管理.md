@@ -220,6 +220,8 @@ Shell 中每个命令都有退出状态，零通常表示成功，非零的具�
 
 ![清理只能删除当前任务确实拥有的资源，下右区域](images/03-advanced.svg#textbook-detail-2-2)
 
+![清理只能删除当前任务确实拥有的资源，完整说明与标注](images/03-advanced.svg#textbook-complete-detail-1)
+
 </details>
 
 
@@ -235,51 +237,53 @@ Shell 中每个命令都有退出状态，零通常表示成功，非零的具�
 
 **逐个等待才能取得每个作业状态**
 
-![逐个等待才能取得每个作业状态](images/03-wait-per-process-status.svg)
+下图 (a) 说明为何需要逐个等待作业。图 (b) 沿同一组退出状态比较等待方式能否保留失败证据。
+
+![后台作业与退出状态。图 (a) 逐个等待才能取得每个作业状态。图 (b) 后台作业需要逐个等待。](images/03-shell-wait-and-status-pair.svg)
 
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (a)</summary>
 
-![逐个等待才能取得每个作业状态，上左区域](images/03-wait-per-process-status.svg#textbook-detail-1-1)
+[打开图 (a) 单独查看](images/03-shell-wait-and-status-pair.svg#a)
 
-![逐个等待才能取得每个作业状态，上右区域](images/03-wait-per-process-status.svg#textbook-detail-1-2)
+![图 (a) · 逐个等待才能取得每个作业状态，上左区域](images/03-shell-wait-and-status-pair.svg#a-textbook-detail-1-1)
 
-![逐个等待才能取得每个作业状态，下左区域](images/03-wait-per-process-status.svg#textbook-detail-2-1)
+![图 (a) · 逐个等待才能取得每个作业状态，上右区域](images/03-shell-wait-and-status-pair.svg#a-textbook-detail-1-2)
 
-![逐个等待才能取得每个作业状态，下右区域](images/03-wait-per-process-status.svg#textbook-detail-2-2)
+![图 (a) · 逐个等待才能取得每个作业状态，下左区域](images/03-shell-wait-and-status-pair.svg#a-textbook-detail-2-1)
+
+![图 (a) · 逐个等待才能取得每个作业状态，下右区域](images/03-shell-wait-and-status-pair.svg#a-textbook-detail-2-2)
 
 </details>
 
-
-三个作业分别以零、七、零结束，父进程逐个等待并保存对应状态，才知道第二个作业失败。不能用最后一个成功状态代表全部任务成功，也不能假设无参数 wait 会替我们汇总每个失败。图中的状态值是教学构造，实际脚本还要考虑信号退出、启动失败与任务身份。 底部是状态记录的顺序示意，PID1等代表实际进程号；这里用的是Bash内建wait，并非C语言waitpid的直接返回值。
-
-![后台作业需要逐个等待](images/03-concept.svg)
-
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (b)</summary>
 
-![后台作业需要逐个等待，上左区域](images/03-concept.svg#textbook-detail-1-1)
+[打开图 (b) 单独查看](images/03-shell-wait-and-status-pair.svg#b)
 
-![后台作业需要逐个等待，上中区域](images/03-concept.svg#textbook-detail-1-2)
+![图 (b) · 后台作业需要逐个等待，上左区域](images/03-shell-wait-and-status-pair.svg#b-textbook-detail-1-1)
 
-![后台作业需要逐个等待，上右区域](images/03-concept.svg#textbook-detail-1-3)
+![图 (b) · 后台作业需要逐个等待，上中区域](images/03-shell-wait-and-status-pair.svg#b-textbook-detail-1-2)
 
-![后台作业需要逐个等待，中左区域](images/03-concept.svg#textbook-detail-2-1)
+![图 (b) · 后台作业需要逐个等待，上右区域](images/03-shell-wait-and-status-pair.svg#b-textbook-detail-1-3)
 
-![后台作业需要逐个等待，中中区域](images/03-concept.svg#textbook-detail-2-2)
+![图 (b) · 后台作业需要逐个等待，中左区域](images/03-shell-wait-and-status-pair.svg#b-textbook-detail-2-1)
 
-![后台作业需要逐个等待，中右区域](images/03-concept.svg#textbook-detail-2-3)
+![图 (b) · 后台作业需要逐个等待，中中区域](images/03-shell-wait-and-status-pair.svg#b-textbook-detail-2-2)
 
-![后台作业需要逐个等待，下左区域](images/03-concept.svg#textbook-detail-3-1)
+![图 (b) · 后台作业需要逐个等待，中右区域](images/03-shell-wait-and-status-pair.svg#b-textbook-detail-2-3)
 
-![后台作业需要逐个等待，下中区域](images/03-concept.svg#textbook-detail-3-2)
+![图 (b) · 后台作业需要逐个等待，下左区域](images/03-shell-wait-and-status-pair.svg#b-textbook-detail-3-1)
 
-![后台作业需要逐个等待，下右区域](images/03-concept.svg#textbook-detail-3-3)
+![图 (b) · 后台作业需要逐个等待，下中区域](images/03-shell-wait-and-status-pair.svg#b-textbook-detail-3-2)
+
+![图 (b) · 后台作业需要逐个等待，下右区域](images/03-shell-wait-and-status-pair.svg#b-textbook-detail-3-3)
 
 </details>
 
+图 (a) 中，三个作业分别以零、七、零结束，父进程逐个等待并保存对应状态，才知道第二个作业失败。不能用最后一个成功状态代表全部任务成功，也不能假设无参数 wait 会替我们汇总每个失败。图中的状态值是教学构造，实际脚本还要考虑信号退出、启动失败与任务身份。 底部是状态记录的顺序示意，PID1等代表实际进程号；这里用的是Bash内建wait，并非C语言waitpid的直接返回值。
 
-**底部检验等待是否还保存了失败证据。** 三个后台作业状态为零、七、零。在 Bash 中，不带参数的 `wait` 会等待当前作业并返回零，不能把这个状态解释成所有成员都返回零。应逐个等待已记录的 PID，立刻保存各自结果，再按“任何成员失败即整批失败”等明确政策汇总。
+**图 (b) 底部检验等待是否还保存了失败证据。** 三个后台作业状态为零、七、零。在 Bash 中，不带参数的 `wait` 会等待当前作业并返回零，不能把这个状态解释成所有成员都返回零。应逐个等待已记录的 PID，立刻保存各自结果，再按“任何成员失败即整批失败”等明确政策汇总。
 
 逐个等待的顺序可以与完成顺序不同，已经完成的 B 仍应取得其退出状态；不能因为先等 A，就忽略 B 的结果。脚本还应避免 errexit 在首个失败 wait 时提前跳出收集过程，可在条件分支中处理。命令语义见 [Bash wait builtin](https://www.gnu.org/software/bash/manual/html_node/Job-Control-Builtins.html#index-wait)。
 
@@ -735,6 +739,8 @@ print("subshell boundary assertions passed")
 ![重试不是幂等：重复追加会重复副作用，下中区域](images/03-mechanism.svg#textbook-detail-3-2)
 
 ![重试不是幂等：重复追加会重复副作用，下右区域](images/03-mechanism.svg#textbook-detail-3-3)
+
+![重试不是幂等：重复追加会重复副作用，完整说明与标注](images/03-mechanism.svg#textbook-complete-detail-1)
 
 </details>
 

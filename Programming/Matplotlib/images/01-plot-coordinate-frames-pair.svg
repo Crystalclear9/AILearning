@@ -1,0 +1,359 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1205"><title id="title">坐标转换与标记的参照系</title><desc id="description">(a) 数据坐标与画布坐标。(b) 同一对数字可属于不同坐标系。</desc><rect width="1200" fill="#fff" height="1205"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 492"/><view id="a-textbook-detail-1-1" viewBox="0 51 684 280.44"/><view id="a-textbook-detail-1-2" viewBox="516 51 684 280.44"/><view id="a-textbook-detail-2-1" viewBox="0 255.53666667 684 280.44"/><view id="a-textbook-detail-2-2" viewBox="516 255.53666667 684 280.44"/><svg viewBox="0 0 1200 492" role="img" aria-labelledby="a-title a-description" width="1200" height="492" id="panel-a" x="0" y="51">
+<title id="a-title">数据坐标与画布坐标</title>
+<desc id="a-description">同一幅八百乘四百的画布。坐标轴数据点为 (0.25, 0.75)，显示位置从左下计量是 (250, 260)，从左上向下计量是 (250, 140)。</desc>
+<defs>
+<linearGradient id="a-wash-t" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient>
+<linearGradient id="a-wash-c" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient>
+<linearGradient id="a-wash-v" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient>
+<linearGradient id="a-wash-g" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#ecf5ee"/><stop offset="1" stop-color="#cce3d2"/></linearGradient>
+<linearGradient id="a-wash-n" x1="0%" y1="0%" x2="90%" y2="100%"><stop offset="0" stop-color="#f7fafb"/><stop offset="1" stop-color="#e7ecef"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1200" height="492" fill="white" stroke="none" stroke-width="1.6" rx="0"/>
+<text x="317" y="66" fill="#202a37" font-size="35" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">画布左下为原点</text>
+<rect x="72" y="133" width="490.00000000000006" height="245.00000000000003" fill="#f4f7f8" stroke="#cbd8dc" stroke-width="2" rx="0"/>
+<rect x="133.25" y="182.0" width="367.5" height="147.0" fill="url(#a-wash-t)" stroke="#196f77" stroke-width="2" rx="0"/>
+<path d="M72 218.75 L225.125 218.75" stroke="#655184" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<path d="M225.125 378 L225.125 218.75" stroke="#655184" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<circle cx="225.125" cy="218.75" r="8" fill="#a84b3b" stroke="white" stroke-width="2"/>
+<text x="245.125" y="202.75" fill="#202a37" font-size="27" text-anchor="start" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">(0.25, 0.75)</text>
+<path d="M72 378 L563 378" stroke="#657682" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M574 378L560 372.2L560 383.8Z" stroke="#657682" stroke-width="1" fill="#657682" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M72 378 L72 131.137" stroke="#657682" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M72 120.137L66.2 134.137L77.8 134.137Z" stroke="#657682" stroke-width="1" fill="#657682" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="225.125" y="410.0" fill="#655184" font-size="25" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">250</text>
+<text x="60" y="226.75" fill="#655184" font-size="24" text-anchor="end" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">260</text>
+<text x="317" y="455" fill="#a84b3b" font-size="34" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400" transform="translate(317.00001526 445.66667747) scale(0.90686275) translate(-317.00001526 -445.66667747)">(250, 260)</text>
+<text x="900" y="66" fill="#202a37" font-size="35" text-anchor="middle" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">画布左上为原点</text>
+<rect x="655" y="133" width="490.00000000000006" height="245.00000000000003" fill="#f4f7f8" stroke="#cbd8dc" stroke-width="2" rx="0"/>
+<rect x="716.25" y="182.0" width="367.5" height="147.0" fill="url(#a-wash-t)" stroke="#196f77" stroke-width="2" rx="0"/>
+<path d="M655 218.75 L808.125 218.75" stroke="#655184" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<path d="M808.125 133 L808.125 218.75" stroke="#655184" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<circle cx="808.125" cy="218.75" r="8" fill="#a84b3b" stroke="white" stroke-width="2"/>
+<text x="828.125" y="202.75" fill="#202a37" font-size="27" text-anchor="start" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">(0.25, 0.75)</text>
+<path d="M655 133 L1146 133" stroke="#657682" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1157 133L1143 127.2L1143 138.8Z" stroke="#657682" stroke-width="1" fill="#657682" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M655 133 L655 379.863" stroke="#657682" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M655 390.863L660.8 376.863L649.2 376.863Z" stroke="#657682" stroke-width="1" fill="#657682" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="808.125" y="101" fill="#655184" font-size="25" text-anchor="middle" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">250</text>
+<text x="643" y="226.75" fill="#655184" font-size="24" text-anchor="end" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">140</text>
+<text x="900" y="455" fill="#a84b3b" font-size="34" text-anchor="middle" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400" transform="translate(900.00004578 445.66667747) scale(0.90686275) translate(-900.00004578 -445.66667747)">(250, 140)</text>
+<path d="M586 255 L629 255" stroke="#655184" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M640 255L626 249.2L626 260.8Z" stroke="#655184" stroke-width="1" fill="#655184" stroke-linecap="round" stroke-linejoin="round"/>
+</svg><line x1="58" x2="1142" y1="555" y2="555" stroke="#dce6e8" stroke-width="1"/><text x="60" y="602" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 618 1200 587"/><view id="b-textbook-detail-1-1" viewBox="0 618 540 264.15"/><view id="b-textbook-detail-1-2" viewBox="330 618 540 264.15"/><view id="b-textbook-detail-1-3" viewBox="660 623.38861776 540 264.15"/><view id="b-textbook-detail-2-1" viewBox="0 783.93834798 540 264.15"/><view id="b-textbook-detail-2-2" viewBox="330 783.93859212 540 264.15"/><view id="b-textbook-detail-2-3" viewBox="660 779.425 540 264.15"/><view id="b-textbook-detail-3-1" viewBox="0 940.85 540 264.15"/><view id="b-textbook-detail-3-2" viewBox="330 940.85 540 264.15"/><view id="b-textbook-detail-3-3" viewBox="649.92352091 940.8500061 540 264.15"/><svg width="1200" role="img" aria-labelledby="b-plot-title" height="587" viewBox="0 0 1200 587" id="panel-b" x="0" y="618">
+<title id="b-plot-title">同一对数字可属于不同坐标系</title><defs><style type="text/css">#panel-b *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="b-mb59d278bb7" d="M 0 0 L 0 3.5 " style="stroke: #657682; stroke-width: 0.8"/>
+      <path id="b-mb72643eea2" d="M 0 0 L -3.5 0 " style="stroke: #657682; stroke-width: 0.8"/>
+      <path id="b-me36c1172d9" d="M 0 5 C 1.326016 5 2.597899 4.473168 3.535534 3.535534 C 4.473168 2.597899 5 1.326016 5 0 C 5 -1.326016 4.473168 -2.597899 3.535534 -3.535534 C 2.597899 -4.473168 1.326016 -5 0 -5 C -1.326016 -5 -2.597899 -4.473168 -3.535534 -3.535534 C -4.473168 -2.597899 -5 -1.326016 -5 0 C -5 1.326016 -4.473168 2.597899 -3.535534 3.535534 C -2.597899 4.473168 -1.326016 5 0 5 z " style="stroke: #507e97"/>
+    <path id="b-mb2542b3278" d="M -3.5 3.5 L 3.5 3.5 L 3.5 -3.5 L -3.5 -3.5 z " style="stroke: #b76633; stroke-linejoin: miter"/>
+    <clipPath id="b-p8eaf68128f">
+   <rect x="71.28" y="40.608" width="369.829565" height="243.648"/>
+  </clipPath>
+  <clipPath id="b-p5259f5748c">
+   <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
+  </clipPath>
+ <linearGradient id="b-science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient><linearGradient id="b-science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient><linearGradient id="b-science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient><linearGradient id="b-science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f4f7f8"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect width="1200" height="587" fill="#ffffff"/><text x="68.000" y="53.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="30" fill="#202a37" text-anchor="start" font-weight="400">同一对数字可属于不同坐标系</text><g transform="translate(-4.475403 67.872885) scale(0.64128307)"><g transform="matrix(1.939928 0 0 1.939928 22.83779 92.130119)"><g id="b-axes_1">
+   <g id="b-patch_2">
+    <path d="M 71.28 284.256 L 441.109565 284.256 L 441.109565 40.608 L 71.28 40.608 z " style="fill: #ffffff"/>
+   </g>
+   <g id="b-matplotlib.axis_1">
+    <g id="b-xtick_1">
+     <g id="b-line2d_1">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="71.28" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_1">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="71.28" y="304.046" transform="rotate(-0 71.28 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.0</text>
+     </g>
+    </g>
+    <g id="b-xtick_2">
+     <g id="b-line2d_2">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="145.245913" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_2">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="145.245913" y="304.046" transform="rotate(-0 145.245913 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.2</text>
+     </g>
+    </g>
+    <g id="b-xtick_3">
+     <g id="b-line2d_3">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="219.211826" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_3">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="219.211826" y="304.046" transform="rotate(-0 219.211826 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.4</text>
+     </g>
+    </g>
+    <g id="b-xtick_4">
+     <g id="b-line2d_4">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="293.177739" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_4">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="293.177739" y="304.046" transform="rotate(-0 293.177739 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.6</text>
+     </g>
+    </g>
+    <g id="b-xtick_5">
+     <g id="b-line2d_5">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="367.143652" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_5">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="367.143652" y="304.046" transform="rotate(-0 367.143652 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.8</text>
+     </g>
+    </g>
+    <g id="b-xtick_6">
+     <g id="b-line2d_6">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="441.109565" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_6">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="441.109565" y="304.046" transform="rotate(-0 441.109565 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.0</text>
+     </g>
+    </g>
+    <g id="b-text_7">
+     <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="256.194783" y="324.8135" transform="rotate(-0 256.194783 324.8135)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">数据x</text>
+    </g>
+   </g>
+   <g id="b-matplotlib.axis_2">
+    <g id="b-ytick_1">
+     <g id="b-line2d_7">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="71.28" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_8">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="290.651" transform="rotate(-0 64.28 290.651)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.0</text>
+     </g>
+    </g>
+    <g id="b-ytick_2">
+     <g id="b-line2d_8">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="71.28" y="235.5264" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_9">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="241.9214" transform="rotate(-0 64.28 241.9214)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.2</text>
+     </g>
+    </g>
+    <g id="b-ytick_3">
+     <g id="b-line2d_9">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="71.28" y="186.7968" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_10">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="193.1918" transform="rotate(-0 64.28 193.1918)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.4</text>
+     </g>
+    </g>
+    <g id="b-ytick_4">
+     <g id="b-line2d_10">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="71.28" y="138.0672" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_11">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="144.4622" transform="rotate(-0 64.28 144.4622)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.6</text>
+     </g>
+    </g>
+    <g id="b-ytick_5">
+     <g id="b-line2d_11">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="71.28" y="89.3376" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_12">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="95.7326" transform="rotate(-0 64.28 95.7326)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.8</text>
+     </g>
+    </g>
+    <g id="b-ytick_6">
+     <g id="b-line2d_12">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="71.28" y="40.608" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_13">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="64.28" y="47.003" transform="rotate(-0 64.28 47.003)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.0</text>
+     </g>
+    </g>
+    </g>
+   <g id="b-line2d_13">
+    <g clip-path="url(#b-p8eaf68128f)">
+     <use xlink:href="#b-me36c1172d9" x="163.737391" y="113.7024" style="fill: #507e97; stroke: #507e97"/>
+    </g>
+   </g>
+   <g id="b-line2d_14">
+    <g clip-path="url(#b-p8eaf68128f)">
+     <use xlink:href="#b-mb2542b3278" x="163.737391" y="113.7024" style="fill: #b76633; stroke: #b76633; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="b-patch_3">
+    <line x1="71.28" y1="284.256" x2="71.28" y2="40.608" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="b-patch_4">
+    <line x1="71.28" y1="284.256" x2="441.109565" y2="284.256" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="b-patch_5">
+    <path d="M 226.023475 72.058518 Q 195.711092 92.325089 166.328143 111.970248 " style="fill: none; stroke: #507e97; stroke-linecap: round"/>
+    <path d="M 173.427118 111.073281 L 166.328143 111.970248 L 169.869954 105.752888 " style="fill: none; stroke: #507e97; stroke-linecap: round"/>
+   </g>
+   <g id="b-text_15">
+    <text style="font-size: 16px; text-anchor: start; fill: #263e50" x="219.211826" y="64.9728" transform="rotate(-0 219.211826 64.9728)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">数据点</text>
+   </g>
+   <g id="b-text_16">
+    <text style="font-size: 19.2px; text-anchor: middle; fill: #263e50" x="256.194783" y="34.608" transform="rotate(-0 256.194783 34.608)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">x轴范围[0,1]</text>
+   </g>
+  </g>
+  </g></g><text x="62.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" fill="#196f77" text-anchor="start" font-weight="400">A · 数据y</text><g transform="translate(559.524597 -370.925054) scale(0.64128307)"><g transform="matrix(1.939928 0 0 1.939928 -909.83783 776.380554)"><g id="b-axes_2">
+   <g id="b-patch_6">
+    <path d="M 552.058435 284.256 L 921.888 284.256 L 921.888 40.608 L 552.058435 40.608 z " style="fill: #ffffff"/>
+   </g>
+   <g id="b-matplotlib.axis_3">
+    <g id="b-xtick_7">
+     <g id="b-line2d_15">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="552.058435" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_17">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="552.058435" y="304.046" transform="rotate(-0 552.058435 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.0</text>
+     </g>
+    </g>
+    <g id="b-xtick_8">
+     <g id="b-line2d_16">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="644.515826" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_18">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="644.515826" y="304.046" transform="rotate(-0 644.515826 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.5</text>
+     </g>
+    </g>
+    <g id="b-xtick_9">
+     <g id="b-line2d_17">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="736.973217" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_19">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="736.973217" y="304.046" transform="rotate(-0 736.973217 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.0</text>
+     </g>
+    </g>
+    <g id="b-xtick_10">
+     <g id="b-line2d_18">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="829.430609" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_20">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="829.430609" y="304.046" transform="rotate(-0 829.430609 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.5</text>
+     </g>
+    </g>
+    <g id="b-xtick_11">
+     <g id="b-line2d_19">
+      <g>
+       <use xlink:href="#b-mb59d278bb7" x="921.888" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_21">
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="921.888" y="304.046" transform="rotate(-0 921.888 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2.0</text>
+     </g>
+    </g>
+    <g id="b-text_22">
+     <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="736.973217" y="324.8135" transform="rotate(-0 736.973217 324.8135)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">数据x</text>
+    </g>
+   </g>
+   <g id="b-matplotlib.axis_4">
+    <g id="b-ytick_7">
+     <g id="b-line2d_20">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="552.058435" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_23">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="290.651" transform="rotate(-0 545.058435 290.651)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.0</text>
+     </g>
+    </g>
+    <g id="b-ytick_8">
+     <g id="b-line2d_21">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="552.058435" y="235.5264" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_24">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="241.9214" transform="rotate(-0 545.058435 241.9214)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.2</text>
+     </g>
+    </g>
+    <g id="b-ytick_9">
+     <g id="b-line2d_22">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="552.058435" y="186.7968" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_25">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="193.1918" transform="rotate(-0 545.058435 193.1918)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.4</text>
+     </g>
+    </g>
+    <g id="b-ytick_10">
+     <g id="b-line2d_23">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="552.058435" y="138.0672" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_26">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="144.4622" transform="rotate(-0 545.058435 144.4622)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.6</text>
+     </g>
+    </g>
+    <g id="b-ytick_11">
+     <g id="b-line2d_24">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="552.058435" y="89.3376" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_27">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="95.7326" transform="rotate(-0 545.058435 95.7326)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.8</text>
+     </g>
+    </g>
+    <g id="b-ytick_12">
+     <g id="b-line2d_25">
+      <g>
+       <use xlink:href="#b-mb72643eea2" x="552.058435" y="40.608" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="b-text_28">
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="545.058435" y="47.003" transform="rotate(-0 545.058435 47.003)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.0</text>
+     </g>
+    </g>
+    </g>
+   <g id="b-line2d_26">
+    <g clip-path="url(#b-p5259f5748c)">
+     <use xlink:href="#b-me36c1172d9" x="598.28713" y="113.7024" style="fill: #507e97; stroke: #507e97"/>
+    </g>
+   </g>
+   <g id="b-line2d_27">
+    <g clip-path="url(#b-p5259f5748c)">
+     <use xlink:href="#b-mb2542b3278" x="644.515826" y="113.7024" style="fill: #b76633; stroke: #b76633; stroke-linejoin: miter"/>
+    </g>
+   </g>
+   <g id="b-patch_7">
+    <line x1="552.058435" y1="284.256" x2="552.058435" y2="40.608" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="b-patch_8">
+    <line x1="552.058435" y1="284.256" x2="921.888" y2="284.256" stroke="#202a37" stroke-width="1.24942421"/></g>
+   <g id="b-patch_9">
+    <path d="M 697.584686 71.728425 Q 648.855611 92.326646 601.156344 112.489558 " style="fill: none; stroke: #507e97; stroke-linecap: round"/>
+    <path d="M 608.29724 112.945185 L 601.156344 112.489558 L 605.805384 107.050217 " style="fill: none; stroke: #507e97; stroke-linecap: round"/>
+   </g>
+   <g id="b-text_30">
+    <text style="font-size: 16px; text-anchor: start; fill: #263e50" x="699.990261" y="64.9728" transform="rotate(-0 699.990261 64.9728)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">数据点</text>
+   </g>
+   <g id="b-text_31">
+    <text style="font-size: 16px; text-anchor: start; fill: #b76633" x="744.369809" y="113.7024" transform="rotate(-0 744.369809 113.7024)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">Axes点</text>
+   </g>
+   <g id="b-text_32">
+    <text style="font-size: 19.2px; text-anchor: middle; fill: #263e50" x="736.973217" y="34.608" transform="rotate(-0 736.973217 34.608)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">x轴范围[0,2]</text>
+   </g>
+  </g>
+ </g></g><text x="626.000" y="116.000" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" fill="#196f77" text-anchor="start" font-weight="400">B · 数据y</text></svg></svg>

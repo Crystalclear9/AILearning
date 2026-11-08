@@ -146,6 +146,8 @@ VAE 同时学习生成参数和摊销后验，变分目标是训练生成模型�
 
 ![ELBO 中的证据与近似误差：机制、算例与边界，下右区域](images/01-concept.svg#textbook-detail-3-3)
 
+![ELBO 中的证据与近似误差：机制、算例与边界，完整说明与标注](images/01-concept.svg#textbook-complete-detail-1)
+
 </details>
 
 
@@ -195,11 +197,11 @@ $$
 
 ### 2.1 从后验密度比展开
 
-取可计算近似分布 q，假设相关绝对连续条件与期望有限。反向 KL 定义为 $`D_{\rm KL}(q\Vert p(z\mid y))=E_q[\log q-\log p(z\mid y)]`$。代入贝叶斯公式，得到
+取可计算近似分布 q，假设相关绝对连续条件与期望有限。反向 KL 定义为 $`D_{\mathrm{KL}}(q\Vert p(z\mid y))=E_q[\log q-\log p(z\mid y)]`$。代入贝叶斯公式，得到
 
 $$
 \begin{aligned}
-\log p(y) &=\mathcal L(q)+D_{\rm KL}(q\Vert p(z\mid y)),\\[6pt]
+\log p(y) &=\mathcal L(q)+D_{\mathrm{KL}}(q\Vert p(z\mid y)),\\[6pt]
 \mathcal L(q) &=E_q[\log p(y,z)-\log q(z)].
 \end{aligned}
 $$
@@ -220,7 +222,7 @@ $$
 
 ### 2.3 反向与正向 KL 不能互换
 
-最小化 $`D_{\rm KL}(p\Vert q)`$ 时，目标后验期望通常难以直接计算，因为这恰好需要我们还没有的后验样本或积分。它对遗漏真实后验质量的惩罚与反向方向不同。两个方向都可以构成合理近似方法，但计算需求、最优分布和误差性质不同，不能在同一 ELBO 推导里随意替换。
+最小化 $`D_{\mathrm{KL}}(p\Vert q)`$ 时，目标后验期望通常难以直接计算，因为这恰好需要我们还没有的后验样本或积分。它对遗漏真实后验质量的惩罚与反向方向不同。两个方向都可以构成合理近似方法，但计算需求、最优分布和误差性质不同，不能在同一 ELBO 推导里随意替换。
 
 对于相关高斯目标，反向 KL 的独立高斯最优方差由精度矩阵对角倒数给出；正向 KL 的独立高斯最优方差则匹配真实边缘方差。这个可精确求解例子比一句“模式寻找与质量覆盖”更具体，后面将同时推导并运行，说明方向如何影响可信区间与预测函数。
 
@@ -337,7 +339,7 @@ G(m)=\mathrm{KL}(q\Vert p)-\mathrm{KL}(N(0,I)\Vert p)
 =\frac12m^{\mathsf T}\Lambda m.
 $$
 
-第 $`j`$ 个均值的精确坐标解为 $`m_j=-0.6\sum_{k\ne j}m_k`$。若固定其他均值，旧值与新值的目标差恰为 $`\frac12(m_j^{\rm old}-m_j^{\rm new})^2`$，所以每一次真正的坐标替换都不会增加 $`G`$。
+第 $`j`$ 个均值的精确坐标解为 $`m_j=-0.6\sum_{k\ne j}m_k`$。若固定其他均值，旧值与新值的目标差恰为 $`\frac12(m_j^{\mathrm{old}}-m_j^{\mathrm{new}})^2`$，所以每一次真正的坐标替换都不会增加 $`G`$。
 
 **从同一个初值手算一轮。** 令初值为 $`(1,1,1)`$，此时 $`G=3.3`$。依次更新并立即使用最新值：
 
@@ -363,7 +365,7 @@ $$
 
 这不是因子求解公式写错，而是各自最优时所假定“其他因子不变”的条件被同步替换破坏。正定目标足以保证该二次型的顺序坐标下降收敛，却不保证任意基于旧值的同步迭代稳定。
 
-**阻尼可以修复这个例子，但要给出稳定条件。** 若同时更新的原始映射为 $`T(m)=-(\Lambda-I)m`$，采用 $`m_{\rm new}=(1-\alpha)m+\alpha T(m)=(I-\alpha\Lambda)m`$。各特征方向的乘子为 $`1-\alpha\lambda`$；本例收敛需要 $`0<\alpha<\frac{2}{2.2}=\frac{10}{11}`$。例如 $`\alpha=\frac12`$，沿全一方向的乘子为 $`-0.1`$，另外两个方向为 $`0.8`$。这个范围来自本例谱，而不是任何模型都适用的通用阻尼常数；随机、异步或近似更新仍需另外分析。
+**阻尼可以修复这个例子，但要给出稳定条件。** 若同时更新的原始映射为 $`T(m)=-(\Lambda-I)m`$，采用 $`m_{\mathrm{new}}=(1-\alpha)m+\alpha T(m)=(I-\alpha\Lambda)m`$。各特征方向的乘子为 $`1-\alpha\lambda`$；本例收敛需要 $`0<\alpha<\frac{2}{2.2}=\frac{10}{11}`$。例如 $`\alpha=\frac12`$，沿全一方向的乘子为 $`-0.1`$，另外两个方向为 $`0.8`$。这个范围来自本例谱，而不是任何模型都适用的通用阻尼常数；随机、异步或近似更新仍需另外分析。
 
 图中的纵轴刻意使用 $`G`$ 而非完整 KL。因为即使均值优化到零，平均场协方差仍是 $`I`$，不能等于真实 $`\Lambda^{-1}`$；剩余近似误差为 $`-\frac12\log\det\Lambda=-\frac12\log(0.352)>0`$。优化发散、优化未完成与近似族受限是三个不同问题，不应让同一条“损失下降曲线”替它们同时作结论。
 
@@ -381,23 +383,55 @@ $$
 
 真实边缘方差却是精度矩阵逆的对角，不等于一般情况下的对角倒数。后者对应其他变量给定时的条件方差尺度，因此忽略相关往往使边缘过窄。对于正向 KL，关于 q 的交叉熵最优在各边缘均值方差匹配处，给出另一套独立高斯。这两种近似即使均值相同，也具有不同不确定性。
 
-![平均场近似丢掉相关方向](images/01-mean-field-directions.svg)
+<a id="pair-variational-uncertainty-by-direction"></a>
+
+下图 (a) 对照真实后验和平均场近似的长轴与短轴。图 (b) 转动单位投影向量，计算每个方向的目标方差与近似方差。
+
+![平均场近似的方向不确定性。图 (a) 平均场近似丢掉相关方向。图 (b) 沿关注函数的方向判断变分不确定性。](images/01-variational-uncertainty-by-direction-pair.svg)
 
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (a)</summary>
 
-![平均场近似丢掉相关方向，上左区域](images/01-mean-field-directions.svg#textbook-detail-1-1)
+[打开图 (a) 单独查看](images/01-variational-uncertainty-by-direction-pair.svg#a)
 
-![平均场近似丢掉相关方向，上右区域](images/01-mean-field-directions.svg#textbook-detail-1-2)
+![图 (a) · 平均场近似丢掉相关方向，上左区域](images/01-variational-uncertainty-by-direction-pair.svg#a-textbook-detail-1-1)
 
-![平均场近似丢掉相关方向，下左区域](images/01-mean-field-directions.svg#textbook-detail-2-1)
+![图 (a) · 平均场近似丢掉相关方向，上右区域](images/01-variational-uncertainty-by-direction-pair.svg#a-textbook-detail-1-2)
 
-![平均场近似丢掉相关方向，下右区域](images/01-mean-field-directions.svg#textbook-detail-2-2)
+![图 (a) · 平均场近似丢掉相关方向，下左区域](images/01-variational-uncertainty-by-direction-pair.svg#a-textbook-detail-2-1)
+
+![图 (a) · 平均场近似丢掉相关方向，下右区域](images/01-variational-uncertainty-by-direction-pair.svg#a-textbook-detail-2-2)
 
 </details>
 
+<details>
+<summary>放大图 (b)</summary>
 
-蓝色斜长轮廓表达两个参数的相关变化，紫色平均场近似与它共享中心，却不能保留相关结构。沿蓝色长轴的方差可能严重变小，但换到垂直于长轴的组合方向，情况可以反转，右侧同一横向尺度的方差条展示了这个对照。例如目标协方差的对角为一、非对角为 $`0.8`$，反向 KL 下最优独立高斯两轴方差均为 $`0.36`$；目标沿长短两轴的方差为 $`1.8`$ 与 $`0.2`$。
+[打开图 (b) 单独查看](images/01-variational-uncertainty-by-direction-pair.svg#b)
+
+![图 (b) · 沿关注函数的方向判断变分不确定性，上左区域](images/01-variational-uncertainty-by-direction-pair.svg#b-textbook-detail-1-1)
+
+![图 (b) · 沿关注函数的方向判断变分不确定性，上中区域](images/01-variational-uncertainty-by-direction-pair.svg#b-textbook-detail-1-2)
+
+![图 (b) · 沿关注函数的方向判断变分不确定性，上右区域](images/01-variational-uncertainty-by-direction-pair.svg#b-textbook-detail-1-3)
+
+![图 (b) · 沿关注函数的方向判断变分不确定性，中左区域](images/01-variational-uncertainty-by-direction-pair.svg#b-textbook-detail-2-1)
+
+![图 (b) · 沿关注函数的方向判断变分不确定性，中中区域](images/01-variational-uncertainty-by-direction-pair.svg#b-textbook-detail-2-2)
+
+![图 (b) · 沿关注函数的方向判断变分不确定性，中右区域](images/01-variational-uncertainty-by-direction-pair.svg#b-textbook-detail-2-3)
+
+![图 (b) · 沿关注函数的方向判断变分不确定性，下左区域](images/01-variational-uncertainty-by-direction-pair.svg#b-textbook-detail-3-1)
+
+![图 (b) · 沿关注函数的方向判断变分不确定性，下中区域](images/01-variational-uncertainty-by-direction-pair.svg#b-textbook-detail-3-2)
+
+![图 (b) · 沿关注函数的方向判断变分不确定性，下右区域](images/01-variational-uncertainty-by-direction-pair.svg#b-textbook-detail-3-3)
+
+![图 (b) · 沿关注函数的方向判断变分不确定性，完整说明与标注](images/01-variational-uncertainty-by-direction-pair.svg#b-textbook-complete-detail-1)
+
+</details>
+
+图 (a) 的蓝色斜长轮廓表达两个参数的相关变化，紫色平均场近似与它共享中心，却不能保留相关结构。沿蓝色长轴的方差可能严重变小，但换到垂直于长轴的组合方向，情况可以反转，右侧同一横向尺度的方差条展示了这个对照。例如目标协方差的对角为一、非对角为 $`0.8`$，反向 KL 下最优独立高斯两轴方差均为 $`0.36`$；目标沿长短两轴的方差为 $`1.8`$ 与 $`0.2`$。
 
 因此平均场在短轴方向反而更宽。两排各自在同一个方向上比较两个分布的方差。
 
@@ -405,37 +439,13 @@ $$
 
 ### 图解推导：沿关注函数的方向判断变分不确定性
 
-![沿关注函数的方向判断变分不确定性](images/01-directional-vi-uncertainty.svg)
+用[图 (b)](#pair-variational-uncertainty-by-direction)的方差曲线核对长轴和短轴处的两个极值。
 
-<details>
-<summary>页内放大读图</summary>
+图 (b) 取目标 $`p=N(0,\Sigma)`$，$`\Sigma=\begin{pmatrix}1&0.8\\0.8&1\end{pmatrix}`$。单位长轴 $`u_+=\frac{(1,1)^T}{\sqrt2}`$ 和短轴 $`u_-=\frac{(1,-1)^T}{\sqrt2}`$ 的方差分别为 $`u_\pm^T\Sigma u_\pm=1\pm0.8`$，即 $`1.8`$ 与 $`0.2`$。这两个方差对应不同后验线性函数，不能只看坐标边缘概括整个后验。
 
-![沿关注函数的方向判断变分不确定性，上左区域](images/01-directional-vi-uncertainty.svg#textbook-detail-1-1)
+反向 KL 最优的对角高斯有每坐标方差 $`\frac1{(\Sigma^{-1})_{ii}}=1-0.8^2=0.36`$，均值仍为零。它沿任何单位方向的方差都是 $`0.36`$。因此图 (b) 的面板 B 在 $`45^\circ`$ 与 $`135^\circ`$ 的标记显示：沿长轴只保留真实方差的五分之一，沿短轴反而高估 $`1.8`$ 倍。常说的“均值场低估不确定性”不能被理解为所有方向上的无条件不等式。
 
-![沿关注函数的方向判断变分不确定性，上中区域](images/01-directional-vi-uncertainty.svg#textbook-detail-1-2)
-
-![沿关注函数的方向判断变分不确定性，上右区域](images/01-directional-vi-uncertainty.svg#textbook-detail-1-3)
-
-![沿关注函数的方向判断变分不确定性，中左区域](images/01-directional-vi-uncertainty.svg#textbook-detail-2-1)
-
-![沿关注函数的方向判断变分不确定性，中中区域](images/01-directional-vi-uncertainty.svg#textbook-detail-2-2)
-
-![沿关注函数的方向判断变分不确定性，中右区域](images/01-directional-vi-uncertainty.svg#textbook-detail-2-3)
-
-![沿关注函数的方向判断变分不确定性，下左区域](images/01-directional-vi-uncertainty.svg#textbook-detail-3-1)
-
-![沿关注函数的方向判断变分不确定性，下中区域](images/01-directional-vi-uncertainty.svg#textbook-detail-3-2)
-
-![沿关注函数的方向判断变分不确定性，下右区域](images/01-directional-vi-uncertainty.svg#textbook-detail-3-3)
-
-</details>
-
-
-取目标 $`p=N(0,\Sigma)`$，$`\Sigma=\begin{pmatrix}1&0.8\\0.8&1\end{pmatrix}`$。单位长轴 $`u_+=\frac{(1,1)^T}{\sqrt2}`$ 和短轴 $`u_-=\frac{(1,-1)^T}{\sqrt2}`$ 的方差分别为 $`u_\pm^T\Sigma u_\pm=1\pm0.8`$，即 $`1.8`$ 与 $`0.2`$。这两个方差对应不同后验线性函数，不能只看坐标边缘概括整个后验。
-
-反向 KL 最优的对角高斯有每坐标方差 $`\frac1{(\Sigma^{-1})_{ii}}=1-0.8^2=0.36`$，均值仍为零。它沿任何单位方向的方差都是 $`0.36`$。所以图 B在 $`45^\circ`$ 与 $`135^\circ`$ 的标记显示：沿长轴低估五倍，沿短轴反而高估 $`1.8`$ 倍。常说的“均值场低估不确定性”不能被理解为所有方向上的无条件不等式。
-
-图 A将目标的单位 Mahalanobis 椭圆与近似的半径 $`0.6`$ 圆放在同一参数平面，箭头指出上述两个方向。两者是各自标准化半径相同的轮廓，并非相同密度高度；在这个二维高斯例子中，轮廓内部的概率都为 $`1-e^{-\frac12}`$。图 B则连续转动同一个单位投影向量 $`u(\theta)=(\cos\theta,\sin\theta)^T`$：
+图 (b) 的面板 A 将目标的单位 Mahalanobis 椭圆与近似的半径 $`0.6`$ 圆放在同一参数平面，箭头指出上述两个方向。两者是各自标准化半径相同的轮廓，并非相同密度高度；在这个二维高斯例子中，轮廓内部的概率都为 $`1-e^{-\frac12}`$。面板 B 则连续转动同一个单位投影向量 $`u(\theta)=(\cos\theta,\sin\theta)^T`$：
 
 $$
 \begin{aligned}
@@ -590,13 +600,13 @@ print('difference variances exact/MF',minus@cov@minus,minus@np.diag(variance)@mi
 **先把两条计算路径写开。** 得分函数法把样本位置视作给定，对概率密度求导，$`\partial_m\log q_m(z)=z-m`$，得到单样本估计
 
 $$
-g_{\rm score}=Z^2(Z-m)=(m+\epsilon)^2\epsilon.
+g_{\mathrm{score}}=Z^2(Z-m)=(m+\epsilon)^2\epsilon.
 $$
 
 重参数化则保持噪声不变，让样本位置随参数移动：$`\partial_m(m+\epsilon)=1`$，因此
 
 $$
-g_{\rm path}=\frac{\partial}{\partial m}(m+\epsilon)^2
+g_{\mathrm{path}}=\frac{\partial}{\partial m}(m+\epsilon)^2
 =2(m+\epsilon).
 $$
 
@@ -621,9 +631,9 @@ $$
 
 $$
 \begin{aligned}
-\mathrm{Var}(g_{\rm score})&=m^4+14m^2+15,\\
+\mathrm{Var}(g_{\mathrm{score}})&=m^4+14m^2+15,\\
 \mathrm{Var}(g_{b^*})&=8m^2+6,\\
-\mathrm{Var}(g_{\rm path})&=4.
+\mathrm{Var}(g_{\mathrm{path}})&=4.
 \end{aligned}
 $$
 

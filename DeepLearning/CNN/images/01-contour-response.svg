@@ -3,20 +3,20 @@
 <view id="textbook-detail-1-2" viewBox="330.000000 0.000000 540.000000 321.750000"/>
 <view id="textbook-detail-1-3" viewBox="660.000000 0.000000 540.000000 321.750000"/>
 <view id="textbook-detail-2-1" viewBox="0.000000 196.625000 540.000000 321.750000"/>
-<view id="textbook-detail-3-1" viewBox="0.000000 393.250000 540.000000 321.750000"/>
+<view id="textbook-detail-3-1" viewBox="6.34427071 361.18082241 593.82239596 353.81917759"/>
 <view id="textbook-detail-3-2" viewBox="330.000000 393.250000 540.000000 321.750000"/>
 <view id="textbook-detail-3-3" viewBox="660.000000 393.250000 540.000000 321.750000"/>
 <title id="fig-title">同一个核对不同局部方向产生的响应</title>
 <desc id="fig-desc">固定核每行是一、零、负一。对三幅合成图像做无填充互相关。</desc>
 <rect x="0" y="0" width="1200" height="715" fill="#ffffff" opacity="1"/>
 <defs>
-<linearGradient id="t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#ecf6f6"/></linearGradient>
+<linearGradient id="t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
 <linearGradient id="r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
-<linearGradient id="v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8e6f2"/></linearGradient>
-<linearGradient id="n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1f5f6"/></linearGradient>
+<linearGradient id="v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
 </defs>
-<text x="76" y="58" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="31" text-anchor="start" font-weight="600">轮廓方向改变互相关的符号和幅度</text>
-<text x="332" y="112" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="24" text-anchor="middle" font-weight="400">圆盘</text>
+<text x="76" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">轮廓方向改变互相关的符号和幅度</text>
+<text x="332" y="112" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="middle" font-weight="400">圆盘</text>
 <rect x="235" y="130" width="198" height="6" fill="#edf3f4" opacity="1"/>
 <rect x="235" y="136" width="198" height="6" fill="#edf3f4" opacity="1"/>
 <rect x="235" y="142" width="198" height="6" fill="#edf3f4" opacity="1"/>
@@ -283,9 +283,9 @@
 <rect x="241" y="553" width="186" height="6" fill="#f5f8f8" opacity="1"/>
 <rect x="241" y="559" width="186" height="6" fill="#f5f8f8" opacity="1"/>
 <rect x="241" y="565" width="186" height="6" fill="#f5f8f8" opacity="1"/>
-<path d="M332 338 L332 373" fill="none" stroke="#6e618e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M332 373 L327 362 L337 362 Z" fill="#6e618e" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="639" y="112" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="24" text-anchor="middle" font-weight="400">竖直长条</text>
+<path d="M332 338 L332 373" fill="none" stroke="#655184" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M332 373 L327 362 L337 362 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="639" y="112" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="middle" font-weight="400">竖直长条</text>
 <rect x="542" y="130" width="198" height="6" fill="#edf3f4" opacity="1"/>
 <rect x="542" y="136" width="198" height="6" fill="#edf3f4" opacity="1"/>
 <rect x="542" y="142" width="198" height="6" fill="#edf3f4" opacity="1"/>
@@ -496,9 +496,9 @@
 <rect x="548" y="553" width="186" height="6" fill="#f5f8f8" opacity="1"/>
 <rect x="548" y="559" width="186" height="6" fill="#f5f8f8" opacity="1"/>
 <rect x="548" y="565" width="186" height="6" fill="#f5f8f8" opacity="1"/>
-<path d="M639 338 L639 373" fill="none" stroke="#6e618e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M639 373 L634 362 L644 362 Z" fill="#6e618e" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="946" y="112" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="24" text-anchor="middle" font-weight="400">水平长条</text>
+<path d="M639 338 L639 373" fill="none" stroke="#655184" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M639 373 L634 362 L644 362 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="946" y="112" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="middle" font-weight="400">水平长条</text>
 <rect x="849" y="130" width="198" height="6" fill="#edf3f4" opacity="1"/>
 <rect x="849" y="136" width="198" height="6" fill="#edf3f4" opacity="1"/>
 <rect x="849" y="142" width="198" height="6" fill="#edf3f4" opacity="1"/>
@@ -625,26 +625,26 @@
 <rect x="855" y="553" width="186" height="6" fill="#f5f8f8" opacity="1"/>
 <rect x="855" y="559" width="186" height="6" fill="#f5f8f8" opacity="1"/>
 <rect x="855" y="565" width="186" height="6" fill="#f5f8f8" opacity="1"/>
-<path d="M946 338 L946 373" fill="none" stroke="#6e618e" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M946 373 L941 362 L951 362 Z" fill="#6e618e" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="75" y="214" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="24" text-anchor="start" font-weight="400">输入</text>
-<text x="75" y="249" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">33 × 33</text>
-<text x="75" y="467" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="24" text-anchor="start" font-weight="400">响应</text>
-<text x="75" y="504" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">31 × 31</text>
+<path d="M946 338 L946 373" fill="none" stroke="#655184" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M946 373 L941 362 L951 362 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="75" y="214" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">输入</text>
+<text x="75" y="249" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="start" font-weight="400">33 × 33</text>
+<text x="75" y="467" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">响应</text>
+<text x="75" y="504" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="start" font-weight="400">31 × 31</text>
 <rect x="347" y="600" width="67" height="27" fill="#287b88" opacity="1"/>
-<text x="380" y="656" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" text-anchor="middle" font-weight="400">−3</text>
+<text x="380" y="656" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">−3</text>
 <rect x="424" y="600" width="67" height="27" fill="#75aeb4" opacity="1"/>
-<text x="457" y="656" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" text-anchor="middle" font-weight="400">−2</text>
+<text x="457" y="656" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">−2</text>
 <rect x="501" y="600" width="67" height="27" fill="#c1dfe0" opacity="1"/>
-<text x="534" y="656" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" text-anchor="middle" font-weight="400">−1</text>
+<text x="534" y="656" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">−1</text>
 <rect x="578" y="600" width="67" height="27" fill="#f5f8f8" opacity="1"/>
-<text x="611" y="656" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0</text>
+<text x="611" y="656" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">0</text>
 <rect x="655" y="600" width="67" height="27" fill="#efd3c9" opacity="1"/>
-<text x="688" y="656" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" text-anchor="middle" font-weight="400">1</text>
+<text x="688" y="656" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">1</text>
 <rect x="732" y="600" width="67" height="27" fill="#d99985" opacity="1"/>
-<text x="765" y="656" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" text-anchor="middle" font-weight="400">2</text>
+<text x="765" y="656" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">2</text>
 <rect x="809" y="600" width="67" height="27" fill="#ad5743" opacity="1"/>
-<text x="842" y="656" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20" text-anchor="middle" font-weight="400">3</text>
-<text x="76" y="620" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">响应值</text>
-<text x="76" y="694" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">横条中段抵消；左右两端仍响应。步幅为 1，且不填充。</text>
+<text x="842" y="656" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="20" text-anchor="middle" font-weight="400">3</text>
+<text x="76" y="620" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">响应值</text>
+<text x="76" y="694" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">横条中段抵消；左右两端仍响应。步幅为 1，且不填充。</text>
 </svg>

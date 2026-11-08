@@ -1,6 +1,6 @@
 # 第 5 章 RAG系统拆解与评估集构建
 
-[主题目录](README.md) · [分类目录](../README.md) · [总目录](../../README.md) · [上一章](04-微调数据设计与训练验收.md)
+[主题目录](README.md) · [分类目录](../README.md) · [总目录](../../README.md) · [上一章](04-微调数据设计与训练验收.md) · [下一章](06-预训练语料工程.md)
 
 第 3 章建立检索、回答与工具的系统图，本章继续把知识版本、切块、候选、上下文、证据与评价集落实为可复算对象。重点不是增加一个向量库就宣布问题解决，而是确定失败最早发生在哪一阶段，以及评价的分母、权限和时间是否正确。完整算例使用虚构平台规则、稀疏检索和封闭符号读取器，不调用外部模型；它验证管线与证据逻辑，不代表真实自然语言生成能力。
 
@@ -340,27 +340,45 @@ $$
 
 实际系统可以用关系展开、去重、查询分解、邻块补充或学到的组合评分来研究，但每项都需独立验证和成本。若使用金标准必要集合直接选择，那是诊断上界，不是可部署方案。评价集的充分证据标注帮助衡量差距，不应进入被测算法作为隐藏答案。教材中的枚举仅在小型已知问题上解释结构，不能被误称为真实 RAG 已解决的通用优化。
 
-![多条证据的联合召回](images/05-joint-evidence-recall.svg)
+下图 (a) 比较各证据边缘召回率相同时的完整覆盖率。图 (b) 说明证据已被召回后，有限预算仍可能让提示缺少必要事实。
+
+![多证据联合召回与预算选择。图 (a) 多条证据的联合召回。图 (b) 固定预算下的互补证据选择。](images/05-joint-recall-and-evidence-budget-pair.svg)
 
 <details>
-<summary>页内放大读图</summary>
+<summary>放大图 (a)</summary>
 
-![多条证据的联合召回，上左区域](images/05-joint-evidence-recall.svg#textbook-detail-1-1)
+[打开图 (a) 单独查看](images/05-joint-recall-and-evidence-budget-pair.svg#a)
 
-![多条证据的联合召回，上右区域](images/05-joint-evidence-recall.svg#textbook-detail-1-2)
+![图 (a) · 多条证据的联合召回，上左区域](images/05-joint-recall-and-evidence-budget-pair.svg#a-textbook-detail-1-1)
 
-![多条证据的联合召回，下左区域](images/05-joint-evidence-recall.svg#textbook-detail-2-1)
+![图 (a) · 多条证据的联合召回，上右区域](images/05-joint-recall-and-evidence-budget-pair.svg#a-textbook-detail-1-2)
 
-![多条证据的联合召回，下右区域](images/05-joint-evidence-recall.svg#textbook-detail-2-2)
+![图 (a) · 多条证据的联合召回，下左区域](images/05-joint-recall-and-evidence-budget-pair.svg#a-textbook-detail-2-1)
+
+![图 (a) · 多条证据的联合召回，下右区域](images/05-joint-recall-and-evidence-budget-pair.svg#a-textbook-detail-2-2)
 
 </details>
 
+<details>
+<summary>放大图 (b)</summary>
 
-**把两份证据的例子扩展到四份必需证据。** 仍取一百道题，每份证据各漏十题。若四份证据漏检的题组彼此不重叠，共有四十题缺至少一份，完整覆盖只有六十题；若四份总在同十题上漏检，则其余九十题全部完整。底部每格代表十题，着色部分只表示完整覆盖的题数，不把单份召回画成完整覆盖。
+[打开图 (b) 单独查看](images/05-joint-recall-and-evidence-budget-pair.svg#b)
+
+![图 (b) · 固定预算下的互补证据选择，上左区域](images/05-joint-recall-and-evidence-budget-pair.svg#b-textbook-detail-1-1)
+
+![图 (b) · 固定预算下的互补证据选择，上右区域](images/05-joint-recall-and-evidence-budget-pair.svg#b-textbook-detail-1-2)
+
+![图 (b) · 固定预算下的互补证据选择，下左区域](images/05-joint-recall-and-evidence-budget-pair.svg#b-textbook-detail-2-1)
+
+![图 (b) · 固定预算下的互补证据选择，下右区域](images/05-joint-recall-and-evidence-budget-pair.svg#b-textbook-detail-2-2)
+
+</details>
+
+**把两份证据的例子扩展到四份必需证据。** 仍取一百道题，每份证据各漏十题。若四份证据漏检的题组彼此不重叠，共有四十题缺至少一份，完整覆盖只有六十题；若四份总在同十题上漏检，则其余九十题全部完整。图 (a) 底部每格代表十题，着色部分只表示完整覆盖的题数，不把单份召回画成完整覆盖。
 
 一般地，四个事件的交集概率至少为 $`\max(0,\sum_{j=1}^4P(E_j)-3)`$，至多为其中最小的边缘概率；各为 $`0.9`$ 时就是 $`[0.6,0.9]`$。独立假设下的 $`0.9^4=0.6561`$ 是区间内的一个模型值，不能只凭四个边缘召回率推出。多跳评估应直接标注每题的必需证据集合并测完整覆盖。
 
-**先看相关性，再谈乘积。** 图中每个格表示一道人工问题，左、右半格分别记录 A、B 两条必要证据是否召回。蓝绿色表示命中，浅灰色表示缺失。三种安排中，A 和 B 都各在九十题出现；第一种同成同败，完整九十题；第二种表格计数为八十一题都命中、各九题只命中一条、一题都缺失，恰好匹配独立联合分布；第三种两组十题错失互不重合，只剩八十题完整。它们是精确构造的计数安排，不是一次随机实验的置信区间。仅由两个边际可得
+**先看相关性，再谈乘积。** 图 (a) 中每个格表示一道人工问题，左、右半格分别记录 A、B 两条必要证据是否召回。蓝绿色表示命中，浅灰色表示缺失。三种安排中，A 和 B 都各在九十题出现；第一种同成同败，完整九十题；第二种表格计数为八十一题都命中、各九题只命中一条、一题都缺失，恰好匹配独立联合分布；第三种两组十题错失互不重合，只剩八十题完整。它们是精确构造的计数安排，不是一次随机实验的置信区间。仅由两个边际可得
 
 $$
 \begin{aligned}
@@ -380,23 +398,7 @@ $$
 \end{aligned}
 $$
 
-![固定预算下的互补证据选择](images/05-complementary-evidence-budget.svg)
-
-<details>
-<summary>页内放大读图</summary>
-
-![固定预算下的互补证据选择，上左区域](images/05-complementary-evidence-budget.svg#textbook-detail-1-1)
-
-![固定预算下的互补证据选择，上右区域](images/05-complementary-evidence-budget.svg#textbook-detail-1-2)
-
-![固定预算下的互补证据选择，下左区域](images/05-complementary-evidence-budget.svg#textbook-detail-2-1)
-
-![固定预算下的互补证据选择，下右区域](images/05-complementary-evidence-budget.svg#textbook-detail-2-2)
-
-</details>
-
-
-上下两条长度标尺相同，表示扣除模板、问题和输出预留后的同一证据预算。上方长片段虽然相关，却只包含事实 A；预算已用完，缺少推理所需的事实 B。下方分别放入短 A 和短 B，两个事实互相补足，才形成图右的支持关系。片段长度只是教学构造，不是实测检索分数。
+图 (b) 的两条长度标尺相同，表示扣除模板、问题和输出预留后的同一证据预算。上方长片段虽然相关，却只包含事实 A；预算已用完，缺少推理所需的事实 B。下方分别放入短 A 和短 B，两个事实互相补足，才形成图右的支持关系。片段长度只是教学构造，不是实测检索分数。
 
 例如可用预算十个词元，长 A 用十个，短 A 和短 B 各用五个。只有当任务确实需要这两条事实时，短片段组合的充分性才高于长片段；若短 A 被裁剪得丢失关键条件，即使装得下也不成立。这个例子把**候选相似、预算可行与证据充分**分开，不能从两个片段的单独排名推出最优装箱，更不能用已知评测答案帮被测系统挑片段。
 
@@ -607,6 +609,8 @@ $$
 
 ![同一 q4 在不同候选数、预算与打包策略下的实际证据可达性，下右区域](images/05-mechanism.svg#textbook-detail-2-2)
 
+![同一 q4 在不同候选数、预算与打包策略下的实际证据可达性，完整说明与标注](images/05-mechanism.svg#textbook-complete-detail-1)
+
 </details>
 
 
@@ -660,6 +664,8 @@ $$
 <a id="rag-5-detail-28"></a>
 
 ### 8.1 允许检索的库与监督训练数据不是同一对象
+
+检索知识库决定推理时能看到什么，[预训练语料](06-预训练语料工程.md#corpus-boundary)决定模型在预训练时暴露过什么。对同一题同时记录这两条路径，才能区分从授权材料得到的答案和对原样评估题的记忆风险。
 
 检索任务常预先允许访问完整索引库，包括测试问题所需文档；没有这些内容本来就无法检索。用允许库建立词项统计可以是固定任务的合法条件，关键是事先声明。训练监督检索器、选择切块或阈值若使用测试答案和支持标注，则是另一种信息流，不应混淆。是否泄漏要沿任务权限判断，不能机械地说“测试文档出现任何地方都错”或“索引里都有所以标签也可用”。
 
@@ -1072,4 +1078,4 @@ $$
 
 ---
 
-[主题目录](README.md) · [分类目录](../README.md) · [总目录](../../README.md) · [上一章](04-微调数据设计与训练验收.md)
+[主题目录](README.md) · [分类目录](../README.md) · [总目录](../../README.md) · [上一章](04-微调数据设计与训练验收.md) · [下一章](06-预训练语料工程.md)

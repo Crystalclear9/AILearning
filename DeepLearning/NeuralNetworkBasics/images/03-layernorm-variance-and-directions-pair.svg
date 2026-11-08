@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" role="img" aria-labelledby="title description" viewBox="0 0 1200 1418.89089595"><title id="title">LayerNorm 的稳定项与方向敏感性</title><desc id="description">(a) 稳定项改变归一化方差。(b) LayerNorm平移方向与尺度方向的不同作用。</desc><rect width="1200" fill="#fff" height="1418.89089595"/><text x="60" y="35" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(a)</text><view id="a" viewBox="0 51 1200 498.890895954"/><view id="a-textbook-detail-1-1" viewBox="0 51 684 284.367810694"/><view id="a-textbook-detail-2-1" viewBox="0 265.52308526 684 284.367810694"/><view id="a-textbook-detail-2-2" viewBox="516 265.52308526 684 284.367810694"/><svg width="1200" height="498.890895954" viewBox="-18.24 16.9608 996.48 414.279" role="img" aria-labelledby="a-artwork-title" id="panel-a" x="0" y="51">
+<title id="a-artwork-title">稳定项改变归一化方差</title><defs><clipPath id="a-artwork-view"><rect x="25" y="76" width="910" height="315.576606"/></clipPath><linearGradient id="a-science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient><linearGradient id="a-science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient><linearGradient id="a-science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient><linearGradient id="a-science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f4f7f8"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect id="a-edition-paper" x="-18.24" y="16.9608" width="996.48" height="414.279" fill="#ffffff"/><svg id="a-plot-content" x="0" y="35.2008" width="960" height="377.799" viewBox="0 35.20078 960 377.79922" overflow="hidden"><rect x="0" y="35.20078" width="960" height="377.79922" fill="#ffffff" id="a-plot-canvas"/><rect width="960" height="413" fill="#ffffff"/><g clip-path="url(#a-artwork-view)"><g transform="translate(-0.485997 -16.948929) scale(0.749588)"><g><rect x="34" y="124" width="1214" height="421" fill="#ffffff"/><title>稳定项改变归一化方差</title><rect width="1280" height="570" fill="#ffffff"/><g xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:ns2="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" transform="scale(1.38889)"><defs>
+  <style type="text/css">#panel-a *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="a-figure_1">
+  <g id="a-patch_1">
+   <path d="M 0 410.4  L 921.6 410.4  L 921.6 0  L 0 0  z " style="fill: #ffffff"/>
+  </g>
+  <g id="a-axes_1">
+   <g id="a-patch_2">
+    <path d="M 110.592 324.216  L 884.736 324.216  L 884.736 102.6  L 110.592 102.6  z " style="fill: #ffffff"/>
+   </g>
+   <g id="a-matplotlib.axis_1">
+    <g id="a-xtick_1">
+     <g id="a-line2d_1">
+      <defs>
+       <path id="a-meb30ce10cc" d="M 0 0  L 0 3.5  " style="stroke: #657682; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#a-meb30ce10cc" x="125.479385" y="324.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_1">
+      <text style="font-size: 21.42px; text-anchor: middle; fill: #4a7389" x="125.479385" y="345.60475" transform="translate(125.47938156 336.95970631) scale(0.86888745) translate(-125.47938156 -336.95970631) rotate(-0 125.479385 345.60475)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.0</text>
+     </g>
+    </g>
+    <g id="a-xtick_2">
+     <g id="a-line2d_2">
+      <g>
+       <use xlink:href="#a-meb30ce10cc" x="218.525538" y="324.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_2">
+      <text style="font-size: 21.42px; text-anchor: middle; fill: #4a7389" x="218.525538" y="345.60475" transform="translate(218.52553177 336.95970631) scale(0.86888745) translate(-218.52553177 -336.95970631) rotate(-0 218.525538 345.60475)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.5</text>
+     </g>
+    </g>
+    <g id="a-xtick_3">
+     <g id="a-line2d_3">
+      <g>
+       <use xlink:href="#a-meb30ce10cc" x="311.571692" y="324.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_3">
+      <text style="font-size: 21.42px; text-anchor: middle; fill: #4a7389" x="311.571692" y="345.60475" transform="translate(311.57167435 336.95970631) scale(0.86888745) translate(-311.57167435 -336.95970631) rotate(-0 311.571692 345.60475)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.0</text>
+     </g>
+    </g>
+    <g id="a-xtick_4">
+     <g id="a-line2d_4">
+      <g>
+       <use xlink:href="#a-meb30ce10cc" x="404.617846" y="324.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_4">
+      <text style="font-size: 21.42px; text-anchor: middle; fill: #4a7389" x="404.617846" y="345.60475" transform="translate(404.61784744 336.95970631) scale(0.86888745) translate(-404.61784744 -336.95970631) rotate(-0 404.617846 345.60475)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.5</text>
+     </g>
+    </g>
+    <g id="a-xtick_5">
+     <g id="a-line2d_5">
+      <g>
+       <use xlink:href="#a-meb30ce10cc" x="497.664" y="324.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_5">
+      <text style="font-size: 21.42px; text-anchor: middle; fill: #4a7389" x="497.664" y="345.60475" transform="translate(497.66402054 336.95970631) scale(0.86888745) translate(-497.66402054 -336.95970631) rotate(-0 497.664 345.60475)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2.0</text>
+     </g>
+    </g>
+    <g id="a-xtick_6">
+     <g id="a-line2d_6">
+      <g>
+       <use xlink:href="#a-meb30ce10cc" x="590.710154" y="324.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_6">
+      <text style="font-size: 21.42px; text-anchor: middle; fill: #4a7389" x="590.710154" y="345.60475" transform="translate(590.71016312 336.95970631) scale(0.86888745) translate(-590.71016312 -336.95970631) rotate(-0 590.710154 345.60475)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2.5</text>
+     </g>
+    </g>
+    <g id="a-xtick_7">
+     <g id="a-line2d_7">
+      <g>
+       <use xlink:href="#a-meb30ce10cc" x="683.756308" y="324.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_7">
+      <text style="font-size: 21.42px; text-anchor: middle; fill: #4a7389" x="683.756308" y="345.60475" transform="translate(683.75624466 336.95970631) scale(0.86888745) translate(-683.75624466 -336.95970631) rotate(-0 683.756308 345.60475)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3.0</text>
+     </g>
+    </g>
+    <g id="a-xtick_8">
+     <g id="a-line2d_8">
+      <g>
+       <use xlink:href="#a-meb30ce10cc" x="776.802462" y="324.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_8">
+      <text style="font-size: 21.42px; text-anchor: middle; fill: #4a7389" x="776.802462" y="345.60475" transform="translate(776.80250931 336.95970631) scale(0.86888745) translate(-776.80250931 -336.95970631) rotate(-0 776.802462 345.60475)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3.5</text>
+     </g>
+    </g>
+    <g id="a-xtick_9">
+     <g id="a-line2d_9">
+      <g>
+       <use xlink:href="#a-meb30ce10cc" x="869.848615" y="324.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_9">
+      <text style="font-size: 21.42px; text-anchor: middle; fill: #4a7389" x="869.848615" y="345.60475" transform="translate(869.36835957 336.95970631) scale(0.86888745) translate(-869.36835957 -336.95970631) rotate(-0 869.848615 345.60475)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">4.0</text>
+     </g>
+    </g>
+    <g id="a-text_10">
+     <text style="font-size: 23.22px; text-anchor: middle; fill: #202a37" x="497.664" y="376.468188" transform="rotate(-0 497.664 376.468188)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">中心化输入的尺度 c</text>
+    </g>
+   </g>
+   <g id="a-matplotlib.axis_2">
+    <g id="a-ytick_1">
+     <g id="a-line2d_10">
+      <line x1="110.592" y1="302.76929" x2="884.736" y2="302.76929" stroke="#e7ecef" stroke-width="0.9405" stroke-opacity="0.68" clip-path="url(#a-pb44760d662)"/></g>
+     <g id="a-line2d_11">
+      <defs>
+       <path id="a-m80158573f2" d="M 0 0  L -3.5 0  " style="stroke: #657682; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#a-m80158573f2" x="110.592" y="302.76929" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_11">
+      <text style="font-size: 21.42px; text-anchor: end; fill: #4a7389" x="103.592" y="309.963665" transform="translate(83.95308685 301.31862354) scale(0.86888745) translate(-83.95308685 -301.31862354) rotate(-0 103.592 309.963665)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.00</text>
+     </g>
+    </g>
+    <g id="a-ytick_2">
+     <g id="a-line2d_12">
+      <line x1="110.592" y1="258.06072" x2="884.736" y2="258.06072" stroke="#e7ecef" stroke-width="0.9405" stroke-opacity="0.68" clip-path="url(#a-pb44760d662)"/></g>
+     <g id="a-line2d_13">
+      <g>
+       <use xlink:href="#a-m80158573f2" x="110.592" y="258.06072" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_12">
+      <text style="font-size: 21.42px; text-anchor: end; fill: #4a7389" x="103.592" y="265.255095" transform="translate(83.95308685 256.61008167) scale(0.86888745) translate(-83.95308685 -256.61008167) rotate(-0 103.592 265.255095)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.25</text>
+     </g>
+    </g>
+    <g id="a-ytick_3">
+     <g id="a-line2d_14">
+      <line x1="110.592" y1="213.352149" x2="884.736" y2="213.352149" stroke="#e7ecef" stroke-width="0.9405" stroke-opacity="0.68" clip-path="url(#a-pb44760d662)"/></g>
+     <g id="a-line2d_15">
+      <g>
+       <use xlink:href="#a-m80158573f2" x="110.592" y="213.352149" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_13">
+      <text style="font-size: 21.42px; text-anchor: end; fill: #4a7389" x="103.592" y="220.546524" transform="translate(83.95308685 211.90149403) scale(0.86888745) translate(-83.95308685 -211.90149403) rotate(-0 103.592 220.546524)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.50</text>
+     </g>
+    </g>
+    <g id="a-ytick_4">
+     <g id="a-line2d_16">
+      <line x1="110.592" y1="168.643579" x2="884.736" y2="168.643579" stroke="#e7ecef" stroke-width="0.9405" stroke-opacity="0.68" clip-path="url(#a-pb44760d662)"/></g>
+     <g id="a-line2d_17">
+      <g>
+       <use xlink:href="#a-m80158573f2" x="110.592" y="168.643579" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_14">
+      <text style="font-size: 21.42px; text-anchor: end; fill: #4a7389" x="103.592" y="175.837954" transform="translate(83.95308685 167.19292164) scale(0.86888745) translate(-83.95308685 -167.19292164) rotate(-0 103.592 175.837954)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0.75</text>
+     </g>
+    </g>
+    <g id="a-ytick_5">
+     <g id="a-line2d_18">
+      <line x1="110.592" y1="123.935008" x2="884.736" y2="123.935008" stroke="#e7ecef" stroke-width="0.9405" stroke-opacity="0.68" clip-path="url(#a-pb44760d662)"/></g>
+     <g id="a-line2d_19">
+      <g>
+       <use xlink:href="#a-m80158573f2" x="110.592" y="123.935008" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="a-text_15">
+      <text style="font-size: 21.42px; text-anchor: end; fill: #4a7389" x="103.592" y="131.129383" transform="translate(83.95308685 122.48434925) scale(0.86888745) translate(-83.95308685 -122.48434925) rotate(-0 103.592 131.129383)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1.00</text>
+     </g>
+    </g>
+    </g>
+   <g id="a-line2d_20">
+    <polyline clip-path="url(#a-pb44760d662)" style="fill: none; stroke: #376c8c; stroke-width: 3.2; stroke-linecap: square" points="125.479385,302.76929 129.201231,302.697785 132.923077,302.483613 136.644923,302.127796 140.366769,301.632029 144.088615,300.998654 147.810462,300.230633 151.532308,299.331519 155.254154,298.305408 158.976,297.156901 166.419692,294.513301 173.863385,291.445576 181.307077,288.003157 188.750769,284.238237 196.194462,280.204042 203.638154,275.953269 214.803692,269.281466 229.691077,260.075601 252.022154,246.223221 263.187692,239.49089 274.353231,232.980302 285.518769,226.736964 296.684308,220.790664 307.849846,215.158372 319.015385,209.846942 330.180923,204.855498 341.346462,200.177454 352.512,195.802185 363.677538,191.716346 374.843077,187.904919 386.008615,184.351995 397.174154,181.04137 408.339692,177.956964 419.505231,175.083127 430.670769,172.404837 441.836308,169.907831 456.723692,166.837388 471.611077,164.035977 486.498462,161.476842 501.385846,159.135835 516.273231,156.991252 534.882462,154.557317 553.491692,152.366531 572.100923,150.389784 594.432,148.264879 616.763077,146.374564 642.816,144.42379 668.868923,142.707502 698.643692,140.988933 728.418462,139.489061 761.915077,138.02044 799.133538,136.614334 840.073846,135.292739 869.848615,134.454672 869.848615,134.454672"/>
+   </g>
+   <g id="a-line2d_21">
+    <polyline clip-path="url(#a-pb44760d662)" style="fill: none; stroke-dasharray: 11.84,5.12; stroke-dashoffset: 0; stroke: #b96635; stroke-width: 3.2" points="125.479385,302.76929 129.201231,295.891049 132.923077,278.102493 140.366769,232.980302 144.088615,213.352149 147.810462,197.227747 151.532308,184.351995 155.254154,174.169357 158.976,166.112905 162.697846,159.701865 166.419692,154.557317 170.141538,150.389784 173.863385,146.980663 177.585231,144.16513 181.307077,141.818436 185.028923,139.845531 188.750769,138.173406 192.472615,136.745487 196.194462,135.517539 199.916308,134.454672 203.638154,133.529122 211.081846,132.005147 218.525538,130.81325 225.969231,129.864527 233.412923,129.097661 244.578462,128.197026 255.744,127.511694 270.631385,126.826895 289.240615,126.214894 311.571692,125.705645 341.346462,125.254234 382.286769,124.869161 441.836308,124.551678 534.882462,124.303739 698.643692,124.123326 869.848615,124.04671 869.848615,124.04671"/>
+   </g>
+   <g id="a-patch_3">
+    <line x1="110.592" y1="324.216" x2="110.592" y2="102.6" stroke="#202a37" stroke-width="1.65"/><polyline points="106.137,112.5 110.592,102.6 115.047,112.5" fill="none" stroke="#202a37" stroke-width="1.551" stroke-linejoin="round" stroke-linecap="round"/></g>
+   <g id="a-patch_4">
+    <line x1="110.592" y1="324.216" x2="884.736" y2="324.216" stroke="#202a37" stroke-width="1.65"/></g>
+   <g id="a-legend_1">
+    <g id="a-line2d_22">
+     <polyline style="fill: none; stroke: #376c8c; stroke-width: 3.2; stroke-linecap: square" points="706.626,269.377875 724.626,269.377875 742.626,269.377875"/>
+    </g>
+    <g id="a-text_17">
+     <text style="font-size: 23.22px; text-anchor: start; fill: #202a37" x="757.026" y="275.677875" transform="rotate(-0 757.026 275.677875)" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">epsilon=1</text>
+    </g>
+    <g id="a-line2d_23">
+     <polyline style="fill: none; stroke-dasharray: 11.84,5.12; stroke-dashoffset: 0; stroke: #b96635; stroke-width: 3.2" points="706.626,297.241312 724.626,297.241312 742.626,297.241312"/>
+    </g>
+    <g id="a-text_18">
+     <text style="font-size: 20.88px; text-anchor: start; fill: #202a37" x="757.026" y="303.541313" transform="rotate(-0 757.026 303.541313)" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">epsilon=0.01</text>
+    </g>
+   </g>
+  </g>
+  <g id="a-text_19">
+   </g>
+  <g id="a-text_20">
+
+  </g>
+ </g>
+ <defs>
+  <clipPath id="a-pb44760d662">
+   <rect x="110.592" y="102.6" width="774.144" height="221.616"/>
+  </clipPath>
+ </defs>
+</g></g></g></g></svg><text id="a-text_16" x="114.650" y="79.870" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="19.93" fill="#202a37" text-anchor="start" font-weight="400">标准化后的中心方差</text></svg><line x1="58" x2="1142" y1="561.890895954" y2="561.890895954" stroke="#dce6e8" stroke-width="1"/><text x="60" y="608.890895954" font-family="Georgia, Times New Roman, serif" font-size="36" font-weight="600" fill="#196f77">(b)</text><view id="b" viewBox="0 624.890895954 1200 794"/><view id="b-textbook-complete-detail-1" viewBox="79.5 982.190895954 660 436.7"/><view id="b-textbook-detail-1-1" viewBox="0 624.890895954 540 357.3"/><view id="b-textbook-detail-1-2" viewBox="343.89234212 624.890895954 540 357.3"/><view id="b-textbook-detail-1-3" viewBox="660 624.890895954 540 357.3"/><view id="b-textbook-detail-2-1" viewBox="0 843.240895954 540 357.3"/><view id="b-textbook-detail-2-2" viewBox="343.89234212 843.240902054 540 357.3"/><view id="b-textbook-detail-2-3" viewBox="660 843.240895954 540 357.3"/><view id="b-textbook-detail-3-1" viewBox="0 1061.59089595 540 357.3"/><view id="b-textbook-detail-3-2" viewBox="330 1061.59089595 540 357.3"/><view id="b-textbook-detail-3-3" viewBox="660 1061.59089595 540 357.3"/><svg width="1200" height="794" viewBox="0 0 1200 794" role="img" aria-labelledby="b-fig-title b-fig-desc" id="panel-b" x="0" y="624.890895954">
+<title id="b-fig-title">LayerNorm 的平移不变与尺度响应</title>
+<desc id="b-fig-desc">前两点相差共同平移，第三点中心化幅度不同。正的 epsilon 会使不同尺度留下差别。</desc>
+<rect x="0" y="0" width="1200" height="794" fill="#ffffff" opacity="1"/>
+<defs>
+<linearGradient id="b-t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
+<linearGradient id="b-r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
+<linearGradient id="b-v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="b-n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
+</defs>
+<text x="74" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">同一行一起平移，中心化后位置不变</text>
+<text x="113" y="132" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">A　原输入</text>
+<path d="M113 499 L428 499" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M428 499 L417 504 L417 494 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M113 499 L113 184" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M113 184 L118 195 L108 195 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M136.308 495 L136.308 504" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="136.308" y="528" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">0</text>
+<path d="M194.577 495 L194.577 504" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="194.577" y="528" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">1</text>
+<path d="M252.846 495 L252.846 504" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="252.846" y="528" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">2</text>
+<path d="M311.115 495 L311.115 504" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="311.115" y="528" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">3</text>
+<path d="M369.385 495 L369.385 504" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="369.385" y="528" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">4</text>
+<path d="M108 419.573 L117 419.573" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="425.573" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">1</text>
+<path d="M108 360.738 L117 360.738" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="366.738" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">2</text>
+<path d="M108 301.903 L117 301.903" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="307.903" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">3</text>
+<path d="M108 243.068 L117 243.068" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="103" y="249.068" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">4</text>
+<text x="435" y="505" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="start" font-weight="400">坐标 1</text>
+<text x="113" y="174" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="middle" font-weight="400">坐标 2</text>
+<circle cx="194.577" cy="301.903" r="6.5" fill="#ffffff" stroke="#196f77" stroke-width="3"/>
+<text x="206.577" y="289.903" fill="#196f77" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="start" font-weight="400" transform="translate(5 5)">A</text>
+<circle cx="252.846" cy="243.068" r="6.5" fill="#ffffff" stroke="#655184" stroke-width="3"/>
+<text x="264.846" y="231.068" fill="#655184" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="start" font-weight="400">B</text>
+<circle cx="136.308" cy="243.068" r="6.5" fill="#ffffff" stroke="#a84b3b" stroke-width="3"/>
+<text x="148.308" y="231.068" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="start" font-weight="400">C</text>
+<path d="M201.577 294.903 L245.846 250.068" fill="none" stroke="#655184" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M245.846 250.068 L241.675 261.408 L234.56 254.382 Z" fill="#655184" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="674" y="132" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">B　减去各自的均值</text>
+<path d="M674 499 L989 499" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M989 499 L978 504 L978 494 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M674 499 L674 184" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M674 184 L679 195 L669 195 Z" fill="#202a37" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M735.547 495 L735.547 504" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="735.547" y="528" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">−2</text>
+<path d="M830.234 495 L830.234 504" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="830.234" y="528" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">−1</text>
+<path d="M924.922 495 L924.922 504" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="924.922" y="528" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="middle" font-weight="400">0</text>
+<path d="M669 446.922 L678 446.922" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="664" y="452.922" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">0</text>
+<path d="M669 352.234 L678 352.234" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="664" y="358.234" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">1</text>
+<path d="M669 257.547 L678 257.547" fill="none" stroke="#202a37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="664" y="263.547" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="19" text-anchor="end" font-weight="400">2</text>
+<text x="996" y="505" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="start" font-weight="400">坐标 1</text>
+<text x="674" y="174" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="middle" font-weight="400">坐标 2</text>
+<circle cx="830.234" cy="352.234" r="6.5" fill="#ffffff" stroke="#196f77" stroke-width="3"/>
+<text x="842.234" y="340.234" fill="#196f77" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="start" font-weight="400">A、B</text>
+<circle cx="735.547" cy="257.547" r="6.5" fill="#ffffff" stroke="#a84b3b" stroke-width="3"/>
+<text x="747.547" y="245.547" fill="#a84b3b" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="start" font-weight="400">C</text>
+<path d="M707.141 229.141 L924.922 446.922" fill="none" stroke="#e7ecef" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 5"/>
+<path d="M75 552 L1125 552" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="601" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">C　输出为 (−c, c)，比较 c</text>
+<rect x="448" y="617" width="176" height="54" fill="#edf6f6" opacity="1"/>
+<text x="536" y="652" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1.000</text>
+<rect x="628" y="617" width="176" height="54" fill="#f1edf6" opacity="1"/>
+<text x="716" y="652" fill="#655184" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0.707</text>
+<text x="432" y="652" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="21" text-anchor="end" font-weight="400">A、B</text>
+<rect x="448" y="675" width="176" height="54" fill="#edf6f6" opacity="1"/>
+<text x="536" y="710" fill="#196f77" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">1.000</text>
+<rect x="628" y="675" width="176" height="54" fill="#f1edf6" opacity="1"/>
+<text x="716" y="710" fill="#655184" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="middle" font-weight="400">0.894</text>
+<text x="432" y="710" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="end" font-weight="400">C</text>
+<text x="536" y="603" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="middle" font-weight="400">ε = 0</text>
+<text x="716" y="603" fill="#657682" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-size="21" text-anchor="middle" font-weight="400">ε = 1</text>
+<text x="74" y="751" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">加共同常数会被消掉。ε 为正时，缩放中心化向量仍可能改变输出。</text>
+</svg></svg>

@@ -7,13 +7,13 @@
 <desc id="fig-desc">深色对应较大像素值。橙色位置在各面板完全一致。</desc>
 <rect x="0" y="0" width="1200" height="782" fill="#ffffff" opacity="1"/>
 <defs>
-<linearGradient id="t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#ecf6f6"/></linearGradient>
+<linearGradient id="t" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#edf6f6"/></linearGradient>
 <linearGradient id="r" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fbede8"/></linearGradient>
-<linearGradient id="v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e8e6f2"/></linearGradient>
-<linearGradient id="n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1f5f6"/></linearGradient>
+<linearGradient id="v" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f1edf6"/></linearGradient>
+<linearGradient id="n" x2="0.85" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7f8"/></linearGradient>
 </defs>
-<text x="75" y="58" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="31" text-anchor="start" font-weight="600">噪声变强时，单个像素的数值未必单调</text>
-<text x="82" y="125" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="24" text-anchor="start" font-weight="400">原图</text>
+<text x="75" y="58" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="31" text-anchor="start" font-weight="400">噪声变强时，单个像素的数值未必单调</text>
+<text x="82" y="125" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">原图</text>
 <rect x="82" y="148" width="6" height="6" fill="#808080" opacity="1"/>
 <rect x="88" y="148" width="6" height="6" fill="#808080" opacity="1"/>
 <rect x="94" y="148" width="6" height="6" fill="#808080" opacity="1"/>
@@ -1038,9 +1038,9 @@
 <rect x="256" y="334" width="6" height="6" fill="#808080" opacity="1"/>
 <rect x="262" y="334" width="6" height="6" fill="#808080" opacity="1"/>
 <rect x="268" y="334" width="6" height="6" fill="#808080" opacity="1"/>
-<path d="M158 242 L168 242 L168 252 L158 252 Z" fill="none" stroke="#a74d3a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="82" y="374" fill="#a74d3a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">选定像素 2.000</text>
-<text x="356" y="125" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="24" text-anchor="start" font-weight="400">保留量 0.99</text>
+<path d="M158 242 L168 242 L168 252 L158 252 Z" fill="none" stroke="#a84b3b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="82" y="374" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">选定像素 2.000</text>
+<text x="356" y="125" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">保留量 0.99</text>
 <rect x="356" y="148" width="6" height="6" fill="#838383" opacity="1"/>
 <rect x="362" y="148" width="6" height="6" fill="#7e7e7e" opacity="1"/>
 <rect x="368" y="148" width="6" height="6" fill="#888888" opacity="1"/>
@@ -2065,9 +2065,9 @@
 <rect x="530" y="334" width="6" height="6" fill="#818181" opacity="1"/>
 <rect x="536" y="334" width="6" height="6" fill="#7b7b7b" opacity="1"/>
 <rect x="542" y="334" width="6" height="6" fill="#797979" opacity="1"/>
-<path d="M432 242 L442 242 L442 252 L432 252 Z" fill="none" stroke="#a74d3a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="356" y="374" fill="#a74d3a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">选定像素 2.067</text>
-<text x="630" y="125" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="24" text-anchor="start" font-weight="400">保留量 0.64</text>
+<path d="M432 242 L442 242 L442 252 L432 252 Z" fill="none" stroke="#a84b3b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="356" y="374" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">选定像素 2.067</text>
+<text x="630" y="125" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">保留量 0.64</text>
 <rect x="630" y="148" width="6" height="6" fill="#949494" opacity="1"/>
 <rect x="636" y="148" width="6" height="6" fill="#797979" opacity="1"/>
 <rect x="642" y="148" width="6" height="6" fill="#b0b0b0" opacity="1"/>
@@ -3092,9 +3092,9 @@
 <rect x="804" y="334" width="6" height="6" fill="#898989" opacity="1"/>
 <rect x="810" y="334" width="6" height="6" fill="#666666" opacity="1"/>
 <rect x="816" y="334" width="6" height="6" fill="#595959" opacity="1"/>
-<path d="M706 242 L716 242 L716 252 L706 252 Z" fill="none" stroke="#a74d3a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="630" y="374" fill="#a74d3a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">选定像素 2.060</text>
-<text x="904" y="125" fill="#233b4a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="24" text-anchor="start" font-weight="400">保留量 0.04</text>
+<path d="M706 242 L716 242 L716 252 L706 252 Z" fill="none" stroke="#a84b3b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="630" y="374" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">选定像素 2.060</text>
+<text x="904" y="125" fill="#202a37" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="24" text-anchor="start" font-weight="400">保留量 0.04</text>
 <rect x="904" y="148" width="6" height="6" fill="#a1a1a1" opacity="1"/>
 <rect x="910" y="148" width="6" height="6" fill="#757575" opacity="1"/>
 <rect x="916" y="148" width="6" height="6" fill="#cecece" opacity="1"/>
@@ -4119,29 +4119,29 @@
 <rect x="1078" y="334" width="6" height="6" fill="#8f8f8f" opacity="1"/>
 <rect x="1084" y="334" width="6" height="6" fill="#565656" opacity="1"/>
 <rect x="1090" y="334" width="6" height="6" fill="#414141" opacity="1"/>
-<path d="M980 242 L990 242 L990 252 L980 252 Z" fill="none" stroke="#a74d3a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="904" y="374" fill="#a74d3a" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">选定像素 1.151</text>
-<path d="M75 408 L1125 408" fill="none" stroke="#dbe8eb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="82" y="500" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">0.99</text>
-<path d="M281 494 L907.177 494" fill="none" stroke="#dbe8eb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M281 494 L883.962 494" fill="none" stroke="#166d75" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M883.962 494 L907.177 494" fill="none" stroke="#a74d3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M907.177 494 L896.177 499 L896.177 489 Z" fill="#a74d3a" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="907.177" cy="494" r="5" fill="#233b4a" stroke="#ffffff" stroke-width="1.5"/>
-<text x="974" y="500" fill="#233b4a" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">1.990 + 0.077</text>
-<text x="82" y="583" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">0.64</text>
-<path d="M281 577 L905.089 577" fill="none" stroke="#dbe8eb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M281 577 L765.8 577" fill="none" stroke="#166d75" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M765.8 577 L905.089 577" fill="none" stroke="#a74d3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M905.089 577 L894.089 582 L894.089 572 Z" fill="#a74d3a" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="905.089" cy="577" r="5" fill="#233b4a" stroke="#ffffff" stroke-width="1.5"/>
-<text x="974" y="583" fill="#233b4a" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">1.600 + 0.460</text>
-<text x="82" y="666" fill="#526976" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">0.04</text>
-<path d="M281 660 L629.658 660" fill="none" stroke="#dbe8eb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M281 660 L402.2 660" fill="none" stroke="#166d75" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M402.2 660 L629.658 660" fill="none" stroke="#a74d3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M629.658 660 L618.658 665 L618.658 655 Z" fill="#a74d3a" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="629.658" cy="660" r="5" fill="#233b4a" stroke="#ffffff" stroke-width="1.5"/>
-<text x="974" y="666" fill="#233b4a" font-family="Cambria Math, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" text-anchor="start" font-weight="400">0.400 + 0.751</text>
-<text x="82" y="746" fill="#526976" font-family="SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif" font-size="22" text-anchor="start" font-weight="400">蓝绿表示保留信号，橙色表示噪声增量，黑点表示最终数值。</text>
+<path d="M980 242 L990 242 L990 252 L980 252 Z" fill="none" stroke="#a84b3b" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="904" y="374" fill="#a84b3b" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">选定像素 1.151</text>
+<path d="M75 408 L1125 408" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="82" y="500" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="start" font-weight="400">0.99</text>
+<path d="M281 494 L907.177 494" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M281 494 L883.962 494" fill="none" stroke="#196f77" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M883.962 494 L907.177 494" fill="none" stroke="#a84b3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M907.177 494 L896.177 499 L896.177 489 Z" fill="#a84b3b" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="907.177" cy="494" r="5" fill="#202a37" stroke="#ffffff" stroke-width="1.5"/>
+<text x="974" y="500" fill="#202a37" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="start" font-weight="400">1.990 + 0.077</text>
+<text x="82" y="583" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="start" font-weight="400">0.64</text>
+<path d="M281 577 L905.089 577" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M281 577 L765.8 577" fill="none" stroke="#196f77" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M765.8 577 L905.089 577" fill="none" stroke="#a84b3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M905.089 577 L894.089 582 L894.089 572 Z" fill="#a84b3b" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="905.089" cy="577" r="5" fill="#202a37" stroke="#ffffff" stroke-width="1.5"/>
+<text x="974" y="583" fill="#202a37" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="start" font-weight="400">1.600 + 0.460</text>
+<text x="82" y="666" fill="#657682" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="start" font-weight="400">0.04</text>
+<path d="M281 660 L629.658 660" fill="none" stroke="#e7ecef" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M281 660 L402.2 660" fill="none" stroke="#196f77" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M402.2 660 L629.658 660" fill="none" stroke="#a84b3b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M629.658 660 L618.658 665 L618.658 655 Z" fill="#a84b3b" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="629.658" cy="660" r="5" fill="#202a37" stroke="#ffffff" stroke-width="1.5"/>
+<text x="974" y="666" fill="#202a37" font-family="Segoe UI, DejaVu Sans, sans-serif" font-size="22" text-anchor="start" font-weight="400">0.400 + 0.751</text>
+<text x="82" y="746" fill="#657682" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-size="22" text-anchor="start" font-weight="400">蓝绿表示保留信号，橙色表示噪声增量，黑点表示最终数值。</text>
 </svg>

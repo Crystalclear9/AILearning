@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="996.48" height="1597.48" viewBox="-18.24 65.76 996.48 1597.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">两个高级索引数组会先广播，再逐位置配对</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
- <path id="mbb4d26e1e1" d="M 0 0 L 0 3.5 " style="stroke: #526976; stroke-width: 0.8"/>
-      <path id="m6c07c02f93" d="M 0 0 L -3.5 0 " style="stroke: #526976; stroke-width: 0.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1923.74759152" viewBox="-18.24 65.76 996.48 1597.48" role="img" aria-labelledby="diagram-title"><title id="diagram-title">两个高级索引数组会先广播，再逐位置配对</title><defs><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ <path id="mbb4d26e1e1" d="M 0 0 L 0 3.5 " style="stroke: #657682; stroke-width: 0.8"/>
+      <path id="m6c07c02f93" d="M 0 0 L -3.5 0 " style="stroke: #657682; stroke-width: 0.8"/>
       <clipPath id="p40bd8e0924">
    <rect x="134.370783" y="40.608" width="243.648" height="243.648"/>
   </clipPath>
   <clipPath id="p167617325d">
    <rect x="552.058435" y="40.608" width="369.829565" height="243.648"/>
   </clipPath>
- <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#ecf6f6"/><stop offset="1" stop-color="#c2dcdf"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#eed1c5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#e8e6f2"/><stop offset="1" stop-color="#d9cfe6"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f2f6f7"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="65.76" width="996.48" height="1597.48" fill="#ffffff"/><svg id="plot-content" x="0" y="84" width="960" height="1561" viewBox="0 84 960 1561" overflow="hidden"><rect x="0" y="0" width="960" height="1645" fill="#ffffff"/><g transform="translate(-200.46760 83.41160) scale(2.62000000)"><g id="axes_1">
+ <linearGradient id="science-wash-teal" x2="0.12" y2="1"><stop offset="0" stop-color="#edf6f6"/><stop offset="1" stop-color="#bfdde0"/></linearGradient><linearGradient id="science-wash-coral" x2="0.12" y2="1"><stop offset="0" stop-color="#fbede8"/><stop offset="1" stop-color="#f2cfc5"/></linearGradient><linearGradient id="science-wash-violet" x2="0.12" y2="1"><stop offset="0" stop-color="#f1edf6"/><stop offset="1" stop-color="#dcd2ea"/></linearGradient><linearGradient id="science-wash-stone" x2="0.12" y2="1"><stop offset="0" stop-color="#f4f7f8"/><stop offset="1" stop-color="#d5dfe6"/></linearGradient></defs><rect id="edition-paper" x="-18.24" y="65.76" width="996.48" height="1597.48" fill="#ffffff"/><svg id="plot-content" x="0" y="84" width="960" height="1561" viewBox="0 84 960 1561" overflow="hidden"><rect x="0" y="0" width="960" height="1645" fill="#ffffff"/><g transform="translate(-200.46760 83.41160) scale(2.62000000)"><g id="axes_1">
    <g id="patch_2">
     <path d="M 134.370783 284.256 L 378.018783 284.256 L 378.018783 40.608 L 134.370783 40.608 z " style="fill: #ffffff"/>
    </g>
@@ -18,31 +18,31 @@
     <g id="xtick_1">
      <g id="line2d_1">
       <g>
-       <use xlink:href="#mbb4d26e1e1" x="174.978783" y="284.256" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
+       <use xlink:href="#mbb4d26e1e1" x="174.978783" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526976" x="174.978783" y="304.046" transform="rotate(-0 174.978783 304.046)">0</text>
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="174.978783" y="304.046" transform="translate(174.97879457 297.55738258) scale(0.46221375) translate(-174.97879457 -297.55738258) rotate(-0 174.978783 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#mbb4d26e1e1" x="256.194783" y="284.256" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
+       <use xlink:href="#mbb4d26e1e1" x="256.194783" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526976" x="256.194783" y="304.046" transform="rotate(-0 256.194783 304.046)">1</text>
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="256.194783" y="304.046" transform="translate(256.19479799 297.55738258) scale(0.46221375) translate(-256.19479799 -297.55738258) rotate(-0 256.194783 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#mbb4d26e1e1" x="337.410783" y="284.256" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
+       <use xlink:href="#mbb4d26e1e1" x="337.410783" y="284.256" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
-      <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526976" x="337.410783" y="304.046" transform="rotate(-0 337.410783 304.046)">2</text>
+      <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="337.410783" y="304.046" transform="translate(337.41080141 297.55738258) scale(0.46221375) translate(-337.41080141 -297.55738258) rotate(-0 337.410783 304.046)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
      </g>
     </g>
    </g>
@@ -50,67 +50,67 @@
     <g id="ytick_1">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m6c07c02f93" x="134.370783" y="81.216" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
+       <use xlink:href="#m6c07c02f93" x="134.370783" y="81.216" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
-      <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #526976" x="127.370783" y="87.611" transform="rotate(-0 127.370783 87.611)">0</text>
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="127.370783" y="87.611" transform="translate(123.05894899 81.1223774) scale(0.46221375) translate(-123.05894899 -81.1223774) rotate(-0 127.370783 87.611)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
      </g>
     </g>
     <g id="ytick_2">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#m6c07c02f93" x="134.370783" y="162.432" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
+       <use xlink:href="#m6c07c02f93" x="134.370783" y="162.432" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
-      <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #526976" x="127.370783" y="168.827" transform="rotate(-0 127.370783 168.827)">1</text>
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="127.370783" y="168.827" transform="translate(123.05894899 162.33837318) scale(0.46221375) translate(-123.05894899 -162.33837318) rotate(-0 127.370783 168.827)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m6c07c02f93" x="134.370783" y="243.648" style="fill: #526976; stroke: #526976; stroke-width: 0.8"/>
+       <use xlink:href="#m6c07c02f93" x="134.370783" y="243.648" style="fill: #657682; stroke: #657682; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
-      <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: end; fill: #526976" x="127.370783" y="250.043" transform="rotate(-0 127.370783 250.043)">2</text>
+      <text style="font-size: 16px; text-anchor: end; fill: #657682" x="127.370783" y="250.043" transform="translate(123.05894899 243.55436134) scale(0.46221375) translate(-123.05894899 -243.55436134) rotate(-0 127.370783 250.043)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
      </g>
     </g>
    </g>
    <g id="patch_3">
-    <line x1="134.370783" y1="284.256" x2="134.370783" y2="40.608" stroke="#233b4a" stroke-width="0.82313514"/></g>
+    <line x1="134.370783" y1="284.256" x2="134.370783" y2="40.608" stroke="#202a37" stroke-width="0.82313514"/></g>
    <g id="patch_4">
-    <line x1="134.370783" y1="284.256" x2="378.018783" y2="284.256" stroke="#233b4a" stroke-width="0.82313514"/></g>
+    <line x1="134.370783" y1="284.256" x2="378.018783" y2="284.256" stroke="#202a37" stroke-width="0.82313514"/></g>
    <g id="text_7">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526976" x="174.978783" y="85.62225" transform="rotate(-0 174.978783 85.62225)">0</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #657682" x="174.978783" y="85.62225" transform="translate(174.97879457 79.13363075) scale(0.52824429) translate(-174.97879457 -79.13363075) rotate(-0 174.978783 85.62225)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">0</text>
    </g>
    <g id="text_8">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #b76633" x="256.194783" y="85.62225" transform="rotate(-0 256.194783 85.62225)">1</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #833328" x="256.194783" y="85.62225" transform="translate(256.19479799 79.13363075) scale(0.52824429) translate(-256.19479799 -79.13363075) rotate(-0 256.194783 85.62225)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
    </g>
    <g id="text_9">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526976" x="337.410783" y="85.62225" transform="rotate(-0 337.410783 85.62225)">2</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #202a37" x="337.410783" y="85.62225" transform="translate(337.41080141 79.13363075) scale(0.52824429) translate(-337.41080141 -79.13363075) rotate(-0 337.410783 85.62225)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
    </g>
    <g id="text_10">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #526976" x="174.978783" y="166.83825" transform="rotate(-0 174.978783 166.83825)">3</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #202a37" x="174.978783" y="166.83825" transform="translate(174.97879457 160.34961891) scale(0.52824429) translate(-174.97879457 -160.34961891) rotate(-0 174.978783 166.83825)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">3</text>
    </g>
    <g id="text_11">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #ffffff" x="256.194783" y="166.83825" transform="rotate(-0 256.194783 166.83825)">4</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #202a37" x="256.194783" y="166.83825" transform="translate(256.19479799 160.34961891) scale(0.52824429) translate(-256.19479799 -160.34961891) rotate(-0 256.194783 166.83825)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">4</text>
    </g>
    <g id="text_12">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #ffffff" x="337.410783" y="166.83825" transform="rotate(-0 337.410783 166.83825)">5</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #ffffff" x="337.410783" y="166.83825" transform="translate(337.41080141 160.34961891) scale(0.52824429) translate(-337.41080141 -160.34961891) rotate(-0 337.410783 166.83825)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">5</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #ffffff" x="174.978783" y="248.05425" transform="rotate(-0 174.978783 248.05425)">6</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #ffffff" x="174.978783" y="248.05425" transform="translate(174.97879457 241.56562233) scale(0.52824429) translate(-174.97879457 -241.56562233) rotate(-0 174.978783 248.05425)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">6</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #ffffff" x="256.194783" y="248.05425" transform="rotate(-0 256.194783 248.05425)">7</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #ffffff" x="256.194783" y="248.05425" transform="translate(256.19479799 241.56562233) scale(0.52824429) translate(-256.19479799 -241.56562233) rotate(-0 256.194783 248.05425)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">7</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #b76633" x="337.410783" y="248.05425" transform="rotate(-0 337.410783 248.05425)">8</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #ffffff" x="337.410783" y="248.05425" transform="translate(337.41080141 241.56562233) scale(0.52824429) translate(-337.41080141 -241.56562233) rotate(-0 337.410783 248.05425)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">8</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 19.2px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #263e50" x="256.194783" y="34.608" transform="rotate(-0 256.194783 34.608)">同一3×3数组：行选0、2，列选1、2</text>
+    <text style="font-size: 19.2px; text-anchor: middle; fill: #263e50" x="256.194783" y="34.608" transform="translate(256.1947937 27.73769283) scale(0.50898538) translate(-256.1947937 -27.73769283) rotate(-0 256.194783 34.608)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">同一3×3数组：行选0、2，列选1、2</text>
    </g>
   </g>
   </g><path d="M 44 935.44 H 916" stroke="#d4e0e7" stroke-width="1.5"/><g transform="translate(-1362.63599 922.84926) scale(2.62000000)"><g id="axes_2">
@@ -133,31 +133,31 @@
     <path d="M 651.912417 251.7696 L 725.87833 251.7696 L 725.87833 223.344 L 651.912417 223.344 z " clip-path="url(#p167617325d)" style="fill: #eaf2f6; stroke: #ffffff; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
    <g id="text_17">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2a77a6" x="614.929461" y="128.26065" transform="rotate(-0 614.929461 128.26065)">1</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #1f4458" x="614.929461" y="128.26065" transform="translate(614.92944765 121.77202034) scale(0.52824429) translate(-614.92944765 -121.77202034) rotate(-0 614.929461 128.26065)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
    </g>
    <g id="text_18">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2a77a6" x="688.895374" y="128.26065" transform="rotate(-0 688.895374 128.26065)">8</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #1f4458" x="688.895374" y="128.26065" transform="translate(688.89539003 121.77202034) scale(0.52824429) translate(-688.89539003 -121.77202034) rotate(-0 688.895374 128.26065)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">8</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #263e50" x="736.973217" y="89.68305" transform="rotate(-0 736.973217 89.68305)">a[[0,2],[1,2]] → (2,)</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="736.973217" y="89.68305" transform="translate(736.97318268 85.10284424) scale(0.61078246) translate(-736.97318268 -85.10284424) rotate(-0 736.973217 89.68305)" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">a[[0,2],[1,2]] → (2,)</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2a77a6" x="614.929461" y="213.53745" transform="rotate(-0 614.929461 213.53745)">1</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #1f4458" x="614.929461" y="213.53745" transform="translate(614.92944765 207.0488224) scale(0.52824429) translate(-614.92944765 -207.0488224) rotate(-0 614.929461 213.53745)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">1</text>
    </g>
    <g id="text_21">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2a77a6" x="688.895374" y="213.53745" transform="rotate(-0 688.895374 213.53745)">2</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #1f4458" x="688.895374" y="213.53745" transform="translate(688.89539003 207.0488224) scale(0.52824429) translate(-688.89539003 -207.0488224) rotate(-0 688.895374 213.53745)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">2</text>
    </g>
    <g id="text_22">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2a77a6" x="614.929461" y="241.96305" transform="rotate(-0 614.929461 241.96305)">7</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #1f4458" x="614.929461" y="241.96305" transform="translate(614.92944765 235.47440529) scale(0.52824429) translate(-614.92944765 -235.47440529) rotate(-0 614.929461 241.96305)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">7</text>
    </g>
    <g id="text_23">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #2a77a6" x="688.895374" y="241.96305" transform="rotate(-0 688.895374 241.96305)">8</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #1f4458" x="688.895374" y="241.96305" transform="translate(688.89539003 235.47440529) scale(0.52824429) translate(-688.89539003 -235.47440529) rotate(-0 688.895374 241.96305)" font-family="Segoe UI, DejaVu Sans, sans-serif" font-weight="400">8</text>
    </g>
    <g id="text_24">
-    <text style="font-size: 16px; font-family: 'Microsoft YaHei'; text-anchor: middle; fill: #263e50" x="814.637426" y="227.64275" transform="rotate(-0 814.637426 227.64275)">ix_ → (2,2)</text>
+    <text style="font-size: 16px; text-anchor: middle; fill: #263e50" x="814.637426" y="227.64275" transform="translate(814.63742447 223.06253815) scale(0.61078246) translate(-814.63742447 -223.06253815) rotate(-0 814.637426 227.64275)" font-family="Cambria Math, STIX Two Math, STIXGeneral, DejaVu Serif, serif" font-weight="400">ix_ → (2,2)</text>
    </g>
    <g id="text_25">
-    <text style="font-size: 19.2px; font-family: SimSun, Noto Serif CJK SC, Songti SC, Microsoft YaHei, serif; text-anchor: middle; fill: #263e50" x="736.973217" y="34.608" transform="rotate(-0 736.973217 34.608)">配对读取 ≠ 笛卡尔读取</text>
+    <text style="font-size: 19.2px; text-anchor: middle; fill: #263e50" x="736.973217" y="34.608" transform="translate(736.97317505 27.73769283) scale(0.50898538) translate(-736.97317505 -27.73769283) rotate(-0 736.973217 34.608)" font-family="SimSun, Noto Serif CJK SC, Noto Serif SC, Songti SC, STSong, serif" font-weight="400">配对读取 ≠ 笛卡尔读取</text>
    </g>
   </g>
  </g></svg></svg>
